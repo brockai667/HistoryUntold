@@ -1,7 +1,11 @@
 {
   "pexels_api_key": "",
   "buffer_token": "",
-  "buffer_channels": [],
+  "buffer_channels": [
+    { "id": "6a3f7ec15ab6d2f1067979fd", "service": "instagram", "name": "historyuntold667" },
+    { "id": "6a3f7ed05ab6d2f106797a1d", "service": "youtube", "name": "historyuntold667" },
+    { "id": "6a3f7eef5ab6d2f106797a72", "service": "tiktok", "name": "historyuntold667" }
+  ],
   "cloudinary_cloud_name": "",
   "cloudinary_api_key": "",
   "cloudinary_api_secret": "",
