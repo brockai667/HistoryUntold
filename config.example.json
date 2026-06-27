@@ -2,9 +2,21 @@
   "pexels_api_key": "",
   "buffer_token": "",
   "buffer_channels": [
-    { "id": "6a3f7ec15ab6d2f1067979fd", "service": "instagram", "name": "historyuntold667" },
-    { "id": "6a3f7ed05ab6d2f106797a1d", "service": "youtube", "name": "historyuntold667" },
-    { "id": "6a3f7eef5ab6d2f106797a72", "service": "tiktok", "name": "historyuntold667" }
+    {
+      "id": "6a3f7ec15ab6d2f1067979fd",
+      "service": "instagram",
+      "name": "historyuntold667"
+    },
+    {
+      "id": "6a3f7ed05ab6d2f106797a1d",
+      "service": "youtube",
+      "name": "historyuntold667"
+    },
+    {
+      "id": "6a3f7eef5ab6d2f106797a72",
+      "service": "tiktok",
+      "name": "historyuntold667"
+    }
   ],
   "cloudinary_cloud_name": "",
   "cloudinary_api_key": "",
@@ -21,12 +33,28 @@
   "brand_name": "HistoryUntold",
   "brand_handle": "",
   "brand_cta": "Follow for history they never taught you 📜",
-  "brand_hashtags": ["#history", "#historyfacts", "#historytok", "#didyouknow", "#ancient", "#shorts", "#fyp", "#learnontiktok"],
+  "brand_hashtags": [
+    "#history",
+    "#historyfacts",
+    "#historytok",
+    "#didyouknow",
+    "#ancient",
+    "#shorts",
+    "#fyp",
+    "#learnontiktok"
+  ],
   "color_grade": "eq=contrast=1.12:saturation=0.82:gamma=1.0,vignette=angle=PI/4",
   "caption_words_per_line": 3,
   "caption_fontsize": 80,
   "caption_margin_v": 880,
   "caption_margin_h": 185,
   "ffmpeg": "ffmpeg",
-  "ffprobe": "ffprobe"
+  "ffprobe": "ffprobe",
+  "caption_style": "color",
+  "caption_highlight_hex": "2EA8E0",
+  "caption_box_hex": "2EA8E0",
+  "caption_text_hex": "FFFFFF",
+  "caption_pop_scale": 112,
+  "brand_primary": "0x14100a",
+  "brand_accent": "0xe0a82e"
 }
