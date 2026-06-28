@@ -2,7 +2,7 @@ name: HistoryUntold Daily
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # 06:00 UTC (~08:00 Bratislava) kazdy den
+    - cron: "18 1 * * *"   # 01:18 UTC (~03:18 Bratislava) - skoro rano, hotove davno pred publik. slotom
   workflow_dispatch: {}    # umoznuje rucne spustenie z GitHub UI
 
 permissions:
