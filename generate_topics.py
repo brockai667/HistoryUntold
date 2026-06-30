@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Doplni banku tem cez GitHub Models (zadarmo). Nika: HISTORIA / historicke fakty."""
+"""Doplni banku tem cez GitHub Models (zadarmo). Nika: TECH & AI - zaujimave technologicke novinky."""
 import json
 import os
 import re
@@ -13,8 +13,9 @@ try:
 except Exception:
     trends = None
 
-TREND_SUBREDDITS = ['history', 'todayilearned', 'AskHistorians', 'ancienthistory']
-TREND_YT_QUERIES = ['history facts', 'historical events', 'ancient history']
+# kde sa o technologiach a AI realne diskutuje / co je trending
+TREND_SUBREDDITS = ['technology', 'artificial', 'Futurology', 'gadgets', 'singularity']
+TREND_YT_QUERIES = ['tech news', 'ai news', 'new technology explained']
 
 
 def _gather_trends():
@@ -37,13 +38,13 @@ def _trend_block(trending):
         return ""
     joined = "\n".join("- " + t for t in trending)
     return (
-        "\nWHAT PEOPLE ARE CURIOUS ABOUT / WATCHING RIGHT NOW (live trending headlines from "
-        "Reddit communities and top YouTube videos in this niche - what people actually click "
-        "on this week):\n" + joined + "\n"
-        "IMPORTANT: at least HALF of the generated topics MUST be directly inspired by a "
-        "specific, high-curiosity item above - take the most surprising/intriguing ones and "
-        "turn them into original, scroll-stopping hooks. Do NOT copy a headline word-for-word, "
-        "and do NOT mention Reddit or YouTube.\n"
+        "\nWHAT THE TECH WORLD IS TALKING ABOUT RIGHT NOW (live trending headlines from tech/AI "
+        "communities and top tech YouTube videos - what people actually click on this week):\n"
+        + joined + "\n"
+        "IMPORTANT: at least HALF of the generated topics MUST be directly inspired by a specific, "
+        "high-curiosity item above - take the most surprising/intriguing ones and turn them into "
+        "original, scroll-stopping hooks. Do NOT copy a headline word-for-word, do NOT mention "
+        "Reddit or YouTube, and stay accurate.\n"
     )
 
 
@@ -56,54 +57,59 @@ MODEL = os.environ.get("MODELS_MODEL", "openai/gpt-4o-mini")
 BASE = os.environ.get("MODELS_BASE_URL", "https://models.github.ai/inference")
 TOKEN = os.environ.get("MODELS_TOKEN") or os.environ.get("GITHUB_TOKEN")
 
-SYSTEM = ("You are a viral short-form scriptwriter for a HISTORY brand. You tell surprising, TRUE "
-          "stories and facts from real history in a gripping, documentary voice. ACCURACY IS SACRED: "
-          "use only real, widely-documented historical facts, events, people and dates. NEVER invent "
-          "facts, quotes, dates or statistics; if you are not confident something is true, leave it out. "
-          "No conspiracy theories presented as fact. You output strict JSON, nothing else. THE HOOK (the very first line / segment 1) is the single most important thing in the whole video: it MUST stop the scroll within 2 seconds. Make it concrete and specific (a number, a name, a vivid image, or a sharp contradiction) and open a curiosity gap that can ONLY be closed by watching to the end. Lead with the most shocking part FIRST, never a slow setup. Forbidden hook openers: 'Did you know', 'Have you ever', 'Imagine', 'Here are', 'In this video', 'Let me tell you'.")
+SYSTEM = ("You are a viral short-form scriptwriter for a TECH & AI brand that explains the most "
+          "fascinating things in technology - new AI tools, breakthroughs, gadgets, how famous tech "
+          "actually works, and mind-blowing true tech facts. Punchy, curious, hype-but-credible voice. "
+          "ACCURACY MATTERS: use only real, widely-known, well-established tech facts and concepts. "
+          "NEVER invent product names, specs, numbers, dates or fake 'news'; if unsure, pick a "
+          "well-known true fact instead. No rumors stated as fact. You output strict JSON, nothing else. "
+          "THE HOOK (segment 1) is the single most important line: it MUST stop the scroll in 2 seconds "
+          "with a concrete, surprising claim - a number, a name, or a sharp contradiction - and open a "
+          "curiosity gap that can only be closed by watching to the end. Lead with the most shocking part "
+          "FIRST. Forbidden openers: 'Did you know', 'Have you ever', 'Imagine', 'Here are', 'In this video'.")
 
 EXAMPLE = {
-    "title": "The Library That Burned for Centuries",
+    "title": "The Tiny Chip Behind Every AI",
     "segments": [
-        {"text": "The Library of Alexandria didn't burn down in a single night.", "keywords": "ancient library ruins"},
-        {"text": "It declined slowly over centuries, through fires, cuts and neglect.", "keywords": "old scrolls candlelight"},
-        {"text": "At its peak it may have held hundreds of thousands of scrolls.", "keywords": "ancient egypt temple"},
-        {"text": "Scholars from across the ancient world came to study there.", "keywords": "roman statue marble"},
-        {"text": "When it was gone, knowledge that took centuries to gather was lost.", "keywords": "burning fire embers"},
-        {"text": "And we still don't know everything it once contained.", "keywords": "ancient ruins sunset"},
-        {"text": "Follow for history they never taught you.", "keywords": "old world map"},
+        {"text": "Almost every AI you use runs on the same kind of chip.", "keywords": "computer chip processor macro"},
+        {"text": "They're called GPUs, and they do billions of calculations at once.", "keywords": "circuit board glowing"},
+        {"text": "They were first built to render video games.", "keywords": "gaming graphics card"},
+        {"text": "But that same power turned out perfect for training AI.", "keywords": "data center servers"},
+        {"text": "Now a single AI model can use thousands of them at once.", "keywords": "futuristic technology blue"},
+        {"text": "Which made these chips some of the most valuable tech on Earth.", "keywords": "stock market technology"},
+        {"text": "Follow for daily tech and AI news.", "keywords": "person using smartphone"},
     ],
-    "description": "The Library of Alexandria didn't vanish in one fire - it faded over centuries. Follow for daily history!",
-    "hashtags": ["#history", "#ancient", "#alexandria", "#historyfacts", "#didyouknow", "#shorts", "#fyp", "#learnontiktok"],
+    "description": "The chips behind modern AI were first built for gaming. Follow for daily tech news! 🤖",
+    "hashtags": ["#technology", "#ai", "#tech", "#artificialintelligence", "#gadgets", "#technews", "#shorts", "#fyp"],
 }
 
 
 def build_prompt(n, existing_titles, trending=None):
     trend_block = _trend_block(trending)
     return (
-        f"Generate {n} NEW faceless short-form video topics for a HISTORY brand "
+        f"Generate {n} NEW faceless short-form video topics for a TECH & AI brand "
         "(TikTok / Reels / YouTube Shorts).\n"
-        "Niche: surprising TRUE historical facts, forgotten events, wild real stories, ancient "
-        "civilizations, historical figures, 'things they never taught you in school'.\n"
+        "Niche: fascinating technology and AI - new AI tools and breakthroughs, how famous tech actually "
+        "works, jaw-dropping true tech facts, gadgets, the future of tech, big tech stories.\n"
         "Return ONLY a JSON array (no markdown). Each item EXACTLY this schema:\n"
         f"{json.dumps(EXAMPLE, ensure_ascii=False, indent=2)}\n\n"
-        "Rules (make it feel PRO, VIRAL and genuinely educational):\n"
-        "- title: punchy and curiosity-driven, e.g. 'The Emperor Who Declared War on the Sea', "
-        "'Why Romans Brushed Their Teeth With This'.\n"
-        "- 6 to 9 segments. Segment 1 is THE HOOK: a surprising true fact under 14 words that stops the "
-        "scroll. Never start with 'Did you know'.\n"
-        "- build the story line by line; write for a deep, documentary SPOKEN voiceover: short, clear sentences.\n"
-        "- ACCURACY IS SACRED: only real, widely-documented history. NEVER invent facts, dates, quotes or "
-        "numbers. If unsure, pick a different well-known fact. No myths or conspiracies stated as fact.\n"
+        "Rules (make it feel PRO, VIRAL and genuinely informative):\n"
+        "- title: punchy, curiosity-driven, e.g. 'The AI That Writes Its Own Code', 'Why Your Phone "
+        "Charges Slower Over Time'.\n"
+        "- 6 to 9 segments. Segment 1 is THE HOOK: a surprising true tech fact under 14 words that stops "
+        "the scroll. Never start with 'Did you know'.\n"
+        "- explain it clearly line by line; write for an energetic, clear SPOKEN voiceover: short sentences.\n"
+        "- ACCURACY MATTERS: only real, established tech/AI facts. NEVER invent product names, specs, "
+        "numbers or fake news. If unsure, choose a well-known true fact. No rumors as fact.\n"
         "- each segment 'keywords': 1-3 ENGLISH words for real Pexels footage that VISUALLY MATCHES the line "
-        "(e.g. 'ancient roman ruins', 'old map parchment', 'medieval castle', 'egyptian pyramids', "
-        "'marble statue'). Cinematic and concrete, never abstract.\n"
+        "(e.g. 'computer chip macro', 'data center servers', 'robot arm', 'smartphone screen', 'code on "
+        "screen', 'futuristic technology', 'electric car'). Concrete and cinematic, never abstract.\n"
         "- the SECOND-TO-LAST segment should loop back to the opening hook so a rewatch feels seamless.\n"
-        "- the LAST segment text MUST be exactly: 'Follow for history they never taught you.'\n"
-        "- description: one punchy sentence ending with 'Follow for daily history!'.\n"
-        "- About half the time, add ONE fitting emoji at the very END of the description (e.g. 🏛️, ⚔️, 📜, 👑). "
+        "- the LAST segment text MUST be exactly: 'Follow for daily tech and AI news.'\n"
+        "- description: one punchy sentence ending with 'Follow for daily tech news!'.\n"
+        "- About half the time, add ONE fitting emoji at the very END of the description (e.g. 🤖, ⚡, 📱, 🚀). "
         "Emoji ONLY in the description text, NEVER inside any segment 'text' (spoken captions).\n"
-        "- hashtags: 6-8 tags including #history #historyfacts #shorts #fyp.\n"
+        "- hashtags: 6-8 tags including #technology #ai #tech #shorts #fyp.\n"
         f"- Do NOT reuse any of these existing titles: {existing_titles}\n"
         "- HOOK RULE (critical for retention): segment 1 must be the single most shocking, "
         "curiosity-gap opener that makes the viewer unable to scroll. Under 10 words, no "
@@ -145,8 +151,8 @@ def valid(t):
     for seg in t["segments"]:
         if "text" not in seg or "keywords" not in seg:
             return False
-    t.setdefault("description", t["title"] + " Follow for daily history!")
-    t.setdefault("hashtags", ["#history", "#historyfacts", "#shorts", "#fyp"])
+    t.setdefault("description", t["title"] + " Follow for daily tech news!")
+    t.setdefault("hashtags", ["#technology", "#ai", "#tech", "#shorts", "#fyp"])
     return True
 
 
