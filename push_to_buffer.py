@@ -204,6 +204,8 @@ def main():
     pushed = load_pushed()
     target_services = {c["service"].lower() for c in targets}
     out_dir = os.path.join(ROOT, "output")
+    if not os.path.isdir(out_dir):
+        print("Ziadne videa na publikovanie (output/ neexistuje) - nic sa nedeje."); return
     all_videos = sorted(f for f in os.listdir(out_dir) if f.endswith(".mp4"))
     # video treba spracovat, kym nie je odoslane na VSETKY cielove sluzby
     todo = [v for v in all_videos
