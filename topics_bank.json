@@ -1,1 +1,530 @@
-[]
+[
+  {
+    "title": "How Noise-Cancelling Headphones Silence the World",
+    "segments": [
+      {
+        "text": "Your headphones can cancel noise by making more sound.",
+        "keywords": "person wearing headphones"
+      },
+      {
+        "text": "A tiny microphone listens to the world around you.",
+        "keywords": "microphone close up"
+      },
+      {
+        "text": "Then the earbuds create the exact opposite sound wave.",
+        "keywords": "sound wave screen"
+      },
+      {
+        "text": "When the two waves meet, they erase each other.",
+        "keywords": "audio waveform"
+      },
+      {
+        "text": "Engineers call it destructive interference.",
+        "keywords": "headphones studio"
+      },
+      {
+        "text": "So silence is really two sounds canceling out.",
+        "keywords": "person wearing headphones"
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "keywords": "person using smartphone"
+      }
+    ],
+    "description": "Noise-cancelling plays the opposite of the noise around you. Follow for daily tech news!",
+    "hashtags": [
+      "#technology",
+      "#ai",
+      "#tech",
+      "#artificialintelligence",
+      "#gadgets",
+      "#technews",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Why Your Phone Battery Gets Worse Every Year",
+    "segments": [
+      {
+        "text": "Your phone battery dies a little every time you charge it.",
+        "keywords": "smartphone charging"
+      },
+      {
+        "text": "Inside is a lithium-ion battery.",
+        "keywords": "battery close up"
+      },
+      {
+        "text": "Every full charge and drain counts as one cycle.",
+        "keywords": "battery percentage screen"
+      },
+      {
+        "text": "After hundreds of cycles, the chemistry wears down.",
+        "keywords": "circuit board macro"
+      },
+      {
+        "text": "So it holds less power than when it was new.",
+        "keywords": "low battery phone"
+      },
+      {
+        "text": "That is why an old phone dies faster each day.",
+        "keywords": "smartphone charging"
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "keywords": "person using smartphone"
+      }
+    ],
+    "description": "Phone batteries wear out slightly with every charge cycle. Follow for daily tech news!",
+    "hashtags": [
+      "#technology",
+      "#ai",
+      "#tech",
+      "#artificialintelligence",
+      "#gadgets",
+      "#technews",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "What Really Happens When You Send a Text",
+    "segments": [
+      {
+        "text": "Your text crosses the whole network in under a second.",
+        "keywords": "person texting phone"
+      },
+      {
+        "text": "First your phone beams it to the nearest cell tower.",
+        "keywords": "cell tower sky"
+      },
+      {
+        "text": "The tower passes it into the phone network.",
+        "keywords": "network servers"
+      },
+      {
+        "text": "The network finds the tower closest to your friend.",
+        "keywords": "city lights network"
+      },
+      {
+        "text": "Then it sends the message straight to their phone.",
+        "keywords": "smartphone notification"
+      },
+      {
+        "text": "All before you even lower your hand.",
+        "keywords": "person texting phone"
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "keywords": "person using smartphone"
+      }
+    ],
+    "description": "A text hops through towers and networks in under a second. Follow for daily tech news!",
+    "hashtags": [
+      "#technology",
+      "#ai",
+      "#tech",
+      "#artificialintelligence",
+      "#gadgets",
+      "#technews",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Cloud Is Actually Giant Buildings Full of Computers",
+    "segments": [
+      {
+        "text": "The cloud is not in the sky, it is warehouses of computers.",
+        "keywords": "data center servers"
+      },
+      {
+        "text": "When you save a photo online, it goes to a data center.",
+        "keywords": "server room lights"
+      },
+      {
+        "text": "These buildings hold thousands of drives.",
+        "keywords": "hard drives rack"
+      },
+      {
+        "text": "They run day and night, all over the world.",
+        "keywords": "data center aisle"
+      },
+      {
+        "text": "Huge cooling systems stop them overheating.",
+        "keywords": "server cooling fans"
+      },
+      {
+        "text": "So the cloud is really someone else's computer.",
+        "keywords": "data center servers"
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "keywords": "person using smartphone"
+      }
+    ],
+    "description": "The cloud is really massive warehouses full of computers. Follow for daily tech news!",
+    "hashtags": [
+      "#technology",
+      "#ai",
+      "#tech",
+      "#artificialintelligence",
+      "#gadgets",
+      "#technews",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "How AI Turns Random Noise Into a Picture",
+    "segments": [
+      {
+        "text": "AI can turn pure static into a detailed image.",
+        "keywords": "tv static noise"
+      },
+      {
+        "text": "It starts with a screen of random noise.",
+        "keywords": "digital noise screen"
+      },
+      {
+        "text": "Then it removes that noise step by step.",
+        "keywords": "abstract digital art"
+      },
+      {
+        "text": "It learned from millions of real images.",
+        "keywords": "photo gallery wall"
+      },
+      {
+        "text": "So it knows what shapes should appear.",
+        "keywords": "colorful abstract render"
+      },
+      {
+        "text": "Bit by bit, a clear picture rises from the chaos.",
+        "keywords": "tv static noise"
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "keywords": "person using smartphone"
+      }
+    ],
+    "description": "AI image tools sculpt pictures out of random noise. Follow for daily tech news!",
+    "hashtags": [
+      "#technology",
+      "#ai",
+      "#tech",
+      "#artificialintelligence",
+      "#gadgets",
+      "#technews",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Why Fiber Internet Is Insanely Fast",
+    "segments": [
+      {
+        "text": "Fiber internet carries your data as pulses of light.",
+        "keywords": "fiber optic cables"
+      },
+      {
+        "text": "Old cables pushed signals through copper wire.",
+        "keywords": "copper wires"
+      },
+      {
+        "text": "Fiber uses thin threads of glass instead.",
+        "keywords": "fiber optic glow"
+      },
+      {
+        "text": "Light races through them near the speed limit of physics.",
+        "keywords": "light beam tunnel"
+      },
+      {
+        "text": "And it barely fades over long distances.",
+        "keywords": "fiber optic strands"
+      },
+      {
+        "text": "That is why fiber leaves old lines behind.",
+        "keywords": "fiber optic cables"
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "keywords": "person using smartphone"
+      }
+    ],
+    "description": "Fiber sends your data as light through glass threads. Follow for daily tech news!",
+    "hashtags": [
+      "#technology",
+      "#ai",
+      "#tech",
+      "#artificialintelligence",
+      "#gadgets",
+      "#technews",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "How Your Phone Knows Exactly Where You Are",
+    "segments": [
+      {
+        "text": "Your phone finds itself using satellites in space.",
+        "keywords": "satellite orbit earth"
+      },
+      {
+        "text": "Dozens of GPS satellites circle the planet.",
+        "keywords": "satellite in space"
+      },
+      {
+        "text": "Each one constantly broadcasts the time.",
+        "keywords": "satellite dish sky"
+      },
+      {
+        "text": "Your phone measures how long each signal took.",
+        "keywords": "smartphone map"
+      },
+      {
+        "text": "Comparing several, it pinpoints your spot.",
+        "keywords": "gps navigation screen"
+      },
+      {
+        "text": "All from signals sent thousands of miles up.",
+        "keywords": "satellite orbit earth"
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "keywords": "person using smartphone"
+      }
+    ],
+    "description": "GPS locates you by timing signals from satellites. Follow for daily tech news!",
+    "hashtags": [
+      "#technology",
+      "#ai",
+      "#tech",
+      "#artificialintelligence",
+      "#gadgets",
+      "#technews",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Why Touchscreens Know Exactly Where You Tap",
+    "segments": [
+      {
+        "text": "Touchscreens work because your body holds a tiny charge.",
+        "keywords": "finger touching screen"
+      },
+      {
+        "text": "The screen hides an invisible grid of sensors.",
+        "keywords": "smartphone screen macro"
+      },
+      {
+        "text": "Your finger shifts the charge where you touch.",
+        "keywords": "touchscreen tap"
+      },
+      {
+        "text": "Sensors detect exactly where that change happened.",
+        "keywords": "tablet screen closeup"
+      },
+      {
+        "text": "So it follows your finger instantly.",
+        "keywords": "person swiping phone"
+      },
+      {
+        "text": "The screen is really sensing your electricity.",
+        "keywords": "finger touching screen"
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "keywords": "person using smartphone"
+      }
+    ],
+    "description": "Touchscreens sense the tiny electric charge in your finger. Follow for daily tech news!",
+    "hashtags": [
+      "#technology",
+      "#ai",
+      "#tech",
+      "#artificialintelligence",
+      "#gadgets",
+      "#technews",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Cables Under the Ocean That Run the Internet",
+    "segments": [
+      {
+        "text": "Almost all the internet travels under the ocean.",
+        "keywords": "underwater ocean"
+      },
+      {
+        "text": "Over ninety five percent of global data crosses the sea.",
+        "keywords": "ocean waves aerial"
+      },
+      {
+        "text": "Not by satellites, but by cables.",
+        "keywords": "undersea cable"
+      },
+      {
+        "text": "Each one is about as thick as a garden hose.",
+        "keywords": "cable close up"
+      },
+      {
+        "text": "And it carries light between continents.",
+        "keywords": "fiber optic light"
+      },
+      {
+        "text": "So your messages abroad likely cross the seabed.",
+        "keywords": "underwater ocean"
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "keywords": "person using smartphone"
+      }
+    ],
+    "description": "Most of the internet runs through cables on the ocean floor. Follow for daily tech news!",
+    "hashtags": [
+      "#technology",
+      "#ai",
+      "#tech",
+      "#artificialintelligence",
+      "#gadgets",
+      "#technews",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Why AI Sometimes Confidently Makes Things Up",
+    "segments": [
+      {
+        "text": "AI chatbots can state false facts with total confidence.",
+        "keywords": "robot ai face"
+      },
+      {
+        "text": "They do not actually know what is true.",
+        "keywords": "computer code screen"
+      },
+      {
+        "text": "They just predict the next likely word.",
+        "keywords": "text typing screen"
+      },
+      {
+        "text": "Usually that guess matches reality.",
+        "keywords": "person using laptop"
+      },
+      {
+        "text": "But sometimes it invents something that sounds right.",
+        "keywords": "glitch digital screen"
+      },
+      {
+        "text": "That is why AI can be confidently wrong.",
+        "keywords": "robot ai face"
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "keywords": "person using smartphone"
+      }
+    ],
+    "description": "AI predicts likely words, so it can sound sure yet be wrong. Follow for daily tech news!",
+    "hashtags": [
+      "#technology",
+      "#ai",
+      "#tech",
+      "#artificialintelligence",
+      "#gadgets",
+      "#technews",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "How Wireless Charging Works With No Wires",
+    "segments": [
+      {
+        "text": "Your phone can charge without touching a single wire.",
+        "keywords": "wireless charging phone"
+      },
+      {
+        "text": "Inside the pad sits a coil of wire.",
+        "keywords": "copper coil"
+      },
+      {
+        "text": "Running current through it creates a magnetic field.",
+        "keywords": "magnetic field lines"
+      },
+      {
+        "text": "Your phone hides a matching coil inside.",
+        "keywords": "smartphone internals"
+      },
+      {
+        "text": "The field makes electricity flow in that coil.",
+        "keywords": "circuit board glowing"
+      },
+      {
+        "text": "So power jumps the gap with no wire at all.",
+        "keywords": "wireless charging phone"
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "keywords": "person using smartphone"
+      }
+    ],
+    "description": "Wireless charging passes power through a magnetic field. Follow for daily tech news!",
+    "hashtags": [
+      "#technology",
+      "#ai",
+      "#tech",
+      "#artificialintelligence",
+      "#gadgets",
+      "#technews",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "What Really Happens When You Delete a File",
+    "segments": [
+      {
+        "text": "When you delete a file, it usually is not gone.",
+        "keywords": "laptop delete key"
+      },
+      {
+        "text": "Your computer just removes the label pointing to it.",
+        "keywords": "file folder screen"
+      },
+      {
+        "text": "The actual data still sits on the drive.",
+        "keywords": "hard drive disk"
+      },
+      {
+        "text": "It waits there until new data writes over it.",
+        "keywords": "ssd circuit board"
+      },
+      {
+        "text": "That is why deleted files can sometimes be recovered.",
+        "keywords": "data recovery screen"
+      },
+      {
+        "text": "So deleting mostly means forgetting where it is.",
+        "keywords": "laptop delete key"
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "keywords": "person using smartphone"
+      }
+    ],
+    "description": "Deleting a file removes its label, not the data itself. Follow for daily tech news!",
+    "hashtags": [
+      "#technology",
+      "#ai",
+      "#tech",
+      "#artificialintelligence",
+      "#gadgets",
+      "#technews",
+      "#shorts",
+      "#fyp"
+    ]
+  }
+]
