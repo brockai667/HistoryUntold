@@ -76,6 +76,6 @@
   "broll_fallback_query": "technology futuristic city",
   "pixabay_api_key": "",
   "visual_engine": "motion",
-  "motion_bg": "gradient",
+  "motion_bg": "auto",
   "motion_style": "sleek product photograph, dark background, subtle neon rim light, single clear subject, no text, no watermark"
 }
