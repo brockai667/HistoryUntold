@@ -74,5 +74,8 @@
   "caption_pop_margin_v": 560,
   "caption_pop_highlight_hex": "00C2F2",
   "broll_fallback_query": "technology futuristic city",
-  "pixabay_api_key": ""
+  "pixabay_api_key": "",
+  "visual_engine": "motion",
+  "motion_bg": "gradient",
+  "motion_style": "sleek futuristic technology still, dark background, neon rim light, ultra detailed, no text, no watermark"
 }
