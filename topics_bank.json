@@ -1654,5 +1654,219 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "Your Phone vs the Moon Landing",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "The phone in your pocket is millions of times more powerful than the computer that landed on the Moon.",
+        "hook_top": "YOUR PHONE BEATS APOLLO",
+        "query": "smartphone hand close up",
+        "query2": "person holding phone screen"
+      },
+      {
+        "role": "fact",
+        "text": "The Apollo guidance computer ran at about one megahertz, with less memory than a single photo takes today.",
+        "query": "apollo spacecraft moon",
+        "query2": "retro computer vintage electronics",
+        "chips": [
+          {
+            "t": "~1 MHZ",
+            "on": "megahertz",
+            "style": "white"
+          },
+          {
+            "t": "LESS THAN ONE PHOTO",
+            "on": "memory",
+            "style": "accent"
+          }
+        ],
+        "punch": "memory"
+      },
+      {
+        "role": "fact",
+        "text": "Yet it flew people a million kilometers round trip, because the software was tested like lives depended on it. They did.",
+        "query": "rocket launch night",
+        "query2": "mission control screens",
+        "chips": [
+          {
+            "t": "LIVES DEPENDED ON IT",
+            "on": "lives",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Meanwhile your phone spends that power on cat videos. Technology grows, priorities differ.",
+        "query": "person scrolling phone couch",
+        "query2": "social media apps screen",
+        "label": "USE THE POWER",
+        "sub": "you carry a supercomputer",
+        "label_on": "power",
+        "punch": "supercomputer"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "futuristic technology city night",
+        "query2": "circuit board macro blue"
+      }
+    ],
+    "description": "The Apollo 11 computer ran at ~1 MHz with less memory than one photo - your phone is millions of times faster. Follow for daily tech!",
+    "hashtags": [
+      "#tech",
+      "#technology",
+      "#apollo11",
+      "#smartphone",
+      "#ai",
+      "#space",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "GPS Has to Fight Time Itself",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "GPS only works because engineers correct for time itself running differently in space.",
+        "hook_top": "GPS FIGHTS TIME ITSELF",
+        "query": "gps navigation phone car",
+        "query2": "satellite orbit earth"
+      },
+      {
+        "role": "fact",
+        "text": "Satellites orbit so fast, and so far from Earth's gravity, that their clocks drift from ours every single day.",
+        "query": "satellite space earth orbit",
+        "query2": "earth from space night",
+        "chips": [
+          {
+            "t": "CLOCKS DRIFT DAILY",
+            "on": "drift",
+            "style": "accent"
+          }
+        ],
+        "punch": "gravity"
+      },
+      {
+        "role": "fact",
+        "text": "Without correcting for Einstein's relativity, your map would be off by kilometers within a day.",
+        "query": "city map navigation aerial",
+        "query2": "car driving navigation screen",
+        "chips": [
+          {
+            "t": "KM OFF PER DAY",
+            "on": "kilometers",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Every time your blue dot finds you, relativity was part of the math.",
+        "query": "phone map blue dot street",
+        "query2": "person walking phone city",
+        "label": "EINSTEIN IN YOUR POCKET",
+        "sub": "relativity, every day",
+        "label_on": "relativity",
+        "punch": "math"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "satellite dish night stars",
+        "query2": "technology abstract blue"
+      }
+    ],
+    "description": "GPS satellites' clocks run differently thanks to relativity - without Einstein's corrections your map would drift kilometers per day. Follow for daily tech!",
+    "hashtags": [
+      "#tech",
+      "#gps",
+      "#einstein",
+      "#relativity",
+      "#science",
+      "#satellites",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The First Computer Bug Was Real",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "The first computer bug in history was an actual insect.",
+        "hook_top": "THE FIRST BUG WAS REAL",
+        "query": "vintage computer room retro",
+        "query2": "old mainframe computer"
+      },
+      {
+        "role": "fact",
+        "text": "In 1947, engineers at Harvard found a moth stuck in a relay of the Mark two computer.",
+        "query": "moth insect close up",
+        "query2": "old electronics relays wires",
+        "chips": [
+          {
+            "t": "1947 · HARVARD",
+            "on": "1947",
+            "style": "white"
+          },
+          {
+            "t": "A REAL MOTH",
+            "on": "moth",
+            "style": "accent"
+          }
+        ],
+        "punch": "moth"
+      },
+      {
+        "role": "fact",
+        "text": "They taped it into the logbook and wrote, first actual case of bug being found.",
+        "query": "logbook notebook writing vintage",
+        "query2": "old paper documents desk",
+        "chips": [
+          {
+            "t": "TAPED IN THE LOGBOOK",
+            "on": "logbook",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "The word stuck. Every crash, glitch and bug since carries that moth's legacy.",
+        "query": "code programming screen dark",
+        "query2": "error glitch screen computer",
+        "label": "EVERY BUG SINCE",
+        "sub": "one moth started it all",
+        "label_on": "bug",
+        "punch": "legacy"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "modern laptop coding night",
+        "query2": "technology circuit blue macro"
+      }
+    ],
+    "description": "In 1947, Harvard engineers found a real moth inside the Mark II computer and taped it into the logbook - the first literal computer bug. Follow for daily tech!",
+    "hashtags": [
+      "#tech",
+      "#computerhistory",
+      "#bug",
+      "#programming",
+      "#history",
+      "#didyouknow",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]
