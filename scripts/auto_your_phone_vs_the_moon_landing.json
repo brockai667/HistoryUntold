@@ -1,0 +1,73 @@
+{
+  "title": "Your Phone vs the Moon Landing",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "The phone in your pocket is millions of times more powerful than the computer that landed on the Moon.",
+      "hook_top": "YOUR PHONE BEATS APOLLO",
+      "query": "smartphone hand close up",
+      "query2": "person holding phone screen"
+    },
+    {
+      "role": "fact",
+      "text": "The Apollo guidance computer ran at about one megahertz, with less memory than a single photo takes today.",
+      "query": "apollo spacecraft moon",
+      "query2": "retro computer vintage electronics",
+      "chips": [
+        {
+          "t": "~1 MHZ",
+          "on": "megahertz",
+          "style": "white"
+        },
+        {
+          "t": "LESS THAN ONE PHOTO",
+          "on": "memory",
+          "style": "accent"
+        }
+      ],
+      "punch": "memory"
+    },
+    {
+      "role": "fact",
+      "text": "Yet it flew people a million kilometers round trip, because the software was tested like lives depended on it. They did.",
+      "query": "rocket launch night",
+      "query2": "mission control screens",
+      "chips": [
+        {
+          "t": "LIVES DEPENDED ON IT",
+          "on": "lives",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Meanwhile your phone spends that power on cat videos. Technology grows, priorities differ.",
+      "query": "person scrolling phone couch",
+      "query2": "social media apps screen",
+      "label": "USE THE POWER",
+      "sub": "you carry a supercomputer",
+      "label_on": "power",
+      "punch": "supercomputer"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "The Apollo 11 computer ran at ~1 MHz with less memory than one photo - your phone is millions of times faster. Follow for daily tech!",
+  "hashtags": [
+    "#tech",
+    "#technology",
+    "#apollo11",
+    "#smartphone",
+    "#ai",
+    "#space",
+    "#shorts",
+    "#fyp"
+  ]
+}

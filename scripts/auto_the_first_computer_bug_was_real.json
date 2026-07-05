@@ -1,0 +1,73 @@
+{
+  "title": "The First Computer Bug Was Real",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "The first computer bug in history was an actual insect.",
+      "hook_top": "THE FIRST BUG WAS REAL",
+      "query": "vintage computer room retro",
+      "query2": "old mainframe computer"
+    },
+    {
+      "role": "fact",
+      "text": "In 1947, engineers at Harvard found a moth stuck in a relay of the Mark two computer.",
+      "query": "moth insect close up",
+      "query2": "old electronics relays wires",
+      "chips": [
+        {
+          "t": "1947 · HARVARD",
+          "on": "1947",
+          "style": "white"
+        },
+        {
+          "t": "A REAL MOTH",
+          "on": "moth",
+          "style": "accent"
+        }
+      ],
+      "punch": "moth"
+    },
+    {
+      "role": "fact",
+      "text": "They taped it into the logbook and wrote, first actual case of bug being found.",
+      "query": "logbook notebook writing vintage",
+      "query2": "old paper documents desk",
+      "chips": [
+        {
+          "t": "TAPED IN THE LOGBOOK",
+          "on": "logbook",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "The word stuck. Every crash, glitch and bug since carries that moth's legacy.",
+      "query": "code programming screen dark",
+      "query2": "error glitch screen computer",
+      "label": "EVERY BUG SINCE",
+      "sub": "one moth started it all",
+      "label_on": "bug",
+      "punch": "legacy"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "modern laptop coding night",
+      "query2": "technology circuit blue macro"
+    }
+  ],
+  "description": "In 1947, Harvard engineers found a real moth inside the Mark II computer and taped it into the logbook - the first literal computer bug. Follow for daily tech!",
+  "hashtags": [
+    "#tech",
+    "#computerhistory",
+    "#bug",
+    "#programming",
+    "#history",
+    "#didyouknow",
+    "#shorts",
+    "#fyp"
+  ]
+}

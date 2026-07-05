@@ -1,0 +1,68 @@
+{
+  "title": "GPS Has to Fight Time Itself",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "GPS only works because engineers correct for time itself running differently in space.",
+      "hook_top": "GPS FIGHTS TIME ITSELF",
+      "query": "gps navigation phone car",
+      "query2": "satellite orbit earth"
+    },
+    {
+      "role": "fact",
+      "text": "Satellites orbit so fast, and so far from Earth's gravity, that their clocks drift from ours every single day.",
+      "query": "satellite space earth orbit",
+      "query2": "earth from space night",
+      "chips": [
+        {
+          "t": "CLOCKS DRIFT DAILY",
+          "on": "drift",
+          "style": "accent"
+        }
+      ],
+      "punch": "gravity"
+    },
+    {
+      "role": "fact",
+      "text": "Without correcting for Einstein's relativity, your map would be off by kilometers within a day.",
+      "query": "city map navigation aerial",
+      "query2": "car driving navigation screen",
+      "chips": [
+        {
+          "t": "KM OFF PER DAY",
+          "on": "kilometers",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Every time your blue dot finds you, relativity was part of the math.",
+      "query": "phone map blue dot street",
+      "query2": "person walking phone city",
+      "label": "EINSTEIN IN YOUR POCKET",
+      "sub": "relativity, every day",
+      "label_on": "relativity",
+      "punch": "math"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "satellite dish night stars",
+      "query2": "technology abstract blue"
+    }
+  ],
+  "description": "GPS satellites' clocks run differently thanks to relativity - without Einstein's corrections your map would drift kilometers per day. Follow for daily tech!",
+  "hashtags": [
+    "#tech",
+    "#gps",
+    "#einstein",
+    "#relativity",
+    "#science",
+    "#satellites",
+    "#shorts",
+    "#fyp"
+  ]
+}
