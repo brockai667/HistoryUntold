@@ -1,0 +1,66 @@
+{
+  "title": "Meta's Surprise Water Pollution Scandal",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A major data center contaminated local water without warning.",
+      "hook_top": "META'S WATER POLLUTION SCANDAL",
+      "query": "industrial water discharge",
+      "query2": "water contamination alert"
+    },
+    {
+      "role": "fact",
+      "text": "Meta's facility discharged bacterium into the water supply, causing health concerns.",
+      "query": "water microbiology lab",
+      "query2": "contaminated water testing",
+      "chips": [
+        {
+          "t": "BACTERIUM FOUND",
+          "on": "bacterium",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "The contamination led to the suspension of the facility's operations by local authorities.",
+      "query": "government emergency meeting",
+      "query2": "city officials discussing",
+      "chips": [
+        {
+          "t": "OPERATION SUSPENDED",
+          "on": "operations",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Transparency is crucial; hidden impacts can affect us all.",
+      "query": "community meeting",
+      "query2": "people discussing issues",
+      "label": "STAY INFORMED",
+      "sub": "Protect your local environment.",
+      "label_on": "transparency",
+      "punch": "impact"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "A Meta data center's contamination incident raises serious concerns. Stay updated on tech developments! Follow for daily tech!",
+  "hashtags": [
+    "#meta",
+    "#pollution",
+    "#technology",
+    "#ai",
+    "#environment",
+    "#shorts",
+    "#fyp"
+  ]
+}

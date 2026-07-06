@@ -1,0 +1,66 @@
+{
+  "title": "Why Big Tech's Tax Breaks Are Under Fire",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Big Tech just lost a $517 million tax break in Pennsylvania.",
+      "hook_top": "BIG TECH UNDER ATTACK",
+      "query": "government building protest",
+      "query2": "tax policy discussion"
+    },
+    {
+      "role": "fact",
+      "text": "The Pennsylvania government voted against continuing substantial tax incentives for tech companies.",
+      "query": "government voting session",
+      "query2": "lawmakers in session",
+      "chips": [
+        {
+          "t": "$517 MILLION",
+          "on": "tax break",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "This move reflects growing concerns about corporate influence and financial responsibility.",
+      "query": "corporate influence protest",
+      "query2": "financial responsibility graphic",
+      "chips": [
+        {
+          "t": "CORPORATE INFLUENCE",
+          "on": "influence",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Citizens want accountability; it's time for change in tech policies.",
+      "query": "community town hall",
+      "query2": "people discussing taxes",
+      "label": "TIME FOR CHANGE",
+      "sub": "Demand accountability from Tech!",
+      "label_on": "accountability",
+      "punch": "change"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "Recent votes reveal public demand for accountability from Big Tech. Follow for daily tech updates!",
+  "hashtags": [
+    "#bigtech",
+    "#taxbreak",
+    "#responsibility",
+    "#ai",
+    "#technology",
+    "#shorts",
+    "#fyp"
+  ]
+}

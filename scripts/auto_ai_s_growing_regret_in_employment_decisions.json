@@ -1,0 +1,66 @@
+{
+  "title": "AI's Growing Regret in Employment Decisions",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Companies are regretting layoffs due to AI decisions!",
+      "hook_top": "AIDRIVEN LAYOFF BLUES",
+      "query": "office layoffs",
+      "query2": "sad employees packing"
+    },
+    {
+      "role": "fact",
+      "text": "Many employers have realized that AI lacks the human touch necessary for nuanced decisions.",
+      "query": "AI technology interaction",
+      "query2": "employees in discussion",
+      "chips": [
+        {
+          "t": "LACKS HUMAN TOUCH",
+          "on": "human touch",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Regret is growing as companies struggle with employee morale and expertise gaps.",
+      "query": "stressed office environment",
+      "query2": "unhappy workers",
+      "chips": [
+        {
+          "t": "EXPERTISE GAPS",
+          "on": "expertise",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Prioritizing people over algorithms is essential for a thriving workforce.",
+      "query": "team collaboration",
+      "query2": "engaged employees",
+      "label": "VALUE HUMAN INPUT",
+      "sub": "Tech should support workers.",
+      "label_on": "human",
+      "punch": "value"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech you should actually know.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "Companies regret laying off workers for AI; human expertise is irreplaceable. Follow for daily tech insights!",
+  "hashtags": [
+    "#AI",
+    "#employment",
+    "#layoffs",
+    "#workplace",
+    "#technology",
+    "#shorts",
+    "#fyp"
+  ]
+}

@@ -1614,5 +1614,396 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Hidden Cost of Data Centers",
+    "place": "Meta Data Center",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Data centers waste billions in water while powering our digital lives.",
+        "hook_top": "DATA CENTERS' WATER CRISIS",
+        "query": "data center aerial view",
+        "query2": "water reservoir"
+      },
+      {
+        "role": "fact",
+        "text": "Meta recently faced backlash for contaminating water supplies from its data center.",
+        "query": "meta logo building",
+        "query2": "news reporters",
+        "chips": [
+          {
+            "t": "CONTAMINATION ISSUE",
+            "on": "contaminating",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "The tech industry consumes vast amounts of water, leading to growing concerns.",
+        "query": "water consumption industrial",
+        "query2": "charts showing water use",
+        "chips": [
+          {
+            "t": "GROWING CONCERNS",
+            "on": "concerns",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "What if your data's power comes at a cost to our resources?",
+        "query": "powering data centers",
+        "query2": "electricity grid",
+        "label": "THINK ABOUT IT",
+        "sub": "the digital impact on nature",
+        "label_on": "cost",
+        "punch": "impact"
+      },
+      {
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "futuristic technology skyline",
+        "query2": "circuit board close-up"
+      }
+    ],
+    "description": "Data centers like Meta's are depleting our water resources in silence. Follow for daily tech updates!",
+    "hashtags": [
+      "#tech",
+      "#data",
+      "#sustainability",
+      "#meta",
+      "#environment",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Backlash Against AI Designs",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Critics say AI-driven designs are robbing human creativity.",
+        "hook_top": "AI DESIGN BACKLASH",
+        "query": "artificial intelligence",
+        "query2": "creative workspace"
+      },
+      {
+        "role": "fact",
+        "text": "Some employers regret firing creatives, citing AI as a reason.",
+        "query": "employee sad",
+        "query2": "office environment",
+        "chips": [
+          {
+            "t": "REGRETS OF AI",
+            "on": "regret",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "AI's capabilities can mimic styles, but they lack genuine emotion.",
+        "query": "AI artwork comparison",
+        "query2": "emotion in art",
+        "chips": [
+          {
+            "t": "LACKS EMOTION",
+            "on": "emotion",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Can AI replace the human touch in design? The debate rages on.",
+        "query": "debate creativity",
+        "query2": "graphic design work",
+        "label": "THE GREAT DEBATE",
+        "sub": "human vs AI creativity",
+        "label_on": "replace",
+        "punch": "debate"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "future technology concept",
+        "query2": "circuit board macro"
+      }
+    ],
+    "description": "The debate about AI's role in creativity grows as concerns rise. Follow for daily tech insights!",
+    "hashtags": [
+      "#AI",
+      "#design",
+      "#creativity",
+      "#artificialintelligence",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Video Games: The Piracy Dilemma",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Could piracy be the only hope for preserving classic video games?",
+        "hook_top": "PIRACY SAVES HISTORIES",
+        "query": "vintage video games",
+        "query2": "retro gaming console"
+      },
+      {
+        "role": "fact",
+        "text": "Experts suggest piracy may protect endangered games from being lost forever.",
+        "query": "video game preservation",
+        "query2": "old game collection",
+        "chips": [
+          {
+            "t": "ENDANGERED GAMES",
+            "on": "endangered",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "Without preservation efforts, many classic titles might never be seen again.",
+        "query": "classic games archive",
+        "query2": "faded game box",
+        "chips": [
+          {
+            "t": "NEVER SEEN AGAIN",
+            "on": "never",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Is piracy the best form of preservation in a digital age?",
+        "query": "digital preservation",
+        "query2": "cloud storage visuals",
+        "label": "A TOUGH QUESTION",
+        "sub": "preserving digital memories",
+        "label_on": "best",
+        "punch": "preservation"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "high tech game studio",
+        "query2": "advanced gaming setup"
+      }
+    ],
+    "description": "Piracy may become a crucial method for preserving classic video games. Follow for daily updates!",
+    "hashtags": [
+      "#gaming",
+      "#videogames",
+      "#piracy",
+      "#preservation",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Powering the Future: Data Center Costs",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "New reports reveal shocking energy costs for data centers!",
+        "hook_top": "DATA CENTER ENERGY SHOCK",
+        "query": "data center power supply",
+        "query2": "electricity pylons"
+      },
+      {
+        "role": "fact",
+        "text": "Data centers consume more energy than some small countries.",
+        "query": "data center size comparison",
+        "query2": "countries map",
+        "chips": [
+          {
+            "t": "COUNTRY-SIZED POWER",
+            "on": "energy",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "This energy consumption contributes significantly to carbon footprints.",
+        "query": "carbon footprint statistics",
+        "query2": "pollution visuals",
+        "chips": [
+          {
+            "t": "SIGNIFICANT IMPACT",
+            "on": "impact",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Are we sacrificing our environment for digital convenience?",
+        "query": "environmental impact",
+        "query2": "pollution protests",
+        "label": "A GRAVE QUESTION",
+        "sub": "is convenience worth it?",
+        "label_on": "sacrificing",
+        "punch": "sacrifice"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "technology future vision",
+        "query2": "innovation visuals"
+      }
+    ],
+    "description": "Data centers' energy consumption rivals that of small nations, impacting the environment. Follow for daily tech updates!",
+    "hashtags": [
+      "#technology",
+      "#data",
+      "#sustainability",
+      "#energy",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "T-Mobile's Customer Controversy",
+    "place": "T-Mobile",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Did T-Mobile just rip off millions with surprise billing?",
+        "hook_top": "TMOBILE SURPRISE BILLING",
+        "query": "T-Mobile store",
+        "query2": "customers looking shocked"
+      },
+      {
+        "role": "fact",
+        "text": "Recent reports indicate T-Mobile raised prices for 8 million users unexpectedly.",
+        "query": "T-Mobile news report",
+        "query2": "angry customers",
+        "chips": [
+          {
+            "t": "8 MILLION USERS",
+            "on": "users",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "Customers complain of being switched to new plans without consent.",
+        "query": "customer complaint",
+        "query2": "customer service call",
+        "chips": [
+          {
+            "t": "UNAUTHORIZED SWITCH",
+            "on": "switched",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Are companies prioritizing profits over customer trust?",
+        "query": "business ethics discussion",
+        "query2": "boardroom meeting",
+        "label": "TRUST AT STAKE",
+        "sub": "a broken relationship",
+        "label_on": "profits",
+        "punch": "trust"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "technology consumer relations",
+        "query2": "corporate offices"
+      }
+    ],
+    "description": "T-Mobile faces backlash after raising prices for millions of unsuspecting customers. Follow for daily tech updates!",
+    "hashtags": [
+      "#technology",
+      "#TMobile",
+      "#customerservice",
+      "#billing",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "AI's Controversial Social Experiment",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "What happens when AI pretends to be a teenager online?",
+        "hook_top": "AI'S TEENAGE EXPERIMENT",
+        "query": "teenager using phone",
+        "query2": "social media screen"
+      },
+      {
+        "role": "fact",
+        "text": "Meta reportedly paid contractors to simulate teen accounts on social media.",
+        "query": "social media accounts",
+        "query2": "people on phones",
+        "chips": [
+          {
+            "t": "SIMULATING TEENS",
+            "on": "simulate",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "This raised concerns about ethics in AI and social media practices.",
+        "query": "ethics in AI",
+        "query2": "people discussing ethics",
+        "chips": [
+          {
+            "t": "ETHICAL CONCERNS",
+            "on": "concerns",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Are we crossing ethical lines for technological gains?",
+        "query": "technology ethics",
+        "query2": "technology and society",
+        "label": "ETHICS AT STAKE",
+        "sub": "the cost of innovation",
+        "label_on": "crossing",
+        "punch": "lines"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "future technology concepts",
+        "query2": "AI visuals"
+      }
+    ],
+    "description": "An AI social experiment by Meta raises serious ethical questions. Follow for daily updates!",
+    "hashtags": [
+      "#AI",
+      "#ethics",
+      "#socialmedia",
+      "#meta",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]
