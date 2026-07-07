@@ -1,0 +1,66 @@
+{
+  "title": "Weird Al's Stand Against AI Ads",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Weird Al turned down big money for an AI advertisement!",
+      "hook_top": "WEIRD AL SAYS NO",
+      "query": "Weird Al Yankovic performance",
+      "query2": "Weird Al in concert"
+    },
+    {
+      "role": "fact",
+      "text": "He believes supporting AI ads conflicts with his values as an artist.",
+      "query": "artist expressing integrity",
+      "query2": "musician speaking",
+      "chips": [
+        {
+          "t": "ARTISTIC INTEGRITY",
+          "on": "integrity",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "This highlights a growing discontent among artists regarding AI's role in creativity.",
+      "query": "artists at work",
+      "query2": "musicians brainstorming",
+      "chips": [
+        {
+          "t": "CREATIVITY CONCERNS",
+          "on": "creativity",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Artists want their work respected, a sentiment growing stronger in the industry.",
+      "query": "artist activism",
+      "query2": "community support for artists",
+      "label": "SUPPORT CREATORS",
+      "sub": "Value human creativity.",
+      "label_on": "artists",
+      "punch": "respect"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "Weird Al's refusal of AI ads reveals artists' concerns about integrity and creativity. Follow for daily insights!",
+  "hashtags": [
+    "#WeirdAl",
+    "#AI",
+    "#creativity",
+    "#integrity",
+    "#technology",
+    "#shorts",
+    "#fyp"
+  ]
+}

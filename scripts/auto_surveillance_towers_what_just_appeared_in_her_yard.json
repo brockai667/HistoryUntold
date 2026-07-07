@@ -1,0 +1,66 @@
+{
+  "title": "Surveillance Towers: What Just Appeared in Her Yard?",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A surveillance tower appeared in a woman's yard without warning!",
+      "hook_top": "SURVEILLANCE IN YOUR YARD",
+      "query": "surveillance tower",
+      "query2": "person surprised"
+    },
+    {
+      "role": "fact",
+      "text": "These towers are part of increasing state and private surveillance initiatives.",
+      "query": "crowded urban environment",
+      "query2": "city surveillance operations",
+      "chips": [
+        {
+          "t": "STATE SURVEILLANCE",
+          "on": "surveillance",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Concerns arise over privacy rights as technology expands without public knowledge.",
+      "query": "privacy rights protest",
+      "query2": "people holding signs",
+      "chips": [
+        {
+          "t": "PRIVACY RIGHTS AT RISK",
+          "on": "privacy",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Are we sacrificing privacy for safety? It's a hard question for citizens.",
+      "query": "community discussion",
+      "query2": "people engaging in debate",
+      "label": "PRIORITIZE YOUR RIGHTS",
+      "sub": "Understand your privacy!",
+      "label_on": "privacy",
+      "punch": "sacrifice"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "A sudden appearance of a surveillance tower raises privacy concerns. Stay informed on tech developments! Follow for daily updates!",
+  "hashtags": [
+    "#surveillance",
+    "#privacy",
+    "#technology",
+    "#AI",
+    "#innovation",
+    "#shorts",
+    "#fyp"
+  ]
+}

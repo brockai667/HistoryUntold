@@ -1,0 +1,66 @@
+{
+  "title": "Gaming's Forgotten Preservation: Piracy?",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Is piracy the key to preserving classic games?",
+      "hook_top": "PRESERVING CLASSIC GAMES",
+      "query": "old video games",
+      "query2": "playable retro games"
+    },
+    {
+      "role": "fact",
+      "text": "The Video Game History Foundation claims piracy helps save forgotten titles.",
+      "query": "video game preservation",
+      "query2": "archival gameplay footage",
+      "chips": [
+        {
+          "t": "PRESERVE FOR FUTURE",
+          "on": "preserve",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Many classic games are lost due to outdated formats and lack of support from publishers.",
+      "query": "damaged retro game cartridges",
+      "query2": "unclear gaming history",
+      "chips": [
+        {
+          "t": "OUTDATED FORMATS",
+          "on": "formats",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Is it ethical to pirate for preservation? A debate within gaming circles.",
+      "query": "gamers discussing ethics",
+      "query2": "gaming community meeting",
+      "label": "ETHICS OF PRESERVATION",
+      "sub": "A vital conversation.",
+      "label_on": "preservation",
+      "punch": "ethics"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech you should actually know.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "Piracy may be key to preserving classic games, as publishers fail to support them. Follow for daily gaming insights!",
+  "hashtags": [
+    "#gaming",
+    "#piracy",
+    "#preservation",
+    "#technology",
+    "#ai",
+    "#shorts",
+    "#fyp"
+  ]
+}

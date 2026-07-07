@@ -2005,5 +2005,205 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Supreme Court's Landmark Ruling Explained",
+    "place": "",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A new ruling means police need warrants for phone location data!",
+        "hook_top": "WARRANTS REQUIRED NOW",
+        "query": "court building exterior",
+        "query2": "gavel and court"
+      },
+      {
+        "role": "fact",
+        "text": "This pivotal decision impacts how police access personal phone information.",
+        "query": "police using phones",
+        "query2": "police in action",
+        "chips": [
+          {
+            "t": "IMPACT ON PRIVACY",
+            "on": "impact",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "Privacy advocates celebrate this as a win for citizens' rights.",
+        "query": "privacy advocacy protest",
+        "query2": "advocate rally",
+        "chips": [
+          {
+            "t": "WIN FOR PRIVACY",
+            "on": "win",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Is our data truly safe now? The battle for privacy continues.",
+        "query": "data privacy concept",
+        "query2": "digital security",
+        "label": "DATA SAFETY",
+        "sub": "Is your info secure?",
+        "label_on": "privacy",
+        "punch": "secure"
+      },
+      {
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "constitutional rights document",
+        "query2": "legal documents"
+      }
+    ],
+    "description": "The Supreme Court now requires police warrants for accessing phone location data. What does this mean for privacy? Follow for daily tech!",
+    "hashtags": [
+      "#supremecourt",
+      "#privacy",
+      "#technology",
+      "#policing",
+      "#ai",
+      "#law",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Game Preservation: The Piracy Dilemma",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Is piracy the only way to preserve video games?",
+        "hook_top": "PIRACY AS PRESERVATION",
+        "query": "pixel art games",
+        "query2": "old video games"
+      },
+      {
+        "role": "fact",
+        "text": "Many classic games face extinction due to lost copyrights and data.",
+        "query": "lost video games",
+        "query2": "old gaming consoles",
+        "chips": [
+          {
+            "t": "CLASSICS AT RISK",
+            "on": "risk",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "The Video Game History Foundation highlights piracy as a means to save them.",
+        "query": "video game history",
+        "query2": "history foundation",
+        "chips": [
+          {
+            "t": "PRESERVATION EFFORTS",
+            "on": "preservation",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Game developers face tough choices: profit or preservation? Choose wisely.",
+        "query": "game developer studio",
+        "query2": "game development process",
+        "label": "DEVELOPER CHALLENGE",
+        "sub": "Profit or culture?",
+        "label_on": "choices",
+        "punch": "choices"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "gaming convention crowd",
+        "query2": "big gaming event"
+      }
+    ],
+    "description": "Many classic video games risk fading away, leading to debates on piracy for preservation. Follow for daily tech!",
+    "hashtags": [
+      "#videogames",
+      "#gamepreservation",
+      "#piracy",
+      "#tech",
+      "#ai",
+      "#gaming",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "When AI Meets Ethics: Controversies Explored",
+    "place": "",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "AI's role in society is stirring ethical debates - is it going too far?",
+        "hook_top": "AI AND ETHICS COLLIDE",
+        "query": "AI technology",
+        "query2": "abstract AI visuals"
+      },
+      {
+        "role": "fact",
+        "text": "Critics argue AI can reinforce biases present in training data.",
+        "query": "AI bias concept",
+        "query2": "data analysis",
+        "chips": [
+          {
+            "t": "REINFORCING BIAS",
+            "on": "bias",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "Discussions on AI's impact on jobs hint at broader societal shifts.",
+        "query": "job automation concept",
+        "query2": "robots in work",
+        "chips": [
+          {
+            "t": "JOB IMPACT",
+            "on": "jobs",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "As AI grows, the ethical dilemma intensifies. What's next for society?",
+        "query": "society and technology",
+        "query2": "cancel culture protest",
+        "label": "ETHICS MATTER",
+        "sub": "A future at stake.",
+        "label_on": "ethics",
+        "punch": "ethics"
+      },
+      {
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "futuristic tech landscape",
+        "query2": "AI interaction"
+      }
+    ],
+    "description": "AI technology raises ethical concerns regarding bias and job impacts. What lies ahead for society? Follow for daily tech!",
+    "hashtags": [
+      "#AI",
+      "#ethics",
+      "#technology",
+      "#society",
+      "#innovation",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]
