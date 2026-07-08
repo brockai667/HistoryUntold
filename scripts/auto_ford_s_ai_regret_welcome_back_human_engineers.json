@@ -1,0 +1,66 @@
+{
+  "title": "Ford's AI Regret: Welcome Back Human Engineers!",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Ford is re-hiring human engineers after AI failed them!",
+      "hook_top": "FORD WANTS HUMAN TOUCH",
+      "query": "Ford engineering team",
+      "query2": "engineers at work"
+    },
+    {
+      "role": "fact",
+      "text": "The company found that AI systems couldn't match the expertise of veteran engineers.",
+      "query": "engineers collaborating",
+      "query2": "engineers in meeting",
+      "chips": [
+        {
+          "t": "MATCHING EXPERTISE",
+          "on": "expertise",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "This decision reflects a broader trend where companies are realizing AI can't replace human skill.",
+      "query": "businesses using technology",
+      "query2": "teams brainstorming",
+      "chips": [
+        {
+          "t": "AI CAN'T REPLACE",
+          "on": "replace",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Human knowledge is irreplaceable; firms must consider their teams carefully.",
+      "query": "team meeting",
+      "query2": "collaborators working together",
+      "label": "VALUE HUMAN SKILL",
+      "sub": "AI can't do it all.",
+      "label_on": "expertise",
+      "punch": "value"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "Ford's decision to re-hire human engineers shows the value of human expertise. Stay informed! Follow for daily tech updates!",
+  "hashtags": [
+    "#Ford",
+    "#AI",
+    "#engineering",
+    "#technology",
+    "#skills",
+    "#shorts",
+    "#fyp"
+  ]
+}

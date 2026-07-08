@@ -2205,5 +2205,241 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "Are Your Games at Risk?",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Did you know your digital games could vanish after just three years of inactivity?",
+        "hook_top": "DIGITAL GAMES AT RISK",
+        "query": "digital game collection",
+        "query2": "gaming console close up"
+      },
+      {
+        "role": "fact",
+        "text": "Sony’s PlayStation can delete your digital games if you're inactive for three years.",
+        "query": "playstation logo",
+        "query2": "person playing video game",
+        "chips": [
+          {
+            "t": "3 YEARS",
+            "on": "inactivity",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "This means you might lose access to games you bought but never played again.",
+        "query": "game shelves",
+        "query2": "game store interior",
+        "chips": []
+      },
+      {
+        "role": "callout",
+        "text": "Protect your library!",
+        "query": "gamers in action",
+        "query2": "gaming accessories",
+        "label": "CHECK YOUR GAMES",
+        "sub": "how many have you played?",
+        "label_on": "protect",
+        "punch": "library"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "futuristic gaming setup",
+        "query2": "game controller macro"
+      }
+    ],
+    "description": "Your digital games may disappear after three years of inactivity. Stay informed and keep playing! Follow for daily tech!",
+    "hashtags": [
+      "#gaming",
+      "#tech",
+      "#playstation",
+      "#digitalgames",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "AI Data Centers: Our Hidden Costs",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Did you know AI data centers are guzzling water and energy silently?",
+        "hook_top": "AI DATA CENTERS EXPOSED",
+        "query": "data center outside view",
+        "query2": "energy consumption graphic"
+      },
+      {
+        "role": "fact",
+        "text": "Meta's data center recently contaminated a city's water supply with harmful bacteria.",
+        "query": "water contamination",
+        "query2": "water testing lab",
+        "chips": [
+          {
+            "t": "HARMFUL BACTERIA",
+            "on": "bacteria",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "This raises questions about the environmental impact of AI technologies.",
+        "query": "environmental impact",
+        "query2": "pollution footage",
+        "chips": []
+      },
+      {
+        "role": "callout",
+        "text": "Time to rethink AI!",
+        "query": "people discussing tech",
+        "query2": "debate panel",
+        "label": "ENVIRONMENTAL COSTS",
+        "sub": "AI isn't free!",
+        "label_on": "rethink",
+        "punch": "costs"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "futuristic city water",
+        "query2": "data center machines"
+      }
+    ],
+    "description": "AI data centers impact environments, as seen in recent water contamination incidents. Stay informed! Follow for daily tech!",
+    "hashtags": [
+      "#AI",
+      "#technology",
+      "#dataCenters",
+      "#environment",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Privacy Alert: Police Need a Warrant!",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "The law now requires police to have a warrant to use your phone's location data!",
+        "hook_top": "YOUR LOCATION IS SAFE",
+        "query": "person using smartphone",
+        "query2": "police car in city"
+      },
+      {
+        "role": "fact",
+        "text": "The Supreme Court recently ruled this requirement protects citizens' privacy rights.",
+        "query": "supreme court building",
+        "query2": "courtroom interior",
+        "chips": [
+          {
+            "t": "SUPREME COURT RULING",
+            "on": "ruling",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "This means your personal data is more secure than before.",
+        "query": "secure data graphic",
+        "query2": "cybersecurity symbols",
+        "chips": []
+      },
+      {
+        "role": "callout",
+        "text": "Privacy matters!",
+        "query": "people in discussion",
+        "query2": "public forum",
+        "label": "PRIVACY RIGHTS",
+        "sub": "you are protected!",
+        "label_on": "privacy",
+        "punch": "matters"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "court gavel close-up",
+        "query2": "legal books on desk"
+      }
+    ],
+    "description": "A recent Supreme Court ruling mandates police to obtain warrants for phone location data, enhancing your privacy rights. Follow for daily tech!",
+    "hashtags": [
+      "#privacy",
+      "#law",
+      "#supremecourt",
+      "#technology",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Copper Heists: AI Data Centers Targeted",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Thieves are now targeting AI data centers for copper and valuable equipment!",
+        "hook_top": "DATA CENTER THIEVES",
+        "query": "thieves stealing copper",
+        "query2": "data center exterior"
+      },
+      {
+        "role": "fact",
+        "text": "Copper theft is rising as it’s essential for powering AI technology.",
+        "query": "copper wiring",
+        "query2": "copper mines",
+        "chips": [
+          {
+            "t": "RISING THEFTS",
+            "on": "thefts",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "These heists impact both security and the efficiency of data processing.",
+        "query": "data processing center",
+        "query2": "computer networks",
+        "chips": []
+      },
+      {
+        "role": "callout",
+        "text": "Secure your tech!",
+        "query": "security systems",
+        "query2": "surveillance cameras",
+        "label": "COPPER THEFT RISK",
+        "sub": "don't be a target!",
+        "label_on": "secure",
+        "punch": "tech"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "data center night",
+        "query2": "security team working"
+      }
+    ],
+    "description": "The rise in copper thefts from AI data centers poses security risks and affects efficiency. Stay updated! Follow for daily tech!",
+    "hashtags": [
+      "#AI",
+      "#theft",
+      "#technology",
+      "#datacenters",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

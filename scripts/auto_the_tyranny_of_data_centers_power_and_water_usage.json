@@ -1,0 +1,66 @@
+{
+  "title": "The Tyranny of Data Centers: Power and Water Usage",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Data centers demand extraordinary resources, straining power and water supplies!",
+      "hook_top": "DATA CENTERS DEMAND RESOURCES",
+      "query": "data center",
+      "query2": "data center infrastructure"
+    },
+    {
+      "role": "fact",
+      "text": "The massive cooling needs of data centers can lead to significant local resource depletion.",
+      "query": "cooling systems in data centers",
+      "query2": "pipelines and cooling units",
+      "chips": [
+        {
+          "t": "RESOURCE DEPLETION",
+          "on": "depletion",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "This resource consumption can affect local communities, leading to higher bills and shortages.",
+      "query": "community resource discussion",
+      "query2": "city council meeting",
+      "chips": [
+        {
+          "t": "HIGHER BILLS",
+          "on": "bills",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Technology needs to balance efficiency with sustainability to protect communities.",
+      "query": "sustainable technology practices",
+      "query2": "sustainable infrastructure",
+      "label": "BALANCE IS KEY",
+      "sub": "Support sustainable tech!",
+      "label_on": "sustainability",
+      "punch": "balance"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "The resource needs of data centers create challenges for local communities. Follow for daily tech insights!",
+  "hashtags": [
+    "#datacenters",
+    "#resources",
+    "#technology",
+    "#sustainability",
+    "#innovation",
+    "#shorts",
+    "#fyp"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "title": "The Risks of AI-Driven Tech Decisions",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "AI is making risky decisions without oversight in tech companies!",
+      "hook_top": "AI TAKING CONTROL",
+      "query": "AI in office",
+      "query2": "office automation tools"
+    },
+    {
+      "role": "fact",
+      "text": "AI technologies are often implemented without comprehensive testing, leading to unforeseen consequences.",
+      "query": "software testing lab",
+      "query2": "tests in progress",
+      "chips": [
+        {
+          "t": "UNFORESEEN RISKS",
+          "on": "risks",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Recent studies show AI can misinterpret data, causing flawed outcomes in decision-making.",
+      "query": "AI data analysis",
+      "query2": "flawed data results",
+      "chips": [
+        {
+          "t": "FLOOD DECISION-MAKING",
+          "on": "decision-making",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Oversight is critical; we must not let machines govern our futures.",
+      "query": "people in office meeting",
+      "query2": "collaborative tech environment",
+      "label": "DEMAND OVERSIGHT",
+      "sub": "Humans must guide AI.",
+      "label_on": "oversight",
+      "punch": "control"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech you should actually know.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "AI's unchecked decision-making poses serious risks for tech firms. Stay updated! Follow for daily tech insights!",
+  "hashtags": [
+    "#AI",
+    "#technology",
+    "#risk",
+    "#decisionmaking",
+    "#innovation",
+    "#shorts",
+    "#fyp"
+  ]
+}
