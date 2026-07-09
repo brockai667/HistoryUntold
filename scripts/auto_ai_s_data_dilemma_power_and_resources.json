@@ -1,0 +1,66 @@
+{
+  "title": "AI's Data Dilemma: Power and Resources",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "AI development consumes vast amounts of energy and resources!",
+      "hook_top": "AI NEEDS RESOURCES",
+      "query": "AI training process",
+      "query2": "AI processors"
+    },
+    {
+      "role": "fact",
+      "text": "Training AI models requires extensive computational power, increasing energy demands.",
+      "query": "computer processing unit",
+      "query2": "energy usage chart",
+      "chips": [
+        {
+          "t": "EXTENSIVE POWER",
+          "on": "power",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Handling large datasets requires significant storage, adding to environmental concerns.",
+      "query": "data storage server",
+      "query2": "data centers",
+      "chips": [
+        {
+          "t": "STORAGE DEMANDS",
+          "on": "storage",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Sustainable practices in AI must be prioritized to minimize environmental impact.",
+      "query": "green technology",
+      "query2": "eco-friendly AI solutions",
+      "label": "SUSTAINABLE AI",
+      "sub": "Protect our planet!",
+      "label_on": "sustainability",
+      "punch": "impact"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech you should actually know.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "AI development's resource consumption needs attention for sustainability. Follow for daily tech insights!",
+  "hashtags": [
+    "#AI",
+    "#resources",
+    "#technology",
+    "#sustainability",
+    "#innovation",
+    "#shorts",
+    "#fyp"
+  ]
+}

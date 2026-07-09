@@ -1,0 +1,66 @@
+{
+  "title": "Why AI Needs Human Collaboration",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "AI development thrives when humans and machines work together!",
+      "hook_top": "AI HUMANS TOGETHER",
+      "query": "human-AI collaboration",
+      "query2": "scientists and AI"
+    },
+    {
+      "role": "fact",
+      "text": "Collaborative efforts result in more innovative solutions across various fields.",
+      "query": "teamwork in tech",
+      "query2": "collaborating teams",
+      "chips": [
+        {
+          "t": "INNOVATIVE SOLUTIONS",
+          "on": "solutions",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Human insight is crucial for refining AI outputs and achieving meaningful results.",
+      "query": "team reviewing AI results",
+      "query2": "people analyzing AI data",
+      "chips": [
+        {
+          "t": "MEANINGFUL RESULTS",
+          "on": "results",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "The future requires synergy between technology and human creativity.",
+      "query": "brainstorming with AI",
+      "query2": "collaboration workspace",
+      "label": "SYNERGY IS KEY",
+      "sub": "Embrace collaboration!",
+      "label_on": "synergy",
+      "punch": "creativity"
+    },
+    {
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "AI flourishes when paired with human creativity, leading to innovative advancements. Follow for daily insights!",
+  "hashtags": [
+    "#AI",
+    "#collaboration",
+    "#technology",
+    "#innovation",
+    "#creativity",
+    "#shorts",
+    "#fyp"
+  ]
+}

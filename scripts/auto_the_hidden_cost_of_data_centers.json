@@ -1,0 +1,66 @@
+{
+  "title": "The Hidden Cost of Data Centers",
+  "place": "Meta Data Center",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Data centers waste billions in water while powering our digital lives.",
+      "hook_top": "DATA CENTERS' WATER CRISIS",
+      "query": "data center aerial view",
+      "query2": "water reservoir"
+    },
+    {
+      "role": "fact",
+      "text": "Meta recently faced backlash for contaminating water supplies from its data center.",
+      "query": "meta logo building",
+      "query2": "news reporters",
+      "chips": [
+        {
+          "t": "CONTAMINATION ISSUE",
+          "on": "contaminating",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "The tech industry consumes vast amounts of water, leading to growing concerns.",
+      "query": "water consumption industrial",
+      "query2": "charts showing water use",
+      "chips": [
+        {
+          "t": "GROWING CONCERNS",
+          "on": "concerns",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "What if your data's power comes at a cost to our resources?",
+      "query": "powering data centers",
+      "query2": "electricity grid",
+      "label": "THINK ABOUT IT",
+      "sub": "the digital impact on nature",
+      "label_on": "cost",
+      "punch": "impact"
+    },
+    {
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "futuristic technology skyline",
+      "query2": "circuit board close-up"
+    }
+  ],
+  "description": "Data centers like Meta's are depleting our water resources in silence. Follow for daily tech updates!",
+  "hashtags": [
+    "#tech",
+    "#data",
+    "#sustainability",
+    "#meta",
+    "#environment",
+    "#shorts",
+    "#fyp"
+  ]
+}
