@@ -1,0 +1,65 @@
+{
+  "title": "The Backlash Against AI Designs",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Critics say AI-driven designs are robbing human creativity.",
+      "hook_top": "AI DESIGN BACKLASH",
+      "query": "artificial intelligence",
+      "query2": "creative workspace"
+    },
+    {
+      "role": "fact",
+      "text": "Some employers regret firing creatives, citing AI as a reason.",
+      "query": "employee sad",
+      "query2": "office environment",
+      "chips": [
+        {
+          "t": "REGRETS OF AI",
+          "on": "regret",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "AI's capabilities can mimic styles, but they lack genuine emotion.",
+      "query": "AI artwork comparison",
+      "query2": "emotion in art",
+      "chips": [
+        {
+          "t": "LACKS EMOTION",
+          "on": "emotion",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Can AI replace the human touch in design? The debate rages on.",
+      "query": "debate creativity",
+      "query2": "graphic design work",
+      "label": "THE GREAT DEBATE",
+      "sub": "human vs AI creativity",
+      "label_on": "replace",
+      "punch": "debate"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "future technology concept",
+      "query2": "circuit board macro"
+    }
+  ],
+  "description": "The debate about AI's role in creativity grows as concerns rise. Follow for daily tech insights!",
+  "hashtags": [
+    "#AI",
+    "#design",
+    "#creativity",
+    "#artificialintelligence",
+    "#shorts",
+    "#fyp"
+  ]
+}

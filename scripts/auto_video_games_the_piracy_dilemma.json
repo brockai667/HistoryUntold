@@ -1,0 +1,65 @@
+{
+  "title": "Video Games: The Piracy Dilemma",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Could piracy be the only hope for preserving classic video games?",
+      "hook_top": "PIRACY SAVES HISTORIES",
+      "query": "vintage video games",
+      "query2": "retro gaming console"
+    },
+    {
+      "role": "fact",
+      "text": "Experts suggest piracy may protect endangered games from being lost forever.",
+      "query": "video game preservation",
+      "query2": "old game collection",
+      "chips": [
+        {
+          "t": "ENDANGERED GAMES",
+          "on": "endangered",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Without preservation efforts, many classic titles might never be seen again.",
+      "query": "classic games archive",
+      "query2": "faded game box",
+      "chips": [
+        {
+          "t": "NEVER SEEN AGAIN",
+          "on": "never",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Is piracy the best form of preservation in a digital age?",
+      "query": "digital preservation",
+      "query2": "cloud storage visuals",
+      "label": "A TOUGH QUESTION",
+      "sub": "preserving digital memories",
+      "label_on": "best",
+      "punch": "preservation"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "high tech game studio",
+      "query2": "advanced gaming setup"
+    }
+  ],
+  "description": "Piracy may become a crucial method for preserving classic video games. Follow for daily updates!",
+  "hashtags": [
+    "#gaming",
+    "#videogames",
+    "#piracy",
+    "#preservation",
+    "#shorts",
+    "#fyp"
+  ]
+}

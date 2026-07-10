@@ -1,0 +1,65 @@
+{
+  "title": "Powering the Future: Data Center Costs",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "New reports reveal shocking energy costs for data centers!",
+      "hook_top": "DATA CENTER ENERGY SHOCK",
+      "query": "data center power supply",
+      "query2": "electricity pylons"
+    },
+    {
+      "role": "fact",
+      "text": "Data centers consume more energy than some small countries.",
+      "query": "data center size comparison",
+      "query2": "countries map",
+      "chips": [
+        {
+          "t": "COUNTRY-SIZED POWER",
+          "on": "energy",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "This energy consumption contributes significantly to carbon footprints.",
+      "query": "carbon footprint statistics",
+      "query2": "pollution visuals",
+      "chips": [
+        {
+          "t": "SIGNIFICANT IMPACT",
+          "on": "impact",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Are we sacrificing our environment for digital convenience?",
+      "query": "environmental impact",
+      "query2": "pollution protests",
+      "label": "A GRAVE QUESTION",
+      "sub": "is convenience worth it?",
+      "label_on": "sacrificing",
+      "punch": "sacrifice"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "technology future vision",
+      "query2": "innovation visuals"
+    }
+  ],
+  "description": "Data centers' energy consumption rivals that of small nations, impacting the environment. Follow for daily tech updates!",
+  "hashtags": [
+    "#technology",
+    "#data",
+    "#sustainability",
+    "#energy",
+    "#shorts",
+    "#fyp"
+  ]
+}

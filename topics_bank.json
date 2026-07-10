@@ -2441,5 +2441,250 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "Why AI Cheating is Serious Business",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "AI has prompted drastic changes in how we assess student performance.",
+        "hook_top": "AI CHEATING IS REAL",
+        "query": "students taking exam",
+        "query2": "professor reviewing papers"
+      },
+      {
+        "role": "fact",
+        "text": "Recent studies show scores dropped significantly when professors required in-person finals.",
+        "query": "university classroom exam",
+        "query2": "students looking stressed",
+        "chips": [
+          {
+            "t": "50% SCORE DROP",
+            "on": "scores",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "This highlights growing concerns over the impact of AI on academic integrity.",
+        "query": "student using laptop",
+        "query2": "library study environment",
+        "chips": []
+      },
+      {
+        "role": "callout",
+        "text": "Academic challenges are evolving due to technology.",
+        "query": "professor debating with students",
+        "query2": "academic conference scene",
+        "label": "STAY AHEAD",
+        "sub": "adapt to AI innovations",
+        "label_on": "challenges"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "futuristic technology classroom",
+        "query2": "modern educational tools"
+      }
+    ],
+    "description": "The rise of AI in education is changing how students are assessed. Follow for daily tech!",
+    "hashtags": [
+      "#AI",
+      "#education",
+      "#academicintegrity",
+      "#technews",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Smart Glasses Get Banned in New York",
+    "place": "New York",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "New York has banned smart glasses in all courtrooms.",
+        "hook_top": "SMART GLASSES BANNED",
+        "query": "smart glasses usage",
+        "query2": "courtroom setting"
+      },
+      {
+        "role": "fact",
+        "text": "This ban affects 1,240 courtrooms statewide, aiming to protect privacy.",
+        "query": "courtroom proceedings",
+        "query2": "legal documents",
+        "chips": [
+          {
+            "t": "1,240 COURTROOMS",
+            "on": "number of courts",
+            "style": "white"
+          },
+          {
+            "t": "PROTECT PRIVACY",
+            "on": "privacy",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "Concerns include unauthorized recording and data sharing during legal trials.",
+        "query": "court trial scene",
+        "query2": "judges and lawyers",
+        "chips": []
+      },
+      {
+        "role": "callout",
+        "text": "Protecting legal processes is vital in our tech era.",
+        "query": "judicial gavel",
+        "query2": "courtroom witnessing",
+        "label": "COURT SECURITY",
+        "sub": "maintaining integrity",
+        "label_on": "privacy"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "new technology court",
+        "query2": "futuristic legal system"
+      }
+    ],
+    "description": "Smart glasses are now banned in all New York courtrooms. Follow for daily tech!",
+    "hashtags": [
+      "#smartglasses",
+      "#AI",
+      "#privacy",
+      "#legaltech",
+      "#technology",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "PlayStation’s Digital Deletion Dilemma",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Did you know PlayStation can erase your games after 3 years?",
+        "hook_top": "PLAYSTATION DELETES GAMES",
+        "query": "PlayStation logo",
+        "query2": "gamers playing console"
+      },
+      {
+        "role": "fact",
+        "text": "If your account is inactive for three years, all digital games may be removed.",
+        "query": "person looking concerned",
+        "query2": "online gaming library",
+        "chips": [
+          {
+            "t": "3 YEARS INACTIVITY",
+            "on": "time period",
+            "style": "white"
+          },
+          {
+            "t": "GAMES DISAPPEAR!",
+            "on": "digital games",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "Players unaware of this risk could lose their hard-earned purchases.",
+        "query": "gamers buying games",
+        "query2": "digital storefront screenshot",
+        "chips": []
+      },
+      {
+        "role": "callout",
+        "text": "Know your gaming rights to protect your investment.",
+        "query": "people discussing gaming",
+        "query2": "gaming convention",
+        "label": "KNOW YOUR RIGHTS",
+        "sub": "don’t lose your games",
+        "label_on": "investment"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "modern gaming setup",
+        "query2": "futuristic game design"
+      }
+    ],
+    "description": "PlayStation can delete your digital games after 3 years of inactivity. Follow for daily tech!",
+    "hashtags": [
+      "#PlayStation",
+      "#gaming",
+      "#digitalrights",
+      "#videogames",
+      "#technology",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Impact of AI on Job Dynamics",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "AI is reshaping the workforce in unexpected ways.",
+        "hook_top": "AI CHANGES JOBS",
+        "query": "business meeting",
+        "query2": "work environment"
+      },
+      {
+        "role": "fact",
+        "text": "Companies are facing unexpected costs while integrating AI into their workflow.",
+        "query": "expensive tech installation",
+        "query2": "employees working with AI",
+        "chips": [
+          {
+            "t": "SURPRISING COSTS",
+            "on": "costs",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "Executives are baffled by how AI has not cut costs as expected.",
+        "query": "business executives",
+        "query2": "planning strategies",
+        "chips": []
+      },
+      {
+        "role": "callout",
+        "text": "AI might not replace jobs, but it complicates them.",
+        "query": "workers collaborating",
+        "query2": "high tech workspace",
+        "label": "UNDERSTAND AI",
+        "sub": "it's all about adaptation",
+        "label_on": "jobs"
+      },
+      {
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "futuristic office space",
+        "query2": "advanced technology in business"
+      }
+    ],
+    "description": "AI is creating unexpected costs and confusion in the workforce. Follow for daily tech!",
+    "hashtags": [
+      "#AI",
+      "#workforce",
+      "#business",
+      "#technews",
+      "#futureofwork",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]
