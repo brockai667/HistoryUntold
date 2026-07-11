@@ -2686,5 +2686,261 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "AI Cheating: Exam Game Changer",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Ivy League exams see a 50% score drop due to AI suspicion.",
+        "hook_top": "AI IN THE CLASSROOM",
+        "query": "classroom students focused",
+        "query2": "exams papers table"
+      },
+      {
+        "role": "fact",
+        "text": "Professors are now requiring in-person finals to combat AI cheating.",
+        "query": "university building exterior",
+        "query2": "students studying indoors",
+        "chips": [
+          {
+            "t": "IN-PERSON FINALS",
+            "on": "finals",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "Before this shift, many relied heavily on technology for quick answers.",
+        "query": "students using laptops",
+        "query2": "students typing on phones",
+        "chips": [
+          {
+            "t": "TECH DEPENDENCE",
+            "on": "technology",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "This raises questions about fairness in education.",
+        "query": "students discussing",
+        "query2": "professor explaining",
+        "label": "FAIRNESS QUESTIONED",
+        "sub": "Is AI helping or hurting?",
+        "label_on": "questioned"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "students leaving classroom",
+        "query2": "campus quad with students"
+      }
+    ],
+    "description": "AI's influence in education is growing, causing drastic changes in testing methods. Follow for daily tech!",
+    "hashtags": [
+      "#AI",
+      "#education",
+      "#technology",
+      "#students",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Police Need Your Consent",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Police now require a warrant for phone location data.",
+        "hook_top": "NEW POLICE RULE",
+        "query": "police badge close up",
+        "query2": "law enforcement vehicle"
+      },
+      {
+        "role": "fact",
+        "text": "This Supreme Court ruling impacts how law enforcement collects evidence.",
+        "query": "supreme court building",
+        "query2": "courtroom proceedings",
+        "chips": [
+          {
+            "t": "SUPREME COURT RULING",
+            "on": "ruling",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "Previously, warrantless tracking was common without citizen knowledge.",
+        "query": "person using phone outdoors",
+        "query2": "people walking city streets",
+        "chips": [
+          {
+            "t": "WARRANTLESS TRACKING",
+            "on": "tracking",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "This could change how we view privacy and security.",
+        "query": "person thinking on street",
+        "query2": "focused individual deep in thought",
+        "label": "PRIVACY MATTERS",
+        "sub": "Do we trust the system?",
+        "label_on": "privacy"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "city skyline at dusk",
+        "query2": "data visualization graphics"
+      }
+    ],
+    "description": "A recent Supreme Court decision changes how police handle phone location data, prioritizing privacy. Follow for daily tech!",
+    "hashtags": [
+      "#privacy",
+      "#law",
+      "#AI",
+      "#technology",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Subscription Services Under Fire!",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "New rules aim to ban subscription traps and junk fees.",
+        "hook_top": "SUBSCRIPTION REFORM",
+        "query": "person frustrated with bills",
+        "query2": "computer with bills on screen"
+      },
+      {
+        "role": "fact",
+        "text": "Mayor Mamdani announced landmark consumer protection rules.",
+        "query": "town hall meeting",
+        "query2": "mayor speaking to crowd",
+        "chips": [
+          {
+            "t": "LANDMARK RULES",
+            "on": "rules",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "These changes could significantly impact how subscription services operate.",
+        "query": "subscription service advertisements",
+        "query2": "variety of subscription boxes",
+        "chips": [
+          {
+            "t": "IMPACT ON SERVICES",
+            "on": "impact",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Are we finally getting fair treatment as consumers?",
+        "query": "person reading consumer rights",
+        "query2": "man pondering with a notebook",
+        "label": "FAIR TREATMENT?",
+        "sub": "Consumer protection first!",
+        "label_on": "fair"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "city skyline with sunset",
+        "query2": "people engaged in conversations"
+      }
+    ],
+    "description": "Consumer protection is evolving with new rules banning unfair subscription practices. Follow for daily tech!",
+    "hashtags": [
+      "#consumers",
+      "#tech",
+      "#subscriptions",
+      "#law",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "DuckDuckGo vs. YouTube Ads",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "DuckDuckGo now blocks YouTube ads in its free web browser!",
+        "hook_top": "FREE AD BLOCKER",
+        "query": "person using laptop",
+        "query2": "web browser interface"
+      },
+      {
+        "role": "fact",
+        "text": "This move comes right after YouTube increased its Premium prices.",
+        "query": "YouTube logo on screen",
+        "query2": "subscription pricing table",
+        "chips": [
+          {
+            "t": "AD BLOCKING INNOVATION",
+            "on": "blocking",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "DuckDuckGo aims to enhance user privacy and browsing experience.",
+        "query": "person browsing online",
+        "query2": "secure browsing icon",
+        "chips": [
+          {
+            "t": "USER PRIVACY FOCUS",
+            "on": "privacy",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Is this the future of ad-free browsing?",
+        "query": "person enjoying browsing",
+        "query2": "happy user on a computer",
+        "label": "AD-FREE FUTURE?",
+        "sub": "Privacy meets browsing!",
+        "label_on": "ad-free"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "computer screen pixels close up",
+        "query2": "innovative tech interfaces"
+      }
+    ],
+    "description": "DuckDuckGo's new feature blocks ads, challenging the status quo after YouTube's price hike. Follow for daily tech!",
+    "hashtags": [
+      "#privacy",
+      "#ads",
+      "#tech",
+      "#browsing",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

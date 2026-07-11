@@ -1,0 +1,65 @@
+{
+  "title": "AI's Controversial Social Experiment",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "What happens when AI pretends to be a teenager online?",
+      "hook_top": "AI'S TEENAGE EXPERIMENT",
+      "query": "teenager using phone",
+      "query2": "social media screen"
+    },
+    {
+      "role": "fact",
+      "text": "Meta reportedly paid contractors to simulate teen accounts on social media.",
+      "query": "social media accounts",
+      "query2": "people on phones",
+      "chips": [
+        {
+          "t": "SIMULATING TEENS",
+          "on": "simulate",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "This raised concerns about ethics in AI and social media practices.",
+      "query": "ethics in AI",
+      "query2": "people discussing ethics",
+      "chips": [
+        {
+          "t": "ETHICAL CONCERNS",
+          "on": "concerns",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Are we crossing ethical lines for technological gains?",
+      "query": "technology ethics",
+      "query2": "technology and society",
+      "label": "ETHICS AT STAKE",
+      "sub": "the cost of innovation",
+      "label_on": "crossing",
+      "punch": "lines"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "future technology concepts",
+      "query2": "AI visuals"
+    }
+  ],
+  "description": "An AI social experiment by Meta raises serious ethical questions. Follow for daily updates!",
+  "hashtags": [
+    "#AI",
+    "#ethics",
+    "#socialmedia",
+    "#meta",
+    "#shorts",
+    "#fyp"
+  ]
+}

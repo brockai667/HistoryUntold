@@ -1,0 +1,67 @@
+{
+  "title": "The Supreme Court's Landmark Ruling Explained",
+  "place": "",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A new ruling means police need warrants for phone location data!",
+      "hook_top": "WARRANTS REQUIRED NOW",
+      "query": "court building exterior",
+      "query2": "gavel and court"
+    },
+    {
+      "role": "fact",
+      "text": "This pivotal decision impacts how police access personal phone information.",
+      "query": "police using phones",
+      "query2": "police in action",
+      "chips": [
+        {
+          "t": "IMPACT ON PRIVACY",
+          "on": "impact",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Privacy advocates celebrate this as a win for citizens' rights.",
+      "query": "privacy advocacy protest",
+      "query2": "advocate rally",
+      "chips": [
+        {
+          "t": "WIN FOR PRIVACY",
+          "on": "win",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Is our data truly safe now? The battle for privacy continues.",
+      "query": "data privacy concept",
+      "query2": "digital security",
+      "label": "DATA SAFETY",
+      "sub": "Is your info secure?",
+      "label_on": "privacy",
+      "punch": "secure"
+    },
+    {
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "constitutional rights document",
+      "query2": "legal documents"
+    }
+  ],
+  "description": "The Supreme Court now requires police warrants for accessing phone location data. What does this mean for privacy? Follow for daily tech!",
+  "hashtags": [
+    "#supremecourt",
+    "#privacy",
+    "#technology",
+    "#policing",
+    "#ai",
+    "#law",
+    "#shorts",
+    "#fyp"
+  ]
+}

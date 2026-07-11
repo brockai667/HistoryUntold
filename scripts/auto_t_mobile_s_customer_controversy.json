@@ -1,0 +1,65 @@
+{
+  "title": "T-Mobile's Customer Controversy",
+  "place": "T-Mobile",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Did T-Mobile just rip off millions with surprise billing?",
+      "hook_top": "TMOBILE SURPRISE BILLING",
+      "query": "T-Mobile store",
+      "query2": "customers looking shocked"
+    },
+    {
+      "role": "fact",
+      "text": "Recent reports indicate T-Mobile raised prices for 8 million users unexpectedly.",
+      "query": "T-Mobile news report",
+      "query2": "angry customers",
+      "chips": [
+        {
+          "t": "8 MILLION USERS",
+          "on": "users",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Customers complain of being switched to new plans without consent.",
+      "query": "customer complaint",
+      "query2": "customer service call",
+      "chips": [
+        {
+          "t": "UNAUTHORIZED SWITCH",
+          "on": "switched",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Are companies prioritizing profits over customer trust?",
+      "query": "business ethics discussion",
+      "query2": "boardroom meeting",
+      "label": "TRUST AT STAKE",
+      "sub": "a broken relationship",
+      "label_on": "profits",
+      "punch": "trust"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "technology consumer relations",
+      "query2": "corporate offices"
+    }
+  ],
+  "description": "T-Mobile faces backlash after raising prices for millions of unsuspecting customers. Follow for daily tech updates!",
+  "hashtags": [
+    "#technology",
+    "#TMobile",
+    "#customerservice",
+    "#billing",
+    "#shorts",
+    "#fyp"
+  ]
+}
