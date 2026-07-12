@@ -2942,5 +2942,123 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "Ivy League Scores Plummet: AI's Role",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "An Ivy League professor found AI may be a learning barrier, not a help.",
+        "hook_top": "AI CHEATING IN IVY LEAGUE",
+        "query": "university campus",
+        "query2": "students studying"
+      },
+      {
+        "role": "fact",
+        "text": "After enforcing in-person finals, scores dropped by half, raising eyebrows.",
+        "query": "exam students focused",
+        "query2": "students in exam hall",
+        "chips": [
+          {
+            "t": "50% SCORE DROP",
+            "on": "scores",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "This incident shines a light on AI's influence in modern education.",
+        "query": "classroom teaching session",
+        "query2": "students in lecture",
+        "chips": []
+      },
+      {
+        "role": "callout",
+        "text": "In-person exams are back, questioning AI's true impact.",
+        "query": "students preparing for exam",
+        "query2": "students studying",
+        "label": "EDUCATION AT A CROSSROADS",
+        "sub": "AI vs traditional learning",
+        "label_on": "impact",
+        "punch": "impact"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "futuristic technology city night",
+        "query2": "circuit board macro blue"
+      }
+    ],
+    "description": "An Ivy League professor found scores dropped by half after introducing in-person finals due to AI cheating concerns. Follow for daily tech!",
+    "hashtags": [
+      "#education",
+      "#AI",
+      "#technology",
+      "#college",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Subscription Traps: New Consumer Rules!",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "New rules could end the sneaky subscription traps plaguing consumers!",
+        "hook_top": "SUBSCRIPTION TRAP NO MORE",
+        "query": "person frustrated with bills",
+        "query2": "subscription service screen"
+      },
+      {
+        "role": "fact",
+        "text": "Consumers faced hidden fees and complicated cancellations, frustrating many.",
+        "query": "confused person reading bills",
+        "query2": "bills with fine print",
+        "chips": [
+          {
+            "t": "HIDDEN FEES",
+            "on": "fees",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "Mayor Mamdani's new rules aim to bring clarity and fairness.",
+        "query": "city government building",
+        "query2": "mayor speaking",
+        "chips": []
+      },
+      {
+        "role": "callout",
+        "text": "Great news for consumers! Say goodbye to unexpected junk fees!",
+        "query": "happy person using phone",
+        "query2": "person smiling at news",
+        "label": "FAIRER SUBSCRIPTION MODEL",
+        "sub": "consumer protection at last",
+        "label_on": "protection",
+        "punch": "protection"
+      },
+      {
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "futuristic technology city night",
+        "query2": "circuit board macro blue"
+      }
+    ],
+    "description": "New consumer protection rules aim to eliminate sneaky subscription traps and junk fees, giving power back to consumers. Follow for daily tech!",
+    "hashtags": [
+      "#subscriptions",
+      "#consumers",
+      "#technews",
+      "#policymaking",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

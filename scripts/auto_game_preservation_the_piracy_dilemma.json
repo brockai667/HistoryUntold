@@ -1,0 +1,67 @@
+{
+  "title": "Game Preservation: The Piracy Dilemma",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Is piracy the only way to preserve video games?",
+      "hook_top": "PIRACY AS PRESERVATION",
+      "query": "pixel art games",
+      "query2": "old video games"
+    },
+    {
+      "role": "fact",
+      "text": "Many classic games face extinction due to lost copyrights and data.",
+      "query": "lost video games",
+      "query2": "old gaming consoles",
+      "chips": [
+        {
+          "t": "CLASSICS AT RISK",
+          "on": "risk",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "The Video Game History Foundation highlights piracy as a means to save them.",
+      "query": "video game history",
+      "query2": "history foundation",
+      "chips": [
+        {
+          "t": "PRESERVATION EFFORTS",
+          "on": "preservation",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Game developers face tough choices: profit or preservation? Choose wisely.",
+      "query": "game developer studio",
+      "query2": "game development process",
+      "label": "DEVELOPER CHALLENGE",
+      "sub": "Profit or culture?",
+      "label_on": "choices",
+      "punch": "choices"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "gaming convention crowd",
+      "query2": "big gaming event"
+    }
+  ],
+  "description": "Many classic video games risk fading away, leading to debates on piracy for preservation. Follow for daily tech!",
+  "hashtags": [
+    "#videogames",
+    "#gamepreservation",
+    "#piracy",
+    "#tech",
+    "#ai",
+    "#gaming",
+    "#shorts",
+    "#fyp"
+  ]
+}

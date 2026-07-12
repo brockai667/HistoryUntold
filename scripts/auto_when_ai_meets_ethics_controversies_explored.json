@@ -1,0 +1,66 @@
+{
+  "title": "When AI Meets Ethics: Controversies Explored",
+  "place": "",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "AI's role in society is stirring ethical debates - is it going too far?",
+      "hook_top": "AI AND ETHICS COLLIDE",
+      "query": "AI technology",
+      "query2": "abstract AI visuals"
+    },
+    {
+      "role": "fact",
+      "text": "Critics argue AI can reinforce biases present in training data.",
+      "query": "AI bias concept",
+      "query2": "data analysis",
+      "chips": [
+        {
+          "t": "REINFORCING BIAS",
+          "on": "bias",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Discussions on AI's impact on jobs hint at broader societal shifts.",
+      "query": "job automation concept",
+      "query2": "robots in work",
+      "chips": [
+        {
+          "t": "JOB IMPACT",
+          "on": "jobs",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "As AI grows, the ethical dilemma intensifies. What's next for society?",
+      "query": "society and technology",
+      "query2": "cancel culture protest",
+      "label": "ETHICS MATTER",
+      "sub": "A future at stake.",
+      "label_on": "ethics",
+      "punch": "ethics"
+    },
+    {
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "futuristic tech landscape",
+      "query2": "AI interaction"
+    }
+  ],
+  "description": "AI technology raises ethical concerns regarding bias and job impacts. What lies ahead for society? Follow for daily tech!",
+  "hashtags": [
+    "#AI",
+    "#ethics",
+    "#technology",
+    "#society",
+    "#innovation",
+    "#shorts",
+    "#fyp"
+  ]
+}

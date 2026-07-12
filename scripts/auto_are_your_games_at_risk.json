@@ -1,0 +1,59 @@
+{
+  "title": "Are Your Games at Risk?",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Did you know your digital games could vanish after just three years of inactivity?",
+      "hook_top": "DIGITAL GAMES AT RISK",
+      "query": "digital game collection",
+      "query2": "gaming console close up"
+    },
+    {
+      "role": "fact",
+      "text": "Sony’s PlayStation can delete your digital games if you're inactive for three years.",
+      "query": "playstation logo",
+      "query2": "person playing video game",
+      "chips": [
+        {
+          "t": "3 YEARS",
+          "on": "inactivity",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "This means you might lose access to games you bought but never played again.",
+      "query": "game shelves",
+      "query2": "game store interior",
+      "chips": []
+    },
+    {
+      "role": "callout",
+      "text": "Protect your library!",
+      "query": "gamers in action",
+      "query2": "gaming accessories",
+      "label": "CHECK YOUR GAMES",
+      "sub": "how many have you played?",
+      "label_on": "protect",
+      "punch": "library"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "futuristic gaming setup",
+      "query2": "game controller macro"
+    }
+  ],
+  "description": "Your digital games may disappear after three years of inactivity. Stay informed and keep playing! Follow for daily tech!",
+  "hashtags": [
+    "#gaming",
+    "#tech",
+    "#playstation",
+    "#digitalgames",
+    "#shorts",
+    "#fyp"
+  ]
+}
