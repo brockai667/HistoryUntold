@@ -1,0 +1,59 @@
+{
+  "title": "Copper Heists: AI Data Centers Targeted",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Thieves are now targeting AI data centers for copper and valuable equipment!",
+      "hook_top": "DATA CENTER THIEVES",
+      "query": "thieves stealing copper",
+      "query2": "data center exterior"
+    },
+    {
+      "role": "fact",
+      "text": "Copper theft is rising as it’s essential for powering AI technology.",
+      "query": "copper wiring",
+      "query2": "copper mines",
+      "chips": [
+        {
+          "t": "RISING THEFTS",
+          "on": "thefts",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "These heists impact both security and the efficiency of data processing.",
+      "query": "data processing center",
+      "query2": "computer networks",
+      "chips": []
+    },
+    {
+      "role": "callout",
+      "text": "Secure your tech!",
+      "query": "security systems",
+      "query2": "surveillance cameras",
+      "label": "COPPER THEFT RISK",
+      "sub": "don't be a target!",
+      "label_on": "secure",
+      "punch": "tech"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech you should actually know.",
+      "query": "data center night",
+      "query2": "security team working"
+    }
+  ],
+  "description": "The rise in copper thefts from AI data centers poses security risks and affects efficiency. Stay updated! Follow for daily tech!",
+  "hashtags": [
+    "#AI",
+    "#theft",
+    "#technology",
+    "#datacenters",
+    "#shorts",
+    "#fyp"
+  ]
+}

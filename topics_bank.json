@@ -3060,5 +3060,336 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Truth About AI Cheating",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Ivy League final scores fell 50% due to AI concerns.",
+        "hook_top": "AI CHEATING SHOCKER",
+        "query": "students taking exam",
+        "query2": "college classroom"
+      },
+      {
+        "role": "fact",
+        "text": "Professors are ordering in-person finals to combat AI cheating.",
+        "query": "professor lecturing students",
+        "query2": "students raising hands",
+        "chips": [
+          {
+            "t": "IN-PERSON FINALS",
+            "on": "finals",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "Reports show a drastic drop in scores, shocking educators.",
+        "query": "students looking worried",
+        "query2": "exams on desks",
+        "chips": [
+          {
+            "t": "50% SCORE DROP",
+            "on": "scores",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "AI's impact is reshaping assessment in elite education.",
+        "query": "students discussing",
+        "query2": "college campus",
+        "label": "EDUCATION REFORM",
+        "sub": "AI effects on learning",
+        "label_on": "AI",
+        "punch": "impact"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "futuristic technology city night",
+        "query2": "circuit board macro blue"
+      }
+    ],
+    "description": "AI cheating is shaking up final exams and dropping scores by half! Follow for daily tech!",
+    "hashtags": [
+      "#AI",
+      "#education",
+      "#exams",
+      "#tech",
+      "#cheating",
+      "#history",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Click-To-Cancel: A Game Changer",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "A new rule lets you cancel subscriptions in a click!",
+        "hook_top": "CANCEL WITH A CLICK",
+        "query": "person using smartphone",
+        "query2": "cursor over subscription"
+      },
+      {
+        "role": "fact",
+        "text": "Mayor Mamdani's new rules aim to end deceptive fees.",
+        "query": "city hall announcement",
+        "query2": "mayor speaking",
+        "chips": [
+          {
+            "t": "NEW CONSUMER RULES",
+            "on": "rules",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "This legislation targets subscription traps affecting consumers.",
+        "query": "people reading subscriptions",
+        "query2": "worried customers",
+        "chips": [
+          {
+            "t": "STOP TRAP FEES",
+            "on": "trap",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Click-to-cancel could redefine consumer rights.",
+        "query": "people celebrating",
+        "query2": "customers in store",
+        "label": "EMPOWERED CONSUMERS",
+        "sub": "take back control!",
+        "label_on": "cancel",
+        "punch": "control"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "futuristic technology city night",
+        "query2": "circuit board macro blue"
+      }
+    ],
+    "description": "The new Click-To-Cancel rule empowers consumers to end subscription traps. Follow for daily tech!",
+    "hashtags": [
+      "#tech",
+      "#consumerrights",
+      "#subscriptions",
+      "#news",
+      "#consumerprotection",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "Billionaires Shielding Their Kids",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Tech billionaires are keeping their kids away from screens.",
+        "hook_top": "SCREENFREE KIDS",
+        "query": "children playing outside",
+        "query2": "children reading books"
+      },
+      {
+        "role": "fact",
+        "text": "Billionaires believe the products enriching them can harm youth.",
+        "query": "tech products in home",
+        "query2": "family with tech gadgets",
+        "chips": [
+          {
+            "t": "HARMFUL TECH?",
+            "on": "harm",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "They limit screen time to foster healthier lifestyles.",
+        "query": "family engaging in sports",
+        "query2": "family cooking together",
+        "chips": [
+          {
+            "t": "LIMIT SCREEN TIME",
+            "on": "limit",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "A surprising paradox: wealth leads to caution about tech.",
+        "query": "tech billionaires event",
+        "query2": "wealthy family activities",
+        "label": "TECH PARADOX",
+        "sub": "wealth breeds caution",
+        "label_on": "wealth",
+        "punch": "paradox"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "futuristic technology city night",
+        "query2": "circuit board macro blue"
+      }
+    ],
+    "description": "Tech billionaires are restricting screen time for their kids, fearing harm from their own products. Follow for daily tech!",
+    "hashtags": [
+      "#technology",
+      "#parenting",
+      "#billionaires",
+      "#healthylifestyle",
+      "#techparadox",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "NY's Ban on Smart Glasses",
+    "place": "New York",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "New York has banned smart glasses in all courts!",
+        "hook_top": "SMART GLASSES BANNED",
+        "query": "courtroom with judge",
+        "query2": "smart glasses in action"
+      },
+      {
+        "role": "fact",
+        "text": "The ban affects all state, county, and city courts.",
+        "query": "court buildings in NYC",
+        "query2": "courtroom audience",
+        "chips": [
+          {
+            "t": "ACROSS ALL COURTS",
+            "on": "all",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "Concerns over privacy and security fueled this decision.",
+        "query": "protest signs",
+        "query2": "court discussion",
+        "chips": [
+          {
+            "t": "PRIVACY CONCERNS",
+            "on": "privacy",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Is this the beginning of a wider trend against smart tech?",
+        "query": "person holding smart glasses",
+        "query2": "people in courtroom",
+        "label": "TECH BACKLASH",
+        "sub": "security over innovation",
+        "label_on": "backlash",
+        "punch": "trend"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "futuristic technology city night",
+        "query2": "circuit board macro blue"
+      }
+    ],
+    "description": "New York bans smart glasses in all courts due to privacy concerns. Follow for daily tech!",
+    "hashtags": [
+      "#smartglasses",
+      "#technology",
+      "#privacy",
+      "#law",
+      "#trends",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "NVIDIA’s AI Ambitions: A Warning?",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "NVIDIA wants AI to take over many jobs!",
+        "hook_top": "AI TAKEOVER ALERT",
+        "query": "AI robots working",
+        "query2": "workforce with AI"
+      },
+      {
+        "role": "fact",
+        "text": "The company aims to replace human roles with artificial intelligence.",
+        "query": "NVIDIA office environment",
+        "query2": "AI development lab",
+        "chips": [
+          {
+            "t": "REPLACEMENT GOAL",
+            "on": "replace",
+            "style": "white"
+          }
+        ]
+      },
+      {
+        "role": "fact",
+        "text": "This ambition raises profound concerns about job security.",
+        "query": "jobless individuals",
+        "query2": "people in line for jobs",
+        "chips": [
+          {
+            "t": "JOB SECURITY RISKS",
+            "on": "security",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "How will society adapt to this AI-driven future?",
+        "query": "futuristic city skyline",
+        "query2": "crowds in technology",
+        "label": "FUTURE OF WORK",
+        "sub": "prepare for change",
+        "label_on": "adapt",
+        "punch": "adapt"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "futuristic technology city night",
+        "query2": "circuit board macro blue"
+      }
+    ],
+    "description": "NVIDIA's goal to replace human workers with AI sparks serious concerns about job security. Follow for daily tech!",
+    "hashtags": [
+      "#AI",
+      "#NVIDIA",
+      "#jobs",
+      "#futureofwork",
+      "#technology",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

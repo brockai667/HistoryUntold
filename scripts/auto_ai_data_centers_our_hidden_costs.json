@@ -1,0 +1,59 @@
+{
+  "title": "AI Data Centers: Our Hidden Costs",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Did you know AI data centers are guzzling water and energy silently?",
+      "hook_top": "AI DATA CENTERS EXPOSED",
+      "query": "data center outside view",
+      "query2": "energy consumption graphic"
+    },
+    {
+      "role": "fact",
+      "text": "Meta's data center recently contaminated a city's water supply with harmful bacteria.",
+      "query": "water contamination",
+      "query2": "water testing lab",
+      "chips": [
+        {
+          "t": "HARMFUL BACTERIA",
+          "on": "bacteria",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "This raises questions about the environmental impact of AI technologies.",
+      "query": "environmental impact",
+      "query2": "pollution footage",
+      "chips": []
+    },
+    {
+      "role": "callout",
+      "text": "Time to rethink AI!",
+      "query": "people discussing tech",
+      "query2": "debate panel",
+      "label": "ENVIRONMENTAL COSTS",
+      "sub": "AI isn't free!",
+      "label_on": "rethink",
+      "punch": "costs"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "futuristic city water",
+      "query2": "data center machines"
+    }
+  ],
+  "description": "AI data centers impact environments, as seen in recent water contamination incidents. Stay informed! Follow for daily tech!",
+  "hashtags": [
+    "#AI",
+    "#technology",
+    "#dataCenters",
+    "#environment",
+    "#shorts",
+    "#fyp"
+  ]
+}

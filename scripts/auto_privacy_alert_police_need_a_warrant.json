@@ -1,0 +1,59 @@
+{
+  "title": "Privacy Alert: Police Need a Warrant!",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "The law now requires police to have a warrant to use your phone's location data!",
+      "hook_top": "YOUR LOCATION IS SAFE",
+      "query": "person using smartphone",
+      "query2": "police car in city"
+    },
+    {
+      "role": "fact",
+      "text": "The Supreme Court recently ruled this requirement protects citizens' privacy rights.",
+      "query": "supreme court building",
+      "query2": "courtroom interior",
+      "chips": [
+        {
+          "t": "SUPREME COURT RULING",
+          "on": "ruling",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "This means your personal data is more secure than before.",
+      "query": "secure data graphic",
+      "query2": "cybersecurity symbols",
+      "chips": []
+    },
+    {
+      "role": "callout",
+      "text": "Privacy matters!",
+      "query": "people in discussion",
+      "query2": "public forum",
+      "label": "PRIVACY RIGHTS",
+      "sub": "you are protected!",
+      "label_on": "privacy",
+      "punch": "matters"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "court gavel close-up",
+      "query2": "legal books on desk"
+    }
+  ],
+  "description": "A recent Supreme Court ruling mandates police to obtain warrants for phone location data, enhancing your privacy rights. Follow for daily tech!",
+  "hashtags": [
+    "#privacy",
+    "#law",
+    "#supremecourt",
+    "#technology",
+    "#shorts",
+    "#fyp"
+  ]
+}
