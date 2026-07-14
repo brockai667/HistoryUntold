@@ -1,0 +1,64 @@
+{
+  "title": "Smart Glasses Get Banned in New York",
+  "place": "New York",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "New York has banned smart glasses in all courtrooms.",
+      "hook_top": "SMART GLASSES BANNED",
+      "query": "smart glasses usage",
+      "query2": "courtroom setting"
+    },
+    {
+      "role": "fact",
+      "text": "This ban affects 1,240 courtrooms statewide, aiming to protect privacy.",
+      "query": "courtroom proceedings",
+      "query2": "legal documents",
+      "chips": [
+        {
+          "t": "1,240 COURTROOMS",
+          "on": "number of courts",
+          "style": "white"
+        },
+        {
+          "t": "PROTECT PRIVACY",
+          "on": "privacy",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Concerns include unauthorized recording and data sharing during legal trials.",
+      "query": "court trial scene",
+      "query2": "judges and lawyers",
+      "chips": []
+    },
+    {
+      "role": "callout",
+      "text": "Protecting legal processes is vital in our tech era.",
+      "query": "judicial gavel",
+      "query2": "courtroom witnessing",
+      "label": "COURT SECURITY",
+      "sub": "maintaining integrity",
+      "label_on": "privacy"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "new technology court",
+      "query2": "futuristic legal system"
+    }
+  ],
+  "description": "Smart glasses are now banned in all New York courtrooms. Follow for daily tech!",
+  "hashtags": [
+    "#smartglasses",
+    "#AI",
+    "#privacy",
+    "#legaltech",
+    "#technology",
+    "#shorts",
+    "#fyp"
+  ]
+}

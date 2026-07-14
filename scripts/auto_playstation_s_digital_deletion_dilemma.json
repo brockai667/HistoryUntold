@@ -1,0 +1,64 @@
+{
+  "title": "PlayStation’s Digital Deletion Dilemma",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Did you know PlayStation can erase your games after 3 years?",
+      "hook_top": "PLAYSTATION DELETES GAMES",
+      "query": "PlayStation logo",
+      "query2": "gamers playing console"
+    },
+    {
+      "role": "fact",
+      "text": "If your account is inactive for three years, all digital games may be removed.",
+      "query": "person looking concerned",
+      "query2": "online gaming library",
+      "chips": [
+        {
+          "t": "3 YEARS INACTIVITY",
+          "on": "time period",
+          "style": "white"
+        },
+        {
+          "t": "GAMES DISAPPEAR!",
+          "on": "digital games",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Players unaware of this risk could lose their hard-earned purchases.",
+      "query": "gamers buying games",
+      "query2": "digital storefront screenshot",
+      "chips": []
+    },
+    {
+      "role": "callout",
+      "text": "Know your gaming rights to protect your investment.",
+      "query": "people discussing gaming",
+      "query2": "gaming convention",
+      "label": "KNOW YOUR RIGHTS",
+      "sub": "don’t lose your games",
+      "label_on": "investment"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "modern gaming setup",
+      "query2": "futuristic game design"
+    }
+  ],
+  "description": "PlayStation can delete your digital games after 3 years of inactivity. Follow for daily tech!",
+  "hashtags": [
+    "#PlayStation",
+    "#gaming",
+    "#digitalrights",
+    "#videogames",
+    "#technology",
+    "#shorts",
+    "#fyp"
+  ]
+}

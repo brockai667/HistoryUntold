@@ -1,0 +1,58 @@
+{
+  "title": "Why AI Cheating is Serious Business",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "AI has prompted drastic changes in how we assess student performance.",
+      "hook_top": "AI CHEATING IS REAL",
+      "query": "students taking exam",
+      "query2": "professor reviewing papers"
+    },
+    {
+      "role": "fact",
+      "text": "Recent studies show scores dropped significantly when professors required in-person finals.",
+      "query": "university classroom exam",
+      "query2": "students looking stressed",
+      "chips": [
+        {
+          "t": "50% SCORE DROP",
+          "on": "scores",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "This highlights growing concerns over the impact of AI on academic integrity.",
+      "query": "student using laptop",
+      "query2": "library study environment",
+      "chips": []
+    },
+    {
+      "role": "callout",
+      "text": "Academic challenges are evolving due to technology.",
+      "query": "professor debating with students",
+      "query2": "academic conference scene",
+      "label": "STAY AHEAD",
+      "sub": "adapt to AI innovations",
+      "label_on": "challenges"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "futuristic technology classroom",
+      "query2": "modern educational tools"
+    }
+  ],
+  "description": "The rise of AI in education is changing how students are assessed. Follow for daily tech!",
+  "hashtags": [
+    "#AI",
+    "#education",
+    "#academicintegrity",
+    "#technews",
+    "#shorts",
+    "#fyp"
+  ]
+}
