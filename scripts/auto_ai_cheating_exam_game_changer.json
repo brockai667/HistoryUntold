@@ -1,0 +1,64 @@
+{
+  "title": "AI Cheating: Exam Game Changer",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Ivy League exams see a 50% score drop due to AI suspicion.",
+      "hook_top": "AI IN THE CLASSROOM",
+      "query": "classroom students focused",
+      "query2": "exams papers table"
+    },
+    {
+      "role": "fact",
+      "text": "Professors are now requiring in-person finals to combat AI cheating.",
+      "query": "university building exterior",
+      "query2": "students studying indoors",
+      "chips": [
+        {
+          "t": "IN-PERSON FINALS",
+          "on": "finals",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Before this shift, many relied heavily on technology for quick answers.",
+      "query": "students using laptops",
+      "query2": "students typing on phones",
+      "chips": [
+        {
+          "t": "TECH DEPENDENCE",
+          "on": "technology",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "This raises questions about fairness in education.",
+      "query": "students discussing",
+      "query2": "professor explaining",
+      "label": "FAIRNESS QUESTIONED",
+      "sub": "Is AI helping or hurting?",
+      "label_on": "questioned"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "students leaving classroom",
+      "query2": "campus quad with students"
+    }
+  ],
+  "description": "AI's influence in education is growing, causing drastic changes in testing methods. Follow for daily tech!",
+  "hashtags": [
+    "#AI",
+    "#education",
+    "#technology",
+    "#students",
+    "#shorts",
+    "#fyp"
+  ]
+}

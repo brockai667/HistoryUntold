@@ -1,0 +1,59 @@
+{
+  "title": "The Impact of AI on Job Dynamics",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "AI is reshaping the workforce in unexpected ways.",
+      "hook_top": "AI CHANGES JOBS",
+      "query": "business meeting",
+      "query2": "work environment"
+    },
+    {
+      "role": "fact",
+      "text": "Companies are facing unexpected costs while integrating AI into their workflow.",
+      "query": "expensive tech installation",
+      "query2": "employees working with AI",
+      "chips": [
+        {
+          "t": "SURPRISING COSTS",
+          "on": "costs",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Executives are baffled by how AI has not cut costs as expected.",
+      "query": "business executives",
+      "query2": "planning strategies",
+      "chips": []
+    },
+    {
+      "role": "callout",
+      "text": "AI might not replace jobs, but it complicates them.",
+      "query": "workers collaborating",
+      "query2": "high tech workspace",
+      "label": "UNDERSTAND AI",
+      "sub": "it's all about adaptation",
+      "label_on": "jobs"
+    },
+    {
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "futuristic office space",
+      "query2": "advanced technology in business"
+    }
+  ],
+  "description": "AI is creating unexpected costs and confusion in the workforce. Follow for daily tech!",
+  "hashtags": [
+    "#AI",
+    "#workforce",
+    "#business",
+    "#technews",
+    "#futureofwork",
+    "#shorts",
+    "#fyp"
+  ]
+}

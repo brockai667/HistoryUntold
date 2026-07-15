@@ -1,0 +1,64 @@
+{
+  "title": "Police Need Your Consent",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Police now require a warrant for phone location data.",
+      "hook_top": "NEW POLICE RULE",
+      "query": "police badge close up",
+      "query2": "law enforcement vehicle"
+    },
+    {
+      "role": "fact",
+      "text": "This Supreme Court ruling impacts how law enforcement collects evidence.",
+      "query": "supreme court building",
+      "query2": "courtroom proceedings",
+      "chips": [
+        {
+          "t": "SUPREME COURT RULING",
+          "on": "ruling",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Previously, warrantless tracking was common without citizen knowledge.",
+      "query": "person using phone outdoors",
+      "query2": "people walking city streets",
+      "chips": [
+        {
+          "t": "WARRANTLESS TRACKING",
+          "on": "tracking",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "This could change how we view privacy and security.",
+      "query": "person thinking on street",
+      "query2": "focused individual deep in thought",
+      "label": "PRIVACY MATTERS",
+      "sub": "Do we trust the system?",
+      "label_on": "privacy"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech you should actually know.",
+      "query": "city skyline at dusk",
+      "query2": "data visualization graphics"
+    }
+  ],
+  "description": "A recent Supreme Court decision changes how police handle phone location data, prioritizing privacy. Follow for daily tech!",
+  "hashtags": [
+    "#privacy",
+    "#law",
+    "#AI",
+    "#technology",
+    "#shorts",
+    "#fyp"
+  ]
+}
