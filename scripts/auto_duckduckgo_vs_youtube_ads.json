@@ -1,0 +1,64 @@
+{
+  "title": "DuckDuckGo vs. YouTube Ads",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "DuckDuckGo now blocks YouTube ads in its free web browser!",
+      "hook_top": "FREE AD BLOCKER",
+      "query": "person using laptop",
+      "query2": "web browser interface"
+    },
+    {
+      "role": "fact",
+      "text": "This move comes right after YouTube increased its Premium prices.",
+      "query": "YouTube logo on screen",
+      "query2": "subscription pricing table",
+      "chips": [
+        {
+          "t": "AD BLOCKING INNOVATION",
+          "on": "blocking",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "DuckDuckGo aims to enhance user privacy and browsing experience.",
+      "query": "person browsing online",
+      "query2": "secure browsing icon",
+      "chips": [
+        {
+          "t": "USER PRIVACY FOCUS",
+          "on": "privacy",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Is this the future of ad-free browsing?",
+      "query": "person enjoying browsing",
+      "query2": "happy user on a computer",
+      "label": "AD-FREE FUTURE?",
+      "sub": "Privacy meets browsing!",
+      "label_on": "ad-free"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "computer screen pixels close up",
+      "query2": "innovative tech interfaces"
+    }
+  ],
+  "description": "DuckDuckGo's new feature blocks ads, challenging the status quo after YouTube's price hike. Follow for daily tech!",
+  "hashtags": [
+    "#privacy",
+    "#ads",
+    "#tech",
+    "#browsing",
+    "#shorts",
+    "#fyp"
+  ]
+}

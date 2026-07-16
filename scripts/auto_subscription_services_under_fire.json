@@ -1,0 +1,64 @@
+{
+  "title": "Subscription Services Under Fire!",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "New rules aim to ban subscription traps and junk fees.",
+      "hook_top": "SUBSCRIPTION REFORM",
+      "query": "person frustrated with bills",
+      "query2": "computer with bills on screen"
+    },
+    {
+      "role": "fact",
+      "text": "Mayor Mamdani announced landmark consumer protection rules.",
+      "query": "town hall meeting",
+      "query2": "mayor speaking to crowd",
+      "chips": [
+        {
+          "t": "LANDMARK RULES",
+          "on": "rules",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "These changes could significantly impact how subscription services operate.",
+      "query": "subscription service advertisements",
+      "query2": "variety of subscription boxes",
+      "chips": [
+        {
+          "t": "IMPACT ON SERVICES",
+          "on": "impact",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Are we finally getting fair treatment as consumers?",
+      "query": "person reading consumer rights",
+      "query2": "man pondering with a notebook",
+      "label": "FAIR TREATMENT?",
+      "sub": "Consumer protection first!",
+      "label_on": "fair"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "city skyline with sunset",
+      "query2": "people engaged in conversations"
+    }
+  ],
+  "description": "Consumer protection is evolving with new rules banning unfair subscription practices. Follow for daily tech!",
+  "hashtags": [
+    "#consumers",
+    "#tech",
+    "#subscriptions",
+    "#law",
+    "#shorts",
+    "#fyp"
+  ]
+}

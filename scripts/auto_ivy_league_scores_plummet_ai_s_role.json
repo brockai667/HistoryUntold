@@ -1,0 +1,59 @@
+{
+  "title": "Ivy League Scores Plummet: AI's Role",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "An Ivy League professor found AI may be a learning barrier, not a help.",
+      "hook_top": "AI CHEATING IN IVY LEAGUE",
+      "query": "university campus",
+      "query2": "students studying"
+    },
+    {
+      "role": "fact",
+      "text": "After enforcing in-person finals, scores dropped by half, raising eyebrows.",
+      "query": "exam students focused",
+      "query2": "students in exam hall",
+      "chips": [
+        {
+          "t": "50% SCORE DROP",
+          "on": "scores",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "This incident shines a light on AI's influence in modern education.",
+      "query": "classroom teaching session",
+      "query2": "students in lecture",
+      "chips": []
+    },
+    {
+      "role": "callout",
+      "text": "In-person exams are back, questioning AI's true impact.",
+      "query": "students preparing for exam",
+      "query2": "students studying",
+      "label": "EDUCATION AT A CROSSROADS",
+      "sub": "AI vs traditional learning",
+      "label_on": "impact",
+      "punch": "impact"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "An Ivy League professor found scores dropped by half after introducing in-person finals due to AI cheating concerns. Follow for daily tech!",
+  "hashtags": [
+    "#education",
+    "#AI",
+    "#technology",
+    "#college",
+    "#shorts",
+    "#fyp"
+  ]
+}
