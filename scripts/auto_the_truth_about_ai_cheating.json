@@ -1,0 +1,67 @@
+{
+  "title": "The Truth About AI Cheating",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Ivy League final scores fell 50% due to AI concerns.",
+      "hook_top": "AI CHEATING SHOCKER",
+      "query": "students taking exam",
+      "query2": "college classroom"
+    },
+    {
+      "role": "fact",
+      "text": "Professors are ordering in-person finals to combat AI cheating.",
+      "query": "professor lecturing students",
+      "query2": "students raising hands",
+      "chips": [
+        {
+          "t": "IN-PERSON FINALS",
+          "on": "finals",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Reports show a drastic drop in scores, shocking educators.",
+      "query": "students looking worried",
+      "query2": "exams on desks",
+      "chips": [
+        {
+          "t": "50% SCORE DROP",
+          "on": "scores",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "AI's impact is reshaping assessment in elite education.",
+      "query": "students discussing",
+      "query2": "college campus",
+      "label": "EDUCATION REFORM",
+      "sub": "AI effects on learning",
+      "label_on": "AI",
+      "punch": "impact"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "AI cheating is shaking up final exams and dropping scores by half! Follow for daily tech!",
+  "hashtags": [
+    "#AI",
+    "#education",
+    "#exams",
+    "#tech",
+    "#cheating",
+    "#history",
+    "#shorts",
+    "#fyp"
+  ]
+}

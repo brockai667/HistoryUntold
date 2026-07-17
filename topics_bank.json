@@ -3890,5 +3890,274 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "The Tech Billionaire Shielding Trend",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Tech billionaires are shielding their kids from the very products they created.",
+        "hook_top": "PROTECTING THEIR KIDS",
+        "query": "children playing with tech",
+        "query2": "luxury lifestyle family"
+      },
+      {
+        "role": "fact",
+        "text": "Many tech elites restrict access to devices, fearing negative impacts on childhood.",
+        "query": "parent monitoring screen time",
+        "query2": "high-tech devices children",
+        "chips": [
+          {
+            "t": "SCREEN TIME",
+            "on": "access",
+            "style": "white"
+          }
+        ],
+        "punch": "impacts"
+      },
+      {
+        "role": "fact",
+        "text": "This trend reveals concerns over technology addiction and mental health.",
+        "query": "child looking stressed",
+        "query2": "family therapy session",
+        "chips": [
+          {
+            "t": "MENTAL HEALTH",
+            "on": "concerns",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Are we prioritizing social skills over screen time?",
+        "query": "children playing outside",
+        "query2": "kids in playground",
+        "label": "SOCIAL SKILLS MATTER",
+        "sub": "Balancing tech and real life",
+        "label_on": "prioritizing",
+        "punch": "skills"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "futuristic family home",
+        "query2": "smart home technology"
+      }
+    ],
+    "description": "Are tech billionaires right to shield their children from gadgets? Let's explore the growing trend! Follow for daily tech!",
+    "hashtags": [
+      "#tech",
+      "#technology",
+      "#parenting",
+      "#mentalhealth",
+      "#gadgets",
+      "#family",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "SpaceX Stock: A Major Drop!",
+    "place": "Florida",
+    "country": "USA",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "SpaceX's stock just hit an all-time low following major competition!",
+        "hook_top": "SPACEX STOCK PLUNGES",
+        "query": "SpaceX rocket launch",
+        "query2": "Stock market graphic"
+      },
+      {
+        "role": "fact",
+        "text": "Analysts say it’s due to rising competition in the aerospace sector.",
+        "query": "aerospace industry",
+        "query2": "competitive stock exchange",
+        "chips": [
+          {
+            "t": "RISING COMPETITION",
+            "on": "competition",
+            "style": "white"
+          }
+        ],
+        "punch": "industry"
+      },
+      {
+        "role": "fact",
+        "text": "Investors worry about market saturation as new players emerge.",
+        "query": "new aerospace startups",
+        "query2": "busy stock trader",
+        "chips": [
+          {
+            "t": "MARKET SATURATION",
+            "on": "saturation",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Is SpaceX's dominance in jeopardy?",
+        "query": "SpaceX headquarters",
+        "query2": "rocket design team in action",
+        "label": "DOMINANCE IN DANGER?",
+        "sub": "What’s next for SpaceX?",
+        "label_on": "dominance",
+        "punch": "jeopardy"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "high-tech launch facility",
+        "query2": "space exploration footage"
+      }
+    ],
+    "description": "SpaceX's stock has plummeted due to increased competition. What does this mean for the future? Follow for daily tech!",
+    "hashtags": [
+      "#SpaceX",
+      "#technology",
+      "#stocks",
+      "#competition",
+      "#aerospace",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "AI-Made Listings: Beware!",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Watch out! AI-generated apartment listings can be misleading.",
+        "hook_top": "DECEPTIVE AI LISTINGS",
+        "query": "apartment listings online",
+        "query2": "person searching for apartments"
+      },
+      {
+        "role": "fact",
+        "text": "Some listings are fabricated, creating a false market environment.",
+        "query": "fake apartment photos",
+        "query2": "frustrated apartment seeker",
+        "chips": [
+          {
+            "t": "FALSE MARKET",
+            "on": "fabricated",
+            "style": "white"
+          }
+        ],
+        "punch": "fabricated"
+      },
+      {
+        "role": "fact",
+        "text": "Users often fall for these traps, wasting their time and money.",
+        "query": "person confused apartment",
+        "query2": "money falling down",
+        "chips": [
+          {
+            "t": "WASTED TIME!",
+            "on": "wasting",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Always verify listings before you commit!",
+        "query": "person verifying info online",
+        "query2": "internet safety tips",
+        "label": "VERIFY BEFORE YOU COMMIT",
+        "sub": "Don’t get caught in traps!",
+        "label_on": "verify",
+        "punch": "verify"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "digital security concepts",
+        "query2": "cybersecurity visuals"
+      }
+    ],
+    "description": "AI-generated apartment listings are often misleading. Always verify before committing! Follow for daily tech!",
+    "hashtags": [
+      "#AI",
+      "#technology",
+      "#realestate",
+      "#scams",
+      "#apartments",
+      "#shorts",
+      "#fyp"
+    ]
+  },
+  {
+    "title": "The Death of the Status Update",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Over half of Americans have stopped posting status updates on social media!",
+        "hook_top": "THE STATUS UPDATE IS DEAD",
+        "query": "person typing on social media",
+        "query2": "social media graphic"
+      },
+      {
+        "role": "fact",
+        "text": "People are shifting towards private sharing rather than public posts.",
+        "query": "people messaging privately",
+        "query2": "group chat on phone",
+        "chips": [
+          {
+            "t": "PRIVATE SHARING",
+            "on": "shifting",
+            "style": "white"
+          }
+        ],
+        "punch": "shifting"
+      },
+      {
+        "role": "fact",
+        "text": "Concerns about privacy and oversharing are influencing this trend.",
+        "query": "person looking worried online",
+        "query2": "privacy settings on social media",
+        "chips": [
+          {
+            "t": "PRIVACY CONCERNS",
+            "on": "privacy",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Is social media losing its social aspect?",
+        "query": "social gathering with phones",
+        "query2": "friends at dinner",
+        "label": "IS SOCIAL MEDIA SOCIAL?",
+        "sub": "Questioning our digital habits",
+        "label_on": "social",
+        "punch": "losing"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "modern tech interactions",
+        "query2": "people using gadgets"
+      }
+    ],
+    "description": "A majority of Americans are moving away from public status updates. Is social media losing its essence? Follow for daily tech!",
+    "hashtags": [
+      "#socialmedia",
+      "#technology",
+      "#privacy",
+      "#trends",
+      "#updates",
+      "#shorts",
+      "#fyp"
+    ]
   }
 ]

@@ -1,0 +1,66 @@
+{
+  "title": "Click-To-Cancel: A Game Changer",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "A new rule lets you cancel subscriptions in a click!",
+      "hook_top": "CANCEL WITH A CLICK",
+      "query": "person using smartphone",
+      "query2": "cursor over subscription"
+    },
+    {
+      "role": "fact",
+      "text": "Mayor Mamdani's new rules aim to end deceptive fees.",
+      "query": "city hall announcement",
+      "query2": "mayor speaking",
+      "chips": [
+        {
+          "t": "NEW CONSUMER RULES",
+          "on": "rules",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "This legislation targets subscription traps affecting consumers.",
+      "query": "people reading subscriptions",
+      "query2": "worried customers",
+      "chips": [
+        {
+          "t": "STOP TRAP FEES",
+          "on": "trap",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Click-to-cancel could redefine consumer rights.",
+      "query": "people celebrating",
+      "query2": "customers in store",
+      "label": "EMPOWERED CONSUMERS",
+      "sub": "take back control!",
+      "label_on": "cancel",
+      "punch": "control"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "The new Click-To-Cancel rule empowers consumers to end subscription traps. Follow for daily tech!",
+  "hashtags": [
+    "#tech",
+    "#consumerrights",
+    "#subscriptions",
+    "#news",
+    "#consumerprotection",
+    "#shorts",
+    "#fyp"
+  ]
+}

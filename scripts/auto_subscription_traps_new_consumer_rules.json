@@ -1,0 +1,59 @@
+{
+  "title": "Subscription Traps: New Consumer Rules!",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "New rules could end the sneaky subscription traps plaguing consumers!",
+      "hook_top": "SUBSCRIPTION TRAP NO MORE",
+      "query": "person frustrated with bills",
+      "query2": "subscription service screen"
+    },
+    {
+      "role": "fact",
+      "text": "Consumers faced hidden fees and complicated cancellations, frustrating many.",
+      "query": "confused person reading bills",
+      "query2": "bills with fine print",
+      "chips": [
+        {
+          "t": "HIDDEN FEES",
+          "on": "fees",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Mayor Mamdani's new rules aim to bring clarity and fairness.",
+      "query": "city government building",
+      "query2": "mayor speaking",
+      "chips": []
+    },
+    {
+      "role": "callout",
+      "text": "Great news for consumers! Say goodbye to unexpected junk fees!",
+      "query": "happy person using phone",
+      "query2": "person smiling at news",
+      "label": "FAIRER SUBSCRIPTION MODEL",
+      "sub": "consumer protection at last",
+      "label_on": "protection",
+      "punch": "protection"
+    },
+    {
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "New consumer protection rules aim to eliminate sneaky subscription traps and junk fees, giving power back to consumers. Follow for daily tech!",
+  "hashtags": [
+    "#subscriptions",
+    "#consumers",
+    "#technews",
+    "#policymaking",
+    "#shorts",
+    "#fyp"
+  ]
+}
