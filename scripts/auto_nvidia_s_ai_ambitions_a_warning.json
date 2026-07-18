@@ -1,0 +1,66 @@
+{
+  "title": "NVIDIA’s AI Ambitions: A Warning?",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "NVIDIA wants AI to take over many jobs!",
+      "hook_top": "AI TAKEOVER ALERT",
+      "query": "AI robots working",
+      "query2": "workforce with AI"
+    },
+    {
+      "role": "fact",
+      "text": "The company aims to replace human roles with artificial intelligence.",
+      "query": "NVIDIA office environment",
+      "query2": "AI development lab",
+      "chips": [
+        {
+          "t": "REPLACEMENT GOAL",
+          "on": "replace",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "This ambition raises profound concerns about job security.",
+      "query": "jobless individuals",
+      "query2": "people in line for jobs",
+      "chips": [
+        {
+          "t": "JOB SECURITY RISKS",
+          "on": "security",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "How will society adapt to this AI-driven future?",
+      "query": "futuristic city skyline",
+      "query2": "crowds in technology",
+      "label": "FUTURE OF WORK",
+      "sub": "prepare for change",
+      "label_on": "adapt",
+      "punch": "adapt"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "NVIDIA's goal to replace human workers with AI sparks serious concerns about job security. Follow for daily tech!",
+  "hashtags": [
+    "#AI",
+    "#NVIDIA",
+    "#jobs",
+    "#futureofwork",
+    "#technology",
+    "#shorts",
+    "#fyp"
+  ]
+}

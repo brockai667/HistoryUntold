@@ -1,0 +1,66 @@
+{
+  "title": "Billionaires Shielding Their Kids",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Tech billionaires are keeping their kids away from screens.",
+      "hook_top": "SCREENFREE KIDS",
+      "query": "children playing outside",
+      "query2": "children reading books"
+    },
+    {
+      "role": "fact",
+      "text": "Billionaires believe the products enriching them can harm youth.",
+      "query": "tech products in home",
+      "query2": "family with tech gadgets",
+      "chips": [
+        {
+          "t": "HARMFUL TECH?",
+          "on": "harm",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "They limit screen time to foster healthier lifestyles.",
+      "query": "family engaging in sports",
+      "query2": "family cooking together",
+      "chips": [
+        {
+          "t": "LIMIT SCREEN TIME",
+          "on": "limit",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "A surprising paradox: wealth leads to caution about tech.",
+      "query": "tech billionaires event",
+      "query2": "wealthy family activities",
+      "label": "TECH PARADOX",
+      "sub": "wealth breeds caution",
+      "label_on": "wealth",
+      "punch": "paradox"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "Tech billionaires are restricting screen time for their kids, fearing harm from their own products. Follow for daily tech!",
+  "hashtags": [
+    "#technology",
+    "#parenting",
+    "#billionaires",
+    "#healthylifestyle",
+    "#techparadox",
+    "#shorts",
+    "#fyp"
+  ]
+}

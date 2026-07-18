@@ -1,0 +1,66 @@
+{
+  "title": "NY's Ban on Smart Glasses",
+  "place": "New York",
+  "country": "USA",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "New York has banned smart glasses in all courts!",
+      "hook_top": "SMART GLASSES BANNED",
+      "query": "courtroom with judge",
+      "query2": "smart glasses in action"
+    },
+    {
+      "role": "fact",
+      "text": "The ban affects all state, county, and city courts.",
+      "query": "court buildings in NYC",
+      "query2": "courtroom audience",
+      "chips": [
+        {
+          "t": "ACROSS ALL COURTS",
+          "on": "all",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Concerns over privacy and security fueled this decision.",
+      "query": "protest signs",
+      "query2": "court discussion",
+      "chips": [
+        {
+          "t": "PRIVACY CONCERNS",
+          "on": "privacy",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Is this the beginning of a wider trend against smart tech?",
+      "query": "person holding smart glasses",
+      "query2": "people in courtroom",
+      "label": "TECH BACKLASH",
+      "sub": "security over innovation",
+      "label_on": "backlash",
+      "punch": "trend"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "New York bans smart glasses in all courts due to privacy concerns. Follow for daily tech!",
+  "hashtags": [
+    "#smartglasses",
+    "#technology",
+    "#privacy",
+    "#law",
+    "#trends",
+    "#shorts",
+    "#fyp"
+  ]
+}
