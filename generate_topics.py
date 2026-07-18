@@ -23,8 +23,8 @@ MODEL = os.environ.get("MODELS_MODEL", "openai/gpt-4o-mini")
 BASE = os.environ.get("MODELS_BASE_URL", "https://models.github.ai/inference")
 TOKEN = os.environ.get("MODELS_TOKEN") or os.environ.get("GITHUB_TOKEN")
 
-TREND_SUBREDDITS = ['technology', 'artificial', 'Futurology', 'gadgets', 'singularity']
-TREND_YT_QUERIES = ['tech news', 'ai news', 'new technology explained']
+TREND_SUBREDDITS = ['gaming', 'retrogaming', 'technology', 'DataHoarder', 'todayilearned']
+TREND_YT_QUERIES = ['gaming history explained', 'how computers work', 'retro technology', 'tech explained']
 
 SYSTEM = ("You are a scriptwriter for a short-form brand about technology and AI: news, breakthroughs, gadgets and the history of computing, explained simply. "
           "ACCURACY IS CRITICAL: use ONLY widely-documented, verifiable facts. NEVER invent or guess "
@@ -117,6 +117,13 @@ CTAS = [
 ]
 
 
+
+PERFORMANCE = (
+    "\nPERFORMANCE DATA (real results - obey this, it decides reach):\n"
+    "- WHAT PERFORMS (strongly prefer these): gaming history and game preservation, piracy/DRM sagas, retro and nostalgic tech, how everyday tech actually works (files, chips, the first computer bug), famous hacks, glitches and bugs, relatable everyday-tech curiosity. These are the proven winners.\n"
+    "- WHAT KILLS REACH (avoid): dystopian AI-surveillance doom, abstract AI-risk or AI-ethics essays, generic 'your data is not safe' privacy scares, and vague futurology/singularity speculation - these consistently get near-zero views. Prefer concrete tech people already touch.\n"
+)
+
 def build_prompt(n, existing_titles, trending=None):
     trend_block = ""
     if trending:
@@ -159,7 +166,7 @@ def build_prompt(n, existing_titles, trending=None):
         f"- Do NOT reuse any of these existing titles: {existing_titles}\n"
         "- Do NOT repeat the same SUBJECT or fact as any existing title above, even reworded. Every "
         "topic must be a genuinely DIFFERENT idea.\n"
-        + trend_block +
+        + PERFORMANCE + trend_block +
         "Return ONLY the JSON array."
     )
 
