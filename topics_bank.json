@@ -4159,5 +4159,345 @@
       "#shorts",
       "#fyp"
     ]
+  },
+  {
+    "title": "Sony's Digital Game Dilemma",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "You could lose your digital games forever with one bad login.",
+        "hook_top": "DIGITAL GAMES AT RISK",
+        "query": "person looking at game library",
+        "query2": "sad gamer expression"
+      },
+      {
+        "role": "fact",
+        "text": "Microsoft recently deleted a user's 25-year-old Xbox account, losing thousands in games.",
+        "query": "xbox console with games",
+        "query2": "retro gaming setup",
+        "chips": [
+          {
+            "t": "25 YEARS OLD",
+            "on": "account",
+            "style": "white"
+          },
+          {
+            "t": "THOUSANDS LOST",
+            "on": "games",
+            "style": "accent"
+          }
+        ],
+        "punch": "lost"
+      },
+      {
+        "role": "fact",
+        "text": "Digital exclusives mean you don't truly own the games you buy.",
+        "query": "digital game store interface",
+        "query2": "person browsing games",
+        "chips": [
+          {
+            "t": "DIGITAL EXCLUSIVES",
+            "on": "ownership",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Real ownership? It's just a mirage in the digital world.",
+        "query": "person pondering on gaming",
+        "query2": "thoughtful gamer",
+        "label": "OWNERSHIP FALLACY",
+        "sub": "Digital doesn't mean owned",
+        "label_on": "ownership",
+        "punch": "mirage"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "futuristic technology city night",
+        "query2": "circuit board macro blue"
+      }
+    ],
+    "description": "Digital games can be lost forever due to account issues. Ownership isn't guaranteed! Follow for daily tech!",
+    "hashtags": [
+      "#tech",
+      "#gaming",
+      "#xbox",
+      "#digitalgames",
+      "#sony",
+      "#fyp",
+      "#shorts"
+    ]
+  },
+  {
+    "title": "The PS6's Digital Exclusive Future",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "What happens when the PS6 goes fully digital? Millions may miss out!",
+        "hook_top": "PS6 A DIGITAL FUTURE",
+        "query": "playstation 6 concept art",
+        "query2": "console with disks"
+      },
+      {
+        "role": "fact",
+        "text": "62% of countries may not access the PlayStation Store with PS6's digital-only model.",
+        "query": "globe highlighting regions",
+        "query2": "world map",
+        "chips": [
+          {
+            "t": "62% COUNTRIES",
+            "on": "access",
+            "style": "white"
+          }
+        ],
+        "punch": "access"
+      },
+      {
+        "role": "fact",
+        "text": "Digital exclusives could mean no physical copies, raising ownership concerns.",
+        "query": "stack of video games",
+        "query2": "empty game shelves",
+        "chips": [
+          {
+            "t": "NO PHYSICAL COPIES",
+            "on": "ownership",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "In the end, physical games are becoming a relic of the past.",
+        "query": "retro game store",
+        "query2": "old game console collection",
+        "label": "ARE PHYSICAL GAMES DEAD?",
+        "sub": "The future is digital",
+        "label_on": "future",
+        "punch": "dead"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "futuristic technology city night",
+        "query2": "circuit board macro blue"
+      }
+    ],
+    "description": "The PS6 may exclude millions from the PlayStation Store. Are physical games a thing of the past? Follow for daily tech!",
+    "hashtags": [
+      "#tech",
+      "#ps6",
+      "#gaming",
+      "#digital",
+      "#playstation",
+      "#fyp",
+      "#shorts"
+    ]
+  },
+  {
+    "title": "Fallout's Incredible Remaster Journey",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "The Fallout series is getting a second chance at life with remasters!",
+        "hook_top": "FALLOUT'S REMASTERED REVIVAL",
+        "query": "fallout video game characters",
+        "query2": "retro fallout game scene"
+      },
+      {
+        "role": "fact",
+        "text": "Bethesda recently confirmed remasters for Fallout 3 and New Vegas, igniting excitement.",
+        "query": "bethesda studio office",
+        "query2": "company logo on wall",
+        "chips": [
+          {
+            "t": "CONFIRMED REMASTERS",
+            "on": "remasters",
+            "style": "white"
+          }
+        ],
+        "punch": "excitement"
+      },
+      {
+        "role": "fact",
+        "text": "Fans believe these classic titles deserve new graphics and updates.",
+        "query": "gamers discussing games",
+        "query2": "people playing fallout",
+        "chips": [
+          {
+            "t": "NEW GRAPHICS",
+            "on": "updates",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "These remasters are a love letter to dedicated players of the series.",
+        "query": "fan art of fallout",
+        "query2": "fan gathering",
+        "label": "A LOVE LETTER",
+        "sub": "Remasters for the fans",
+        "label_on": "fans",
+        "punch": "letter"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "futuristic technology city night",
+        "query2": "circuit board macro blue"
+      }
+    ],
+    "description": "Fallout 3 and New Vegas are getting exciting remasters! It's a love letter to the fans. Follow for daily tech!",
+    "hashtags": [
+      "#tech",
+      "#fallout",
+      "#gaming",
+      "#bethesda",
+      "#remaster",
+      "#fyp",
+      "#shorts"
+    ]
+  },
+  {
+    "title": "God of War's Fan Reactions",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Fans are divided over the new God of War character - what do they think?",
+        "hook_top": "GOD OF WAR CONTROVERSY",
+        "query": "image of god of war game",
+        "query2": "character close-up"
+      },
+      {
+        "role": "fact",
+        "text": "The latest installment features a character who has split opinions among players.",
+        "query": "gamers reacting to characters",
+        "query2": "player discussion group",
+        "chips": [
+          {
+            "t": "DIVIDED OPINIONS",
+            "on": "fans",
+            "style": "white"
+          }
+        ],
+        "punch": "split"
+      },
+      {
+        "role": "fact",
+        "text": "Deborah Ann Woll, the character's actress, remains unfazed by the reactions.",
+        "query": "deborah ann woll red carpet",
+        "query2": "celebrity interviews",
+        "chips": [
+          {
+            "t": "UNFAZED BY REACTIONS",
+            "on": "actress",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "In gaming, strong opinions are a mark of passionate fandom.",
+        "query": "gaming community discussion",
+        "query2": "group of friends playing",
+        "label": "PASSIONATE FANDOM",
+        "sub": "Debate shows engagement",
+        "label_on": "passionate",
+        "punch": "mark"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "futuristic technology city night",
+        "query2": "circuit board macro blue"
+      }
+    ],
+    "description": "The new God of War character has divided fans. Actress Deborah Ann Woll is unfazed. Follow for daily tech!",
+    "hashtags": [
+      "#tech",
+      "#gaming",
+      "#godofwar",
+      "#character",
+      "#debate",
+      "#fyp",
+      "#shorts"
+    ]
+  },
+  {
+    "title": "The PS2 Racing Game Revival",
+    "place": "",
+    "country": "",
+    "scenes": [
+      {
+        "role": "hook",
+        "text": "Which racing game from the PS2 era reigns supreme? Let’s find out!",
+        "hook_top": "PS2 RACING GAME LEGEND",
+        "query": "classic PS2 racing game",
+        "query2": "retro gaming setup"
+      },
+      {
+        "role": "fact",
+        "text": "Players are sparking nostalgia by revisiting the best racing games from the past.",
+        "query": "gamers playing racing game",
+        "query2": "friends gaming together",
+        "chips": [
+          {
+            "t": "SPARKING NOSTALGIA",
+            "on": "racing games",
+            "style": "white"
+          }
+        ],
+        "punch": "nostalgia"
+      },
+      {
+        "role": "fact",
+        "text": "The thrill of racing games has kept them relevant through the years.",
+        "query": "fast cars racing",
+        "query2": "racing game clip",
+        "chips": [
+          {
+            "t": "THRILL OF RACING",
+            "on": "relevant",
+            "style": "accent"
+          }
+        ]
+      },
+      {
+        "role": "callout",
+        "text": "Timeless fun keeps players coming back to these classics.",
+        "query": "friends celebrating in gaming",
+        "query2": "game night with friends",
+        "label": "TIMELESS FUN",
+        "sub": "They never get old",
+        "label_on": "timeless",
+        "punch": "fun"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "futuristic technology city night",
+        "query2": "circuit board macro blue"
+      }
+    ],
+    "description": "Racers from the PS2 era are still thrilling players today! Timeless fun brings them back. Follow for daily tech!",
+    "hashtags": [
+      "#tech",
+      "#ps2",
+      "#racing",
+      "#nostalgia",
+      "#gaming",
+      "#fyp",
+      "#shorts"
+    ]
   }
 ]

@@ -1,0 +1,61 @@
+{
+  "title": "AI Bills: A Surprising Finance Shock",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Companies are baffled by unexpectedly high AI-related expenses!",
+      "hook_top": "AI BILLS SHOCK",
+      "query": "business meeting",
+      "query2": "confused executives"
+    },
+    {
+      "role": "fact",
+      "text": "Executives assumed AI would replace workers without extra costs.",
+      "query": "office workers collaborating",
+      "query2": "tech meeting",
+      "chips": []
+    },
+    {
+      "role": "fact",
+      "text": "However, the infrastructure and maintenance costs are skyrocketing.",
+      "query": "data center",
+      "query2": "servers in facility",
+      "chips": [
+        {
+          "t": "COSTS SKYROCKETING",
+          "on": "costs",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Rethinking AI strategies is crucial to avoid financial pitfalls.",
+      "query": "business strategy meeting",
+      "query2": "people discussing plans",
+      "label": "RETHINK AI STRATEGY",
+      "sub": "avoid costly surprises",
+      "label_on": "strategy",
+      "punch": "strategy"
+    },
+    {
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "Surprising costs of AI tools are shocking executives! Follow for daily tech!",
+  "hashtags": [
+    "#tech",
+    "#AI",
+    "#business",
+    "#costs",
+    "#finance",
+    "#surveillance",
+    "#shorts",
+    "#fyp"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "The Shift from Social Media Updates",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Why have 55% of Americans stopped posting on social media updates?",
+      "hook_top": "SOCIAL MEDIA DOWNTURN",
+      "query": "person scrolling social media",
+      "query2": "people on phones"
+    },
+    {
+      "role": "fact",
+      "text": "Users report feeling overwhelmed and fatigued by constant online sharing.",
+      "query": "tired person using phone",
+      "query2": "frustrated expressions",
+      "chips": []
+    },
+    {
+      "role": "fact",
+      "text": "Many are seeking more meaningful connections away from social media screens.",
+      "query": "friends talking face-to-face",
+      "query2": "people enjoying nature",
+      "chips": [
+        {
+          "t": "SEEKING MEANINGFUL CONNE",
+          "on": "connections",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Digital detox anyone? Reducing screen time might improve your mood!",
+      "query": "person enjoying nature",
+      "query2": "people laughing together",
+      "label": "DIGITAL DETOX",
+      "sub": "better mental wellbeing",
+      "label_on": "detox",
+      "punch": "detox"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "More people are stepping back from social media due to exhaustion. Follow for daily tech!",
+  "hashtags": [
+    "#tech",
+    "#socialmedia",
+    "#wellbeing",
+    "#digitaldetox",
+    "#ai",
+    "#mentalhealth",
+    "#shorts",
+    "#fyp"
+  ]
+}

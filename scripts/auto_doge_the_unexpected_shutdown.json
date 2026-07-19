@@ -1,0 +1,61 @@
+{
+  "title": "DOGE: The Unexpected Shutdown",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "DOGE officially shuts down! What went wrong?",
+      "hook_top": "DOGE SHUTDOWN",
+      "query": "doge meme",
+      "query2": "cryptocurrency visuals"
+    },
+    {
+      "role": "fact",
+      "text": "This popular cryptocurrency faced challenges that led to its decline.",
+      "query": "coin chart going down",
+      "query2": "person checking prices",
+      "chips": []
+    },
+    {
+      "role": "fact",
+      "text": "Investors are left wondering about the future of meme-based currencies.",
+      "query": "worried investors",
+      "query2": "people discussing crypto",
+      "chips": [
+        {
+          "t": "WHAT'S NEXT?",
+          "on": "future",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Cryptocurrency markets are volatile, be cautious before investing!",
+      "query": "volatile stock market",
+      "query2": "people watching stocks",
+      "label": "BE CAUTIOUS",
+      "sub": "investment risks remain",
+      "label_on": "cautious",
+      "punch": "cautious"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "DOGE's surprising shutdown leaves investors questioning meme cryptocurrencies. Follow for daily tech!",
+  "hashtags": [
+    "#tech",
+    "#cryptocurrency",
+    "#DOGE",
+    "#investing",
+    "#finance",
+    "#ai",
+    "#shorts",
+    "#fyp"
+  ]
+}
