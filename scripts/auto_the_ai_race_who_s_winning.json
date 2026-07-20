@@ -1,0 +1,65 @@
+{
+  "title": "The AI Race: Who's Winning?",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Apple recently lost its edge in the AI race, but why?",
+      "hook_top": "APPLE LAGS IN AI",
+      "query": "apple logo",
+      "query2": "people using tech"
+    },
+    {
+      "role": "fact",
+      "text": "Leading competitors have been integrating AI into their products faster than Apple.",
+      "query": "competitive technology race",
+      "query2": "tech conference crowd",
+      "chips": [
+        {
+          "t": "FASTER INTEGRATION",
+          "on": "competition",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "This shift has led to new innovations, pushing the boundaries of what's possible with AI.",
+      "query": "ai innovation showcase",
+      "query2": "people interacting with AI",
+      "chips": [
+        {
+          "t": "NEW INNOVATIONS",
+          "on": "innovations",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "As AI evolves, will Apple adapt or fall behind?",
+      "query": "apple product showcase",
+      "query2": "customer using apple products",
+      "label": "ADAPT OR FALL",
+      "sub": "The challenge for tech giants",
+      "label_on": "adapt",
+      "punch": "challenge"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "Apple is losing ground in the AI race, with competitors quickly innovating. Follow for daily tech!",
+  "hashtags": [
+    "#tech",
+    "#AI",
+    "#apple",
+    "#innovation",
+    "#shorts",
+    "#fyp"
+  ]
+}

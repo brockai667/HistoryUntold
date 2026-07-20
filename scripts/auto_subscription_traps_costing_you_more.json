@@ -1,0 +1,64 @@
+{
+  "title": "Subscription Traps Costing You More?",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Are subscription traps secretly draining your wallet?",
+      "hook_top": "SUBSCRIPTION TRAPS REVEALED",
+      "query": "person looking at bills",
+      "query2": "debt calculator on screen"
+    },
+    {
+      "role": "fact",
+      "text": "Recent rules aim to protect consumers from predatory subscription practices.",
+      "query": "consumer protection meeting",
+      "query2": "law books and gavel",
+      "chips": [
+        {
+          "t": "PROTECTING CONSUMERS",
+          "on": "protection",
+          "style": "white"
+        }
+      ]
+    },
+    {
+      "role": "fact",
+      "text": "Many people unknowingly pay for services they rarely use due to vague terms.",
+      "query": "person canceling subscription",
+      "query2": "subscription services menu",
+      "chips": [
+        {
+          "t": "VAGUE TERMS",
+          "on": "terms",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "It's time to check your subscriptions before it's too late!",
+      "query": "person checking phone",
+      "query2": "subscription alert on screen",
+      "label": "CHECK YOUR SUBS",
+      "sub": "Avoid unexpected charges",
+      "label_on": "subscribe",
+      "punch": "charges"
+    },
+    {
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "New rules target subscription traps that cost unsuspecting consumers. Follow for daily tech!",
+  "hashtags": [
+    "#tech",
+    "#subscriptions",
+    "#consumerprotection",
+    "#shorts",
+    "#fyp"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "title": "Why PS5 Fans Are Leaving Sony for PC",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Rumor has it, 45% of PS5 fans are considering a PC switch!",
+      "hook_top": "PS5 TO PC SWITCH",
+      "query": "gaming setup",
+      "query2": "console gaming"
+    },
+    {
+      "role": "fact",
+      "text": "Users cite frustrations with PS5's limitations and high game prices.",
+      "query": "frustrated gamer",
+      "query2": "person looking at prices",
+      "chips": []
+    },
+    {
+      "role": "fact",
+      "text": "Many believe a PC setup offers more flexibility and better graphics.",
+      "query": "high-end gaming PC",
+      "query2": "person playing high-quality games",
+      "chips": [
+        {
+          "t": "MORE FLEXIBILITY",
+          "on": "flexibility",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Understand the pros and cons before making the leap!",
+      "query": "gamer considering options",
+      "query2": "person gaming"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "Increasing numbers of PS5 fans are considering a switch to PC gaming. Follow for daily tech!",
+  "hashtags": [
+    "#tech",
+    "#gaming",
+    "#PS5",
+    "#PCgaming",
+    "#ai",
+    "#consumertrends",
+    "#shorts",
+    "#fyp"
+  ]
+}
