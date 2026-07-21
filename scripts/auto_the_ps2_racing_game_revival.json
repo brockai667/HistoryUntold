@@ -1,0 +1,67 @@
+{
+  "title": "The PS2 Racing Game Revival",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Which racing game from the PS2 era reigns supreme? Let’s find out!",
+      "hook_top": "PS2 RACING GAME LEGEND",
+      "query": "classic PS2 racing game",
+      "query2": "retro gaming setup"
+    },
+    {
+      "role": "fact",
+      "text": "Players are sparking nostalgia by revisiting the best racing games from the past.",
+      "query": "gamers playing racing game",
+      "query2": "friends gaming together",
+      "chips": [
+        {
+          "t": "SPARKING NOSTALGIA",
+          "on": "racing games",
+          "style": "white"
+        }
+      ],
+      "punch": "nostalgia"
+    },
+    {
+      "role": "fact",
+      "text": "The thrill of racing games has kept them relevant through the years.",
+      "query": "fast cars racing",
+      "query2": "racing game clip",
+      "chips": [
+        {
+          "t": "THRILL OF RACING",
+          "on": "relevant",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "Timeless fun keeps players coming back to these classics.",
+      "query": "friends celebrating in gaming",
+      "query2": "game night with friends",
+      "label": "TIMELESS FUN",
+      "sub": "They never get old",
+      "label_on": "timeless",
+      "punch": "fun"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "Racers from the PS2 era are still thrilling players today! Timeless fun brings them back. Follow for daily tech!",
+  "hashtags": [
+    "#tech",
+    "#ps2",
+    "#racing",
+    "#nostalgia",
+    "#gaming",
+    "#fyp",
+    "#shorts"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "title": "God of War's Fan Reactions",
+  "place": "",
+  "country": "",
+  "scenes": [
+    {
+      "role": "hook",
+      "text": "Fans are divided over the new God of War character - what do they think?",
+      "hook_top": "GOD OF WAR CONTROVERSY",
+      "query": "image of god of war game",
+      "query2": "character close-up"
+    },
+    {
+      "role": "fact",
+      "text": "The latest installment features a character who has split opinions among players.",
+      "query": "gamers reacting to characters",
+      "query2": "player discussion group",
+      "chips": [
+        {
+          "t": "DIVIDED OPINIONS",
+          "on": "fans",
+          "style": "white"
+        }
+      ],
+      "punch": "split"
+    },
+    {
+      "role": "fact",
+      "text": "Deborah Ann Woll, the character's actress, remains unfazed by the reactions.",
+      "query": "deborah ann woll red carpet",
+      "query2": "celebrity interviews",
+      "chips": [
+        {
+          "t": "UNFAZED BY REACTIONS",
+          "on": "actress",
+          "style": "accent"
+        }
+      ]
+    },
+    {
+      "role": "callout",
+      "text": "In gaming, strong opinions are a mark of passionate fandom.",
+      "query": "gaming community discussion",
+      "query2": "group of friends playing",
+      "label": "PASSIONATE FANDOM",
+      "sub": "Debate shows engagement",
+      "label_on": "passionate",
+      "punch": "mark"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech you should actually know.",
+      "query": "futuristic technology city night",
+      "query2": "circuit board macro blue"
+    }
+  ],
+  "description": "The new God of War character has divided fans. Actress Deborah Ann Woll is unfazed. Follow for daily tech!",
+  "hashtags": [
+    "#tech",
+    "#gaming",
+    "#godofwar",
+    "#character",
+    "#debate",
+    "#fyp",
+    "#shorts"
+  ]
+}
