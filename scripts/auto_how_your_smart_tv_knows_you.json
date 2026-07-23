@@ -1,0 +1,59 @@
+{
+  "title": "How Your Smart TV Knows You",
+  "thumb": "SMART TV REVEALED",
+  "scenes": [
+    {
+      "hook_top": "SMART TV SECRETS UNVEILED",
+      "fact": "Smart TVs collect data from viewing habits.",
+      "chips": [
+        {
+          "t": "viewing habits",
+          "on": "collect data",
+          "style": "white"
+        }
+      ],
+      "punch": "surprising",
+      "query": "smart TV data collection",
+      "query2": "smart TV algorithms",
+      "role": "hook",
+      "text": "How does your smart TV know what to suggest?"
+    },
+    {
+      "chips": [
+        {
+          "t": "AI analysis",
+          "on": "use AI",
+          "style": "accent"
+        }
+      ],
+      "query": "smart TV AI functions",
+      "query2": "AI in smart TVs",
+      "role": "fact",
+      "text": "They often use AI to analyze preferences."
+    },
+    {
+      "reveal_top": "YOUR TV IS WATCHING YOU",
+      "query": "smart TV privacy concerns",
+      "query2": "smart TV user data",
+      "role": "reveal",
+      "text": "Your TV is watching you as much as you watch it."
+    },
+    {
+      "query": "smart technology",
+      "query2": "latest tech news",
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time."
+    }
+  ],
+  "description": "Uncover how your smart TV personalizes your viewing experience using data and AI. Stay informed on tech! #shorts #smartTV #technology #AI #data #fyp",
+  "hashtags": [
+    "#shorts",
+    "#smartTV",
+    "#technology",
+    "#AI",
+    "#data",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

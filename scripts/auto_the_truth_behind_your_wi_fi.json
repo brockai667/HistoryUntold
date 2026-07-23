@@ -1,0 +1,50 @@
+{
+  "title": "The Truth Behind Your Wi-Fi!",
+  "thumb": "WIFI SECRETS REVEALED",
+  "scenes": [
+    {
+      "hook_top": "WIFI SIGNAL DISTANCE",
+      "fact": "A standard Wi-Fi router can transmit signals over 150 feet indoors.",
+      "chips": [],
+      "punch": "Impressive!",
+      "query": "Wi-Fi range",
+      "query2": "Wi-Fi technology",
+      "role": "hook",
+      "text": "Did you know your Wi-Fi signal travels miles?"
+    },
+    {
+      "chips": [],
+      "punch": "Tech power!",
+      "query": "Wi-Fi frequencies",
+      "query2": "how Wi-Fi works",
+      "role": "fact",
+      "text": "Wi-Fi uses radio waves at 2.4GHz or 5GHz frequencies."
+    },
+    {
+      "label": "Wi-Fi Unveiled",
+      "sub": "How it truly works.",
+      "label_on": "Discover",
+      "query": "understanding Wi-Fi",
+      "query2": "Wi-Fi technology explained",
+      "role": "callout",
+      "text": "WIFI UNVEILED"
+    },
+    {
+      "query": "technology tips",
+      "query2": "understanding tech",
+      "role": "cta",
+      "text": "Follow for daily tech you should actually know."
+    }
+  ],
+  "description": "Ever wondered how Wi-Fi really works? Learn the intriguing facts about your connection today! Follow for more tech insights.",
+  "hashtags": [
+    "#WiFi",
+    "#technology",
+    "#shorts",
+    "#fyp",
+    "#techfacts",
+    "#everydaytech"
+  ],
+  "place": "",
+  "country": ""
+}

@@ -3894,5 +3894,334 @@
       "#fyp",
       "#shorts"
     ]
+  },
+  {
+    "title": "How Your Smart TV Knows You",
+    "thumb": "SMART TV REVEALED",
+    "scenes": [
+      {
+        "hook_top": "SMART TV SECRETS UNVEILED",
+        "fact": "Smart TVs collect data from viewing habits.",
+        "chips": [
+          {
+            "t": "viewing habits",
+            "on": "collect data",
+            "style": "white"
+          }
+        ],
+        "punch": "surprising",
+        "query": "smart TV data collection",
+        "query2": "smart TV algorithms",
+        "role": "hook",
+        "text": "How does your smart TV know what to suggest?"
+      },
+      {
+        "chips": [
+          {
+            "t": "AI analysis",
+            "on": "use AI",
+            "style": "accent"
+          }
+        ],
+        "query": "smart TV AI functions",
+        "query2": "AI in smart TVs",
+        "role": "fact",
+        "text": "They often use AI to analyze preferences."
+      },
+      {
+        "reveal_top": "YOUR TV IS WATCHING YOU",
+        "query": "smart TV privacy concerns",
+        "query2": "smart TV user data",
+        "role": "reveal",
+        "text": "Your TV is watching you as much as you watch it."
+      },
+      {
+        "query": "smart technology",
+        "query2": "latest tech news",
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time."
+      }
+    ],
+    "description": "Uncover how your smart TV personalizes your viewing experience using data and AI. Stay informed on tech! #shorts #smartTV #technology #AI #data #fyp",
+    "hashtags": [
+      "#shorts",
+      "#smartTV",
+      "#technology",
+      "#AI",
+      "#data",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The PS2's Hidden Racing Gem",
+    "thumb": "PS2 RACING LEGEND",
+    "scenes": [
+      {
+        "hook_top": "ICONIC PS2 RACING GAME",
+        "fact": "The game 'Burnout 3: Takedown' received a 95% on Metacritic.",
+        "chips": [],
+        "punch": "Legendary!",
+        "query": "Burnout 3 Takedown",
+        "query2": "PS2 racing games",
+        "role": "hook",
+        "text": "Did you know there’s an iconic PS2 racing game most never played?"
+      },
+      {
+        "chips": [],
+        "punch": "Innovative!",
+        "query": "Burnout crash mode",
+        "query2": "racing game features",
+        "role": "fact",
+        "text": "The 'Burnout' series popularized the crash mode in racing games."
+      },
+      {
+        "label": "A Game-Changer",
+        "sub": "Unlocking the series legacy.",
+        "label_on": "Revolution",
+        "query": "Burnout series impact",
+        "query2": "legacy of racing games",
+        "role": "callout",
+        "text": "RACING GAME REVOLUTION"
+      },
+      {
+        "query": "retro gaming history",
+        "query2": "classic console games",
+        "role": "cta",
+        "text": "Follow if tech moves faster than you can keep up."
+      }
+    ],
+    "description": "Discover the PS2 racing gem that many gamers missed! Dive into gaming history and unlock secrets behind iconic titles. Follow for more!",
+    "hashtags": [
+      "#PS2",
+      "#gaminghistory",
+      "#Burnout3",
+      "#retro",
+      "#gaming",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Truth Behind Your Wi-Fi!",
+    "thumb": "WIFI SECRETS REVEALED",
+    "scenes": [
+      {
+        "hook_top": "WIFI SIGNAL DISTANCE",
+        "fact": "A standard Wi-Fi router can transmit signals over 150 feet indoors.",
+        "chips": [],
+        "punch": "Impressive!",
+        "query": "Wi-Fi range",
+        "query2": "Wi-Fi technology",
+        "role": "hook",
+        "text": "Did you know your Wi-Fi signal travels miles?"
+      },
+      {
+        "chips": [],
+        "punch": "Tech power!",
+        "query": "Wi-Fi frequencies",
+        "query2": "how Wi-Fi works",
+        "role": "fact",
+        "text": "Wi-Fi uses radio waves at 2.4GHz or 5GHz frequencies."
+      },
+      {
+        "label": "Wi-Fi Unveiled",
+        "sub": "How it truly works.",
+        "label_on": "Discover",
+        "query": "understanding Wi-Fi",
+        "query2": "Wi-Fi technology explained",
+        "role": "callout",
+        "text": "WIFI UNVEILED"
+      },
+      {
+        "query": "technology tips",
+        "query2": "understanding tech",
+        "role": "cta",
+        "text": "Follow for daily tech you should actually know."
+      }
+    ],
+    "description": "Ever wondered how Wi-Fi really works? Learn the intriguing facts about your connection today! Follow for more tech insights.",
+    "hashtags": [
+      "#WiFi",
+      "#technology",
+      "#shorts",
+      "#fyp",
+      "#techfacts",
+      "#everydaytech"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Greatest Computer Bug: A History!",
+    "thumb": "FAMOUS COMPUTER BUG",
+    "scenes": [
+      {
+        "hook_top": "FIRST COMPUTER BUG",
+        "fact": "In 1947, Grace Hopper found a moth causing issues in a Harvard computer.",
+        "chips": [],
+        "punch": "Incredible!",
+        "query": "first computer bug",
+        "query2": "Grace Hopper history",
+        "role": "hook",
+        "text": "Did you know the first computer bug was a real insect?"
+      },
+      {
+        "chips": [],
+        "punch": "Essential!",
+        "query": "history of debugging",
+        "query2": "computer bug terms",
+        "role": "fact",
+        "text": "The term 'debugging' was popularized after this incident."
+      },
+      {
+        "label": "Tech Origins",
+        "sub": "Discover the roots of coding.",
+        "label_on": "Origins",
+        "query": "computer bug term",
+        "query2": "history of computing",
+        "role": "callout",
+        "text": "DEEP TECH TRIVIA"
+      },
+      {
+        "query": "coding trivia",
+        "query2": "tech history facts",
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve."
+      }
+    ],
+    "description": "Explore the fascinating story behind the first computer bug! Uncover the roots of terminologies we use today. Follow for tech trivia!",
+    "hashtags": [
+      "#computerhistory",
+      "#coding",
+      "#bugs",
+      "#techfacts",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The PS2's Racing Game Revolution",
+    "thumb": "PS2 RACING LEGEND",
+    "scenes": [
+      {
+        "hook_top": "PS2 RACING LEGEND REVEALED",
+        "fact": "Gran Turismo 3: A-Spec sold over 14 million copies.",
+        "chips": [
+          {
+            "t": "14 million",
+            "on": "Gran Turismo 3",
+            "style": "white"
+          }
+        ],
+        "punch": "insane",
+        "query": "Gran Turismo 3 sales",
+        "query2": "Gran Turismo 3 revenue",
+        "role": "hook",
+        "text": "What made the PS2 racing game a classic?"
+      },
+      {
+        "chips": [
+          {
+            "t": "180 cars",
+            "on": "features",
+            "style": "accent"
+          }
+        ],
+        "query": "Gran Turismo 3 car list",
+        "query2": "Gran Turismo 3 track list",
+        "role": "fact",
+        "text": "The game featured over 180 cars and 25 tracks."
+      },
+      {
+        "reveal_top": "RACING SIMULATION GAMECHANGER",
+        "query": "impact of Gran Turismo 3",
+        "query2": "how Gran Turismo changed racing games",
+        "role": "reveal",
+        "text": "It set the standard for racing simulations."
+      },
+      {
+        "query": "gaming history",
+        "query2": "gaming milestones",
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve."
+      }
+    ],
+    "description": "Explore how Gran Turismo 3 revolutionized racing games on the PS2. Discover its impact on gaming as a whole! #shorts #PS2 #gaminghistory #GranTurismo #racinggames #nostalgia #fyp",
+    "hashtags": [
+      "#shorts",
+      "#PS2",
+      "#gaminghistory",
+      "#GranTurismo",
+      "#racinggames",
+      "#nostalgia",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The First Computer Bug's Story",
+    "thumb": "ORIGIN OF THE BUG",
+    "scenes": [
+      {
+        "hook_top": "FIRST COMPUTER BUG REVEALED",
+        "fact": "In 1947, a moth caused a malfunction in a computer.",
+        "chips": [
+          {
+            "t": "1947",
+            "on": "In 1947",
+            "style": "white"
+          }
+        ],
+        "punch": "wild!",
+        "query": "first computer bug history",
+        "query2": "computer bugs",
+        "role": "hook",
+        "text": "What was the first computer bug ever found?"
+      },
+      {
+        "chips": [
+          {
+            "t": "taped into logbook",
+            "on": "was taped",
+            "style": "accent"
+          }
+        ],
+        "query": "first computer bug logbook",
+        "query2": "computer logbooks",
+        "role": "fact",
+        "text": "The moth was taped into a logbook."
+      },
+      {
+        "reveal_top": "THE TERM 'BUG' WAS BORN",
+        "query": "origin of the term bug",
+        "query2": "computer terminology",
+        "role": "reveal",
+        "text": "This incident gave us the term 'bug'!"
+      },
+      {
+        "query": "technology history",
+        "query2": "famous tech stories",
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time."
+      }
+    ],
+    "description": "Discover the quirky origin of the term 'bug' in computing history. Learn about its impact on tech terminology! #shorts #history #computing #bugs #techfacts #fyp",
+    "hashtags": [
+      "#shorts",
+      "#history",
+      "#computing",
+      "#bugs",
+      "#techfacts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
   }
 ]
