@@ -1,0 +1,60 @@
+{
+  "title": "The PS2's Racing Game Revolution",
+  "thumb": "PS2 RACING LEGEND",
+  "scenes": [
+    {
+      "hook_top": "PS2 RACING LEGEND REVEALED",
+      "fact": "Gran Turismo 3: A-Spec sold over 14 million copies.",
+      "chips": [
+        {
+          "t": "14 million",
+          "on": "Gran Turismo 3",
+          "style": "white"
+        }
+      ],
+      "punch": "insane",
+      "query": "Gran Turismo 3 sales",
+      "query2": "Gran Turismo 3 revenue",
+      "role": "hook",
+      "text": "What made the PS2 racing game a classic?"
+    },
+    {
+      "chips": [
+        {
+          "t": "180 cars",
+          "on": "features",
+          "style": "accent"
+        }
+      ],
+      "query": "Gran Turismo 3 car list",
+      "query2": "Gran Turismo 3 track list",
+      "role": "fact",
+      "text": "The game featured over 180 cars and 25 tracks."
+    },
+    {
+      "reveal_top": "RACING SIMULATION GAMECHANGER",
+      "query": "impact of Gran Turismo 3",
+      "query2": "how Gran Turismo changed racing games",
+      "role": "reveal",
+      "text": "It set the standard for racing simulations."
+    },
+    {
+      "query": "gaming history",
+      "query2": "gaming milestones",
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve."
+    }
+  ],
+  "description": "Explore how Gran Turismo 3 revolutionized racing games on the PS2. Discover its impact on gaming as a whole! #shorts #PS2 #gaminghistory #GranTurismo #racinggames #nostalgia #fyp",
+  "hashtags": [
+    "#shorts",
+    "#PS2",
+    "#gaminghistory",
+    "#GranTurismo",
+    "#racinggames",
+    "#nostalgia",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

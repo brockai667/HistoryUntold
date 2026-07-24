@@ -1,0 +1,59 @@
+{
+  "title": "The First Computer Bug's Story",
+  "thumb": "ORIGIN OF THE BUG",
+  "scenes": [
+    {
+      "hook_top": "FIRST COMPUTER BUG REVEALED",
+      "fact": "In 1947, a moth caused a malfunction in a computer.",
+      "chips": [
+        {
+          "t": "1947",
+          "on": "In 1947",
+          "style": "white"
+        }
+      ],
+      "punch": "wild!",
+      "query": "first computer bug history",
+      "query2": "computer bugs",
+      "role": "hook",
+      "text": "What was the first computer bug ever found?"
+    },
+    {
+      "chips": [
+        {
+          "t": "taped into logbook",
+          "on": "was taped",
+          "style": "accent"
+        }
+      ],
+      "query": "first computer bug logbook",
+      "query2": "computer logbooks",
+      "role": "fact",
+      "text": "The moth was taped into a logbook."
+    },
+    {
+      "reveal_top": "THE TERM 'BUG' WAS BORN",
+      "query": "origin of the term bug",
+      "query2": "computer terminology",
+      "role": "reveal",
+      "text": "This incident gave us the term 'bug'!"
+    },
+    {
+      "query": "technology history",
+      "query2": "famous tech stories",
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time."
+    }
+  ],
+  "description": "Discover the quirky origin of the term 'bug' in computing history. Learn about its impact on tech terminology! #shorts #history #computing #bugs #techfacts #fyp",
+  "hashtags": [
+    "#shorts",
+    "#history",
+    "#computing",
+    "#bugs",
+    "#techfacts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

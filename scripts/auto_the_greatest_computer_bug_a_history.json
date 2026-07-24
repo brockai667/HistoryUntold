@@ -1,0 +1,50 @@
+{
+  "title": "The Greatest Computer Bug: A History!",
+  "thumb": "FAMOUS COMPUTER BUG",
+  "scenes": [
+    {
+      "hook_top": "FIRST COMPUTER BUG",
+      "fact": "In 1947, Grace Hopper found a moth causing issues in a Harvard computer.",
+      "chips": [],
+      "punch": "Incredible!",
+      "query": "first computer bug",
+      "query2": "Grace Hopper history",
+      "role": "hook",
+      "text": "Did you know the first computer bug was a real insect?"
+    },
+    {
+      "chips": [],
+      "punch": "Essential!",
+      "query": "history of debugging",
+      "query2": "computer bug terms",
+      "role": "fact",
+      "text": "The term 'debugging' was popularized after this incident."
+    },
+    {
+      "label": "Tech Origins",
+      "sub": "Discover the roots of coding.",
+      "label_on": "Origins",
+      "query": "computer bug term",
+      "query2": "history of computing",
+      "role": "callout",
+      "text": "DEEP TECH TRIVIA"
+    },
+    {
+      "query": "coding trivia",
+      "query2": "tech history facts",
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve."
+    }
+  ],
+  "description": "Explore the fascinating story behind the first computer bug! Uncover the roots of terminologies we use today. Follow for tech trivia!",
+  "hashtags": [
+    "#computerhistory",
+    "#coding",
+    "#bugs",
+    "#techfacts",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}
