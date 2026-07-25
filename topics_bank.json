@@ -4223,5 +4223,191 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "The Dark Truth of Gaming Abandonment",
+    "thumb": "GAMING'S HIDDEN TRUTH",
+    "scenes": [
+      {
+        "text": "Over 50% of games never receive updates after launch.",
+        "hook_top": "OVER 50 OF GAMES ABANDONED",
+        "query": "percentage of games abandoned",
+        "query2": "gaming statistics",
+        "chips": [],
+        "punch": "",
+        "role": "hook"
+      },
+      {
+        "text": "Many beloved classics, like *Banjo-Kazooie*, had unresolved bugs.",
+        "hook_top": "CLASSICS WITH UNRESOLVED BUGS!",
+        "query": "Banjo-Kazooie bugs",
+        "query2": "gaming bugs history",
+        "chips": [],
+        "punch": "",
+        "role": "fact"
+      },
+      {
+        "text": "Recent reports show many old games now unplayable due to hardware changes.",
+        "hook_top": "OLD GAMES UNPLAYABLE NOW!",
+        "query": "old games unplayable hardware",
+        "query2": "gaming preservation issues",
+        "chips": [],
+        "punch": "",
+        "role": "fact"
+      },
+      {
+        "text": "Gaming giants often prioritize profits over preserving classics.",
+        "reveal_top": "PROFITS OVER PRESERVATION!",
+        "query": "gaming profit vs preservation",
+        "query2": "video game business model",
+        "chips": [],
+        "punch": "",
+        "role": "fact"
+      },
+      {
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "fascinating tech insights",
+        "query2": "technology news",
+        "chips": [],
+        "punch": "",
+        "role": "cta"
+      }
+    ],
+    "description": "Discover the shocking truths behind gaming abandonment and what it means for your favorite classics. Don't miss out on the latest tech updates!",
+    "hashtags": [
+      "#GamingHistory",
+      "#Shorts",
+      "#TechInsights",
+      "#VideoGames",
+      "#GamePreservation",
+      "#FYP",
+      "#TechNews"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "How Old Computers Changed Everything",
+    "thumb": "RETRO TECH REVOLUTION",
+    "scenes": [
+      {
+        "text": "The first computer, ENIAC, weighed over 27 tons.",
+        "hook_top": "FIRST COMPUTER 27 TONS",
+        "query": "first computer weight",
+        "query2": "ENIAC specs",
+        "chips": [],
+        "punch": "",
+        "role": "hook"
+      },
+      {
+        "text": "IBM's PC launched in 1981, changing home computing forever.",
+        "hook_top": "IBM PC: A GAME CHANGER!",
+        "query": "IBM PC launch history",
+        "query2": "home computing history",
+        "chips": [],
+        "punch": "",
+        "role": "fact"
+      },
+      {
+        "text": "The concept of GUIs in the 80s made tech user-friendly.",
+        "hook_top": "GUI: TECH FOR EVERYONE!",
+        "query": "history of GUI",
+        "query2": "graphical user interface",
+        "chips": [],
+        "punch": "",
+        "role": "fact"
+      },
+      {
+        "text": "These innovations paved the way for every device we use today.",
+        "reveal_top": "FROM OLD TO EVERYDAY DEVICES!",
+        "query": "old computers influence today",
+        "query2": "impact of retro tech",
+        "chips": [],
+        "punch": "",
+        "role": "fact"
+      },
+      {
+        "text": "Follow for the future, one byte at a time.",
+        "query": "tech history insights",
+        "query2": "computing history",
+        "chips": [],
+        "punch": "",
+        "role": "cta"
+      }
+    ],
+    "description": "Explore how the evolution of old computers paved the way for the tech we use today. Get ready for more tech revelations!",
+    "hashtags": [
+      "#RetroTech",
+      "#Shorts",
+      "#HistoryOfComputing",
+      "#TechEvolution",
+      "#Innovation",
+      "#FYP",
+      "#TechNews"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Why Old Games Still Matter Today",
+    "thumb": "OLD GAMES, NEW FANS",
+    "scenes": [
+      {
+        "text": "As of 2023, over 30% of gamers play retro titles.",
+        "hook_top": "30 OF GAMERS PLAY RETRO",
+        "query": "percentage of gamers playing retro",
+        "query2": "gaming statistics",
+        "chips": [],
+        "punch": "",
+        "role": "hook"
+      },
+      {
+        "text": "Games like *Super Mario Bros* are still influencing new releases.",
+        "hook_top": "MARIO INFLUENCES NEW RELEASES!",
+        "query": "Super Mario Bros impact",
+        "query2": "influence of classic games",
+        "chips": [],
+        "punch": "",
+        "role": "fact"
+      },
+      {
+        "text": "Nostalgia for retro games drives their remake popularity.",
+        "hook_top": "NOSTALGIA DRIVES REMAKES!",
+        "query": "nostalgia for retro games",
+        "query2": "remake popularity",
+        "chips": [],
+        "punch": "",
+        "role": "fact"
+      },
+      {
+        "text": "These titles continue to inspire a new generation of developers.",
+        "reveal_top": "INSPIRING THE NEXT GENERATION!",
+        "query": "retro games influence developers",
+        "query2": "impact of old games on devs",
+        "chips": [],
+        "punch": "",
+        "role": "fact"
+      },
+      {
+        "text": "Follow for daily tech you should actually know.",
+        "query": "latest in gaming",
+        "query2": "gaming news",
+        "chips": [],
+        "punch": "",
+        "role": "cta"
+      }
+    ],
+    "description": "Uncover why retro games remain beloved and how they shape modern gaming. Stay tuned for more nostalgic gaming content!",
+    "hashtags": [
+      "#GamingHistory",
+      "#Shorts",
+      "#RetroGames",
+      "#Nostalgia",
+      "#GameDevelopment",
+      "#FYP",
+      "#TechNews"
+    ],
+    "place": "",
+    "country": ""
   }
 ]

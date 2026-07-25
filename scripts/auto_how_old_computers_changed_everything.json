@@ -1,0 +1,62 @@
+{
+  "title": "How Old Computers Changed Everything",
+  "thumb": "RETRO TECH REVOLUTION",
+  "scenes": [
+    {
+      "text": "The first computer, ENIAC, weighed over 27 tons.",
+      "hook_top": "FIRST COMPUTER 27 TONS",
+      "query": "first computer weight",
+      "query2": "ENIAC specs",
+      "chips": [],
+      "punch": "",
+      "role": "hook"
+    },
+    {
+      "text": "IBM's PC launched in 1981, changing home computing forever.",
+      "hook_top": "IBM PC: A GAME CHANGER!",
+      "query": "IBM PC launch history",
+      "query2": "home computing history",
+      "chips": [],
+      "punch": "",
+      "role": "fact"
+    },
+    {
+      "text": "The concept of GUIs in the 80s made tech user-friendly.",
+      "hook_top": "GUI: TECH FOR EVERYONE!",
+      "query": "history of GUI",
+      "query2": "graphical user interface",
+      "chips": [],
+      "punch": "",
+      "role": "fact"
+    },
+    {
+      "text": "These innovations paved the way for every device we use today.",
+      "reveal_top": "FROM OLD TO EVERYDAY DEVICES!",
+      "query": "old computers influence today",
+      "query2": "impact of retro tech",
+      "chips": [],
+      "punch": "",
+      "role": "fact"
+    },
+    {
+      "text": "Follow for the future, one byte at a time.",
+      "query": "tech history insights",
+      "query2": "computing history",
+      "chips": [],
+      "punch": "",
+      "role": "cta"
+    }
+  ],
+  "description": "Explore how the evolution of old computers paved the way for the tech we use today. Get ready for more tech revelations!",
+  "hashtags": [
+    "#RetroTech",
+    "#Shorts",
+    "#HistoryOfComputing",
+    "#TechEvolution",
+    "#Innovation",
+    "#FYP",
+    "#TechNews"
+  ],
+  "place": "",
+  "country": ""
+}
