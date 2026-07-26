@@ -4409,5 +4409,356 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "MAX PAYNE: 25 Years of Impact",
+    "thumb": "GAMING LEGEND",
+    "scenes": [
+      {
+        "hook_top": "ICONIC BULLET TIME REVEALED",
+        "fact": "It was released in 2001, redefining storytelling in games.",
+        "chips": [
+          {
+            "t": "2001",
+            "on": "released",
+            "style": "accent"
+          }
+        ],
+        "query": "Max Payne history",
+        "query2": "Max Payne 2001",
+        "punch": "WOW",
+        "role": "hook",
+        "text": "Max Payne transformed gaming with its iconic bullet time."
+      },
+      {
+        "chips": [
+          {
+            "t": "significant delays",
+            "on": "development",
+            "style": "white"
+          }
+        ],
+        "query": "Max Payne development challenges",
+        "query2": "Max Payne delays",
+        "punch": "TRUTH",
+        "role": "fact",
+        "text": "Max Payne's development faced significant challenges and delays."
+      },
+      {
+        "reveal_top": "BECAME A CULT CLASSIC",
+        "query": "Max Payne cult classic",
+        "query2": "Max Payne impact",
+        "role": "reveal",
+        "text": "Despite its struggles, it became a cult classic!"
+      },
+      {
+        "query": "tech history",
+        "query2": "gaming tech history",
+        "role": "cta",
+        "text": "Follow if tech moves faster than you can keep up."
+      }
+    ],
+    "description": "Discover how Max Payne forever changed the gaming landscape. A must-watch for gamers!",
+    "hashtags": [
+      "#MaxPayne",
+      "#GamingHistory",
+      "#RetroGames",
+      "#GameDevelopment",
+      "#Shorts",
+      "#fyp",
+      "#GamingLegend"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Surprising Origins of the Game Glitch",
+    "thumb": "GLITCHES REVEALED",
+    "scenes": [
+      {
+        "hook_top": "HOW GLITCHES BEGAN",
+        "fact": "The first known video game glitch occurred in 1980 in Adventure.",
+        "chips": [
+          {
+            "t": "1980",
+            "on": "first known",
+            "style": "accent"
+          }
+        ],
+        "query": "first video game glitch",
+        "query2": "Adventure game glitch",
+        "punch": "HISTORY",
+        "role": "hook",
+        "text": "Ever wonder how game glitches began?"
+      },
+      {
+        "chips": [
+          {
+            "t": "almost immediately",
+            "on": "discovered",
+            "style": "white"
+          }
+        ],
+        "query": "Adventure game players glitch",
+        "query2": "Adventure glitch discovery",
+        "punch": "SURPRISE",
+        "role": "fact",
+        "text": "Players discovered this glitch almost immediately."
+      },
+      {
+        "reveal_top": "GLITCHES ENHANCE GAMES",
+        "query": "game glitches enhance",
+        "query2": "how glitches are used",
+        "role": "reveal",
+        "text": "Glitches now enhance gameplay experiences!"
+      },
+      {
+        "query": "gaming insights",
+        "query2": "gaming facts",
+        "role": "cta",
+        "text": "Follow if tech moves faster than you can keep up."
+      }
+    ],
+    "description": "Explore the intriguing story of video game glitches and their evolution. Follow for more gaming content!",
+    "hashtags": [
+      "#GamingGlitches",
+      "#GameHistory",
+      "#RetroGaming",
+      "#Shorts",
+      "#GamingFacts",
+      "#fyp",
+      "#VideoGames"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "How Video Game Preservation Is Changing",
+    "thumb": "GAME PRESERVATION",
+    "scenes": [
+      {
+        "hook_top": "IMPORTANCE OF PRESERVATION",
+        "fact": "Over 87% of games are at risk of being lost.",
+        "chips": [
+          {
+            "t": "87%",
+            "on": "many games",
+            "style": "accent"
+          }
+        ],
+        "query": "video game preservation statistics",
+        "query2": "games at risk",
+        "punch": "ALARMING",
+        "role": "hook",
+        "text": "Video game preservation is more important than ever!"
+      },
+      {
+        "chips": [
+          {
+            "t": "archive classics",
+            "on": "working to",
+            "style": "white"
+          }
+        ],
+        "query": "video game archiving organizations",
+        "query2": "game restoration efforts",
+        "punch": "PROGRESS",
+        "role": "fact",
+        "text": "Organizations are now working to archive and restore classics."
+      },
+      {
+        "reveal_top": "MANY STILL UNARCHIVED",
+        "query": "unarchived video games",
+        "query2": "video game preservation challenges",
+        "role": "reveal",
+        "text": "But many still remain unarchived!"
+      },
+      {
+        "query": "tech updates",
+        "query2": "latest gaming news",
+        "role": "cta",
+        "text": "Follow for daily tech and AI news."
+      }
+    ],
+    "description": "Learn about the critical need for video game preservation and what’s being done. Stay updated with us!",
+    "hashtags": [
+      "#GamePreservation",
+      "#RetroGames",
+      "#GamingHistory",
+      "#Shorts",
+      "#TechUpdates",
+      "#fyp",
+      "#SaveGames"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Max Payne: A Gaming Revolution",
+    "thumb": "GAMING REVOLUTION",
+    "scenes": [
+      {
+        "text": "Max Payne changed gaming forever with its groundbreaking bullet-time mechanics.",
+        "hook_top": "MAX PAYNE CHANGED GAMING",
+        "query": "Max Payne bullet-time",
+        "query2": "Max Payne history",
+        "role": "hook"
+      },
+      {
+        "text": "It was released 25 years ago, blending noir storytelling and gameplay innovation.",
+        "chips": [
+          {
+            "t": "25 YEARS AGO",
+            "on": "released",
+            "style": "white"
+          }
+        ],
+        "query": "Max Payne release date",
+        "query2": "Max Payne facts",
+        "role": "fact"
+      },
+      {
+        "text": "Its influence can still be seen in many modern shooters today.",
+        "callout": {
+          "label": "GAME CHANGER",
+          "sub": "Influence on modern games",
+          "label_on": "influence"
+        },
+        "query": "Max Payne influence",
+        "query2": "Max Payne legacy",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow to stay ahead of the tech curve.",
+        "cta": "Follow for more gaming moments!",
+        "query": "gaming history",
+        "query2": "gaming moments",
+        "role": "cta"
+      }
+    ],
+    "description": "Discover how Max Payne revolutionized gaming with its unique mechanics and storytelling. Join us as we explore its lasting impact!",
+    "hashtags": [
+      "#MaxPayne",
+      "#GamingHistory",
+      "#bulletime",
+      "#gaming",
+      "#25Years",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "How Your Computer Stores Data",
+    "thumb": "DATA STORAGE SECRETS",
+    "scenes": [
+      {
+        "text": "Your computer uses memory chips called SSDs to store data quickly.",
+        "hook_top": "DATA STORAGE DEMYSTIFIED",
+        "query": "how computer stores data",
+        "query2": "computer memory",
+        "role": "hook"
+      },
+      {
+        "text": "SSDs can access data up to 100 times faster than traditional HDDs.",
+        "chips": [
+          {
+            "t": "100 TIMES FASTER",
+            "on": "access",
+            "style": "accent"
+          }
+        ],
+        "query": "SSDs vs HDDs speed",
+        "query2": "SSD speed",
+        "role": "fact"
+      },
+      {
+        "text": "This speed allows your applications to launch almost instantly.",
+        "callout": {
+          "label": "INSTANT ACCESS",
+          "sub": "Applications React Quickly",
+          "label_on": "instantly"
+        },
+        "query": "applications launch speed",
+        "query2": "instant application access",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow to stay ahead of the tech curve.",
+        "cta": "Follow for tech tips!",
+        "query": "tech insights",
+        "query2": "tech tips",
+        "role": "cta"
+      }
+    ],
+    "description": "Ever wondered how your computer stores data? Learn about SSDs and their incredible speed! Follow us for more tech insights!",
+    "hashtags": [
+      "#ComputerTech",
+      "#DataStorage",
+      "#SSD",
+      "#Technology",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Nintendo's Legal Battles Explained",
+    "thumb": "NINTENDO LEGAL DRAMA",
+    "scenes": [
+      {
+        "text": "Nintendo is currently facing a lawsuit regarding tariff refunds for gamers.",
+        "hook_top": "NINTENDO IN LEGAL TROUBLE",
+        "query": "Nintendo tariff refunds lawsuit",
+        "query2": "Nintendo lawsuits",
+        "role": "hook"
+      },
+      {
+        "text": "The company claims customers 'got what they bargained for' regarding the games.",
+        "chips": [
+          {
+            "t": "GOT WHAT THEY PAID FOR",
+            "on": "bargained",
+            "style": "white"
+          }
+        ],
+        "query": "Nintendo statement lawsuit",
+        "query2": "Nintendo legal response",
+        "role": "fact"
+      },
+      {
+        "text": "This case highlights how companies handle consumer expectations and refunds.",
+        "callout": {
+          "label": "LEGAL ISSUES",
+          "sub": "Consumer Rights Matter",
+          "label_on": "handle"
+        },
+        "query": "Nintendo consumer rights",
+        "query2": "legal issues",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "cta": "Follow for updates!",
+        "query": "tech legal news",
+        "query2": "latest tech news",
+        "role": "cta"
+      }
+    ],
+    "description": "Dive into Nintendo's recent legal challenges and what it means for gamers. Stay informed with us!",
+    "hashtags": [
+      "#Nintendo",
+      "#GamingNews",
+      "#LegalBattles",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
   }
 ]

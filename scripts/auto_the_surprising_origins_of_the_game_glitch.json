@@ -1,0 +1,61 @@
+{
+  "title": "The Surprising Origins of the Game Glitch",
+  "thumb": "GLITCHES REVEALED",
+  "scenes": [
+    {
+      "hook_top": "HOW GLITCHES BEGAN",
+      "fact": "The first known video game glitch occurred in 1980 in Adventure.",
+      "chips": [
+        {
+          "t": "1980",
+          "on": "first known",
+          "style": "accent"
+        }
+      ],
+      "query": "first video game glitch",
+      "query2": "Adventure game glitch",
+      "punch": "HISTORY",
+      "role": "hook",
+      "text": "Ever wonder how game glitches began?"
+    },
+    {
+      "chips": [
+        {
+          "t": "almost immediately",
+          "on": "discovered",
+          "style": "white"
+        }
+      ],
+      "query": "Adventure game players glitch",
+      "query2": "Adventure glitch discovery",
+      "punch": "SURPRISE",
+      "role": "fact",
+      "text": "Players discovered this glitch almost immediately."
+    },
+    {
+      "reveal_top": "GLITCHES ENHANCE GAMES",
+      "query": "game glitches enhance",
+      "query2": "how glitches are used",
+      "role": "reveal",
+      "text": "Glitches now enhance gameplay experiences!"
+    },
+    {
+      "query": "gaming insights",
+      "query2": "gaming facts",
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up."
+    }
+  ],
+  "description": "Explore the intriguing story of video game glitches and their evolution. Follow for more gaming content!",
+  "hashtags": [
+    "#GamingGlitches",
+    "#GameHistory",
+    "#RetroGaming",
+    "#Shorts",
+    "#GamingFacts",
+    "#fyp",
+    "#VideoGames"
+  ],
+  "place": "",
+  "country": ""
+}

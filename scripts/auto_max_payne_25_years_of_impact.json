@@ -1,0 +1,61 @@
+{
+  "title": "MAX PAYNE: 25 Years of Impact",
+  "thumb": "GAMING LEGEND",
+  "scenes": [
+    {
+      "hook_top": "ICONIC BULLET TIME REVEALED",
+      "fact": "It was released in 2001, redefining storytelling in games.",
+      "chips": [
+        {
+          "t": "2001",
+          "on": "released",
+          "style": "accent"
+        }
+      ],
+      "query": "Max Payne history",
+      "query2": "Max Payne 2001",
+      "punch": "WOW",
+      "role": "hook",
+      "text": "Max Payne transformed gaming with its iconic bullet time."
+    },
+    {
+      "chips": [
+        {
+          "t": "significant delays",
+          "on": "development",
+          "style": "white"
+        }
+      ],
+      "query": "Max Payne development challenges",
+      "query2": "Max Payne delays",
+      "punch": "TRUTH",
+      "role": "fact",
+      "text": "Max Payne's development faced significant challenges and delays."
+    },
+    {
+      "reveal_top": "BECAME A CULT CLASSIC",
+      "query": "Max Payne cult classic",
+      "query2": "Max Payne impact",
+      "role": "reveal",
+      "text": "Despite its struggles, it became a cult classic!"
+    },
+    {
+      "query": "tech history",
+      "query2": "gaming tech history",
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up."
+    }
+  ],
+  "description": "Discover how Max Payne forever changed the gaming landscape. A must-watch for gamers!",
+  "hashtags": [
+    "#MaxPayne",
+    "#GamingHistory",
+    "#RetroGames",
+    "#GameDevelopment",
+    "#Shorts",
+    "#fyp",
+    "#GamingLegend"
+  ],
+  "place": "",
+  "country": ""
+}

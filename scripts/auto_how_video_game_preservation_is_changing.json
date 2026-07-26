@@ -1,0 +1,61 @@
+{
+  "title": "How Video Game Preservation Is Changing",
+  "thumb": "GAME PRESERVATION",
+  "scenes": [
+    {
+      "hook_top": "IMPORTANCE OF PRESERVATION",
+      "fact": "Over 87% of games are at risk of being lost.",
+      "chips": [
+        {
+          "t": "87%",
+          "on": "many games",
+          "style": "accent"
+        }
+      ],
+      "query": "video game preservation statistics",
+      "query2": "games at risk",
+      "punch": "ALARMING",
+      "role": "hook",
+      "text": "Video game preservation is more important than ever!"
+    },
+    {
+      "chips": [
+        {
+          "t": "archive classics",
+          "on": "working to",
+          "style": "white"
+        }
+      ],
+      "query": "video game archiving organizations",
+      "query2": "game restoration efforts",
+      "punch": "PROGRESS",
+      "role": "fact",
+      "text": "Organizations are now working to archive and restore classics."
+    },
+    {
+      "reveal_top": "MANY STILL UNARCHIVED",
+      "query": "unarchived video games",
+      "query2": "video game preservation challenges",
+      "role": "reveal",
+      "text": "But many still remain unarchived!"
+    },
+    {
+      "query": "tech updates",
+      "query2": "latest gaming news",
+      "role": "cta",
+      "text": "Follow for daily tech and AI news."
+    }
+  ],
+  "description": "Learn about the critical need for video game preservation and what’s being done. Stay updated with us!",
+  "hashtags": [
+    "#GamePreservation",
+    "#RetroGames",
+    "#GamingHistory",
+    "#Shorts",
+    "#TechUpdates",
+    "#fyp",
+    "#SaveGames"
+  ],
+  "place": "",
+  "country": ""
+}
