@@ -1,0 +1,57 @@
+{
+  "title": "Max Payne: A Gaming Revolution",
+  "thumb": "GAMING REVOLUTION",
+  "scenes": [
+    {
+      "text": "Max Payne changed gaming forever with its groundbreaking bullet-time mechanics.",
+      "hook_top": "MAX PAYNE CHANGED GAMING",
+      "query": "Max Payne bullet-time",
+      "query2": "Max Payne history",
+      "role": "hook"
+    },
+    {
+      "text": "It was released 25 years ago, blending noir storytelling and gameplay innovation.",
+      "chips": [
+        {
+          "t": "25 YEARS AGO",
+          "on": "released",
+          "style": "white"
+        }
+      ],
+      "query": "Max Payne release date",
+      "query2": "Max Payne facts",
+      "role": "fact"
+    },
+    {
+      "text": "Its influence can still be seen in many modern shooters today.",
+      "callout": {
+        "label": "GAME CHANGER",
+        "sub": "Influence on modern games",
+        "label_on": "influence"
+      },
+      "query": "Max Payne influence",
+      "query2": "Max Payne legacy",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow to stay ahead of the tech curve.",
+      "cta": "Follow for more gaming moments!",
+      "query": "gaming history",
+      "query2": "gaming moments",
+      "role": "cta"
+    }
+  ],
+  "description": "Discover how Max Payne revolutionized gaming with its unique mechanics and storytelling. Join us as we explore its lasting impact!",
+  "hashtags": [
+    "#MaxPayne",
+    "#GamingHistory",
+    "#bulletime",
+    "#gaming",
+    "#25Years",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

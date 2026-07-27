@@ -1,0 +1,55 @@
+{
+  "title": "Nintendo's Legal Battles Explained",
+  "thumb": "NINTENDO LEGAL DRAMA",
+  "scenes": [
+    {
+      "text": "Nintendo is currently facing a lawsuit regarding tariff refunds for gamers.",
+      "hook_top": "NINTENDO IN LEGAL TROUBLE",
+      "query": "Nintendo tariff refunds lawsuit",
+      "query2": "Nintendo lawsuits",
+      "role": "hook"
+    },
+    {
+      "text": "The company claims customers 'got what they bargained for' regarding the games.",
+      "chips": [
+        {
+          "t": "GOT WHAT THEY PAID FOR",
+          "on": "bargained",
+          "style": "white"
+        }
+      ],
+      "query": "Nintendo statement lawsuit",
+      "query2": "Nintendo legal response",
+      "role": "fact"
+    },
+    {
+      "text": "This case highlights how companies handle consumer expectations and refunds.",
+      "callout": {
+        "label": "LEGAL ISSUES",
+        "sub": "Consumer Rights Matter",
+        "label_on": "handle"
+      },
+      "query": "Nintendo consumer rights",
+      "query2": "legal issues",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow for daily tech and AI news.",
+      "cta": "Follow for updates!",
+      "query": "tech legal news",
+      "query2": "latest tech news",
+      "role": "cta"
+    }
+  ],
+  "description": "Dive into Nintendo's recent legal challenges and what it means for gamers. Stay informed with us!",
+  "hashtags": [
+    "#Nintendo",
+    "#GamingNews",
+    "#LegalBattles",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

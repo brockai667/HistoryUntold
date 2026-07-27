@@ -4760,5 +4760,176 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "The Retro Console Power Race is Over!",
+    "thumb": "POWER RACE ENDS",
+    "scenes": [
+      {
+        "text": "Did you know the console war changed in 2023?",
+        "hook_top": "CONSOLE POWER RACE ENDS",
+        "query": "console power race 2023",
+        "query2": "console wars history",
+        "role": "hook"
+      },
+      {
+        "text": "Nintendo's Miyamoto confirmed the shift away from raw power.",
+        "query": "Miyamoto console power statement",
+        "query2": "Nintendo console strategies",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Innovation is now prioritized over just graphics.",
+        "query": "innovation over graphics gaming",
+        "query2": "gaming innovation trends",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Future Focus",
+        "label": "Future Focus",
+        "sub": "What's next for consoles?",
+        "label_on": "focus",
+        "query": "console future trends",
+        "query2": "next-gen consoles",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow for the future, one byte at a time.",
+        "query": "latest gaming tech",
+        "query2": "gaming technology news",
+        "role": "cta"
+      }
+    ],
+    "description": "The console power race is evolving! Discover how Nintendo is leading the change towards innovation. Stay updated! #shorts #fyp #Nintendo #gaming #innovation #consoletalk",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#Nintendo",
+      "#gaming",
+      "#innovation",
+      "#consoletalk",
+      "#gamer"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The First Major Video Game Hack",
+    "thumb": "FIRST GAME HACK",
+    "scenes": [
+      {
+        "text": "Did you know the first video game hack was in 1984?",
+        "hook_top": "FIRST GAME HACK EVER",
+        "query": "first video game hack",
+        "query2": "gaming hacks history",
+        "role": "hook"
+      },
+      {
+        "text": "Hackers modified the Atari 2600 to unlock hidden features.",
+        "query": "Atari 2600 hacks",
+        "query2": "Atari game modifications",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "This sparked a wave of gaming mods and cheats.",
+        "query": "impact of game hacks",
+        "query2": "gaming modifications history",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Game Modding",
+        "label": "Game Modding",
+        "sub": "Hacking changed gaming!",
+        "label_on": "modding",
+        "query": "gaming modding history",
+        "query2": "first game mods",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "technology stories",
+        "query2": "video game history",
+        "role": "cta"
+      }
+    ],
+    "description": "The history of gaming is filled with unexpected turns, like the first major hack back in 1984. Join us to learn more! #shorts #fyp #gaminghistory #Atari #gamehacks #modding",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#gaminghistory",
+      "#Atari",
+      "#gamehacks",
+      "#modding",
+      "#gamer"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "25 Years of Max Payne's Legacy",
+    "thumb": "MAX PAYNE IMPACT",
+    "scenes": [
+      {
+        "text": "Did you know Max Payne debuted in 2001?",
+        "hook_top": "MAX PAYNE 2001 LEGEND",
+        "query": "Max Payne release year",
+        "query2": "Max Payne game history",
+        "role": "hook"
+      },
+      {
+        "text": "This game introduced the revolutionary bullet time mechanic.",
+        "chips": [
+          {
+            "t": "BULLET TIME",
+            "on": "bullet",
+            "style": "accent"
+          }
+        ],
+        "query": "Max Payne bullet time",
+        "query2": "bullet time gaming history",
+        "role": "fact"
+      },
+      {
+        "text": "It influenced countless titles in the action genre.",
+        "query": "Max Payne's influence on gaming",
+        "query2": "action game influences",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Gaming Impact",
+        "label": "Gaming Impact",
+        "sub": "Max Payne changed games forever.",
+        "label_on": "impact",
+        "query": "Max Payne impact on gaming",
+        "query2": "Max Payne legacy",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "query": "gaming history",
+        "query2": "video game history",
+        "role": "cta"
+      }
+    ],
+    "description": "Max Payne has transformed the gaming landscape with its iconic mechanics and storytelling. Discover its legacy today! #shorts #fyp #MaxPayne #gaminghistory #bulletime #videogames #gamer",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#MaxPayne",
+      "#gaminghistory",
+      "#bulletime",
+      "#videogames",
+      "#gamer"
+    ],
+    "place": "",
+    "country": ""
   }
 ]

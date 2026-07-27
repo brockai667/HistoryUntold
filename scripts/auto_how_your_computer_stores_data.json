@@ -1,0 +1,56 @@
+{
+  "title": "How Your Computer Stores Data",
+  "thumb": "DATA STORAGE SECRETS",
+  "scenes": [
+    {
+      "text": "Your computer uses memory chips called SSDs to store data quickly.",
+      "hook_top": "DATA STORAGE DEMYSTIFIED",
+      "query": "how computer stores data",
+      "query2": "computer memory",
+      "role": "hook"
+    },
+    {
+      "text": "SSDs can access data up to 100 times faster than traditional HDDs.",
+      "chips": [
+        {
+          "t": "100 TIMES FASTER",
+          "on": "access",
+          "style": "accent"
+        }
+      ],
+      "query": "SSDs vs HDDs speed",
+      "query2": "SSD speed",
+      "role": "fact"
+    },
+    {
+      "text": "This speed allows your applications to launch almost instantly.",
+      "callout": {
+        "label": "INSTANT ACCESS",
+        "sub": "Applications React Quickly",
+        "label_on": "instantly"
+      },
+      "query": "applications launch speed",
+      "query2": "instant application access",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow to stay ahead of the tech curve.",
+      "cta": "Follow for tech tips!",
+      "query": "tech insights",
+      "query2": "tech tips",
+      "role": "cta"
+    }
+  ],
+  "description": "Ever wondered how your computer stores data? Learn about SSDs and their incredible speed! Follow us for more tech insights!",
+  "hashtags": [
+    "#ComputerTech",
+    "#DataStorage",
+    "#SSD",
+    "#Technology",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}
