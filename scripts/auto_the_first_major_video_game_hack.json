@@ -1,0 +1,55 @@
+{
+  "title": "The First Major Video Game Hack",
+  "thumb": "FIRST GAME HACK",
+  "scenes": [
+    {
+      "text": "Did you know the first video game hack was in 1984?",
+      "hook_top": "FIRST GAME HACK EVER",
+      "query": "first video game hack",
+      "query2": "gaming hacks history",
+      "role": "hook"
+    },
+    {
+      "text": "Hackers modified the Atari 2600 to unlock hidden features.",
+      "query": "Atari 2600 hacks",
+      "query2": "Atari game modifications",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "This sparked a wave of gaming mods and cheats.",
+      "query": "impact of game hacks",
+      "query2": "gaming modifications history",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Game Modding",
+      "label": "Game Modding",
+      "sub": "Hacking changed gaming!",
+      "label_on": "modding",
+      "query": "gaming modding history",
+      "query2": "first game mods",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "technology stories",
+      "query2": "video game history",
+      "role": "cta"
+    }
+  ],
+  "description": "The history of gaming is filled with unexpected turns, like the first major hack back in 1984. Join us to learn more! #shorts #fyp #gaminghistory #Atari #gamehacks #modding",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#gaminghistory",
+    "#Atari",
+    "#gamehacks",
+    "#modding",
+    "#gamer"
+  ],
+  "place": "",
+  "country": ""
+}

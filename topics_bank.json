@@ -4931,5 +4931,198 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "THE TRUTH ABOUT RETRO GAMING",
+    "thumb": "RETRO GAMING REVEALED",
+    "scenes": [
+      {
+        "text": "Did you know the NES was released in 1983?",
+        "hook_top": "RETRO GAMING FACTS",
+        "query": "NES release date",
+        "query2": "Nintendo Entertainment System history",
+        "role": "hook"
+      },
+      {
+        "text": "It revived the gaming industry after the crash of 1983.",
+        "chips": [
+          {
+            "t": "GAME INDUSTRY",
+            "on": "gaming",
+            "style": "accent"
+          }
+        ],
+        "query": "NES impact on gaming industry",
+        "query2": "NES revival significance",
+        "role": "fact"
+      },
+      {
+        "text": "Over 61 million units sold worldwide, a huge success.",
+        "chips": [
+          {
+            "t": "61 MILLION",
+            "on": "61 million",
+            "style": "white"
+          }
+        ],
+        "query": "NES sales statistics",
+        "query2": "NES sales worldwide",
+        "role": "fact"
+      },
+      {
+        "text": "Yet, many classic games were lost to time.",
+        "reveal_top": "CLASSICS THAT DISAPPEARED!",
+        "query": "lost NES games history",
+        "query2": "NES game preservation issues",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "Follow for retro tech",
+        "query2": "Follow for gaming updates",
+        "role": "cta"
+      }
+    ],
+    "description": "Explore the origins of retro gaming and the unexpected losses. Engage with us for more secrets from gaming's past!",
+    "hashtags": [
+      "#RetroGaming",
+      "#NES",
+      "#GamingPast",
+      "#TechHistory",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "SURPRISING GADGET HACKS YOU MUST KNOW",
+    "thumb": "GADGET HACKS REVEALED",
+    "scenes": [
+      {
+        "text": "Have you heard about the famous 2007 iPhone hack?",
+        "hook_top": "2007 IPHONE HACK",
+        "query": "2007 iPhone hack history",
+        "query2": "iPhone early hacks",
+        "role": "hook"
+      },
+      {
+        "text": "It was jailbroken in just a few days after release.",
+        "chips": [
+          {
+            "t": "FEW DAYS",
+            "on": "few days",
+            "style": "accent"
+          }
+        ],
+        "query": "iPhone 2007 jailbreak",
+        "query2": "iPhone hacking timeline",
+        "role": "fact"
+      },
+      {
+        "text": "This led to a whole new market of apps.",
+        "chips": [
+          {
+            "t": "NEW APP MARKET",
+            "on": "new market",
+            "style": "white"
+          }
+        ],
+        "query": "iPhone jailbreak apps",
+        "query2": "impact of iPhone jailbreak",
+        "role": "fact"
+      },
+      {
+        "text": "Surprisingly, Apple initially encouraged this!",
+        "reveal_top": "APPLE'S UNEXPECTED SUPPORT!",
+        "query": "Apple iPhone hack support",
+        "query2": "Apple stance on jailbreaking",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "Follow for tech hacks",
+        "query2": "Follow for gadget insights",
+        "role": "cta"
+      }
+    ],
+    "description": "Learn about the shocking story of the original iPhone hack and Apple's surprising reaction. Join us for more tech revelations!",
+    "hashtags": [
+      "#iPhoneHack",
+      "#TechHacks",
+      "#GadgetSecrets",
+      "#InnovationHistory",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "MAX PAYNE'S 25-YEAR REVOLUTION",
+    "thumb": "25 YEARS OF IMPACT",
+    "scenes": [
+      {
+        "text": "Max Payne was released in July 2001, changing gaming forever.",
+        "hook_top": "25 YEAR GAME CHANGER",
+        "query": "Max Payne release date",
+        "query2": "Max Payne gaming impact",
+        "role": "hook"
+      },
+      {
+        "text": "Its unique bullet time feature revolutionized gameplay mechanics.",
+        "chips": [
+          {
+            "t": "BULLET TIME",
+            "on": "bullet",
+            "style": "accent"
+          }
+        ],
+        "query": "Max Payne bullet time",
+        "query2": "Max Payne mechanics",
+        "role": "fact"
+      },
+      {
+        "text": "It inspired countless games, shaping the action genre.",
+        "chips": [
+          {
+            "t": "COUNTLESS GAMES",
+            "on": "countless",
+            "style": "white"
+          }
+        ],
+        "query": "Max Payne inspiration",
+        "query2": "Max Payne influence",
+        "role": "fact"
+      },
+      {
+        "text": "But did you know it nearly didn't get made?",
+        "reveal_top": "A NEAR-UNMADE CLASSIC!",
+        "query": "Max Payne production history",
+        "query2": "Max Payne near cancellation",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "query": "Follow for gaming history",
+        "query2": "Follow for tech updates",
+        "role": "cta"
+      }
+    ],
+    "description": "Discover how Max Payne reshaped the gaming industry and the challenges it faced before release. Click to delve into gaming history!",
+    "hashtags": [
+      "#MaxPayne",
+      "#GamingHistory",
+      "#GameChanger",
+      "#RetroGaming",
+      "#TechTales",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
   }
 ]

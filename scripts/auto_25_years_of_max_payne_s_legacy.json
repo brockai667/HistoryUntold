@@ -1,0 +1,61 @@
+{
+  "title": "25 Years of Max Payne's Legacy",
+  "thumb": "MAX PAYNE IMPACT",
+  "scenes": [
+    {
+      "text": "Did you know Max Payne debuted in 2001?",
+      "hook_top": "MAX PAYNE 2001 LEGEND",
+      "query": "Max Payne release year",
+      "query2": "Max Payne game history",
+      "role": "hook"
+    },
+    {
+      "text": "This game introduced the revolutionary bullet time mechanic.",
+      "chips": [
+        {
+          "t": "BULLET TIME",
+          "on": "bullet",
+          "style": "accent"
+        }
+      ],
+      "query": "Max Payne bullet time",
+      "query2": "bullet time gaming history",
+      "role": "fact"
+    },
+    {
+      "text": "It influenced countless titles in the action genre.",
+      "query": "Max Payne's influence on gaming",
+      "query2": "action game influences",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Gaming Impact",
+      "label": "Gaming Impact",
+      "sub": "Max Payne changed games forever.",
+      "label_on": "impact",
+      "query": "Max Payne impact on gaming",
+      "query2": "Max Payne legacy",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow for daily tech and AI news.",
+      "query": "gaming history",
+      "query2": "video game history",
+      "role": "cta"
+    }
+  ],
+  "description": "Max Payne has transformed the gaming landscape with its iconic mechanics and storytelling. Discover its legacy today! #shorts #fyp #MaxPayne #gaminghistory #bulletime #videogames #gamer",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#MaxPayne",
+    "#gaminghistory",
+    "#bulletime",
+    "#videogames",
+    "#gamer"
+  ],
+  "place": "",
+  "country": ""
+}
