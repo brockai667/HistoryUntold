@@ -1,0 +1,64 @@
+{
+  "title": "THE TRUTH ABOUT RETRO GAMING",
+  "thumb": "RETRO GAMING REVEALED",
+  "scenes": [
+    {
+      "text": "Did you know the NES was released in 1983?",
+      "hook_top": "RETRO GAMING FACTS",
+      "query": "NES release date",
+      "query2": "Nintendo Entertainment System history",
+      "role": "hook"
+    },
+    {
+      "text": "It revived the gaming industry after the crash of 1983.",
+      "chips": [
+        {
+          "t": "GAME INDUSTRY",
+          "on": "gaming",
+          "style": "accent"
+        }
+      ],
+      "query": "NES impact on gaming industry",
+      "query2": "NES revival significance",
+      "role": "fact"
+    },
+    {
+      "text": "Over 61 million units sold worldwide, a huge success.",
+      "chips": [
+        {
+          "t": "61 MILLION",
+          "on": "61 million",
+          "style": "white"
+        }
+      ],
+      "query": "NES sales statistics",
+      "query2": "NES sales worldwide",
+      "role": "fact"
+    },
+    {
+      "text": "Yet, many classic games were lost to time.",
+      "reveal_top": "CLASSICS THAT DISAPPEARED!",
+      "query": "lost NES games history",
+      "query2": "NES game preservation issues",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "Follow for retro tech",
+      "query2": "Follow for gaming updates",
+      "role": "cta"
+    }
+  ],
+  "description": "Explore the origins of retro gaming and the unexpected losses. Engage with us for more secrets from gaming's past!",
+  "hashtags": [
+    "#RetroGaming",
+    "#NES",
+    "#GamingPast",
+    "#TechHistory",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

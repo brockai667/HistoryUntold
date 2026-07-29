@@ -1,0 +1,65 @@
+{
+  "title": "MAX PAYNE'S 25-YEAR REVOLUTION",
+  "thumb": "25 YEARS OF IMPACT",
+  "scenes": [
+    {
+      "text": "Max Payne was released in July 2001, changing gaming forever.",
+      "hook_top": "25 YEAR GAME CHANGER",
+      "query": "Max Payne release date",
+      "query2": "Max Payne gaming impact",
+      "role": "hook"
+    },
+    {
+      "text": "Its unique bullet time feature revolutionized gameplay mechanics.",
+      "chips": [
+        {
+          "t": "BULLET TIME",
+          "on": "bullet",
+          "style": "accent"
+        }
+      ],
+      "query": "Max Payne bullet time",
+      "query2": "Max Payne mechanics",
+      "role": "fact"
+    },
+    {
+      "text": "It inspired countless games, shaping the action genre.",
+      "chips": [
+        {
+          "t": "COUNTLESS GAMES",
+          "on": "countless",
+          "style": "white"
+        }
+      ],
+      "query": "Max Payne inspiration",
+      "query2": "Max Payne influence",
+      "role": "fact"
+    },
+    {
+      "text": "But did you know it nearly didn't get made?",
+      "reveal_top": "A NEAR-UNMADE CLASSIC!",
+      "query": "Max Payne production history",
+      "query2": "Max Payne near cancellation",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow for daily tech and AI news.",
+      "query": "Follow for gaming history",
+      "query2": "Follow for tech updates",
+      "role": "cta"
+    }
+  ],
+  "description": "Discover how Max Payne reshaped the gaming industry and the challenges it faced before release. Click to delve into gaming history!",
+  "hashtags": [
+    "#MaxPayne",
+    "#GamingHistory",
+    "#GameChanger",
+    "#RetroGaming",
+    "#TechTales",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

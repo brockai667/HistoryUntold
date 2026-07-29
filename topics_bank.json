@@ -5124,5 +5124,251 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "The Secret Behind Your Smartphone Battery",
+    "thumb": "BATTERY MYSTERY UNLOCKED",
+    "scenes": [
+      {
+        "text": "Did you know your smartphone battery can lose up to 20% capacity within a year?",
+        "hook_top": "SMARTPHONE BATTERY TRUTH",
+        "query": "smartphone battery capacity loss",
+        "query2": "battery lifespan",
+        "role": "hook"
+      },
+      {
+        "text": "Most batteries are rated for about 500 charge cycles before degrading significantly.",
+        "chips": [
+          {
+            "t": "500 CHARGE CYCLES",
+            "on": "rated",
+            "style": "white"
+          }
+        ],
+        "query": "battery charge cycles",
+        "query2": "battery ratings",
+        "role": "fact"
+      },
+      {
+        "text": "Despite this, many users keep their phones for over three years, leading to unexpected issues.",
+        "chips": [
+          {
+            "t": "THREE YEARS USAGE",
+            "on": "keep",
+            "style": "accent"
+          }
+        ],
+        "query": "smartphone usage duration",
+        "query2": "user habits",
+        "role": "fact"
+      },
+      {
+        "text": "EXTEND YOUR BATTERY LIFE NOW!",
+        "reveal_top": "BATTERY CARE SECRETS REVEALED!",
+        "query": "extending battery life",
+        "query2": "battery tips",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "tech tips",
+        "query2": "technology advice",
+        "role": "cta"
+      }
+    ],
+    "description": "Learn the shocking facts about your smartphone battery's lifespan and how to improve it. Don't miss out on essential tips!",
+    "hashtags": [
+      "#tech",
+      "#battery",
+      "#smartphone",
+      "#gadgettips",
+      "#shorts",
+      "#fyp",
+      "#lifehacks"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Gaming's Forgotten Power Players",
+    "thumb": "RETRO GAMING SECRETS",
+    "scenes": [
+      {
+        "text": "In 1998, a small company developed the first 3D graphics chipset for home consoles.",
+        "hook_top": "3D GRAPHICS GAME CHANGER",
+        "query": "1998 3D graphics chipset",
+        "query2": "graphics technology history",
+        "role": "hook"
+      },
+      {
+        "text": "This chipset advanced console graphics, enabling games to visually showcase 3D environments.",
+        "chips": [
+          {
+            "t": "ENHANCED VISUALS",
+            "on": "showcase",
+            "style": "white"
+          }
+        ],
+        "query": "console graphics advancements",
+        "query2": "video game graphics",
+        "role": "fact"
+      },
+      {
+        "text": "Surprisingly, the company faded away, yet their influence is felt to this day.",
+        "chips": [
+          {
+            "t": "INFLUENCE STILL FELT",
+            "on": "influence",
+            "style": "accent"
+          }
+        ],
+        "query": "forgotten gaming companies",
+        "query2": "influential gaming history",
+        "role": "fact"
+      },
+      {
+        "text": "FORGOTTEN TECH STILL LIVES!",
+        "reveal_top": "UNSEEN LEGACIES REVEALED!",
+        "query": "legacy of forgotten tech",
+        "query2": "gaming legacies",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "retro gaming facts",
+        "query2": "historical gaming",
+        "role": "cta"
+      }
+    ],
+    "description": "Discover the small companies behind major gaming innovations and their lasting impact. Join us for more amazing tales!",
+    "hashtags": [
+      "#gaminghistory",
+      "#retro",
+      "#tech",
+      "#fyp",
+      "#shorts",
+      "#gamedev",
+      "#3Dgraphics"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Wild 80% Drop in Steam Deck Sales",
+    "thumb": "STEAM DECK DROP!",
+    "scenes": [
+      {
+        "hook_top": "STEAM DECK SALES PLUNGE",
+        "fact": "Sales reportedly fell 80% after price hikes. ",
+        "chips": [],
+        "punch": "plunge.",
+        "query": "Steam Deck sales decline",
+        "query2": "Steam Deck news",
+        "role": "hook",
+        "text": "Steam Deck sales shrank by 80% recently!"
+      },
+      {
+        "chips": [],
+        "punch": "praised.",
+        "query": "Steam Deck performance review",
+        "query2": "Steam Deck specifications",
+        "role": "fact",
+        "text": "The device was initially praised for its performance."
+      },
+      {
+        "label": "The Effect of Price Hikes",
+        "sub": "On Consumer Interest",
+        "label_on": "price hikes",
+        "query": "impact of price hikes on sales",
+        "query2": "impact of price on sales",
+        "role": "callout",
+        "text": "PRICE HIKES IMPACT"
+      },
+      {
+        "query": "follow tech insights",
+        "query2": "tech insights",
+        "role": "cta",
+        "text": "Follow for daily tech you should actually know."
+      }
+    ],
+    "description": "The Steam Deck's sales have taken a significant hit due to recent price hikes. Discover how performance and pricing affect consumer choices! #SteamDeck #GamingNews #Technology #Shorts #FYP #TechTrends #Gaming",
+    "hashtags": [
+      "#SteamDeck",
+      "#GamingNews",
+      "#Technology",
+      "#Shorts",
+      "#FYP",
+      "#TechTrends",
+      "#Gaming"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The First Major Video Game Bug",
+    "thumb": "GAME BUG MYSTERY",
+    "scenes": [
+      {
+        "text": "In 1985, a major bug crashed a popular game, affecting players worldwide.",
+        "hook_top": "GAME CRASHING BUG REVEALED",
+        "query": "1985 major video game bug",
+        "query2": "first major video game bug",
+        "role": "hook"
+      },
+      {
+        "text": "Over 100,000 copies of the game were sold before the bug was fixed.",
+        "chips": [
+          {
+            "t": "100,000 COPIES",
+            "on": "sold",
+            "style": "white"
+          }
+        ],
+        "query": "1985 game sales figures",
+        "query2": "game sales",
+        "role": "fact"
+      },
+      {
+        "text": "This infamous bug led to the game's delayed sequel and sparked a genre of bug-fixing.",
+        "chips": [
+          {
+            "t": "BUG-FIXING GENRE",
+            "on": "sparked",
+            "style": "accent"
+          }
+        ],
+        "query": "bug fixing in games",
+        "query2": "game development history",
+        "role": "fact"
+      },
+      {
+        "text": "THIS BUG CHANGED GAMING FOREVER!",
+        "reveal_top": "GAME CHANGING BUG REVEALED",
+        "query": "impact of game bug",
+        "query2": "game changes",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "gaming secrets",
+        "query2": "gaming facts",
+        "role": "cta"
+      }
+    ],
+    "description": "A game-changing bug that affected thousands and altered the gaming industry forever. Don't miss the stunning twists!",
+    "hashtags": [
+      "#gaminghistory",
+      "#bug",
+      "#gamedev",
+      "#retro",
+      "#fyp",
+      "#shorts",
+      "#videogames"
+    ],
+    "place": "",
+    "country": ""
   }
 ]

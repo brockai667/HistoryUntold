@@ -1,0 +1,64 @@
+{
+  "title": "SURPRISING GADGET HACKS YOU MUST KNOW",
+  "thumb": "GADGET HACKS REVEALED",
+  "scenes": [
+    {
+      "text": "Have you heard about the famous 2007 iPhone hack?",
+      "hook_top": "2007 IPHONE HACK",
+      "query": "2007 iPhone hack history",
+      "query2": "iPhone early hacks",
+      "role": "hook"
+    },
+    {
+      "text": "It was jailbroken in just a few days after release.",
+      "chips": [
+        {
+          "t": "FEW DAYS",
+          "on": "few days",
+          "style": "accent"
+        }
+      ],
+      "query": "iPhone 2007 jailbreak",
+      "query2": "iPhone hacking timeline",
+      "role": "fact"
+    },
+    {
+      "text": "This led to a whole new market of apps.",
+      "chips": [
+        {
+          "t": "NEW APP MARKET",
+          "on": "new market",
+          "style": "white"
+        }
+      ],
+      "query": "iPhone jailbreak apps",
+      "query2": "impact of iPhone jailbreak",
+      "role": "fact"
+    },
+    {
+      "text": "Surprisingly, Apple initially encouraged this!",
+      "reveal_top": "APPLE'S UNEXPECTED SUPPORT!",
+      "query": "Apple iPhone hack support",
+      "query2": "Apple stance on jailbreaking",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "Follow for tech hacks",
+      "query2": "Follow for gadget insights",
+      "role": "cta"
+    }
+  ],
+  "description": "Learn about the shocking story of the original iPhone hack and Apple's surprising reaction. Join us for more tech revelations!",
+  "hashtags": [
+    "#iPhoneHack",
+    "#TechHacks",
+    "#GadgetSecrets",
+    "#InnovationHistory",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}
