@@ -5370,5 +5370,496 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "The PC Game That Changed Everything",
+    "thumb": "GAME-CHANGER",
+    "scenes": [
+      {
+        "hook_top": "GAMING GAMECHANGER",
+        "count": "1",
+        "label": "DOOM REDEFINED FPS",
+        "label_on": "Doom",
+        "query": "Doom game impact",
+        "query2": "revolutionary PC games",
+        "role": "hook",
+        "text": "This game reshaped PC gaming forever!"
+      },
+      {
+        "label": "LAN PARTIES POPULARIZE",
+        "label_on": "LAN",
+        "query": "LAN parties origin",
+        "query2": "gaming gatherings",
+        "role": "count",
+        "text": "2",
+        "num": 1
+      },
+      {
+        "label": "MODDING CULTURE STARTE",
+        "label_on": "Modding",
+        "query": "Doom modding history",
+        "query2": "gaming customization",
+        "role": "count",
+        "text": "3",
+        "num": 2
+      },
+      {
+        "query": "gaming history",
+        "query2": "follow gaming",
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time."
+      }
+    ],
+    "description": "Discover how Doom revolutionized PC gaming and led to modern multiplayer experiences. Don’t miss out on more gaming insights!",
+    "hashtags": [
+      "#Shorts",
+      "#gaming",
+      "#Doom",
+      "#PCgaming",
+      "#history",
+      "#fyp",
+      "#retrogaming",
+      "#tech"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "3 Iconic Gadgets That Disappeared",
+    "thumb": "GADGETS GONE",
+    "scenes": [
+      {
+        "hook_top": "GADGETS THAT VANISHED",
+        "count": "1",
+        "label": "THE WALKMAN FADES",
+        "label_on": "Walkman",
+        "query": "Walkman history",
+        "query2": "discontinued gadgets",
+        "role": "hook",
+        "text": "These gadgets changed our lives... until they didn't!"
+      },
+      {
+        "label": "FLAT-SCREEN CRT DEMISE",
+        "label_on": "CRT",
+        "query": "CRT monitors decline",
+        "query2": "monitor technology",
+        "role": "count",
+        "text": "2",
+        "num": 1
+      },
+      {
+        "label": "DISCMAN DISAPPEARS",
+        "label_on": "Discman",
+        "query": "Discman history",
+        "query2": "music players",
+        "role": "count",
+        "text": "3",
+        "num": 2
+      },
+      {
+        "query": "nostalgic tech",
+        "query2": "follow for tech",
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve."
+      }
+    ],
+    "description": "Explore three iconic gadgets that made waves but eventually vanished from our lives. Stay tuned for more tech nostalgia!",
+    "hashtags": [
+      "#Shorts",
+      "#nostalgia",
+      "#gadgets",
+      "#tech",
+      "#retrotech",
+      "#fyp",
+      "#discontinued",
+      "#gadgethistory"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Top 3 Retro Hacks You Didn't Know!",
+    "thumb": "RETRO HACKS",
+    "scenes": [
+      {
+        "hook_top": "HACKING RETRO GAMES",
+        "count": "1",
+        "label": "GAME GENIE ERRORS",
+        "label_on": "Game Genie",
+        "query": "Game Genie hacks",
+        "query2": "video game hacks",
+        "role": "hook",
+        "text": "These hacks changed gaming forever!"
+      },
+      {
+        "label": "Sonic's Debug Mode",
+        "label_on": "Debug Mode",
+        "query": "Sonic debug mode",
+        "query2": "game glitches",
+        "role": "count",
+        "text": "2",
+        "num": 1
+      },
+      {
+        "label": "CONTRA CODE LEGEND",
+        "label_on": "Contra Code",
+        "query": "Contra cheat code",
+        "query2": "cheat codes",
+        "role": "count",
+        "text": "3",
+        "num": 2
+      },
+      {
+        "query": "gaming stories",
+        "query2": "follow gaming",
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve."
+      }
+    ],
+    "description": "Uncover three retro hacks that let players break the rules and enjoy gaming in a whole new way. Don’t miss out!",
+    "hashtags": [
+      "#Shorts",
+      "#gaming",
+      "#retro",
+      "#hacks",
+      "#Contra",
+      "#fyp",
+      "#Sonic",
+      "#GameGenie"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "3 Biggest Video Game Bugs Ever!",
+    "thumb": "BUGS REVEALED",
+    "scenes": [
+      {
+        "hook_top": "UNBELIEVABLE GAME BUGS",
+        "count": "1",
+        "label": "SKYRIM'S FLYING MUDCRAB",
+        "label_on": "Skyrim",
+        "query": "Skyrim mudcrab bug",
+        "query2": "gaming bugs",
+        "role": "hook",
+        "text": "These game-breaking bugs shocked players!"
+      },
+      {
+        "label": "FALLOUT 76 GLITCH",
+        "label_on": "Fallout 76",
+        "query": "Fallout 76 glitches",
+        "query2": "game issues",
+        "role": "count",
+        "text": "2",
+        "num": 1
+      },
+      {
+        "label": "ASSASSIN'S CREED ROOFT",
+        "label_on": "Assassin's Creed",
+        "query": "Assassin's Creed bug",
+        "query2": "game glitches",
+        "role": "count",
+        "text": "3",
+        "num": 2
+      },
+      {
+        "query": "gaming news",
+        "query2": "follow gaming news",
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve."
+      }
+    ],
+    "description": "Discover the top three video game bugs that left players baffled and laughing! Stay tuned for more gaming content!",
+    "hashtags": [
+      "#Shorts",
+      "#gaming",
+      "#bugs",
+      "#videoGames",
+      "#fyp",
+      "#gamer",
+      "#gameglitches",
+      "#retro"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "3 Pivotal Moments in Gaming History",
+    "thumb": "GAME HISTORY",
+    "scenes": [
+      {
+        "hook_top": "HISTORIC GAMING MOMENTS",
+        "count": "1",
+        "label": "ATARI'S GAME-CHANGER",
+        "label_on": "Atari",
+        "query": "Atari impact on gaming",
+        "query2": "gaming history",
+        "role": "hook",
+        "text": "These moments changed gaming forever!"
+      },
+      {
+        "label": "NINTENDO'S REVOLUTION",
+        "label_on": "Nintendo",
+        "query": "Nintendo gaming impact",
+        "query2": "important game consoles",
+        "role": "count",
+        "text": "2",
+        "num": 1
+      },
+      {
+        "label": "PLAYSTATION TRENDSETTE",
+        "label_on": "PlayStation",
+        "query": "PlayStation gaming impact",
+        "query2": "gaming milestones",
+        "role": "count",
+        "text": "3",
+        "num": 2
+      },
+      {
+        "query": "gaming history",
+        "query2": "follow for more",
+        "role": "cta",
+        "text": "Follow for daily tech you should actually know."
+      }
+    ],
+    "description": "Explore three pivotal moments that defined the gaming landscape. Keep following for more historical insights!",
+    "hashtags": [
+      "#Shorts",
+      "#gaming",
+      "#history",
+      "#Atari",
+      "#Nintendo",
+      "#PlayStation",
+      "#fyp",
+      "#gamehistory"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "How Your Old Console Works",
+    "thumb": "OLD CONSOLE MAGIC",
+    "scenes": [
+      {
+        "text": "The original PlayStation released in 1994 changed gaming.",
+        "hook_top": "PLAYSTATION'S GAMECHANGING RELEASE",
+        "query": "PlayStation 1994 history",
+        "query2": "gaming console releases",
+        "chips": [],
+        "punch": "AMAZING",
+        "role": "hook"
+      },
+      {
+        "text": "It had a 33.868MHz processor powering its 3D graphics.",
+        "query": "PlayStation processor speed",
+        "query2": "PlayStation specs",
+        "chips": [
+          {
+            "t": "33.868MHz",
+            "on": "processor",
+            "style": "white"
+          }
+        ],
+        "punch": "POWERFUL",
+        "role": "fact"
+      },
+      {
+        "text": "Millions of gamers experienced its innovative CD-ROM format.",
+        "query": "PlayStation CD-ROM format impact",
+        "query2": "CD-ROM gaming",
+        "chips": [],
+        "punch": "CRUCIAL",
+        "role": "fact"
+      },
+      {
+        "text": "THIS REVOLUTIONIZED HOME GAMING!",
+        "reveal_top": "CDs OVER CARTRIDGES!",
+        "query": "impact of CD gaming",
+        "query2": "home gaming evolution",
+        "chips": [],
+        "punch": "INCREDIBLE",
+        "role": "fact"
+      },
+      {
+        "text": "Follow for the future, one byte at a time.",
+        "query": "more tech magic",
+        "query2": "gaming tech features",
+        "chips": [],
+        "punch": "",
+        "role": "cta"
+      }
+    ],
+    "description": "Uncover how your old consoles worked! The PlayStation set new standards for home gaming. Follow for more tech insights!",
+    "hashtags": [
+      "#gamingtechnology",
+      "#PlayStation",
+      "#retrogaming",
+      "#consolehistory",
+      "#tech",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Breaking the Code: Famous Hacks",
+    "thumb": "HACKS EXPOSED",
+    "scenes": [
+      {
+        "text": "In 1982, the Moscow Olympics were disrupted by a computer hack.",
+        "hook_top": "1982 OLYMPICS COMPUTER HACK",
+        "query": "1982 Olympics hack",
+        "query2": "famous computer hacks",
+        "chips": [],
+        "punch": "STUNNING",
+        "role": "hook"
+      },
+      {
+        "text": "It was dubbed the 'first cyber attack' on a major event.",
+        "query": "first cyber attack history",
+        "query2": "cyber security events",
+        "chips": [],
+        "punch": "SIGNIFICANT",
+        "role": "fact"
+      },
+      {
+        "text": "This hack altered results, causing confusion worldwide.",
+        "query": "Olympics hack altered results",
+        "query2": "impact of hacking",
+        "chips": [],
+        "punch": "UNBELIEVABLE",
+        "role": "fact"
+      },
+      {
+        "text": "THIS CHANGED INTERNATIONAL SECURITY!",
+        "reveal_top": "HACKING BECAME A THREAT!",
+        "query": "international security impact",
+        "query2": "cybersecurity evolution",
+        "chips": [],
+        "punch": "CRUCIAL",
+        "role": "fact"
+      },
+      {
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "more tech stories",
+        "query2": "famous hacks in history",
+        "chips": [],
+        "punch": "",
+        "role": "cta"
+      }
+    ],
+    "description": "Explore how the 1982 Olympics faced the first known cyber attack! This event changed security forever. Follow us for more tech tales!",
+    "hashtags": [
+      "#hackinghistory",
+      "#cybersecurity",
+      "#tech",
+      "#famoushacks",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Secret Behind Game Preservation",
+    "thumb": "GAME PRESERVATION SECRETS",
+    "scenes": [
+      {
+        "hook_top": "GAME LOSS AT 87",
+        "fact": "An estimated 87% of classic games are at risk of being lost forever.",
+        "chips": [],
+        "query": "game preservation statistics",
+        "query2": "how many games are lost",
+        "punch": "vanish",
+        "role": "hook",
+        "text": "Did you know 87% of games may vanish?"
+      },
+      {
+        "chips": [],
+        "query": "video game archiving",
+        "query2": "why games are not archived",
+        "punch": "extinction",
+        "role": "fact",
+        "text": "Many games are not archived by publishers, leading to potential digital extinction."
+      },
+      {
+        "label": "Don't let history vanish.",
+        "sub": "Support game preservation efforts.",
+        "label_on": "preservation",
+        "query": "importance of game preservation",
+        "query2": "why save old games",
+        "role": "callout",
+        "text": "PRESERVATION IS CRUCIAL!"
+      },
+      {
+        "query": "tech news updates",
+        "query2": "latest tech insights",
+        "role": "cta",
+        "text": "Follow for daily tech and AI news."
+      }
+    ],
+    "description": "With 87% of classic games at risk of disappearing, preservation is more important than ever. Join us in ensuring gaming history survives!",
+    "hashtags": [
+      "#GamePreservation",
+      "#RetroGaming",
+      "#TechNews",
+      "#Shorts",
+      "#GamingHistory",
+      "#FYP",
+      "#VideoGames"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Evolution of Wireless Charging",
+    "thumb": "WIRELESS CHARGING REVOLUTION",
+    "scenes": [
+      {
+        "hook_top": "FIRST WIRELESS CHARGING",
+        "fact": "The first standard for wireless charging was introduced at just 5 watts.",
+        "chips": [],
+        "query": "wireless charging history",
+        "query2": "first wireless charging speed",
+        "punch": "5 watts",
+        "role": "hook",
+        "text": "Did you know 5w was the first wireless charge speed?"
+      },
+      {
+        "chips": [],
+        "query": "modern wireless charging speeds",
+        "query2": "how fast can wireless charging be",
+        "punch": "100 watts",
+        "role": "fact",
+        "text": "Now, wireless chargers reach speeds up to 100 watts, revolutionizing convenience."
+      },
+      {
+        "label": "Experience the convenience.",
+        "sub": "Ditch the cables today!",
+        "label_on": "charging future",
+        "query": "future of wireless charging",
+        "query2": "what is wireless charging",
+        "role": "callout",
+        "text": "FUTURE OF CHARGING!"
+      },
+      {
+        "query": "latest technology trends",
+        "query2": "upcoming tech innovations",
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time."
+      }
+    ],
+    "description": "Wireless charging has evolved from 5 watts to nearly 100 watts. Discover the journey of this convenience revolution!",
+    "hashtags": [
+      "#WirelessCharging",
+      "#TechInnovation",
+      "#Shorts",
+      "#Gadgets",
+      "#FYP",
+      "#ChargeTech"
+    ],
+    "place": "",
+    "country": ""
   }
 ]

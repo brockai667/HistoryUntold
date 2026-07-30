@@ -1,0 +1,51 @@
+{
+  "title": "The Wild 80% Drop in Steam Deck Sales",
+  "thumb": "STEAM DECK DROP!",
+  "scenes": [
+    {
+      "hook_top": "STEAM DECK SALES PLUNGE",
+      "fact": "Sales reportedly fell 80% after price hikes. ",
+      "chips": [],
+      "punch": "plunge.",
+      "query": "Steam Deck sales decline",
+      "query2": "Steam Deck news",
+      "role": "hook",
+      "text": "Steam Deck sales shrank by 80% recently!"
+    },
+    {
+      "chips": [],
+      "punch": "praised.",
+      "query": "Steam Deck performance review",
+      "query2": "Steam Deck specifications",
+      "role": "fact",
+      "text": "The device was initially praised for its performance."
+    },
+    {
+      "label": "The Effect of Price Hikes",
+      "sub": "On Consumer Interest",
+      "label_on": "price hikes",
+      "query": "impact of price hikes on sales",
+      "query2": "impact of price on sales",
+      "role": "callout",
+      "text": "PRICE HIKES IMPACT"
+    },
+    {
+      "query": "follow tech insights",
+      "query2": "tech insights",
+      "role": "cta",
+      "text": "Follow for daily tech you should actually know."
+    }
+  ],
+  "description": "The Steam Deck's sales have taken a significant hit due to recent price hikes. Discover how performance and pricing affect consumer choices! #SteamDeck #GamingNews #Technology #Shorts #FYP #TechTrends #Gaming",
+  "hashtags": [
+    "#SteamDeck",
+    "#GamingNews",
+    "#Technology",
+    "#Shorts",
+    "#FYP",
+    "#TechTrends",
+    "#Gaming"
+  ],
+  "place": "",
+  "country": ""
+}

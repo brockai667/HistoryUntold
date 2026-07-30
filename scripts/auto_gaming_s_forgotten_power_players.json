@@ -1,0 +1,65 @@
+{
+  "title": "Gaming's Forgotten Power Players",
+  "thumb": "RETRO GAMING SECRETS",
+  "scenes": [
+    {
+      "text": "In 1998, a small company developed the first 3D graphics chipset for home consoles.",
+      "hook_top": "3D GRAPHICS GAME CHANGER",
+      "query": "1998 3D graphics chipset",
+      "query2": "graphics technology history",
+      "role": "hook"
+    },
+    {
+      "text": "This chipset advanced console graphics, enabling games to visually showcase 3D environments.",
+      "chips": [
+        {
+          "t": "ENHANCED VISUALS",
+          "on": "showcase",
+          "style": "white"
+        }
+      ],
+      "query": "console graphics advancements",
+      "query2": "video game graphics",
+      "role": "fact"
+    },
+    {
+      "text": "Surprisingly, the company faded away, yet their influence is felt to this day.",
+      "chips": [
+        {
+          "t": "INFLUENCE STILL FELT",
+          "on": "influence",
+          "style": "accent"
+        }
+      ],
+      "query": "forgotten gaming companies",
+      "query2": "influential gaming history",
+      "role": "fact"
+    },
+    {
+      "text": "FORGOTTEN TECH STILL LIVES!",
+      "reveal_top": "UNSEEN LEGACIES REVEALED!",
+      "query": "legacy of forgotten tech",
+      "query2": "gaming legacies",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "retro gaming facts",
+      "query2": "historical gaming",
+      "role": "cta"
+    }
+  ],
+  "description": "Discover the small companies behind major gaming innovations and their lasting impact. Join us for more amazing tales!",
+  "hashtags": [
+    "#gaminghistory",
+    "#retro",
+    "#tech",
+    "#fyp",
+    "#shorts",
+    "#gamedev",
+    "#3Dgraphics"
+  ],
+  "place": "",
+  "country": ""
+}
