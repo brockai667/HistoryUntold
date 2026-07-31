@@ -1,0 +1,53 @@
+{
+  "title": "The PC Game That Changed Everything",
+  "thumb": "GAME-CHANGER",
+  "scenes": [
+    {
+      "hook_top": "GAMING GAMECHANGER",
+      "count": "1",
+      "label": "DOOM REDEFINED FPS",
+      "label_on": "Doom",
+      "query": "Doom game impact",
+      "query2": "revolutionary PC games",
+      "role": "hook",
+      "text": "This game reshaped PC gaming forever!"
+    },
+    {
+      "label": "LAN PARTIES POPULARIZE",
+      "label_on": "LAN",
+      "query": "LAN parties origin",
+      "query2": "gaming gatherings",
+      "role": "count",
+      "text": "2",
+      "num": 1
+    },
+    {
+      "label": "MODDING CULTURE STARTE",
+      "label_on": "Modding",
+      "query": "Doom modding history",
+      "query2": "gaming customization",
+      "role": "count",
+      "text": "3",
+      "num": 2
+    },
+    {
+      "query": "gaming history",
+      "query2": "follow gaming",
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time."
+    }
+  ],
+  "description": "Discover how Doom revolutionized PC gaming and led to modern multiplayer experiences. Don’t miss out on more gaming insights!",
+  "hashtags": [
+    "#Shorts",
+    "#gaming",
+    "#Doom",
+    "#PCgaming",
+    "#history",
+    "#fyp",
+    "#retrogaming",
+    "#tech"
+  ],
+  "place": "",
+  "country": ""
+}

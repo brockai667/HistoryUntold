@@ -1,0 +1,65 @@
+{
+  "title": "The First Major Video Game Bug",
+  "thumb": "GAME BUG MYSTERY",
+  "scenes": [
+    {
+      "text": "In 1985, a major bug crashed a popular game, affecting players worldwide.",
+      "hook_top": "GAME CRASHING BUG REVEALED",
+      "query": "1985 major video game bug",
+      "query2": "first major video game bug",
+      "role": "hook"
+    },
+    {
+      "text": "Over 100,000 copies of the game were sold before the bug was fixed.",
+      "chips": [
+        {
+          "t": "100,000 COPIES",
+          "on": "sold",
+          "style": "white"
+        }
+      ],
+      "query": "1985 game sales figures",
+      "query2": "game sales",
+      "role": "fact"
+    },
+    {
+      "text": "This infamous bug led to the game's delayed sequel and sparked a genre of bug-fixing.",
+      "chips": [
+        {
+          "t": "BUG-FIXING GENRE",
+          "on": "sparked",
+          "style": "accent"
+        }
+      ],
+      "query": "bug fixing in games",
+      "query2": "game development history",
+      "role": "fact"
+    },
+    {
+      "text": "THIS BUG CHANGED GAMING FOREVER!",
+      "reveal_top": "GAME CHANGING BUG REVEALED",
+      "query": "impact of game bug",
+      "query2": "game changes",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "gaming secrets",
+      "query2": "gaming facts",
+      "role": "cta"
+    }
+  ],
+  "description": "A game-changing bug that affected thousands and altered the gaming industry forever. Don't miss the stunning twists!",
+  "hashtags": [
+    "#gaminghistory",
+    "#bug",
+    "#gamedev",
+    "#retro",
+    "#fyp",
+    "#shorts",
+    "#videogames"
+  ],
+  "place": "",
+  "country": ""
+}

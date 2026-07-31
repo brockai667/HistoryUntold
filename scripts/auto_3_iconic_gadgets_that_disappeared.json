@@ -1,0 +1,53 @@
+{
+  "title": "3 Iconic Gadgets That Disappeared",
+  "thumb": "GADGETS GONE",
+  "scenes": [
+    {
+      "hook_top": "GADGETS THAT VANISHED",
+      "count": "1",
+      "label": "THE WALKMAN FADES",
+      "label_on": "Walkman",
+      "query": "Walkman history",
+      "query2": "discontinued gadgets",
+      "role": "hook",
+      "text": "These gadgets changed our lives... until they didn't!"
+    },
+    {
+      "label": "FLAT-SCREEN CRT DEMISE",
+      "label_on": "CRT",
+      "query": "CRT monitors decline",
+      "query2": "monitor technology",
+      "role": "count",
+      "text": "2",
+      "num": 1
+    },
+    {
+      "label": "DISCMAN DISAPPEARS",
+      "label_on": "Discman",
+      "query": "Discman history",
+      "query2": "music players",
+      "role": "count",
+      "text": "3",
+      "num": 2
+    },
+    {
+      "query": "nostalgic tech",
+      "query2": "follow for tech",
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve."
+    }
+  ],
+  "description": "Explore three iconic gadgets that made waves but eventually vanished from our lives. Stay tuned for more tech nostalgia!",
+  "hashtags": [
+    "#Shorts",
+    "#nostalgia",
+    "#gadgets",
+    "#tech",
+    "#retrotech",
+    "#fyp",
+    "#discontinued",
+    "#gadgethistory"
+  ],
+  "place": "",
+  "country": ""
+}
