@@ -1,0 +1,53 @@
+{
+  "title": "Top 3 Retro Hacks You Didn't Know!",
+  "thumb": "RETRO HACKS",
+  "scenes": [
+    {
+      "hook_top": "HACKING RETRO GAMES",
+      "count": "1",
+      "label": "GAME GENIE ERRORS",
+      "label_on": "Game Genie",
+      "query": "Game Genie hacks",
+      "query2": "video game hacks",
+      "role": "hook",
+      "text": "These hacks changed gaming forever!"
+    },
+    {
+      "label": "Sonic's Debug Mode",
+      "label_on": "Debug Mode",
+      "query": "Sonic debug mode",
+      "query2": "game glitches",
+      "role": "count",
+      "text": "2",
+      "num": 1
+    },
+    {
+      "label": "CONTRA CODE LEGEND",
+      "label_on": "Contra Code",
+      "query": "Contra cheat code",
+      "query2": "cheat codes",
+      "role": "count",
+      "text": "3",
+      "num": 2
+    },
+    {
+      "query": "gaming stories",
+      "query2": "follow gaming",
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve."
+    }
+  ],
+  "description": "Uncover three retro hacks that let players break the rules and enjoy gaming in a whole new way. Don’t miss out!",
+  "hashtags": [
+    "#Shorts",
+    "#gaming",
+    "#retro",
+    "#hacks",
+    "#Contra",
+    "#fyp",
+    "#Sonic",
+    "#GameGenie"
+  ],
+  "place": "",
+  "country": ""
+}

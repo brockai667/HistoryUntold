@@ -1,0 +1,53 @@
+{
+  "title": "3 Pivotal Moments in Gaming History",
+  "thumb": "GAME HISTORY",
+  "scenes": [
+    {
+      "hook_top": "HISTORIC GAMING MOMENTS",
+      "count": "1",
+      "label": "ATARI'S GAME-CHANGER",
+      "label_on": "Atari",
+      "query": "Atari impact on gaming",
+      "query2": "gaming history",
+      "role": "hook",
+      "text": "These moments changed gaming forever!"
+    },
+    {
+      "label": "NINTENDO'S REVOLUTION",
+      "label_on": "Nintendo",
+      "query": "Nintendo gaming impact",
+      "query2": "important game consoles",
+      "role": "count",
+      "text": "2",
+      "num": 1
+    },
+    {
+      "label": "PLAYSTATION TRENDSETTE",
+      "label_on": "PlayStation",
+      "query": "PlayStation gaming impact",
+      "query2": "gaming milestones",
+      "role": "count",
+      "text": "3",
+      "num": 2
+    },
+    {
+      "query": "gaming history",
+      "query2": "follow for more",
+      "role": "cta",
+      "text": "Follow for daily tech you should actually know."
+    }
+  ],
+  "description": "Explore three pivotal moments that defined the gaming landscape. Keep following for more historical insights!",
+  "hashtags": [
+    "#Shorts",
+    "#gaming",
+    "#history",
+    "#Atari",
+    "#Nintendo",
+    "#PlayStation",
+    "#fyp",
+    "#gamehistory"
+  ],
+  "place": "",
+  "country": ""
+}

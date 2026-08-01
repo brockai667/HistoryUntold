@@ -1,0 +1,53 @@
+{
+  "title": "3 Biggest Video Game Bugs Ever!",
+  "thumb": "BUGS REVEALED",
+  "scenes": [
+    {
+      "hook_top": "UNBELIEVABLE GAME BUGS",
+      "count": "1",
+      "label": "SKYRIM'S FLYING MUDCRAB",
+      "label_on": "Skyrim",
+      "query": "Skyrim mudcrab bug",
+      "query2": "gaming bugs",
+      "role": "hook",
+      "text": "These game-breaking bugs shocked players!"
+    },
+    {
+      "label": "FALLOUT 76 GLITCH",
+      "label_on": "Fallout 76",
+      "query": "Fallout 76 glitches",
+      "query2": "game issues",
+      "role": "count",
+      "text": "2",
+      "num": 1
+    },
+    {
+      "label": "ASSASSIN'S CREED ROOFT",
+      "label_on": "Assassin's Creed",
+      "query": "Assassin's Creed bug",
+      "query2": "game glitches",
+      "role": "count",
+      "text": "3",
+      "num": 2
+    },
+    {
+      "query": "gaming news",
+      "query2": "follow gaming news",
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve."
+    }
+  ],
+  "description": "Discover the top three video game bugs that left players baffled and laughing! Stay tuned for more gaming content!",
+  "hashtags": [
+    "#Shorts",
+    "#gaming",
+    "#bugs",
+    "#videoGames",
+    "#fyp",
+    "#gamer",
+    "#gameglitches",
+    "#retro"
+  ],
+  "place": "",
+  "country": ""
+}
