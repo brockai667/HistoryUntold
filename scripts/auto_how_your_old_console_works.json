@@ -1,0 +1,66 @@
+{
+  "title": "How Your Old Console Works",
+  "thumb": "OLD CONSOLE MAGIC",
+  "scenes": [
+    {
+      "text": "The original PlayStation released in 1994 changed gaming.",
+      "hook_top": "PLAYSTATION'S GAMECHANGING RELEASE",
+      "query": "PlayStation 1994 history",
+      "query2": "gaming console releases",
+      "chips": [],
+      "punch": "AMAZING",
+      "role": "hook"
+    },
+    {
+      "text": "It had a 33.868MHz processor powering its 3D graphics.",
+      "query": "PlayStation processor speed",
+      "query2": "PlayStation specs",
+      "chips": [
+        {
+          "t": "33.868MHz",
+          "on": "processor",
+          "style": "white"
+        }
+      ],
+      "punch": "POWERFUL",
+      "role": "fact"
+    },
+    {
+      "text": "Millions of gamers experienced its innovative CD-ROM format.",
+      "query": "PlayStation CD-ROM format impact",
+      "query2": "CD-ROM gaming",
+      "chips": [],
+      "punch": "CRUCIAL",
+      "role": "fact"
+    },
+    {
+      "text": "THIS REVOLUTIONIZED HOME GAMING!",
+      "reveal_top": "CDs OVER CARTRIDGES!",
+      "query": "impact of CD gaming",
+      "query2": "home gaming evolution",
+      "chips": [],
+      "punch": "INCREDIBLE",
+      "role": "fact"
+    },
+    {
+      "text": "Follow for the future, one byte at a time.",
+      "query": "more tech magic",
+      "query2": "gaming tech features",
+      "chips": [],
+      "punch": "",
+      "role": "cta"
+    }
+  ],
+  "description": "Uncover how your old consoles worked! The PlayStation set new standards for home gaming. Follow for more tech insights!",
+  "hashtags": [
+    "#gamingtechnology",
+    "#PlayStation",
+    "#retrogaming",
+    "#consolehistory",
+    "#tech",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

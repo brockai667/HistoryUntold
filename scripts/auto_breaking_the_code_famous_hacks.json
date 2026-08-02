@@ -1,0 +1,59 @@
+{
+  "title": "Breaking the Code: Famous Hacks",
+  "thumb": "HACKS EXPOSED",
+  "scenes": [
+    {
+      "text": "In 1982, the Moscow Olympics were disrupted by a computer hack.",
+      "hook_top": "1982 OLYMPICS COMPUTER HACK",
+      "query": "1982 Olympics hack",
+      "query2": "famous computer hacks",
+      "chips": [],
+      "punch": "STUNNING",
+      "role": "hook"
+    },
+    {
+      "text": "It was dubbed the 'first cyber attack' on a major event.",
+      "query": "first cyber attack history",
+      "query2": "cyber security events",
+      "chips": [],
+      "punch": "SIGNIFICANT",
+      "role": "fact"
+    },
+    {
+      "text": "This hack altered results, causing confusion worldwide.",
+      "query": "Olympics hack altered results",
+      "query2": "impact of hacking",
+      "chips": [],
+      "punch": "UNBELIEVABLE",
+      "role": "fact"
+    },
+    {
+      "text": "THIS CHANGED INTERNATIONAL SECURITY!",
+      "reveal_top": "HACKING BECAME A THREAT!",
+      "query": "international security impact",
+      "query2": "cybersecurity evolution",
+      "chips": [],
+      "punch": "CRUCIAL",
+      "role": "fact"
+    },
+    {
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "more tech stories",
+      "query2": "famous hacks in history",
+      "chips": [],
+      "punch": "",
+      "role": "cta"
+    }
+  ],
+  "description": "Explore how the 1982 Olympics faced the first known cyber attack! This event changed security forever. Follow us for more tech tales!",
+  "hashtags": [
+    "#hackinghistory",
+    "#cybersecurity",
+    "#tech",
+    "#famoushacks",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

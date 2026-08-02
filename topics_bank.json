@@ -6220,5 +6220,72 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "The Secret Behind PS2's Backward Compatibility",
+    "thumb": "PS2 BACKWARD",
+    "scenes": [
+      {
+        "hook_top": "PS2 SECRET",
+        "query": "PS2 console",
+        "query2": "PlayStation 2",
+        "role": "hook",
+        "text": "1 console, 2 generations"
+      },
+      {
+        "chips": [
+          {
+            "t": "PS1",
+            "on": "emulator",
+            "style": "white"
+          }
+        ],
+        "punch": "Emulate",
+        "query": "PS1 emulator",
+        "query2": "PlayStation emulator",
+        "role": "fact",
+        "text": "The PS2 had a native PS1 emulator"
+      },
+      {
+        "chips": [
+          {
+            "t": "4",
+            "on": "formats",
+            "style": "accent"
+          }
+        ],
+        "punch": "Formats",
+        "query": "PS2 disc formats",
+        "query2": "PlayStation 2 disc formats",
+        "role": "fact",
+        "text": "It supported CD, DVD, SACD, and Blu-ray"
+      },
+      {
+        "reveal_top": "STILL WORKS",
+        "query": "PS2 in 2024",
+        "query2": "PlayStation 2 in modern times",
+        "role": "reveal",
+        "text": "This 2006 machine still works today"
+      },
+      {
+        "query": "retro tech news",
+        "query2": "vintage technology",
+        "role": "cta",
+        "text": "Follow for daily tech and AI news."
+      }
+    ],
+    "description": "Discover the secret behind the PS2's backward compatibility and how it still works today. Follow us for more retro tech news and stories. Don't miss out on the fascinating history of gaming and technology!",
+    "hashtags": [
+      "#PS2",
+      "#RetroTech",
+      "#GamingHistory",
+      "#BackwardCompatibility",
+      "#Sony",
+      "#PlayStation",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
   }
 ]
