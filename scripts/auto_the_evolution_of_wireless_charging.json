@@ -1,0 +1,50 @@
+{
+  "title": "The Evolution of Wireless Charging",
+  "thumb": "WIRELESS CHARGING REVOLUTION",
+  "scenes": [
+    {
+      "hook_top": "FIRST WIRELESS CHARGING",
+      "fact": "The first standard for wireless charging was introduced at just 5 watts.",
+      "chips": [],
+      "query": "wireless charging history",
+      "query2": "first wireless charging speed",
+      "punch": "5 watts",
+      "role": "hook",
+      "text": "Did you know 5w was the first wireless charge speed?"
+    },
+    {
+      "chips": [],
+      "query": "modern wireless charging speeds",
+      "query2": "how fast can wireless charging be",
+      "punch": "100 watts",
+      "role": "fact",
+      "text": "Now, wireless chargers reach speeds up to 100 watts, revolutionizing convenience."
+    },
+    {
+      "label": "Experience the convenience.",
+      "sub": "Ditch the cables today!",
+      "label_on": "charging future",
+      "query": "future of wireless charging",
+      "query2": "what is wireless charging",
+      "role": "callout",
+      "text": "FUTURE OF CHARGING!"
+    },
+    {
+      "query": "latest technology trends",
+      "query2": "upcoming tech innovations",
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time."
+    }
+  ],
+  "description": "Wireless charging has evolved from 5 watts to nearly 100 watts. Discover the journey of this convenience revolution!",
+  "hashtags": [
+    "#WirelessCharging",
+    "#TechInnovation",
+    "#Shorts",
+    "#Gadgets",
+    "#FYP",
+    "#ChargeTech"
+  ],
+  "place": "",
+  "country": ""
+}

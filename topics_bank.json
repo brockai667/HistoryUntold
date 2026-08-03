@@ -6287,5 +6287,330 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "What's Behind the PS5 Disc Debate?",
+    "thumb": "PS5 DISC DRAMA",
+    "scenes": [
+      {
+        "hook_top": "SONY BACKLASH",
+        "query": "PS5 disc controversy",
+        "query2": "Sony gaming news",
+        "role": "hook",
+        "text": "Sony faces backlash over disc decision"
+      },
+      {
+        "num": 1,
+        "label": "FAN BACKLASH",
+        "label_on": "protest",
+        "query": "PS5 fan protest",
+        "query2": "gaming community reaction",
+        "role": "count",
+        "text": "Fans plan PS5 blackout in protest"
+      },
+      {
+        "num": 2,
+        "label": "CEO PAY",
+        "label_on": "layoffs",
+        "query": "EA CEO salary",
+        "query2": "gaming industry controversy",
+        "role": "count",
+        "text": "EA pays CEO $38 million amidst layoffs"
+      },
+      {
+        "num": 3,
+        "label": "XBOX STRATEGY",
+        "label_on": "Steam",
+        "query": "Xbox Steam releases",
+        "query2": "gaming platform exclusives",
+        "role": "count",
+        "text": "Xbox considers skipping Steam releases"
+      },
+      {
+        "query": "gaming news updates",
+        "query2": "industry trends",
+        "role": "cta",
+        "text": "Follow for daily tech and AI news."
+      }
+    ],
+    "description": "The PS5 disc debate is heating up, with fans planning a blackout in protest. But what's behind Sony's decision, and how do other gaming companies like EA and Xbox fit into the picture? Stay updated on the latest gaming news!",
+    "hashtags": [
+      "#PS5",
+      "#discdebate",
+      "#gamingnews",
+      "#Sony",
+      "#EA",
+      "#Xbox",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Forgotten PS2 Game Changer",
+    "thumb": "PS2 REVIVAL",
+    "scenes": [
+      {
+        "hook_top": "PS2 REVIVAL",
+        "query": "PS2 console",
+        "query2": "PlayStation 2",
+        "role": "hook",
+        "text": "1 console had it all"
+      },
+      {
+        "chips": [
+          {
+            "t": "155M",
+            "on": "units",
+            "style": "white"
+          }
+        ],
+        "punch": "millions",
+        "query": "PS2 sales figures",
+        "query2": "PlayStation 2 sales",
+        "role": "fact",
+        "text": "The PS2 sold 155 million units"
+      },
+      {
+        "chips": [
+          {
+            "t": "3,800",
+            "on": "titles",
+            "style": "accent"
+          }
+        ],
+        "query": "PS2 game library",
+        "query2": "PlayStation 2 games",
+        "role": "fact",
+        "text": "It had 3,800 game titles"
+      },
+      {
+        "reveal_top": "GAMING LEGACY",
+        "query": "game preservation",
+        "query2": "retro gaming",
+        "role": "reveal",
+        "text": "But its impact on gaming preservation is still felt today"
+      },
+      {
+        "query": "gaming history",
+        "query2": "video game history",
+        "role": "cta",
+        "text": "Follow for daily tech you should actually know."
+      }
+    ],
+    "description": "The PS2 was a gaming powerhouse, with a massive game library and record-breaking sales. But its impact on gaming preservation is still felt today. Follow us for more gaming history and learn about the consoles that shaped the industry.",
+    "hashtags": [
+      "#PS2",
+      "#GamingHistory",
+      "#RetroGaming",
+      "#GamePreservation",
+      "#Consoles",
+      "#GamingLegacy",
+      "#Shorts",
+      "#FYP"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "How Xbox Games Are Hacked",
+    "thumb": "XBOX GAME HACKS",
+    "scenes": [
+      {
+        "hook_top": "XBOX HACKS",
+        "query": "Xbox user base",
+        "query2": "Xbox Live",
+        "role": "hook",
+        "text": "Xbox has 90 million users"
+      },
+      {
+        "chips": [
+          {
+            "t": "1,200",
+            "on": "games",
+            "style": "white"
+          }
+        ],
+        "punch": "thousands",
+        "query": "Xbox 360 game library",
+        "query2": "Xbox 360 games",
+        "role": "fact",
+        "text": "The Xbox 360 had 1,200 games"
+      },
+      {
+        "chips": [
+          {
+            "t": "12%",
+            "on": "users",
+            "style": "accent"
+          }
+        ],
+        "query": "Xbox hacking statistics",
+        "query2": "Xbox security issues",
+        "role": "fact",
+        "text": "But 12% of Xbox users experience hacking"
+      },
+      {
+        "reveal_top": "GAME HACKING",
+        "query": "game hacking",
+        "query2": "Xbox game hacking",
+        "role": "reveal",
+        "text": "And it's not just accounts, but entire games that are at risk"
+      },
+      {
+        "query": "cybersecurity tips",
+        "query2": "online safety",
+        "role": "cta",
+        "text": "Follow for daily tech you should actually know."
+      }
+    ],
+    "description": "With millions of users, Xbox is a prime target for hackers. But it's not just accounts that are at risk, entire games can be compromised. Stay safe online and follow our cybersecurity tips to protect yourself from hacking threats.",
+    "hashtags": [
+      "#Xbox",
+      "#GamingSecurity",
+      "#Hacking",
+      "#Cybersecurity",
+      "#OnlineSafety",
+      "#Shorts",
+      "#FYP",
+      "#GamingCommunity"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Gaming's Biggest Hack: Black Ops 2",
+    "thumb": "BLACK OPS 2 HACK",
+    "scenes": [
+      {
+        "hook_top": "HACKED GAMES",
+        "query": "Black Ops 2",
+        "query2": "PlayStation hacking",
+        "role": "hook",
+        "text": "Black Ops 2 hacked"
+      },
+      {
+        "chips": [
+          {
+            "t": "PlayStation",
+            "on": "console",
+            "style": "white"
+          }
+        ],
+        "punch": "unplayable",
+        "query": "PlayStation hacking",
+        "query2": "Black Ops 2 gameplay",
+        "role": "fact",
+        "text": "A recent hack made Black Ops 2 unplayable"
+      },
+      {
+        "chips": [
+          {
+            "t": "Hackers",
+            "on": "hackers",
+            "style": "accent"
+          }
+        ],
+        "query": "account-bricking hackers",
+        "query2": "gaming security",
+        "role": "fact",
+        "text": "Account-bricking hackers are on the rise"
+      },
+      {
+        "label": "Gaming Safety",
+        "sub": "Protect now",
+        "label_on": "safety",
+        "query": "gaming safety tips",
+        "query2": "online gaming security",
+        "role": "callout",
+        "text": "Stay safe from hackers"
+      },
+      {
+        "query": "gaming news",
+        "query2": "latest gaming updates",
+        "role": "cta",
+        "text": "Follow for daily tech and AI news."
+      }
+    ],
+    "description": "Black Ops 2 has been hacked, making it unplayable. Stay safe from account-bricking hackers and follow for more gaming news.",
+    "hashtags": [
+      "#gaming",
+      "#BlackOps2",
+      "#PlayStation",
+      "#hacking",
+      "#gamingnews",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Modding Cyberpunk: Supersonic Speed",
+    "thumb": "CYBERPUNK MOD",
+    "scenes": [
+      {
+        "hook_top": "SUPERSONIC GAMES",
+        "query": "Cyberpunk mod",
+        "query2": "gaming mods",
+        "role": "hook",
+        "text": "Cyberpunk modded for speed"
+      },
+      {
+        "chips": [
+          {
+            "t": "Cars",
+            "on": "vehicles",
+            "style": "white"
+          }
+        ],
+        "punch": "supersonic",
+        "query": "Cyberpunk car mod",
+        "query2": "gaming modding",
+        "role": "fact",
+        "text": "A mod makes all cars go supersonic speed"
+      },
+      {
+        "chips": [
+          {
+            "t": "Horror",
+            "on": "horror",
+            "style": "accent"
+          }
+        ],
+        "query": "Cyberpunk horror mod",
+        "query2": "gaming horror mods",
+        "role": "fact",
+        "text": "The mod turns Cyberpunk into a horror game"
+      },
+      {
+        "label": "Gaming Mods",
+        "sub": "Get creative",
+        "label_on": "mods",
+        "query": "gaming modding community",
+        "query2": "game mods",
+        "role": "callout",
+        "text": "Try modding your favorite games"
+      },
+      {
+        "query": "gaming content",
+        "query2": "latest gaming trends",
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time."
+      }
+    ],
+    "description": "A Cyberpunk mod makes all cars go supersonic speed, turning the game into a horror experience. Try modding your favorite games and follow for more gaming content.",
+    "hashtags": [
+      "#gaming",
+      "#Cyberpunk",
+      "#modding",
+      "#gamingmods",
+      "#horror games",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
   }
 ]

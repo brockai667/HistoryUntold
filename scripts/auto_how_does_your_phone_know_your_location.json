@@ -1,0 +1,58 @@
+{
+  "title": "How Does Your Phone Know Your Location?",
+  "thumb": "PHONE LOCATION",
+  "scenes": [
+    {
+      "hook_top": "PHONE LOCATION",
+      "query": "phone location services",
+      "query2": "GPS technology",
+      "role": "hook",
+      "text": "Your phone can pinpoint your location"
+    },
+    {
+      "num": 1,
+      "label": "GPS SATELLITES",
+      "label_on": "using",
+      "query": "GPS satellite technology",
+      "query2": "phone GPS",
+      "role": "count",
+      "text": "It uses GPS satellites to determine your location"
+    },
+    {
+      "num": 2,
+      "label": "NETWORK TRIANGULATION",
+      "label_on": "combining",
+      "query": "Wi-Fi triangulation",
+      "query2": "cellular network location",
+      "role": "count",
+      "text": "It can also use Wi-Fi and cellular networks to improve accuracy"
+    },
+    {
+      "num": 3,
+      "label": "SENSOR DATA",
+      "label_on": "including",
+      "query": "phone accelerometer",
+      "query2": "gyroscope sensor",
+      "role": "count",
+      "text": "It can even use sensor data from your phone's accelerometer and gyroscope"
+    },
+    {
+      "query": "tech explanations",
+      "query2": "how technology works",
+      "role": "cta",
+      "text": "Follow for daily tech and AI news."
+    }
+  ],
+  "description": "Have you ever wondered how your phone knows your location? It uses a combination of GPS satellites, Wi-Fi, and cellular networks, as well as sensor data from your phone's accelerometer and gyroscope. Follow us for more tech explanations.",
+  "hashtags": [
+    "#techexplanations",
+    "#phonelocation",
+    "#gps",
+    "#wi-fi",
+    "#sensordata",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

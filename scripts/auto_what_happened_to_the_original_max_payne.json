@@ -1,0 +1,58 @@
+{
+  "title": "What Happened to the Original Max Payne?",
+  "thumb": "MAX PAYNE",
+  "scenes": [
+    {
+      "hook_top": "MAX PAYNE 25 YEARS",
+      "query": "Max Payne game",
+      "query2": "Max Payne release date",
+      "role": "hook",
+      "text": "Max Payne was released 25 years ago"
+    },
+    {
+      "num": 1,
+      "label": "BULLET TIME",
+      "label_on": "revolutionary",
+      "query": "Max Payne bullet time",
+      "query2": "bullet time feature",
+      "role": "count",
+      "text": "It introduced the bullet time feature"
+    },
+    {
+      "num": 2,
+      "label": "GAME DEVELOPER",
+      "label_on": "created by",
+      "query": "Remedy Entertainment",
+      "query2": "Max Payne developer",
+      "role": "count",
+      "text": "It was developed by Remedy Entertainment"
+    },
+    {
+      "num": 3,
+      "label": "STORYTELLING",
+      "label_on": "acclaimed for",
+      "query": "Max Payne story",
+      "query2": "Max Payne gameplay",
+      "role": "count",
+      "text": "It received critical acclaim for its storytelling"
+    },
+    {
+      "query": "gaming history",
+      "query2": "video game history",
+      "role": "cta",
+      "text": "Follow for daily tech you should actually know."
+    }
+  ],
+  "description": "Max Payne was released 25 years ago and revolutionized the gaming industry. It introduced the bullet time feature and received critical acclaim for its storytelling. Follow us for more gaming history.",
+  "hashtags": [
+    "#gaminghistory",
+    "#maxpayne",
+    "#retrogaming",
+    "#gamers",
+    "#gamingcommunity",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}
