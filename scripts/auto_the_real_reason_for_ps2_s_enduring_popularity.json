@@ -1,0 +1,56 @@
+{
+  "title": "The Real Reason for PS2's Enduring Popularity",
+  "thumb": "SONY PS2",
+  "scenes": [
+    {
+      "hook_top": "PS2 TOP SELLER",
+      "query": "PS2 sales figures",
+      "query2": "best selling consoles",
+      "role": "hook",
+      "text": "100 million PS2s sold"
+    },
+    {
+      "label": "Games Only",
+      "query": "PS2 game library",
+      "query2": "PS2 exclusives",
+      "role": "myth",
+      "text": "The PS2 was only popular because of its games"
+    },
+    {
+      "label": "More Than Games",
+      "query": "PS2 backward compatibility",
+      "query2": "PS2 DVD player",
+      "role": "truth",
+      "text": "The PS2's backward compatibility and built-in DVD player also played a huge role"
+    },
+    {
+      "label": "PS2 Innovation",
+      "sub": "More than just games",
+      "label_on": "Innovative",
+      "query": "PS2 features",
+      "query2": "PS2 innovations",
+      "role": "callout",
+      "text": "The PS2's success can be attributed to its versatility and innovative features"
+    },
+    {
+      "query": "retro tech news",
+      "query2": "tech history",
+      "role": "cta",
+      "text": "Follow for daily tech you should actually know."
+    }
+  ],
+  "description": "The PS2 remains one of the best-selling consoles of all time. But what made it so popular? We explore the reasons behind its enduring success. Follow us for more retro tech insights!",
+  "hashtags": [
+    "#PS2",
+    "#RetroGaming",
+    "#GamingHistory",
+    "#TechInsights",
+    "#Sony",
+    "#GamingConsoles",
+    "#RetroTech",
+    "#Shorts",
+    "#Fyp"
+  ],
+  "place": "",
+  "country": ""
+}

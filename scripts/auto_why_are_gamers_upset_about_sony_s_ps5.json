@@ -1,0 +1,58 @@
+{
+  "title": "Why Are Gamers Upset About Sony's PS5?",
+  "thumb": "PS5 BACKLASH",
+  "scenes": [
+    {
+      "hook_top": "PS5 BACKLASH",
+      "query": "PS5 controversy",
+      "query2": "Sony PS5",
+      "role": "hook",
+      "text": "Sony's PS5 has sparked controversy among gamers"
+    },
+    {
+      "num": 1,
+      "label": "DIGITAL ONLY",
+      "label_on": "shifting to",
+      "query": "PS5 digital-only games",
+      "query2": "PlayStation discless",
+      "role": "count",
+      "text": "The company plans to drop PlayStation discs in favor of digital-only games"
+    },
+    {
+      "num": 2,
+      "label": "GAME PRESERVATION",
+      "label_on": "fearing",
+      "query": "game preservation",
+      "query2": "digital game ownership",
+      "role": "count",
+      "text": "Gamers are concerned about game preservation and ownership"
+    },
+    {
+      "num": 3,
+      "label": "FAN BACKLASH",
+      "label_on": "resulting in",
+      "query": "PS5 blackout",
+      "query2": "Sony PS5 fan backlash",
+      "role": "count",
+      "text": "The backlash has led to a planned PS5 blackout by fans"
+    },
+    {
+      "query": "gaming news",
+      "query2": "PS5 updates",
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up."
+    }
+  ],
+  "description": "Sony's PS5 has sparked controversy among gamers due to the company's plans to drop PlayStation discs in favor of digital-only games. Gamers are concerned about game preservation and ownership, leading to a planned PS5 blackout by fans. Follow us for more gaming news.",
+  "hashtags": [
+    "#gamingnews",
+    "#ps5",
+    "#sony",
+    "#playstation",
+    "#gamepreservation",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

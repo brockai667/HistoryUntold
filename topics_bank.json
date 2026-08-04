@@ -6612,5 +6612,123 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "What Killed the PS2?",
+    "thumb": "PS2 GLITCH",
+    "scenes": [
+      {
+        "hook_top": "PS2 SALES",
+        "query": "PS2 console",
+        "query2": "PlayStation 2",
+        "role": "hook",
+        "text": "The PS2 sold 155 million units"
+      },
+      {
+        "num": 1,
+        "label": "GAME LIBRARY",
+        "label_on": "games",
+        "query": "PS2 game collection",
+        "query2": "PlayStation 2 games",
+        "role": "count",
+        "text": "It had a massive game library with 3,800 titles"
+      },
+      {
+        "num": 2,
+        "label": "BACKWARD COMPAT",
+        "label_on": "compatibility",
+        "query": "PS2 playing PS1 games",
+        "query2": "PlayStation 2 backward compatibility",
+        "role": "count",
+        "text": "The PS2 was backward compatible with PS1 games"
+      },
+      {
+        "num": 3,
+        "label": "ONLINE GAMING",
+        "label_on": "online",
+        "query": "PS2 Network Adaptor",
+        "query2": "PlayStation 2 online gaming",
+        "role": "count",
+        "text": "It supported online gaming with the Network Adaptor"
+      },
+      {
+        "query": "gaming news",
+        "query2": "tech updates",
+        "role": "cta",
+        "text": "Follow if tech moves faster than you can keep up."
+      }
+    ],
+    "description": "The PS2 was a revolutionary console that dominated the gaming industry. But what made it so successful? Follow us to find out more about the PS2's impact on gaming history.",
+    "hashtags": [
+      "#PS2",
+      "#GamingHistory",
+      "#PlayStation",
+      "#RetroGaming",
+      "#Tech",
+      "#Gaming",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Hacked: The Story of Black Ops 2",
+    "thumb": "BLACK OPS 2 HACK",
+    "scenes": [
+      {
+        "hook_top": "BLACK OPS 2",
+        "query": "Black Ops 2 game",
+        "query2": "Call of Duty Black Ops 2",
+        "role": "hook",
+        "text": "Black Ops 2 was hacked in 2022"
+      },
+      {
+        "num": 1,
+        "label": "ACCOUNT BRICK",
+        "label_on": "accounts",
+        "query": "Black Ops 2 account hack",
+        "query2": "Call of Duty Black Ops 2 hack",
+        "role": "count",
+        "text": "The hack bricked players' accounts, making the game unplayable"
+      },
+      {
+        "num": 2,
+        "label": "ONLINE VULN",
+        "label_on": "online",
+        "query": "Black Ops 2 online mode",
+        "query2": "Call of Duty Black Ops 2 multiplayer",
+        "role": "count",
+        "text": "The hack was caused by a vulnerability in the game's online mode"
+      },
+      {
+        "num": 3,
+        "label": "SECURITY RISK",
+        "label_on": "security",
+        "query": "gaming security risks",
+        "query2": "online gaming security",
+        "role": "count",
+        "text": "The hack highlighted the importance of online security in gaming"
+      },
+      {
+        "query": "gaming news",
+        "query2": "tech updates",
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time."
+      }
+    ],
+    "description": "The hack of Black Ops 2 was a major blow to the gaming community. But what happened, and how can we prevent it in the future? Follow us to find out more about the Black Ops 2 hack.",
+    "hashtags": [
+      "#BlackOps2",
+      "#GamingNews",
+      "#Hacking",
+      "#OnlineSecurity",
+      "#Gaming",
+      "#Tech",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
   }
 ]

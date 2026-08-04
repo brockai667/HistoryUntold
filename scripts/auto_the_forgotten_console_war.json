@@ -1,0 +1,65 @@
+{
+  "title": "The Forgotten Console War",
+  "thumb": "CONSOLE WAR",
+  "scenes": [
+    {
+      "hook_top": "SONY PS1 RELEASE",
+      "query": "PlayStation",
+      "query2": "Sony",
+      "role": "hook",
+      "text": "25 years ago, Sony released PS1"
+    },
+    {
+      "chips": [
+        {
+          "t": "100M",
+          "on": "units",
+          "style": "white"
+        }
+      ],
+      "punch": "million",
+      "query": "PlayStation sales",
+      "query2": "PS1",
+      "role": "fact",
+      "text": "PS1 was the first console to sell over 100 million units"
+    },
+    {
+      "chips": [
+        {
+          "t": "33M",
+          "on": "units",
+          "style": "accent"
+        }
+      ],
+      "query": "N64 sales",
+      "query2": "Nintendo",
+      "role": "fact",
+      "text": "Nintendo's N64 sold around 33 million units in its lifetime"
+    },
+    {
+      "reveal_top": "PLAYSTATION WINS",
+      "query": "original PlayStation",
+      "query2": "console war",
+      "role": "reveal",
+      "text": "But the real winner was the console that started it all, the original PlayStation"
+    },
+    {
+      "query": "gaming history",
+      "query2": "gaming news",
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up."
+    }
+  ],
+  "description": "The console war of the 90s was a pivotal moment in gaming history. The original PlayStation was released 25 years ago and changed the game. Follow us for more gaming history and nostalgia. Don't forget to like and subscribe for more content!",
+  "hashtags": [
+    "#gaminghistory",
+    "#playstation",
+    "#nintendo",
+    "#consolewar",
+    "#retrogaming",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}
