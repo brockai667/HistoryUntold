@@ -6730,5 +6730,252 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "The Real Story Behind PlayStation's Disc Saga",
+    "thumb": "PS2 DISC DRAMA",
+    "scenes": [
+      {
+        "hook_top": "PLAYSTATION 2 ISSUES",
+        "query": "PlayStation 2 console",
+        "query2": "PS2 games",
+        "role": "hook",
+        "text": "2006's PlayStation 2"
+      },
+      {
+        "num": 1,
+        "label": "BACKWARD COMPAT",
+        "label_on": "compatibility",
+        "query": "PS2 backward compatibility",
+        "query2": "PS2 playing PS1 games",
+        "role": "count",
+        "text": "First, the PlayStation 2 had native backward compatibility"
+      },
+      {
+        "num": 2,
+        "label": "MULTI FORMAT",
+        "label_on": "disc formats",
+        "query": "PS2 disc formats",
+        "query2": "PS2 CD player",
+        "role": "count",
+        "text": "Second, it supported CD, DVD, SACD, and Blu-ray discs"
+      },
+      {
+        "num": 3,
+        "label": "FREE ONLINE",
+        "label_on": "online gaming",
+        "query": "PS2 online gaming",
+        "query2": "PS2 network adapter",
+        "role": "count",
+        "text": "Third, it had free online gaming"
+      },
+      {
+        "query": "gaming news",
+        "query2": "tech updates",
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time."
+      }
+    ],
+    "description": "Discover the real story behind PlayStation's disc saga. From backward compatibility to free online gaming, we've got you covered. Follow us for more gaming history and tech updates!",
+    "hashtags": [
+      "#gaminghistory",
+      "#playstation",
+      "#ps2",
+      "#discs",
+      "#backwardcompatibility",
+      "#fyp",
+      "#shorts"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "What Happened to Good Mobile Games?",
+    "thumb": "LOST MOBILE GEMS",
+    "scenes": [
+      {
+        "hook_top": "EA CEO PAY",
+        "query": "EA CEO",
+        "query2": "EA financial reports",
+        "role": "hook",
+        "text": "EA pays its CEO $38 million"
+      },
+      {
+        "num": 1,
+        "label": "REMOVED GAMES",
+        "label_on": "game removals",
+        "query": "removed mobile games",
+        "query2": "mobile game preservation",
+        "role": "count",
+        "text": "First, many good mobile games are removed from stores"
+      },
+      {
+        "num": 2,
+        "label": "ABANDONED GAMES",
+        "label_on": "abandoned games",
+        "query": "abandoned mobile games",
+        "query2": "mobile game development",
+        "role": "count",
+        "text": "Second, some games are abandoned by their developers"
+      },
+      {
+        "num": 3,
+        "label": "FREE TO PLAY",
+        "label_on": "free-to-play",
+        "query": "free-to-play mobile games",
+        "query2": "mobile game monetization",
+        "role": "count",
+        "text": "Third, the rise of free-to-play games changed the industry"
+      },
+      {
+        "query": "gaming news",
+        "query2": "tech updates",
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve."
+      }
+    ],
+    "description": "What happened to good mobile games? From removed games to abandoned developers, we explore the changes in the industry. Follow us for more gaming insights and tech updates!",
+    "hashtags": [
+      "#mobilegaming",
+      "#gameloss",
+      "#abandonedgames",
+      "#fyp",
+      "#shorts",
+      "#gaminghistory"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The PS2's Unlikely Savior",
+    "thumb": "PS2 REVIVAL",
+    "scenes": [
+      {
+        "hook_top": "PS2 LIVES ON",
+        "query": "PS2 console",
+        "query2": "PlayStation 2",
+        "role": "hook",
+        "text": "2006 console still rocks"
+      },
+      {
+        "chips": [
+          {
+            "t": "PS1",
+            "on": "backward",
+            "style": "accent"
+          }
+        ],
+        "punch": " Compatible",
+        "query": "PS2 backward compatibility",
+        "query2": "PlayStation 2 compatibility",
+        "role": "fact",
+        "text": "PS2 has native backward compatibility"
+      },
+      {
+        "chips": [
+          {
+            "t": "Blu-ray",
+            "on": "supports",
+            "style": "white"
+          }
+        ],
+        "query": "PS2 formats",
+        "query2": "PlayStation 2 formats",
+        "role": "fact",
+        "text": "PS2 supports CD, DVD, SACD, and Blu-ray"
+      },
+      {
+        "reveal_top": "PS2 STILL UNMATCHED",
+        "query": "PS2 vs modern consoles",
+        "query2": "PlayStation 2 comparison",
+        "role": "reveal",
+        "text": "PS2's versatility is still unmatched"
+      },
+      {
+        "query": "retro tech news",
+        "query2": "vintage technology",
+        "role": "cta",
+        "text": "Follow if tech moves faster than you can keep up."
+      }
+    ],
+    "description": "The PS2's impressive specs and features are still unmatched today. Learn more about this iconic console. Follow for the latest retro tech news and updates. #PS2 #RetroGaming #GamingHistory #TechNews #RetroConsoles #Gaming",
+    "hashtags": [
+      "#PS2",
+      "#RetroGaming",
+      "#GamingHistory",
+      "#TechNews",
+      "#RetroConsoles",
+      "#Gaming",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "What Killed the Original Xbox?",
+    "thumb": "XBOX HISTORY",
+    "scenes": [
+      {
+        "hook_top": "XBOX DEBUT",
+        "query": "original Xbox",
+        "query2": "first Xbox console",
+        "role": "hook",
+        "text": "2001 Xbox launch"
+      },
+      {
+        "chips": [
+          {
+            "t": "8GB",
+            "on": "hard drive",
+            "style": "white"
+          }
+        ],
+        "punch": "Boom",
+        "query": "original Xbox hard drive",
+        "query2": "first Xbox storage",
+        "role": "fact",
+        "text": "It had a built-in hard drive."
+      },
+      {
+        "chips": [
+          {
+            "t": "Ethernet",
+            "on": "online gaming",
+            "style": "accent"
+          }
+        ],
+        "query": "original Xbox online gaming",
+        "query2": "first Xbox live",
+        "role": "fact",
+        "text": "It was the first console to include online gaming as a standard feature."
+      },
+      {
+        "label": "Xbox Failure",
+        "sub": "RIP",
+        "label_on": "demise",
+        "query": "original Xbox failure",
+        "query2": "Xbox sales",
+        "role": "callout",
+        "text": "But poor sales led to its demise."
+      },
+      {
+        "query": "gaming history",
+        "query2": "retro gaming",
+        "role": "cta",
+        "text": "Follow if tech moves faster than you can keep up."
+      }
+    ],
+    "description": "The original Xbox was a revolutionary console, but it failed to gain traction. Find out what killed it. Follow us for more gaming history!",
+    "hashtags": [
+      "#Xbox",
+      "#GamingHistory",
+      "#RetroGaming",
+      "#ConsoleWars",
+      "#Gaming",
+      "#Tech"
+    ],
+    "place": "",
+    "country": ""
   }
 ]

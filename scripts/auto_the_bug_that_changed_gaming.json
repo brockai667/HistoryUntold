@@ -1,0 +1,64 @@
+{
+  "title": "The Bug That Changed Gaming",
+  "thumb": "GAME BUG",
+  "scenes": [
+    {
+      "hook_top": "FIRST BUG",
+      "query": "first computer bug",
+      "query2": "insect",
+      "role": "hook",
+      "text": "The first computer bug was a real insect"
+    },
+    {
+      "chips": [
+        {
+          "t": "1947",
+          "on": "year",
+          "style": "white"
+        }
+      ],
+      "query": "Harvard Mark II",
+      "query2": "computer bug",
+      "role": "fact",
+      "text": "The bug was found in the Harvard Mark II computer in 1947"
+    },
+    {
+      "chips": [
+        {
+          "t": "first",
+          "on": "case",
+          "style": "accent"
+        }
+      ],
+      "query": "computer log",
+      "query2": "bug note",
+      "role": "fact",
+      "text": "The bug caused the computer to malfunction and was later taped to the computer log with the note 'first actual case of bug being found'"
+    },
+    {
+      "reveal_top": "BUG TERM BORN",
+      "query": "origin of bug term",
+      "query2": "computer terminology",
+      "role": "reveal",
+      "text": "This incident led to the term 'bug' being used to describe any technical glitch or error"
+    },
+    {
+      "query": "tech history",
+      "query2": "fun facts",
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time."
+    }
+  ],
+  "description": "The first computer bug was a real insect that caused a computer to malfunction. This incident led to the term 'bug' being used to describe any technical glitch or error. Follow us for more tech history and fun facts. Don't forget to like and subscribe for more content!",
+  "hashtags": [
+    "#techhistory",
+    "#computerbug",
+    "#harvardmarkii",
+    "#gaming",
+    "#retrotech",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

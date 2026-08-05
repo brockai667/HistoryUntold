@@ -1,0 +1,59 @@
+{
+  "title": "What's Behind the PS5 Disc Debate?",
+  "thumb": "PS5 DISC DRAMA",
+  "scenes": [
+    {
+      "hook_top": "SONY BACKLASH",
+      "query": "PS5 disc controversy",
+      "query2": "Sony gaming news",
+      "role": "hook",
+      "text": "Sony faces backlash over disc decision"
+    },
+    {
+      "num": 1,
+      "label": "FAN BACKLASH",
+      "label_on": "protest",
+      "query": "PS5 fan protest",
+      "query2": "gaming community reaction",
+      "role": "count",
+      "text": "Fans plan PS5 blackout in protest"
+    },
+    {
+      "num": 2,
+      "label": "CEO PAY",
+      "label_on": "layoffs",
+      "query": "EA CEO salary",
+      "query2": "gaming industry controversy",
+      "role": "count",
+      "text": "EA pays CEO $38 million amidst layoffs"
+    },
+    {
+      "num": 3,
+      "label": "XBOX STRATEGY",
+      "label_on": "Steam",
+      "query": "Xbox Steam releases",
+      "query2": "gaming platform exclusives",
+      "role": "count",
+      "text": "Xbox considers skipping Steam releases"
+    },
+    {
+      "query": "gaming news updates",
+      "query2": "industry trends",
+      "role": "cta",
+      "text": "Follow for daily tech and AI news."
+    }
+  ],
+  "description": "The PS5 disc debate is heating up, with fans planning a blackout in protest. But what's behind Sony's decision, and how do other gaming companies like EA and Xbox fit into the picture? Stay updated on the latest gaming news!",
+  "hashtags": [
+    "#PS5",
+    "#discdebate",
+    "#gamingnews",
+    "#Sony",
+    "#EA",
+    "#Xbox",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}
