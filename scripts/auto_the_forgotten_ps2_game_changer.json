@@ -1,0 +1,66 @@
+{
+  "title": "The Forgotten PS2 Game Changer",
+  "thumb": "PS2 REVIVAL",
+  "scenes": [
+    {
+      "hook_top": "PS2 REVIVAL",
+      "query": "PS2 console",
+      "query2": "PlayStation 2",
+      "role": "hook",
+      "text": "1 console had it all"
+    },
+    {
+      "chips": [
+        {
+          "t": "155M",
+          "on": "units",
+          "style": "white"
+        }
+      ],
+      "punch": "millions",
+      "query": "PS2 sales figures",
+      "query2": "PlayStation 2 sales",
+      "role": "fact",
+      "text": "The PS2 sold 155 million units"
+    },
+    {
+      "chips": [
+        {
+          "t": "3,800",
+          "on": "titles",
+          "style": "accent"
+        }
+      ],
+      "query": "PS2 game library",
+      "query2": "PlayStation 2 games",
+      "role": "fact",
+      "text": "It had 3,800 game titles"
+    },
+    {
+      "reveal_top": "GAMING LEGACY",
+      "query": "game preservation",
+      "query2": "retro gaming",
+      "role": "reveal",
+      "text": "But its impact on gaming preservation is still felt today"
+    },
+    {
+      "query": "gaming history",
+      "query2": "video game history",
+      "role": "cta",
+      "text": "Follow for daily tech you should actually know."
+    }
+  ],
+  "description": "The PS2 was a gaming powerhouse, with a massive game library and record-breaking sales. But its impact on gaming preservation is still felt today. Follow us for more gaming history and learn about the consoles that shaped the industry.",
+  "hashtags": [
+    "#PS2",
+    "#GamingHistory",
+    "#RetroGaming",
+    "#GamePreservation",
+    "#Consoles",
+    "#GamingLegacy",
+    "#Shorts",
+    "#FYP"
+  ],
+  "place": "",
+  "country": ""
+}

@@ -6977,5 +6977,171 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "How Glitches Changed the Gaming Industry",
+    "thumb": "GLITCH EFFECT",
+    "scenes": [
+      {
+        "hook_top": "BLACK OPS GLITCH",
+        "query": "Black Ops 2 glitch",
+        "query2": "gaming glitch",
+        "role": "hook",
+        "text": "The notorious Black Ops 2 glitch"
+      },
+      {
+        "num": 1,
+        "label": "MAJOR GLITCH",
+        "label_on": "major glitch",
+        "query": "game crash",
+        "query2": "gaming glitch",
+        "role": "count",
+        "text": "First major glitch to cause widespread game crashes"
+      },
+      {
+        "num": 2,
+        "label": "CORRUPTED FILE",
+        "label_on": "corrupted file",
+        "query": "corrupted game file",
+        "query2": "game file error",
+        "role": "count",
+        "text": "The glitch was caused by a corrupted game file"
+      },
+      {
+        "num": 3,
+        "label": "NEW TESTING",
+        "label_on": "new testing",
+        "query": "game testing",
+        "query2": "quality assurance",
+        "role": "count",
+        "text": "The glitch led to the development of new game testing methods"
+      },
+      {
+        "query": "gaming",
+        "query2": "tech",
+        "role": "cta",
+        "text": "Follow for daily tech you should actually know."
+      }
+    ],
+    "description": "Discover how glitches have changed the gaming industry. From the notorious Black Ops 2 glitch to the development of new game testing methods, we explore the impact of glitches on gaming. Follow us for more stories on gaming and tech.",
+    "hashtags": [
+      "#gaming",
+      "#glitch",
+      "#blackops2",
+      "#gamecrash",
+      "#testing",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Can the Original Xbox Still Play Every Game?",
+    "thumb": "XBOX REVIVAL",
+    "scenes": [
+      {
+        "hook_top": "XBOX LIVES ON",
+        "query": "original Xbox",
+        "query2": "vintage gaming consoles",
+        "role": "hook",
+        "text": "2006 Xbox still works"
+      },
+      {
+        "label": "No old games",
+        "query": "Xbox backwards compatibility",
+        "query2": "gaming console emulation",
+        "role": "myth",
+        "text": "The original Xbox can't play old games"
+      },
+      {
+        "label": "All games playable",
+        "query": "Xbox game library",
+        "query2": "retro gaming consoles",
+        "role": "truth",
+        "text": "The original Xbox can play every game made for it"
+      },
+      {
+        "label": "Retro Gaming",
+        "sub": "Play old favorites again",
+        "label_on": "Revive",
+        "query": "retro gaming community",
+        "query2": "classic video games",
+        "role": "callout",
+        "text": "Discover the power of retro gaming"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "Can the Original Xbox Still Play Every Game?",
+        "query2": "cinematic nature landscape"
+      }
+    ],
+    "description": "Explore the original Xbox's lasting impact on gaming and its ability to play every game made for it. Join us as we dive into the world of retro gaming. Follow us for more gaming history and nostalgia!",
+    "hashtags": [
+      "#Xbox",
+      "#RetroGaming",
+      "#GamingHistory",
+      "#Gamers",
+      "#Consoles",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "What's Behind the Black Ops 2 Hacking Scandal?",
+    "thumb": "BLACK OPS HACK",
+    "scenes": [
+      {
+        "hook_top": "GAME OVER",
+        "query": "Black Ops 2 hacking scandal",
+        "query2": "gaming security breaches",
+        "role": "hook",
+        "text": "Black Ops 2 hacked again"
+      },
+      {
+        "label": "Pros only",
+        "query": "gaming hacking risks",
+        "query2": "online gaming security",
+        "role": "myth",
+        "text": "Only pro players get hacked"
+      },
+      {
+        "label": "All players at risk",
+        "query": "Black Ops 2 player safety",
+        "query2": "gaming account security",
+        "role": "truth",
+        "text": "Any Black Ops 2 player can be hacked"
+      },
+      {
+        "label": "Game Safe",
+        "sub": "Protect your account",
+        "label_on": "Secure",
+        "query": "gaming security tips",
+        "query2": "online safety advice",
+        "role": "callout",
+        "text": "Stay safe from hackers in online gaming"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "What's Behind the Black Ops 2 Hacking Scandal?",
+        "query2": "cinematic nature landscape"
+      }
+    ],
+    "description": "Uncover the truth behind the Black Ops 2 hacking scandal and learn how to protect yourself from online gaming threats. Join us as we explore the world of gaming security. Follow us for more gaming news and updates!",
+    "hashtags": [
+      "#BlackOps2",
+      "#GamingSecurity",
+      "#OnlineSafety",
+      "#Hackers",
+      "#GamingNews",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
   }
 ]

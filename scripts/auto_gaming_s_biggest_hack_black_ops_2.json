@@ -1,0 +1,67 @@
+{
+  "title": "Gaming's Biggest Hack: Black Ops 2",
+  "thumb": "BLACK OPS 2 HACK",
+  "scenes": [
+    {
+      "hook_top": "HACKED GAMES",
+      "query": "Black Ops 2",
+      "query2": "PlayStation hacking",
+      "role": "hook",
+      "text": "Black Ops 2 hacked"
+    },
+    {
+      "chips": [
+        {
+          "t": "PlayStation",
+          "on": "console",
+          "style": "white"
+        }
+      ],
+      "punch": "unplayable",
+      "query": "PlayStation hacking",
+      "query2": "Black Ops 2 gameplay",
+      "role": "fact",
+      "text": "A recent hack made Black Ops 2 unplayable"
+    },
+    {
+      "chips": [
+        {
+          "t": "Hackers",
+          "on": "hackers",
+          "style": "accent"
+        }
+      ],
+      "query": "account-bricking hackers",
+      "query2": "gaming security",
+      "role": "fact",
+      "text": "Account-bricking hackers are on the rise"
+    },
+    {
+      "label": "Gaming Safety",
+      "sub": "Protect now",
+      "label_on": "safety",
+      "query": "gaming safety tips",
+      "query2": "online gaming security",
+      "role": "callout",
+      "text": "Stay safe from hackers"
+    },
+    {
+      "query": "gaming news",
+      "query2": "latest gaming updates",
+      "role": "cta",
+      "text": "Follow for daily tech and AI news."
+    }
+  ],
+  "description": "Black Ops 2 has been hacked, making it unplayable. Stay safe from account-bricking hackers and follow for more gaming news.",
+  "hashtags": [
+    "#gaming",
+    "#BlackOps2",
+    "#PlayStation",
+    "#hacking",
+    "#gamingnews",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

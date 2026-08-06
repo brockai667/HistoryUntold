@@ -1,0 +1,66 @@
+{
+  "title": "How Xbox Games Are Hacked",
+  "thumb": "XBOX GAME HACKS",
+  "scenes": [
+    {
+      "hook_top": "XBOX HACKS",
+      "query": "Xbox user base",
+      "query2": "Xbox Live",
+      "role": "hook",
+      "text": "Xbox has 90 million users"
+    },
+    {
+      "chips": [
+        {
+          "t": "1,200",
+          "on": "games",
+          "style": "white"
+        }
+      ],
+      "punch": "thousands",
+      "query": "Xbox 360 game library",
+      "query2": "Xbox 360 games",
+      "role": "fact",
+      "text": "The Xbox 360 had 1,200 games"
+    },
+    {
+      "chips": [
+        {
+          "t": "12%",
+          "on": "users",
+          "style": "accent"
+        }
+      ],
+      "query": "Xbox hacking statistics",
+      "query2": "Xbox security issues",
+      "role": "fact",
+      "text": "But 12% of Xbox users experience hacking"
+    },
+    {
+      "reveal_top": "GAME HACKING",
+      "query": "game hacking",
+      "query2": "Xbox game hacking",
+      "role": "reveal",
+      "text": "And it's not just accounts, but entire games that are at risk"
+    },
+    {
+      "query": "cybersecurity tips",
+      "query2": "online safety",
+      "role": "cta",
+      "text": "Follow for daily tech you should actually know."
+    }
+  ],
+  "description": "With millions of users, Xbox is a prime target for hackers. But it's not just accounts that are at risk, entire games can be compromised. Stay safe online and follow our cybersecurity tips to protect yourself from hacking threats.",
+  "hashtags": [
+    "#Xbox",
+    "#GamingSecurity",
+    "#Hacking",
+    "#Cybersecurity",
+    "#OnlineSafety",
+    "#Shorts",
+    "#FYP",
+    "#GamingCommunity"
+  ],
+  "place": "",
+  "country": ""
+}
