@@ -7143,5 +7143,225 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "3 Biggest Glitches in Gaming History",
+    "thumb": "GLITCH FRENZY",
+    "scenes": [
+      {
+        "hook_top": "GLITCH EPIDEMIC",
+        "query": "gaming glitches",
+        "query2": "video game bugs",
+        "role": "hook",
+        "text": "12 million players affected"
+      },
+      {
+        "num": 1,
+        "label": "SONIC SPIN",
+        "label_on": "Sonic",
+        "query": "Sonic the Hedgehog 2 glitches",
+        "query2": "Sonic spin dash",
+        "role": "count",
+        "text": "The Sonic Spin Dash glitch in Sonic the Hedgehog 2"
+      },
+      {
+        "num": 2,
+        "label": "PAC-MAN GLITCH",
+        "label_on": "Pac-Man",
+        "query": "Pac-Man kill screen",
+        "query2": "Pac-Man glitches",
+        "role": "count",
+        "text": "The kill screen in Pac-Man"
+      },
+      {
+        "num": 3,
+        "label": "MINUS WORLD",
+        "label_on": "Super Mario Bros.",
+        "query": "Super Mario Bros. Minus World",
+        "query2": "Super Mario Bros. glitches",
+        "role": "count",
+        "text": "The Minus World glitch in Super Mario Bros."
+      },
+      {
+        "query": "gaming news",
+        "query2": "video game history",
+        "role": "cta",
+        "text": "Follow if tech moves faster than you can keep up."
+      }
+    ],
+    "description": "Discover the most iconic glitches in gaming history. From Sonic to Pac-Man, these bugs changed the game. Follow us for more gaming facts!",
+    "hashtags": [
+      "#gaming",
+      "#glitches",
+      "#retrogaming",
+      "#gamingshort",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "How Everyday Tech Works: CDs",
+    "thumb": "CD TECH",
+    "scenes": [
+      {
+        "hook_top": "CD MANIA",
+        "query": "CD sales",
+        "query2": "CD history",
+        "role": "hook",
+        "text": "1 billion CDs sold worldwide"
+      },
+      {
+        "num": 1,
+        "label": "LASER TECH",
+        "label_on": "lasers",
+        "query": "CD laser technology",
+        "query2": "how CDs work",
+        "role": "count",
+        "text": "CDs use lasers to read data"
+      },
+      {
+        "num": 2,
+        "label": "DATA ENCODING",
+        "label_on": "data encoding",
+        "query": "CD data encoding",
+        "query2": "error-correcting codes",
+        "role": "count",
+        "text": "CDs use error-correcting codes to ensure data integrity"
+      },
+      {
+        "num": 3,
+        "label": "DIGITAL SIGNAL",
+        "label_on": "digital signal",
+        "query": "CD digital signal processing",
+        "query2": "analog to digital conversion",
+        "role": "count",
+        "text": "CDs convert analog signals to digital signals"
+      },
+      {
+        "query": "tech explanations",
+        "query2": "how things work",
+        "role": "cta",
+        "text": "Follow for daily tech and AI news."
+      }
+    ],
+    "description": "Ever wondered how CDs work? From laser technology to data encoding, we break it down. Follow us for more tech explanations!",
+    "hashtags": [
+      "#tech",
+      "#CDs",
+      "#howthingswork",
+      "#technology",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Secret Behind Nintendo 64's Golden Cartridge",
+    "thumb": "N64 GOLD",
+    "scenes": [
+      {
+        "hook_top": "N64 GOLD RUSH",
+        "query": "Nintendo 64 Golden Cartridge",
+        "query2": "Nintendo 64 rare games",
+        "role": "hook",
+        "text": "1996's Golden N64"
+      },
+      {
+        "label": "Myth: Marketing",
+        "query": "Nintendo 64 marketing strategies",
+        "query2": "Nintendo 64 launch",
+        "role": "myth",
+        "text": "The Golden N64 was just a marketing stunt"
+      },
+      {
+        "label": "Truth: Contest",
+        "query": "Nintendo 64 contest prizes",
+        "query2": "Nintendo 64 rare collector items",
+        "role": "truth",
+        "text": "It was actually a prize for a Nintendo contest"
+      },
+      {
+        "label": "Rare Item",
+        "sub": "Worth thousands today",
+        "label_on": "Golden",
+        "query": "Nintendo 64 Golden Cartridge value",
+        "query2": "Nintendo 64 rare collector items",
+        "role": "callout",
+        "text": "The Golden N64 is now a rare collector's item"
+      },
+      {
+        "query": "Retro gaming news",
+        "query2": "Gaming history",
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve."
+      }
+    ],
+    "description": "Discover the secret behind the Nintendo 64's Golden Cartridge. From its origins to its current value, we've got you covered. Follow us for more retro gaming secrets and surprises!",
+    "hashtags": [
+      "#N64",
+      "#RetroGaming",
+      "#GamingHistory",
+      "#Nintendo",
+      "#GoldenCartridge",
+      "#GamingSecrets"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "What Really Happened to the Original Xbox's Online Gaming?",
+    "thumb": "XBOX LIVE",
+    "scenes": [
+      {
+        "hook_top": "XBOX LIVE LAUNCH",
+        "query": "Xbox Live launch date",
+        "query2": "Xbox online gaming history",
+        "role": "hook",
+        "text": "2002's Xbox Live revolution"
+      },
+      {
+        "label": "Myth: Free",
+        "query": "Xbox Live free trial",
+        "query2": "Xbox online gaming costs",
+        "role": "myth",
+        "text": "Xbox Live was always free"
+      },
+      {
+        "label": "Truth: Paid",
+        "query": "Xbox Live subscription model",
+        "query2": "Xbox online gaming fees",
+        "role": "truth",
+        "text": "It actually required a paid subscription"
+      },
+      {
+        "label": "Gaming Pioneer",
+        "sub": " Changed the gaming landscape",
+        "label_on": "Innovative",
+        "query": "Xbox Live impact on gaming",
+        "query2": "Online gaming evolution",
+        "role": "callout",
+        "text": "Xbox Live paved the way for modern online gaming"
+      },
+      {
+        "query": "Gaming history",
+        "query2": "Xbox news",
+        "role": "cta",
+        "text": "Follow if tech moves faster than you can keep up."
+      }
+    ],
+    "description": "Get the real story behind the original Xbox's online gaming revolution. From its launch to its impact on the gaming industry, we've got the facts. Follow us for more gaming history and insights!",
+    "hashtags": [
+      "#Xbox",
+      "#GamingHistory",
+      "#OnlineGaming",
+      "#XboxLive",
+      "#GamingRevolution",
+      "#RetroGaming"
+    ],
+    "place": "",
+    "country": ""
   }
 ]

@@ -1,0 +1,59 @@
+{
+  "title": "Hacked: The Story of Black Ops 2",
+  "thumb": "BLACK OPS 2 HACK",
+  "scenes": [
+    {
+      "hook_top": "BLACK OPS 2",
+      "query": "Black Ops 2 game",
+      "query2": "Call of Duty Black Ops 2",
+      "role": "hook",
+      "text": "Black Ops 2 was hacked in 2022"
+    },
+    {
+      "num": 1,
+      "label": "ACCOUNT BRICK",
+      "label_on": "accounts",
+      "query": "Black Ops 2 account hack",
+      "query2": "Call of Duty Black Ops 2 hack",
+      "role": "count",
+      "text": "The hack bricked players' accounts, making the game unplayable"
+    },
+    {
+      "num": 2,
+      "label": "ONLINE VULN",
+      "label_on": "online",
+      "query": "Black Ops 2 online mode",
+      "query2": "Call of Duty Black Ops 2 multiplayer",
+      "role": "count",
+      "text": "The hack was caused by a vulnerability in the game's online mode"
+    },
+    {
+      "num": 3,
+      "label": "SECURITY RISK",
+      "label_on": "security",
+      "query": "gaming security risks",
+      "query2": "online gaming security",
+      "role": "count",
+      "text": "The hack highlighted the importance of online security in gaming"
+    },
+    {
+      "query": "gaming news",
+      "query2": "tech updates",
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time."
+    }
+  ],
+  "description": "The hack of Black Ops 2 was a major blow to the gaming community. But what happened, and how can we prevent it in the future? Follow us to find out more about the Black Ops 2 hack.",
+  "hashtags": [
+    "#BlackOps2",
+    "#GamingNews",
+    "#Hacking",
+    "#OnlineSecurity",
+    "#Gaming",
+    "#Tech",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

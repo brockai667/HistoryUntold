@@ -1,0 +1,67 @@
+{
+  "title": "Modding Cyberpunk: Supersonic Speed",
+  "thumb": "CYBERPUNK MOD",
+  "scenes": [
+    {
+      "hook_top": "SUPERSONIC GAMES",
+      "query": "Cyberpunk mod",
+      "query2": "gaming mods",
+      "role": "hook",
+      "text": "Cyberpunk modded for speed"
+    },
+    {
+      "chips": [
+        {
+          "t": "Cars",
+          "on": "vehicles",
+          "style": "white"
+        }
+      ],
+      "punch": "supersonic",
+      "query": "Cyberpunk car mod",
+      "query2": "gaming modding",
+      "role": "fact",
+      "text": "A mod makes all cars go supersonic speed"
+    },
+    {
+      "chips": [
+        {
+          "t": "Horror",
+          "on": "horror",
+          "style": "accent"
+        }
+      ],
+      "query": "Cyberpunk horror mod",
+      "query2": "gaming horror mods",
+      "role": "fact",
+      "text": "The mod turns Cyberpunk into a horror game"
+    },
+    {
+      "label": "Gaming Mods",
+      "sub": "Get creative",
+      "label_on": "mods",
+      "query": "gaming modding community",
+      "query2": "game mods",
+      "role": "callout",
+      "text": "Try modding your favorite games"
+    },
+    {
+      "query": "gaming content",
+      "query2": "latest gaming trends",
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time."
+    }
+  ],
+  "description": "A Cyberpunk mod makes all cars go supersonic speed, turning the game into a horror experience. Try modding your favorite games and follow for more gaming content.",
+  "hashtags": [
+    "#gaming",
+    "#Cyberpunk",
+    "#modding",
+    "#gamingmods",
+    "#horror games",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

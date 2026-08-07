@@ -1,0 +1,59 @@
+{
+  "title": "What Killed the PS2?",
+  "thumb": "PS2 GLITCH",
+  "scenes": [
+    {
+      "hook_top": "PS2 SALES",
+      "query": "PS2 console",
+      "query2": "PlayStation 2",
+      "role": "hook",
+      "text": "The PS2 sold 155 million units"
+    },
+    {
+      "num": 1,
+      "label": "GAME LIBRARY",
+      "label_on": "games",
+      "query": "PS2 game collection",
+      "query2": "PlayStation 2 games",
+      "role": "count",
+      "text": "It had a massive game library with 3,800 titles"
+    },
+    {
+      "num": 2,
+      "label": "BACKWARD COMPAT",
+      "label_on": "compatibility",
+      "query": "PS2 playing PS1 games",
+      "query2": "PlayStation 2 backward compatibility",
+      "role": "count",
+      "text": "The PS2 was backward compatible with PS1 games"
+    },
+    {
+      "num": 3,
+      "label": "ONLINE GAMING",
+      "label_on": "online",
+      "query": "PS2 Network Adaptor",
+      "query2": "PlayStation 2 online gaming",
+      "role": "count",
+      "text": "It supported online gaming with the Network Adaptor"
+    },
+    {
+      "query": "gaming news",
+      "query2": "tech updates",
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up."
+    }
+  ],
+  "description": "The PS2 was a revolutionary console that dominated the gaming industry. But what made it so successful? Follow us to find out more about the PS2's impact on gaming history.",
+  "hashtags": [
+    "#PS2",
+    "#GamingHistory",
+    "#PlayStation",
+    "#RetroGaming",
+    "#Tech",
+    "#Gaming",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}
