@@ -1,0 +1,57 @@
+{
+  "title": "What Happened to Good Mobile Games?",
+  "thumb": "LOST MOBILE GEMS",
+  "scenes": [
+    {
+      "hook_top": "EA CEO PAY",
+      "query": "EA CEO",
+      "query2": "EA financial reports",
+      "role": "hook",
+      "text": "EA pays its CEO $38 million"
+    },
+    {
+      "num": 1,
+      "label": "REMOVED GAMES",
+      "label_on": "game removals",
+      "query": "removed mobile games",
+      "query2": "mobile game preservation",
+      "role": "count",
+      "text": "First, many good mobile games are removed from stores"
+    },
+    {
+      "num": 2,
+      "label": "ABANDONED GAMES",
+      "label_on": "abandoned games",
+      "query": "abandoned mobile games",
+      "query2": "mobile game development",
+      "role": "count",
+      "text": "Second, some games are abandoned by their developers"
+    },
+    {
+      "num": 3,
+      "label": "FREE TO PLAY",
+      "label_on": "free-to-play",
+      "query": "free-to-play mobile games",
+      "query2": "mobile game monetization",
+      "role": "count",
+      "text": "Third, the rise of free-to-play games changed the industry"
+    },
+    {
+      "query": "gaming news",
+      "query2": "tech updates",
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve."
+    }
+  ],
+  "description": "What happened to good mobile games? From removed games to abandoned developers, we explore the changes in the industry. Follow us for more gaming insights and tech updates!",
+  "hashtags": [
+    "#mobilegaming",
+    "#gameloss",
+    "#abandonedgames",
+    "#fyp",
+    "#shorts",
+    "#gaminghistory"
+  ],
+  "place": "",
+  "country": ""
+}

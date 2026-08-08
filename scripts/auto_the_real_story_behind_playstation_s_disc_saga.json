@@ -1,0 +1,58 @@
+{
+  "title": "The Real Story Behind PlayStation's Disc Saga",
+  "thumb": "PS2 DISC DRAMA",
+  "scenes": [
+    {
+      "hook_top": "PLAYSTATION 2 ISSUES",
+      "query": "PlayStation 2 console",
+      "query2": "PS2 games",
+      "role": "hook",
+      "text": "2006's PlayStation 2"
+    },
+    {
+      "num": 1,
+      "label": "BACKWARD COMPAT",
+      "label_on": "compatibility",
+      "query": "PS2 backward compatibility",
+      "query2": "PS2 playing PS1 games",
+      "role": "count",
+      "text": "First, the PlayStation 2 had native backward compatibility"
+    },
+    {
+      "num": 2,
+      "label": "MULTI FORMAT",
+      "label_on": "disc formats",
+      "query": "PS2 disc formats",
+      "query2": "PS2 CD player",
+      "role": "count",
+      "text": "Second, it supported CD, DVD, SACD, and Blu-ray discs"
+    },
+    {
+      "num": 3,
+      "label": "FREE ONLINE",
+      "label_on": "online gaming",
+      "query": "PS2 online gaming",
+      "query2": "PS2 network adapter",
+      "role": "count",
+      "text": "Third, it had free online gaming"
+    },
+    {
+      "query": "gaming news",
+      "query2": "tech updates",
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time."
+    }
+  ],
+  "description": "Discover the real story behind PlayStation's disc saga. From backward compatibility to free online gaming, we've got you covered. Follow us for more gaming history and tech updates!",
+  "hashtags": [
+    "#gaminghistory",
+    "#playstation",
+    "#ps2",
+    "#discs",
+    "#backwardcompatibility",
+    "#fyp",
+    "#shorts"
+  ],
+  "place": "",
+  "country": ""
+}

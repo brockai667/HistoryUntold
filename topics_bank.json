@@ -7363,5 +7363,116 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "How Old Consoles Work: The Story of CDs",
+    "thumb": "CD TECH",
+    "scenes": [
+      {
+        "hook_top": "CD REVOLUTION",
+        "query": "first CD release",
+        "query2": "CD history",
+        "role": "hook",
+        "text": "The First CD Was Released in 1982"
+      },
+      {
+        "num": 1,
+        "label": "LASER TECH",
+        "label_on": "Lasers",
+        "query": "CD player laser",
+        "query2": "how CD players work",
+        "role": "count",
+        "text": "1. CD Players Use Lasers"
+      },
+      {
+        "num": 2,
+        "label": "CD CAPACITY",
+        "label_on": "80 minutes",
+        "query": "CD storage capacity",
+        "query2": "CD audio duration",
+        "role": "count",
+        "text": "2. CDs Store Up to 80 Minutes of Audio"
+      },
+      {
+        "num": 3,
+        "label": "MEGANET CONSOLE",
+        "label_on": "Meganet",
+        "query": "Meganet console",
+        "query2": "first CD-based console",
+        "role": "count",
+        "text": "3. The First Console to Use CDs Was the Meganet"
+      },
+      {
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "How Old Consoles Work: The Story of CDs",
+        "query2": "cinematic nature landscape"
+      }
+    ],
+    "description": "Learn how old consoles worked with CDs. From the first CD release to the first console that used them, discover the story of CD technology. Follow for more tech explanations and interesting facts!",
+    "hashtags": [
+      "#techexplained",
+      "#cdtech",
+      "#oldconsoles",
+      "#retrotech",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "38.5% of Nintendo Sales Are Still Physical",
+    "thumb": "NINTENDO PHYSICAL",
+    "scenes": [
+      {
+        "hook_top": "NINTENDO PHYSICAL SALES",
+        "query": "Nintendo financial reports",
+        "query2": "physical game sales data",
+        "role": "hook",
+        "text": "38.5% of Nintendo sales are physical"
+      },
+      {
+        "label": "Digital Only",
+        "query": "digital game sales data",
+        "query2": "gaming industry trends",
+        "role": "myth",
+        "text": "Digital games are the only future of gaming"
+      },
+      {
+        "label": "Physical Sales Matter",
+        "query": "Nintendo physical game sales",
+        "query2": "gaming industry statistics",
+        "role": "truth",
+        "text": "Physical games still account for a significant portion of Nintendo's sales"
+      },
+      {
+        "label": "Gaming Shift",
+        "sub": "physical games still relevant",
+        "label_on": "gaming",
+        "query": "gaming industry trends",
+        "query2": "physical vs digital games",
+        "role": "callout",
+        "text": "The shift to digital is not as clear-cut as it seems"
+      },
+      {
+        "query": "gaming news and updates",
+        "query2": "industry trends and analysis",
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve."
+      }
+    ],
+    "description": "Nintendo's physical game sales are still going strong, accounting for 38.5% of their total sales. What does this mean for the future of gaming? Follow us for more insights and updates.",
+    "hashtags": [
+      "#Nintendo",
+      "#Gaming",
+      "#PhysicalGames",
+      "#DigitalGames",
+      "#GamingIndustry",
+      "#Shorts",
+      "#FYP"
+    ],
+    "place": "",
+    "country": ""
   }
 ]

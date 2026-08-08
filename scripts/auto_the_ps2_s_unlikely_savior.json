@@ -1,0 +1,66 @@
+{
+  "title": "The PS2's Unlikely Savior",
+  "thumb": "PS2 REVIVAL",
+  "scenes": [
+    {
+      "hook_top": "PS2 LIVES ON",
+      "query": "PS2 console",
+      "query2": "PlayStation 2",
+      "role": "hook",
+      "text": "2006 console still rocks"
+    },
+    {
+      "chips": [
+        {
+          "t": "PS1",
+          "on": "backward",
+          "style": "accent"
+        }
+      ],
+      "punch": " Compatible",
+      "query": "PS2 backward compatibility",
+      "query2": "PlayStation 2 compatibility",
+      "role": "fact",
+      "text": "PS2 has native backward compatibility"
+    },
+    {
+      "chips": [
+        {
+          "t": "Blu-ray",
+          "on": "supports",
+          "style": "white"
+        }
+      ],
+      "query": "PS2 formats",
+      "query2": "PlayStation 2 formats",
+      "role": "fact",
+      "text": "PS2 supports CD, DVD, SACD, and Blu-ray"
+    },
+    {
+      "reveal_top": "PS2 STILL UNMATCHED",
+      "query": "PS2 vs modern consoles",
+      "query2": "PlayStation 2 comparison",
+      "role": "reveal",
+      "text": "PS2's versatility is still unmatched"
+    },
+    {
+      "query": "retro tech news",
+      "query2": "vintage technology",
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up."
+    }
+  ],
+  "description": "The PS2's impressive specs and features are still unmatched today. Learn more about this iconic console. Follow for the latest retro tech news and updates. #PS2 #RetroGaming #GamingHistory #TechNews #RetroConsoles #Gaming",
+  "hashtags": [
+    "#PS2",
+    "#RetroGaming",
+    "#GamingHistory",
+    "#TechNews",
+    "#RetroConsoles",
+    "#Gaming",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}
