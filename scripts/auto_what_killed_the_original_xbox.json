@@ -1,0 +1,66 @@
+{
+  "title": "What Killed the Original Xbox?",
+  "thumb": "XBOX HISTORY",
+  "scenes": [
+    {
+      "hook_top": "XBOX DEBUT",
+      "query": "original Xbox",
+      "query2": "first Xbox console",
+      "role": "hook",
+      "text": "2001 Xbox launch"
+    },
+    {
+      "chips": [
+        {
+          "t": "8GB",
+          "on": "hard drive",
+          "style": "white"
+        }
+      ],
+      "punch": "Boom",
+      "query": "original Xbox hard drive",
+      "query2": "first Xbox storage",
+      "role": "fact",
+      "text": "It had a built-in hard drive."
+    },
+    {
+      "chips": [
+        {
+          "t": "Ethernet",
+          "on": "online gaming",
+          "style": "accent"
+        }
+      ],
+      "query": "original Xbox online gaming",
+      "query2": "first Xbox live",
+      "role": "fact",
+      "text": "It was the first console to include online gaming as a standard feature."
+    },
+    {
+      "label": "Xbox Failure",
+      "sub": "RIP",
+      "label_on": "demise",
+      "query": "original Xbox failure",
+      "query2": "Xbox sales",
+      "role": "callout",
+      "text": "But poor sales led to its demise."
+    },
+    {
+      "query": "gaming history",
+      "query2": "retro gaming",
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up."
+    }
+  ],
+  "description": "The original Xbox was a revolutionary console, but it failed to gain traction. Find out what killed it. Follow us for more gaming history!",
+  "hashtags": [
+    "#Xbox",
+    "#GamingHistory",
+    "#RetroGaming",
+    "#ConsoleWars",
+    "#Gaming",
+    "#Tech"
+  ],
+  "place": "",
+  "country": ""
+}

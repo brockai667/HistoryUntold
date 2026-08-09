@@ -1,0 +1,58 @@
+{
+  "title": "How Glitches Changed the Gaming Industry",
+  "thumb": "GLITCH EFFECT",
+  "scenes": [
+    {
+      "hook_top": "BLACK OPS GLITCH",
+      "query": "Black Ops 2 glitch",
+      "query2": "gaming glitch",
+      "role": "hook",
+      "text": "The notorious Black Ops 2 glitch"
+    },
+    {
+      "num": 1,
+      "label": "MAJOR GLITCH",
+      "label_on": "major glitch",
+      "query": "game crash",
+      "query2": "gaming glitch",
+      "role": "count",
+      "text": "First major glitch to cause widespread game crashes"
+    },
+    {
+      "num": 2,
+      "label": "CORRUPTED FILE",
+      "label_on": "corrupted file",
+      "query": "corrupted game file",
+      "query2": "game file error",
+      "role": "count",
+      "text": "The glitch was caused by a corrupted game file"
+    },
+    {
+      "num": 3,
+      "label": "NEW TESTING",
+      "label_on": "new testing",
+      "query": "game testing",
+      "query2": "quality assurance",
+      "role": "count",
+      "text": "The glitch led to the development of new game testing methods"
+    },
+    {
+      "query": "gaming",
+      "query2": "tech",
+      "role": "cta",
+      "text": "Follow for daily tech you should actually know."
+    }
+  ],
+  "description": "Discover how glitches have changed the gaming industry. From the notorious Black Ops 2 glitch to the development of new game testing methods, we explore the impact of glitches on gaming. Follow us for more stories on gaming and tech.",
+  "hashtags": [
+    "#gaming",
+    "#glitch",
+    "#blackops2",
+    "#gamecrash",
+    "#testing",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}
