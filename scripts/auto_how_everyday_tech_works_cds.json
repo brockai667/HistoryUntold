@@ -1,0 +1,57 @@
+{
+  "title": "How Everyday Tech Works: CDs",
+  "thumb": "CD TECH",
+  "scenes": [
+    {
+      "hook_top": "CD MANIA",
+      "query": "CD sales",
+      "query2": "CD history",
+      "role": "hook",
+      "text": "1 billion CDs sold worldwide"
+    },
+    {
+      "num": 1,
+      "label": "LASER TECH",
+      "label_on": "lasers",
+      "query": "CD laser technology",
+      "query2": "how CDs work",
+      "role": "count",
+      "text": "CDs use lasers to read data"
+    },
+    {
+      "num": 2,
+      "label": "DATA ENCODING",
+      "label_on": "data encoding",
+      "query": "CD data encoding",
+      "query2": "error-correcting codes",
+      "role": "count",
+      "text": "CDs use error-correcting codes to ensure data integrity"
+    },
+    {
+      "num": 3,
+      "label": "DIGITAL SIGNAL",
+      "label_on": "digital signal",
+      "query": "CD digital signal processing",
+      "query2": "analog to digital conversion",
+      "role": "count",
+      "text": "CDs convert analog signals to digital signals"
+    },
+    {
+      "query": "tech explanations",
+      "query2": "how things work",
+      "role": "cta",
+      "text": "Follow for daily tech and AI news."
+    }
+  ],
+  "description": "Ever wondered how CDs work? From laser technology to data encoding, we break it down. Follow us for more tech explanations!",
+  "hashtags": [
+    "#tech",
+    "#CDs",
+    "#howthingswork",
+    "#technology",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

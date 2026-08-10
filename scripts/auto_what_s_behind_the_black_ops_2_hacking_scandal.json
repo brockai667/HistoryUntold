@@ -1,0 +1,54 @@
+{
+  "title": "What's Behind the Black Ops 2 Hacking Scandal?",
+  "thumb": "BLACK OPS HACK",
+  "scenes": [
+    {
+      "hook_top": "GAME OVER",
+      "query": "Black Ops 2 hacking scandal",
+      "query2": "gaming security breaches",
+      "role": "hook",
+      "text": "Black Ops 2 hacked again"
+    },
+    {
+      "label": "Pros only",
+      "query": "gaming hacking risks",
+      "query2": "online gaming security",
+      "role": "myth",
+      "text": "Only pro players get hacked"
+    },
+    {
+      "label": "All players at risk",
+      "query": "Black Ops 2 player safety",
+      "query2": "gaming account security",
+      "role": "truth",
+      "text": "Any Black Ops 2 player can be hacked"
+    },
+    {
+      "label": "Game Safe",
+      "sub": "Protect your account",
+      "label_on": "Secure",
+      "query": "gaming security tips",
+      "query2": "online safety advice",
+      "role": "callout",
+      "text": "Stay safe from hackers in online gaming"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "What's Behind the Black Ops 2 Hacking Scandal?",
+      "query2": "cinematic nature landscape"
+    }
+  ],
+  "description": "Uncover the truth behind the Black Ops 2 hacking scandal and learn how to protect yourself from online gaming threats. Join us as we explore the world of gaming security. Follow us for more gaming news and updates!",
+  "hashtags": [
+    "#BlackOps2",
+    "#GamingSecurity",
+    "#OnlineSafety",
+    "#Hackers",
+    "#GamingNews",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

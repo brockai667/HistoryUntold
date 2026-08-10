@@ -1,0 +1,57 @@
+{
+  "title": "3 Biggest Glitches in Gaming History",
+  "thumb": "GLITCH FRENZY",
+  "scenes": [
+    {
+      "hook_top": "GLITCH EPIDEMIC",
+      "query": "gaming glitches",
+      "query2": "video game bugs",
+      "role": "hook",
+      "text": "12 million players affected"
+    },
+    {
+      "num": 1,
+      "label": "SONIC SPIN",
+      "label_on": "Sonic",
+      "query": "Sonic the Hedgehog 2 glitches",
+      "query2": "Sonic spin dash",
+      "role": "count",
+      "text": "The Sonic Spin Dash glitch in Sonic the Hedgehog 2"
+    },
+    {
+      "num": 2,
+      "label": "PAC-MAN GLITCH",
+      "label_on": "Pac-Man",
+      "query": "Pac-Man kill screen",
+      "query2": "Pac-Man glitches",
+      "role": "count",
+      "text": "The kill screen in Pac-Man"
+    },
+    {
+      "num": 3,
+      "label": "MINUS WORLD",
+      "label_on": "Super Mario Bros.",
+      "query": "Super Mario Bros. Minus World",
+      "query2": "Super Mario Bros. glitches",
+      "role": "count",
+      "text": "The Minus World glitch in Super Mario Bros."
+    },
+    {
+      "query": "gaming news",
+      "query2": "video game history",
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up."
+    }
+  ],
+  "description": "Discover the most iconic glitches in gaming history. From Sonic to Pac-Man, these bugs changed the game. Follow us for more gaming facts!",
+  "hashtags": [
+    "#gaming",
+    "#glitches",
+    "#retrogaming",
+    "#gamingshort",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

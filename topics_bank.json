@@ -7474,5 +7474,306 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "3 Forgotten Consoles that Paved the Way",
+    "thumb": "RETRO GAMING",
+    "scenes": [
+      {
+        "hook_top": "NINTENDO SALES",
+        "query": "Nintendo sales figures",
+        "query2": "Gaming industry statistics",
+        "role": "hook",
+        "text": "38.5% of Nintendo sales are still physical"
+      },
+      {
+        "num": 1,
+        "label": "PS1 INNOVATION",
+        "label_on": "CD-ROM",
+        "query": "PlayStation CD-ROM",
+        "query2": "Gaming console history",
+        "role": "count",
+        "text": "The original PlayStation was the first to popularize CD-ROMs"
+      },
+      {
+        "num": 2,
+        "label": "DREAMCAST ONLINE",
+        "label_on": "online gaming",
+        "query": "Sega Dreamcast online gaming",
+        "query2": "Retro gaming consoles",
+        "role": "count",
+        "text": "The Sega Dreamcast introduced online gaming to the masses"
+      },
+      {
+        "num": 3,
+        "label": "N64 3D GAMING",
+        "label_on": "3D gaming",
+        "query": "Nintendo 64 3D games",
+        "query2": "Gaming innovation",
+        "role": "count",
+        "text": "The Nintendo 64 brought 3D gaming to the mainstream"
+      },
+      {
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "3 Forgotten Consoles that Paved the Way",
+        "query2": "cinematic nature landscape"
+      }
+    ],
+    "description": "Discover the forgotten consoles that paved the way for modern gaming. From the original PlayStation to the Nintendo 64, these consoles introduced innovative features that changed the gaming industry. Follow us for more retro gaming content!",
+    "hashtags": [
+      "#retrogaming",
+      "#gaminghistory",
+      "#nintendo",
+      "#playstation",
+      "#sega",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Crazy Story of World of Warcraft's Tank Privilege",
+    "thumb": "WOW TANKS",
+    "scenes": [
+      {
+        "hook_top": "WOW ACCOUNTS",
+        "query": "World of Warcraft player base",
+        "query2": "MMORPG statistics",
+        "role": "hook",
+        "text": "World of Warcraft has over 100 million registered accounts"
+      },
+      {
+        "num": 1,
+        "label": "TBC TANKING",
+        "label_on": "tank privilege",
+        "query": "World of Warcraft The Burning Crusade",
+        "query2": "WoW expansions",
+        "role": "count",
+        "text": "The first WoW expansion, The Burning Crusade, introduced the concept of tank privilege"
+      },
+      {
+        "num": 2,
+        "label": "LICH KING RAID",
+        "label_on": "Icecrown Citadel",
+        "query": "World of Warcraft Lich King expansion",
+        "query2": "WoW raids",
+        "role": "count",
+        "text": "The Lich King expansion's Icecrown Citadel raid cemented tank privilege as a core gameplay mechanic"
+      },
+      {
+        "num": 3,
+        "label": "DRAGONFLIGHT TANKS",
+        "label_on": "Dragonflight",
+        "query": "World of Warcraft Dragonflight expansion",
+        "query2": "WoW gameplay changes",
+        "role": "count",
+        "text": "The current WoW expansion, Dragonflight, has reworked tank privilege to promote more flexible gameplay"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "The Crazy Story of World of Warcraft's Tank Privilege",
+        "query2": "cinematic nature landscape"
+      }
+    ],
+    "description": "Explore the fascinating story of World of Warcraft's tank privilege, from its introduction in The Burning Crusade to its current state in Dragonflight. Follow us for more WoW and gaming content!",
+    "hashtags": [
+      "#worldofwarcraft",
+      "#wow",
+      "#tanking",
+      "#gaming",
+      "#mmorpg",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Can Kratos Inherit Your Gaming Legacy?",
+    "thumb": "GAMING LEGACY",
+    "scenes": [
+      {
+        "hook_top": "GAMING ACCOUNTS FOREVER",
+        "query": "gaming account inheritance",
+        "query2": "digital legacy",
+        "role": "hook",
+        "text": "1 in 5 gamers want to pass on their accounts"
+      },
+      {
+        "label": "Accounts Die",
+        "query": "gaming account ownership",
+        "query2": "digital estate planning",
+        "role": "myth",
+        "text": "Most gamers think their accounts die with them"
+      },
+      {
+        "label": "Accounts Live On",
+        "query": "China gaming account inheritance",
+        "query2": "gaming account legacy",
+        "role": "truth",
+        "text": "A Chinese court ruled that gaming accounts can be inherited"
+      },
+      {
+        "label": "Gaming Legacy",
+        "sub": "Pass on your accounts",
+        "label_on": "Inherit",
+        "query": "gaming account transfer",
+        "query2": "digital inheritance",
+        "role": "callout",
+        "text": "Now you can leave your gaming legacy to your loved ones"
+      },
+      {
+        "query": "gaming news",
+        "query2": "latest gaming trends",
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve."
+      }
+    ],
+    "description": "Discover how you can pass on your gaming legacy to your loved ones. A Chinese court has ruled that gaming accounts can be inherited, changing the game forever. Follow us for more gaming news and updates. Don't miss out on this opportunity to leave your mark on the gaming world.",
+    "hashtags": [
+      "#gamingnews",
+      "#gaminglegacy",
+      "#digitalinheritance",
+      "#gamingsociety",
+      "#onlinegaming",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Can the PS5 Play Every Game Ever Made?",
+    "thumb": "NEXT GEN GAMING",
+    "scenes": [
+      {
+        "hook_top": "NEXT GEN GAMING",
+        "query": "PS5 console",
+        "query2": "PlayStation 5",
+        "role": "hook",
+        "text": "10,000 games on one console?"
+      },
+      {
+        "chips": [
+          {
+            "t": "825GB",
+            "on": "SSD",
+            "style": "white"
+          }
+        ],
+        "punch": "Speed",
+        "query": "PS5 SSD",
+        "query2": "PlayStation 5 storage",
+        "role": "fact",
+        "text": "The PS5 has a 825 GB SSD"
+      },
+      {
+        "chips": [
+          {
+            "t": "700K",
+            "on": "users",
+            "style": "accent"
+          }
+        ],
+        "query": "original Xbox",
+        "query2": "Xbox history",
+        "role": "fact",
+        "text": "The original Xbox had 700,000 registered users"
+      },
+      {
+        "reveal_top": "NEXT GEN GAMING",
+        "query": "next Xbox console",
+        "query2": "Xbox series",
+        "role": "reveal",
+        "text": "The next Xbox could play every Xbox game ever made"
+      },
+      {
+        "query": "gaming news",
+        "query2": "tech updates",
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve."
+      }
+    ],
+    "description": "The PS5 is a powerful console with a large storage capacity. But can it play every game ever made? Find out the answer and more gaming news. Follow us for updates!",
+    "hashtags": [
+      "#gaming",
+      "#PS5",
+      "#Xbox",
+      "#NextGenGaming",
+      "#TechNews",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Famous Glitch That Changed World of Warcraft",
+    "thumb": "WOW GLITCH",
+    "scenes": [
+      {
+        "hook_top": "WOW GLITCH FOUND",
+        "query": "World of Warcraft",
+        "query2": "WoW glitch",
+        "role": "hook",
+        "text": "2005's World of Warcraft had a game-breaking glitch"
+      },
+      {
+        "chips": [
+          {
+            "t": "Corrupted",
+            "on": "Blood",
+            "style": "white"
+          }
+        ],
+        "punch": "Pandemic!",
+        "query": "Corrupted Blood glitch",
+        "query2": "WoW Corrupted Blood",
+        "role": "fact",
+        "text": "The 'Corrupted Blood' glitch spread rapidly, infecting thousands of players"
+      },
+      {
+        "chips": [
+          {
+            "t": "Debuff",
+            "on": "one player",
+            "style": "accent"
+          }
+        ],
+        "query": "WoW debuff glitch",
+        "query2": "Corrupted Blood debuff",
+        "role": "fact",
+        "text": "The glitch was caused by a debuff that was meant to affect only one player"
+      },
+      {
+        "label": "Game Design",
+        "sub": "WoW testing",
+        "label_on": "game design",
+        "query": "WoW game design",
+        "query2": "WoW testing",
+        "role": "callout",
+        "text": "The Corrupted Blood glitch led to changes in WoW's game design and testing"
+      },
+      {
+        "query": "Gaming history",
+        "query2": "Glitch community",
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time."
+      }
+    ],
+    "description": "In 2005, a game-breaking glitch spread rapidly in World of Warcraft, infecting thousands of players. Find out how the 'Corrupted Blood' glitch changed the game's design and testing. Follow us for more gaming history and glitches!",
+    "hashtags": [
+      "#WoW",
+      "#Glitch",
+      "#GamingHistory",
+      "#GameDesign",
+      "#Shorts",
+      "#FYP"
+    ],
+    "place": "",
+    "country": ""
   }
 ]
