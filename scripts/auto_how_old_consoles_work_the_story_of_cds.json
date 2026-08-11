@@ -1,0 +1,57 @@
+{
+  "title": "How Old Consoles Work: The Story of CDs",
+  "thumb": "CD TECH",
+  "scenes": [
+    {
+      "hook_top": "CD REVOLUTION",
+      "query": "first CD release",
+      "query2": "CD history",
+      "role": "hook",
+      "text": "The First CD Was Released in 1982"
+    },
+    {
+      "num": 1,
+      "label": "LASER TECH",
+      "label_on": "Lasers",
+      "query": "CD player laser",
+      "query2": "how CD players work",
+      "role": "count",
+      "text": "1. CD Players Use Lasers"
+    },
+    {
+      "num": 2,
+      "label": "CD CAPACITY",
+      "label_on": "80 minutes",
+      "query": "CD storage capacity",
+      "query2": "CD audio duration",
+      "role": "count",
+      "text": "2. CDs Store Up to 80 Minutes of Audio"
+    },
+    {
+      "num": 3,
+      "label": "MEGANET CONSOLE",
+      "label_on": "Meganet",
+      "query": "Meganet console",
+      "query2": "first CD-based console",
+      "role": "count",
+      "text": "3. The First Console to Use CDs Was the Meganet"
+    },
+    {
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "How Old Consoles Work: The Story of CDs",
+      "query2": "cinematic nature landscape"
+    }
+  ],
+  "description": "Learn how old consoles worked with CDs. From the first CD release to the first console that used them, discover the story of CD technology. Follow for more tech explanations and interesting facts!",
+  "hashtags": [
+    "#techexplained",
+    "#cdtech",
+    "#oldconsoles",
+    "#retrotech",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

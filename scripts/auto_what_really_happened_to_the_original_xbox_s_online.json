@@ -1,0 +1,53 @@
+{
+  "title": "What Really Happened to the Original Xbox's Online Gaming?",
+  "thumb": "XBOX LIVE",
+  "scenes": [
+    {
+      "hook_top": "XBOX LIVE LAUNCH",
+      "query": "Xbox Live launch date",
+      "query2": "Xbox online gaming history",
+      "role": "hook",
+      "text": "2002's Xbox Live revolution"
+    },
+    {
+      "label": "Myth: Free",
+      "query": "Xbox Live free trial",
+      "query2": "Xbox online gaming costs",
+      "role": "myth",
+      "text": "Xbox Live was always free"
+    },
+    {
+      "label": "Truth: Paid",
+      "query": "Xbox Live subscription model",
+      "query2": "Xbox online gaming fees",
+      "role": "truth",
+      "text": "It actually required a paid subscription"
+    },
+    {
+      "label": "Gaming Pioneer",
+      "sub": " Changed the gaming landscape",
+      "label_on": "Innovative",
+      "query": "Xbox Live impact on gaming",
+      "query2": "Online gaming evolution",
+      "role": "callout",
+      "text": "Xbox Live paved the way for modern online gaming"
+    },
+    {
+      "query": "Gaming history",
+      "query2": "Xbox news",
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up."
+    }
+  ],
+  "description": "Get the real story behind the original Xbox's online gaming revolution. From its launch to its impact on the gaming industry, we've got the facts. Follow us for more gaming history and insights!",
+  "hashtags": [
+    "#Xbox",
+    "#GamingHistory",
+    "#OnlineGaming",
+    "#XboxLive",
+    "#GamingRevolution",
+    "#RetroGaming"
+  ],
+  "place": "",
+  "country": ""
+}
