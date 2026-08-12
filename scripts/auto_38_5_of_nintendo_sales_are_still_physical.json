@@ -1,0 +1,54 @@
+{
+  "title": "38.5% of Nintendo Sales Are Still Physical",
+  "thumb": "NINTENDO PHYSICAL",
+  "scenes": [
+    {
+      "hook_top": "NINTENDO PHYSICAL SALES",
+      "query": "Nintendo financial reports",
+      "query2": "physical game sales data",
+      "role": "hook",
+      "text": "38.5% of Nintendo sales are physical"
+    },
+    {
+      "label": "Digital Only",
+      "query": "digital game sales data",
+      "query2": "gaming industry trends",
+      "role": "myth",
+      "text": "Digital games are the only future of gaming"
+    },
+    {
+      "label": "Physical Sales Matter",
+      "query": "Nintendo physical game sales",
+      "query2": "gaming industry statistics",
+      "role": "truth",
+      "text": "Physical games still account for a significant portion of Nintendo's sales"
+    },
+    {
+      "label": "Gaming Shift",
+      "sub": "physical games still relevant",
+      "label_on": "gaming",
+      "query": "gaming industry trends",
+      "query2": "physical vs digital games",
+      "role": "callout",
+      "text": "The shift to digital is not as clear-cut as it seems"
+    },
+    {
+      "query": "gaming news and updates",
+      "query2": "industry trends and analysis",
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve."
+    }
+  ],
+  "description": "Nintendo's physical game sales are still going strong, accounting for 38.5% of their total sales. What does this mean for the future of gaming? Follow us for more insights and updates.",
+  "hashtags": [
+    "#Nintendo",
+    "#Gaming",
+    "#PhysicalGames",
+    "#DigitalGames",
+    "#GamingIndustry",
+    "#Shorts",
+    "#FYP"
+  ],
+  "place": "",
+  "country": ""
+}

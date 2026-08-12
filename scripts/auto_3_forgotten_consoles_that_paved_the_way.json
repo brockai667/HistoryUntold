@@ -1,0 +1,58 @@
+{
+  "title": "3 Forgotten Consoles that Paved the Way",
+  "thumb": "RETRO GAMING",
+  "scenes": [
+    {
+      "hook_top": "NINTENDO SALES",
+      "query": "Nintendo sales figures",
+      "query2": "Gaming industry statistics",
+      "role": "hook",
+      "text": "38.5% of Nintendo sales are still physical"
+    },
+    {
+      "num": 1,
+      "label": "PS1 INNOVATION",
+      "label_on": "CD-ROM",
+      "query": "PlayStation CD-ROM",
+      "query2": "Gaming console history",
+      "role": "count",
+      "text": "The original PlayStation was the first to popularize CD-ROMs"
+    },
+    {
+      "num": 2,
+      "label": "DREAMCAST ONLINE",
+      "label_on": "online gaming",
+      "query": "Sega Dreamcast online gaming",
+      "query2": "Retro gaming consoles",
+      "role": "count",
+      "text": "The Sega Dreamcast introduced online gaming to the masses"
+    },
+    {
+      "num": 3,
+      "label": "N64 3D GAMING",
+      "label_on": "3D gaming",
+      "query": "Nintendo 64 3D games",
+      "query2": "Gaming innovation",
+      "role": "count",
+      "text": "The Nintendo 64 brought 3D gaming to the mainstream"
+    },
+    {
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "3 Forgotten Consoles that Paved the Way",
+      "query2": "cinematic nature landscape"
+    }
+  ],
+  "description": "Discover the forgotten consoles that paved the way for modern gaming. From the original PlayStation to the Nintendo 64, these consoles introduced innovative features that changed the gaming industry. Follow us for more retro gaming content!",
+  "hashtags": [
+    "#retrogaming",
+    "#gaminghistory",
+    "#nintendo",
+    "#playstation",
+    "#sega",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}
