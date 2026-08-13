@@ -1,0 +1,66 @@
+{
+  "title": "The Famous Glitch That Changed World of Warcraft",
+  "thumb": "WOW GLITCH",
+  "scenes": [
+    {
+      "hook_top": "WOW GLITCH FOUND",
+      "query": "World of Warcraft",
+      "query2": "WoW glitch",
+      "role": "hook",
+      "text": "2005's World of Warcraft had a game-breaking glitch"
+    },
+    {
+      "chips": [
+        {
+          "t": "Corrupted",
+          "on": "Blood",
+          "style": "white"
+        }
+      ],
+      "punch": "Pandemic!",
+      "query": "Corrupted Blood glitch",
+      "query2": "WoW Corrupted Blood",
+      "role": "fact",
+      "text": "The 'Corrupted Blood' glitch spread rapidly, infecting thousands of players"
+    },
+    {
+      "chips": [
+        {
+          "t": "Debuff",
+          "on": "one player",
+          "style": "accent"
+        }
+      ],
+      "query": "WoW debuff glitch",
+      "query2": "Corrupted Blood debuff",
+      "role": "fact",
+      "text": "The glitch was caused by a debuff that was meant to affect only one player"
+    },
+    {
+      "label": "Game Design",
+      "sub": "WoW testing",
+      "label_on": "game design",
+      "query": "WoW game design",
+      "query2": "WoW testing",
+      "role": "callout",
+      "text": "The Corrupted Blood glitch led to changes in WoW's game design and testing"
+    },
+    {
+      "query": "Gaming history",
+      "query2": "Glitch community",
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time."
+    }
+  ],
+  "description": "In 2005, a game-breaking glitch spread rapidly in World of Warcraft, infecting thousands of players. Find out how the 'Corrupted Blood' glitch changed the game's design and testing. Follow us for more gaming history and glitches!",
+  "hashtags": [
+    "#WoW",
+    "#Glitch",
+    "#GamingHistory",
+    "#GameDesign",
+    "#Shorts",
+    "#FYP"
+  ],
+  "place": "",
+  "country": ""
+}

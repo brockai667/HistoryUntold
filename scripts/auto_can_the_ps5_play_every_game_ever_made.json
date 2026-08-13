@@ -1,0 +1,65 @@
+{
+  "title": "Can the PS5 Play Every Game Ever Made?",
+  "thumb": "NEXT GEN GAMING",
+  "scenes": [
+    {
+      "hook_top": "NEXT GEN GAMING",
+      "query": "PS5 console",
+      "query2": "PlayStation 5",
+      "role": "hook",
+      "text": "10,000 games on one console?"
+    },
+    {
+      "chips": [
+        {
+          "t": "825GB",
+          "on": "SSD",
+          "style": "white"
+        }
+      ],
+      "punch": "Speed",
+      "query": "PS5 SSD",
+      "query2": "PlayStation 5 storage",
+      "role": "fact",
+      "text": "The PS5 has a 825 GB SSD"
+    },
+    {
+      "chips": [
+        {
+          "t": "700K",
+          "on": "users",
+          "style": "accent"
+        }
+      ],
+      "query": "original Xbox",
+      "query2": "Xbox history",
+      "role": "fact",
+      "text": "The original Xbox had 700,000 registered users"
+    },
+    {
+      "reveal_top": "NEXT GEN GAMING",
+      "query": "next Xbox console",
+      "query2": "Xbox series",
+      "role": "reveal",
+      "text": "The next Xbox could play every Xbox game ever made"
+    },
+    {
+      "query": "gaming news",
+      "query2": "tech updates",
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve."
+    }
+  ],
+  "description": "The PS5 is a powerful console with a large storage capacity. But can it play every game ever made? Find out the answer and more gaming news. Follow us for updates!",
+  "hashtags": [
+    "#gaming",
+    "#PS5",
+    "#Xbox",
+    "#NextGenGaming",
+    "#TechNews",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}
