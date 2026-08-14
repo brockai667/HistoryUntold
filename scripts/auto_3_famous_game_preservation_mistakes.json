@@ -1,0 +1,58 @@
+{
+  "title": "3 Famous Game Preservation Mistakes",
+  "thumb": "GAMING HISTORY",
+  "scenes": [
+    {
+      "hook_top": "NINTENDO'S PHYSICAL SALES",
+      "query": "Nintendo sales data",
+      "query2": "Gaming industry sales",
+      "role": "hook",
+      "text": "38.5% of Nintendo sales are physical"
+    },
+    {
+      "num": 1,
+      "label": "DRM MISTAKES",
+      "label_on": "Digital",
+      "query": "Digital rights management",
+      "query2": "Gaming industry DRM",
+      "role": "count",
+      "text": "1. Abandoning digital rights management"
+    },
+    {
+      "num": 2,
+      "label": "GAME ARCHIVING",
+      "label_on": "Archiving",
+      "query": "Video game archiving",
+      "query2": "Game preservation",
+      "role": "count",
+      "text": "2. Failing to archive old games"
+    },
+    {
+      "num": 3,
+      "label": "PIRACY LESSONS",
+      "label_on": "Piracy",
+      "query": "Gaming industry piracy",
+      "query2": "Piracy wars",
+      "role": "count",
+      "text": "3. Not learning from piracy wars"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "3 Famous Game Preservation Mistakes",
+      "query2": "cinematic nature landscape"
+    }
+  ],
+  "description": "Discover the three famous game preservation mistakes that changed the gaming industry. Learn from the past and join the conversation. Follow us for more gaming history and insights.",
+  "hashtags": [
+    "#gaminghistory",
+    "#gamepreservation",
+    "#nintendosales",
+    "#drm",
+    "#piracy",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

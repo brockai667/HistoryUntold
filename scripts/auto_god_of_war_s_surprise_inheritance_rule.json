@@ -1,0 +1,67 @@
+{
+  "title": "God of War's Surprise Inheritance Rule",
+  "thumb": "GOD OF WAR INHERITED",
+  "scenes": [
+    {
+      "hook_top": "GAMES CAN BE INHERITED",
+      "query": "Chinese court ruling on game inheritance",
+      "query2": "game inheritance laws",
+      "role": "hook",
+      "text": "1 court rules on game inheritance"
+    },
+    {
+      "chips": [
+        {
+          "t": "Kratos",
+          "on": "Kratos",
+          "style": "white"
+        }
+      ],
+      "punch": "injury",
+      "query": "Ryan Hurst as Kratos",
+      "query2": "God of War cast",
+      "role": "fact",
+      "text": "Ryan Hurst was recast as Kratos due to injury"
+    },
+    {
+      "chips": [
+        {
+          "t": "Accounts",
+          "on": "accounts",
+          "style": "accent"
+        }
+      ],
+      "query": "video game account inheritance",
+      "query2": "game account laws",
+      "role": "fact",
+      "text": "Video game accounts can be passed down"
+    },
+    {
+      "reveal_top": "GAME PROGRESS INHERITED",
+      "query": "inheriting game progress",
+      "query2": "game character inheritance",
+      "role": "reveal",
+      "text": "You can inherit game progress and characters"
+    },
+    {
+      "query": "gaming news",
+      "query2": "game updates",
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time."
+    }
+  ],
+  "description": "Discover the surprising rule about inheriting video game accounts and progress. Learn how it works and what it means for gamers. Follow us for more gaming news and updates.",
+  "hashtags": [
+    "#gamingnews",
+    "#GodOfWar",
+    "#gameinheritance",
+    "#videogames",
+    "#gameaccounts",
+    "#inheritance",
+    "#gamelaw",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

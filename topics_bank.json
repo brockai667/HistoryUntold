@@ -8024,5 +8024,168 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "The Truth About Tank Privilege",
+    "thumb": "WORLD OF WARCRAFT",
+    "scenes": [
+      {
+        "hook_top": "WOW TANK PRIVILEGE",
+        "query": "World of Warcraft tank",
+        "query2": "WoW gameplay mechanics",
+        "role": "hook",
+        "text": "World of Warcraft's tank privilege affects 10 million players"
+      },
+      {
+        "label": "No Privilege",
+        "query": "World of Warcraft tank privilege",
+        "query2": "WoW community issues",
+        "role": "myth",
+        "text": "Tank privilege doesn't exist in World of Warcraft"
+      },
+      {
+        "label": "Privilege Exists",
+        "query": "World of Warcraft community issues",
+        "query2": "WoW tank privilege controversy",
+        "role": "truth",
+        "text": "Tank privilege is a real issue in World of Warcraft's community"
+      },
+      {
+        "label": "Community First",
+        "sub": "fair gameplay for all",
+        "label_on": "community",
+        "query": "game community issues",
+        "query2": "game development priorities",
+        "role": "callout",
+        "text": "Game developers must address community issues"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "The Truth About Tank Privilege",
+        "query2": "cinematic nature landscape"
+      }
+    ],
+    "description": "Learn about the truth behind World of Warcraft's tank privilege and its impact on the gaming community. Follow us for more gaming insights and analysis.",
+    "hashtags": [
+      "#WorldOfWarcraft",
+      "#TankPrivilege",
+      "#GamingCommunity",
+      "#GameDevelopment",
+      "#FairGameplay",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Why You Don't Own Your Digital Games",
+    "thumb": "DIGITAL GAMES",
+    "scenes": [
+      {
+        "hook_top": "DIGITAL GAME OWNERSHIP",
+        "query": "digital game ownership",
+        "query2": "gaming industry trends",
+        "role": "hook",
+        "text": "60% of gamers don't know they don't own their digital games"
+      },
+      {
+        "label": "Full Ownership",
+        "query": "digital game purchase",
+        "query2": "gaming consumer rights",
+        "role": "myth",
+        "text": "You own your digital games once you buy them"
+      },
+      {
+        "label": "Licensing Only",
+        "query": "digital game licensing",
+        "query2": "gaming industry business models",
+        "role": "truth",
+        "text": "You only license your digital games, you don't truly own them"
+      },
+      {
+        "label": "Read The Fine Print",
+        "sub": "know your gaming rights",
+        "label_on": "terms",
+        "query": "game terms and conditions",
+        "query2": "gaming consumer protection",
+        "role": "callout",
+        "text": "Check your game's terms and conditions"
+      },
+      {
+        "role": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "Why You Don't Own Your Digital Games",
+        "query2": "cinematic nature landscape"
+      }
+    ],
+    "description": "Discover the truth about digital game ownership and what it means for your gaming library. Follow us for more gaming news and updates on digital ownership.",
+    "hashtags": [
+      "#DigitalGameOwnership",
+      "#GamingIndustry",
+      "#ConsumerRights",
+      "#Licensing",
+      "#GamingNews",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "God of War's Inheritance Rule",
+    "thumb": "GOD OF WAR",
+    "scenes": [
+      {
+        "hook_top": "GOD OF WAR INHERITANCE",
+        "query": "God of War Kratos",
+        "query2": "God of War game series",
+        "role": "hook",
+        "text": "God of War's Kratos can be inherited"
+      },
+      {
+        "label": "No Inheritance",
+        "query": "video game account inheritance",
+        "query2": "gaming account ownership",
+        "role": "myth",
+        "text": "You can't inherit video game accounts"
+      },
+      {
+        "label": "Inheritance Allowed",
+        "query": "Chinese court video game inheritance",
+        "query2": "gaming account inheritance laws",
+        "role": "truth",
+        "text": "Chinese court rules video game accounts can be inherited"
+      },
+      {
+        "label": "Digital Ownership",
+        "sub": "check your game's terms",
+        "label_on": "ownership",
+        "query": "digital game ownership",
+        "query2": "gaming account terms",
+        "role": "callout",
+        "text": "Your digital purchases may not be yours to keep"
+      },
+      {
+        "role": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "God of War's Inheritance Rule",
+        "query2": "cinematic nature landscape"
+      }
+    ],
+    "description": "Discover the truth about God of War's inheritance rule and what it means for your digital gaming purchases. Follow us for more gaming news and updates.",
+    "hashtags": [
+      "#GamingNews",
+      "#GodOfWar",
+      "#Inheritance",
+      "#DigitalOwnership",
+      "#GamingLaw",
+      "#Tech",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
   }
 ]
