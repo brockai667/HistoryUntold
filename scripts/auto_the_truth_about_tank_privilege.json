@@ -1,0 +1,54 @@
+{
+  "title": "The Truth About Tank Privilege",
+  "thumb": "WORLD OF WARCRAFT",
+  "scenes": [
+    {
+      "hook_top": "WOW TANK PRIVILEGE",
+      "query": "World of Warcraft tank",
+      "query2": "WoW gameplay mechanics",
+      "role": "hook",
+      "text": "World of Warcraft's tank privilege affects 10 million players"
+    },
+    {
+      "label": "No Privilege",
+      "query": "World of Warcraft tank privilege",
+      "query2": "WoW community issues",
+      "role": "myth",
+      "text": "Tank privilege doesn't exist in World of Warcraft"
+    },
+    {
+      "label": "Privilege Exists",
+      "query": "World of Warcraft community issues",
+      "query2": "WoW tank privilege controversy",
+      "role": "truth",
+      "text": "Tank privilege is a real issue in World of Warcraft's community"
+    },
+    {
+      "label": "Community First",
+      "sub": "fair gameplay for all",
+      "label_on": "community",
+      "query": "game community issues",
+      "query2": "game development priorities",
+      "role": "callout",
+      "text": "Game developers must address community issues"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "The Truth About Tank Privilege",
+      "query2": "cinematic nature landscape"
+    }
+  ],
+  "description": "Learn about the truth behind World of Warcraft's tank privilege and its impact on the gaming community. Follow us for more gaming insights and analysis.",
+  "hashtags": [
+    "#WorldOfWarcraft",
+    "#TankPrivilege",
+    "#GamingCommunity",
+    "#GameDevelopment",
+    "#FairGameplay",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

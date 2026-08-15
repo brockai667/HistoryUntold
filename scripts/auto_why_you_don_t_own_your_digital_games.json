@@ -1,0 +1,54 @@
+{
+  "title": "Why You Don't Own Your Digital Games",
+  "thumb": "DIGITAL GAMES",
+  "scenes": [
+    {
+      "hook_top": "DIGITAL GAME OWNERSHIP",
+      "query": "digital game ownership",
+      "query2": "gaming industry trends",
+      "role": "hook",
+      "text": "60% of gamers don't know they don't own their digital games"
+    },
+    {
+      "label": "Full Ownership",
+      "query": "digital game purchase",
+      "query2": "gaming consumer rights",
+      "role": "myth",
+      "text": "You own your digital games once you buy them"
+    },
+    {
+      "label": "Licensing Only",
+      "query": "digital game licensing",
+      "query2": "gaming industry business models",
+      "role": "truth",
+      "text": "You only license your digital games, you don't truly own them"
+    },
+    {
+      "label": "Read The Fine Print",
+      "sub": "know your gaming rights",
+      "label_on": "terms",
+      "query": "game terms and conditions",
+      "query2": "gaming consumer protection",
+      "role": "callout",
+      "text": "Check your game's terms and conditions"
+    },
+    {
+      "role": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "Why You Don't Own Your Digital Games",
+      "query2": "cinematic nature landscape"
+    }
+  ],
+  "description": "Discover the truth about digital game ownership and what it means for your gaming library. Follow us for more gaming news and updates on digital ownership.",
+  "hashtags": [
+    "#DigitalGameOwnership",
+    "#GamingIndustry",
+    "#ConsumerRights",
+    "#Licensing",
+    "#GamingNews",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

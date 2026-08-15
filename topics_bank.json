@@ -8187,5 +8187,167 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "The Dark Side of Game Ownership",
+    "thumb": "GAMING RIGHTS",
+    "scenes": [
+      {
+        "hook_top": "GAMERS LOSE ACCESS",
+        "query": "gaming ownership statistics",
+        "query2": "video game industry trends",
+        "role": "hook",
+        "text": "1 in 5 gamers lose access"
+      },
+      {
+        "label": "OWN GAMES",
+        "query": "video game ownership laws",
+        "query2": "gaming industry regulations",
+        "role": "myth",
+        "text": "You own the games you buy"
+      },
+      {
+        "label": "LICENSES REVOKED",
+        "query": "game licensing agreements",
+        "query2": "gaming industry contracts",
+        "role": "truth",
+        "text": "Game licenses can be revoked"
+      },
+      {
+        "label": "CHECK EULA",
+        "sub": "End User License Agreement",
+        "label_on": "know your rights",
+        "query": "EULA explained",
+        "query2": "gaming contract terms",
+        "role": "callout",
+        "text": "Check your game's EULA"
+      },
+      {
+        "query": "gaming news and updates",
+        "query2": "video game industry news",
+        "role": "cta",
+        "text": "Follow for daily tech and AI news."
+      }
+    ],
+    "description": "Think you own the games you buy? Think again. Learn about the dark side of game ownership and how it affects you. Follow us for more gaming insights and stay ahead of the game!",
+    "hashtags": [
+      "#gamingrights",
+      "#gameownership",
+      "#gamingindustry",
+      "#videogames",
+      "#gamers",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Secret Life of Old Consoles",
+    "thumb": "RETRO GAMING",
+    "scenes": [
+      {
+        "hook_top": "XBOX TURNS 20",
+        "query": "original Xbox release date",
+        "query2": "Xbox history",
+        "role": "hook",
+        "text": "The original Xbox is 20 years old"
+      },
+      {
+        "label": "OLD CONSOLES",
+        "query": "retro gaming consoles",
+        "query2": "vintage video games",
+        "role": "myth",
+        "text": "Old consoles are useless"
+      },
+      {
+        "label": "CLASSIC GAMES",
+        "query": "classic video games",
+        "query2": "retro gaming libraries",
+        "role": "truth",
+        "text": "They can still play classic games"
+      },
+      {
+        "label": "PLAY CLASSICS",
+        "sub": "Retro gaming is back",
+        "label_on": "get playing",
+        "query": "retro gaming setup",
+        "query2": "classic console gaming",
+        "role": "callout",
+        "text": "Dust off your old console"
+      },
+      {
+        "query": "retro gaming news",
+        "query2": "classic video game updates",
+        "role": "cta",
+        "text": "Follow for daily tech and AI news."
+      }
+    ],
+    "description": "Think old consoles are useless? Think again. Learn about the secret life of old consoles and how you can still play classic games. Follow us for retro gaming content and get ready to nostalgic!",
+    "hashtags": [
+      "#retrogaming",
+      "#classicgames",
+      "#oldconsoles",
+      "#gamingnostalgia",
+      "#videogames",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Crazy Story of Glitches",
+    "thumb": "GLITCHES EXPLAINED",
+    "scenes": [
+      {
+        "hook_top": "FIRST GLITCH 1947",
+        "query": "first computer glitch",
+        "query2": "history of glitches",
+        "role": "hook",
+        "text": "The first glitch was in 1947"
+      },
+      {
+        "label": "GLITCHES ARE BUGS",
+        "query": "glitches vs bugs",
+        "query2": "gaming terminology",
+        "role": "myth",
+        "text": "Glitches are just bugs"
+      },
+      {
+        "label": "GLITCHES CHANGE GAMES",
+        "query": "famous glitches in gaming",
+        "query2": "glitch history",
+        "role": "truth",
+        "text": "Glitches can be game-changers"
+      },
+      {
+        "label": "GLITCH LOVE",
+        "sub": "Glitches can be fun",
+        "label_on": "appreciate the glitch",
+        "query": "glitch art",
+        "query2": "glitch culture",
+        "role": "callout",
+        "text": "Learn to love the glitch"
+      },
+      {
+        "query": "gaming news and updates",
+        "query2": "video game industry news",
+        "role": "cta",
+        "text": "Follow for the future, one byte at a time."
+      }
+    ],
+    "description": "Think glitches are just bugs? Think again. Learn about the crazy story of glitches and how they can change the game. Follow us for more gaming stories and stay ahead of the curve!",
+    "hashtags": [
+      "#glitches",
+      "#gaminghistory",
+      "#glitchart",
+      "#glitchculture",
+      "#videogames",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
   }
 ]
