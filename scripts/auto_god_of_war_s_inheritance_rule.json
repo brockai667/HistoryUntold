@@ -1,0 +1,55 @@
+{
+  "title": "God of War's Inheritance Rule",
+  "thumb": "GOD OF WAR",
+  "scenes": [
+    {
+      "hook_top": "GOD OF WAR INHERITANCE",
+      "query": "God of War Kratos",
+      "query2": "God of War game series",
+      "role": "hook",
+      "text": "God of War's Kratos can be inherited"
+    },
+    {
+      "label": "No Inheritance",
+      "query": "video game account inheritance",
+      "query2": "gaming account ownership",
+      "role": "myth",
+      "text": "You can't inherit video game accounts"
+    },
+    {
+      "label": "Inheritance Allowed",
+      "query": "Chinese court video game inheritance",
+      "query2": "gaming account inheritance laws",
+      "role": "truth",
+      "text": "Chinese court rules video game accounts can be inherited"
+    },
+    {
+      "label": "Digital Ownership",
+      "sub": "check your game's terms",
+      "label_on": "ownership",
+      "query": "digital game ownership",
+      "query2": "gaming account terms",
+      "role": "callout",
+      "text": "Your digital purchases may not be yours to keep"
+    },
+    {
+      "role": "cta",
+      "text": "Follow for daily tech you should actually know.",
+      "query": "God of War's Inheritance Rule",
+      "query2": "cinematic nature landscape"
+    }
+  ],
+  "description": "Discover the truth about God of War's inheritance rule and what it means for your digital gaming purchases. Follow us for more gaming news and updates.",
+  "hashtags": [
+    "#GamingNews",
+    "#GodOfWar",
+    "#Inheritance",
+    "#DigitalOwnership",
+    "#GamingLaw",
+    "#Tech",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

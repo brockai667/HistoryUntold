@@ -1,0 +1,54 @@
+{
+  "title": "The Dark Side of Game Ownership",
+  "thumb": "GAMING RIGHTS",
+  "scenes": [
+    {
+      "hook_top": "GAMERS LOSE ACCESS",
+      "query": "gaming ownership statistics",
+      "query2": "video game industry trends",
+      "role": "hook",
+      "text": "1 in 5 gamers lose access"
+    },
+    {
+      "label": "OWN GAMES",
+      "query": "video game ownership laws",
+      "query2": "gaming industry regulations",
+      "role": "myth",
+      "text": "You own the games you buy"
+    },
+    {
+      "label": "LICENSES REVOKED",
+      "query": "game licensing agreements",
+      "query2": "gaming industry contracts",
+      "role": "truth",
+      "text": "Game licenses can be revoked"
+    },
+    {
+      "label": "CHECK EULA",
+      "sub": "End User License Agreement",
+      "label_on": "know your rights",
+      "query": "EULA explained",
+      "query2": "gaming contract terms",
+      "role": "callout",
+      "text": "Check your game's EULA"
+    },
+    {
+      "query": "gaming news and updates",
+      "query2": "video game industry news",
+      "role": "cta",
+      "text": "Follow for daily tech and AI news."
+    }
+  ],
+  "description": "Think you own the games you buy? Think again. Learn about the dark side of game ownership and how it affects you. Follow us for more gaming insights and stay ahead of the game!",
+  "hashtags": [
+    "#gamingrights",
+    "#gameownership",
+    "#gamingindustry",
+    "#videogames",
+    "#gamers",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}
