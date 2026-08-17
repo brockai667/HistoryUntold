@@ -1,0 +1,54 @@
+{
+  "title": "The Crazy Story of Glitches",
+  "thumb": "GLITCHES EXPLAINED",
+  "scenes": [
+    {
+      "hook_top": "FIRST GLITCH 1947",
+      "query": "first computer glitch",
+      "query2": "history of glitches",
+      "role": "hook",
+      "text": "The first glitch was in 1947"
+    },
+    {
+      "label": "GLITCHES ARE BUGS",
+      "query": "glitches vs bugs",
+      "query2": "gaming terminology",
+      "role": "myth",
+      "text": "Glitches are just bugs"
+    },
+    {
+      "label": "GLITCHES CHANGE GAMES",
+      "query": "famous glitches in gaming",
+      "query2": "glitch history",
+      "role": "truth",
+      "text": "Glitches can be game-changers"
+    },
+    {
+      "label": "GLITCH LOVE",
+      "sub": "Glitches can be fun",
+      "label_on": "appreciate the glitch",
+      "query": "glitch art",
+      "query2": "glitch culture",
+      "role": "callout",
+      "text": "Learn to love the glitch"
+    },
+    {
+      "query": "gaming news and updates",
+      "query2": "video game industry news",
+      "role": "cta",
+      "text": "Follow for the future, one byte at a time."
+    }
+  ],
+  "description": "Think glitches are just bugs? Think again. Learn about the crazy story of glitches and how they can change the game. Follow us for more gaming stories and stay ahead of the curve!",
+  "hashtags": [
+    "#glitches",
+    "#gaminghistory",
+    "#glitchart",
+    "#glitchculture",
+    "#videogames",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}
