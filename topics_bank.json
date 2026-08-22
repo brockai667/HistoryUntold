@@ -8349,5 +8349,501 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "Are All Game Glitches Just Accidents?",
+    "thumb": "GLITCH FACT",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Did the 1996 'MissingNo.' glitch get planned?",
+        "hook_top": "MISSINGNO PLANNED",
+        "query": "MissingNo glitch intentional",
+        "query2": "MissingNo development story",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "The common belief is that every glitch is an unintended mistake.",
+        "label": "All glitches accidental",
+        "query": "game glitches accidental myth",
+        "query2": "glitch accidental belief",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "Some glitches, like Pokémon’s MissingNo. and Skyrim’s “Fus Ro Da” speedrun exploit, were left in on purpose as easter eggs or to aid speedrunners.",
+        "label": "Some glitches intentional",
+        "query": "intentional game glitches easter eggs",
+        "query2": "planned glitches in video games",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Not all bugs are bugs—some are secret features.",
+        "label": "Secret features",
+        "sub": "Designed glitches",
+        "label_on": "secret",
+        "query": "planned glitches video games",
+        "query2": "developer hidden easter eggs",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "gaming myth busting channel",
+        "query2": "gaming secrets shorts",
+        "role": "cta"
+      }
+    ],
+    "description": "Glitches aren’t always mistakes; developers sometimes hide them as easter eggs or speedrun tools. Uncover the truth behind famous “bugs”. Follow for more hidden gaming facts!",
+    "hashtags": [
+      "#gaminghistory",
+      "#shorts",
+      "#fyp",
+      "#glitches",
+      "#mythbusting",
+      "#retrogaming"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Can Classic Consoles Connect to Wi‑Fi Today?",
+    "thumb": "RETRO WIFI",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Did the 1990 Nintendo 64 get Wi‑Fi upgrades?",
+        "hook_top": "N64 WIFI MOD",
+        "query": "Nintendo 64 Wi‑Fi mod",
+        "query2": "retro console Wi‑Fi adapters",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "Many think old consoles like the N64 can’t ever use Wi‑Fi.",
+        "label": "Retro consoles no Wi‑Fi",
+        "query": "retro consoles Wi‑Fi myth",
+        "query2": "N64 Wi‑Fi impossible claim",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "Aftermarket adapters now let consoles such as the N64, Sega Dreamcast and even the original PlayStation connect to modern Wi‑Fi networks for multiplayer and streaming.",
+        "label": "Adapters add Wi‑Fi",
+        "query": "N64 Wi‑Fi adapter product",
+        "query2": "retro console wireless adapters",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Old hardware, new connections.",
+        "label": "Wi‑Fi retrofit",
+        "sub": "Modern adapters work",
+        "label_on": "retro",
+        "query": "retro console Wi‑Fi retrofit",
+        "query2": "gaming console wireless upgrade",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "retro tech short videos",
+        "query2": "tech hacks channel",
+        "role": "cta"
+      }
+    ],
+    "description": "Think your favorite 90s console is stuck offline? Modern adapters bring Wi‑Fi to classic systems. Follow for more retro tech hacks!",
+    "hashtags": [
+      "#retrotech",
+      "#shorts",
+      "#fyp",
+      "#gaming",
+      "#wifi",
+      "#techhacks"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Why Dreamcast’s 1 GB GD‑ROM Was a Game‑Changer",
+    "thumb": "DREAMCAST GD‑ROM",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "The 1999 Dreamcast used a 1 GB GD‑ROM, 40% larger than a standard CD",
+        "hook_top": "DREAMCAST 1GB GDROM",
+        "query": "Dreamcast 1GB GD-ROM capacity",
+        "query2": "Dreamcast GD-ROM size 1999",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "A GD‑ROM could hold up to 1 GB of data, compared to the 700 MB limit of CD‑ROMs",
+        "chips": [
+          {
+            "t": "1 GB vs 700 MB",
+            "on": "capacity",
+            "style": "white"
+          }
+        ],
+        "punch": "size",
+        "query": "GD-ROM capacity vs CD-ROM",
+        "query2": "Dreamcast disc size comparison",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Sega marketed the extra space for full‑motion video and richer textures in games like Shenmue",
+        "chips": [
+          {
+            "t": "Shenmue video",
+            "on": "Shenmue",
+            "style": "accent"
+          }
+        ],
+        "query": "Shenmue Dreamcast GD-ROM video",
+        "query2": "Dreamcast games using GD-ROM space",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "Despite the advantage, the GD‑ROM was dropped because manufacturing costs were too high, not because of low sales",
+        "reveal_top": "COST NOT SALES",
+        "query": "Dreamcast GD-ROM cost reasons",
+        "query2": "why GD-ROM discontinued",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "follow retro tech shorts",
+        "query2": "subscribe retro gaming",
+        "role": "cta"
+      }
+    ],
+    "description": "Dreamcast’s 1 GB GD‑ROM promised bigger games, but high production costs sealed its fate. Learn the hidden economics behind the console’s bold move. Follow for more retro tech!",
+    "hashtags": [
+      "#shorts",
+      "#retrotech",
+      "#dreamcast",
+      "#gdrom",
+      "#gaminghistory",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The 2004 ‘Hot Coffee’ Mod That Turned GTA : San Andreas Adult",
+    "thumb": "HOT COFFEE MOD",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "In 2004, a mod unlocked a hidden adult scene inside GTA : San Andreas",
+        "hook_top": "2004 HOT COFFEE MOD",
+        "query": "2004 Hot Coffee mod GTA San Andreas",
+        "query2": "GTA San Andreas hidden adult scene 2004",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The mod accessed a disabled game file that contained a fully animated sexual mini‑game",
+        "chips": [
+          {
+            "t": "disabled file",
+            "on": "file",
+            "style": "white"
+          }
+        ],
+        "punch": "unlock",
+        "query": "GTA San Andreas disabled sexual mini-game file",
+        "query2": "Hot Coffee hidden content file",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Rockstar originally coded the scene for a planned adult version of the game, but removed it to meet rating standards",
+        "chips": [
+          {
+            "t": "rating standards",
+            "on": "rating",
+            "style": "accent"
+          }
+        ],
+        "query": "Rockstar adult version San Andreas cancelled",
+        "query2": "why Hot Coffee removed",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "The “mod” wasn’t a community hack—it simply re‑enabled content already inside the shipped disc",
+        "reveal_top": "RE‑ENABLED CONTENT",
+        "query": "Hot Coffee re-enabled content",
+        "query2": "mod reactivated hidden files",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "follow hack shorts",
+        "query2": "subscribe tech hacks",
+        "role": "cta"
+      }
+    ],
+    "description": "The infamous Hot Coffee controversy stemmed from hidden data already on the GTA : San Andreas disc. Uncover the real story behind the scandal. Follow for more shocking tech hacks!",
+    "hashtags": [
+      "#shorts",
+      "#gaminghistory",
+      "#gta",
+      "#hotcoffee",
+      "#hack",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Why the Atari 2600 Still Powers Retro Gaming Nights",
+    "thumb": "ATARI LEGEND",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Atari sold over 30 million consoles in the 80s – why it still matters today",
+        "hook_top": "ATARI'S 30M LEGACY",
+        "query": "Atari 2600 sales 30 million",
+        "query2": "Atari 2600 popularity 1980s",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "Its 6507 processor runs at 1.19 MHz, enough to render 192 × 240 pixel games.",
+        "chips": [
+          {
+            "t": "6507 CPU",
+            "on": "processor",
+            "style": "white"
+          },
+          {
+            "t": "1.19 MHz",
+            "on": "speed",
+            "style": "accent"
+          }
+        ],
+        "punch": "speed",
+        "query": "Atari 2600 6507 1.19MHz specs",
+        "query2": "Atari 2600 hardware details",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "The console’s cartridge pins use a simple parallel interface, making it easy to mod.",
+        "chips": [
+          {
+            "t": "cartridge pins",
+            "on": "modding",
+            "style": "white"
+          }
+        ],
+        "query": "Atari 2600 cartridge pin layout",
+        "query2": "how Atari cartridges work",
+        "role": "fact"
+      },
+      {
+        "type": "callout",
+        "text": "Legacy hardware = endless DIY hacks.",
+        "label": "DIY LEGACY",
+        "sub": "Turn old consoles into modern streaming machines.",
+        "label_on": "legacy",
+        "query": "Atari 2600 DIY hack streaming",
+        "query2": "retro console mod projects",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "follow retro tech channel",
+        "query2": "subscribe retro gaming",
+        "role": "cta"
+      }
+    ],
+    "description": "Explore the hardware that made the Atari 2600 a timeless classic and how enthusiasts keep it alive today. Join the retro revival!",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#retro",
+      "#gaminghistory",
+      "#Atari",
+      "#tech",
+      "#DIY"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Hidden Bug That Saved Civilization: The 1962 'Apollo Guidance' Glitch",
+    "thumb": "GLITCH SAVED US",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "A single software error in 1962 almost derailed the Moon race",
+        "hook_top": "1962 GLITCH ALERT",
+        "query": "1962 Apollo guidance software bug",
+        "query2": "Apollo program software error 1962",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The IBM-built computer used 15‑bit words, limiting numeric range to 32,767.",
+        "chips": [
+          {
+            "t": "15‑bit word",
+            "on": "word size",
+            "style": "white"
+          },
+          {
+            "t": "32,767",
+            "on": "max value",
+            "style": "accent"
+          }
+        ],
+        "punch": "limit",
+        "query": "Apollo guidance computer 15-bit word",
+        "query2": "AGC numeric range",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Engineers added a simple overflow check that prevented a fatal navigation crash.",
+        "chips": [
+          {
+            "t": "overflow check",
+            "on": "fix",
+            "style": "white"
+          }
+        ],
+        "query": "Apollo overflow fix navigation",
+        "query2": "Apollo guidance bug solution",
+        "role": "fact"
+      },
+      {
+        "type": "callout",
+        "text": "Small code fixes can change history.",
+        "label": "CODE CAN SAVE",
+        "sub": "Never underestimate a tiny patch.",
+        "label_on": "code",
+        "query": "importance of software patches history",
+        "query2": "software bug fixes impact",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "follow tech history channel",
+        "query2": "subscribe tech shorts",
+        "role": "cta"
+      }
+    ],
+    "description": "Discover the overlooked software glitch that almost cost the Apollo missions and how a quick patch averted disaster. History hidden in code!",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#history",
+      "#Apollo",
+      "#bug",
+      "#tech",
+      "#space"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "How the First Wi‑Fi Router Turned a Coffee Shop Into a Network Hub",
+    "thumb": "COFFEE WIFI",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "In 1999 a coffee shop in San Francisco hosted the first public Wi‑Fi hotspot",
+        "hook_top": "1999 WIFI HUB",
+        "query": "first public Wi‑Fi hotspot 1999 coffee shop",
+        "query2": "1999 San Francisco Wi‑Fi history",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The 802.11b standard offered 11 Mbps and used the 2.4 GHz ISM band.",
+        "chips": [
+          {
+            "t": "802.11b",
+            "on": "standard",
+            "style": "white"
+          },
+          {
+            "t": "11 Mbps",
+            "on": "speed",
+            "style": "accent"
+          }
+        ],
+        "punch": "speed",
+        "query": "802.11b 11Mbps 2.4GHz specs",
+        "query2": "1999 Wi‑Fi technical specs",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "The router used a simple antenna made from a copper pipe, extending range to the whole block.",
+        "chips": [
+          {
+            "t": "copper pipe antenna",
+            "on": "antenna",
+            "style": "white"
+          }
+        ],
+        "query": "copper pipe Wi‑Fi antenna early router",
+        "query2": "DIY Wi‑Fi antenna 1999",
+        "role": "fact"
+      },
+      {
+        "type": "callout",
+        "text": "Every modern hotspot started here.",
+        "label": "ROOT OF WIFI",
+        "sub": "From coffee shop to global connectivity.",
+        "label_on": "root",
+        "query": "origin of public Wi‑Fi hotspots",
+        "query2": "history of Wi‑Fi public access",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "follow tech everyday channel",
+        "query2": "subscribe Wi‑Fi shorts",
+        "role": "cta"
+      }
+    ],
+    "description": "A look at the humble beginnings of public Wi‑Fi and the simple tech that made a café the first network hub. The story behind our daily connections.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#WiFi",
+      "#techhistory",
+      "#everydaytech",
+      "#network",
+      "#retro"
+    ],
+    "place": "",
+    "country": ""
   }
 ]

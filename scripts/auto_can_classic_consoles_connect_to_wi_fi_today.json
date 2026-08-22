@@ -1,0 +1,61 @@
+{
+  "title": "Can Classic Consoles Connect to Wi‑Fi Today?",
+  "thumb": "RETRO WIFI",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Did the 1990 Nintendo 64 get Wi‑Fi upgrades?",
+      "hook_top": "N64 WIFI MOD",
+      "query": "Nintendo 64 Wi‑Fi mod",
+      "query2": "retro console Wi‑Fi adapters",
+      "role": "hook"
+    },
+    {
+      "type": "myth",
+      "text": "Many think old consoles like the N64 can’t ever use Wi‑Fi.",
+      "label": "Retro consoles no Wi‑Fi",
+      "query": "retro consoles Wi‑Fi myth",
+      "query2": "N64 Wi‑Fi impossible claim",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "truth",
+      "text": "Aftermarket adapters now let consoles such as the N64, Sega Dreamcast and even the original PlayStation connect to modern Wi‑Fi networks for multiplayer and streaming.",
+      "label": "Adapters add Wi‑Fi",
+      "query": "N64 Wi‑Fi adapter product",
+      "query2": "retro console wireless adapters",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "Old hardware, new connections.",
+      "label": "Wi‑Fi retrofit",
+      "sub": "Modern adapters work",
+      "label_on": "retro",
+      "query": "retro console Wi‑Fi retrofit",
+      "query2": "gaming console wireless upgrade",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "retro tech short videos",
+      "query2": "tech hacks channel",
+      "role": "cta"
+    }
+  ],
+  "description": "Think your favorite 90s console is stuck offline? Modern adapters bring Wi‑Fi to classic systems. Follow for more retro tech hacks!",
+  "hashtags": [
+    "#retrotech",
+    "#shorts",
+    "#fyp",
+    "#gaming",
+    "#wifi",
+    "#techhacks"
+  ],
+  "place": "",
+  "country": ""
+}

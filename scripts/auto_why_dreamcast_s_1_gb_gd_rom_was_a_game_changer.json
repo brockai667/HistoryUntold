@@ -1,0 +1,70 @@
+{
+  "title": "Why Dreamcast’s 1 GB GD‑ROM Was a Game‑Changer",
+  "thumb": "DREAMCAST GD‑ROM",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "The 1999 Dreamcast used a 1 GB GD‑ROM, 40% larger than a standard CD",
+      "hook_top": "DREAMCAST 1GB GDROM",
+      "query": "Dreamcast 1GB GD-ROM capacity",
+      "query2": "Dreamcast GD-ROM size 1999",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "A GD‑ROM could hold up to 1 GB of data, compared to the 700 MB limit of CD‑ROMs",
+      "chips": [
+        {
+          "t": "1 GB vs 700 MB",
+          "on": "capacity",
+          "style": "white"
+        }
+      ],
+      "punch": "size",
+      "query": "GD-ROM capacity vs CD-ROM",
+      "query2": "Dreamcast disc size comparison",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Sega marketed the extra space for full‑motion video and richer textures in games like Shenmue",
+      "chips": [
+        {
+          "t": "Shenmue video",
+          "on": "Shenmue",
+          "style": "accent"
+        }
+      ],
+      "query": "Shenmue Dreamcast GD-ROM video",
+      "query2": "Dreamcast games using GD-ROM space",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "Despite the advantage, the GD‑ROM was dropped because manufacturing costs were too high, not because of low sales",
+      "reveal_top": "COST NOT SALES",
+      "query": "Dreamcast GD-ROM cost reasons",
+      "query2": "why GD-ROM discontinued",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "follow retro tech shorts",
+      "query2": "subscribe retro gaming",
+      "role": "cta"
+    }
+  ],
+  "description": "Dreamcast’s 1 GB GD‑ROM promised bigger games, but high production costs sealed its fate. Learn the hidden economics behind the console’s bold move. Follow for more retro tech!",
+  "hashtags": [
+    "#shorts",
+    "#retrotech",
+    "#dreamcast",
+    "#gdrom",
+    "#gaminghistory",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

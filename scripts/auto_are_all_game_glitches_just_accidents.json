@@ -1,0 +1,61 @@
+{
+  "title": "Are All Game Glitches Just Accidents?",
+  "thumb": "GLITCH FACT",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Did the 1996 'MissingNo.' glitch get planned?",
+      "hook_top": "MISSINGNO PLANNED",
+      "query": "MissingNo glitch intentional",
+      "query2": "MissingNo development story",
+      "role": "hook"
+    },
+    {
+      "type": "myth",
+      "text": "The common belief is that every glitch is an unintended mistake.",
+      "label": "All glitches accidental",
+      "query": "game glitches accidental myth",
+      "query2": "glitch accidental belief",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "truth",
+      "text": "Some glitches, like Pokémon’s MissingNo. and Skyrim’s “Fus Ro Da” speedrun exploit, were left in on purpose as easter eggs or to aid speedrunners.",
+      "label": "Some glitches intentional",
+      "query": "intentional game glitches easter eggs",
+      "query2": "planned glitches in video games",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "Not all bugs are bugs—some are secret features.",
+      "label": "Secret features",
+      "sub": "Designed glitches",
+      "label_on": "secret",
+      "query": "planned glitches video games",
+      "query2": "developer hidden easter eggs",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "gaming myth busting channel",
+      "query2": "gaming secrets shorts",
+      "role": "cta"
+    }
+  ],
+  "description": "Glitches aren’t always mistakes; developers sometimes hide them as easter eggs or speedrun tools. Uncover the truth behind famous “bugs”. Follow for more hidden gaming facts!",
+  "hashtags": [
+    "#gaminghistory",
+    "#shorts",
+    "#fyp",
+    "#glitches",
+    "#mythbusting",
+    "#retrogaming"
+  ],
+  "place": "",
+  "country": ""
+}
