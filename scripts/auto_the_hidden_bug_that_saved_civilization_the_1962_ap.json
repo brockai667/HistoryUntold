@@ -1,0 +1,78 @@
+{
+  "title": "The Hidden Bug That Saved Civilization: The 1962 'Apollo Guidance' Glitch",
+  "thumb": "GLITCH SAVED US",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "A single software error in 1962 almost derailed the Moon race",
+      "hook_top": "1962 GLITCH ALERT",
+      "query": "1962 Apollo guidance software bug",
+      "query2": "Apollo program software error 1962",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The IBM-built computer used 15‑bit words, limiting numeric range to 32,767.",
+      "chips": [
+        {
+          "t": "15‑bit word",
+          "on": "word size",
+          "style": "white"
+        },
+        {
+          "t": "32,767",
+          "on": "max value",
+          "style": "accent"
+        }
+      ],
+      "punch": "limit",
+      "query": "Apollo guidance computer 15-bit word",
+      "query2": "AGC numeric range",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Engineers added a simple overflow check that prevented a fatal navigation crash.",
+      "chips": [
+        {
+          "t": "overflow check",
+          "on": "fix",
+          "style": "white"
+        }
+      ],
+      "query": "Apollo overflow fix navigation",
+      "query2": "Apollo guidance bug solution",
+      "role": "fact"
+    },
+    {
+      "type": "callout",
+      "text": "Small code fixes can change history.",
+      "label": "CODE CAN SAVE",
+      "sub": "Never underestimate a tiny patch.",
+      "label_on": "code",
+      "query": "importance of software patches history",
+      "query2": "software bug fixes impact",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "follow tech history channel",
+      "query2": "subscribe tech shorts",
+      "role": "cta"
+    }
+  ],
+  "description": "Discover the overlooked software glitch that almost cost the Apollo missions and how a quick patch averted disaster. History hidden in code!",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#history",
+    "#Apollo",
+    "#bug",
+    "#tech",
+    "#space"
+  ],
+  "place": "",
+  "country": ""
+}

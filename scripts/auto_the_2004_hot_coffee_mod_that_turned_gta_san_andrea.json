@@ -1,0 +1,70 @@
+{
+  "title": "The 2004 ‘Hot Coffee’ Mod That Turned GTA : San Andreas Adult",
+  "thumb": "HOT COFFEE MOD",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "In 2004, a mod unlocked a hidden adult scene inside GTA : San Andreas",
+      "hook_top": "2004 HOT COFFEE MOD",
+      "query": "2004 Hot Coffee mod GTA San Andreas",
+      "query2": "GTA San Andreas hidden adult scene 2004",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The mod accessed a disabled game file that contained a fully animated sexual mini‑game",
+      "chips": [
+        {
+          "t": "disabled file",
+          "on": "file",
+          "style": "white"
+        }
+      ],
+      "punch": "unlock",
+      "query": "GTA San Andreas disabled sexual mini-game file",
+      "query2": "Hot Coffee hidden content file",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Rockstar originally coded the scene for a planned adult version of the game, but removed it to meet rating standards",
+      "chips": [
+        {
+          "t": "rating standards",
+          "on": "rating",
+          "style": "accent"
+        }
+      ],
+      "query": "Rockstar adult version San Andreas cancelled",
+      "query2": "why Hot Coffee removed",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "The “mod” wasn’t a community hack—it simply re‑enabled content already inside the shipped disc",
+      "reveal_top": "RE‑ENABLED CONTENT",
+      "query": "Hot Coffee re-enabled content",
+      "query2": "mod reactivated hidden files",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "follow hack shorts",
+      "query2": "subscribe tech hacks",
+      "role": "cta"
+    }
+  ],
+  "description": "The infamous Hot Coffee controversy stemmed from hidden data already on the GTA : San Andreas disc. Uncover the real story behind the scandal. Follow for more shocking tech hacks!",
+  "hashtags": [
+    "#shorts",
+    "#gaminghistory",
+    "#gta",
+    "#hotcoffee",
+    "#hack",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

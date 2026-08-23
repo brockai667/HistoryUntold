@@ -1,0 +1,78 @@
+{
+  "title": "Why the Atari 2600 Still Powers Retro Gaming Nights",
+  "thumb": "ATARI LEGEND",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Atari sold over 30 million consoles in the 80s – why it still matters today",
+      "hook_top": "ATARI'S 30M LEGACY",
+      "query": "Atari 2600 sales 30 million",
+      "query2": "Atari 2600 popularity 1980s",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "Its 6507 processor runs at 1.19 MHz, enough to render 192 × 240 pixel games.",
+      "chips": [
+        {
+          "t": "6507 CPU",
+          "on": "processor",
+          "style": "white"
+        },
+        {
+          "t": "1.19 MHz",
+          "on": "speed",
+          "style": "accent"
+        }
+      ],
+      "punch": "speed",
+      "query": "Atari 2600 6507 1.19MHz specs",
+      "query2": "Atari 2600 hardware details",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "The console’s cartridge pins use a simple parallel interface, making it easy to mod.",
+      "chips": [
+        {
+          "t": "cartridge pins",
+          "on": "modding",
+          "style": "white"
+        }
+      ],
+      "query": "Atari 2600 cartridge pin layout",
+      "query2": "how Atari cartridges work",
+      "role": "fact"
+    },
+    {
+      "type": "callout",
+      "text": "Legacy hardware = endless DIY hacks.",
+      "label": "DIY LEGACY",
+      "sub": "Turn old consoles into modern streaming machines.",
+      "label_on": "legacy",
+      "query": "Atari 2600 DIY hack streaming",
+      "query2": "retro console mod projects",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "follow retro tech channel",
+      "query2": "subscribe retro gaming",
+      "role": "cta"
+    }
+  ],
+  "description": "Explore the hardware that made the Atari 2600 a timeless classic and how enthusiasts keep it alive today. Join the retro revival!",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#retro",
+    "#gaminghistory",
+    "#Atari",
+    "#tech",
+    "#DIY"
+  ],
+  "place": "",
+  "country": ""
+}
