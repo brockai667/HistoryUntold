@@ -1,0 +1,78 @@
+{
+  "title": "How the First Wi‑Fi Router Turned a Coffee Shop Into a Network Hub",
+  "thumb": "COFFEE WIFI",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "In 1999 a coffee shop in San Francisco hosted the first public Wi‑Fi hotspot",
+      "hook_top": "1999 WIFI HUB",
+      "query": "first public Wi‑Fi hotspot 1999 coffee shop",
+      "query2": "1999 San Francisco Wi‑Fi history",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The 802.11b standard offered 11 Mbps and used the 2.4 GHz ISM band.",
+      "chips": [
+        {
+          "t": "802.11b",
+          "on": "standard",
+          "style": "white"
+        },
+        {
+          "t": "11 Mbps",
+          "on": "speed",
+          "style": "accent"
+        }
+      ],
+      "punch": "speed",
+      "query": "802.11b 11Mbps 2.4GHz specs",
+      "query2": "1999 Wi‑Fi technical specs",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "The router used a simple antenna made from a copper pipe, extending range to the whole block.",
+      "chips": [
+        {
+          "t": "copper pipe antenna",
+          "on": "antenna",
+          "style": "white"
+        }
+      ],
+      "query": "copper pipe Wi‑Fi antenna early router",
+      "query2": "DIY Wi‑Fi antenna 1999",
+      "role": "fact"
+    },
+    {
+      "type": "callout",
+      "text": "Every modern hotspot started here.",
+      "label": "ROOT OF WIFI",
+      "sub": "From coffee shop to global connectivity.",
+      "label_on": "root",
+      "query": "origin of public Wi‑Fi hotspots",
+      "query2": "history of Wi‑Fi public access",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech you should actually know.",
+      "query": "follow tech everyday channel",
+      "query2": "subscribe Wi‑Fi shorts",
+      "role": "cta"
+    }
+  ],
+  "description": "A look at the humble beginnings of public Wi‑Fi and the simple tech that made a café the first network hub. The story behind our daily connections.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#WiFi",
+    "#techhistory",
+    "#everydaytech",
+    "#network",
+    "#retro"
+  ],
+  "place": "",
+  "country": ""
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Can the PS5 Still Play Every Classic?",
+  "thumb": "PS5 BACKWARD",
+  "scenes": [
+    {
+      "hook_top": "PS5 PLAYLIST",
+      "query": "PS5 backward compatibility PS3",
+      "query2": "PS5 PS3 game list",
+      "role": "hook",
+      "text": "Sony says PS5 will play every PS3 title."
+    },
+    {
+      "label": "All Games Work",
+      "query": "PS5 backward compatible list",
+      "query2": "PS5 retro games",
+      "role": "myth",
+      "text": "All old games run on the PS5."
+    },
+    {
+      "label": "Limited Support",
+      "query": "PS5 PS3 compatibility list",
+      "query2": "PS5 game re‑engineered",
+      "role": "truth",
+      "text": "Only about 30% of PS3 titles are officially supported, and many need re‑engineered code."
+    },
+    {
+      "label": "Not All",
+      "sub": "30% support rate",
+      "label_on": "Not All",
+      "query": "PS5 compatibility chart",
+      "query2": "PS3 games PS5",
+      "role": "callout",
+      "text": "Not every classic makes the cut."
+    },
+    {
+      "query": "gaming tech updates",
+      "query2": "PS5 news",
+      "role": "cta",
+      "text": "Follow for daily tech and AI news."
+    }
+  ],
+  "description": "Sony claims the PS5 can play every PS3 game. The reality? Only a fraction are truly compatible. Stay tuned for more console truth bites!",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#gaminghistory",
+    "#PS5",
+    "#consolemyth",
+    "#techfacts"
+  ],
+  "place": "",
+  "country": ""
+}

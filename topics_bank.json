@@ -9004,5 +9004,212 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "Did the Atari 2600 Really Invent the First Game Glitch?",
+    "thumb": "ATARI GLITCH",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "1977 Atari 2600 cartridges hid a secret bug that crashed games worldwide",
+        "hook_top": "ATARI 1977 GLITCH",
+        "query": "Atari 2600 game crash bug 1977",
+        "query2": "Atari 2600 cartridge glitch",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "Many gamers believe the first ever video‑game glitch was a modern console graphics error.",
+        "label": "First glitch was modern",
+        "query": "first video game glitch myth",
+        "query2": "common belief video game glitch history",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "The real first documented bug was a 1952 relay error in the Harvard Mark II computer, not a 1970s console.",
+        "label": "First bug: Harvard Mark II",
+        "query": "Harvard Mark II relay bug 1952",
+        "query2": "first computer bug Harvard Mark II",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Old myths linger—history matters!",
+        "label": "Myth vs Fact",
+        "sub": "Early computers had real bugs before games.",
+        "label_on": "History",
+        "query": "computer bug history early",
+        "query2": "first computer glitch",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "follow tech myth busting",
+        "query2": "subscribe tech history",
+        "role": "cta"
+      }
+    ],
+    "description": "We debunk the idea that Atari introduced the first glitch and reveal the true origin of the term “bug.” Stay tuned for more surprising tech truths. #shorts #fyp #gaminghistory #retrotech #techmyths #computing #history",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#gaminghistory",
+      "#retrotech",
+      "#techmyths",
+      "#computing",
+      "#history"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The 1998 Half‑Life Glitch That Changed Multiplayer Forever",
+    "thumb": "GLITCH LEGEND",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Half‑Life’s 1998 “Ravenholm” glitch still haunts gamers today",
+        "hook_top": "RAVENHOLM GLITCH LEGEND",
+        "query": "Half-Life Ravenholm glitch 1998",
+        "query2": "Half-Life secret glitch",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "A missing collision box let players walk through walls and trigger endless enemy spawns",
+        "chips": [
+          {
+            "t": "Missing collision",
+            "on": "collision",
+            "style": "white"
+          },
+          {
+            "t": "1998",
+            "on": "year",
+            "style": "accent"
+          }
+        ],
+        "punch": "walkthrough",
+        "query": "Half-Life missing collision box Ravenholm",
+        "query2": "Half-Life wall glitch",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Valve patched it in the 1.1.1.2 update, but modders kept it alive for custom maps",
+        "chips": [
+          {
+            "t": "Patch 1.1.1.2",
+            "on": "patch",
+            "style": "white"
+          },
+          {
+            "t": "modders",
+            "on": "mods",
+            "style": "accent"
+          }
+        ],
+        "query": "Half-Life patch 1.1.1.2 Ravenholm",
+        "query2": "Half-Life glitch mod community",
+        "role": "fact"
+      },
+      {
+        "type": "callout",
+        "text": "That bug sparked modern map‑making tricks used in today’s shooters",
+        "label": "GLITCH LEGACY",
+        "sub": "From a wall glitch to map design fundamentals",
+        "label_on": "legacy",
+        "query": "Half-Life glitch influence modern shooters",
+        "query2": "game design wall glitch history",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "gaming hidden moments channel",
+        "query2": "gaming history short videos",
+        "role": "cta"
+      }
+    ],
+    "description": "Discover how a simple collision error in Half‑Life’s 1998 release reshaped multiplayer map design. Stay tuned for more retro gaming secrets.",
+    "hashtags": [
+      "#gaminghistory",
+      "#shorts",
+      "#fyp",
+      "#halflife",
+      "#glitch",
+      "#retro",
+      "#gamedev"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Why the Original GameCube Couldn’t Play DVDs—The Real Reason",
+    "thumb": "GAMECUBE DVD",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "2001 Nintendo GameCube shipped without DVD playback despite a built‑in disc drive",
+        "hook_top": "GAMECUBE DVD LIMIT",
+        "query": "Nintendo GameCube DVD playback limitation 2001",
+        "query2": "GameCube disc drive cannot play DVDs",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "Fans think Nintendo omitted DVD support to cut costs on hardware.",
+        "label": "Cost‑cut DVD omission",
+        "query": "Nintendo GameCube DVD cost cut myth",
+        "query2": "why GameCube no DVD myth",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "Nintendo chose a proprietary Mini‑DVD format to avoid licensing fees and to keep the console’s size compact.",
+        "label": "Mini‑DVD for licensing",
+        "query": "Nintendo Mini DVD licensing decision GameCube",
+        "query2": "GameCube proprietary disc format reason",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Design choices, not just price tags!",
+        "label": "Design Over Cost",
+        "sub": "Mini‑DVDs saved space and fees.",
+        "label_on": "Design",
+        "query": "GameCube design decisions MiniDVD",
+        "query2": "Nintendo console design reasons",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "follow retro tech channel",
+        "query2": "subscribe gaming tech",
+        "role": "cta"
+      }
+    ],
+    "description": "Uncover why Nintendo’s 2001 GameCube used Mini‑DVDs and how that shaped its library. More hidden tech stories await. #shorts #fyp #retrotech #gaminghistory #techmyths #Nintendo #GameCube",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#retrotech",
+      "#gaminghistory",
+      "#techmyths",
+      "#Nintendo",
+      "#GameCube"
+    ],
+    "place": "",
+    "country": ""
   }
 ]

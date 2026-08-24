@@ -1,0 +1,53 @@
+{
+  "title": "Did the NES Really Use 8‑bit Chips?",
+  "thumb": "8‑BIT MYTH",
+  "scenes": [
+    {
+      "hook_top": "8BIT CONFUSION",
+      "query": "Nintendo Entertainment System 6502 CPU",
+      "query2": "NES 8-bit processor",
+      "role": "hook",
+      "text": "The NES was built on 8‑bit technology, right?"
+    },
+    {
+      "label": "NES 8‑bit",
+      "query": "NES 6502 8‑bit chip",
+      "query2": "NES processor architecture",
+      "role": "myth",
+      "text": "Everyone thinks the NES ran on an 8‑bit chip."
+    },
+    {
+      "label": "6502 + Extras",
+      "query": "Ricoh 2A03 custom hardware",
+      "query2": "NES sound and graphics chips",
+      "role": "truth",
+      "text": "The NES actually used the MOS 6502, a 8‑bit CPU, but its custom Ricoh 2A03 added 6‑bit sound and 9‑bit graphics counters."
+    },
+    {
+      "label": "Beyond 8‑bit",
+      "sub": "CPU + custom chips",
+      "label_on": "Beyond",
+      "query": "NES custom audio chip",
+      "query2": "NES graphics hardware",
+      "role": "callout",
+      "text": "So the NES had more than just a plain 8‑bit brain."
+    },
+    {
+      "query": "retro tech documentary",
+      "query2": "gaming history shorts",
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve."
+    }
+  ],
+  "description": "Think the NES was just an 8‑bit console? Think again. Discover the hidden layers of its architecture. Follow for more retro tech myths busted!",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#gaminghistory",
+    "#retrotech",
+    "#techmyths",
+    "#Nintendo"
+  ],
+  "place": "",
+  "country": ""
+}
