@@ -1,0 +1,62 @@
+{
+  "title": "Did the Atari 2600 Really Invent the First Game Glitch?",
+  "thumb": "ATARI GLITCH",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "1977 Atari 2600 cartridges hid a secret bug that crashed games worldwide",
+      "hook_top": "ATARI 1977 GLITCH",
+      "query": "Atari 2600 game crash bug 1977",
+      "query2": "Atari 2600 cartridge glitch",
+      "role": "hook"
+    },
+    {
+      "type": "myth",
+      "text": "Many gamers believe the first ever video‑game glitch was a modern console graphics error.",
+      "label": "First glitch was modern",
+      "query": "first video game glitch myth",
+      "query2": "common belief video game glitch history",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "truth",
+      "text": "The real first documented bug was a 1952 relay error in the Harvard Mark II computer, not a 1970s console.",
+      "label": "First bug: Harvard Mark II",
+      "query": "Harvard Mark II relay bug 1952",
+      "query2": "first computer bug Harvard Mark II",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "Old myths linger—history matters!",
+      "label": "Myth vs Fact",
+      "sub": "Early computers had real bugs before games.",
+      "label_on": "History",
+      "query": "computer bug history early",
+      "query2": "first computer glitch",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "follow tech myth busting",
+      "query2": "subscribe tech history",
+      "role": "cta"
+    }
+  ],
+  "description": "We debunk the idea that Atari introduced the first glitch and reveal the true origin of the term “bug.” Stay tuned for more surprising tech truths. #shorts #fyp #gaminghistory #retrotech #techmyths #computing #history",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#gaminghistory",
+    "#retrotech",
+    "#techmyths",
+    "#computing",
+    "#history"
+  ],
+  "place": "",
+  "country": ""
+}

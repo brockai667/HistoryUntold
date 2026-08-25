@@ -1,0 +1,83 @@
+{
+  "title": "The 1998 Half‑Life Glitch That Changed Multiplayer Forever",
+  "thumb": "GLITCH LEGEND",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Half‑Life’s 1998 “Ravenholm” glitch still haunts gamers today",
+      "hook_top": "RAVENHOLM GLITCH LEGEND",
+      "query": "Half-Life Ravenholm glitch 1998",
+      "query2": "Half-Life secret glitch",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "A missing collision box let players walk through walls and trigger endless enemy spawns",
+      "chips": [
+        {
+          "t": "Missing collision",
+          "on": "collision",
+          "style": "white"
+        },
+        {
+          "t": "1998",
+          "on": "year",
+          "style": "accent"
+        }
+      ],
+      "punch": "walkthrough",
+      "query": "Half-Life missing collision box Ravenholm",
+      "query2": "Half-Life wall glitch",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Valve patched it in the 1.1.1.2 update, but modders kept it alive for custom maps",
+      "chips": [
+        {
+          "t": "Patch 1.1.1.2",
+          "on": "patch",
+          "style": "white"
+        },
+        {
+          "t": "modders",
+          "on": "mods",
+          "style": "accent"
+        }
+      ],
+      "query": "Half-Life patch 1.1.1.2 Ravenholm",
+      "query2": "Half-Life glitch mod community",
+      "role": "fact"
+    },
+    {
+      "type": "callout",
+      "text": "That bug sparked modern map‑making tricks used in today’s shooters",
+      "label": "GLITCH LEGACY",
+      "sub": "From a wall glitch to map design fundamentals",
+      "label_on": "legacy",
+      "query": "Half-Life glitch influence modern shooters",
+      "query2": "game design wall glitch history",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "gaming hidden moments channel",
+      "query2": "gaming history short videos",
+      "role": "cta"
+    }
+  ],
+  "description": "Discover how a simple collision error in Half‑Life’s 1998 release reshaped multiplayer map design. Stay tuned for more retro gaming secrets.",
+  "hashtags": [
+    "#gaminghistory",
+    "#shorts",
+    "#fyp",
+    "#halflife",
+    "#glitch",
+    "#retro",
+    "#gamedev"
+  ],
+  "place": "",
+  "country": ""
+}

@@ -9151,6 +9151,202 @@
     "country": ""
   },
   {
+    "title": "Why the 1998 Nintendo 64 Cartridge Was Not a 'Hard‑Drive'?",
+    "thumb": "N64 CARTRIDGE FACT",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "The Nintendo 64 used 64 MB cartridges for its biggest titles.",
+        "hook_top": "N64 64MB CARTRIDGES",
+        "query": "Nintendo 64 cartridge size 64 MB",
+        "query2": "N64 largest cartridge capacity",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "People often say those cartridges functioned like tiny hard‑drives.",
+        "label": "Cartridge = hard‑drive",
+        "query": "N64 cartridge hard drive myth",
+        "query2": "N64 cartridge storage type misconception",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "Cartridges are ROM chips with no moving parts; they store data permanently, unlike magnetic hard‑drives which read/write dynamically.",
+        "label": "ROM, not HDD",
+        "query": "difference ROM cartridge vs hard drive",
+        "query2": "N64 cartridge technology ROM",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Remember: ROM means read‑only – no rewrites on the fly.",
+        "label": "Read‑Only Memory",
+        "sub": "Cartridges can’t save new data without extra battery backup.",
+        "label_on": "techfact",
+        "query": "N64 cartridge read only memory",
+        "query2": "how N64 cartridges store data",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "retro tech channel follow CTA",
+        "query2": "subscribe for retro myth busts",
+        "role": "cta"
+      }
+    ],
+    "description": "Big N64 cartridges hold lots of data, but they’re not miniature hard‑drives. Learn the real difference between ROM and HDD. Follow for more retro tech revelations.",
+    "hashtags": [
+      "#retrotech",
+      "#gaming",
+      "#myths",
+      "#shorts",
+      "#fyp",
+      "#nintendo",
+      "#techhistory"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Truth Behind the 2003 'Windows 2000' Blue Screen Hack",
+    "thumb": "BLUE SCREEN MYTH",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "In 2003 a viral video claimed a simple key combo crashed Windows 2000 for everyone.",
+        "hook_top": "2003 BSOD HACK",
+        "query": "2003 Windows 2000 blue screen viral video",
+        "query2": "Windows 2000 crash key combo myth",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "The myth says pressing Ctrl + Alt + Delete repeatedly could force a system‑wide blue screen.",
+        "label": "Ctrl+Alt+Delete crash",
+        "query": "Ctrl Alt Delete blue screen myth",
+        "query2": "Windows 2000 crash shortcut rumor",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "Windows 2000’s kernel required a privileged driver exploit to trigger a BSOD; ordinary key presses cannot cause a system‑wide crash.",
+        "label": "Requires driver exploit",
+        "query": "Windows 2000 BSOD driver exploit",
+        "query2": "how to cause blue screen Windows 2000",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Key combos are safe – real crashes need deep system bugs.",
+        "label": "Safe shortcuts",
+        "sub": "Only low‑level code can force a blue screen.",
+        "label_on": "mythbuster",
+        "query": "Windows 2000 crash safe key combos",
+        "query2": "BSOD causes Windows 2000",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "famous hack debunk channel CTA",
+        "query2": "subscribe for hack myth busts",
+        "role": "cta"
+      }
+    ],
+    "description": "A viral claim suggested a simple key press could crash Windows 2000 for all users. The real story: only a driver‑level exploit could do that. Follow for more hack‑myth breakdowns.",
+    "hashtags": [
+      "#hacks",
+      "#techmyths",
+      "#shorts",
+      "#fyp",
+      "#windows2000",
+      "#computers",
+      "#mythbusting"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The 1999 Hack That Made Windows a Target",
+    "thumb": "WINDOWS TARGETED",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "In 1999, a hacker stole 3 million Windows passwords.",
+        "hook_top": "3 MILLION STOLEN",
+        "query": "1999 Windows password hack",
+        "query2": "1999 Windows hack",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The attack exploited a buffer overflow in the Windows 98 file‑explorer.",
+        "chips": [
+          {
+            "t": "buffer overflow",
+            "on": "explorer",
+            "style": "white"
+          }
+        ],
+        "punch": "OVERFLOW",
+        "query": "Windows 98 buffer overflow",
+        "query2": "Windows 98 buffer overflow exploit",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Microsoft responded with the first Windows Security Update Patch.",
+        "chips": [
+          {
+            "t": "security patch",
+            "on": "response",
+            "style": "accent"
+          }
+        ],
+        "punch": "PATCH",
+        "query": "Windows 98 security update",
+        "query2": "Windows security patch 1999",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "That patch introduced the Windows Defender anti‑virus, a staple today.",
+        "reveal_top": "DEFENDER ORIGIN",
+        "query": "Windows Defender origin",
+        "query2": "Windows Defender history",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "The 1999 Hack That Made Windows a Target",
+        "query2": "cinematic nature landscape",
+        "role": "cta"
+      }
+    ],
+    "description": "Discover how a 1999 Windows hack forced Microsoft to create the first Windows Defender. Follow for more security history bites!",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#techhistory",
+      "#windows",
+      "#cybersecurity",
+      "#hacking",
+      "#techfacts"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
     "title": "Why the Original GameCube Couldn’t Play DVDs—The Real Reason",
     "thumb": "GAMECUBE DVD",
     "scenes": [

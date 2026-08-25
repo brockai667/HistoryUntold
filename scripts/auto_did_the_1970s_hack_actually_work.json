@@ -1,0 +1,53 @@
+{
+  "title": "Did the 1970s Hack Actually Work?",
+  "thumb": "HACK MYTH",
+  "scenes": [
+    {
+      "hook_top": "1978 HACK",
+      "query": "1978 AT&T network hack",
+      "query2": "Cuckoo Clock hack",
+      "role": "hook",
+      "text": "The 1978 'Cuckoo Clock' hack broke AT&T."
+    },
+    {
+      "label": "Open Network",
+      "query": "AT&T 1978 hack details",
+      "query2": "1978 network hack",
+      "role": "myth",
+      "text": "Everyone says the hack opened the entire network."
+    },
+    {
+      "label": "Single Switch",
+      "query": "AT&T switch access 1978",
+      "query2": "1978 AT&T network breach",
+      "role": "truth",
+      "text": "The hack only accessed a single switch and did not penetrate the wider network."
+    },
+    {
+      "label": "Tiny Breach",
+      "sub": "Single switch access",
+      "label_on": "Tiny",
+      "query": "AT&T 1978 switch",
+      "query2": "network breach 1978",
+      "role": "callout",
+      "text": "It was a tiny breach, not a full takeover."
+    },
+    {
+      "query": "historical cyber hacks",
+      "query2": "classic tech myths",
+      "role": "cta",
+      "text": "Follow for daily tech you should actually know."
+    }
+  ],
+  "description": "The 1978 AT&T hack is legendary, but did it really take down the network? The truth: it hit one switch. Follow for more hack myth busts!",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#techhistory",
+    "#cybersecurity",
+    "#hackmyth",
+    "#techfacts"
+  ],
+  "place": "",
+  "country": ""
+}
