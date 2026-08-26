@@ -1,0 +1,72 @@
+{
+  "title": "The 1999 Hack That Made Windows a Target",
+  "thumb": "WINDOWS TARGETED",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "In 1999, a hacker stole 3 million Windows passwords.",
+      "hook_top": "3 MILLION STOLEN",
+      "query": "1999 Windows password hack",
+      "query2": "1999 Windows hack",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The attack exploited a buffer overflow in the Windows 98 file‑explorer.",
+      "chips": [
+        {
+          "t": "buffer overflow",
+          "on": "explorer",
+          "style": "white"
+        }
+      ],
+      "punch": "OVERFLOW",
+      "query": "Windows 98 buffer overflow",
+      "query2": "Windows 98 buffer overflow exploit",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Microsoft responded with the first Windows Security Update Patch.",
+      "chips": [
+        {
+          "t": "security patch",
+          "on": "response",
+          "style": "accent"
+        }
+      ],
+      "punch": "PATCH",
+      "query": "Windows 98 security update",
+      "query2": "Windows security patch 1999",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "That patch introduced the Windows Defender anti‑virus, a staple today.",
+      "reveal_top": "DEFENDER ORIGIN",
+      "query": "Windows Defender origin",
+      "query2": "Windows Defender history",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech you should actually know.",
+      "query": "The 1999 Hack That Made Windows a Target",
+      "query2": "cinematic nature landscape",
+      "role": "cta"
+    }
+  ],
+  "description": "Discover how a 1999 Windows hack forced Microsoft to create the first Windows Defender. Follow for more security history bites!",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#techhistory",
+    "#windows",
+    "#cybersecurity",
+    "#hacking",
+    "#techfacts"
+  ],
+  "place": "",
+  "country": ""
+}

@@ -9347,6 +9347,195 @@
     "country": ""
   },
   {
+    "title": "How Does Your Microwave Actually Heat Food? The Magnetron Myth",
+    "thumb": "MICROWAVE MAGIC",
+    "scenes": [
+      {
+        "hook_top": "MICROWAVE PLASMA",
+        "query": "microwave magnetron plasma myth",
+        "query2": "microwave heating plasma claim",
+        "role": "hook",
+        "text": "Your 900‑Watt microwave uses a magnetron that some say turns food into plasma."
+      },
+      {
+        "label": "Microwave makes plasma",
+        "query": "microwave plasma belief",
+        "query2": "microwave plasma misconception",
+        "role": "myth",
+        "text": "A common belief is that microwaves create plasma inside the oven to heat meals."
+      },
+      {
+        "label": "Radio‑frequency heating",
+        "query": "how microwaves heat food physics",
+        "query2": "microwave heating mechanism",
+        "role": "truth",
+        "text": "Microwaves generate radio‑frequency waves that cause water molecules to vibrate, producing heat—no plasma is formed in normal operation."
+      },
+      {
+        "label": "Molecule Vibration",
+        "sub": "Radio waves shake water molecules.",
+        "label_on": "Heat",
+        "query": "microwave water molecule vibration",
+        "query2": "microwave heating explained",
+        "role": "callout",
+        "text": "Heat comes from molecular vibration, not plasma."
+      },
+      {
+        "query": "tech explainer follow CTA",
+        "query2": "daily tech facts follow",
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve."
+      }
+    ],
+    "description": "Debunk the plasma myth and learn the real physics behind microwave ovens. Follow us for clear, factual tech breakdowns.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#everydaytech",
+      "#microwave",
+      "#mythbusting",
+      "#science",
+      "#techexplained"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The 1985 NES Chip That Changed Gaming Forever",
+    "thumb": "NINTENDO CHIP",
+    "scenes": [
+      {
+        "hook_top": "NINTENDO CHIP",
+        "query": "Nintendo Entertainment System 8-bit processor",
+        "query2": "NES chip",
+        "role": "hook",
+        "text": "The 8‑bit chip that launched millions of gamers"
+      },
+      {
+        "chips": [
+          {
+            "t": "1.79 MHz",
+            "on": "CPU",
+            "style": "accent"
+          }
+        ],
+        "punch": "Speed",
+        "query": "Ricoh 2A03 CPU speed",
+        "query2": "NES CPU speed",
+        "role": "fact",
+        "text": "The Ricoh 2A03 CPU ran at 1.79 MHz"
+      },
+      {
+        "chips": [
+          {
+            "t": "2 KB RAM",
+            "on": "RAM",
+            "style": "white"
+          },
+          {
+            "t": "256 colors",
+            "on": "palette",
+            "style": "accent"
+          }
+        ],
+        "punch": "Graphics",
+        "query": "NES 2KB RAM",
+        "query2": "NES color palette",
+        "role": "fact",
+        "text": "Its 2K RAM allowed 256 color palette frames"
+      },
+      {
+        "reveal_top": "MIC IN CHIP",
+        "query": "Ricoh 2A03 microphone feature",
+        "query2": "NES voice control",
+        "role": "reveal",
+        "text": "But the 2A03 also hid a built‑in microphone for voice‑controlled games"
+      },
+      {
+        "query": "follow button",
+        "query2": "subscribe",
+        "role": "cta",
+        "text": "Follow for daily tech and AI news."
+      }
+    ],
+    "description": "Discover the little 8‑bit marvel that powered the NES and how it secretly supported voice control. #shorts #fyp",
+    "hashtags": [
+      "#gaminghistory",
+      "#retrotech",
+      "#nostalgia",
+      "#techfacts",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The 1986 Game Bug That Turned a Simple Game into a Cult Classic",
+    "thumb": "BUG TO GOLD",
+    "scenes": [
+      {
+        "hook_top": "BUG TO GOLD",
+        "query": "1986 game glitch legend",
+        "query2": "1986 video game bug",
+        "role": "hook",
+        "text": "The 1986 glitch that made a game legendary"
+      },
+      {
+        "chips": [
+          {
+            "t": "missing sprite",
+            "on": "sprite",
+            "style": "accent"
+          }
+        ],
+        "punch": "Float",
+        "query": "missing sprite bug",
+        "query2": "game floating bug",
+        "role": "fact",
+        "text": "A missing sprite caused the hero to float forever"
+      },
+      {
+        "chips": [
+          {
+            "t": "endless lives",
+            "on": "lives",
+            "style": "white"
+          }
+        ],
+        "punch": "Lives",
+        "query": "endless lives cheat code",
+        "query2": "video game cheat 1986",
+        "role": "fact",
+        "text": "Players discovered a cheat code to unlock endless lives"
+      },
+      {
+        "reveal_top": "SECRET SALES",
+        "query": "1.5 million copies sold 1986",
+        "query2": "video game sales 1986",
+        "role": "reveal",
+        "text": "That glitch became a marketing secret, selling 1.5 million copies"
+      },
+      {
+        "query": "follow button",
+        "query2": "subscribe",
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve."
+      }
+    ],
+    "description": "Uncover the accidental glitch that turned a 1986 game into a cult classic and boosted sales to 1.5 million copies. #shorts #fyp",
+    "hashtags": [
+      "#gaminghistory",
+      "#glitch",
+      "#retro",
+      "#gamebug",
+      "#shorts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
     "title": "Why the Original GameCube Couldn’t Play DVDs—The Real Reason",
     "thumb": "GAMECUBE DVD",
     "scenes": [

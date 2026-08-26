@@ -1,0 +1,62 @@
+{
+  "title": "Why the 1998 Nintendo 64 Cartridge Was Not a 'Hard‑Drive'?",
+  "thumb": "N64 CARTRIDGE FACT",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "The Nintendo 64 used 64 MB cartridges for its biggest titles.",
+      "hook_top": "N64 64MB CARTRIDGES",
+      "query": "Nintendo 64 cartridge size 64 MB",
+      "query2": "N64 largest cartridge capacity",
+      "role": "hook"
+    },
+    {
+      "type": "myth",
+      "text": "People often say those cartridges functioned like tiny hard‑drives.",
+      "label": "Cartridge = hard‑drive",
+      "query": "N64 cartridge hard drive myth",
+      "query2": "N64 cartridge storage type misconception",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "truth",
+      "text": "Cartridges are ROM chips with no moving parts; they store data permanently, unlike magnetic hard‑drives which read/write dynamically.",
+      "label": "ROM, not HDD",
+      "query": "difference ROM cartridge vs hard drive",
+      "query2": "N64 cartridge technology ROM",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "Remember: ROM means read‑only – no rewrites on the fly.",
+      "label": "Read‑Only Memory",
+      "sub": "Cartridges can’t save new data without extra battery backup.",
+      "label_on": "techfact",
+      "query": "N64 cartridge read only memory",
+      "query2": "how N64 cartridges store data",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "retro tech channel follow CTA",
+      "query2": "subscribe for retro myth busts",
+      "role": "cta"
+    }
+  ],
+  "description": "Big N64 cartridges hold lots of data, but they’re not miniature hard‑drives. Learn the real difference between ROM and HDD. Follow for more retro tech revelations.",
+  "hashtags": [
+    "#retrotech",
+    "#gaming",
+    "#myths",
+    "#shorts",
+    "#fyp",
+    "#nintendo",
+    "#techhistory"
+  ],
+  "place": "",
+  "country": ""
+}
