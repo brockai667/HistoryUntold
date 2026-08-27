@@ -9536,6 +9536,205 @@
     "country": ""
   },
   {
+    "title": "1995 PlayStation launch: 3 surprising facts",
+    "thumb": "PLAYSTATION SHOCK",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "1995 PlayStation launch shocked Japan’s gamers.",
+        "hook_top": "1995 PLAYSTATION LAUNCH",
+        "query": "1995 PlayStation launch Japan",
+        "query2": "PlayStation debut 1995 Tokyo",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "text": "It shipped over 1 million units in its first month, a record for a new console.",
+        "label": "OVER 1M UNITS SOLD",
+        "label_on": "sold",
+        "query": "PlayStation first month sales 1995",
+        "query2": "1995 PlayStation million units",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "text": "The original disc could hold 650 MB, triple the CD-ROM size of competing systems.",
+        "label": "650MB DISC CAPACITY",
+        "label_on": "capacity",
+        "query": "PlayStation disc capacity 650 MB",
+        "query2": "1995 Sony CD-ROM size",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "text": "Its launch title, *Ridge Racer*, introduced the world to 3‑D polygon racing on a home console.",
+        "label": "RIDGE RACER DEBUT",
+        "label_on": "debuts",
+        "query": "Ridge Racer PlayStation 1995 release",
+        "query2": "first PlayStation game Ridge Racer",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "follow gaming history channel",
+        "query2": "subscribe tech countdowns",
+        "role": "cta"
+      }
+    ],
+    "description": "The PlayStation’s 1995 debut reshaped home gaming with record sales, massive discs, and a breakthrough racing title. Stay tuned for deeper dives.",
+    "hashtags": [
+      "#shorts",
+      "#gaminghistory",
+      "#PlayStation",
+      "#tech",
+      "#fyp",
+      "#gamers",
+      "#console"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Did Floppy Disks Only Hold 1.44 MB?",
+    "thumb": "FLOPPY MYTH",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "A 3½‑inch floppy stores just 1.44 MB, right?",
+        "hook_top": "FLOPPY ONLY 144MB",
+        "query": "3.5 inch floppy disk capacity 1.44 MB",
+        "query2": "floppy disk storage size myth",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "People think every floppy disk was limited to 1.44 MB.",
+        "label": "All floppies 1.44 MB",
+        "query": "floppy disk common myth 1.44 MB",
+        "query2": "floppy disk size misconception",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "Early 5.25‑inch floppies held 360 KB, later 1.2 MB; even 3½‑inch formats existed at 720 KB and 2.88 MB for high‑density drives.",
+        "label": "Various capacities existed",
+        "query": "5.25 inch floppy 360 KB history",
+        "query2": "floppy disk capacities 720KB 2.88MB",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Floppies came in many sizes!",
+        "label": "Multiple sizes",
+        "sub": "From 360 KB to 2.88 MB",
+        "label_on": "Capacity",
+        "query": "floppy disk size variations",
+        "query2": "floppy capacities over time",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "follow tech everyday myth bust CTA",
+        "query2": "subscribe tech history",
+        "role": "cta"
+      }
+    ],
+    "description": "We bust the myth that every floppy disk was 1.44 MB and reveal the real range of storage sizes. Learn more about the evolution of everyday tech. #shorts #fyp #retro #techhistory #floppy #mythbusting #computing",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#retro",
+      "#techhistory",
+      "#floppy",
+      "#mythbusting",
+      "#computing"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The 1973 “Morris Worm” That Started Modern Cybersecurity",
+    "thumb": "MORRIS WORM",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "In 1973 a tiny worm spread across 6 U.S. universities in minutes",
+        "hook_top": "1973 MORRIS WORM",
+        "query": "1973 Morris worm spread universities",
+        "query2": "early computer worm 1973",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "Created by Robert Tappan Morris, it exploited a buffer overflow in the UNIX 'rsh' service",
+        "chips": [
+          {
+            "t": "BUFFER OVERFLOW",
+            "on": "overflow",
+            "style": "accent"
+          }
+        ],
+        "punch": "exploit",
+        "query": "Morris worm buffer overflow rsh",
+        "query2": "1973 UNIX worm exploit",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "The worm unintentionally slowed down networks, prompting the first coordinated incident response effort",
+        "chips": [
+          {
+            "t": "INCIDENT RESPONSE",
+            "on": "response",
+            "style": "white"
+          }
+        ],
+        "query": "first incident response Morris worm",
+        "query2": "1973 worm network slowdown",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "It forced the creation of the first Computer Emergency Response Team (CERT) at Carnegie Mellon University",
+        "reveal_top": "ORIGIN OF CERT",
+        "query": "first CERT created after Morris worm",
+        "query2": "Morris worm CERT origin",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "hack history CTA follow",
+        "query2": "tech short CTA",
+        "role": "cta"
+      }
+    ],
+    "description": "A modest 1973 worm sparked the entire modern cybersecurity industry. Want more hidden hack stories? Follow us.",
+    "hashtags": [
+      "#shorts",
+      "#hacks",
+      "#cybersecurity",
+      "#morrisworm",
+      "#techhistory",
+      "#fyp",
+      "#technology"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
     "title": "Why the Original GameCube Couldn’t Play DVDs—The Real Reason",
     "thumb": "GAMECUBE DVD",
     "scenes": [

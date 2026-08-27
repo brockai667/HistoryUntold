@@ -1,0 +1,54 @@
+{
+  "title": "How Does Your Microwave Actually Heat Food? The Magnetron Myth",
+  "thumb": "MICROWAVE MAGIC",
+  "scenes": [
+    {
+      "hook_top": "MICROWAVE PLASMA",
+      "query": "microwave magnetron plasma myth",
+      "query2": "microwave heating plasma claim",
+      "role": "hook",
+      "text": "Your 900‑Watt microwave uses a magnetron that some say turns food into plasma."
+    },
+    {
+      "label": "Microwave makes plasma",
+      "query": "microwave plasma belief",
+      "query2": "microwave plasma misconception",
+      "role": "myth",
+      "text": "A common belief is that microwaves create plasma inside the oven to heat meals."
+    },
+    {
+      "label": "Radio‑frequency heating",
+      "query": "how microwaves heat food physics",
+      "query2": "microwave heating mechanism",
+      "role": "truth",
+      "text": "Microwaves generate radio‑frequency waves that cause water molecules to vibrate, producing heat—no plasma is formed in normal operation."
+    },
+    {
+      "label": "Molecule Vibration",
+      "sub": "Radio waves shake water molecules.",
+      "label_on": "Heat",
+      "query": "microwave water molecule vibration",
+      "query2": "microwave heating explained",
+      "role": "callout",
+      "text": "Heat comes from molecular vibration, not plasma."
+    },
+    {
+      "query": "tech explainer follow CTA",
+      "query2": "daily tech facts follow",
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve."
+    }
+  ],
+  "description": "Debunk the plasma myth and learn the real physics behind microwave ovens. Follow us for clear, factual tech breakdowns.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#everydaytech",
+    "#microwave",
+    "#mythbusting",
+    "#science",
+    "#techexplained"
+  ],
+  "place": "",
+  "country": ""
+}

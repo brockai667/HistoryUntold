@@ -1,0 +1,65 @@
+{
+  "title": "The 1986 Game Bug That Turned a Simple Game into a Cult Classic",
+  "thumb": "BUG TO GOLD",
+  "scenes": [
+    {
+      "hook_top": "BUG TO GOLD",
+      "query": "1986 game glitch legend",
+      "query2": "1986 video game bug",
+      "role": "hook",
+      "text": "The 1986 glitch that made a game legendary"
+    },
+    {
+      "chips": [
+        {
+          "t": "missing sprite",
+          "on": "sprite",
+          "style": "accent"
+        }
+      ],
+      "punch": "Float",
+      "query": "missing sprite bug",
+      "query2": "game floating bug",
+      "role": "fact",
+      "text": "A missing sprite caused the hero to float forever"
+    },
+    {
+      "chips": [
+        {
+          "t": "endless lives",
+          "on": "lives",
+          "style": "white"
+        }
+      ],
+      "punch": "Lives",
+      "query": "endless lives cheat code",
+      "query2": "video game cheat 1986",
+      "role": "fact",
+      "text": "Players discovered a cheat code to unlock endless lives"
+    },
+    {
+      "reveal_top": "SECRET SALES",
+      "query": "1.5 million copies sold 1986",
+      "query2": "video game sales 1986",
+      "role": "reveal",
+      "text": "That glitch became a marketing secret, selling 1.5 million copies"
+    },
+    {
+      "query": "follow button",
+      "query2": "subscribe",
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve."
+    }
+  ],
+  "description": "Uncover the accidental glitch that turned a 1986 game into a cult classic and boosted sales to 1.5 million copies. #shorts #fyp",
+  "hashtags": [
+    "#gaminghistory",
+    "#glitch",
+    "#retro",
+    "#gamebug",
+    "#shorts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}
