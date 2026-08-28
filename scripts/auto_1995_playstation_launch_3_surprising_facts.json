@@ -1,0 +1,66 @@
+{
+  "title": "1995 PlayStation launch: 3 surprising facts",
+  "thumb": "PLAYSTATION SHOCK",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "1995 PlayStation launch shocked Japan’s gamers.",
+      "hook_top": "1995 PLAYSTATION LAUNCH",
+      "query": "1995 PlayStation launch Japan",
+      "query2": "PlayStation debut 1995 Tokyo",
+      "role": "hook"
+    },
+    {
+      "type": "count",
+      "num": 3,
+      "text": "It shipped over 1 million units in its first month, a record for a new console.",
+      "label": "OVER 1M UNITS SOLD",
+      "label_on": "sold",
+      "query": "PlayStation first month sales 1995",
+      "query2": "1995 PlayStation million units",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 2,
+      "text": "The original disc could hold 650 MB, triple the CD-ROM size of competing systems.",
+      "label": "650MB DISC CAPACITY",
+      "label_on": "capacity",
+      "query": "PlayStation disc capacity 650 MB",
+      "query2": "1995 Sony CD-ROM size",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 1,
+      "text": "Its launch title, *Ridge Racer*, introduced the world to 3‑D polygon racing on a home console.",
+      "label": "RIDGE RACER DEBUT",
+      "label_on": "debuts",
+      "query": "Ridge Racer PlayStation 1995 release",
+      "query2": "first PlayStation game Ridge Racer",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech you should actually know.",
+      "query": "follow gaming history channel",
+      "query2": "subscribe tech countdowns",
+      "role": "cta"
+    }
+  ],
+  "description": "The PlayStation’s 1995 debut reshaped home gaming with record sales, massive discs, and a breakthrough racing title. Stay tuned for deeper dives.",
+  "hashtags": [
+    "#shorts",
+    "#gaminghistory",
+    "#PlayStation",
+    "#tech",
+    "#fyp",
+    "#gamers",
+    "#console"
+  ],
+  "place": "",
+  "country": ""
+}

@@ -9735,6 +9735,67 @@
     "country": ""
   },
   {
+    "title": "Why does the original Game Boy battery really last a decade?",
+    "thumb": "GAME BOY BATTERY",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Original Game Boy batteries last up to 10 years?",
+        "hook_top": "10YEAR BATTERY",
+        "query": "Game Boy original battery lifespan",
+        "query2": "Nintendo Game Boy battery life",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "People think the battery is a cheap, low‑capacity cell that just wears out quickly.",
+        "label": "Cheap battery myth",
+        "query": "Game Boy battery quality myth",
+        "query2": "Nintendo battery misconception",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "It uses a 1.2 V AA alkaline cell that can hold a charge for 10‑12 years when unused, thanks to low power draw of the LCD and processor.",
+        "label": "AA alkaline longevity",
+        "query": "Game Boy AA battery endurance",
+        "query2": "Nintendo Game Boy power consumption",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Low draw = long life.",
+        "label": "Low Power Wins",
+        "sub": "The handheld’s efficient design keeps the battery alive for years.",
+        "label_on": "Fact",
+        "query": "Game Boy power efficiency",
+        "query2": "retro handheld battery facts",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "Game Boy myth busting",
+        "query2": "retro tech short",
+        "role": "cta"
+      }
+    ],
+    "description": "The Game Boy’s legendary battery life isn’t a myth—its design truly makes a simple AA cell last for a decade. Discover the engineering behind it.",
+    "hashtags": [
+      "#shorts",
+      "#retrotech",
+      "#GameBoy",
+      "#mythbusting",
+      "#techfacts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
     "title": "Why the Original GameCube Couldn’t Play DVDs—The Real Reason",
     "thumb": "GAMECUBE DVD",
     "scenes": [
@@ -9792,6 +9853,132 @@
       "#techmyths",
       "#Nintendo",
       "#GameCube"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Why the 1995 PlayStation Launch Still Echoes Today",
+    "thumb": "PLAYSTATION LAUNCH",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Did you know the original PlayStation shipped 2 million units in its first year?",
+        "hook_top": "PLAYSTATION SHIPPED 2M",
+        "query": "1995 PlayStation launch sales",
+        "query2": "original PlayStation first year shipments",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "text": "It used a custom 33.8 MHz R3000 processor, a rare CPU for consoles then.",
+        "label": "CUSTOM 33.8MHZ CPU",
+        "label_on": "CPU",
+        "query": "PlayStation R3000 processor specifications",
+        "query2": "Sony PlayStation custom CPU 33.8MHz",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "text": "The console’s CD-ROM could read 150 KB/s, far faster than cartridge speeds.",
+        "label": "FAST CD-ROM READ",
+        "label_on": "CDROM",
+        "query": "PlayStation CD-ROM read speed 150KB/s",
+        "query2": "original PlayStation CD read speed",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "text": "Sony’s “PS‑One” branding was a marketing move that helped it dominate the mid‑90s market.",
+        "label": "PS‑ONE BRANDING IMPACT",
+        "label_on": "BRANDING",
+        "query": "PS-One branding strategy 1990s",
+        "query2": "Sony PlayStation marketing PS-One",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "gaming history follow CTA",
+        "query2": "tech brand CTA follow",
+        "role": "cta"
+      }
+    ],
+    "description": "Explore three game‑changing facts about the PlayStation’s debut that still shape consoles today. Dive deeper with us!",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#gaminghistory",
+      "#PlayStation",
+      "#techfacts",
+      "#retro"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Did the PlayStation’s 1995 launch ship 100,000 units on day one?",
+    "thumb": "PLAYSTATION LAUNCH",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "100,000 PlayStations shipped on launch day in 1995?",
+        "hook_top": "100K PLAYSTATION LAUNCH",
+        "query": "1995 PlayStation launch shipment numbers",
+        "query2": "PlayStation 1995 sales debut",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "Many believe Sony sold exactly 100,000 consoles on the first day.",
+        "label": "100K sold day‑one myth",
+        "query": "PlayStation first‑day sales myth",
+        "query2": "Sony 1995 launch sales rumor",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "Sony announced 300,000 units shipped in the first week, not a single‑day figure.",
+        "label": "300K shipped first week",
+        "query": "PlayStation first week shipment 1995",
+        "query2": "Sony 1995 PlayStation sales data",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "First‑week hype, not day‑one record.",
+        "label": "First‑Week Fact",
+        "sub": "The launch was a week‑long surge, not a 24‑hour miracle.",
+        "label_on": "Fact",
+        "query": "PlayStation launch week sales",
+        "query2": "1995 Sony console shipments",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "PlayStation myth busting",
+        "query2": "gaming history short",
+        "role": "cta"
+      }
+    ],
+    "description": "The PlayStation’s debut was a massive success, but the 100‑k‑day‑one story is wrong. Learn the real numbers and why it matters.",
+    "hashtags": [
+      "#shorts",
+      "#gaminghistory",
+      "#PlayStation",
+      "#mythbusting",
+      "#retro",
+      "#fyp"
     ],
     "place": "",
     "country": ""

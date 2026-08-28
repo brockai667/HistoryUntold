@@ -1,0 +1,71 @@
+{
+  "title": "The 1973 “Morris Worm” That Started Modern Cybersecurity",
+  "thumb": "MORRIS WORM",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "In 1973 a tiny worm spread across 6 U.S. universities in minutes",
+      "hook_top": "1973 MORRIS WORM",
+      "query": "1973 Morris worm spread universities",
+      "query2": "early computer worm 1973",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "Created by Robert Tappan Morris, it exploited a buffer overflow in the UNIX 'rsh' service",
+      "chips": [
+        {
+          "t": "BUFFER OVERFLOW",
+          "on": "overflow",
+          "style": "accent"
+        }
+      ],
+      "punch": "exploit",
+      "query": "Morris worm buffer overflow rsh",
+      "query2": "1973 UNIX worm exploit",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "The worm unintentionally slowed down networks, prompting the first coordinated incident response effort",
+      "chips": [
+        {
+          "t": "INCIDENT RESPONSE",
+          "on": "response",
+          "style": "white"
+        }
+      ],
+      "query": "first incident response Morris worm",
+      "query2": "1973 worm network slowdown",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "It forced the creation of the first Computer Emergency Response Team (CERT) at Carnegie Mellon University",
+      "reveal_top": "ORIGIN OF CERT",
+      "query": "first CERT created after Morris worm",
+      "query2": "Morris worm CERT origin",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "hack history CTA follow",
+      "query2": "tech short CTA",
+      "role": "cta"
+    }
+  ],
+  "description": "A modest 1973 worm sparked the entire modern cybersecurity industry. Want more hidden hack stories? Follow us.",
+  "hashtags": [
+    "#shorts",
+    "#hacks",
+    "#cybersecurity",
+    "#morrisworm",
+    "#techhistory",
+    "#fyp",
+    "#technology"
+  ],
+  "place": "",
+  "country": ""
+}

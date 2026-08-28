@@ -1,0 +1,62 @@
+{
+  "title": "Did Floppy Disks Only Hold 1.44 MB?",
+  "thumb": "FLOPPY MYTH",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "A 3½‑inch floppy stores just 1.44 MB, right?",
+      "hook_top": "FLOPPY ONLY 144MB",
+      "query": "3.5 inch floppy disk capacity 1.44 MB",
+      "query2": "floppy disk storage size myth",
+      "role": "hook"
+    },
+    {
+      "type": "myth",
+      "text": "People think every floppy disk was limited to 1.44 MB.",
+      "label": "All floppies 1.44 MB",
+      "query": "floppy disk common myth 1.44 MB",
+      "query2": "floppy disk size misconception",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "truth",
+      "text": "Early 5.25‑inch floppies held 360 KB, later 1.2 MB; even 3½‑inch formats existed at 720 KB and 2.88 MB for high‑density drives.",
+      "label": "Various capacities existed",
+      "query": "5.25 inch floppy 360 KB history",
+      "query2": "floppy disk capacities 720KB 2.88MB",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "Floppies came in many sizes!",
+      "label": "Multiple sizes",
+      "sub": "From 360 KB to 2.88 MB",
+      "label_on": "Capacity",
+      "query": "floppy disk size variations",
+      "query2": "floppy capacities over time",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "follow tech everyday myth bust CTA",
+      "query2": "subscribe tech history",
+      "role": "cta"
+    }
+  ],
+  "description": "We bust the myth that every floppy disk was 1.44 MB and reveal the real range of storage sizes. Learn more about the evolution of everyday tech. #shorts #fyp #retro #techhistory #floppy #mythbusting #computing",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#retro",
+    "#techhistory",
+    "#floppy",
+    "#mythbusting",
+    "#computing"
+  ],
+  "place": "",
+  "country": ""
+}
