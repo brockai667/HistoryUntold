@@ -1,0 +1,77 @@
+{
+  "title": "Why CDs Use a 780 nm Infrared Laser to Read Data",
+  "thumb": "CD LASER SECRET",
+  "scenes": [
+    {
+      "text": "A standard audio CD is read by a laser at exactly 780 nm wavelength.",
+      "hook_top": "780NM CD LASER",
+      "chips": [
+        {
+          "t": "780 NM",
+          "on": "laser",
+          "style": "accent"
+        }
+      ],
+      "query": "CD reading laser wavelength 780 nm",
+      "query2": "optical disc laser 780 nanometers",
+      "role": "hook"
+    },
+    {
+      "text": "The laser reflects off pits and lands that are just 0.83 µm wide.",
+      "chips": [
+        {
+          "t": "0.83 µM PITS",
+          "on": "size",
+          "style": "white"
+        }
+      ],
+      "query": "CD pit size 0.83 micrometer",
+      "query2": "CD track pit dimensions",
+      "role": "fact"
+    },
+    {
+      "text": "A photodiode then converts the reflected light into binary data at 1.41 Mbps.",
+      "chips": [
+        {
+          "t": "1.41 Mbps",
+          "on": "speed",
+          "style": "accent"
+        }
+      ],
+      "query": "CD data rate 1.41 megabits per second",
+      "query2": "CD audio bitrate 1.41 Mbps",
+      "role": "fact"
+    },
+    {
+      "text": "Twist: that same 780 nm laser is also used in early DVD players, but with a tighter focus to read 0.4 µm pits.",
+      "reveal_top": "DVD SAME LASER",
+      "chips": [
+        {
+          "t": "0.4 µM PITS",
+          "on": "DVD",
+          "style": "white"
+        }
+      ],
+      "query": "DVD laser wavelength 780 nm pit size 0.4 micrometer",
+      "query2": "DVD reading laser specs",
+      "role": "fact"
+    },
+    {
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "how CDs work short video",
+      "query2": "tech explained CD laser",
+      "role": "cta"
+    }
+  ],
+  "description": "Ever wonder why CDs use an infrared laser? We break down the exact wavelength, pit size, and data rate, plus the hidden link to DVDs. Follow for more tech deep‑dives!",
+  "hashtags": [
+    "#shorts",
+    "#tech",
+    "#everydaytech",
+    "#CD",
+    "#laser",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

@@ -1,0 +1,76 @@
+{
+  "title": "How a 700 MB CD Holds an Entire Album—and a Game",
+  "thumb": "CD STORAGE",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "A standard 120 mm CD stores exactly 700 megabytes of data",
+      "hook_top": "CD HOLDS 700MB",
+      "query": "CD capacity 700 MB",
+      "query2": "standard CD storage size 700 megabytes",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "Data is encoded as 1.2‑micron pits spaced 0.83 microns apart on the disc surface",
+      "chips": [
+        {
+          "t": "1.2 µm PITS",
+          "on": "pits",
+          "style": "accent"
+        },
+        {
+          "t": "0.83 µm TRACK",
+          "on": "track",
+          "style": "white"
+        }
+      ],
+      "query": "CD pit size 1.2 micron",
+      "query2": "CD track pitch 0.83 micron",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "A 650‑MB CD spins at 200–500 rpm, letting the laser read 150 KB per second",
+      "chips": [
+        {
+          "t": "150 KB/s READ",
+          "on": "read speed",
+          "style": "accent"
+        }
+      ],
+      "query": "CD read speed 150 KB per second",
+      "query2": "CD data transfer rate 150 kilobytes per second",
+      "role": "fact"
+    },
+    {
+      "type": "callout",
+      "text": "That’s why classic PC games could fit on one disc, making distribution cheap and reliable",
+      "label": "Game Distribution",
+      "sub": "How CDs powered 90s PC gaming",
+      "label_on": "distribution",
+      "query": "1990s PC games on CD distribution",
+      "query2": "why CDs were used for PC games in 1990s",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "technology short video CTA",
+      "query2": "follow tech channel CTA",
+      "role": "cta"
+    }
+  ],
+  "description": "Ever wonder how a tiny disc can hold a full soundtrack and a game? Learn the exact physics behind CD storage. Follow for more tech made simple.",
+  "hashtags": [
+    "#howitworks",
+    "#shorts",
+    "#fyp",
+    "#cd",
+    "#techfacts",
+    "#retrotech"
+  ],
+  "place": "",
+  "country": ""
+}

@@ -9796,6 +9796,159 @@
     "country": ""
   },
   {
+    "title": "Why CDs Use a 780 nm Infrared Laser to Read Data",
+    "thumb": "CD LASER SECRET",
+    "scenes": [
+      {
+        "text": "A standard audio CD is read by a laser at exactly 780 nm wavelength.",
+        "hook_top": "780NM CD LASER",
+        "chips": [
+          {
+            "t": "780 NM",
+            "on": "laser",
+            "style": "accent"
+          }
+        ],
+        "query": "CD reading laser wavelength 780 nm",
+        "query2": "optical disc laser 780 nanometers",
+        "role": "hook"
+      },
+      {
+        "text": "The laser reflects off pits and lands that are just 0.83 µm wide.",
+        "chips": [
+          {
+            "t": "0.83 µM PITS",
+            "on": "size",
+            "style": "white"
+          }
+        ],
+        "query": "CD pit size 0.83 micrometer",
+        "query2": "CD track pit dimensions",
+        "role": "fact"
+      },
+      {
+        "text": "A photodiode then converts the reflected light into binary data at 1.41 Mbps.",
+        "chips": [
+          {
+            "t": "1.41 Mbps",
+            "on": "speed",
+            "style": "accent"
+          }
+        ],
+        "query": "CD data rate 1.41 megabits per second",
+        "query2": "CD audio bitrate 1.41 Mbps",
+        "role": "fact"
+      },
+      {
+        "text": "Twist: that same 780 nm laser is also used in early DVD players, but with a tighter focus to read 0.4 µm pits.",
+        "reveal_top": "DVD SAME LASER",
+        "chips": [
+          {
+            "t": "0.4 µM PITS",
+            "on": "DVD",
+            "style": "white"
+          }
+        ],
+        "query": "DVD laser wavelength 780 nm pit size 0.4 micrometer",
+        "query2": "DVD reading laser specs",
+        "role": "fact"
+      },
+      {
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "how CDs work short video",
+        "query2": "tech explained CD laser",
+        "role": "cta"
+      }
+    ],
+    "description": "Ever wonder why CDs use an infrared laser? We break down the exact wavelength, pit size, and data rate, plus the hidden link to DVDs. Follow for more tech deep‑dives!",
+    "hashtags": [
+      "#shorts",
+      "#tech",
+      "#everydaytech",
+      "#CD",
+      "#laser",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "How a 700 MB CD Holds an Entire Album—and a Game",
+    "thumb": "CD STORAGE",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "A standard 120 mm CD stores exactly 700 megabytes of data",
+        "hook_top": "CD HOLDS 700MB",
+        "query": "CD capacity 700 MB",
+        "query2": "standard CD storage size 700 megabytes",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "Data is encoded as 1.2‑micron pits spaced 0.83 microns apart on the disc surface",
+        "chips": [
+          {
+            "t": "1.2 µm PITS",
+            "on": "pits",
+            "style": "accent"
+          },
+          {
+            "t": "0.83 µm TRACK",
+            "on": "track",
+            "style": "white"
+          }
+        ],
+        "query": "CD pit size 1.2 micron",
+        "query2": "CD track pitch 0.83 micron",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "A 650‑MB CD spins at 200–500 rpm, letting the laser read 150 KB per second",
+        "chips": [
+          {
+            "t": "150 KB/s READ",
+            "on": "read speed",
+            "style": "accent"
+          }
+        ],
+        "query": "CD read speed 150 KB per second",
+        "query2": "CD data transfer rate 150 kilobytes per second",
+        "role": "fact"
+      },
+      {
+        "type": "callout",
+        "text": "That’s why classic PC games could fit on one disc, making distribution cheap and reliable",
+        "label": "Game Distribution",
+        "sub": "How CDs powered 90s PC gaming",
+        "label_on": "distribution",
+        "query": "1990s PC games on CD distribution",
+        "query2": "why CDs were used for PC games in 1990s",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "technology short video CTA",
+        "query2": "follow tech channel CTA",
+        "role": "cta"
+      }
+    ],
+    "description": "Ever wonder how a tiny disc can hold a full soundtrack and a game? Learn the exact physics behind CD storage. Follow for more tech made simple.",
+    "hashtags": [
+      "#howitworks",
+      "#shorts",
+      "#fyp",
+      "#cd",
+      "#techfacts",
+      "#retrotech"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
     "title": "Why the Original GameCube Couldn’t Play DVDs—The Real Reason",
     "thumb": "GAMECUBE DVD",
     "scenes": [
@@ -9978,6 +10131,83 @@
       "#PlayStation",
       "#mythbusting",
       "#retro",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The 1999 ILOVEYOU Virus Spread to 10 Million Emails in Hours",
+    "thumb": "ILOVEYOU VIRUS",
+    "scenes": [
+      {
+        "text": "In May 2000, the ILOVEYOU worm hit inboxes worldwide, sending itself to 10 million contacts in under 24 hours.",
+        "hook_top": "10M EMAILS FAST",
+        "chips": [
+          {
+            "t": "10 M EMAILS",
+            "on": "sent",
+            "style": "accent"
+          }
+        ],
+        "query": "ILOVEYOU worm 10 million emails 2000",
+        "query2": "ILOVEYOU virus spread statistics",
+        "role": "hook"
+      },
+      {
+        "text": "It exploited a simple VBA script in Microsoft Outlook, requiring no user interaction beyond opening the attachment.",
+        "chips": [
+          {
+            "t": "VBA SCRIPT",
+            "on": "exploit",
+            "style": "white"
+          }
+        ],
+        "query": "ILOVEYOU Outlook VBA exploit",
+        "query2": "ILOVEYOU email attachment script",
+        "role": "fact"
+      },
+      {
+        "text": "The damage cost estimates ranged from $5 billion to $10 billion globally.",
+        "chips": [
+          {
+            "t": "$5‑10 B",
+            "on": "damage",
+            "style": "accent"
+          }
+        ],
+        "query": "ILOVEYOU virus damage cost billions",
+        "query2": "ILOVEYOU economic impact",
+        "role": "fact"
+      },
+      {
+        "text": "Surprising twist: the worm was traced back to a single 19‑year‑old student in the Philippines, highlighting early cyber‑crime geography.",
+        "reveal_top": "PHILIPPINE HACKER",
+        "chips": [
+          {
+            "t": "19‑YEAR‑OLD",
+            "on": "author",
+            "style": "white"
+          }
+        ],
+        "query": "ILOVEYOU virus creator 19 year old Philippines",
+        "query2": "who wrote ILOVEYOU worm",
+        "role": "fact"
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "query": "ILOVEYOU hack short recap",
+        "query2": "famous virus short video",
+        "role": "cta"
+      }
+    ],
+    "description": "The ILOVEYOU worm exploded across the globe, hitting 10 million inboxes and costing billions. Learn how a single teenager sparked the biggest email outbreak ever. Follow for more hack histories!",
+    "hashtags": [
+      "#shorts",
+      "#hack",
+      "#cybersecurity",
+      "#virus",
+      "#ILOVEYOU",
       "#fyp"
     ],
     "place": "",
