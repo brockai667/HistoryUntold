@@ -1,0 +1,62 @@
+{
+  "title": "The 1999 ILOVEYOU Virus: Myth vs Reality",
+  "thumb": "VIRUS MYTH",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "1999 saw a virus that hit millions in a single day",
+      "hook_top": "MILLIONS INFECTED DAY",
+      "query": "ILOVEYOU virus 1999 spread statistics",
+      "query2": "ILOVEYOU worm impact",
+      "role": "hook"
+    },
+    {
+      "type": "myth",
+      "text": "Many believe the ILOVEYOU worm was a simple love‑letter email that anyone could open.",
+      "label": "It was just a love email",
+      "query": "ILOVEYOU email subject love letter myth",
+      "query2": "ILOVEYOU worm email content",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "truth",
+      "text": "In fact, the worm used a Visual Basic script that exploited Outlook’s auto‑run feature, spreading without user interaction once the attachment was opened.",
+      "label": "VB script auto‑run exploit",
+      "query": "ILOVEYOU Visual Basic script exploit Outlook",
+      "query2": "ILOVEYOU worm technical details",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "Never trust unexpected attachments – they can run code silently.",
+      "label": "Attachments can run code",
+      "sub": "Email safety matters",
+      "label_on": "Attachment",
+      "query": "email attachment security best practice",
+      "query2": "phishing attachment danger",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "tech myth busting channel CTA",
+      "query2": "subscribe tech shorts",
+      "role": "cta"
+    }
+  ],
+  "description": "Uncover the real mechanics behind the infamous 1999 ILOVEYOU worm and why the love‑letter story is misleading. Stay safe and stay curious.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#techmyths",
+    "#virus",
+    "#cybersecurity",
+    "#history",
+    "#IT"
+  ],
+  "place": "",
+  "country": ""
+}

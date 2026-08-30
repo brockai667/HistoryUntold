@@ -1,0 +1,65 @@
+{
+  "title": "The 1999 Heroes of Might & Magic 3 Steam Omission Story",
+  "thumb": "HEROES OMMIT",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "1999 Heroes III launch missed a crucial Steam file",
+      "hook_top": "1999 HEROES OMMIT",
+      "query": "1999 Heroes of Might and Magic 3 Steam omission",
+      "query2": "Heroes III Steam missing file 1999",
+      "role": "hook"
+    },
+    {
+      "type": "count",
+      "num": 3,
+      "text": "The missing DLL caused the game to crash on modern Windows",
+      "label": "MISSING DLL CRASH",
+      "label_on": "Crash",
+      "query": "Heroes III missing DLL crash",
+      "query2": "Heroes III Windows compatibility issue",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 2,
+      "text": "Community patches restored the file and added 4K support",
+      "label": "COMMUNITY PATCHES",
+      "label_on": "Patch",
+      "query": "Heroes III community patch 4K",
+      "query2": "Heroes III fan-made compatibility patch",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 1,
+      "text": "Ubisoft later re‑released a corrected version on Steam",
+      "label": "UBISOFT RE‑RELEASE",
+      "label_on": "Release",
+      "query": "Ubisoft Heroes III Steam re-release",
+      "query2": "Heroes III updated Steam version",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "classic game mishap short",
+      "query2": "gaming bug short",
+      "role": "cta"
+    }
+  ],
+  "description": "A tiny oversight in the 1999 Steam launch of Heroes of Might & Magic III caused big headaches. See the three key moments that fixed it. Follow for more retro gaming tales!",
+  "hashtags": [
+    "#gaminghistory",
+    "#shorts",
+    "#fyp",
+    "#retro",
+    "#games",
+    "#tech"
+  ],
+  "place": "",
+  "country": ""
+}

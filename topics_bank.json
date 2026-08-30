@@ -9949,6 +9949,420 @@
     "country": ""
   },
   {
+    "title": "How CD‑ROM Laser Reads Data at 780 nm",
+    "thumb": "LASER READ",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "780 nm laser lets CDs store songs and games alike",
+        "hook_top": "780NM CD LASER",
+        "query": "780 nm CD laser wavelength",
+        "query2": "CD optical pickup laser specs",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "text": "Infrared light reflects off pits and lands encoded on the disc",
+        "label": "PITS AND LANDS REFLECTION",
+        "label_on": "Reflection",
+        "query": "CD pits and lands data encoding",
+        "query2": "CD optical data pits lands",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "text": "Photodiode converts the reflected light into binary signals",
+        "label": "PHOTODIODE TO BINARY",
+        "label_on": "Photodiode",
+        "query": "CD photodiode signal conversion",
+        "query2": "optical pickup photodiode function",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "text": "Error‑correction algorithms fix minor scratches during playback",
+        "label": "ERROR‑CORRECTION CODE",
+        "label_on": "ECC",
+        "query": "CD error correction algorithm",
+        "query2": "CD ECC technology",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "everyday tech short",
+        "query2": "tech explained short",
+        "role": "cta"
+      }
+    ],
+    "description": "The 780 nm infrared laser is the heart of every CD, turning tiny pits into music and data. Discover three core steps of the read process. Follow for more tech deep dives!",
+    "hashtags": [
+      "#howitworks",
+      "#shorts",
+      "#fyp",
+      "#tech",
+      "#retrotech",
+      "#electronics"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The 1999 Heroes of Might & Magic 3 Steam Omission Story",
+    "thumb": "HEROES OMMIT",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "1999 Heroes III launch missed a crucial Steam file",
+        "hook_top": "1999 HEROES OMMIT",
+        "query": "1999 Heroes of Might and Magic 3 Steam omission",
+        "query2": "Heroes III Steam missing file 1999",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "text": "The missing DLL caused the game to crash on modern Windows",
+        "label": "MISSING DLL CRASH",
+        "label_on": "Crash",
+        "query": "Heroes III missing DLL crash",
+        "query2": "Heroes III Windows compatibility issue",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "text": "Community patches restored the file and added 4K support",
+        "label": "COMMUNITY PATCHES",
+        "label_on": "Patch",
+        "query": "Heroes III community patch 4K",
+        "query2": "Heroes III fan-made compatibility patch",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "text": "Ubisoft later re‑released a corrected version on Steam",
+        "label": "UBISOFT RE‑RELEASE",
+        "label_on": "Release",
+        "query": "Ubisoft Heroes III Steam re-release",
+        "query2": "Heroes III updated Steam version",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "classic game mishap short",
+        "query2": "gaming bug short",
+        "role": "cta"
+      }
+    ],
+    "description": "A tiny oversight in the 1999 Steam launch of Heroes of Might & Magic III caused big headaches. See the three key moments that fixed it. Follow for more retro gaming tales!",
+    "hashtags": [
+      "#gaminghistory",
+      "#shorts",
+      "#fyp",
+      "#retro",
+      "#games",
+      "#tech"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The 1999 ILOVEYOU Virus: Myth vs Reality",
+    "thumb": "VIRUS MYTH",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "1999 saw a virus that hit millions in a single day",
+        "hook_top": "MILLIONS INFECTED DAY",
+        "query": "ILOVEYOU virus 1999 spread statistics",
+        "query2": "ILOVEYOU worm impact",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "Many believe the ILOVEYOU worm was a simple love‑letter email that anyone could open.",
+        "label": "It was just a love email",
+        "query": "ILOVEYOU email subject love letter myth",
+        "query2": "ILOVEYOU worm email content",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "In fact, the worm used a Visual Basic script that exploited Outlook’s auto‑run feature, spreading without user interaction once the attachment was opened.",
+        "label": "VB script auto‑run exploit",
+        "query": "ILOVEYOU Visual Basic script exploit Outlook",
+        "query2": "ILOVEYOU worm technical details",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Never trust unexpected attachments – they can run code silently.",
+        "label": "Attachments can run code",
+        "sub": "Email safety matters",
+        "label_on": "Attachment",
+        "query": "email attachment security best practice",
+        "query2": "phishing attachment danger",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "tech myth busting channel CTA",
+        "query2": "subscribe tech shorts",
+        "role": "cta"
+      }
+    ],
+    "description": "Uncover the real mechanics behind the infamous 1999 ILOVEYOU worm and why the love‑letter story is misleading. Stay safe and stay curious.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#techmyths",
+      "#virus",
+      "#cybersecurity",
+      "#history",
+      "#IT"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Why Your SSD Slows Down Over Time",
+    "thumb": "SSD WEAR",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "A single SSD cell can hold three bits of data",
+        "hook_top": "TRIPLEBIT CELLS",
+        "query": "TLC NAND three bits per cell",
+        "query2": "Triple level cell SSD data per cell",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "TLC stores 3 bits per cell, while SLC stores only 1 bit",
+        "chips": [
+          {
+            "t": "3 BITS",
+            "on": "bits",
+            "style": "accent"
+          }
+        ],
+        "punch": "wow",
+        "query": "TLC vs SLC bits per cell",
+        "query2": "NAND flash TLC 3 bits",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Writing a TLC cell requires up to 3 program‑and‑erase cycles per write",
+        "chips": [
+          {
+            "t": "3 CYCLES",
+            "on": "cycles",
+            "style": "white"
+          }
+        ],
+        "punch": "ouch",
+        "query": "TLC program erase cycles",
+        "query2": "SSD wear TLC cycles",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "Those extra cycles cause faster wear, so TLC SSDs lose speed sooner than SLC drives",
+        "reveal_top": "FASTER WEAR",
+        "query": "TLC SSD wear faster than SLC",
+        "query2": "SSD endurance TLC vs SLC",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "everyday tech short videos",
+        "query2": "how tech works shorts",
+        "role": "cta"
+      }
+    ],
+    "description": "Learn how the three‑bit design of TLC NAND makes SSDs cheaper—but also shorter‑lived. Hit follow for simple tech explainers!",
+    "hashtags": [
+      "#shorts",
+      "#tech",
+      "#SSD",
+      "#NAND",
+      "#hardware",
+      "#fyp",
+      "#explained"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The 1988 Morris Worm: Birth of the First US Cyber‑Team",
+    "thumb": "MORRIS WORM",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "In 1988 a single code infected 6 000 computers overnight",
+        "hook_top": "6000 INFECTED",
+        "query": "1988 Morris worm infected 6000 computers",
+        "query2": "Morris worm infection count",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The worm spread via a vulnerability in the UNIX sendmail program",
+        "chips": [
+          {
+            "t": "SENDMAIL BUG",
+            "on": "bug",
+            "style": "accent"
+          }
+        ],
+        "punch": "boom",
+        "query": "Morris worm sendmail vulnerability",
+        "query2": "UNIX sendmail bug 1988",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Estimated damages were between $100 million and $10 billion, prompting a federal response",
+        "chips": [
+          {
+            "t": "$100 M‑$10 B",
+            "on": "damage",
+            "style": "white"
+          }
+        ],
+        "punch": "shock",
+        "query": "Morris worm damage estimate 100 million to 10 billion",
+        "query2": "Morris worm financial impact",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "The attack led directly to the creation of the first US Computer Emergency Response Team (CERT)",
+        "reveal_top": "CERT BORN",
+        "query": "Morris worm led to creation of CERT",
+        "query2": "first US CERT origin",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "famous hacks short videos",
+        "query2": "cybersecurity history shorts",
+        "role": "cta"
+      }
+    ],
+    "description": "The Morris Worm wasn't just a virus—it sparked the birth of the nation’s first cyber‑defense team. Follow for more real hacking legends!",
+    "hashtags": [
+      "#shorts",
+      "#hacking",
+      "#MorrisWorm",
+      "#cybersecurity",
+      "#history",
+      "#fyp",
+      "#tech"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Why the 1995 Windows 95 Startup Sound Still Gives You Chills",
+    "thumb": "WIN95 SOUND",
+    "scenes": [
+      {
+        "text": "That 2‑second chime launched on October 3 1995",
+        "hook_top": "WIN95 CHIME LAUNCH",
+        "query": "Windows 95 startup sound October 3 1995",
+        "query2": "Windows 95 boot sound release date",
+        "role": "hook"
+      },
+      {
+        "text": "It was composed by Brian Earl Miller using a 3‑second synth sample",
+        "chips": [
+          {
+            "t": "3‑SECOND SAMPLE",
+            "on": "sample",
+            "style": "white"
+          },
+          {
+            "t": "BRIAN MILLER",
+            "on": "composer",
+            "style": "accent"
+          }
+        ],
+        "punch": "synth",
+        "query": "Brian Miller Windows 95 startup music composition",
+        "query2": "Windows 95 boot chime creator",
+        "role": "fact"
+      },
+      {
+        "text": "The sound file is stored as a 1‑kilobyte WAV in SYSTEM32",
+        "chips": [
+          {
+            "t": "1 KB WAV",
+            "on": "size",
+            "style": "white"
+          },
+          {
+            "t": "SYSTEM32",
+            "on": "folder",
+            "style": "accent"
+          }
+        ],
+        "query": "Windows 95 startup.wav file size",
+        "query2": "SYSTEM32 startup sound Windows95",
+        "role": "fact"
+      },
+      {
+        "text": "That tiny tune became a cultural icon for the PC era",
+        "label": "ICONIC PC JINGLE",
+        "sub": "A 2‑second sound that defined a generation",
+        "label_on": "iconic",
+        "query": "cultural impact Windows 95 startup sound",
+        "query2": "Windows 95 boot chime popularity",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "query": "follow call to action tech shorts",
+        "query2": "subscribe tech channel CTA",
+        "role": "cta"
+      }
+    ],
+    "description": "Explore the tiny 1 KB WAV that greeted millions of Windows 95 users. The chime’s simple synth still echoes in gaming culture today. Follow for more tech secrets.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#techhistory",
+      "#Windows95",
+      "#gaming",
+      "#retro",
+      "#computers"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
     "title": "Why the Original GameCube Couldn’t Play DVDs—The Real Reason",
     "thumb": "GAMECUBE DVD",
     "scenes": [
@@ -10006,209 +10420,6 @@
       "#techmyths",
       "#Nintendo",
       "#GameCube"
-    ],
-    "place": "",
-    "country": ""
-  },
-  {
-    "title": "Why the 1995 PlayStation Launch Still Echoes Today",
-    "thumb": "PLAYSTATION LAUNCH",
-    "scenes": [
-      {
-        "type": "hook",
-        "text": "Did you know the original PlayStation shipped 2 million units in its first year?",
-        "hook_top": "PLAYSTATION SHIPPED 2M",
-        "query": "1995 PlayStation launch sales",
-        "query2": "original PlayStation first year shipments",
-        "role": "hook"
-      },
-      {
-        "type": "count",
-        "num": 3,
-        "text": "It used a custom 33.8 MHz R3000 processor, a rare CPU for consoles then.",
-        "label": "CUSTOM 33.8MHZ CPU",
-        "label_on": "CPU",
-        "query": "PlayStation R3000 processor specifications",
-        "query2": "Sony PlayStation custom CPU 33.8MHz",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "count",
-        "num": 2,
-        "text": "The console’s CD-ROM could read 150 KB/s, far faster than cartridge speeds.",
-        "label": "FAST CD-ROM READ",
-        "label_on": "CDROM",
-        "query": "PlayStation CD-ROM read speed 150KB/s",
-        "query2": "original PlayStation CD read speed",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "count",
-        "num": 1,
-        "text": "Sony’s “PS‑One” branding was a marketing move that helped it dominate the mid‑90s market.",
-        "label": "PS‑ONE BRANDING IMPACT",
-        "label_on": "BRANDING",
-        "query": "PS-One branding strategy 1990s",
-        "query2": "Sony PlayStation marketing PS-One",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "cta",
-        "text": "Follow for daily tech you should actually know.",
-        "query": "gaming history follow CTA",
-        "query2": "tech brand CTA follow",
-        "role": "cta"
-      }
-    ],
-    "description": "Explore three game‑changing facts about the PlayStation’s debut that still shape consoles today. Dive deeper with us!",
-    "hashtags": [
-      "#shorts",
-      "#fyp",
-      "#gaminghistory",
-      "#PlayStation",
-      "#techfacts",
-      "#retro"
-    ],
-    "place": "",
-    "country": ""
-  },
-  {
-    "title": "Did the PlayStation’s 1995 launch ship 100,000 units on day one?",
-    "thumb": "PLAYSTATION LAUNCH",
-    "scenes": [
-      {
-        "type": "hook",
-        "text": "100,000 PlayStations shipped on launch day in 1995?",
-        "hook_top": "100K PLAYSTATION LAUNCH",
-        "query": "1995 PlayStation launch shipment numbers",
-        "query2": "PlayStation 1995 sales debut",
-        "role": "hook"
-      },
-      {
-        "type": "myth",
-        "text": "Many believe Sony sold exactly 100,000 consoles on the first day.",
-        "label": "100K sold day‑one myth",
-        "query": "PlayStation first‑day sales myth",
-        "query2": "Sony 1995 launch sales rumor",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "truth",
-        "text": "Sony announced 300,000 units shipped in the first week, not a single‑day figure.",
-        "label": "300K shipped first week",
-        "query": "PlayStation first week shipment 1995",
-        "query2": "Sony 1995 PlayStation sales data",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "callout",
-        "text": "First‑week hype, not day‑one record.",
-        "label": "First‑Week Fact",
-        "sub": "The launch was a week‑long surge, not a 24‑hour miracle.",
-        "label_on": "Fact",
-        "query": "PlayStation launch week sales",
-        "query2": "1995 Sony console shipments",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "cta",
-        "text": "Follow to stay ahead of the tech curve.",
-        "query": "PlayStation myth busting",
-        "query2": "gaming history short",
-        "role": "cta"
-      }
-    ],
-    "description": "The PlayStation’s debut was a massive success, but the 100‑k‑day‑one story is wrong. Learn the real numbers and why it matters.",
-    "hashtags": [
-      "#shorts",
-      "#gaminghistory",
-      "#PlayStation",
-      "#mythbusting",
-      "#retro",
-      "#fyp"
-    ],
-    "place": "",
-    "country": ""
-  },
-  {
-    "title": "The 1999 ILOVEYOU Virus Spread to 10 Million Emails in Hours",
-    "thumb": "ILOVEYOU VIRUS",
-    "scenes": [
-      {
-        "text": "In May 2000, the ILOVEYOU worm hit inboxes worldwide, sending itself to 10 million contacts in under 24 hours.",
-        "hook_top": "10M EMAILS FAST",
-        "chips": [
-          {
-            "t": "10 M EMAILS",
-            "on": "sent",
-            "style": "accent"
-          }
-        ],
-        "query": "ILOVEYOU worm 10 million emails 2000",
-        "query2": "ILOVEYOU virus spread statistics",
-        "role": "hook"
-      },
-      {
-        "text": "It exploited a simple VBA script in Microsoft Outlook, requiring no user interaction beyond opening the attachment.",
-        "chips": [
-          {
-            "t": "VBA SCRIPT",
-            "on": "exploit",
-            "style": "white"
-          }
-        ],
-        "query": "ILOVEYOU Outlook VBA exploit",
-        "query2": "ILOVEYOU email attachment script",
-        "role": "fact"
-      },
-      {
-        "text": "The damage cost estimates ranged from $5 billion to $10 billion globally.",
-        "chips": [
-          {
-            "t": "$5‑10 B",
-            "on": "damage",
-            "style": "accent"
-          }
-        ],
-        "query": "ILOVEYOU virus damage cost billions",
-        "query2": "ILOVEYOU economic impact",
-        "role": "fact"
-      },
-      {
-        "text": "Surprising twist: the worm was traced back to a single 19‑year‑old student in the Philippines, highlighting early cyber‑crime geography.",
-        "reveal_top": "PHILIPPINE HACKER",
-        "chips": [
-          {
-            "t": "19‑YEAR‑OLD",
-            "on": "author",
-            "style": "white"
-          }
-        ],
-        "query": "ILOVEYOU virus creator 19 year old Philippines",
-        "query2": "who wrote ILOVEYOU worm",
-        "role": "fact"
-      },
-      {
-        "text": "Follow for daily tech and AI news.",
-        "query": "ILOVEYOU hack short recap",
-        "query2": "famous virus short video",
-        "role": "cta"
-      }
-    ],
-    "description": "The ILOVEYOU worm exploded across the globe, hitting 10 million inboxes and costing billions. Learn how a single teenager sparked the biggest email outbreak ever. Follow for more hack histories!",
-    "hashtags": [
-      "#shorts",
-      "#hack",
-      "#cybersecurity",
-      "#virus",
-      "#ILOVEYOU",
-      "#fyp"
     ],
     "place": "",
     "country": ""

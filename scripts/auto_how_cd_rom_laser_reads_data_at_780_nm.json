@@ -1,0 +1,65 @@
+{
+  "title": "How CD‑ROM Laser Reads Data at 780 nm",
+  "thumb": "LASER READ",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "780 nm laser lets CDs store songs and games alike",
+      "hook_top": "780NM CD LASER",
+      "query": "780 nm CD laser wavelength",
+      "query2": "CD optical pickup laser specs",
+      "role": "hook"
+    },
+    {
+      "type": "count",
+      "num": 3,
+      "text": "Infrared light reflects off pits and lands encoded on the disc",
+      "label": "PITS AND LANDS REFLECTION",
+      "label_on": "Reflection",
+      "query": "CD pits and lands data encoding",
+      "query2": "CD optical data pits lands",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 2,
+      "text": "Photodiode converts the reflected light into binary signals",
+      "label": "PHOTODIODE TO BINARY",
+      "label_on": "Photodiode",
+      "query": "CD photodiode signal conversion",
+      "query2": "optical pickup photodiode function",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 1,
+      "text": "Error‑correction algorithms fix minor scratches during playback",
+      "label": "ERROR‑CORRECTION CODE",
+      "label_on": "ECC",
+      "query": "CD error correction algorithm",
+      "query2": "CD ECC technology",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "everyday tech short",
+      "query2": "tech explained short",
+      "role": "cta"
+    }
+  ],
+  "description": "The 780 nm infrared laser is the heart of every CD, turning tiny pits into music and data. Discover three core steps of the read process. Follow for more tech deep dives!",
+  "hashtags": [
+    "#howitworks",
+    "#shorts",
+    "#fyp",
+    "#tech",
+    "#retrotech",
+    "#electronics"
+  ],
+  "place": "",
+  "country": ""
+}
