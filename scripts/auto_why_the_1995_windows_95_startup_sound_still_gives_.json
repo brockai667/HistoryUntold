@@ -1,0 +1,78 @@
+{
+  "title": "Why the 1995 Windows 95 Startup Sound Still Gives You Chills",
+  "thumb": "WIN95 SOUND",
+  "scenes": [
+    {
+      "text": "That 2‑second chime launched on October 3 1995",
+      "hook_top": "WIN95 CHIME LAUNCH",
+      "query": "Windows 95 startup sound October 3 1995",
+      "query2": "Windows 95 boot sound release date",
+      "role": "hook"
+    },
+    {
+      "text": "It was composed by Brian Earl Miller using a 3‑second synth sample",
+      "chips": [
+        {
+          "t": "3‑SECOND SAMPLE",
+          "on": "sample",
+          "style": "white"
+        },
+        {
+          "t": "BRIAN MILLER",
+          "on": "composer",
+          "style": "accent"
+        }
+      ],
+      "punch": "synth",
+      "query": "Brian Miller Windows 95 startup music composition",
+      "query2": "Windows 95 boot chime creator",
+      "role": "fact"
+    },
+    {
+      "text": "The sound file is stored as a 1‑kilobyte WAV in SYSTEM32",
+      "chips": [
+        {
+          "t": "1 KB WAV",
+          "on": "size",
+          "style": "white"
+        },
+        {
+          "t": "SYSTEM32",
+          "on": "folder",
+          "style": "accent"
+        }
+      ],
+      "query": "Windows 95 startup.wav file size",
+      "query2": "SYSTEM32 startup sound Windows95",
+      "role": "fact"
+    },
+    {
+      "text": "That tiny tune became a cultural icon for the PC era",
+      "label": "ICONIC PC JINGLE",
+      "sub": "A 2‑second sound that defined a generation",
+      "label_on": "iconic",
+      "query": "cultural impact Windows 95 startup sound",
+      "query2": "Windows 95 boot chime popularity",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow for daily tech and AI news.",
+      "query": "follow call to action tech shorts",
+      "query2": "subscribe tech channel CTA",
+      "role": "cta"
+    }
+  ],
+  "description": "Explore the tiny 1 KB WAV that greeted millions of Windows 95 users. The chime’s simple synth still echoes in gaming culture today. Follow for more tech secrets.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#techhistory",
+    "#Windows95",
+    "#gaming",
+    "#retro",
+    "#computers"
+  ],
+  "place": "",
+  "country": ""
+}

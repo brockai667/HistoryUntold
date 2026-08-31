@@ -1,0 +1,72 @@
+{
+  "title": "The 1988 Morris Worm: Birth of the First US Cyber‑Team",
+  "thumb": "MORRIS WORM",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "In 1988 a single code infected 6 000 computers overnight",
+      "hook_top": "6000 INFECTED",
+      "query": "1988 Morris worm infected 6000 computers",
+      "query2": "Morris worm infection count",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The worm spread via a vulnerability in the UNIX sendmail program",
+      "chips": [
+        {
+          "t": "SENDMAIL BUG",
+          "on": "bug",
+          "style": "accent"
+        }
+      ],
+      "punch": "boom",
+      "query": "Morris worm sendmail vulnerability",
+      "query2": "UNIX sendmail bug 1988",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Estimated damages were between $100 million and $10 billion, prompting a federal response",
+      "chips": [
+        {
+          "t": "$100 M‑$10 B",
+          "on": "damage",
+          "style": "white"
+        }
+      ],
+      "punch": "shock",
+      "query": "Morris worm damage estimate 100 million to 10 billion",
+      "query2": "Morris worm financial impact",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "The attack led directly to the creation of the first US Computer Emergency Response Team (CERT)",
+      "reveal_top": "CERT BORN",
+      "query": "Morris worm led to creation of CERT",
+      "query2": "first US CERT origin",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech you should actually know.",
+      "query": "famous hacks short videos",
+      "query2": "cybersecurity history shorts",
+      "role": "cta"
+    }
+  ],
+  "description": "The Morris Worm wasn't just a virus—it sparked the birth of the nation’s first cyber‑defense team. Follow for more real hacking legends!",
+  "hashtags": [
+    "#shorts",
+    "#hacking",
+    "#MorrisWorm",
+    "#cybersecurity",
+    "#history",
+    "#fyp",
+    "#tech"
+  ],
+  "place": "",
+  "country": ""
+}

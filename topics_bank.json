@@ -10363,63 +10363,270 @@
     "country": ""
   },
   {
-    "title": "Why the Original GameCube Couldn’t Play DVDs—The Real Reason",
-    "thumb": "GAMECUBE DVD",
+    "title": "Why the 1992 Sega CD Was a Game‑Changing Add‑On",
+    "thumb": "SEGA CD",
     "scenes": [
       {
         "type": "hook",
-        "text": "2001 Nintendo GameCube shipped without DVD playback despite a built‑in disc drive",
-        "hook_top": "GAMECUBE DVD LIMIT",
-        "query": "Nintendo GameCube DVD playback limitation 2001",
-        "query2": "GameCube disc drive cannot play DVDs",
+        "text": "1992 saw Sega add a CD player to its Mega‑Drive – why?",
+        "hook_top": "SEGA CD 1992",
+        "query": "Sega CD 1992 launch",
+        "query2": "Sega Mega Drive CD add‑on 1992",
         "role": "hook"
       },
       {
-        "type": "myth",
-        "text": "Fans think Nintendo omitted DVD support to cut costs on hardware.",
-        "label": "Cost‑cut DVD omission",
-        "query": "Nintendo GameCube DVD cost cut myth",
-        "query2": "why GameCube no DVD myth",
+        "type": "count",
+        "num": 3,
+        "text": "It introduced full‑motion video, something no cartridge could store.",
+        "label": "FULL‑MOTION VIDEO",
+        "label_on": "video",
+        "query": "Sega CD full motion video capability",
+        "query2": "Sega CD FMV games",
         "role": "fact",
         "chips": []
       },
       {
-        "type": "truth",
-        "text": "Nintendo chose a proprietary Mini‑DVD format to avoid licensing fees and to keep the console’s size compact.",
-        "label": "Mini‑DVD for licensing",
-        "query": "Nintendo Mini DVD licensing decision GameCube",
-        "query2": "GameCube proprietary disc format reason",
+        "type": "count",
+        "num": 2,
+        "text": "The disc could hold up to 650 MB, far more than the 4 MB cartridge limit.",
+        "label": "650 MB DISCS",
+        "label_on": "capacity",
+        "query": "Sega CD disc capacity 650 MB",
+        "query2": "Sega CD storage size",
         "role": "fact",
         "chips": []
       },
       {
-        "type": "callout",
-        "text": "Design choices, not just price tags!",
-        "label": "Design Over Cost",
-        "sub": "Mini‑DVDs saved space and fees.",
-        "label_on": "Design",
-        "query": "GameCube design decisions MiniDVD",
-        "query2": "Nintendo console design reasons",
+        "type": "count",
+        "num": 1,
+        "text": "It added a second audio channel, giving games CD‑quality music.",
+        "label": "SECOND AUDIO CHANNEL",
+        "label_on": "audio",
+        "query": "Sega CD audio channel",
+        "query2": "Sega CD sound hardware",
         "role": "fact",
         "chips": []
       },
       {
         "type": "cta",
-        "text": "Follow if tech moves faster than you can keep up.",
-        "query": "follow retro tech channel",
-        "query2": "subscribe gaming tech",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "Sega CD follow CTA",
+        "query2": "retro tech follow CTA",
         "role": "cta"
       }
     ],
-    "description": "Uncover why Nintendo’s 2001 GameCube used Mini‑DVDs and how that shaped its library. More hidden tech stories await. #shorts #fyp #retrotech #gaminghistory #techmyths #Nintendo #GameCube",
+    "description": "The Sega CD turned the Mega‑Drive into a multimedia machine, paving the way for modern game audio and video. Stay tuned for more hidden hardware stories.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#gaminghistory",
+      "#retrotech",
+      "#SegaCD",
+      "#techfacts"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Why the 1993 Atari Jaguar Was Marketed as ‘The 64‑Bit Monster’",
+    "thumb": "JAGUAR 64‑BIT",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "1993 Atari called the Jaguar a 64‑bit monster – was it true?",
+        "hook_top": "JAGUAR 1993",
+        "query": "Atari Jaguar 64-bit claim 1993",
+        "query2": "Atari Jaguar 1993 specifications",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "text": "Its GPU processed 32‑bit data but used a 64‑bit data bus internally.",
+        "label": "64‑BIT DATA BUS",
+        "label_on": "bus",
+        "query": "Atari Jaguar 64-bit data bus",
+        "query2": "Jaguar internal architecture",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "text": "The system combined three custom chips, making programming extremely complex.",
+        "label": "TRIPLE‑CHIP DESIGN",
+        "label_on": "chips",
+        "query": "Atari Jaguar three chip architecture",
+        "query2": "Jaguar custom chips",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "text": "Limited third‑party support meant few games could truly exploit the hardware.",
+        "label": "SCARCE GAMES",
+        "label_on": "games",
+        "query": "Atari Jaguar game library size",
+        "query2": "Jaguar third party support",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "Jaguar follow CTA",
+        "query2": "retro console follow CTA",
+        "role": "cta"
+      }
+    ],
+    "description": "The Jaguar’s marketing hype outpaced its real capabilities, leading to a short‑lived legacy. Follow for more deep dives into lost tech.",
     "hashtags": [
       "#shorts",
       "#fyp",
       "#retrotech",
       "#gaminghistory",
-      "#techmyths",
-      "#Nintendo",
-      "#GameCube"
+      "#AtariJaguar",
+      "#tech"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "How 1.6‑MB Floppy Drives Revolutionized Home Computing",
+    "thumb": "FLAPPY STORAGE",
+    "scenes": [
+      {
+        "hook_top": "16 MB FLOPPY",
+        "query": "1977 1.6 MB floppy drive",
+        "query2": "floppy disk drive",
+        "role": "hook",
+        "text": "1.6‑MB floppy was the first affordable PC disk"
+      },
+      {
+        "chips": [
+          {
+            "t": "1.6 MB",
+            "on": "data",
+            "style": "accent"
+          }
+        ],
+        "query": "1.6 MB floppy capacity",
+        "query2": "floppy disk capacity",
+        "role": "fact",
+        "text": "It held 1.6 megabytes of data, double the 0.8‑MB before"
+      },
+      {
+        "chips": [
+          {
+            "t": "1981",
+            "on": "IBM PC",
+            "style": "white"
+          },
+          {
+            "t": "5.25\"",
+            "on": "floppy",
+            "style": "accent"
+          }
+        ],
+        "query": "1981 IBM PC floppy drive",
+        "query2": "IBM PC 5.25\" floppy",
+        "role": "fact",
+        "text": "Microsoft shipped the IBM PC with a 5.25‑inch drive in 1981"
+      },
+      {
+        "reveal_top": "STD FORMAT",
+        "query": "1.6 MB floppy formatting standard",
+        "query2": "disk formatting standard",
+        "role": "reveal",
+        "text": "The 1.6‑MB drive also introduced the first standard for disk formatting"
+      },
+      {
+        "query": "follow",
+        "query2": "cinematic nature landscape",
+        "role": "cta",
+        "text": "Follow for daily tech and AI news."
+      }
+    ],
+    "description": "From 0.8 MB to 1.6 MB, the floppy disk doubled data storage and set the stage for modern file systems. Discover how a tiny drive reshaped the PC world. Follow for more tech history bites!",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#techhistory",
+      "#floppy",
+      "#computers",
+      "#PC"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "What Fueled the PlayStation’s 100‑Million‑Unit Surge?",
+    "thumb": "PLAYSTATION POWER",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "The original PlayStation sold over 100 million units worldwide.",
+        "hook_top": "PLAYSTATION SOLD 100M",
+        "query": "PlayStation 1994 sales 100 million units",
+        "query2": "original PlayStation worldwide sales",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "Its 33.9 mm CD‑ROM could hold up to 650 MB, far more than cartridge limits.",
+        "chips": [
+          {
+            "t": "650 MB CD‑ROM",
+            "on": "capacity",
+            "style": "accent"
+          }
+        ],
+        "query": "PlayStation CD-ROM capacity 650 MB",
+        "query2": "original PlayStation disc size",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Sony bundled a dual‑shock controller with vibration, a first for home consoles.",
+        "chips": [
+          {
+            "t": "dual‑shock",
+            "on": "controller",
+            "style": "white"
+          }
+        ],
+        "query": "PlayStation dual shock introduction 1995",
+        "query2": "first vibration controller home console",
+        "role": "fact"
+      },
+      {
+        "type": "callout",
+        "text": "CDs + vibration = the PlayStation’s secret weapon.",
+        "label": "CD + VIBRATION",
+        "sub": "Why gamers fell in love instantly",
+        "label_on": "secret",
+        "query": "PlayStation success factors CD vibration",
+        "query2": "why PlayStation popular 1995",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "PlayStation history short",
+        "query2": "gaming history shorts",
+        "role": "cta"
+      }
+    ],
+    "description": "Discover the concrete reasons the PlayStation exploded onto the market and became a cultural icon. Stay tuned for more tech breakthroughs!",
+    "hashtags": [
+      "#shorts",
+      "#gaminghistory",
+      "#PlayStation",
+      "#retro",
+      "#techfacts",
+      "#fyp"
     ],
     "place": "",
     "country": ""

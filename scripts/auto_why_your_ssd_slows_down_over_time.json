@@ -1,0 +1,72 @@
+{
+  "title": "Why Your SSD Slows Down Over Time",
+  "thumb": "SSD WEAR",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "A single SSD cell can hold three bits of data",
+      "hook_top": "TRIPLEBIT CELLS",
+      "query": "TLC NAND three bits per cell",
+      "query2": "Triple level cell SSD data per cell",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "TLC stores 3 bits per cell, while SLC stores only 1 bit",
+      "chips": [
+        {
+          "t": "3 BITS",
+          "on": "bits",
+          "style": "accent"
+        }
+      ],
+      "punch": "wow",
+      "query": "TLC vs SLC bits per cell",
+      "query2": "NAND flash TLC 3 bits",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Writing a TLC cell requires up to 3 program‑and‑erase cycles per write",
+      "chips": [
+        {
+          "t": "3 CYCLES",
+          "on": "cycles",
+          "style": "white"
+        }
+      ],
+      "punch": "ouch",
+      "query": "TLC program erase cycles",
+      "query2": "SSD wear TLC cycles",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "Those extra cycles cause faster wear, so TLC SSDs lose speed sooner than SLC drives",
+      "reveal_top": "FASTER WEAR",
+      "query": "TLC SSD wear faster than SLC",
+      "query2": "SSD endurance TLC vs SLC",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "everyday tech short videos",
+      "query2": "how tech works shorts",
+      "role": "cta"
+    }
+  ],
+  "description": "Learn how the three‑bit design of TLC NAND makes SSDs cheaper—but also shorter‑lived. Hit follow for simple tech explainers!",
+  "hashtags": [
+    "#shorts",
+    "#tech",
+    "#SSD",
+    "#NAND",
+    "#hardware",
+    "#fyp",
+    "#explained"
+  ],
+  "place": "",
+  "country": ""
+}
