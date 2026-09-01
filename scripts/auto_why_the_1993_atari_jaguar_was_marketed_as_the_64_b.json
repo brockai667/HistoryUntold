@@ -1,0 +1,65 @@
+{
+  "title": "Why the 1993 Atari Jaguar Was Marketed as ‘The 64‑Bit Monster’",
+  "thumb": "JAGUAR 64‑BIT",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "1993 Atari called the Jaguar a 64‑bit monster – was it true?",
+      "hook_top": "JAGUAR 1993",
+      "query": "Atari Jaguar 64-bit claim 1993",
+      "query2": "Atari Jaguar 1993 specifications",
+      "role": "hook"
+    },
+    {
+      "type": "count",
+      "num": 3,
+      "text": "Its GPU processed 32‑bit data but used a 64‑bit data bus internally.",
+      "label": "64‑BIT DATA BUS",
+      "label_on": "bus",
+      "query": "Atari Jaguar 64-bit data bus",
+      "query2": "Jaguar internal architecture",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 2,
+      "text": "The system combined three custom chips, making programming extremely complex.",
+      "label": "TRIPLE‑CHIP DESIGN",
+      "label_on": "chips",
+      "query": "Atari Jaguar three chip architecture",
+      "query2": "Jaguar custom chips",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 1,
+      "text": "Limited third‑party support meant few games could truly exploit the hardware.",
+      "label": "SCARCE GAMES",
+      "label_on": "games",
+      "query": "Atari Jaguar game library size",
+      "query2": "Jaguar third party support",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "Jaguar follow CTA",
+      "query2": "retro console follow CTA",
+      "role": "cta"
+    }
+  ],
+  "description": "The Jaguar’s marketing hype outpaced its real capabilities, leading to a short‑lived legacy. Follow for more deep dives into lost tech.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#retrotech",
+    "#gaminghistory",
+    "#AtariJaguar",
+    "#tech"
+  ],
+  "place": "",
+  "country": ""
+}

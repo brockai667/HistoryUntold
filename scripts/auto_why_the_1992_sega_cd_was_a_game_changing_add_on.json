@@ -1,0 +1,65 @@
+{
+  "title": "Why the 1992 Sega CD Was a Game‑Changing Add‑On",
+  "thumb": "SEGA CD",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "1992 saw Sega add a CD player to its Mega‑Drive – why?",
+      "hook_top": "SEGA CD 1992",
+      "query": "Sega CD 1992 launch",
+      "query2": "Sega Mega Drive CD add‑on 1992",
+      "role": "hook"
+    },
+    {
+      "type": "count",
+      "num": 3,
+      "text": "It introduced full‑motion video, something no cartridge could store.",
+      "label": "FULL‑MOTION VIDEO",
+      "label_on": "video",
+      "query": "Sega CD full motion video capability",
+      "query2": "Sega CD FMV games",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 2,
+      "text": "The disc could hold up to 650 MB, far more than the 4 MB cartridge limit.",
+      "label": "650 MB DISCS",
+      "label_on": "capacity",
+      "query": "Sega CD disc capacity 650 MB",
+      "query2": "Sega CD storage size",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 1,
+      "text": "It added a second audio channel, giving games CD‑quality music.",
+      "label": "SECOND AUDIO CHANNEL",
+      "label_on": "audio",
+      "query": "Sega CD audio channel",
+      "query2": "Sega CD sound hardware",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "Sega CD follow CTA",
+      "query2": "retro tech follow CTA",
+      "role": "cta"
+    }
+  ],
+  "description": "The Sega CD turned the Mega‑Drive into a multimedia machine, paving the way for modern game audio and video. Stay tuned for more hidden hardware stories.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#gaminghistory",
+    "#retrotech",
+    "#SegaCD",
+    "#techfacts"
+  ],
+  "place": "",
+  "country": ""
+}

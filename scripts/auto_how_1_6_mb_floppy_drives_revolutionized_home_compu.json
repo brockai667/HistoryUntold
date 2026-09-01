@@ -1,0 +1,68 @@
+{
+  "title": "How 1.6‑MB Floppy Drives Revolutionized Home Computing",
+  "thumb": "FLAPPY STORAGE",
+  "scenes": [
+    {
+      "hook_top": "16 MB FLOPPY",
+      "query": "1977 1.6 MB floppy drive",
+      "query2": "floppy disk drive",
+      "role": "hook",
+      "text": "1.6‑MB floppy was the first affordable PC disk"
+    },
+    {
+      "chips": [
+        {
+          "t": "1.6 MB",
+          "on": "data",
+          "style": "accent"
+        }
+      ],
+      "query": "1.6 MB floppy capacity",
+      "query2": "floppy disk capacity",
+      "role": "fact",
+      "text": "It held 1.6 megabytes of data, double the 0.8‑MB before"
+    },
+    {
+      "chips": [
+        {
+          "t": "1981",
+          "on": "IBM PC",
+          "style": "white"
+        },
+        {
+          "t": "5.25\"",
+          "on": "floppy",
+          "style": "accent"
+        }
+      ],
+      "query": "1981 IBM PC floppy drive",
+      "query2": "IBM PC 5.25\" floppy",
+      "role": "fact",
+      "text": "Microsoft shipped the IBM PC with a 5.25‑inch drive in 1981"
+    },
+    {
+      "reveal_top": "STD FORMAT",
+      "query": "1.6 MB floppy formatting standard",
+      "query2": "disk formatting standard",
+      "role": "reveal",
+      "text": "The 1.6‑MB drive also introduced the first standard for disk formatting"
+    },
+    {
+      "query": "follow",
+      "query2": "cinematic nature landscape",
+      "role": "cta",
+      "text": "Follow for daily tech and AI news."
+    }
+  ],
+  "description": "From 0.8 MB to 1.6 MB, the floppy disk doubled data storage and set the stage for modern file systems. Discover how a tiny drive reshaped the PC world. Follow for more tech history bites!",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#techhistory",
+    "#floppy",
+    "#computers",
+    "#PC"
+  ],
+  "place": "",
+  "country": ""
+}
