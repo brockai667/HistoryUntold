@@ -1,0 +1,71 @@
+{
+  "title": "What Fueled the PlayStation’s 100‑Million‑Unit Surge?",
+  "thumb": "PLAYSTATION POWER",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "The original PlayStation sold over 100 million units worldwide.",
+      "hook_top": "PLAYSTATION SOLD 100M",
+      "query": "PlayStation 1994 sales 100 million units",
+      "query2": "original PlayStation worldwide sales",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "Its 33.9 mm CD‑ROM could hold up to 650 MB, far more than cartridge limits.",
+      "chips": [
+        {
+          "t": "650 MB CD‑ROM",
+          "on": "capacity",
+          "style": "accent"
+        }
+      ],
+      "query": "PlayStation CD-ROM capacity 650 MB",
+      "query2": "original PlayStation disc size",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Sony bundled a dual‑shock controller with vibration, a first for home consoles.",
+      "chips": [
+        {
+          "t": "dual‑shock",
+          "on": "controller",
+          "style": "white"
+        }
+      ],
+      "query": "PlayStation dual shock introduction 1995",
+      "query2": "first vibration controller home console",
+      "role": "fact"
+    },
+    {
+      "type": "callout",
+      "text": "CDs + vibration = the PlayStation’s secret weapon.",
+      "label": "CD + VIBRATION",
+      "sub": "Why gamers fell in love instantly",
+      "label_on": "secret",
+      "query": "PlayStation success factors CD vibration",
+      "query2": "why PlayStation popular 1995",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech you should actually know.",
+      "query": "PlayStation history short",
+      "query2": "gaming history shorts",
+      "role": "cta"
+    }
+  ],
+  "description": "Discover the concrete reasons the PlayStation exploded onto the market and became a cultural icon. Stay tuned for more tech breakthroughs!",
+  "hashtags": [
+    "#shorts",
+    "#gaminghistory",
+    "#PlayStation",
+    "#retro",
+    "#techfacts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

@@ -1,0 +1,61 @@
+{
+  "title": "The 1989 Game Boy’s 8‑Bit CPU",
+  "thumb": "GAME BOY CPU",
+  "scenes": [
+    {
+      "text": "1989 Game Boy used a Sharp LR35902 8‑bit CPU – why it lasted decades",
+      "hook_top": "GAME BOY CPU",
+      "query": "Sharp LR35902 specifications 8-bit Game Boy 1989",
+      "query2": "Game Boy original processor details",
+      "role": "hook"
+    },
+    {
+      "num": 3,
+      "label": "LOW POWER CONSUMPTION",
+      "label_on": "battery",
+      "text": "The CPU drew under 1 mA, letting the device run 15+ hours on four AA cells.",
+      "query": "Game Boy battery life 15 hours AA cells power consumption",
+      "query2": "Game Boy low power usage specs",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "num": 2,
+      "label": "SIMPLE INSTRUCTION SET",
+      "label_on": "instruction",
+      "text": "Its 8‑bit instruction set made games small enough to fit on 256‑KB cartridges.",
+      "query": "Game Boy 256KB cartridge size instruction set",
+      "query2": "Game Boy ROM limits 256KB",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "num": 1,
+      "label": "UNIVERSAL HARDWARE",
+      "label_on": "compatibility",
+      "text": "All Game Boy models shared the same CPU, so games stayed playable across generations.",
+      "query": "Game Boy hardware compatibility across models",
+      "query2": "Game Boy backward compatibility CPU",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow for the future, one byte at a time.",
+      "query": "follow retro tech short video CTA",
+      "query2": "subscribe retro tech channel",
+      "role": "cta"
+    }
+  ],
+  "description": "The humble 8‑bit CPU powered the Game Boy’s legendary battery life and endless game library. Learn why this simple chip outlasted many modern devices. Follow for more retro tech insights!",
+  "hashtags": [
+    "#shorts",
+    "#retro",
+    "#gaminghistory",
+    "#gameboy",
+    "#techfacts",
+    "#fyp",
+    "#hardware"
+  ],
+  "place": "",
+  "country": ""
+}

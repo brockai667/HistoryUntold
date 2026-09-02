@@ -10755,6 +10755,134 @@
     "country": ""
   },
   {
+    "title": "How CDs Store an Album and a Game",
+    "thumb": "CD DOUBLE‑USE",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "What lets a 700 MB CD hold both music and video game data?",
+        "hook_top": "MUSIC GAME CD",
+        "query": "700 MB CD data capacity",
+        "query2": "CD audio and game storage",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "text": "A single spiral track encodes data as tiny pits and lands.",
+        "label": "PITS AND LANDS ENCODING",
+        "label_on": "encoding",
+        "query": "CD pit land encoding",
+        "query2": "how CD stores data pits",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "text": "Error‑correction codes like CIRC recover missing bits, keeping music and game data intact.",
+        "label": "CIRC ERROR CORRECTION",
+        "label_on": "error correction",
+        "query": "CIRC error correction CD",
+        "query2": "CD error correction technology",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "text": "The Table of Contents at the disc’s start tells the player where each track or game file begins.",
+        "label": "TABLE OF CONTENTS",
+        "label_on": "TOC",
+        "query": "CD Table of Contents structure",
+        "query2": "CD TOC data layout",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "CD technology explanation",
+        "query2": "how CDs work",
+        "role": "cta"
+      }
+    ],
+    "description": "Learn the clever tricks that let a single CD carry an entire album and a full game. Simple physics, massive storage. Follow for more everyday tech breakdowns!",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#tech",
+      "#CD",
+      "#gaminghistory",
+      "#retrotech",
+      "#howitworks"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "CD Storage Capacity Secrets",
+    "thumb": "CD MYTH",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "A single CD can hold more than 700 megabytes of data.",
+        "hook_top": "700MB CD",
+        "query": "CD data capacity 700 MB",
+        "query2": "standard CD storage size",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "The common belief is that CDs can only store about 650 MB of music.",
+        "label": "650 MB limit myth",
+        "query": "CD 650 MB myth",
+        "query2": "CD capacity misconception",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "Standard 120 mm CDs are manufactured to hold up to 700 MB of data, with some extensions reaching 800 MB using over‑burn techniques.",
+        "label": "700 MB standard",
+        "query": "standard CD 700 MB",
+        "query2": "CD 800 MB overburn",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Know your disc’s real limit before burning!",
+        "label": "Check disc limit",
+        "sub": "Avoid failed burns by verifying size",
+        "label_on": "Capacity",
+        "query": "CD burning capacity check",
+        "query2": "how much data fits on CD",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "tech myth busting follow CTA",
+        "query2": "subscribe tech shorts",
+        "role": "cta"
+      }
+    ],
+    "description": "People often cite a 650 MB cap for CDs, but the true standard is 700 MB. Learn the real numbers and keep your burns successful.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#tech",
+      "#cd",
+      "#storage",
+      "#mythbusting",
+      "#everydaytech"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
     "title": "Why the 1994 PlayStation’s 2 MB RAM Was a Game‑Changer",
     "thumb": "PLAYSTATION RAM",
     "scenes": [
@@ -10811,6 +10939,76 @@
       "#retro",
       "#fyp",
       "#gamedev"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Original Xbox Hard Drive",
+    "thumb": "HARD DRIVE BREAKTHROUGH",
+    "scenes": [
+      {
+        "hook_top": "10GB HARD DRIVE",
+        "query": "Xbox 2001 hard drive",
+        "query2": "Original Xbox storage",
+        "role": "hook",
+        "text": "Xbox shipped with a 10 GB hard drive in 2001"
+      },
+      {
+        "chips": [
+          {
+            "t": "FIRST CONSOLE HDD",
+            "on": "first",
+            "style": "accent"
+          }
+        ],
+        "query": "first console with hard drive",
+        "query2": "Xbox hard drive history",
+        "role": "fact",
+        "text": "It was the first home console to include a built‑in hard disk"
+      },
+      {
+        "chips": [
+          {
+            "t": "SAVES & DLC",
+            "on": "saves",
+            "style": "white"
+          },
+          {
+            "t": "FASTER LOADS",
+            "on": "faster",
+            "style": "accent"
+          }
+        ],
+        "query": "Xbox hard drive game saves",
+        "query2": "Xbox HDD load times",
+        "role": "fact",
+        "text": "The drive stored game saves, downloadable content and even whole games, cutting load times dramatically"
+      },
+      {
+        "label": "HDD STD",
+        "sub": "Every modern console now ships with internal storage",
+        "label_on": "standard",
+        "query": "console storage evolution",
+        "query2": "hard drive in consoles",
+        "role": "callout",
+        "text": "Hard drive set the standard for future consoles"
+      },
+      {
+        "query": "gaming tech short",
+        "query2": "tech history follow",
+        "role": "cta",
+        "text": "Follow for daily tech you should actually know."
+      }
+    ],
+    "description": "The Xbox's 10 GB hard drive was a game‑changing move that reshaped console design. Discover how it paved the way for today's massive storage. Follow for more tech deep‑dives!",
+    "hashtags": [
+      "#gaminghistory",
+      "#techfacts",
+      "#xbox",
+      "#harddrive",
+      "#shorts",
+      "#fyp"
     ],
     "place": "",
     "country": ""

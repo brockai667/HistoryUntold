@@ -1,0 +1,62 @@
+{
+  "title": "Did the 1995 PlayStation Really Ship 100 Million Units?",
+  "thumb": "PLAYSTATION SURPRISE",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "The 1995 PlayStation sold over 100 million copies worldwide—true or myth?",
+      "hook_top": "PLAYSTATION SALES MYTH",
+      "query": "1995 PlayStation sales figures",
+      "query2": "PlayStation launch 1995 units sold",
+      "role": "hook"
+    },
+    {
+      "type": "myth",
+      "text": "Many believe the original PlayStation instantly hit 100 million sales right after launch.",
+      "label": "Instant 100M sales myth",
+      "query": "PlayStation 100 million sales timeline",
+      "query2": "PlayStation sales milestones 1995",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "truth",
+      "text": "The PlayStation reached 100 million cumulative sales in 2005, ten years after its debut, after strong support from later titles and the PS2 launch.",
+      "label": "Reached 100M in 2005",
+      "query": "PlayStation 100 million sales 2005",
+      "query2": "PlayStation cumulative sales history",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "Patience paid off—long‑term success beats early hype.",
+      "label": "Long‑term success",
+      "sub": "It took a decade, not months, to hit 100 M.",
+      "label_on": "Patience",
+      "query": "PlayStation long term sales growth",
+      "query2": "PlayStation sales over years",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "gaming history myth busting",
+      "query2": "tech myth busting channel",
+      "role": "cta"
+    }
+  ],
+  "description": "We break down the real timeline behind the PlayStation's 100 million milestone. Spoiler: it wasn’t overnight. Follow for more myth‑busting tech stories. #shorts #gaminghistory #PlayStation #mythbusting #fyp #techfacts #retro",
+  "hashtags": [
+    "#shorts",
+    "#gaminghistory",
+    "#PlayStation",
+    "#mythbusting",
+    "#fyp",
+    "#techfacts",
+    "#retro"
+  ],
+  "place": "",
+  "country": ""
+}
