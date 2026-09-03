@@ -10883,6 +10883,271 @@
     "country": ""
   },
   {
+    "title": "Origins of the First Console War",
+    "thumb": "CONSOLE WAR",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "1991 saw two giants clash over living rooms",
+        "hook_top": "1991 GIANTS CLASH",
+        "query": "1991 Sega vs Nintendo console war",
+        "query2": "1991 Sega Nintendo rivalry",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "label": "Sega'S SATURN LAUNCH",
+        "label_on": "Sega",
+        "text": "Sega launched the Saturn with a surprise early release in May 1995",
+        "query": "Sega Saturn early May 1995 release",
+        "query2": "Saturn surprise launch date",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "label": "NINTENDO 64'S 3D BREAKTHROUGH",
+        "label_on": "Nintendo",
+        "text": "Nintendo introduced real-time 3D graphics with the Nintendo 64 in 1996",
+        "query": "Nintendo 64 1996 3D graphics debut",
+        "query2": "Nintendo 64 launch 1996",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "label": "PLAYSTATION'S CD EDGE",
+        "label_on": "PlayStation",
+        "text": "Sony’s PlayStation used CDs, giving it twice the storage of cartridge rivals",
+        "query": "PlayStation CD storage advantage 1994",
+        "query2": "Sony PlayStation CD vs cartridge",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "gaming history channel follow CTA",
+        "query2": "gaming history subscribe CTA",
+        "role": "cta"
+      }
+    ],
+    "description": "Three pivotal moves that shaped the 1990s console showdown. Dive into the details and see why those choices still echo today. Follow for more hidden gaming battles.",
+    "hashtags": [
+      "#shorts",
+      "#gaminghistory",
+      "#retro",
+      "#tech",
+      "#fyp",
+      "#gaming",
+      "#consolewar"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Hack That Opened Gaming Mods",
+    "thumb": "MOD HACK",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "1998 patch let players edit game code freely",
+        "hook_top": "1998 PATCH EDIT",
+        "query": "1998 game modding patch release",
+        "query2": "1998 first major game modding tool",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "label": "UNOFFICIAL SDK RELEASE",
+        "label_on": "SDK",
+        "text": "Developers leaked an unofficial SDK that exposed memory addresses",
+        "query": "unofficial SDK memory addresses 1998 game",
+        "query2": "1998 leaked game SDK",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "label": "SCRIPTABLE LUA ENGINE",
+        "label_on": "LUA",
+        "text": "The game adopted Lua, letting modders script new behaviors",
+        "query": "1998 game Lua scripting engine modding",
+        "query2": "Lua integration 1998 game mod",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "label": "COMMUNITY TOOLKIT SHARING",
+        "label_on": "TOOLKIT",
+        "text": "Fans created a shared toolkit on early forums, spreading mods worldwide",
+        "query": "1998 gaming community toolkit forum",
+        "query2": "early modding community toolkit 1998",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "legendary hacks follow CTA",
+        "query2": "tech hacks subscribe CTA",
+        "role": "cta"
+      }
+    ],
+    "description": "Three breakthroughs turned a single patch into a worldwide modding movement. Learn how an SDK, Lua, and community tools reshaped player creativity. Follow for more legendary hacks.",
+    "hashtags": [
+      "#shorts",
+      "#gaming",
+      "#mods",
+      "#hack",
+      "#tech",
+      "#fyp",
+      "#retro"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Nintendo 64 Cartridge Size Myth",
+    "thumb": "N64 SIZE MYTH",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "The 64‑megabit N64 cartridge seemed tiny for a 3D game.",
+        "hook_top": "SMALL 64BIT CARTRIDGE",
+        "query": "Nintendo 64 64-megabit cartridge size",
+        "query2": "N64 cartridge capacity",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "People think the cartridge couldn't hold large game worlds because of its small memory.",
+        "label": "Cartridge Too Small",
+        "query": "Nintendo 64 cartridge memory myth",
+        "query2": "N64 storage limitation belief",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "In reality the 64‑megabit (8 MB) ROM stored data efficiently, and developers used compression and streaming to fit expansive worlds.",
+        "label": "Efficient Compression",
+        "query": "Nintendo 64 data compression techniques",
+        "query2": "How N64 fit large games",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Smart coding made the N64 legendary.",
+        "label": "Smart Coding",
+        "sub": "Compression turned 8 MB into massive worlds",
+        "label_on": "Compression",
+        "query": "Nintendo 64 game world size example",
+        "query2": "Super Mario 64 cartridge data",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "gaming myth busting channel",
+        "query2": "tech history shorts",
+        "role": "cta"
+      }
+    ],
+    "description": "Explore why the Nintendo 64 cartridge wasn't a limitation and how developers overcame it. Dive into the real tech behind the myth. Follow for more myth‑busting tech facts! #shorts #fyp #gaminghistory #N64 #retro #techmyth #gamedev #gaming",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#gaminghistory",
+      "#N64",
+      "#retro",
+      "#techmyth",
+      "#gamedev",
+      "#gaming"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "How Microwaves Heat Food",
+    "thumb": "MAGNETRON POWER",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Your kitchen uses a 2.45 GHz wave to cook",
+        "hook_top": "245GHZ COOKING",
+        "query": "microwave 2.45 GHz frequency",
+        "query2": "microwave cooking frequency",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "A magnetron generates microwaves at that exact frequency.",
+        "chips": [
+          {
+            "t": "MAGNETRON SOURCE",
+            "on": "magnetron",
+            "style": "white"
+          }
+        ],
+        "query": "magnetron microwave generator",
+        "query2": "microwave magnetron frequency",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Water molecules absorb the energy, heating the food from the inside.",
+        "chips": [
+          {
+            "t": "WATER ABSORPTION",
+            "on": "water",
+            "style": "accent"
+          }
+        ],
+        "query": "microwave water molecule heating",
+        "query2": "microwave food heating mechanism",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "The metal walls reflect the waves, keeping energy locked inside the oven.",
+        "reveal_top": "METAL REFLECTS WAVES",
+        "query": "microwave metal cavity reflection",
+        "query2": "microwave oven interior design",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "tech breakdown follow CTA",
+        "query2": "everyday tech follow CTA",
+        "role": "cta"
+      }
+    ],
+    "description": "Ever wonder why a microwave cooks so fast? Learn how a tiny magnetron and a metal box turn electricity into sizzling heat. Stay tuned for more tech explained.",
+    "hashtags": [
+      "#shorts",
+      "#howitworks",
+      "#microwave",
+      "#tech",
+      "#everydaytech",
+      "#fyp",
+      "#science"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
     "title": "Why the 1994 PlayStation’s 2 MB RAM Was a Game‑Changer",
     "thumb": "PLAYSTATION RAM",
     "scenes": [
@@ -10939,76 +11204,6 @@
       "#retro",
       "#fyp",
       "#gamedev"
-    ],
-    "place": "",
-    "country": ""
-  },
-  {
-    "title": "Original Xbox Hard Drive",
-    "thumb": "HARD DRIVE BREAKTHROUGH",
-    "scenes": [
-      {
-        "hook_top": "10GB HARD DRIVE",
-        "query": "Xbox 2001 hard drive",
-        "query2": "Original Xbox storage",
-        "role": "hook",
-        "text": "Xbox shipped with a 10 GB hard drive in 2001"
-      },
-      {
-        "chips": [
-          {
-            "t": "FIRST CONSOLE HDD",
-            "on": "first",
-            "style": "accent"
-          }
-        ],
-        "query": "first console with hard drive",
-        "query2": "Xbox hard drive history",
-        "role": "fact",
-        "text": "It was the first home console to include a built‑in hard disk"
-      },
-      {
-        "chips": [
-          {
-            "t": "SAVES & DLC",
-            "on": "saves",
-            "style": "white"
-          },
-          {
-            "t": "FASTER LOADS",
-            "on": "faster",
-            "style": "accent"
-          }
-        ],
-        "query": "Xbox hard drive game saves",
-        "query2": "Xbox HDD load times",
-        "role": "fact",
-        "text": "The drive stored game saves, downloadable content and even whole games, cutting load times dramatically"
-      },
-      {
-        "label": "HDD STD",
-        "sub": "Every modern console now ships with internal storage",
-        "label_on": "standard",
-        "query": "console storage evolution",
-        "query2": "hard drive in consoles",
-        "role": "callout",
-        "text": "Hard drive set the standard for future consoles"
-      },
-      {
-        "query": "gaming tech short",
-        "query2": "tech history follow",
-        "role": "cta",
-        "text": "Follow for daily tech you should actually know."
-      }
-    ],
-    "description": "The Xbox's 10 GB hard drive was a game‑changing move that reshaped console design. Discover how it paved the way for today's massive storage. Follow for more tech deep‑dives!",
-    "hashtags": [
-      "#gaminghistory",
-      "#techfacts",
-      "#xbox",
-      "#harddrive",
-      "#shorts",
-      "#fyp"
     ],
     "place": "",
     "country": ""

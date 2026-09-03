@@ -1,0 +1,66 @@
+{
+  "title": "Origins of the First Console War",
+  "thumb": "CONSOLE WAR",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "1991 saw two giants clash over living rooms",
+      "hook_top": "1991 GIANTS CLASH",
+      "query": "1991 Sega vs Nintendo console war",
+      "query2": "1991 Sega Nintendo rivalry",
+      "role": "hook"
+    },
+    {
+      "type": "count",
+      "num": 3,
+      "label": "Sega'S SATURN LAUNCH",
+      "label_on": "Sega",
+      "text": "Sega launched the Saturn with a surprise early release in May 1995",
+      "query": "Sega Saturn early May 1995 release",
+      "query2": "Saturn surprise launch date",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 2,
+      "label": "NINTENDO 64'S 3D BREAKTHROUGH",
+      "label_on": "Nintendo",
+      "text": "Nintendo introduced real-time 3D graphics with the Nintendo 64 in 1996",
+      "query": "Nintendo 64 1996 3D graphics debut",
+      "query2": "Nintendo 64 launch 1996",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 1,
+      "label": "PLAYSTATION'S CD EDGE",
+      "label_on": "PlayStation",
+      "text": "Sony’s PlayStation used CDs, giving it twice the storage of cartridge rivals",
+      "query": "PlayStation CD storage advantage 1994",
+      "query2": "Sony PlayStation CD vs cartridge",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "gaming history channel follow CTA",
+      "query2": "gaming history subscribe CTA",
+      "role": "cta"
+    }
+  ],
+  "description": "Three pivotal moves that shaped the 1990s console showdown. Dive into the details and see why those choices still echo today. Follow for more hidden gaming battles.",
+  "hashtags": [
+    "#shorts",
+    "#gaminghistory",
+    "#retro",
+    "#tech",
+    "#fyp",
+    "#gaming",
+    "#consolewar"
+  ],
+  "place": "",
+  "country": ""
+}

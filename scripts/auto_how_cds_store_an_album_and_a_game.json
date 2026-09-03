@@ -1,0 +1,66 @@
+{
+  "title": "How CDs Store an Album and a Game",
+  "thumb": "CD DOUBLE‑USE",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "What lets a 700 MB CD hold both music and video game data?",
+      "hook_top": "MUSIC GAME CD",
+      "query": "700 MB CD data capacity",
+      "query2": "CD audio and game storage",
+      "role": "hook"
+    },
+    {
+      "type": "count",
+      "num": 3,
+      "text": "A single spiral track encodes data as tiny pits and lands.",
+      "label": "PITS AND LANDS ENCODING",
+      "label_on": "encoding",
+      "query": "CD pit land encoding",
+      "query2": "how CD stores data pits",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 2,
+      "text": "Error‑correction codes like CIRC recover missing bits, keeping music and game data intact.",
+      "label": "CIRC ERROR CORRECTION",
+      "label_on": "error correction",
+      "query": "CIRC error correction CD",
+      "query2": "CD error correction technology",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 1,
+      "text": "The Table of Contents at the disc’s start tells the player where each track or game file begins.",
+      "label": "TABLE OF CONTENTS",
+      "label_on": "TOC",
+      "query": "CD Table of Contents structure",
+      "query2": "CD TOC data layout",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "CD technology explanation",
+      "query2": "how CDs work",
+      "role": "cta"
+    }
+  ],
+  "description": "Learn the clever tricks that let a single CD carry an entire album and a full game. Simple physics, massive storage. Follow for more everyday tech breakdowns!",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#tech",
+    "#CD",
+    "#gaminghistory",
+    "#retrotech",
+    "#howitworks"
+  ],
+  "place": "",
+  "country": ""
+}
