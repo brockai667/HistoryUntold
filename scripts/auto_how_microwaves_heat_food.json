@@ -1,0 +1,70 @@
+{
+  "title": "How Microwaves Heat Food",
+  "thumb": "MAGNETRON POWER",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Your kitchen uses a 2.45 GHz wave to cook",
+      "hook_top": "245GHZ COOKING",
+      "query": "microwave 2.45 GHz frequency",
+      "query2": "microwave cooking frequency",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "A magnetron generates microwaves at that exact frequency.",
+      "chips": [
+        {
+          "t": "MAGNETRON SOURCE",
+          "on": "magnetron",
+          "style": "white"
+        }
+      ],
+      "query": "magnetron microwave generator",
+      "query2": "microwave magnetron frequency",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Water molecules absorb the energy, heating the food from the inside.",
+      "chips": [
+        {
+          "t": "WATER ABSORPTION",
+          "on": "water",
+          "style": "accent"
+        }
+      ],
+      "query": "microwave water molecule heating",
+      "query2": "microwave food heating mechanism",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "The metal walls reflect the waves, keeping energy locked inside the oven.",
+      "reveal_top": "METAL REFLECTS WAVES",
+      "query": "microwave metal cavity reflection",
+      "query2": "microwave oven interior design",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "tech breakdown follow CTA",
+      "query2": "everyday tech follow CTA",
+      "role": "cta"
+    }
+  ],
+  "description": "Ever wonder why a microwave cooks so fast? Learn how a tiny magnetron and a metal box turn electricity into sizzling heat. Stay tuned for more tech explained.",
+  "hashtags": [
+    "#shorts",
+    "#howitworks",
+    "#microwave",
+    "#tech",
+    "#everydaytech",
+    "#fyp",
+    "#science"
+  ],
+  "place": "",
+  "country": ""
+}

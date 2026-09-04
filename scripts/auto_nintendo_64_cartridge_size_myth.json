@@ -1,0 +1,63 @@
+{
+  "title": "Nintendo 64 Cartridge Size Myth",
+  "thumb": "N64 SIZE MYTH",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "The 64‑megabit N64 cartridge seemed tiny for a 3D game.",
+      "hook_top": "SMALL 64BIT CARTRIDGE",
+      "query": "Nintendo 64 64-megabit cartridge size",
+      "query2": "N64 cartridge capacity",
+      "role": "hook"
+    },
+    {
+      "type": "myth",
+      "text": "People think the cartridge couldn't hold large game worlds because of its small memory.",
+      "label": "Cartridge Too Small",
+      "query": "Nintendo 64 cartridge memory myth",
+      "query2": "N64 storage limitation belief",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "truth",
+      "text": "In reality the 64‑megabit (8 MB) ROM stored data efficiently, and developers used compression and streaming to fit expansive worlds.",
+      "label": "Efficient Compression",
+      "query": "Nintendo 64 data compression techniques",
+      "query2": "How N64 fit large games",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "Smart coding made the N64 legendary.",
+      "label": "Smart Coding",
+      "sub": "Compression turned 8 MB into massive worlds",
+      "label_on": "Compression",
+      "query": "Nintendo 64 game world size example",
+      "query2": "Super Mario 64 cartridge data",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "gaming myth busting channel",
+      "query2": "tech history shorts",
+      "role": "cta"
+    }
+  ],
+  "description": "Explore why the Nintendo 64 cartridge wasn't a limitation and how developers overcame it. Dive into the real tech behind the myth. Follow for more myth‑busting tech facts! #shorts #fyp #gaminghistory #N64 #retro #techmyth #gamedev #gaming",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#gaminghistory",
+    "#N64",
+    "#retro",
+    "#techmyth",
+    "#gamedev",
+    "#gaming"
+  ],
+  "place": "",
+  "country": ""
+}

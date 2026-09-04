@@ -1,0 +1,66 @@
+{
+  "title": "The Hack That Opened Gaming Mods",
+  "thumb": "MOD HACK",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "1998 patch let players edit game code freely",
+      "hook_top": "1998 PATCH EDIT",
+      "query": "1998 game modding patch release",
+      "query2": "1998 first major game modding tool",
+      "role": "hook"
+    },
+    {
+      "type": "count",
+      "num": 3,
+      "label": "UNOFFICIAL SDK RELEASE",
+      "label_on": "SDK",
+      "text": "Developers leaked an unofficial SDK that exposed memory addresses",
+      "query": "unofficial SDK memory addresses 1998 game",
+      "query2": "1998 leaked game SDK",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 2,
+      "label": "SCRIPTABLE LUA ENGINE",
+      "label_on": "LUA",
+      "text": "The game adopted Lua, letting modders script new behaviors",
+      "query": "1998 game Lua scripting engine modding",
+      "query2": "Lua integration 1998 game mod",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 1,
+      "label": "COMMUNITY TOOLKIT SHARING",
+      "label_on": "TOOLKIT",
+      "text": "Fans created a shared toolkit on early forums, spreading mods worldwide",
+      "query": "1998 gaming community toolkit forum",
+      "query2": "early modding community toolkit 1998",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech you should actually know.",
+      "query": "legendary hacks follow CTA",
+      "query2": "tech hacks subscribe CTA",
+      "role": "cta"
+    }
+  ],
+  "description": "Three breakthroughs turned a single patch into a worldwide modding movement. Learn how an SDK, Lua, and community tools reshaped player creativity. Follow for more legendary hacks.",
+  "hashtags": [
+    "#shorts",
+    "#gaming",
+    "#mods",
+    "#hack",
+    "#tech",
+    "#fyp",
+    "#retro"
+  ],
+  "place": "",
+  "country": ""
+}

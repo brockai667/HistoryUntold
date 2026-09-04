@@ -11148,6 +11148,198 @@
     "country": ""
   },
   {
+    "title": "The Legend of the Missing Cartridge",
+    "thumb": "MISSING CARTRIDGE",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "What happened to the 1992 Saeko cartridge mystery?",
+        "hook_top": "SAEKO CARTRIDGE MYSTERY",
+        "query": "Saeko Giantess Dating Sim cartridge",
+        "query2": "Saeko game box art",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "Many think the game vanished because the publisher cancelled it.",
+        "label": "Cancelled Publisher Theory",
+        "query": "Saeko game cancellation rumors",
+        "query2": "Saeko development status",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "In reality the cartridge was delayed by supply issues, not a cancellation, and a limited run finally shipped in 2024.",
+        "label": "Supply Delay, Not Cancelled",
+        "query": "Saeko limited release 2024",
+        "query2": "Saeko cartridge production delay",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Supply chain hiccups can hide games from fans.",
+        "label": "Supply Chain Hiccup",
+        "sub": "Delays, not bans, keep titles hidden",
+        "label_on": "Delay",
+        "query": "game supply chain delays example",
+        "query2": "retro game shipping issues",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "gaming history short",
+        "query2": "retro game myths",
+        "role": "cta"
+      }
+    ],
+    "description": "Uncover why the Saeko dating‑sim cartridge seemed lost and the real reason it finally appeared. Follow for more gaming mysteries.",
+    "hashtags": [
+      "#shorts",
+      "#gaminghistory",
+      "#retro",
+      "#mythbusted",
+      "#gamedevelopment",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Why the Xbox Cloud Cutoff Matters",
+    "thumb": "CLOUD CUTOFF",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Xbox just announced a new 30‑day cloud limit.",
+        "hook_top": "XBOX CLOUD LIMIT",
+        "query": "Xbox cloud gaming time limit announcement",
+        "query2": "Xbox Game Pass cloud restrictions",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "Fans assume the limit is a cost‑cutting move to raise prices.",
+        "label": "Cost‑Cutting Price Hype",
+        "query": "Xbox pricing speculation cloud limit",
+        "query2": "Xbox cloud cost increase rumor",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "The limit is actually due to server capacity planning after a surge in concurrent users, not a direct price hike.",
+        "label": "Capacity Planning Reason",
+        "query": "Xbox server capacity explanation",
+        "query2": "Xbox cloud user surge management",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Understanding server load explains many service changes.",
+        "label": "Server Load Insight",
+        "sub": "Technical limits, not profit tricks",
+        "label_on": "Load",
+        "query": "cloud gaming server load impact",
+        "query2": "online gaming infrastructure limits",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "tech myth busting shorts",
+        "query2": "gaming tech explainers",
+        "role": "cta"
+      }
+    ],
+    "description": "Separate the hype from the hardware: why Xbox’s cloud limit is really about servers, not prices. Follow for more tech truths.",
+    "hashtags": [
+      "#shorts",
+      "#gaming",
+      "#cloudgaming",
+      "#mythbusting",
+      "#tech",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Bug That Saved the Space Shuttle",
+    "thumb": "SHUTTLE BUG",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "In 1985 a tiny software glitch prevented a disaster on a shuttle mission",
+        "hook_top": "GLITCH AVOIDS DISASTER",
+        "query": "1985 shuttle software glitch saved mission",
+        "query2": "space shuttle bug 1985",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The on‑board computer used a 24‑bit word length with a 2‑second cycle time",
+        "chips": [
+          {
+            "t": "24‑BIT WORD",
+            "on": "word",
+            "style": "accent"
+          }
+        ],
+        "query": "Space shuttle on‑board computer 24‑bit",
+        "query2": "shuttle computer architecture 1985",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "A rounding error in the guidance algorithm caused a brief thrust over‑command",
+        "chips": [
+          {
+            "t": "ROUNDING ERROR",
+            "on": "error",
+            "style": "white"
+          }
+        ],
+        "query": "shuttle guidance rounding error 1985",
+        "query2": "space shuttle software bug thrust",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "Engineers caught it because the computer logged a single extra bit in telemetry",
+        "reveal_top": "ONE EXTRA BIT",
+        "query": "shuttle telemetry extra bit 1985",
+        "query2": "space shuttle anomaly extra bit",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "engineering history CTA follow",
+        "query2": "subscribe tech shorts CTA",
+        "role": "cta"
+      }
+    ],
+    "description": "A minute rounding mistake almost derailed a mission, but an unexpected telemetry flag saved the day. Learn how a single bit made all the difference.",
+    "hashtags": [
+      "#shorts",
+      "#space",
+      "#tech",
+      "#history",
+      "#fyp",
+      "#engineering",
+      "#NASA"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
     "title": "Why the 1994 PlayStation’s 2 MB RAM Was a Game‑Changer",
     "thumb": "PLAYSTATION RAM",
     "scenes": [
