@@ -1,0 +1,61 @@
+{
+  "title": "The Legend of the Missing Cartridge",
+  "thumb": "MISSING CARTRIDGE",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "What happened to the 1992 Saeko cartridge mystery?",
+      "hook_top": "SAEKO CARTRIDGE MYSTERY",
+      "query": "Saeko Giantess Dating Sim cartridge",
+      "query2": "Saeko game box art",
+      "role": "hook"
+    },
+    {
+      "type": "myth",
+      "text": "Many think the game vanished because the publisher cancelled it.",
+      "label": "Cancelled Publisher Theory",
+      "query": "Saeko game cancellation rumors",
+      "query2": "Saeko development status",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "truth",
+      "text": "In reality the cartridge was delayed by supply issues, not a cancellation, and a limited run finally shipped in 2024.",
+      "label": "Supply Delay, Not Cancelled",
+      "query": "Saeko limited release 2024",
+      "query2": "Saeko cartridge production delay",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "Supply chain hiccups can hide games from fans.",
+      "label": "Supply Chain Hiccup",
+      "sub": "Delays, not bans, keep titles hidden",
+      "label_on": "Delay",
+      "query": "game supply chain delays example",
+      "query2": "retro game shipping issues",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "gaming history short",
+      "query2": "retro game myths",
+      "role": "cta"
+    }
+  ],
+  "description": "Uncover why the Saeko dating‑sim cartridge seemed lost and the real reason it finally appeared. Follow for more gaming mysteries.",
+  "hashtags": [
+    "#shorts",
+    "#gaminghistory",
+    "#retro",
+    "#mythbusted",
+    "#gamedevelopment",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

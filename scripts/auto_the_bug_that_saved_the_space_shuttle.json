@@ -1,0 +1,70 @@
+{
+  "title": "The Bug That Saved the Space Shuttle",
+  "thumb": "SHUTTLE BUG",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "In 1985 a tiny software glitch prevented a disaster on a shuttle mission",
+      "hook_top": "GLITCH AVOIDS DISASTER",
+      "query": "1985 shuttle software glitch saved mission",
+      "query2": "space shuttle bug 1985",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The on‑board computer used a 24‑bit word length with a 2‑second cycle time",
+      "chips": [
+        {
+          "t": "24‑BIT WORD",
+          "on": "word",
+          "style": "accent"
+        }
+      ],
+      "query": "Space shuttle on‑board computer 24‑bit",
+      "query2": "shuttle computer architecture 1985",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "A rounding error in the guidance algorithm caused a brief thrust over‑command",
+      "chips": [
+        {
+          "t": "ROUNDING ERROR",
+          "on": "error",
+          "style": "white"
+        }
+      ],
+      "query": "shuttle guidance rounding error 1985",
+      "query2": "space shuttle software bug thrust",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "Engineers caught it because the computer logged a single extra bit in telemetry",
+      "reveal_top": "ONE EXTRA BIT",
+      "query": "shuttle telemetry extra bit 1985",
+      "query2": "space shuttle anomaly extra bit",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "engineering history CTA follow",
+      "query2": "subscribe tech shorts CTA",
+      "role": "cta"
+    }
+  ],
+  "description": "A minute rounding mistake almost derailed a mission, but an unexpected telemetry flag saved the day. Learn how a single bit made all the difference.",
+  "hashtags": [
+    "#shorts",
+    "#space",
+    "#tech",
+    "#history",
+    "#fyp",
+    "#engineering",
+    "#NASA"
+  ],
+  "place": "",
+  "country": ""
+}

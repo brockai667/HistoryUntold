@@ -11340,6 +11340,205 @@
     "country": ""
   },
   {
+    "title": "The Secret Behind Early Game Saves",
+    "thumb": "SAVE FILE MYSTERY",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Remember the 1994 PlayStation memory card mystery?",
+        "hook_top": "PLAYSTATION MEMORY CARD",
+        "query": "1994 PlayStation memory card design",
+        "query2": "PlayStation memory card 1994",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "label": "300 MB MEMORY CARD LIMIT",
+        "label_on": "LIMIT",
+        "text": "The original card stored up to 300 megabytes of data.",
+        "query": "PlayStation memory card 300 MB capacity",
+        "query2": "original PlayStation memory card size",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "label": "NO AUTO‑SAVE FEATURE",
+        "label_on": "FEATURE",
+        "text": "Games relied on manual saves; there was no auto‑save built in.",
+        "query": "PlayStation manual save vs auto save",
+        "query2": "early console save mechanisms",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "label": "SAVED DATA ENCRYPTED",
+        "label_on": "ENCRYPTED",
+        "text": "Saved files were encrypted to prevent easy cheating.",
+        "query": "PlayStation save file encryption 1994",
+        "query2": "how PlayStation encrypted saves",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "follow call to action text",
+        "query2": "CTA follow text",
+        "role": "cta"
+      }
+    ],
+    "description": "Explore how the first PlayStation handled game saves, from its tight storage limits to hidden encryption. Stay tuned for more retro tech revelations.",
+    "hashtags": [
+      "#shorts",
+      "#gaminghistory",
+      "#retro",
+      "#tech",
+      "#gamingsaves",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Real Reason Early Wi‑Fi Failed",
+    "thumb": "WIFI FAIL FACT",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Why the 1997 Linksys router barely reached a room",
+        "hook_top": "LINKSYS 1997 LIMIT",
+        "query": "1997 Linksys Wi‑Fi range issues",
+        "query2": "early Wi‑Fi router coverage 1997",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "label": "UNLICENSED 2.4 GHZ BAND",
+        "label_on": "BAND",
+        "text": "It used the unregulated 2.4 GHz band, causing heavy interference from cordless phones and microwaves.",
+        "query": "2.4 GHz interference early Wi‑Fi 1997",
+        "query2": "unlicensed Wi‑Fi band problems",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "label": "ANTENNA DESIGN LIMITS",
+        "label_on": "DESIGN",
+        "text": "The built‑in antenna was short and non‑directional, limiting signal strength.",
+        "query": "1997 Linksys antenna design",
+        "query2": "early Wi‑Fi router antenna limitations",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "label": "NO MESH SUPPORT",
+        "label_on": "MESH",
+        "text": "Without mesh networking, each unit acted alone, leaving dead zones in larger homes.",
+        "query": "early Wi‑Fi mesh support missing 1997",
+        "query2": "1990s Wi‑Fi coverage challenges",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "follow call to action text",
+        "query2": "CTA follow text",
+        "role": "cta"
+      }
+    ],
+    "description": "Learn the technical flaws that kept the first consumer Wi‑Fi routers confined to a single room. Stay tuned for more tech breakdowns.",
+    "hashtags": [
+      "#shorts",
+      "#techhistory",
+      "#wifi",
+      "#networking",
+      "#retrotech",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Lost Sound Chip That Made 90s Games",
+    "thumb": "RARE SOUND CHIP",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "1994 introduced a sound chip that changed arcade music forever",
+        "hook_top": "SOUND CHIP REVEALED",
+        "query": "Yamaha YM2151 sound chip 1994 arcade",
+        "query2": "Yamaha OPL sound chip 1994",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The Yamaha YM2151 could produce up to eight simultaneous voices",
+        "chips": [
+          {
+            "t": "EIGHT VOICES",
+            "on": "voice",
+            "style": "white"
+          }
+        ],
+        "query": "Yamaha YM2151 eight voices",
+        "query2": "YM2151 specifications",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "It was the first FM synthesis chip used widely in Sega's Model 2 arcade boards",
+        "chips": [
+          {
+            "t": "FM SYNTHESIS",
+            "on": "synthesis",
+            "style": "accent"
+          }
+        ],
+        "query": "Sega Model 2 FM synthesis chip",
+        "query2": "Sega arcade sound hardware 1994",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "The same chip powered the iconic soundtrack of the 1995 fighting classic Virtua Fighter 2",
+        "reveal_top": "VIRTUA FIGHTER MUSIC",
+        "query": "Virtua Fighter 2 YM2151 soundtrack",
+        "query2": "Virtua Fighter 2 sound hardware",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "follow call to action",
+        "query2": "subscribe reminder",
+        "role": "cta"
+      }
+    ],
+    "description": "Discover how a single sound chip shaped the sound of 90s arcade games. Follow for more hidden tech stories.",
+    "hashtags": [
+      "#shorts",
+      "#gaminghistory",
+      "#techfacts",
+      "#retro",
+      "#soundchip",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
     "title": "Why the 1994 PlayStation’s 2 MB RAM Was a Game‑Changer",
     "thumb": "PLAYSTATION RAM",
     "scenes": [
