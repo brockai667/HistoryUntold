@@ -11539,62 +11539,331 @@
     "country": ""
   },
   {
-    "title": "Why the 1994 PlayStation’s 2 MB RAM Was a Game‑Changer",
-    "thumb": "PLAYSTATION RAM",
+    "title": "How Early Wi‑Fi Connected a Café",
+    "thumb": "COFFEE WIFI",
     "scenes": [
       {
-        "text": "1994 PlayStation launched with just 2 MB of RAM – why mattered?",
-        "hook_top": "1994 PLAYSTATION RAM",
-        "query": "1994 PlayStation specifications RAM 2 MB",
-        "query2": "PlayStation 1 memory size",
-        "role": "hook"
+        "hook_top": "1993 COFFEE WIFI",
+        "query": "1993 coffee shop public Wi-Fi",
+        "query2": "first public Wi-Fi café 1993",
+        "role": "hook",
+        "text": "Which 1993 coffee shop pioneered public Wi‑Fi?"
       },
       {
-        "num": 3,
-        "label": "2 MB RAM ENABLED 3D POLYGONS",
-        "label_on": "polygon",
-        "text": "The 2 MB allowed real‑time 3D polygons, a first for home consoles.",
-        "query": "PlayStation 1 3D polygon rendering 2 MB RAM",
-        "query2": "PS1 3D capabilities memory",
+        "num": 1,
+        "label": "THE HONEYWELL BEEHIVE HUB",
+        "label_on": "BEEHIVE",
+        "text": "The Café BEEHIVE installed a Honeywell WaveLAN router, the first commercial wireless LAN.",
+        "query": "Honeywell WaveLAN 1993 café",
+        "query2": "WaveLAN early public Wi-Fi",
         "role": "fact",
         "chips": []
       },
       {
         "num": 2,
-        "label": "FAST CD‑ROM ACCESS",
-        "label_on": "cdrom",
-        "text": "Combined with a 2× CD‑ROM drive, games could stream textures directly from disc.",
-        "query": "PlayStation 1 CD‑ROM speed 2× streaming textures",
-        "query2": "PS1 disc read speed impact",
+        "label": "10‑METER RANGE COVERAGE",
+        "label_on": "RANGE",
+        "text": "The system covered roughly ten meters, enough for customers to browse the web from any table.",
+        "query": "WaveLAN 10 meter range 1993",
+        "query2": "early Wi-Fi coverage specs",
         "role": "fact",
         "chips": []
       },
       {
-        "num": 1,
-        "label": "AFFORDABLE MANUFACTURING",
-        "label_on": "cost",
-        "text": "Keeping RAM low kept the console under $300, making it accessible worldwide.",
-        "query": "PlayStation 1 launch price 1994 $299 RAM cost impact",
-        "query2": "PS1 affordable hardware design",
+        "num": 3,
+        "label": "INFLUENCE ON TODAY'S HOTSPOTS",
+        "label_on": "INFLUENCE",
+        "text": "That modest setup inspired the modern hotspot model used in cafés worldwide.",
+        "query": "origin of coffee shop Wi-Fi hotspots",
+        "query2": "history of public Wi-Fi cafés",
         "role": "fact",
         "chips": []
       },
       {
-        "text": "Follow for daily tech you should actually know.",
-        "query": "follow tech short video call to action",
-        "query2": "subscribe tech channel CTA",
+        "query": "tech origin stories CTA",
+        "query2": "follow tech channel CTA",
+        "role": "cta",
+        "text": "Follow for daily tech and AI news."
+      }
+    ],
+    "description": "A tiny router in a Seattle café sparked the wireless culture we now take for granted. See how it all began.",
+    "hashtags": [
+      "#shorts",
+      "#wifi",
+      "#retrotech",
+      "#history",
+      "#fyp",
+      "#tech",
+      "#cafe"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Nintendo Switch Battery Myths",
+    "thumb": "BATTERY LIE",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Did you know the Switch lasts exactly six hours on a single charge?",
+        "hook_top": "SWITCH LASTS SIX HOURS",
+        "query": "Nintendo Switch battery life claim",
+        "query2": "Nintendo Switch battery runtime",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "Many gamers think the Switch’s battery drains uniformly and can’t be extended.",
+        "label": "Battery drains uniformly",
+        "query": "Nintendo Switch battery drain myth",
+        "query2": "Switch battery uniform drain belief",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "In reality the battery depletes faster when playing demanding titles, and a simple power‑saving mode can add up to two extra hours.",
+        "label": "Drain varies, power‑saving adds hours",
+        "query": "Nintendo Switch power saving mode effect",
+        "query2": "Switch battery usage high demand games",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Turn on ‘Energy Saving’ in Settings for longer playtime.",
+        "label": "Enable Energy Saving",
+        "sub": "Boosts runtime by up to two hours",
+        "label_on": "EnergySaving",
+        "query": "Nintendo Switch energy saving setting",
+        "query2": "Switch battery extend tip",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "Nintendo Switch quick tip CTA",
+        "query2": "Tech brand follow CTA",
         "role": "cta"
       }
     ],
-    "description": "The original PlayStation’s modest 2 MB of RAM unlocked 3D worlds and kept prices low. Discover how that tiny memory shaped gaming history. Stay tuned for more tech deep‑dives!",
+    "description": "Most players overestimate how steady the Switch’s battery lasts. Learn the real drain pattern and a simple tweak to play longer. Follow for more concise tech truths.",
     "hashtags": [
       "#shorts",
-      "#gaminghistory",
-      "#techfacts",
-      "#playstation",
+      "#gaming",
+      "#NintendoSwitch",
+      "#battery",
+      "#mythbusting",
+      "#tech",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Wi‑Fi Router Myth",
+    "thumb": "ROUTER LIE",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "The first public Wi‑Fi hotspot opened in 1992 at a coffee shop.",
+        "hook_top": "1992 COFFEE SHOP WIFI",
+        "query": "first public Wi‑Fi hotspot 1992",
+        "query2": "1992 coffee shop WiFi launch",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "Many believe early Wi‑Fi used the same 2.4 GHz band as modern routers.",
+        "label": "Early Wi‑Fi same band myth",
+        "query": "early Wi‑Fi frequency myth",
+        "query2": "1990s WiFi band misconception",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "Actually the 1992 system operated on the 2.5 GHz ISM band, later standardized to 2.4 GHz for compatibility.",
+        "label": "Used 2.5 GHz ISM band",
+        "query": "1992 Wi‑Fi 2.5 GHz ISM band",
+        "query2": "early WiFi frequency 2.5 GHz",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Understanding the original band explains why early routers had limited range.",
+        "label": "Band limits range",
+        "sub": "Early tech, modern expectations",
+        "label_on": "RangeFact",
+        "query": "early Wi‑Fi range limitation",
+        "query2": "2.5 GHz WiFi coverage",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "everyday tech CTA follow",
+        "query2": "tech mythbusting follow prompt",
+        "role": "cta"
+      }
+    ],
+    "description": "The coffee‑shop Wi‑Fi story is famous, but the frequency myth persists. Learn the actual band used and why early routers behaved differently. Follow for more simple tech explanations.",
+    "hashtags": [
+      "#shorts",
+      "#tech",
+      "#WiFi",
+      "#mythbusting",
+      "#everydaytech",
+      "#history",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "PlayStation’s Tiny Memory Sparked Innovation",
+    "thumb": "2 MB MEMORY MAGIC",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "When Sony launched a console with just 2 MB RAM",
+        "hook_top": "2MB RAM CONSOLE",
+        "query": "PlayStation 2 MB RAM",
+        "query2": "original PlayStation memory size",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The PlayStation shipped with 2 MB of main RAM and 1 MB of video RAM",
+        "chips": [
+          {
+            "t": "2 MB MAIN RAM",
+            "on": "memory",
+            "style": "white"
+          },
+          {
+            "t": "1 MB VIDEO RAM",
+            "on": "video",
+            "style": "accent"
+          }
+        ],
+        "query": "PlayStation memory specifications 1994",
+        "query2": "original PlayStation RAM details",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Developers used heavy compression and streaming techniques to fit full‑motion video into that space",
+        "chips": [
+          {
+            "t": "HEAVY COMPRESSION",
+            "on": "compression",
+            "style": "accent"
+          }
+        ],
+        "punch": "tight",
+        "query": "PlayStation video compression techniques",
+        "query2": "how games fit video on PlayStation",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "That limitation forced the birth of iconic CD‑based games with cinematic storytelling",
+        "reveal_top": "CINEMATIC CD GAMES",
+        "query": "PlayStation cinematic games 1995",
+        "query2": "impact of RAM limits on PlayStation games",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "retro console channel",
+        "query2": "gaming history shorts",
+        "role": "cta"
+      }
+    ],
+    "description": "Learn how the PlayStation’s modest memory size led to groundbreaking compression and the rise of cinematic CD games. Follow for more retro console breakthroughs.",
+    "hashtags": [
+      "#shorts",
       "#retro",
-      "#fyp",
-      "#gamedev"
+      "#gaminghistory",
+      "#PlayStation",
+      "#techfacts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "CD Laser Secrets Revealed",
+    "thumb": "780 NM LASER",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "The laser that reads every song on a CD",
+        "hook_top": "CD READING LASER",
+        "query": "CD laser wavelength 780 nm",
+        "query2": "CD player laser specifications",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "Standard CD players use a 780 nm infrared laser to detect pits and lands",
+        "chips": [
+          {
+            "t": "780 NM INFRARED",
+            "on": "infrared",
+            "style": "white"
+          }
+        ],
+        "query": "780 nm infrared laser CD",
+        "query2": "CD player laser wavelength",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "The laser’s focus spot is about 1.2 µm, matching the size of the microscopic pits",
+        "chips": [
+          {
+            "t": "1.2 µM FOCUS",
+            "on": "focus",
+            "style": "accent"
+          }
+        ],
+        "punch": "precise",
+        "query": "CD pit size 1.2 micrometer",
+        "query2": "CD laser focus spot size",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "Because the laser reads data by reflecting off the pits, any dust can cause a skip, which is why clean discs matter",
+        "reveal_top": "DUST CAUSES SKIPS",
+        "query": "CD skip dust cause",
+        "query2": "why CDs skip when dirty",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "tech explainer channel",
+        "query2": "everyday tech shorts",
+        "role": "cta"
+      }
+    ],
+    "description": "Explore how a tiny infrared laser reads the data on every CD and why dust can ruin playback. Follow for more everyday tech explanations.",
+    "hashtags": [
+      "#shorts",
+      "#tech",
+      "#everydaytech",
+      "#CDs",
+      "#laser",
+      "#fyp"
     ],
     "place": "",
     "country": ""

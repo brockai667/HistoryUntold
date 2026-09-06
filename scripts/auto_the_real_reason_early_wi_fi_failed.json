@@ -1,0 +1,65 @@
+{
+  "title": "The Real Reason Early Wi‑Fi Failed",
+  "thumb": "WIFI FAIL FACT",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Why the 1997 Linksys router barely reached a room",
+      "hook_top": "LINKSYS 1997 LIMIT",
+      "query": "1997 Linksys Wi‑Fi range issues",
+      "query2": "early Wi‑Fi router coverage 1997",
+      "role": "hook"
+    },
+    {
+      "type": "count",
+      "num": 3,
+      "label": "UNLICENSED 2.4 GHZ BAND",
+      "label_on": "BAND",
+      "text": "It used the unregulated 2.4 GHz band, causing heavy interference from cordless phones and microwaves.",
+      "query": "2.4 GHz interference early Wi‑Fi 1997",
+      "query2": "unlicensed Wi‑Fi band problems",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 2,
+      "label": "ANTENNA DESIGN LIMITS",
+      "label_on": "DESIGN",
+      "text": "The built‑in antenna was short and non‑directional, limiting signal strength.",
+      "query": "1997 Linksys antenna design",
+      "query2": "early Wi‑Fi router antenna limitations",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 1,
+      "label": "NO MESH SUPPORT",
+      "label_on": "MESH",
+      "text": "Without mesh networking, each unit acted alone, leaving dead zones in larger homes.",
+      "query": "early Wi‑Fi mesh support missing 1997",
+      "query2": "1990s Wi‑Fi coverage challenges",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "follow call to action text",
+      "query2": "CTA follow text",
+      "role": "cta"
+    }
+  ],
+  "description": "Learn the technical flaws that kept the first consumer Wi‑Fi routers confined to a single room. Stay tuned for more tech breakdowns.",
+  "hashtags": [
+    "#shorts",
+    "#techhistory",
+    "#wifi",
+    "#networking",
+    "#retrotech",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

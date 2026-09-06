@@ -1,0 +1,69 @@
+{
+  "title": "The Lost Sound Chip That Made 90s Games",
+  "thumb": "RARE SOUND CHIP",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "1994 introduced a sound chip that changed arcade music forever",
+      "hook_top": "SOUND CHIP REVEALED",
+      "query": "Yamaha YM2151 sound chip 1994 arcade",
+      "query2": "Yamaha OPL sound chip 1994",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The Yamaha YM2151 could produce up to eight simultaneous voices",
+      "chips": [
+        {
+          "t": "EIGHT VOICES",
+          "on": "voice",
+          "style": "white"
+        }
+      ],
+      "query": "Yamaha YM2151 eight voices",
+      "query2": "YM2151 specifications",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "It was the first FM synthesis chip used widely in Sega's Model 2 arcade boards",
+      "chips": [
+        {
+          "t": "FM SYNTHESIS",
+          "on": "synthesis",
+          "style": "accent"
+        }
+      ],
+      "query": "Sega Model 2 FM synthesis chip",
+      "query2": "Sega arcade sound hardware 1994",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "The same chip powered the iconic soundtrack of the 1995 fighting classic Virtua Fighter 2",
+      "reveal_top": "VIRTUA FIGHTER MUSIC",
+      "query": "Virtua Fighter 2 YM2151 soundtrack",
+      "query2": "Virtua Fighter 2 sound hardware",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech you should actually know.",
+      "query": "follow call to action",
+      "query2": "subscribe reminder",
+      "role": "cta"
+    }
+  ],
+  "description": "Discover how a single sound chip shaped the sound of 90s arcade games. Follow for more hidden tech stories.",
+  "hashtags": [
+    "#shorts",
+    "#gaminghistory",
+    "#techfacts",
+    "#retro",
+    "#soundchip",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}
