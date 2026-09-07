@@ -1,0 +1,62 @@
+{
+  "title": "The Wi‑Fi Router Myth",
+  "thumb": "ROUTER LIE",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "The first public Wi‑Fi hotspot opened in 1992 at a coffee shop.",
+      "hook_top": "1992 COFFEE SHOP WIFI",
+      "query": "first public Wi‑Fi hotspot 1992",
+      "query2": "1992 coffee shop WiFi launch",
+      "role": "hook"
+    },
+    {
+      "type": "myth",
+      "text": "Many believe early Wi‑Fi used the same 2.4 GHz band as modern routers.",
+      "label": "Early Wi‑Fi same band myth",
+      "query": "early Wi‑Fi frequency myth",
+      "query2": "1990s WiFi band misconception",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "truth",
+      "text": "Actually the 1992 system operated on the 2.5 GHz ISM band, later standardized to 2.4 GHz for compatibility.",
+      "label": "Used 2.5 GHz ISM band",
+      "query": "1992 Wi‑Fi 2.5 GHz ISM band",
+      "query2": "early WiFi frequency 2.5 GHz",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "Understanding the original band explains why early routers had limited range.",
+      "label": "Band limits range",
+      "sub": "Early tech, modern expectations",
+      "label_on": "RangeFact",
+      "query": "early Wi‑Fi range limitation",
+      "query2": "2.5 GHz WiFi coverage",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "everyday tech CTA follow",
+      "query2": "tech mythbusting follow prompt",
+      "role": "cta"
+    }
+  ],
+  "description": "The coffee‑shop Wi‑Fi story is famous, but the frequency myth persists. Learn the actual band used and why early routers behaved differently. Follow for more simple tech explanations.",
+  "hashtags": [
+    "#shorts",
+    "#tech",
+    "#WiFi",
+    "#mythbusting",
+    "#everydaytech",
+    "#history",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

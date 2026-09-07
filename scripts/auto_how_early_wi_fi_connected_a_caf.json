@@ -1,0 +1,61 @@
+{
+  "title": "How Early Wi‑Fi Connected a Café",
+  "thumb": "COFFEE WIFI",
+  "scenes": [
+    {
+      "hook_top": "1993 COFFEE WIFI",
+      "query": "1993 coffee shop public Wi-Fi",
+      "query2": "first public Wi-Fi café 1993",
+      "role": "hook",
+      "text": "Which 1993 coffee shop pioneered public Wi‑Fi?"
+    },
+    {
+      "num": 1,
+      "label": "THE HONEYWELL BEEHIVE HUB",
+      "label_on": "BEEHIVE",
+      "text": "The Café BEEHIVE installed a Honeywell WaveLAN router, the first commercial wireless LAN.",
+      "query": "Honeywell WaveLAN 1993 café",
+      "query2": "WaveLAN early public Wi-Fi",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "num": 2,
+      "label": "10‑METER RANGE COVERAGE",
+      "label_on": "RANGE",
+      "text": "The system covered roughly ten meters, enough for customers to browse the web from any table.",
+      "query": "WaveLAN 10 meter range 1993",
+      "query2": "early Wi-Fi coverage specs",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "num": 3,
+      "label": "INFLUENCE ON TODAY'S HOTSPOTS",
+      "label_on": "INFLUENCE",
+      "text": "That modest setup inspired the modern hotspot model used in cafés worldwide.",
+      "query": "origin of coffee shop Wi-Fi hotspots",
+      "query2": "history of public Wi-Fi cafés",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "query": "tech origin stories CTA",
+      "query2": "follow tech channel CTA",
+      "role": "cta",
+      "text": "Follow for daily tech and AI news."
+    }
+  ],
+  "description": "A tiny router in a Seattle café sparked the wireless culture we now take for granted. See how it all began.",
+  "hashtags": [
+    "#shorts",
+    "#wifi",
+    "#retrotech",
+    "#history",
+    "#fyp",
+    "#tech",
+    "#cafe"
+  ],
+  "place": "",
+  "country": ""
+}
