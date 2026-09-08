@@ -12000,5 +12000,197 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "How CD Lasers Read Data",
+    "thumb": "CD LASER",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "What wavelength lets a CD laser read tiny pits?",
+        "hook_top": "CD LASER WAVELENGTH",
+        "query": "CD laser wavelength 780 nm",
+        "query2": "optical disc laser specs",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "text": "It uses an infrared laser at roughly 780 nanometers.",
+        "label": "780 NM INFRARED",
+        "label_on": "wavelength",
+        "query": "780 nm infrared laser CD",
+        "query2": "CD laser infrared wavelength",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "text": "The beam reflects off the disc’s aluminum layer, differing on pits vs. lands.",
+        "label": "ALUMINUM REFLECTION",
+        "label_on": "reflection",
+        "query": "CD aluminum layer reflection pits lands",
+        "query2": "optical disc pit land detection",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "text": "A photodiode converts the reflected light variations into digital signals.",
+        "label": "PHOTODIODE SIGNAL",
+        "label_on": "photodiode",
+        "query": "CD photodiode converts light to data",
+        "query2": "optical pickup photodiode function",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "CD reading technology",
+        "query2": "optical disc basics",
+        "role": "cta"
+      }
+    ],
+    "description": "Three precise steps a CD player takes to turn tiny pits into music and data. Stay tuned for more easy tech breakdowns.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#tech",
+      "#cd",
+      "#laser",
+      "#howitworks"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Real Reason CD Laser Wavelength Matters",
+    "thumb": "CD LASER",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "CD players read data using a laser exactly 780 nanometers long",
+        "hook_top": "780 NM LASER",
+        "query": "CD laser wavelength 780 nanometers",
+        "query2": "CD optical pickup laser specs",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "Many assume any red laser can read a CD as long as it’s bright enough.",
+        "label": "Any red laser myth",
+        "query": "any red laser CD reading myth",
+        "query2": "CD laser brightness misconception",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "The 780 nm wavelength matches the reflectivity of the CD’s aluminum layer, allowing precise focus and error correction; other wavelengths cause scattering and data loss.",
+        "label": "Specific wavelength needed",
+        "query": "why 780nm wavelength needed for CDs",
+        "query2": "CD reflectivity laser wavelength explanation",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Exact wavelength ensures reliable data retrieval across all discs.",
+        "label": "Precision matters",
+        "sub": "A tiny shift breaks reading accuracy.",
+        "label_on": "Wavelength",
+        "query": "laser wavelength precision CD reading",
+        "query2": "CD data error caused by wrong laser",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "follow everyday tech explanations",
+        "query2": "subscribe tech myth busting channel",
+        "role": "cta"
+      }
+    ],
+    "description": "Learn why a CD player can’t just use any red laser – the 780 nm wavelength is essential. Follow for more clear tech breakdowns.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#tech",
+      "#cdlaser",
+      "#everydaytech",
+      "#mythbusting",
+      "#techfacts"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Secrets of the Atari 2600",
+    "thumb": "ATARI LEGEND",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "How did the 1977 Atari 2600 sell millions?",
+        "hook_top": "ATARI 2600 SUCCESS",
+        "query": "Atari 2600 sales 1977",
+        "query2": "Atari 2600 market impact",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "text": "It used a 6507 CPU running at 1.19 MHz.",
+        "label": "6507 CPU AT 1.19MHZ",
+        "label_on": "CPU",
+        "query": "Atari 2600 6507 CPU 1.19 MHz",
+        "query2": "Atari 2600 processor speed",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "text": "Its graphics chip could display only 128 colors total.",
+        "label": "128 COLOR LIMIT",
+        "label_on": "colors",
+        "query": "Atari 2600 color palette 128",
+        "query2": "Atari 2600 graphics colors",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "text": "The console shipped with removable game cartridges holding up to 4 KB of ROM.",
+        "label": "MAX 4KB ROM CARDS",
+        "label_on": "cartridges",
+        "query": "Atari 2600 cartridge size 4KB",
+        "query2": "Atari 2600 ROM capacity",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "Atari 2600 retro tech",
+        "query2": "classic console facts",
+        "role": "cta"
+      }
+    ],
+    "description": "Explore three core hardware facts that made the Atari 2600 a gaming pioneer. Dive deeper into retro gaming history with us.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#gaminghistory",
+      "#retro",
+      "#atari2600",
+      "#techfacts"
+    ],
+    "place": "",
+    "country": ""
   }
 ]

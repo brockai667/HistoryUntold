@@ -1,0 +1,62 @@
+{
+  "title": "CD Laser Wavelength Mystery",
+  "thumb": "CD LASER",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "CD players emit a 780 nm infrared beam to read data.",
+      "hook_top": "CD LASER FACT",
+      "query": "CD laser wavelength 780 nm",
+      "query2": "CD player infrared laser",
+      "role": "hook"
+    },
+    {
+      "type": "myth",
+      "text": "Many think CDs use a visible red laser like DVD players.",
+      "label": "Visible red laser myth",
+      "query": "CD visible red laser misconception",
+      "query2": "CD vs DVD laser color myth",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "truth",
+      "text": "The standard for CD‑ROMs is an infrared laser around 780 nm, while DVDs use a shorter 640 nm red laser for higher density.",
+      "label": "Infrared CD laser reality",
+      "query": "CD infrared laser specification",
+      "query2": "CD versus DVD laser wavelengths",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "That’s why a DVD laser can’t read a CD accurately.",
+      "label": "Laser mismatch",
+      "sub": "Different wavelengths, different discs",
+      "label_on": "Mismatch",
+      "query": "why DVD laser can't read CD",
+      "query2": "laser wavelength disc compatibility",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech you should actually know.",
+      "query": "follow tech facts channel",
+      "query2": "subscribe everyday tech shorts",
+      "role": "cta"
+    }
+  ],
+  "description": "A popular myth says CDs read with the same red laser as DVDs. The real science involves an invisible infrared beam. Discover the details in a flash.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#tech",
+    "#cd",
+    "#laser",
+    "#mythbusting",
+    "#howitworks"
+  ],
+  "place": "",
+  "country": ""
+}

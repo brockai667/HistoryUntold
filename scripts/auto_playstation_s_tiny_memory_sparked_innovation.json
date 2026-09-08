@@ -1,0 +1,75 @@
+{
+  "title": "PlayStation’s Tiny Memory Sparked Innovation",
+  "thumb": "2 MB MEMORY MAGIC",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "When Sony launched a console with just 2 MB RAM",
+      "hook_top": "2MB RAM CONSOLE",
+      "query": "PlayStation 2 MB RAM",
+      "query2": "original PlayStation memory size",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The PlayStation shipped with 2 MB of main RAM and 1 MB of video RAM",
+      "chips": [
+        {
+          "t": "2 MB MAIN RAM",
+          "on": "memory",
+          "style": "white"
+        },
+        {
+          "t": "1 MB VIDEO RAM",
+          "on": "video",
+          "style": "accent"
+        }
+      ],
+      "query": "PlayStation memory specifications 1994",
+      "query2": "original PlayStation RAM details",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Developers used heavy compression and streaming techniques to fit full‑motion video into that space",
+      "chips": [
+        {
+          "t": "HEAVY COMPRESSION",
+          "on": "compression",
+          "style": "accent"
+        }
+      ],
+      "punch": "tight",
+      "query": "PlayStation video compression techniques",
+      "query2": "how games fit video on PlayStation",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "That limitation forced the birth of iconic CD‑based games with cinematic storytelling",
+      "reveal_top": "CINEMATIC CD GAMES",
+      "query": "PlayStation cinematic games 1995",
+      "query2": "impact of RAM limits on PlayStation games",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "retro console channel",
+      "query2": "gaming history shorts",
+      "role": "cta"
+    }
+  ],
+  "description": "Learn how the PlayStation’s modest memory size led to groundbreaking compression and the rise of cinematic CD games. Follow for more retro console breakthroughs.",
+  "hashtags": [
+    "#shorts",
+    "#retro",
+    "#gaminghistory",
+    "#PlayStation",
+    "#techfacts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}
