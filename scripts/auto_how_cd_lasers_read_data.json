@@ -1,0 +1,65 @@
+{
+  "title": "How CD Lasers Read Data",
+  "thumb": "CD LASER",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "What wavelength lets a CD laser read tiny pits?",
+      "hook_top": "CD LASER WAVELENGTH",
+      "query": "CD laser wavelength 780 nm",
+      "query2": "optical disc laser specs",
+      "role": "hook"
+    },
+    {
+      "type": "count",
+      "num": 3,
+      "text": "It uses an infrared laser at roughly 780 nanometers.",
+      "label": "780 NM INFRARED",
+      "label_on": "wavelength",
+      "query": "780 nm infrared laser CD",
+      "query2": "CD laser infrared wavelength",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 2,
+      "text": "The beam reflects off the disc’s aluminum layer, differing on pits vs. lands.",
+      "label": "ALUMINUM REFLECTION",
+      "label_on": "reflection",
+      "query": "CD aluminum layer reflection pits lands",
+      "query2": "optical disc pit land detection",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 1,
+      "text": "A photodiode converts the reflected light variations into digital signals.",
+      "label": "PHOTODIODE SIGNAL",
+      "label_on": "photodiode",
+      "query": "CD photodiode converts light to data",
+      "query2": "optical pickup photodiode function",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "CD reading technology",
+      "query2": "optical disc basics",
+      "role": "cta"
+    }
+  ],
+  "description": "Three precise steps a CD player takes to turn tiny pits into music and data. Stay tuned for more easy tech breakdowns.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#tech",
+    "#cd",
+    "#laser",
+    "#howitworks"
+  ],
+  "place": "",
+  "country": ""
+}

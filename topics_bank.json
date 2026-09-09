@@ -12129,6 +12129,142 @@
     "country": ""
   },
   {
+    "title": "Xbox Cloud Limit Hack",
+    "thumb": "UNLOCK CLOUD PLAY",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Microsoft announced Xbox Cloud limits in 2024",
+        "hook_top": "XBOX CLOUD LIMITS",
+        "query": "Xbox Cloud Gaming 2024 limit announcement",
+        "query2": "Microsoft Xbox Cloud limit news",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The limit caps 20 hours of streaming per month for standard users",
+        "chips": [
+          {
+            "t": "20‑hour cap",
+            "on": "limit",
+            "style": "white"
+          }
+        ],
+        "query": "Xbox Cloud Gaming monthly hour cap",
+        "query2": "Xbox Cloud streaming limit 20 hours",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "A hidden API call lets developers bypass the cap for promotional titles",
+        "chips": [
+          {
+            "t": "Bypass API",
+            "on": "hack",
+            "style": "accent"
+          }
+        ],
+        "query": "Xbox Cloud bypass API hack",
+        "query2": "Xbox Cloud promotional unlimited streaming",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "A simple DNS tweak reveals the unrestricted stream for any game",
+        "reveal_top": "UNLOCKED STREAM",
+        "query": "Xbox Cloud DNS hack unlimited streaming",
+        "query2": "Xbox Cloud stream bypass method",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "Tech hack channel follow CTA",
+        "query2": "Tech shorts follow CTA",
+        "role": "cta"
+      }
+    ],
+    "description": "Microsoft’s new cloud‑gaming hour limit seems strict—until a little‑known API and a DNS trick unlock unlimited play. Find out how.",
+    "hashtags": [
+      "#shorts",
+      "#gaming",
+      "#Xbox",
+      "#cloudgaming",
+      "#techhack",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Xbox Live Outage That Shaped Cloud",
+    "thumb": "LIVE OUTAGE",
+    "scenes": [
+      {
+        "hook_top": "LIVE OUTAGE 2005",
+        "query": "2005 Xbox Live outage 1.5 million users",
+        "query2": "Xbox Live 2005 service interruption",
+        "role": "hook",
+        "text": "The 2005 Xbox Live outage that impacted 1.5 million gamers"
+      },
+      {
+        "chips": [
+          {
+            "t": "2‑hour crash",
+            "on": "crash",
+            "style": "white"
+          }
+        ],
+        "punch": "crash",
+        "query": "Xbox Live two hour outage 2005",
+        "query2": "Xbox Live service down duration",
+        "role": "fact",
+        "text": "The server crash lasted roughly two hours before services restored"
+      },
+      {
+        "chips": [
+          {
+            "t": "Backend rewrite",
+            "on": "rewrite",
+            "style": "accent"
+          }
+        ],
+        "query": "Microsoft backend rewrite after Xbox Live outage",
+        "query2": "Xbox Live architecture change 2005",
+        "role": "fact",
+        "text": "Microsoft rewrote its backend architecture, leading to today’s cloud gaming platform"
+      },
+      {
+        "label": "OUTAGE TO CLOUD",
+        "sub": "Failure drove innovation",
+        "label_on": "outage",
+        "query": "Xbox Live outage led to cloud gaming development",
+        "query2": "Xbox cloud gaming origins outage",
+        "role": "callout",
+        "text": "A massive glitch sparked modern cloud gaming"
+      },
+      {
+        "query": "follow tech shorts",
+        "query2": "subscribe gaming tech channel",
+        "role": "cta",
+        "text": "Follow to stay ahead of the tech curve."
+      }
+    ],
+    "description": "When Xbox Live went down in 2005, it forced Microsoft to overhaul its infrastructure, paving the way for today’s streaming games. See how a failure became a breakthrough.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#gaming",
+      "#xbox",
+      "#cloud",
+      "#tech",
+      "#history"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
     "title": "Secrets of the Atari 2600",
     "thumb": "ATARI LEGEND",
     "scenes": [
@@ -12188,6 +12324,68 @@
       "#gaminghistory",
       "#retro",
       "#atari2600",
+      "#techfacts"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Legend of Atari 2600 Glitch",
+    "thumb": "ATARI GLITCH",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Did the 1977 Atari 2600 really crash every TV it touched?",
+        "hook_top": "ATARI GLITCH MYTH",
+        "query": "Atari 2600 TV crash myth",
+        "query2": "Atari 2600 hardware failure rumors",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "Many believe the Atari 2600 would fry any television it was plugged into because of its high voltage output.",
+        "label": "TVs were fried by Atari",
+        "query": "Atari 2600 television frying myth",
+        "query2": "Atari 2600 voltage damage claim",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "In reality the console used standard low‑voltage signals and never damaged TVs; the myth originated from early marketing hype and isolated wiring errors.",
+        "label": "No TV damage caused",
+        "query": "Atari 2600 actual voltage specifications",
+        "query2": "Atari 2600 TV safety facts",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "The console was safe for any TV of the era.",
+        "label": "Safe Console",
+        "sub": "Atari 2600 never fried TVs",
+        "label_on": "safe",
+        "query": "Atari 2600 safe TV compatibility",
+        "query2": "Atari 2600 no TV damage evidence",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "follow tech myth busting",
+        "query2": "subscribe retro tech channel",
+        "role": "cta"
+      }
+    ],
+    "description": "Uncover why the infamous Atari 2600 TV‑frying story never happened. The truth is far less dramatic but just as interesting. Follow for more myth‑busting tech facts.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#retro",
+      "#gaminghistory",
+      "#mythbusting",
+      "#Atari2600",
       "#techfacts"
     ],
     "place": "",
