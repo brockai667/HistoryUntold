@@ -12265,6 +12265,120 @@
     "country": ""
   },
   {
+    "title": "Cartridge Saves Battery Myth",
+    "thumb": "BATTERY MYTH",
+    "scenes": [
+      {
+        "text": "Nintendo's 1985 cartridge held a secret battery for game saves",
+        "hook_top": "SECRET BATTERY INSIDE",
+        "query": "Nintendo 1985 cartridge battery",
+        "query2": "NES cartridge battery",
+        "role": "hook"
+      },
+      {
+        "text": "Everyone believes every classic game cartridge needed a battery to keep saves",
+        "label": "All cartridges used batteries",
+        "query": "game cartridge battery myth",
+        "query2": "classic cartridge battery belief",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "In reality only early NES titles used battery‑backed RAM; later games switched to EEPROM flash memory",
+        "label": "Only early NES used batteries",
+        "query": "battery backed RAM vs EEPROM",
+        "query2": "NES cartridge memory types",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Battery or EEPROM? The shift happened in the early 1990s",
+        "label": "Battery or EEPROM",
+        "sub": "Later games switched to flash memory",
+        "label_on": "Switch",
+        "query": "cartridge memory types battery EEPROM",
+        "query2": "NES flash memory adoption",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "gaming myth channel",
+        "query2": "gaming myth busting",
+        "role": "cta"
+      }
+    ],
+    "description": "Many think every retro cartridge needed a battery to save progress. We reveal which ones really did and why the technology changed. Stay tuned for more myth‑busting!",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#gaminghistory",
+      "#retro",
+      "#mythbusting",
+      "#techfacts",
+      "#gaming"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Microwave Radiation Misunderstood",
+    "thumb": "MICROWAVE MYTH",
+    "scenes": [
+      {
+        "text": "A 2024 kitchen test measured 2.45 GHz waves inside a standard microwave",
+        "hook_top": "245GHZ INSIDE MICROWAVE",
+        "query": "microwave 2.45 GHz frequency",
+        "query2": "microwave radiation frequency",
+        "role": "hook"
+      },
+      {
+        "text": "People often say microwaves “nuke” food with dangerous radiation",
+        "label": "Microwaves nuke food",
+        "query": "microwave radiation danger myth",
+        "query2": "microwave nukes food belief",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "The truth: microwaves use non‑ionizing microwave radiation that makes water molecules vibrate, heating food safely",
+        "label": "Non‑ionizing water heating",
+        "query": "microwave heating water molecules",
+        "query2": "microwave non ionizing radiation",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Safe heating, not nuking – the waves simply excite water molecules",
+        "label": "Safe heating",
+        "sub": "Waves excite water, not atoms",
+        "label_on": "Excite",
+        "query": "microwave safe heating explanation",
+        "query2": "microwave water molecule vibration",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "query": "tech truth channel",
+        "query2": "tech myth busting",
+        "role": "cta"
+      }
+    ],
+    "description": "Microwaves aren't tiny nukes – they use a specific frequency to jiggle water molecules. Learn the real science behind your kitchen staple. Follow for more simple tech explanations.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#everydaytech",
+      "#microwave",
+      "#mythbusting",
+      "#science",
+      "#techfacts"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
     "title": "Secrets of the Atari 2600",
     "thumb": "ATARI LEGEND",
     "scenes": [
@@ -12387,6 +12501,71 @@
       "#mythbusting",
       "#Atari2600",
       "#techfacts"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Why Early Wi‑Fi Fell Apart",
+    "thumb": "WIFI FAIL",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "The 1997 standard that never reached homes",
+        "hook_top": "1997 WIFI LOST",
+        "query": "1997 Wi‑Fi standard failure",
+        "query2": "1997 wireless LAN collapse",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "label": "INTERFERENCE FROM MICROWAVES",
+        "label_on": "interference",
+        "text": "Microwave ovens caused signal disruptions in early routers",
+        "query": "microwave interference early Wi‑Fi 1997",
+        "query2": "1997 Wi‑Fi microwave issue",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "label": "PROPRIETARY DRIVERS LIMITED ADOPTION",
+        "label_on": "drivers",
+        "text": "Manufacturers locked hardware with custom drivers",
+        "query": "1997 Wi‑Fi proprietary drivers",
+        "query2": "early Wi‑Fi driver lock",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "label": "LACK OF UNIVERSAL SECURITY",
+        "label_on": "security",
+        "text": "No encryption made users distrust the tech",
+        "query": "1997 Wi‑Fi security concerns",
+        "query2": "early Wi‑Fi encryption missing",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "follow tech short videos",
+        "query2": "subscribe tech channel",
+        "role": "cta"
+      }
+    ],
+    "description": "Early wireless networking stumbled over interference, locked drivers, and missing security. Learn why it finally took off later.",
+    "hashtags": [
+      "#shorts",
+      "#wifi",
+      "#techhistory",
+      "#fyp",
+      "#retrotech",
+      "#networking"
     ],
     "place": "",
     "country": ""

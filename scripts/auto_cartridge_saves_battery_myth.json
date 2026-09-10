@@ -1,0 +1,57 @@
+{
+  "title": "Cartridge Saves Battery Myth",
+  "thumb": "BATTERY MYTH",
+  "scenes": [
+    {
+      "text": "Nintendo's 1985 cartridge held a secret battery for game saves",
+      "hook_top": "SECRET BATTERY INSIDE",
+      "query": "Nintendo 1985 cartridge battery",
+      "query2": "NES cartridge battery",
+      "role": "hook"
+    },
+    {
+      "text": "Everyone believes every classic game cartridge needed a battery to keep saves",
+      "label": "All cartridges used batteries",
+      "query": "game cartridge battery myth",
+      "query2": "classic cartridge battery belief",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "In reality only early NES titles used battery‑backed RAM; later games switched to EEPROM flash memory",
+      "label": "Only early NES used batteries",
+      "query": "battery backed RAM vs EEPROM",
+      "query2": "NES cartridge memory types",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Battery or EEPROM? The shift happened in the early 1990s",
+      "label": "Battery or EEPROM",
+      "sub": "Later games switched to flash memory",
+      "label_on": "Switch",
+      "query": "cartridge memory types battery EEPROM",
+      "query2": "NES flash memory adoption",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "gaming myth channel",
+      "query2": "gaming myth busting",
+      "role": "cta"
+    }
+  ],
+  "description": "Many think every retro cartridge needed a battery to save progress. We reveal which ones really did and why the technology changed. Stay tuned for more myth‑busting!",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#gaminghistory",
+    "#retro",
+    "#mythbusting",
+    "#techfacts",
+    "#gaming"
+  ],
+  "place": "",
+  "country": ""
+}

@@ -1,0 +1,67 @@
+{
+  "title": "Xbox Live Outage That Shaped Cloud",
+  "thumb": "LIVE OUTAGE",
+  "scenes": [
+    {
+      "hook_top": "LIVE OUTAGE 2005",
+      "query": "2005 Xbox Live outage 1.5 million users",
+      "query2": "Xbox Live 2005 service interruption",
+      "role": "hook",
+      "text": "The 2005 Xbox Live outage that impacted 1.5 million gamers"
+    },
+    {
+      "chips": [
+        {
+          "t": "2‑hour crash",
+          "on": "crash",
+          "style": "white"
+        }
+      ],
+      "punch": "crash",
+      "query": "Xbox Live two hour outage 2005",
+      "query2": "Xbox Live service down duration",
+      "role": "fact",
+      "text": "The server crash lasted roughly two hours before services restored"
+    },
+    {
+      "chips": [
+        {
+          "t": "Backend rewrite",
+          "on": "rewrite",
+          "style": "accent"
+        }
+      ],
+      "query": "Microsoft backend rewrite after Xbox Live outage",
+      "query2": "Xbox Live architecture change 2005",
+      "role": "fact",
+      "text": "Microsoft rewrote its backend architecture, leading to today’s cloud gaming platform"
+    },
+    {
+      "label": "OUTAGE TO CLOUD",
+      "sub": "Failure drove innovation",
+      "label_on": "outage",
+      "query": "Xbox Live outage led to cloud gaming development",
+      "query2": "Xbox cloud gaming origins outage",
+      "role": "callout",
+      "text": "A massive glitch sparked modern cloud gaming"
+    },
+    {
+      "query": "follow tech shorts",
+      "query2": "subscribe gaming tech channel",
+      "role": "cta",
+      "text": "Follow to stay ahead of the tech curve."
+    }
+  ],
+  "description": "When Xbox Live went down in 2005, it forced Microsoft to overhaul its infrastructure, paving the way for today’s streaming games. See how a failure became a breakthrough.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#gaming",
+    "#xbox",
+    "#cloud",
+    "#tech",
+    "#history"
+  ],
+  "place": "",
+  "country": ""
+}

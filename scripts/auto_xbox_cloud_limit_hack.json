@@ -1,0 +1,69 @@
+{
+  "title": "Xbox Cloud Limit Hack",
+  "thumb": "UNLOCK CLOUD PLAY",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Microsoft announced Xbox Cloud limits in 2024",
+      "hook_top": "XBOX CLOUD LIMITS",
+      "query": "Xbox Cloud Gaming 2024 limit announcement",
+      "query2": "Microsoft Xbox Cloud limit news",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The limit caps 20 hours of streaming per month for standard users",
+      "chips": [
+        {
+          "t": "20‑hour cap",
+          "on": "limit",
+          "style": "white"
+        }
+      ],
+      "query": "Xbox Cloud Gaming monthly hour cap",
+      "query2": "Xbox Cloud streaming limit 20 hours",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "A hidden API call lets developers bypass the cap for promotional titles",
+      "chips": [
+        {
+          "t": "Bypass API",
+          "on": "hack",
+          "style": "accent"
+        }
+      ],
+      "query": "Xbox Cloud bypass API hack",
+      "query2": "Xbox Cloud promotional unlimited streaming",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "A simple DNS tweak reveals the unrestricted stream for any game",
+      "reveal_top": "UNLOCKED STREAM",
+      "query": "Xbox Cloud DNS hack unlimited streaming",
+      "query2": "Xbox Cloud stream bypass method",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "Tech hack channel follow CTA",
+      "query2": "Tech shorts follow CTA",
+      "role": "cta"
+    }
+  ],
+  "description": "Microsoft’s new cloud‑gaming hour limit seems strict—until a little‑known API and a DNS trick unlock unlimited play. Find out how.",
+  "hashtags": [
+    "#shorts",
+    "#gaming",
+    "#Xbox",
+    "#cloudgaming",
+    "#techhack",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}
