@@ -1,0 +1,66 @@
+{
+  "title": "Inside The First Home Wi‑Fi",
+  "thumb": "COFFEE HUB",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Which café hosted the world’s first public Wi‑Fi hotspot?",
+      "hook_top": "FIRST PUBLIC WIFI",
+      "query": "first public Wi‑Fi hotspot coffee shop 1991",
+      "query2": "World's first Wi‑Fi café history",
+      "role": "hook"
+    },
+    {
+      "type": "count",
+      "num": 3,
+      "text": "A 1991 laptop equipped with a 802.11 prototype connected to a router placed under the counter.",
+      "label": "802.11 PROTOTYPE LAPTOP",
+      "label_on": "prototype",
+      "query": "1991 802.11 prototype laptop cafe",
+      "query2": "early Wi‑Fi laptop 1991",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 2,
+      "text": "The router broadcast on 2.4 GHz, offering about 100 kbps to patrons—a speed unimaginable today.",
+      "label": "100KBPS 2.4GHZ SIGNAL",
+      "label_on": "speed",
+      "query": "1991 cafe Wi‑Fi 100kbps speed",
+      "query2": "early Wi‑Fi 2.4GHz bandwidth 1990s",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 1,
+      "text": "The experiment proved wireless internet could work in public spaces, sparking the modern hotspot era.",
+      "label": "SPARKED HOTSPOT ERA",
+      "label_on": "spark",
+      "query": "first public Wi‑Fi impact on hotspots",
+      "query2": "history of public Wi‑Fi hotspots",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "follow call to action tech history",
+      "query2": "subscribe reminder short tech",
+      "role": "cta"
+    }
+  ],
+  "description": "Discover the modest coffee shop that pioneered public Wi‑Fi, the gear that made it possible, and how it set the stage for today’s everywhere internet. Follow for more tech origins!",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#wifi",
+    "#retrotech",
+    "#techhistory",
+    "#gadgets",
+    "#tech"
+  ],
+  "place": "",
+  "country": ""
+}

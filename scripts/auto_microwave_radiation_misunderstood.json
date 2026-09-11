@@ -1,0 +1,57 @@
+{
+  "title": "Microwave Radiation Misunderstood",
+  "thumb": "MICROWAVE MYTH",
+  "scenes": [
+    {
+      "text": "A 2024 kitchen test measured 2.45 GHz waves inside a standard microwave",
+      "hook_top": "245GHZ INSIDE MICROWAVE",
+      "query": "microwave 2.45 GHz frequency",
+      "query2": "microwave radiation frequency",
+      "role": "hook"
+    },
+    {
+      "text": "People often say microwaves “nuke” food with dangerous radiation",
+      "label": "Microwaves nuke food",
+      "query": "microwave radiation danger myth",
+      "query2": "microwave nukes food belief",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "The truth: microwaves use non‑ionizing microwave radiation that makes water molecules vibrate, heating food safely",
+      "label": "Non‑ionizing water heating",
+      "query": "microwave heating water molecules",
+      "query2": "microwave non ionizing radiation",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Safe heating, not nuking – the waves simply excite water molecules",
+      "label": "Safe heating",
+      "sub": "Waves excite water, not atoms",
+      "label_on": "Excite",
+      "query": "microwave safe heating explanation",
+      "query2": "microwave water molecule vibration",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow for daily tech and AI news.",
+      "query": "tech truth channel",
+      "query2": "tech myth busting",
+      "role": "cta"
+    }
+  ],
+  "description": "Microwaves aren't tiny nukes – they use a specific frequency to jiggle water molecules. Learn the real science behind your kitchen staple. Follow for more simple tech explanations.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#everydaytech",
+    "#microwave",
+    "#mythbusting",
+    "#science",
+    "#techfacts"
+  ],
+  "place": "",
+  "country": ""
+}

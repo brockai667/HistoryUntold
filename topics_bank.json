@@ -12379,193 +12379,469 @@
     "country": ""
   },
   {
-    "title": "Secrets of the Atari 2600",
-    "thumb": "ATARI LEGEND",
+    "title": "Retro Console Secrets Revealed",
+    "thumb": "OLD TECH",
     "scenes": [
       {
         "type": "hook",
-        "text": "How did the 1977 Atari 2600 sell millions?",
-        "hook_top": "ATARI 2600 SUCCESS",
-        "query": "Atari 2600 sales 1977",
-        "query2": "Atari 2600 market impact",
+        "text": "Why did the Dreamcast launch with a built‑in modem?",
+        "hook_top": "DREAMCAST MODEM MYSTERY",
+        "query": "Dreamcast built‑in modem 1999 launch",
+        "query2": "Sega Dreamcast modem feature",
         "role": "hook"
       },
       {
         "type": "count",
         "num": 3,
-        "text": "It used a 6507 CPU running at 1.19 MHz.",
-        "label": "6507 CPU AT 1.19MHZ",
-        "label_on": "CPU",
-        "query": "Atari 2600 6507 CPU 1.19 MHz",
-        "query2": "Atari 2600 processor speed",
+        "text": "Sega added a 56 kbps dial‑up modem to enable online play before broadband was common.",
+        "label": "56KBPS ONLINE MODEM",
+        "label_on": "online",
+        "query": "Dreamcast 56kbps modem online gaming",
+        "query2": "Sega Dreamcast internet capabilities",
         "role": "fact",
         "chips": []
       },
       {
         "type": "count",
         "num": 2,
-        "text": "Its graphics chip could display only 128 colors total.",
-        "label": "128 COLOR LIMIT",
-        "label_on": "colors",
-        "query": "Atari 2600 color palette 128",
-        "query2": "Atari 2600 graphics colors",
+        "text": "The console’s VMU screen could display extra game info, acting as a second handheld display.",
+        "label": "SECOND SCREEN VMU",
+        "label_on": "screen",
+        "query": "Dreamcast VMU secondary screen usage",
+        "query2": "Dreamcast visual memory unit features",
         "role": "fact",
         "chips": []
       },
       {
         "type": "count",
         "num": 1,
-        "text": "The console shipped with removable game cartridges holding up to 4 KB of ROM.",
-        "label": "MAX 4KB ROM CARDS",
-        "label_on": "cartridges",
-        "query": "Atari 2600 cartridge size 4KB",
-        "query2": "Atari 2600 ROM capacity",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "cta",
-        "text": "Follow for the future, one byte at a time.",
-        "query": "Atari 2600 retro tech",
-        "query2": "classic console facts",
-        "role": "cta"
-      }
-    ],
-    "description": "Explore three core hardware facts that made the Atari 2600 a gaming pioneer. Dive deeper into retro gaming history with us.",
-    "hashtags": [
-      "#shorts",
-      "#fyp",
-      "#gaminghistory",
-      "#retro",
-      "#atari2600",
-      "#techfacts"
-    ],
-    "place": "",
-    "country": ""
-  },
-  {
-    "title": "The Legend of Atari 2600 Glitch",
-    "thumb": "ATARI GLITCH",
-    "scenes": [
-      {
-        "type": "hook",
-        "text": "Did the 1977 Atari 2600 really crash every TV it touched?",
-        "hook_top": "ATARI GLITCH MYTH",
-        "query": "Atari 2600 TV crash myth",
-        "query2": "Atari 2600 hardware failure rumors",
-        "role": "hook"
-      },
-      {
-        "type": "myth",
-        "text": "Many believe the Atari 2600 would fry any television it was plugged into because of its high voltage output.",
-        "label": "TVs were fried by Atari",
-        "query": "Atari 2600 television frying myth",
-        "query2": "Atari 2600 voltage damage claim",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "truth",
-        "text": "In reality the console used standard low‑voltage signals and never damaged TVs; the myth originated from early marketing hype and isolated wiring errors.",
-        "label": "No TV damage caused",
-        "query": "Atari 2600 actual voltage specifications",
-        "query2": "Atari 2600 TV safety facts",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "callout",
-        "text": "The console was safe for any TV of the era.",
-        "label": "Safe Console",
-        "sub": "Atari 2600 never fried TVs",
-        "label_on": "safe",
-        "query": "Atari 2600 safe TV compatibility",
-        "query2": "Atari 2600 no TV damage evidence",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "cta",
-        "text": "Follow for daily tech you should actually know.",
-        "query": "follow tech myth busting",
-        "query2": "subscribe retro tech channel",
-        "role": "cta"
-      }
-    ],
-    "description": "Uncover why the infamous Atari 2600 TV‑frying story never happened. The truth is far less dramatic but just as interesting. Follow for more myth‑busting tech facts.",
-    "hashtags": [
-      "#shorts",
-      "#fyp",
-      "#retro",
-      "#gaminghistory",
-      "#mythbusting",
-      "#Atari2600",
-      "#techfacts"
-    ],
-    "place": "",
-    "country": ""
-  },
-  {
-    "title": "Why Early Wi‑Fi Fell Apart",
-    "thumb": "WIFI FAIL",
-    "scenes": [
-      {
-        "type": "hook",
-        "text": "The 1997 standard that never reached homes",
-        "hook_top": "1997 WIFI LOST",
-        "query": "1997 Wi‑Fi standard failure",
-        "query2": "1997 wireless LAN collapse",
-        "role": "hook"
-      },
-      {
-        "type": "count",
-        "num": 3,
-        "label": "INTERFERENCE FROM MICROWAVES",
-        "label_on": "interference",
-        "text": "Microwave ovens caused signal disruptions in early routers",
-        "query": "microwave interference early Wi‑Fi 1997",
-        "query2": "1997 Wi‑Fi microwave issue",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "count",
-        "num": 2,
-        "label": "PROPRIETARY DRIVERS LIMITED ADOPTION",
-        "label_on": "drivers",
-        "text": "Manufacturers locked hardware with custom drivers",
-        "query": "1997 Wi‑Fi proprietary drivers",
-        "query2": "early Wi‑Fi driver lock",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "count",
-        "num": 1,
-        "label": "LACK OF UNIVERSAL SECURITY",
-        "label_on": "security",
-        "text": "No encryption made users distrust the tech",
-        "query": "1997 Wi‑Fi security concerns",
-        "query2": "early Wi‑Fi encryption missing",
+        "text": "Its GD‑ROM discs held up to 1 GB, double the capacity of standard DVDs at the time.",
+        "label": "1GB GD‑ROM DISC",
+        "label_on": "disc",
+        "query": "Dreamcast GD‑ROM 1GB capacity",
+        "query2": "Sega Dreamcast disc size",
         "role": "fact",
         "chips": []
       },
       {
         "type": "cta",
         "text": "Follow to stay ahead of the tech curve.",
-        "query": "follow tech short videos",
-        "query2": "subscribe tech channel",
+        "query": "follow call to action tech channel",
+        "query2": "subscribe reminder short video",
         "role": "cta"
       }
     ],
-    "description": "Early wireless networking stumbled over interference, locked drivers, and missing security. Learn why it finally took off later.",
+    "description": "Explore three surprising features that set the Dreamcast apart in the late‑90s. From online play to a second screen, discover why it was ahead of its time. Follow for more hidden tech stories!",
     "hashtags": [
       "#shorts",
-      "#wifi",
-      "#techhistory",
       "#fyp",
+      "#gaminghistory",
       "#retrotech",
-      "#networking"
+      "#dreamcast",
+      "#techfacts",
+      "#gaming"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Inside The First Home Wi‑Fi",
+    "thumb": "COFFEE HUB",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Which café hosted the world’s first public Wi‑Fi hotspot?",
+        "hook_top": "FIRST PUBLIC WIFI",
+        "query": "first public Wi‑Fi hotspot coffee shop 1991",
+        "query2": "World's first Wi‑Fi café history",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "text": "A 1991 laptop equipped with a 802.11 prototype connected to a router placed under the counter.",
+        "label": "802.11 PROTOTYPE LAPTOP",
+        "label_on": "prototype",
+        "query": "1991 802.11 prototype laptop cafe",
+        "query2": "early Wi‑Fi laptop 1991",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "text": "The router broadcast on 2.4 GHz, offering about 100 kbps to patrons—a speed unimaginable today.",
+        "label": "100KBPS 2.4GHZ SIGNAL",
+        "label_on": "speed",
+        "query": "1991 cafe Wi‑Fi 100kbps speed",
+        "query2": "early Wi‑Fi 2.4GHz bandwidth 1990s",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "text": "The experiment proved wireless internet could work in public spaces, sparking the modern hotspot era.",
+        "label": "SPARKED HOTSPOT ERA",
+        "label_on": "spark",
+        "query": "first public Wi‑Fi impact on hotspots",
+        "query2": "history of public Wi‑Fi hotspots",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "follow call to action tech history",
+        "query2": "subscribe reminder short tech",
+        "role": "cta"
+      }
+    ],
+    "description": "Discover the modest coffee shop that pioneered public Wi‑Fi, the gear that made it possible, and how it set the stage for today’s everywhere internet. Follow for more tech origins!",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#wifi",
+      "#retrotech",
+      "#techhistory",
+      "#gadgets",
+      "#tech"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Legend of the Red Ring",
+    "thumb": "RED RING MYTH",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Why did the Xbox 360 display a red ring in 2009?",
+        "hook_top": "RED RING MYSTERY",
+        "query": "Xbox 360 Red Ring of Death 2009",
+        "query2": "Xbox 360 hardware failure red ring",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "Many think the red ring was caused by a faulty power supply alone.",
+        "label": "Power supply only myth",
+        "query": "Xbox 360 power supply red ring myth",
+        "query2": "Xbox 360 red ring cause power",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "In reality it was a combination of overheating, lead‑free solder cracks and GPU stress that triggered the error code.",
+        "label": "Overheat and solder cracks",
+        "query": "Xbox 360 overheating lead free solder issue",
+        "query2": "Xbox 360 GPU stress red ring cause",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Keep it cool, replace thermal paste!",
+        "label": "Cool it down",
+        "sub": "Regular cleaning and new paste prevent the ring.",
+        "label_on": "Cooling",
+        "query": "Xbox 360 thermal paste replacement guide",
+        "query2": "Xbox 360 cooling fix",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "gaming myth busting channel",
+        "query2": "tech myth busters",
+        "role": "cta"
+      }
+    ],
+    "description": "The Red Ring of Death haunted Xbox owners for years. Learn the real engineering flaws behind the infamous error. Follow for more myth‑busting tech stories.",
+    "hashtags": [
+      "#shorts",
+      "#gaminghistory",
+      "#xbox360",
+      "#mythbust",
+      "#techfacts",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Why Early CD Players Click",
+    "thumb": "CD CLICK MYTH",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "What makes a 1990s CD player click every few seconds?",
+        "hook_top": "CD CLICK MYSTERY",
+        "query": "1990s CD player clicking sound",
+        "query2": "CD player click every few seconds",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "A common belief is that the clicks come from a stuck disc motor.",
+        "label": "Stuck motor myth",
+        "query": "CD player motor click myth",
+        "query2": "CD player click cause motor",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "The clicks are actually the laser’s tracking servo correcting its position as it reads data pits.",
+        "label": "Laser servo correction",
+        "query": "CD laser tracking servo click sound",
+        "query2": "why CD players click during playback",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Clean the lens to reduce clicks!",
+        "label": "Lens cleaning",
+        "sub": "Dust on the lens triggers extra corrections.",
+        "label_on": "Cleaning",
+        "query": "how to clean CD player lens",
+        "query2": "CD player maintenance guide",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "tech myth busting channel",
+        "query2": "everyday tech explained",
+        "role": "cta"
+      }
+    ],
+    "description": "Those rhythmic clicks aren't a motor problem—they’re the laser doing its job. Discover the real reason and keep your music smooth. Follow for more tech myths debunked.",
+    "hashtags": [
+      "#shorts",
+      "#howitworks",
+      "#cdplayer",
+      "#mythbusting",
+      "#techhistory",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Xbox Live Hidden Security Flaw",
+    "thumb": "XBOX LIVE BUG",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Xbox Live once let anyone join a game with just a name tag",
+        "hook_top": "UNEXPECTED GAME JOIN",
+        "query": "Xbox Live early multiplayer security flaw 2002",
+        "query2": "Xbox Live 2002 security issue",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "In 2002 a simple packet could spoof a player’s Xbox Live ID",
+        "chips": [
+          {
+            "t": "Packet Spoofing",
+            "on": "spoof",
+            "style": "white"
+          }
+        ],
+        "query": "2002 Xbox Live packet spoofing vulnerability",
+        "query2": "Xbox Live ID spoof 2002",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Microsoft patched it only after a high‑profile tournament was disrupted",
+        "chips": [
+          {
+            "t": "Tournament Disruption",
+            "on": "disrupted",
+            "style": "accent"
+          }
+        ],
+        "query": "Xbox Live tournament disruption 2002 patch",
+        "query2": "Microsoft patch Xbox Live 2002",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "The bug was caused by an overlooked debug console left on in retail units",
+        "reveal_top": "DEBUG CONSOLE LEFT ON",
+        "query": "Xbox Live debug console retail units bug",
+        "query2": "Xbox debug console security flaw",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "follow tech shorts CTA",
+        "query2": "subscribe tech channel CTA",
+        "role": "cta"
+      }
+    ],
+    "description": "A little‑known debug console turned Xbox Live into an open door for pranksters. Follow for more hidden tech stories.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#gaminghistory",
+      "#xbox",
+      "#tech",
+      "#bug",
+      "#gaming",
+      "#retro"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Why Your Microwave Actually Heats",
+    "thumb": "MAGNETRON POWER",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Your microwave uses a 2.45 GHz wave to heat food",
+        "hook_top": "245GHZ WAVE",
+        "query": "microwave 2.45 GHz frequency heating",
+        "query2": "microwave frequency 2.45 GHz",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "A magnetron converts electricity into that precise microwave frequency",
+        "chips": [
+          {
+            "t": "Magnetron",
+            "on": "magnetron",
+            "style": "white"
+          }
+        ],
+        "query": "microwave magnetron how it works",
+        "query2": "magnetron converts electricity microwave",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Water molecules absorb the waves and vibrate, creating heat",
+        "chips": [
+          {
+            "t": "Molecular Vibration",
+            "on": "vibration",
+            "style": "accent"
+          }
+        ],
+        "query": "microwave water molecule absorption",
+        "query2": "microwave heating water vibration",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "The oven’s metal walls reflect the waves, trapping energy inside for uniform heating",
+        "reveal_top": "REFLECTIVE METAL CAGE",
+        "query": "microwave metal cavity reflection heating",
+        "query2": "microwave interior metal reflection",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "follow everyday tech CTA",
+        "query2": "subscribe tech shorts CTA",
+        "role": "cta"
+      }
+    ],
+    "description": "Learn the physics behind the humming box in your kitchen. Follow for more everyday tech explained.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#tech",
+      "#howitworks",
+      "#microwave",
+      "#science",
+      "#everydaytech"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Game That Saved a Console",
+    "thumb": "GAME SAVED",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "When 1995 saw a sudden 30% sales dip, one game turned the tide",
+        "hook_top": "30 SALES DIP",
+        "query": "1995 video game sales dip",
+        "query2": "mid‑1990s console sales decline",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The release of *Chrono Trigger* shipped over 1.5 million copies worldwide in its first year",
+        "chips": [
+          {
+            "t": "1.5 M COPIES",
+            "on": "copies",
+            "style": "accent"
+          }
+        ],
+        "punch": "boom",
+        "query": "Chrono Trigger sales 1995",
+        "query2": "Chrono Trigger worldwide copies",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "Its innovative battery‑backed RAM allowed players to save progress without extra hardware",
+        "chips": [
+          {
+            "t": "BATTERY RAM",
+            "on": "battery",
+            "style": "white"
+          }
+        ],
+        "query": "Chrono Trigger battery save feature",
+        "query2": "SNES battery backed RAM games",
+        "role": "fact"
+      },
+      {
+        "type": "callout",
+        "text": "A single title revived a struggling console",
+        "label": "REVIVAL FACTOR",
+        "sub": "How one game can rescue a platform",
+        "label_on": "revival",
+        "query": "SNES sales recovery 1995",
+        "query2": "impact of Chrono Trigger on SNES",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "gaming history short videos",
+        "query2": "retro game facts",
+        "role": "cta"
+      }
+    ],
+    "description": "Discover how *Chrono Trigger*’s success lifted the SNES out of a slump and set a new standard for game saves. Follow for more hidden game legends.",
+    "hashtags": [
+      "#shorts",
+      "#gaminghistory",
+      "#retro",
+      "#gamedev",
+      "#snes",
+      "#chronotrigger",
+      "#fyp"
     ],
     "place": "",
     "country": ""
