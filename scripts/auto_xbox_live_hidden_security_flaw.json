@@ -1,0 +1,71 @@
+{
+  "title": "Xbox Live Hidden Security Flaw",
+  "thumb": "XBOX LIVE BUG",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Xbox Live once let anyone join a game with just a name tag",
+      "hook_top": "UNEXPECTED GAME JOIN",
+      "query": "Xbox Live early multiplayer security flaw 2002",
+      "query2": "Xbox Live 2002 security issue",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "In 2002 a simple packet could spoof a player’s Xbox Live ID",
+      "chips": [
+        {
+          "t": "Packet Spoofing",
+          "on": "spoof",
+          "style": "white"
+        }
+      ],
+      "query": "2002 Xbox Live packet spoofing vulnerability",
+      "query2": "Xbox Live ID spoof 2002",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Microsoft patched it only after a high‑profile tournament was disrupted",
+      "chips": [
+        {
+          "t": "Tournament Disruption",
+          "on": "disrupted",
+          "style": "accent"
+        }
+      ],
+      "query": "Xbox Live tournament disruption 2002 patch",
+      "query2": "Microsoft patch Xbox Live 2002",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "The bug was caused by an overlooked debug console left on in retail units",
+      "reveal_top": "DEBUG CONSOLE LEFT ON",
+      "query": "Xbox Live debug console retail units bug",
+      "query2": "Xbox debug console security flaw",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "follow tech shorts CTA",
+      "query2": "subscribe tech channel CTA",
+      "role": "cta"
+    }
+  ],
+  "description": "A little‑known debug console turned Xbox Live into an open door for pranksters. Follow for more hidden tech stories.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#gaminghistory",
+    "#xbox",
+    "#tech",
+    "#bug",
+    "#gaming",
+    "#retro"
+  ],
+  "place": "",
+  "country": ""
+}

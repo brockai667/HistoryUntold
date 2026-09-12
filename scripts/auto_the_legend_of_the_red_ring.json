@@ -1,0 +1,61 @@
+{
+  "title": "The Legend of the Red Ring",
+  "thumb": "RED RING MYTH",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Why did the Xbox 360 display a red ring in 2009?",
+      "hook_top": "RED RING MYSTERY",
+      "query": "Xbox 360 Red Ring of Death 2009",
+      "query2": "Xbox 360 hardware failure red ring",
+      "role": "hook"
+    },
+    {
+      "type": "myth",
+      "text": "Many think the red ring was caused by a faulty power supply alone.",
+      "label": "Power supply only myth",
+      "query": "Xbox 360 power supply red ring myth",
+      "query2": "Xbox 360 red ring cause power",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "truth",
+      "text": "In reality it was a combination of overheating, lead‑free solder cracks and GPU stress that triggered the error code.",
+      "label": "Overheat and solder cracks",
+      "query": "Xbox 360 overheating lead free solder issue",
+      "query2": "Xbox 360 GPU stress red ring cause",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "Keep it cool, replace thermal paste!",
+      "label": "Cool it down",
+      "sub": "Regular cleaning and new paste prevent the ring.",
+      "label_on": "Cooling",
+      "query": "Xbox 360 thermal paste replacement guide",
+      "query2": "Xbox 360 cooling fix",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech you should actually know.",
+      "query": "gaming myth busting channel",
+      "query2": "tech myth busters",
+      "role": "cta"
+    }
+  ],
+  "description": "The Red Ring of Death haunted Xbox owners for years. Learn the real engineering flaws behind the infamous error. Follow for more myth‑busting tech stories.",
+  "hashtags": [
+    "#shorts",
+    "#gaminghistory",
+    "#xbox360",
+    "#mythbust",
+    "#techfacts",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

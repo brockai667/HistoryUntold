@@ -1,0 +1,61 @@
+{
+  "title": "Why Early CD Players Click",
+  "thumb": "CD CLICK MYTH",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "What makes a 1990s CD player click every few seconds?",
+      "hook_top": "CD CLICK MYSTERY",
+      "query": "1990s CD player clicking sound",
+      "query2": "CD player click every few seconds",
+      "role": "hook"
+    },
+    {
+      "type": "myth",
+      "text": "A common belief is that the clicks come from a stuck disc motor.",
+      "label": "Stuck motor myth",
+      "query": "CD player motor click myth",
+      "query2": "CD player click cause motor",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "truth",
+      "text": "The clicks are actually the laser’s tracking servo correcting its position as it reads data pits.",
+      "label": "Laser servo correction",
+      "query": "CD laser tracking servo click sound",
+      "query2": "why CD players click during playback",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "Clean the lens to reduce clicks!",
+      "label": "Lens cleaning",
+      "sub": "Dust on the lens triggers extra corrections.",
+      "label_on": "Cleaning",
+      "query": "how to clean CD player lens",
+      "query2": "CD player maintenance guide",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "tech myth busting channel",
+      "query2": "everyday tech explained",
+      "role": "cta"
+    }
+  ],
+  "description": "Those rhythmic clicks aren't a motor problem—they’re the laser doing its job. Discover the real reason and keep your music smooth. Follow for more tech myths debunked.",
+  "hashtags": [
+    "#shorts",
+    "#howitworks",
+    "#cdplayer",
+    "#mythbusting",
+    "#techhistory",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}
