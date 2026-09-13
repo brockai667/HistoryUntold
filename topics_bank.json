@@ -12977,5 +12977,201 @@
     ],
     "place": "",
     "country": ""
+  },
+  {
+    "title": "The Bug That Saved Spaceflight",
+    "thumb": "APOLLO GLITCH",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "A 1969 software glitch prevented Apollo 11 from a disaster",
+        "hook_top": "1969 APOLLO GLITCH",
+        "query": "Apollo 11 software glitch 1969",
+        "query2": "Apollo guidance computer bug 1969",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "text": "The guidance computer overloaded when too many tasks ran, triggering a '1202' alarm",
+        "label": "1202 ALARM OVERLOAD",
+        "label_on": "1202 alarm",
+        "query": "Apollo 11 1202 alarm meaning",
+        "query2": "Apollo guidance computer 1202 error",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "text": "Mission control quickly decided to ignore the alarm, trusting the computer’s priority system",
+        "label": "IGNORED ALARM DECISION",
+        "label_on": "ignore alarm",
+        "query": "Apollo 11 mission control ignored 1202",
+        "query2": "Apollo 11 priority scheduling",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "text": "The landing proceeded safely, showing how robust real‑time software can be under pressure",
+        "label": "SAFE LANDING SUCCESS",
+        "label_on": "safe landing",
+        "query": "Apollo 11 landing safety software",
+        "query2": "Apollo 11 guidance computer success",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for the future, one byte at a time.",
+        "query": "tech glitch CTA follow",
+        "query2": "legendary bug follow prompt",
+        "role": "cta"
+      }
+    ],
+    "description": "Learn how a critical computer alarm turned into a triumph for Apollo 11. Follow for more famous tech bugs.",
+    "hashtags": [
+      "#shorts",
+      "#spacehistory",
+      "#techglitch",
+      "#apollo",
+      "#fyp",
+      "#history"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Birth of Console Wars",
+    "thumb": "CONSOLE SHOWDOWN",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "1985 saw two giants clash in a living room showdown",
+        "hook_top": "GIGANTIC 1985 SHOWDOWN",
+        "query": "Nintendo vs Sega 1985 launch battle",
+        "query2": "1985 console rivalry Nintendo Sega",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "text": "Sega released the Master System with a built‑in card slot to outpace Nintendo's cartridge focus",
+        "label": "MASTER SYSTEM CARD SLOT",
+        "label_on": "card slot",
+        "query": "Sega Master System card slot feature",
+        "query2": "Sega Master System hardware details",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "text": "Nintendo introduced the NES lockout chip to curb third‑party piracy",
+        "label": "NES LOCKOUT CHIP",
+        "label_on": "lockout chip",
+        "query": "NES lockout chip 10NES",
+        "query2": "Nintendo 10NES security chip",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "text": "Both consoles sold over 10 million units in their first three years, cementing the market split",
+        "label": "MILLION‑UNIT SALES",
+        "label_on": "sales",
+        "query": "NES and Master System sales 1985‑1988",
+        "query2": "early console sales figures 1980s",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "gaming history short video CTA",
+        "query2": "gaming origins follow prompt",
+        "role": "cta"
+      }
+    ],
+    "description": "Explore how Nintendo and Sega sparked the first console war that shaped modern gaming. Stay tuned for deeper dives.",
+    "hashtags": [
+      "#shorts",
+      "#gaminghistory",
+      "#retro",
+      "#fyp",
+      "#consolewars",
+      "#nintendo",
+      "#sega"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Why the Atari 2600 Still Lives",
+    "thumb": "ATARI LEGACY",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "The 1977 Atari 2600 still powers game nights today",
+        "hook_top": "ATARI 1977 STILL LIVES",
+        "query": "Atari 2600 modern usage",
+        "query2": "Atari 2600 retro gaming today",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "text": "Its MOS 6507 CPU runs at 1.19 MHz, simple enough for hobbyist mods",
+        "label": "MOS 6507 CPU",
+        "label_on": "CPU",
+        "query": "Atari 2600 MOS 6507 specifications",
+        "query2": "Atari 2600 processor details",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "text": "The 4 KB ROM cartridges could hold entire arcade‑style games, a marvel for the era",
+        "label": "4KB ROM CARTRIDGES",
+        "label_on": "ROM size",
+        "query": "Atari 2600 cartridge ROM size 4KB",
+        "query2": "Atari 2600 game cartridge capacity",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "text": "Its RF output plugs directly into any TV’s antenna input, avoiding HDMI adapters",
+        "label": "RF OUTPUT TO TV",
+        "label_on": "RF output",
+        "query": "Atari 2600 RF output connection",
+        "query2": "Atari 2600 TV antenna input",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "retro tech CTA follow",
+        "query2": "retro gaming follow prompt",
+        "role": "cta"
+      }
+    ],
+    "description": "Discover the hardware quirks that keep the Atari 2600 alive in living rooms. Follow for more vintage tech insights.",
+    "hashtags": [
+      "#shorts",
+      "#retrotech",
+      "#atari2600",
+      "#gaminghistory",
+      "#fyp",
+      "#classicgaming"
+    ],
+    "place": "",
+    "country": ""
   }
 ]

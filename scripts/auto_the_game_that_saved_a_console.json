@@ -1,0 +1,73 @@
+{
+  "title": "The Game That Saved a Console",
+  "thumb": "GAME SAVED",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "When 1995 saw a sudden 30% sales dip, one game turned the tide",
+      "hook_top": "30 SALES DIP",
+      "query": "1995 video game sales dip",
+      "query2": "mid‑1990s console sales decline",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "The release of *Chrono Trigger* shipped over 1.5 million copies worldwide in its first year",
+      "chips": [
+        {
+          "t": "1.5 M COPIES",
+          "on": "copies",
+          "style": "accent"
+        }
+      ],
+      "punch": "boom",
+      "query": "Chrono Trigger sales 1995",
+      "query2": "Chrono Trigger worldwide copies",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Its innovative battery‑backed RAM allowed players to save progress without extra hardware",
+      "chips": [
+        {
+          "t": "BATTERY RAM",
+          "on": "battery",
+          "style": "white"
+        }
+      ],
+      "query": "Chrono Trigger battery save feature",
+      "query2": "SNES battery backed RAM games",
+      "role": "fact"
+    },
+    {
+      "type": "callout",
+      "text": "A single title revived a struggling console",
+      "label": "REVIVAL FACTOR",
+      "sub": "How one game can rescue a platform",
+      "label_on": "revival",
+      "query": "SNES sales recovery 1995",
+      "query2": "impact of Chrono Trigger on SNES",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech you should actually know.",
+      "query": "gaming history short videos",
+      "query2": "retro game facts",
+      "role": "cta"
+    }
+  ],
+  "description": "Discover how *Chrono Trigger*’s success lifted the SNES out of a slump and set a new standard for game saves. Follow for more hidden game legends.",
+  "hashtags": [
+    "#shorts",
+    "#gaminghistory",
+    "#retro",
+    "#gamedev",
+    "#snes",
+    "#chronotrigger",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

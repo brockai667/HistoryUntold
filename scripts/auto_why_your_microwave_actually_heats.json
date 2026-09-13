@@ -1,0 +1,70 @@
+{
+  "title": "Why Your Microwave Actually Heats",
+  "thumb": "MAGNETRON POWER",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "Your microwave uses a 2.45 GHz wave to heat food",
+      "hook_top": "245GHZ WAVE",
+      "query": "microwave 2.45 GHz frequency heating",
+      "query2": "microwave frequency 2.45 GHz",
+      "role": "hook"
+    },
+    {
+      "type": "fact",
+      "text": "A magnetron converts electricity into that precise microwave frequency",
+      "chips": [
+        {
+          "t": "Magnetron",
+          "on": "magnetron",
+          "style": "white"
+        }
+      ],
+      "query": "microwave magnetron how it works",
+      "query2": "magnetron converts electricity microwave",
+      "role": "fact"
+    },
+    {
+      "type": "fact",
+      "text": "Water molecules absorb the waves and vibrate, creating heat",
+      "chips": [
+        {
+          "t": "Molecular Vibration",
+          "on": "vibration",
+          "style": "accent"
+        }
+      ],
+      "query": "microwave water molecule absorption",
+      "query2": "microwave heating water vibration",
+      "role": "fact"
+    },
+    {
+      "type": "reveal",
+      "text": "The oven’s metal walls reflect the waves, trapping energy inside for uniform heating",
+      "reveal_top": "REFLECTIVE METAL CAGE",
+      "query": "microwave metal cavity reflection heating",
+      "query2": "microwave interior metal reflection",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "follow everyday tech CTA",
+      "query2": "subscribe tech shorts CTA",
+      "role": "cta"
+    }
+  ],
+  "description": "Learn the physics behind the humming box in your kitchen. Follow for more everyday tech explained.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#tech",
+    "#howitworks",
+    "#microwave",
+    "#science",
+    "#everydaytech"
+  ],
+  "place": "",
+  "country": ""
+}

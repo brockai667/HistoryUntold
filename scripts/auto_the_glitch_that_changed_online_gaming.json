@@ -1,0 +1,66 @@
+{
+  "title": "The Glitch That Changed Online Gaming",
+  "thumb": "GLITCH IMPACT",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "In 1999 a server bug broke World of Warcraft",
+      "hook_top": "1999 SERVER BUG",
+      "query": "World of Warcraft 1999 server bug",
+      "query2": "1999 online game glitch",
+      "role": "hook"
+    },
+    {
+      "type": "count",
+      "num": 3,
+      "label": "OVERLOADED CHARACTER COUNT",
+      "label_on": "OVERLOAD",
+      "text": "The bug let players spawn unlimited characters on one account",
+      "query": "WoW unlimited characters bug 1999",
+      "query2": "World of Warcraft character duplication bug",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 2,
+      "label": "ECONOMY INFILTRATION",
+      "label_on": "ECONOMY",
+      "text": "Exploited accounts flooded the in‑game auction house with items",
+      "query": "World of Warcraft auction house inflation bug",
+      "query2": "WoW economy glitch 1999",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 1,
+      "label": "PATCH THAT SHAPED MMOs",
+      "label_on": "PATCH",
+      "text": "Blizzard’s emergency patch introduced server‑side validation still used today",
+      "query": "Blizzard emergency patch 1999 server validation",
+      "query2": "WoW security patch history",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "gaming glitches short videos",
+      "query2": "famous game bugs",
+      "role": "cta"
+    }
+  ],
+  "description": "A single server bug in 1999 forced a major MMO to rewrite its core systems. Discover how that glitch reshaped online gaming. Follow for more gaming glitch stories!",
+  "hashtags": [
+    "#shorts",
+    "#gaming",
+    "#glitch",
+    "#mmorpg",
+    "#tech",
+    "#fyp",
+    "#history"
+  ],
+  "place": "",
+  "country": ""
+}
