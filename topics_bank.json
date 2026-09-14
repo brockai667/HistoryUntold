@@ -13044,6 +13044,140 @@
     "country": ""
   },
   {
+    "title": "Space Mission Glitch That Saved Lives",
+    "thumb": "GLITCH SAVED",
+    "scenes": [
+      {
+        "text": "Apollo 14's 1202 alarm almost halted the moon landing",
+        "hook_top": "APOLLO 1202 ALARM",
+        "query": "Apollo 14 1202 alarm",
+        "query2": "Apollo 14 computer alarm 1202",
+        "role": "hook"
+      },
+      {
+        "text": "The alarm meant the guidance computer was overloaded with extra data",
+        "chips": [
+          {
+            "t": "OVERLOADED GUIDANCE",
+            "on": "overloaded",
+            "style": "white"
+          }
+        ],
+        "query": "Apollo guidance computer overload",
+        "query2": "Apollo 14 computer overload issue",
+        "role": "fact"
+      },
+      {
+        "text": "Mission control told astronauts to ignore it, and they completed the landing",
+        "chips": [
+          {
+            "t": "IGNORE AND LAND",
+            "on": "ignore",
+            "style": "accent"
+          }
+        ],
+        "query": "Apollo 14 ignore 1202 alarm",
+        "query2": "Apollo 14 landing after alarm",
+        "role": "fact"
+      },
+      {
+        "text": "A single software glitch prevented a historic mission from failing",
+        "label": "Glitch Saved Moonwalk",
+        "sub": "Sometimes bugs become heroes",
+        "label_on": "saved",
+        "query": "Apollo 14 software glitch saved mission",
+        "query2": "Apollo 14 1202 alarm significance",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow for daily tech and AI news.",
+        "query": "tech history follow CTA",
+        "query2": "short tech video CTA",
+        "role": "cta"
+      }
+    ],
+    "description": "Discover how a brief computer warning almost stopped Apollo 14 and why the crew kept going. Follow for more hidden tech legends.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#spacehistory",
+      "#apollo",
+      "#techfacts",
+      "#gaminghistory",
+      "#glitch"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Dreamcast VMU Hidden Hack",
+    "thumb": "VMU HACK",
+    "scenes": [
+      {
+        "text": "Sega Dreamcast's VMU stored game saves and acted as a tiny screen",
+        "hook_top": "DREAMCAST VMU SECRETS",
+        "query": "Dreamcast VMU game saves screen",
+        "query2": "Sega Dreamcast VMU functions",
+        "role": "hook"
+      },
+      {
+        "text": "The 2 MB memory card also ran mini‑games independent of the console",
+        "chips": [
+          {
+            "t": "2 MB MINI‑GAMES",
+            "on": "mini‑games",
+            "style": "white"
+          }
+        ],
+        "query": "Dreamcast VMU mini games",
+        "query2": "VMU independent games 2MB",
+        "role": "fact"
+      },
+      {
+        "text": "Players could trade scores by swapping the VMU like a portable device",
+        "chips": [
+          {
+            "t": "SWAP TO SHARE",
+            "on": "swap",
+            "style": "accent"
+          }
+        ],
+        "query": "Dreamcast VMU score swapping",
+        "query2": "VMU portable score exchange",
+        "role": "fact"
+      },
+      {
+        "text": "The VMU turned a simple memory card into a handheld companion",
+        "label": "Handheld Memory Card",
+        "sub": "More than just storage",
+        "label_on": "handheld",
+        "query": "Dreamcast VMU handheld companion",
+        "query2": "VMU extra functionality",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "retro tech follow CTA",
+        "query2": "short video CTA",
+        "role": "cta"
+      }
+    ],
+    "description": "Explore the surprising capabilities of the Dreamcast VMU—its own screen, mini‑games, and score swapping. Follow for more retro tech breakdowns.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#dreamcast",
+      "#retrotech",
+      "#gaminghistory",
+      "#techfacts",
+      "#vmu"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
     "title": "The Birth of Console Wars",
     "thumb": "CONSOLE SHOWDOWN",
     "scenes": [
@@ -13170,6 +13304,72 @@
       "#gaminghistory",
       "#fyp",
       "#classicgaming"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "The Secret Behind Early Wi‑Fi Coffee Shops",
+    "thumb": "COFFEE WIFI",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "In 1993 a coffee shop became the first public Wi‑Fi hotspot",
+        "hook_top": "COFFEE WIFI",
+        "query": "1993 coffee shop first public Wi-Fi",
+        "query2": "first public Wi-Fi hotspot history",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "label": "CUSTOM 802.11 HARDWARE",
+        "label_on": "hardware",
+        "text": "Owner installed a custom 802.11 bridge built from off‑the‑shelf cards",
+        "query": "custom 802.11 bridge coffee shop 1993",
+        "query2": "early Wi-Fi hardware coffee shop",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "label": "FREE ACCESS MODEL",
+        "label_on": "access",
+        "text": "Patrons logged in via a simple web portal that stored passwords on a local server",
+        "query": "early Wi-Fi login portal coffee shop",
+        "query2": "1993 Wi-Fi free access method",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "label": "SET THE STAGE FOR CAFE NETS",
+        "label_on": "stage",
+        "text": "The success inspired cafés worldwide to adopt Wi‑Fi as a standard amenity",
+        "query": "coffee shop Wi-Fi trend 1990s",
+        "query2": "café Wi-Fi adoption history",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "follow tech deep dive CTA",
+        "query2": "subscribe tech shorts",
+        "role": "cta"
+      }
+    ],
+    "description": "A tiny coffee shop wired its tables long before Starbucks, paving the way for today’s ubiquitous café Wi‑Fi. Learn how a DIY network sparked a global habit.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#tech",
+      "#wifi",
+      "#history",
+      "#retro",
+      "#cafe"
     ],
     "place": "",
     "country": ""

@@ -1,0 +1,65 @@
+{
+  "title": "The Bug That Saved Spaceflight",
+  "thumb": "APOLLO GLITCH",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "A 1969 software glitch prevented Apollo 11 from a disaster",
+      "hook_top": "1969 APOLLO GLITCH",
+      "query": "Apollo 11 software glitch 1969",
+      "query2": "Apollo guidance computer bug 1969",
+      "role": "hook"
+    },
+    {
+      "type": "count",
+      "num": 3,
+      "text": "The guidance computer overloaded when too many tasks ran, triggering a '1202' alarm",
+      "label": "1202 ALARM OVERLOAD",
+      "label_on": "1202 alarm",
+      "query": "Apollo 11 1202 alarm meaning",
+      "query2": "Apollo guidance computer 1202 error",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 2,
+      "text": "Mission control quickly decided to ignore the alarm, trusting the computer’s priority system",
+      "label": "IGNORED ALARM DECISION",
+      "label_on": "ignore alarm",
+      "query": "Apollo 11 mission control ignored 1202",
+      "query2": "Apollo 11 priority scheduling",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 1,
+      "text": "The landing proceeded safely, showing how robust real‑time software can be under pressure",
+      "label": "SAFE LANDING SUCCESS",
+      "label_on": "safe landing",
+      "query": "Apollo 11 landing safety software",
+      "query2": "Apollo 11 guidance computer success",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for the future, one byte at a time.",
+      "query": "tech glitch CTA follow",
+      "query2": "legendary bug follow prompt",
+      "role": "cta"
+    }
+  ],
+  "description": "Learn how a critical computer alarm turned into a triumph for Apollo 11. Follow for more famous tech bugs.",
+  "hashtags": [
+    "#shorts",
+    "#spacehistory",
+    "#techglitch",
+    "#apollo",
+    "#fyp",
+    "#history"
+  ],
+  "place": "",
+  "country": ""
+}

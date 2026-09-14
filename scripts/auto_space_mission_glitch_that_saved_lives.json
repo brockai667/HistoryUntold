@@ -1,0 +1,67 @@
+{
+  "title": "Space Mission Glitch That Saved Lives",
+  "thumb": "GLITCH SAVED",
+  "scenes": [
+    {
+      "text": "Apollo 14's 1202 alarm almost halted the moon landing",
+      "hook_top": "APOLLO 1202 ALARM",
+      "query": "Apollo 14 1202 alarm",
+      "query2": "Apollo 14 computer alarm 1202",
+      "role": "hook"
+    },
+    {
+      "text": "The alarm meant the guidance computer was overloaded with extra data",
+      "chips": [
+        {
+          "t": "OVERLOADED GUIDANCE",
+          "on": "overloaded",
+          "style": "white"
+        }
+      ],
+      "query": "Apollo guidance computer overload",
+      "query2": "Apollo 14 computer overload issue",
+      "role": "fact"
+    },
+    {
+      "text": "Mission control told astronauts to ignore it, and they completed the landing",
+      "chips": [
+        {
+          "t": "IGNORE AND LAND",
+          "on": "ignore",
+          "style": "accent"
+        }
+      ],
+      "query": "Apollo 14 ignore 1202 alarm",
+      "query2": "Apollo 14 landing after alarm",
+      "role": "fact"
+    },
+    {
+      "text": "A single software glitch prevented a historic mission from failing",
+      "label": "Glitch Saved Moonwalk",
+      "sub": "Sometimes bugs become heroes",
+      "label_on": "saved",
+      "query": "Apollo 14 software glitch saved mission",
+      "query2": "Apollo 14 1202 alarm significance",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow for daily tech and AI news.",
+      "query": "tech history follow CTA",
+      "query2": "short tech video CTA",
+      "role": "cta"
+    }
+  ],
+  "description": "Discover how a brief computer warning almost stopped Apollo 14 and why the crew kept going. Follow for more hidden tech legends.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#spacehistory",
+    "#apollo",
+    "#techfacts",
+    "#gaminghistory",
+    "#glitch"
+  ],
+  "place": "",
+  "country": ""
+}

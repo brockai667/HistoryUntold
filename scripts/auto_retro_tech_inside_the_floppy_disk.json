@@ -1,0 +1,66 @@
+{
+  "title": "Retro Tech: Inside the Floppy Disk",
+  "thumb": "FLOPPY INSIDE",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "A 3½‑inch floppy holds just 1.44 megabytes",
+      "hook_top": "144MB FLOPPY",
+      "query": "3½ inch floppy disk capacity 1.44 MB",
+      "query2": "floppy disk storage size",
+      "role": "hook"
+    },
+    {
+      "type": "count",
+      "num": 3,
+      "label": "MAGNETIC COATING LAYER",
+      "label_on": "MAGNETIC",
+      "text": "Data is stored on a thin magnetic coating on the disk surface",
+      "query": "floppy disk magnetic coating explanation",
+      "query2": "how floppy disks store data",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 2,
+      "label": "SECTOR TRACK ORGANIZATION",
+      "label_on": "SECTORS",
+      "text": "Each disk is divided into tracks and sectors, typically 80 tracks with 18 sectors each",
+      "query": "floppy disk track sector layout 1.44 MB",
+      "query2": "floppy disk sector count",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 1,
+      "label": "READ/WRITE HEAD MECHANISM",
+      "label_on": "HEAD",
+      "text": "A tiny read/write head moves across the disk to magnetize or sense bits",
+      "query": "floppy disk read write head mechanism",
+      "query2": "floppy drive head operation",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow to stay ahead of the tech curve.",
+      "query": "retro gadget short videos",
+      "query2": "old tech explained",
+      "role": "cta"
+    }
+  ],
+  "description": "Even with just 1.44 MB, floppy disks powered a generation of computers. Learn the inner workings of this iconic medium. Follow for more retro gadget breakdowns!",
+  "hashtags": [
+    "#shorts",
+    "#retro",
+    "#floppy",
+    "#tech",
+    "#history",
+    "#fyp",
+    "#computing"
+  ],
+  "place": "",
+  "country": ""
+}
