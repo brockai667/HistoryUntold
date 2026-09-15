@@ -1,0 +1,62 @@
+{
+  "title": "Why CD Lasers Use Infrared Light",
+  "thumb": "CD LASER MYTH",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "The 1982 CD player that read discs with a 780 nm laser",
+      "hook_top": "780NM CD LASER",
+      "query": "1982 CD player 780nm laser",
+      "query2": "CD player infrared laser 1982",
+      "role": "hook"
+    },
+    {
+      "type": "myth",
+      "text": "Many believe CDs use a visible red laser like DVDs.",
+      "label": "CD uses red laser",
+      "query": "CD red laser myth",
+      "query2": "CD vs DVD laser color",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "truth",
+      "text": "CDs actually use an infrared laser around 780 nm because it reads the longer pits more reliably.",
+      "label": "Infrared laser reads pits",
+      "query": "CD infrared laser 780nm reason",
+      "query2": "why CDs use infrared laser",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "Infrared lets CDs store up to 700 MB without error.",
+      "label": "Infrared = capacity",
+      "sub": "The longer wavelength improves data density and error tolerance.",
+      "label_on": "Infrared",
+      "query": "infrared laser CD capacity",
+      "query2": "infrared wavelength CD data",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow for daily tech and AI news.",
+      "query": "everyday tech myth busting",
+      "query2": "tech explanation shorts",
+      "role": "cta"
+    }
+  ],
+  "description": "Discover why the original CD players chose infrared lasers over red ones, and how that decision shaped disc capacity. Follow for quick tech fact checks!",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#techexplained",
+    "#CDlaser",
+    "#everydaytech",
+    "#mythbusting",
+    "#retrotech"
+  ],
+  "place": "",
+  "country": ""
+}

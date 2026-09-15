@@ -1,0 +1,66 @@
+{
+  "title": "How Your Microwave Really Heats Food",
+  "thumb": "MAGNETRON POWER",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "What invisible wave cooks your popcorn in seconds?",
+      "hook_top": "MICROWAVE WAVE POWER",
+      "query": "microwave cooking electromagnetic wave",
+      "query2": "microwave oven how it heats food",
+      "role": "hook"
+    },
+    {
+      "type": "count",
+      "num": 3,
+      "label": "MAGNETRON EMITS 2.45 GHz",
+      "label_on": "MAGNETRON",
+      "text": "The magnetron generates microwaves at 2.45 GHz, a frequency absorbed by water molecules.",
+      "query": "magnetron 2.45 GHz frequency microwave",
+      "query2": "microwave magnetron frequency water absorption",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 2,
+      "label": "MOLECULE VIBRATION HEATS",
+      "label_on": "VIBRATION",
+      "text": "Absorbed energy makes water molecules vibrate, producing heat that spreads through the food.",
+      "query": "microwave water molecule vibration heating",
+      "query2": "how microwaves heat food molecules",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 1,
+      "label": "TURNTABLE ENSURES EVEN HEAT",
+      "label_on": "TURNTABLE",
+      "text": "A rotating turntable moves food through standing wave patterns for uniform heating.",
+      "query": "microwave turntable standing wave even heating",
+      "query2": "microwave oven turntable purpose",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "CTA follow everyday tech short",
+      "query2": "video CTA follow tech explanation channel",
+      "role": "cta"
+    }
+  ],
+  "description": "From the magnetron’s GHz pulse to molecule vibration, learn the science behind your kitchen’s fastest heat source. Follow for more everyday tech explained!",
+  "hashtags": [
+    "#tech",
+    "#shorts",
+    "#fyp",
+    "#microwave",
+    "#science",
+    "#everydaytech",
+    "#howitworks"
+  ],
+  "place": "",
+  "country": ""
+}

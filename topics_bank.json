@@ -13178,6 +13178,134 @@
     "country": ""
   },
   {
+    "title": "How Your Microwave Really Heats Food",
+    "thumb": "MAGNETRON POWER",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "What invisible wave cooks your popcorn in seconds?",
+        "hook_top": "MICROWAVE WAVE POWER",
+        "query": "microwave cooking electromagnetic wave",
+        "query2": "microwave oven how it heats food",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "label": "MAGNETRON EMITS 2.45 GHz",
+        "label_on": "MAGNETRON",
+        "text": "The magnetron generates microwaves at 2.45 GHz, a frequency absorbed by water molecules.",
+        "query": "magnetron 2.45 GHz frequency microwave",
+        "query2": "microwave magnetron frequency water absorption",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "label": "MOLECULE VIBRATION HEATS",
+        "label_on": "VIBRATION",
+        "text": "Absorbed energy makes water molecules vibrate, producing heat that spreads through the food.",
+        "query": "microwave water molecule vibration heating",
+        "query2": "how microwaves heat food molecules",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "label": "TURNTABLE ENSURES EVEN HEAT",
+        "label_on": "TURNTABLE",
+        "text": "A rotating turntable moves food through standing wave patterns for uniform heating.",
+        "query": "microwave turntable standing wave even heating",
+        "query2": "microwave oven turntable purpose",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "CTA follow everyday tech short",
+        "query2": "video CTA follow tech explanation channel",
+        "role": "cta"
+      }
+    ],
+    "description": "From the magnetron’s GHz pulse to molecule vibration, learn the science behind your kitchen’s fastest heat source. Follow for more everyday tech explained!",
+    "hashtags": [
+      "#tech",
+      "#shorts",
+      "#fyp",
+      "#microwave",
+      "#science",
+      "#everydaytech",
+      "#howitworks"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Why CD Lasers Use Infrared Light",
+    "thumb": "CD LASER MYTH",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "The 1982 CD player that read discs with a 780 nm laser",
+        "hook_top": "780NM CD LASER",
+        "query": "1982 CD player 780nm laser",
+        "query2": "CD player infrared laser 1982",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "Many believe CDs use a visible red laser like DVDs.",
+        "label": "CD uses red laser",
+        "query": "CD red laser myth",
+        "query2": "CD vs DVD laser color",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "CDs actually use an infrared laser around 780 nm because it reads the longer pits more reliably.",
+        "label": "Infrared laser reads pits",
+        "query": "CD infrared laser 780nm reason",
+        "query2": "why CDs use infrared laser",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Infrared lets CDs store up to 700 MB without error.",
+        "label": "Infrared = capacity",
+        "sub": "The longer wavelength improves data density and error tolerance.",
+        "label_on": "Infrared",
+        "query": "infrared laser CD capacity",
+        "query2": "infrared wavelength CD data",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "everyday tech myth busting",
+        "query2": "tech explanation shorts",
+        "role": "cta"
+      }
+    ],
+    "description": "Discover why the original CD players chose infrared lasers over red ones, and how that decision shaped disc capacity. Follow for quick tech fact checks!",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#techexplained",
+      "#CDlaser",
+      "#everydaytech",
+      "#mythbusting",
+      "#retrotech"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
     "title": "The Birth of Console Wars",
     "thumb": "CONSOLE SHOWDOWN",
     "scenes": [
@@ -13370,6 +13498,72 @@
       "#history",
       "#retro",
       "#cafe"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Famous Hack That Opened Modding",
+    "thumb": "MOD HACK UNLEASHED",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Which 1998 exploit let players edit Half‑Life maps?",
+        "hook_top": "1998 HALFLIFE HACK",
+        "query": "1998 Half-Life map editing hack",
+        "query2": "Half-Life 1998 modding exploit",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "label": "CONSOLE COMMAND ENABLED",
+        "label_on": "COMMAND",
+        "text": "A hidden console command unlocked the level editor without source code.",
+        "query": "Half-Life hidden console command level editor",
+        "query2": "Half-Life map editor console command",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "label": "COMMUNITY TOOLKIT RELEASE",
+        "label_on": "TOOLKIT",
+        "text": "Fans packaged the command into a free toolkit, spreading it across the community.",
+        "query": "Half-Life community mod toolkit 1998",
+        "query2": "Half-Life fan-made modding tools",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "label": "MOD SCENE EXPLOSION",
+        "label_on": "EXPLOSION",
+        "text": "The hack sparked thousands of custom maps, establishing modding as a core gaming practice.",
+        "query": "Half-Life modding community impact",
+        "query2": "custom maps Half-Life explosion",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "CTA follow legendary hack videos",
+        "query2": "video CTA follow hacking channel",
+        "role": "cta"
+      }
+    ],
+    "description": "A hidden command turned Half‑Life into a playground for creators, birthing the modern modding movement. See how a simple exploit reshaped games. Follow for more legendary hacks!",
+    "hashtags": [
+      "#gaming",
+      "#hack",
+      "#shorts",
+      "#fyp",
+      "#modding",
+      "#HalfLife",
+      "#history"
     ],
     "place": "",
     "country": ""

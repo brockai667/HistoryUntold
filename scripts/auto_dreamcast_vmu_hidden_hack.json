@@ -1,0 +1,67 @@
+{
+  "title": "Dreamcast VMU Hidden Hack",
+  "thumb": "VMU HACK",
+  "scenes": [
+    {
+      "text": "Sega Dreamcast's VMU stored game saves and acted as a tiny screen",
+      "hook_top": "DREAMCAST VMU SECRETS",
+      "query": "Dreamcast VMU game saves screen",
+      "query2": "Sega Dreamcast VMU functions",
+      "role": "hook"
+    },
+    {
+      "text": "The 2 MB memory card also ran mini‑games independent of the console",
+      "chips": [
+        {
+          "t": "2 MB MINI‑GAMES",
+          "on": "mini‑games",
+          "style": "white"
+        }
+      ],
+      "query": "Dreamcast VMU mini games",
+      "query2": "VMU independent games 2MB",
+      "role": "fact"
+    },
+    {
+      "text": "Players could trade scores by swapping the VMU like a portable device",
+      "chips": [
+        {
+          "t": "SWAP TO SHARE",
+          "on": "swap",
+          "style": "accent"
+        }
+      ],
+      "query": "Dreamcast VMU score swapping",
+      "query2": "VMU portable score exchange",
+      "role": "fact"
+    },
+    {
+      "text": "The VMU turned a simple memory card into a handheld companion",
+      "label": "Handheld Memory Card",
+      "sub": "More than just storage",
+      "label_on": "handheld",
+      "query": "Dreamcast VMU handheld companion",
+      "query2": "VMU extra functionality",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "retro tech follow CTA",
+      "query2": "short video CTA",
+      "role": "cta"
+    }
+  ],
+  "description": "Explore the surprising capabilities of the Dreamcast VMU—its own screen, mini‑games, and score swapping. Follow for more retro tech breakdowns.",
+  "hashtags": [
+    "#shorts",
+    "#fyp",
+    "#dreamcast",
+    "#retrotech",
+    "#gaminghistory",
+    "#techfacts",
+    "#vmu"
+  ],
+  "place": "",
+  "country": ""
+}
