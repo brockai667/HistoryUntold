@@ -1,0 +1,65 @@
+{
+  "title": "The Wi‑Fi Coffee Shop That Started a Trend",
+  "thumb": "COFFEE WIFI",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "The 1994 coffee shop that launched public Wi‑Fi",
+      "hook_top": "1994 COFFEE WIFI",
+      "query": "1994 coffee shop public wifi launch",
+      "query2": "first public wifi coffee shop 1994",
+      "role": "hook"
+    },
+    {
+      "type": "count",
+      "num": 3,
+      "label": "EARLY 802.11 CARD",
+      "label_on": "card",
+      "text": "It used a prototype 802.11 card built by a university lab",
+      "query": "1994 prototype 802.11 card coffee shop",
+      "query2": "early wifi card coffee shop",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 2,
+      "label": "FREE INTERNET HOURS",
+      "label_on": "hours",
+      "text": "Customers could browse the web for two free hours each day",
+      "query": "1994 coffee shop free internet hours",
+      "query2": "early public wifi free hours",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "count",
+      "num": 1,
+      "label": "INSPIRING CAFE NETWORKS",
+      "label_on": "network",
+      "text": "The concept sparked dozens of cafés across the US within a year",
+      "query": "1994 coffee shop wifi spread USA",
+      "query2": "early cafe wifi adoption 1994",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "tech origin short video",
+      "query2": "technology history short",
+      "role": "cta"
+    }
+  ],
+  "description": "A tiny Seattle café wired its tables with a prototype Wi‑Fi card, giving patrons free internet and igniting a café‑wide movement. Discover the humble start of public Wi‑Fi. Follow for more tech origin stories!",
+  "hashtags": [
+    "#wifi",
+    "#techhistory",
+    "#shorts",
+    "#fyp",
+    "#retro",
+    "#cafe"
+  ],
+  "place": "",
+  "country": ""
+}

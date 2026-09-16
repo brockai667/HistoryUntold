@@ -1,0 +1,62 @@
+{
+  "title": "PlayStation Audio CD Myth",
+  "thumb": "PLAYSTATION AUDIO",
+  "scenes": [
+    {
+      "type": "hook",
+      "text": "The original PlayStation could only play game discs, not music CDs",
+      "hook_top": "ONLY GAMES NOT MUSIC",
+      "query": "original PlayStation disc playback",
+      "query2": "PlayStation 1 game disc vs audio CD",
+      "role": "hook"
+    },
+    {
+      "type": "myth",
+      "text": "Many believe the PS1 lacked audio CD support entirely",
+      "label": "No audio CD support",
+      "query": "PlayStation 1 audio CD capability myth",
+      "query2": "PS1 music playback myth",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "truth",
+      "text": "In reality the PS1 could read standard audio CDs and even play them as background music",
+      "label": "Audio CD supported",
+      "query": "PlayStation 1 audio CD playback",
+      "query2": "PS1 music CD feature",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "callout",
+      "text": "Now you know the PS1 was a true multimedia player",
+      "label": "Multimedia Fact",
+      "sub": "Game console + music CD player",
+      "label_on": "Fact",
+      "query": "PlayStation 1 multimedia capabilities",
+      "query2": "PS1 audio CD feature",
+      "role": "fact",
+      "chips": []
+    },
+    {
+      "type": "cta",
+      "text": "Follow if tech moves faster than you can keep up.",
+      "query": "gaming tech short video CTA",
+      "query2": "tech myth bust follow",
+      "role": "cta"
+    }
+  ],
+  "description": "We bust the myth that the original PlayStation couldn't play music CDs. Discover the hidden multimedia side of this classic console. Follow for more tech revelations!",
+  "hashtags": [
+    "#shorts",
+    "#gaminghistory",
+    "#retro",
+    "#techmyth",
+    "#playstation",
+    "#gaming",
+    "#fyp"
+  ],
+  "place": "",
+  "country": ""
+}

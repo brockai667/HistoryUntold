@@ -13306,6 +13306,408 @@
     "country": ""
   },
   {
+    "title": "The Wi‑Fi Coffee Shop That Started a Trend",
+    "thumb": "COFFEE WIFI",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "The 1994 coffee shop that launched public Wi‑Fi",
+        "hook_top": "1994 COFFEE WIFI",
+        "query": "1994 coffee shop public wifi launch",
+        "query2": "first public wifi coffee shop 1994",
+        "role": "hook"
+      },
+      {
+        "type": "count",
+        "num": 3,
+        "label": "EARLY 802.11 CARD",
+        "label_on": "card",
+        "text": "It used a prototype 802.11 card built by a university lab",
+        "query": "1994 prototype 802.11 card coffee shop",
+        "query2": "early wifi card coffee shop",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 2,
+        "label": "FREE INTERNET HOURS",
+        "label_on": "hours",
+        "text": "Customers could browse the web for two free hours each day",
+        "query": "1994 coffee shop free internet hours",
+        "query2": "early public wifi free hours",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "count",
+        "num": 1,
+        "label": "INSPIRING CAFE NETWORKS",
+        "label_on": "network",
+        "text": "The concept sparked dozens of cafés across the US within a year",
+        "query": "1994 coffee shop wifi spread USA",
+        "query2": "early cafe wifi adoption 1994",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "tech origin short video",
+        "query2": "technology history short",
+        "role": "cta"
+      }
+    ],
+    "description": "A tiny Seattle café wired its tables with a prototype Wi‑Fi card, giving patrons free internet and igniting a café‑wide movement. Discover the humble start of public Wi‑Fi. Follow for more tech origin stories!",
+    "hashtags": [
+      "#wifi",
+      "#techhistory",
+      "#shorts",
+      "#fyp",
+      "#retro",
+      "#cafe"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "PlayStation Audio CD Myth",
+    "thumb": "PLAYSTATION AUDIO",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "The original PlayStation could only play game discs, not music CDs",
+        "hook_top": "ONLY GAMES NOT MUSIC",
+        "query": "original PlayStation disc playback",
+        "query2": "PlayStation 1 game disc vs audio CD",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "Many believe the PS1 lacked audio CD support entirely",
+        "label": "No audio CD support",
+        "query": "PlayStation 1 audio CD capability myth",
+        "query2": "PS1 music playback myth",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "In reality the PS1 could read standard audio CDs and even play them as background music",
+        "label": "Audio CD supported",
+        "query": "PlayStation 1 audio CD playback",
+        "query2": "PS1 music CD feature",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Now you know the PS1 was a true multimedia player",
+        "label": "Multimedia Fact",
+        "sub": "Game console + music CD player",
+        "label_on": "Fact",
+        "query": "PlayStation 1 multimedia capabilities",
+        "query2": "PS1 audio CD feature",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow if tech moves faster than you can keep up.",
+        "query": "gaming tech short video CTA",
+        "query2": "tech myth bust follow",
+        "role": "cta"
+      }
+    ],
+    "description": "We bust the myth that the original PlayStation couldn't play music CDs. Discover the hidden multimedia side of this classic console. Follow for more tech revelations!",
+    "hashtags": [
+      "#shorts",
+      "#gaminghistory",
+      "#retro",
+      "#techmyth",
+      "#playstation",
+      "#gaming",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Floppy Capacity Misconception",
+    "thumb": "FLOPPY SIZE",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Floppy disks were once limited to exactly 1.44 MB of data",
+        "hook_top": "ONLY 144MB",
+        "query": "1.44 MB floppy disk capacity myth",
+        "query2": "standard floppy size misconception",
+        "role": "hook"
+      },
+      {
+        "type": "myth",
+        "text": "Many think every floppy could only store 1.44 MB",
+        "label": "Universal 1.44 MB belief",
+        "query": "floppy disk 1.44 MB universal myth",
+        "query2": "floppy size myth",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "truth",
+        "text": "In fact there were 720 KB, 1.2 MB, 1.44 MB, and even 2.88 MB formats, varying by density and drive",
+        "label": "Multiple floppy sizes",
+        "query": "different floppy disk capacities",
+        "query2": "720KB 1.2MB 2.88MB floppy formats",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "callout",
+        "text": "Next time pick the right drive—floppy sizes were never one‑size‑fits‑all",
+        "label": "Varied Formats",
+        "sub": "Choose the correct floppy density",
+        "label_on": "Fact",
+        "query": "floppy disk density types",
+        "query2": "floppy format variations",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "everyday tech myth bust CTA",
+        "query2": "tech myth short video follow",
+        "role": "cta"
+      }
+    ],
+    "description": "We bust the idea that all floppy disks held exactly 1.44 MB. Learn about the multiple formats that existed. Follow for more tech myth busting!",
+    "hashtags": [
+      "#shorts",
+      "#techmyth",
+      "#retro",
+      "#computing",
+      "#floppy",
+      "#fyp"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Microwave Magnetron Explained",
+    "thumb": "MICROWAVE POWER",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Your microwave’s core fires a 2.45 GHz wave",
+        "hook_top": "MAGNETRON POWER",
+        "query": "microwave magnetron 2.45 GHz",
+        "query2": "microwave frequency 2.45 GHz",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "The magnetron converts electricity into microwaves at 2.45 GHz",
+        "chips": [
+          {
+            "t": "2.45 GHZ FREQUENCY",
+            "on": "frequency",
+            "style": "white"
+          }
+        ],
+        "query": "magnetron 2.45 GHz conversion",
+        "query2": "magnetron frequency",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "These waves cause water molecules to vibrate, heating food in seconds",
+        "chips": [
+          {
+            "t": "WATER VIBRATION HEAT",
+            "on": "heat",
+            "style": "accent"
+          }
+        ],
+        "query": "microwave water molecule vibration heating",
+        "query2": "how microwaves heat food",
+        "role": "fact"
+      },
+      {
+        "type": "reveal",
+        "text": "The turntable isn’t for even cooking; it prevents standing waves that can scorch food",
+        "reveal_top": "TURNTABLE PREVENTS HOT SPOTS",
+        "query": "microwave turntable standing waves purpose",
+        "query2": "why microwaves have turntables",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech you should actually know.",
+        "query": "tech explanation channel",
+        "query2": "how things work channel",
+        "role": "cta"
+      }
+    ],
+    "description": "Uncover the science behind the magnetron that powers your microwave and why the turntable is essential. Simple facts, big impact.",
+    "hashtags": [
+      "#shorts",
+      "#tech",
+      "#everydaytech",
+      "#microwave",
+      "#science",
+      "#fyp",
+      "#howitworks"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "Sega CD's Dual Layer Trick",
+    "thumb": "SEGA CD",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "Sega CD added 650 MB of storage to a Genesis in 1991",
+        "hook_top": "650MB ADDITION",
+        "query": "Sega CD 650 MB storage",
+        "query2": "Sega CD capacity 1991",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "It used a dual‑layer CD‑ROM drive, letting games exceed cartridge limits",
+        "chips": [
+          {
+            "t": "DUAL‑LAYER",
+            "on": "dual‑layer",
+            "style": "accent"
+          }
+        ],
+        "query": "Sega CD dual layer drive",
+        "query2": "Sega CD CD‑ROM technology",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "The add‑on cost about $200 at launch, a steep price for a peripheral",
+        "chips": [
+          {
+            "t": "$200 PRICE",
+            "on": "price",
+            "style": "white"
+          }
+        ],
+        "query": "Sega CD launch price 1991",
+        "query2": "Sega CD cost 1991",
+        "role": "fact"
+      },
+      {
+        "type": "callout",
+        "text": "The CD‑ROM boost gave Genesis its first FMV games",
+        "label": "FMV Revolution",
+        "sub": "Full‑motion video arrived via the CD add‑on",
+        "label_on": "FMV",
+        "query": "Sega CD FMV games",
+        "query2": "Genesis first FMV titles",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow to stay ahead of the tech curve.",
+        "query": "follow call to action",
+        "query2": "subscribe reminder",
+        "role": "cta"
+      }
+    ],
+    "description": "Discover how the Sega CD turned the Genesis into a CD‑player and sparked the FMV era. Stay tuned for more retro tech stories.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#retro",
+      "#gaminghistory",
+      "#SegaCD",
+      "#FMV",
+      "#tech"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
+    "title": "IBM PC AT and the 80286 Leap",
+    "thumb": "80286 POWER",
+    "scenes": [
+      {
+        "type": "hook",
+        "text": "The 1984 IBM PC AT launched with a 6 MHz 80286 processor",
+        "hook_top": "6MHZ 80286",
+        "query": "IBM PC AT 6 MHz 80286 launch",
+        "query2": "IBM PC AT processor 1984",
+        "role": "hook"
+      },
+      {
+        "type": "fact",
+        "text": "It introduced 16‑bit protected mode, a first for mainstream PCs",
+        "chips": [
+          {
+            "t": "PROTECTED MODE",
+            "on": "protected",
+            "style": "accent"
+          }
+        ],
+        "query": "80286 protected mode introduction",
+        "query2": "16‑bit protected mode IBM PC AT",
+        "role": "fact"
+      },
+      {
+        "type": "fact",
+        "text": "The AT shipped with 256 KB of RAM, expandable to 16 MB",
+        "chips": [
+          {
+            "t": "256 KB RAM",
+            "on": "RAM",
+            "style": "white"
+          }
+        ],
+        "query": "IBM PC AT memory specifications",
+        "query2": "IBM AT RAM 256 KB",
+        "role": "fact"
+      },
+      {
+        "type": "callout",
+        "text": "This architecture paved the way for modern multitasking PCs",
+        "label": "Multitask Roots",
+        "sub": "Protected mode enabled early OS multitasking",
+        "label_on": "multitask",
+        "query": "80286 multitasking legacy",
+        "query2": "protected mode OS history",
+        "role": "fact",
+        "chips": []
+      },
+      {
+        "type": "cta",
+        "text": "Follow for daily tech and AI news.",
+        "query": "follow call to action",
+        "query2": "subscribe reminder",
+        "role": "cta"
+      }
+    ],
+    "description": "Learn how the IBM PC AT’s 80286 CPU changed personal computing forever. Follow for more simple tech histories.",
+    "hashtags": [
+      "#shorts",
+      "#fyp",
+      "#computinghistory",
+      "#IBM",
+      "#80286",
+      "#tech",
+      "#gaminghistory"
+    ],
+    "place": "",
+    "country": ""
+  },
+  {
     "title": "The Birth of Console Wars",
     "thumb": "CONSOLE SHOWDOWN",
     "scenes": [
@@ -13367,203 +13769,6 @@
       "#consolewars",
       "#nintendo",
       "#sega"
-    ],
-    "place": "",
-    "country": ""
-  },
-  {
-    "title": "Why the Atari 2600 Still Lives",
-    "thumb": "ATARI LEGACY",
-    "scenes": [
-      {
-        "type": "hook",
-        "text": "The 1977 Atari 2600 still powers game nights today",
-        "hook_top": "ATARI 1977 STILL LIVES",
-        "query": "Atari 2600 modern usage",
-        "query2": "Atari 2600 retro gaming today",
-        "role": "hook"
-      },
-      {
-        "type": "count",
-        "num": 3,
-        "text": "Its MOS 6507 CPU runs at 1.19 MHz, simple enough for hobbyist mods",
-        "label": "MOS 6507 CPU",
-        "label_on": "CPU",
-        "query": "Atari 2600 MOS 6507 specifications",
-        "query2": "Atari 2600 processor details",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "count",
-        "num": 2,
-        "text": "The 4 KB ROM cartridges could hold entire arcade‑style games, a marvel for the era",
-        "label": "4KB ROM CARTRIDGES",
-        "label_on": "ROM size",
-        "query": "Atari 2600 cartridge ROM size 4KB",
-        "query2": "Atari 2600 game cartridge capacity",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "count",
-        "num": 1,
-        "text": "Its RF output plugs directly into any TV’s antenna input, avoiding HDMI adapters",
-        "label": "RF OUTPUT TO TV",
-        "label_on": "RF output",
-        "query": "Atari 2600 RF output connection",
-        "query2": "Atari 2600 TV antenna input",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "cta",
-        "text": "Follow to stay ahead of the tech curve.",
-        "query": "retro tech CTA follow",
-        "query2": "retro gaming follow prompt",
-        "role": "cta"
-      }
-    ],
-    "description": "Discover the hardware quirks that keep the Atari 2600 alive in living rooms. Follow for more vintage tech insights.",
-    "hashtags": [
-      "#shorts",
-      "#retrotech",
-      "#atari2600",
-      "#gaminghistory",
-      "#fyp",
-      "#classicgaming"
-    ],
-    "place": "",
-    "country": ""
-  },
-  {
-    "title": "The Secret Behind Early Wi‑Fi Coffee Shops",
-    "thumb": "COFFEE WIFI",
-    "scenes": [
-      {
-        "type": "hook",
-        "text": "In 1993 a coffee shop became the first public Wi‑Fi hotspot",
-        "hook_top": "COFFEE WIFI",
-        "query": "1993 coffee shop first public Wi-Fi",
-        "query2": "first public Wi-Fi hotspot history",
-        "role": "hook"
-      },
-      {
-        "type": "count",
-        "num": 3,
-        "label": "CUSTOM 802.11 HARDWARE",
-        "label_on": "hardware",
-        "text": "Owner installed a custom 802.11 bridge built from off‑the‑shelf cards",
-        "query": "custom 802.11 bridge coffee shop 1993",
-        "query2": "early Wi-Fi hardware coffee shop",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "count",
-        "num": 2,
-        "label": "FREE ACCESS MODEL",
-        "label_on": "access",
-        "text": "Patrons logged in via a simple web portal that stored passwords on a local server",
-        "query": "early Wi-Fi login portal coffee shop",
-        "query2": "1993 Wi-Fi free access method",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "count",
-        "num": 1,
-        "label": "SET THE STAGE FOR CAFE NETS",
-        "label_on": "stage",
-        "text": "The success inspired cafés worldwide to adopt Wi‑Fi as a standard amenity",
-        "query": "coffee shop Wi-Fi trend 1990s",
-        "query2": "café Wi-Fi adoption history",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "cta",
-        "text": "Follow for daily tech you should actually know.",
-        "query": "follow tech deep dive CTA",
-        "query2": "subscribe tech shorts",
-        "role": "cta"
-      }
-    ],
-    "description": "A tiny coffee shop wired its tables long before Starbucks, paving the way for today’s ubiquitous café Wi‑Fi. Learn how a DIY network sparked a global habit.",
-    "hashtags": [
-      "#shorts",
-      "#fyp",
-      "#tech",
-      "#wifi",
-      "#history",
-      "#retro",
-      "#cafe"
-    ],
-    "place": "",
-    "country": ""
-  },
-  {
-    "title": "Famous Hack That Opened Modding",
-    "thumb": "MOD HACK UNLEASHED",
-    "scenes": [
-      {
-        "type": "hook",
-        "text": "Which 1998 exploit let players edit Half‑Life maps?",
-        "hook_top": "1998 HALFLIFE HACK",
-        "query": "1998 Half-Life map editing hack",
-        "query2": "Half-Life 1998 modding exploit",
-        "role": "hook"
-      },
-      {
-        "type": "count",
-        "num": 3,
-        "label": "CONSOLE COMMAND ENABLED",
-        "label_on": "COMMAND",
-        "text": "A hidden console command unlocked the level editor without source code.",
-        "query": "Half-Life hidden console command level editor",
-        "query2": "Half-Life map editor console command",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "count",
-        "num": 2,
-        "label": "COMMUNITY TOOLKIT RELEASE",
-        "label_on": "TOOLKIT",
-        "text": "Fans packaged the command into a free toolkit, spreading it across the community.",
-        "query": "Half-Life community mod toolkit 1998",
-        "query2": "Half-Life fan-made modding tools",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "count",
-        "num": 1,
-        "label": "MOD SCENE EXPLOSION",
-        "label_on": "EXPLOSION",
-        "text": "The hack sparked thousands of custom maps, establishing modding as a core gaming practice.",
-        "query": "Half-Life modding community impact",
-        "query2": "custom maps Half-Life explosion",
-        "role": "fact",
-        "chips": []
-      },
-      {
-        "type": "cta",
-        "text": "Follow for daily tech you should actually know.",
-        "query": "CTA follow legendary hack videos",
-        "query2": "video CTA follow hacking channel",
-        "role": "cta"
-      }
-    ],
-    "description": "A hidden command turned Half‑Life into a playground for creators, birthing the modern modding movement. See how a simple exploit reshaped games. Follow for more legendary hacks!",
-    "hashtags": [
-      "#gaming",
-      "#hack",
-      "#shorts",
-      "#fyp",
-      "#modding",
-      "#HalfLife",
-      "#history"
     ],
     "place": "",
     "country": ""
