@@ -326,6 +326,9 @@ def normalize(story, case):
             for k in ("tags", "top", "badge", "stamp"):   # stitky su v dizajne vzdy VERZALKAMI (sablona ich nemeni)
                 if k in c:
                     c[k] = _upper(c[k])
+            sub, price = str(c.get("sub") or ""), str(c.get("price") or "")
+            if sub and price and re.sub(r"\W", "", sub).lower() == re.sub(r"\W", "", price).lower():
+                c.pop("sub")                                 # podtitulok = cena by bol na karte dvakrat
         for k in ("tag", "kicker", "job", "stamp", "labels", "tags", "thumbLabel", "label"):
             if k in p:
                 p[k] = _upper(p[k])

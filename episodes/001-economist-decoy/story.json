@@ -159,13 +159,11 @@
      null,
      {
       "title": "LARGE COFFEE",
-      "sub": "$3",
       "price": "$3",
       "art": "cup-soda"
      },
      {
       "title": "SMALL COFFEE",
-      "sub": "$2",
       "price": "$2",
       "art": "cup-soda"
      }
@@ -173,7 +171,6 @@
     "after": [
      {
       "title": "MEDIUM COFFEE",
-      "sub": "$3",
       "price": "$3",
       "art": "cup-soda",
       "top": {
@@ -183,13 +180,11 @@
      },
      {
       "title": "LARGE COFFEE",
-      "sub": "$3",
       "price": "$3",
       "art": "cup-soda"
      },
      {
       "title": "SMALL COFFEE",
-      "sub": "$2",
       "price": "$2",
       "art": "cup-soda"
      }
@@ -208,13 +203,11 @@
      null,
      {
       "title": "LARGE COFFEE",
-      "sub": "$3",
       "price": "$3",
       "art": "cup-soda"
      },
      {
       "title": "SMALL COFFEE",
-      "sub": "$2",
       "price": "$2",
       "art": "cup-soda"
      }
@@ -222,7 +215,6 @@
     "after": [
      {
       "title": "MEDIUM COFFEE",
-      "sub": "$3",
       "price": "$3",
       "art": "cup-soda",
       "top": {
@@ -232,7 +224,6 @@
      },
      {
       "title": "LARGE COFFEE",
-      "sub": "$3",
       "price": "$3",
       "art": "cup-soda",
       "badge": {
@@ -242,7 +233,6 @@
      },
      {
       "title": "SMALL COFFEE",
-      "sub": "$2",
       "price": "$2",
       "art": "cup-soda"
      }
