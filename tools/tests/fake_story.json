@@ -1,0 +1,291 @@
+{
+ "case": "THE USELESS OPTION",
+ "title": "The subscription nobody picked",
+ "caption": "One option nobody picked rewrote what everyone chose.\nAsk what it's selling.",
+ "source": "Dan Ariely, Predictably Irrational (2008)",
+ "beats": [
+  {
+   "say": "One subscription option sold to nobody. It still decided what everyone bought.",
+   "scene": "Hero",
+   "props": {
+    "art": "newspaper",
+    "tag": {
+     "text": "NOBODY BOUGHT IT",
+     "tone": "red"
+    },
+    "title": "THE USELESS ONE",
+    "sub": "A REAL EXPERIMENT"
+   }
+  },
+  {
+   "say": "The Economist offered three subscriptions, and MIT students had to choose.",
+   "scene": "Hero",
+   "props": {
+    "art": "newspaper",
+    "title": "THREE OPTIONS",
+    "sub": "THE ECONOMIST · MIT"
+   }
+  },
+  {
+   "say": "Option one: print only, for $125.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "PRINT ONLY",
+      "sub": "THE ODD ONE",
+      "art": "newspaper",
+      "price": "$125",
+      "priceRed": true,
+      "tags": [
+       "PAPER ONLY"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "say": "Option two: web only, for $59.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "PRINT ONLY",
+      "sub": "THE ODD ONE",
+      "art": "newspaper",
+      "price": "$125",
+      "priceRed": true,
+      "tags": [
+       "PAPER ONLY"
+      ]
+     },
+     {
+      "title": "WEB ONLY",
+      "sub": "THE CHEAP ONE",
+      "art": "laptop",
+      "price": "$59",
+      "tags": [
+       "DIGITAL"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "say": "Option three: print plus web, also for $125. Same price as print only.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "PRINT ONLY",
+      "sub": "THE ODD ONE",
+      "art": "newspaper",
+      "price": "$125",
+      "priceRed": true,
+      "tags": [
+       "PAPER ONLY"
+      ]
+     },
+     {
+      "title": "WEB ONLY",
+      "sub": "THE CHEAP ONE",
+      "art": "laptop",
+      "price": "$59",
+      "tags": [
+       "DIGITAL"
+      ]
+     },
+     {
+      "title": "PRINT + WEB",
+      "sub": "THE BUNDLE",
+      "art": "newspaper",
+      "price": "$125",
+      "tags": [
+       "BOTH"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "say": "Nobody picked print only. It is not a product, it is bait.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "PRINT ONLY",
+      "sub": "THE ODD ONE",
+      "art": "newspaper",
+      "price": "$125",
+      "priceRed": true,
+      "tags": [
+       "NOBODY PICKED IT"
+      ],
+      "stamp": "BAIT"
+     },
+     {
+      "title": "WEB ONLY",
+      "sub": "THE CHEAP ONE",
+      "art": "laptop",
+      "price": "$59",
+      "tags": [
+       "DIGITAL"
+      ]
+     },
+     {
+      "title": "PRINT + WEB",
+      "sub": "THE BUNDLE",
+      "art": "newspaper",
+      "price": "$125",
+      "tags": [
+       "BOTH"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "say": "And the bait has two jobs.",
+   "scene": "Statement",
+   "mode": "blueprint",
+   "props": {
+    "kicker": "WHAT THE BAIT DOES",
+    "tags": [
+     "JOB 1 · MAKES THE BUNDLE WIN",
+     "JOB 2 · PUSHES YOU TO $125"
+    ]
+   }
+  },
+  {
+   "say": "With the bait, 84 of 100 students picked the bundle. Without it, only 32 did.",
+   "scene": "Views",
+   "mode": "blueprint",
+   "props": {
+    "job": "JOB 1 · BUNDLE WINS",
+    "label": "PICKED",
+    "value": 84,
+    "from": 32,
+    "suffix": "%",
+    "grid": 0
+   }
+  },
+  {
+   "say": "Next to a print-only option at $125, the bundle feels like a free web subscription.",
+   "scene": "Anchor",
+   "props": {
+    "job": "JOB 2 · PUSHES YOU TO $125",
+    "price": "$125",
+    "at": 0.6,
+    "split": 0.8,
+    "art": "newspaper",
+    "anchor": {
+     "label": "THE BAIT · $125",
+     "art": "newspaper"
+    }
+   }
+  },
+  {
+   "say": "A gym adds a $400 elite plan. Now the $40 pass looks cheap.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     null,
+     {
+      "title": "Monthly pass",
+      "sub": "ALL CLASSES",
+      "price": "$40"
+     },
+     {
+      "title": "Day pass",
+      "sub": "ONE VISIT",
+      "price": "$12"
+     }
+    ],
+    "after": [
+     {
+      "title": "Elite plan",
+      "sub": "PRIVATE COACH",
+      "price": "$400",
+      "top": {
+       "text": "EXTREME",
+       "tone": "red"
+      }
+     },
+     {
+      "title": "Monthly pass",
+      "sub": "ALL CLASSES",
+      "price": "$40"
+     },
+     {
+      "title": "Day pass",
+      "sub": "ONE VISIT",
+      "price": "$12"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Suddenly, the middle option is the smart choice.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     null,
+     {
+      "title": "Monthly pass",
+      "sub": "ALL CLASSES",
+      "price": "$40"
+     },
+     {
+      "title": "Day pass",
+      "sub": "ONE VISIT",
+      "price": "$12"
+     }
+    ],
+    "after": [
+     {
+      "title": "Elite plan",
+      "sub": "PRIVATE COACH",
+      "price": "$400",
+      "top": {
+       "text": "EXTREME",
+       "tone": "red"
+      }
+     },
+     {
+      "title": "Monthly pass",
+      "sub": "ALL CLASSES",
+      "price": "$40",
+      "badge": {
+       "text": "SMART CHOICE",
+       "tone": "green"
+      }
+     },
+     {
+      "title": "Day pass",
+      "sub": "ONE VISIT",
+      "price": "$12"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Next time you see an option nobody buys, ask what it's selling.",
+   "scene": "Statement",
+   "hold": 2.5,
+   "props": {
+    "kicker": "THE RULE",
+    "text": "Ask what it's selling."
+   }
+  },
+  {
+   "say": "Ask what it's selling. Follow for more.",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}

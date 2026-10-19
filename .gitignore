@@ -1,0 +1,10 @@
+node_modules/
+remotion/public/*/
+remotion/public/current.json
+remotion/out/
+remotion/tts_cache/
+output/
+.env
+config.json
+__pycache__/
+*.pyc

@@ -1,0 +1,349 @@
+{
+ "case": "SUBSCRIPTION CANCELLATION MAZE",
+ "title": "Stress test: every text at its maximum length",
+ "caption": "Stress test of the PriceTrap template. Second line of the caption.",
+ "source": "Dan Ariely, Predictably Irrational, chapter 11, Harper, 2008",
+ "beats": [
+  {
+   "say": "This stress test shows the longest allowed text in every scene.",
+   "scene": "Hero",
+   "props": {
+    "art": "gem",
+    "tag": {
+     "text": "SIXTEEN CHARS OK",
+     "tone": "red"
+    },
+    "title": "MOMENTUM WINNERS",
+    "sub": "TWENTY TWO CHARS LONG!"
+   },
+   "hold": 3
+  },
+  {
+   "say": "Three cards, three tags each, every field at its maximum length.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "MIGHTY MOGUL MODEL",
+      "sub": "WORLDWIDE WARRANTY WOW",
+      "price": "$120,000,000",
+      "priceRed": true,
+      "art": "gem-red",
+      "tags": [
+       {
+        "text": "INVITE ONLY CLUB",
+        "tone": "blue"
+       },
+       {
+        "text": "SOLD OUT TODAY!!",
+        "tone": "dark"
+       },
+       {
+        "text": "LIMITED RUN 0001",
+        "tone": "yellow"
+       }
+      ]
+     },
+     {
+      "title": "MAGNIFICENT MOTION",
+      "sub": "WIDE WINDOWS WITH WIFI",
+      "price": "$987,654,321",
+      "art": "laptop",
+      "tags": [
+       "FREE DELIVERY OK",
+       {
+        "text": "MONEY BACK GUARD",
+        "tone": "green"
+       },
+       "WARRANTY 5 YEARS"
+      ]
+     },
+     {
+      "title": "Wonderful Wardrobe",
+      "sub": "Mixed case subtitle 22",
+      "price": "$1,234.56/mo",
+      "art": "cup-soda",
+      "tags": [
+       "Sixteen chars ok",
+       {
+        "text": "Another tag here",
+        "tone": "blue"
+       },
+       "Third tag in row"
+      ]
+     }
+    ]
+   },
+   "hold": 3
+  },
+  {
+   "say": "Now the same cards in blueprint mode, with a stamp and a badge.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "MIGHTY MOGUL MODEL",
+      "sub": "WORLDWIDE WARRANTY WOW",
+      "price": "$120,000,000",
+      "priceRed": true,
+      "art": "gem-red",
+      "tags": [
+       {
+        "text": "INVITE ONLY CLUB",
+        "tone": "blue"
+       },
+       {
+        "text": "SOLD OUT TODAY!!",
+        "tone": "dark"
+       },
+       {
+        "text": "LIMITED RUN 0001",
+        "tone": "yellow"
+       }
+      ],
+      "stamp": "NOT REAL"
+     },
+     {
+      "title": "MAGNIFICENT MOTION",
+      "sub": "WIDE WINDOWS WITH WIFI",
+      "price": "$987,654,321",
+      "art": "laptop",
+      "tags": [
+       "FREE DELIVERY OK",
+       {
+        "text": "MONEY BACK GUARD",
+        "tone": "green"
+       },
+       "WARRANTY 5 YEARS"
+      ]
+     },
+     {
+      "title": "Wonderful Wardrobe",
+      "sub": "Mixed case subtitle 22",
+      "price": "$1,234.56/mo",
+      "art": "cup-soda",
+      "tags": [
+       "Sixteen chars ok",
+       {
+        "text": "Another tag here",
+        "tone": "blue"
+       },
+       "Third tag in row"
+      ],
+      "badge": {
+       "text": "CHEAPEST EVER!",
+       "tone": "green"
+      }
+     }
+    ]
+   },
+   "mode": "blueprint",
+   "hold": 3
+  },
+  {
+   "say": "The counter holds a huge number and a long job label.",
+   "scene": "Views",
+   "props": {
+    "job": "JOB 1 · GETS WATCHED MORE!",
+    "label": "IMPRESSION",
+    "value": 987654321,
+    "from": 12345,
+    "prefix": "$",
+    "suffix": "M+",
+    "grid": 8,
+    "thumbLabel": "▶ 123.4M",
+    "art": "popcorn"
+   },
+   "mode": "blueprint",
+   "hold": 4
+  },
+  {
+   "say": "The anchor price is as long as the rules allow, close to the right edge.",
+   "scene": "Anchor",
+   "props": {
+    "job": "JOB 2 · MOVES THE ANCHOR!!",
+    "price": "$123,456,789",
+    "at": 0.92,
+    "split": 0.4,
+    "art": "gem-red"
+   },
+   "hold": 3
+  },
+  {
+   "say": "Then the anchor object appears above it, and the other price moves left.",
+   "scene": "Anchor",
+   "props": {
+    "job": "JOB 2 · MOVES THE ANCHOR!!",
+    "price": "$123,456,789",
+    "at": 0.08,
+    "split": 0.8,
+    "art": "gem-red",
+    "anchor": {
+     "label": "THE ANCHOR · FLIES ABOVE",
+     "art": "rocket"
+    }
+   },
+   "hold": 3
+  },
+  {
+   "say": "Compare shows three rows with the longest titles, tags and prices.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     null,
+     {
+      "title": "Weekly Wine Club",
+      "sub": "SERVES MANY MANY MORE!",
+      "price": "$999,999",
+      "art": "wine",
+      "tags": [
+       "FREE SHIPPING OK",
+       "CANCEL ANY TIME!"
+      ]
+     },
+     {
+      "title": "Monthly Mug Mix!",
+      "sub": "PER MONTH PER PERSON!!",
+      "price": "$777,777",
+      "art": "coffee"
+     }
+    ],
+    "after": [
+     {
+      "title": "MOGUL MEMBERSHIP",
+      "sub": "BY INVITATION ONLY NOW",
+      "price": "$100,000",
+      "art": "crown-red",
+      "tags": [
+       {
+        "text": "INVITE ONLY CLUB",
+        "tone": "dark"
+       },
+       "SOLD OUT TODAY!!",
+       "LIMITED RUN 0001"
+      ],
+      "top": {
+       "text": "OVERPRICED",
+       "tone": "red"
+      }
+     },
+     {
+      "title": "Weekly Wine Club",
+      "sub": "SERVES MANY MANY MORE!",
+      "price": "$999,999",
+      "art": "wine",
+      "tags": [
+       "FREE SHIPPING OK",
+       "CANCEL ANY TIME!"
+      ]
+     },
+     {
+      "title": "Monthly Mug Mix!",
+      "sub": "PER MONTH PER PERSON!!",
+      "price": "$777,777",
+      "art": "coffee"
+     }
+    ],
+    "labels": [
+     "WITHOUT THE BAIT",
+     "WITH THE BAIT"
+    ]
+   },
+   "hold": 4
+  },
+  {
+   "say": "The middle option gets its badge.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     null,
+     {
+      "title": "Weekly Wine Club",
+      "sub": "SERVES MANY MANY MORE!",
+      "price": "$999,999",
+      "art": "wine",
+      "tags": [
+       "FREE SHIPPING OK",
+       "CANCEL ANY TIME!"
+      ],
+      "badge": "PRICEY?"
+     },
+     {
+      "title": "Monthly Mug Mix!",
+      "sub": "PER MONTH PER PERSON!!",
+      "price": "$777,777",
+      "art": "coffee"
+     }
+    ],
+    "after": [
+     {
+      "title": "MOGUL MEMBERSHIP",
+      "sub": "BY INVITATION ONLY NOW",
+      "price": "$100,000",
+      "art": "crown-red",
+      "tags": [
+       {
+        "text": "INVITE ONLY CLUB",
+        "tone": "dark"
+       },
+       "SOLD OUT TODAY!!",
+       "LIMITED RUN 0001"
+      ],
+      "top": {
+       "text": "OVERPRICED",
+       "tone": "red"
+      }
+     },
+     {
+      "title": "Weekly Wine Club",
+      "sub": "SERVES MANY MANY MORE!",
+      "price": "$999,999",
+      "art": "wine",
+      "tags": [
+       "FREE SHIPPING OK",
+       "CANCEL ANY TIME!"
+      ],
+      "badge": {
+       "text": "SMART CHOICE",
+       "tone": "green"
+      }
+     },
+     {
+      "title": "Monthly Mug Mix!",
+      "sub": "PER MONTH PER PERSON!!",
+      "price": "$777,777",
+      "art": "coffee"
+     }
+    ],
+    "labels": [
+     "WITHOUT THE BAIT",
+     "WITH THE BAIT"
+    ]
+   },
+   "hold": 4
+  },
+  {
+   "say": "The rule has forty characters and three long tags.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "WHAT THE BAIT ACTUALLY DOES!",
+    "text": "Always ask what the baited option sells.",
+    "tags": [
+     "JOB 1 · GETS THE ATTENTION!!",
+     "JOB 2 · MOVES THE ANCHOR NOW",
+     "JOB 3 · MAKES THE REST LOOK!"
+    ]
+   },
+   "mode": "blueprint",
+   "hold": 4
+  },
+  {
+   "say": "Follow for more.",
+   "scene": "Outro",
+   "props": {},
+   "hold": 3
+  }
+ ]
+}

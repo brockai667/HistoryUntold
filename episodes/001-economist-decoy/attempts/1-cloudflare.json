@@ -1,0 +1,313 @@
+{
+ "model": "cloudflare:@cf/openai/gpt-oss-120b",
+ "errors": [
+  "beat 11 Compare: after card 1 must not be null (null is only for before)",
+  "beat 12 Compare: after card 1 changed (between Compare beats only badge and top may change)"
+ ],
+ "id": "economist-decoy",
+ "case": "USELESS OPTION",
+ "title": "Decoy Effect: How a Useless Option Shifts Your Choice",
+ "caption": "A useless subscription tier pushes students to the pricier bundle. See the same trick in everyday purchases.",
+ "source": "Dan Ariely, Predictably Irrational (2008)",
+ "beats": [
+  {
+   "say": "A $125 combo beats a cheaper $59 plan.",
+   "scene": "Hero",
+   "props": {
+    "art": "newspaper",
+    "tag": "SURPRISING",
+    "title": "Combo Wins",
+    "sub": "$125 beats $59"
+   }
+  },
+  {
+   "say": "All because of a useless option.",
+   "scene": "Hero",
+   "props": {
+    "art": "newspaper",
+    "tag": "SURPRISING",
+    "title": "Combo Wins",
+    "sub": "$125 beats $59"
+   }
+  },
+  {
+   "say": "The Economist lists a print-only subscription for $125.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "Print Only",
+      "sub": "Paper edition",
+      "price": "$125",
+      "priceRed": true,
+      "art": "printer"
+     }
+    ]
+   }
+  },
+  {
+   "say": "They also offer web-only for $59.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "Print Only",
+      "sub": "Paper edition",
+      "price": "$125",
+      "priceRed": true,
+      "art": "printer"
+     },
+     {
+      "title": "Web Only",
+      "sub": "Digital access",
+      "price": "$59",
+      "art": "laptop"
+     }
+    ]
+   }
+  },
+  {
+   "say": "And a print plus web bundle for $125.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "Print Only",
+      "sub": "Paper edition",
+      "price": "$125",
+      "priceRed": true,
+      "art": "printer"
+     },
+     {
+      "title": "Web Only",
+      "sub": "Digital access",
+      "price": "$59",
+      "art": "laptop"
+     },
+     {
+      "title": "Print + Web",
+      "sub": "Both formats",
+      "price": "$125",
+      "art": "newspaper"
+     }
+    ]
+   }
+  },
+  {
+   "say": "The bundle gets a green 'most popular' badge.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "Print Only",
+      "sub": "Paper edition",
+      "price": "$125",
+      "priceRed": true,
+      "art": "printer"
+     },
+     {
+      "title": "Web Only",
+      "sub": "Digital access",
+      "price": "$59",
+      "art": "laptop"
+     },
+     {
+      "title": "Print + Web",
+      "sub": "Both formats",
+      "price": "$125",
+      "art": "newspaper",
+      "badge": {
+       "text": "MOST POPULAR",
+       "tone": "green"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "say": "The print-only card is just a bait.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "Print Only",
+      "sub": "Paper edition",
+      "price": "$125",
+      "priceRed": true,
+      "art": "printer",
+      "stamp": "BAIT"
+     },
+     {
+      "title": "Web Only",
+      "sub": "Digital access",
+      "price": "$59",
+      "art": "laptop"
+     },
+     {
+      "title": "Print + Web",
+      "sub": "Both formats",
+      "price": "$125",
+      "art": "newspaper",
+      "badge": {
+       "text": "MOST POPULAR",
+       "tone": "green"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "say": "It steers you toward the pricier combo.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "WHAT THE BAIT DOES",
+    "text": "It steers you toward the pricier combo.",
+    "tags": [
+     "STEERS CHOICE",
+     "BOOSTS REVENUE"
+    ]
+   }
+  },
+  {
+   "say": "With the decoy, 84 out of 100 pick the combo.",
+   "scene": "Anchor",
+   "props": {
+    "job": "WITH DECOY",
+    "price": "$125",
+    "at": 0,
+    "split": 1,
+    "art": "printer",
+    "anchor": {
+     "label": "Print only = $125",
+     "art": "printer"
+    }
+   }
+  },
+  {
+   "say": "Without it, only 32 choose the combo.",
+   "scene": "Anchor",
+   "props": {
+    "job": "WITHOUT DECOY",
+    "price": "$125",
+    "at": 0,
+    "split": 0,
+    "art": "newspaper",
+    "anchor": {
+     "label": "Only combo",
+     "art": "newspaper"
+    }
+   }
+  },
+  {
+   "say": "A bakery sells small cake $10 and large cake $20.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     null,
+     {
+      "title": "Small Cake",
+      "sub": "Plain",
+      "price": "$10",
+      "art": "cake-slice"
+     },
+     {
+      "title": "Large Cake",
+      "sub": "Vanilla",
+      "price": "$20",
+      "art": "cake"
+     }
+    ],
+    "after": [
+     null,
+     {
+      "title": "Small Cake",
+      "sub": "Plain",
+      "price": "$10",
+      "art": "cake-slice"
+     },
+     {
+      "title": "Large Cake",
+      "sub": "Vanilla",
+      "price": "$20",
+      "art": "cake"
+     }
+    ],
+    "labels": [
+     "BEFORE",
+     "AFTER"
+    ]
+   }
+  },
+  {
+   "say": "Add a frosted cake $20 as a decoy; the large cake becomes the smart choice.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     null,
+     {
+      "title": "Small Cake",
+      "sub": "Plain",
+      "price": "$10",
+      "art": "cake-slice"
+     },
+     {
+      "title": "Large Cake",
+      "sub": "Vanilla",
+      "price": "$20",
+      "art": "cake"
+     }
+    ],
+    "after": [
+     {
+      "title": "Frosted Cake",
+      "sub": "Extra frosting",
+      "price": "$20",
+      "art": "cake",
+      "top": {
+       "text": "EXTREME",
+       "tone": "red"
+      }
+     },
+     {
+      "title": "Small Cake",
+      "sub": "Plain",
+      "price": "$10",
+      "art": "cake-slice"
+     },
+     {
+      "title": "Large Cake",
+      "sub": "Vanilla",
+      "price": "$20",
+      "art": "cake",
+      "badge": {
+       "text": "SMART CHOICE",
+       "tone": "green"
+      }
+     }
+    ],
+    "labels": [
+     "BEFORE",
+     "AFTER"
+    ]
+   }
+  },
+  {
+   "say": "Decoys steer your choices.",
+   "scene": "Statement",
+   "props": {
+    "text": "Decoys steer your choices."
+   }
+  },
+  {
+   "say": "Decoys steer your choices. Follow for more.",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}

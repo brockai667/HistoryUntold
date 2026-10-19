@@ -1,0 +1,269 @@
+{
+ "id": "economist-decoy",
+ "case": "USELESS OPTION",
+ "title": "How a useless subscription option skews choices",
+ "caption": "A decoy that never gets chosen still drives 84% of students to the combo. See the trick in everyday life.",
+ "source": "Dan Ariely, Predictably Irrational (2008)",
+ "beats": [
+  {
+   "say": "A $125 plan nobody wants makes 84% of students choose the combo. The trick works even when the decoy costs the same.",
+   "scene": "Hero",
+   "props": {
+    "art": "newspaper",
+    "tag": "DECOY EFFECT",
+    "title": "Useless Option",
+    "sub": "The decoy trick"
+   }
+  },
+  {
+   "say": "Web-only costs $59 for online access, no print.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "WEB ONLY",
+      "sub": "Online access",
+      "price": "$59",
+      "art": "laptop"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Print-only costs $125, same price as the bundle, no web.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "WEB ONLY",
+      "sub": "Online access",
+      "price": "$59",
+      "art": "laptop"
+     },
+     {
+      "title": "PRINT ONLY",
+      "sub": "Print only",
+      "price": "$125",
+      "priceRed": true,
+      "art": "printer"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Print plus web also costs $125, the combo.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "WEB ONLY",
+      "sub": "Online access",
+      "price": "$59",
+      "art": "laptop"
+     },
+     {
+      "title": "PRINT ONLY",
+      "sub": "Print only",
+      "price": "$125",
+      "priceRed": true,
+      "art": "printer"
+     },
+     {
+      "title": "PRINT + WEB",
+      "sub": "Print and online",
+      "price": "$125",
+      "art": "newspaper"
+     }
+    ]
+   }
+  },
+  {
+   "say": "The print-only option is the bait, never chosen.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "WEB ONLY",
+      "sub": "Online access",
+      "price": "$59",
+      "art": "laptop"
+     },
+     {
+      "title": "PRINT ONLY",
+      "sub": "Print only",
+      "price": "$125",
+      "priceRed": true,
+      "stamp": "BAIT",
+      "art": "printer"
+     },
+     {
+      "title": "PRINT + WEB",
+      "sub": "Print and online",
+      "price": "$125",
+      "art": "newspaper"
+     }
+    ]
+   }
+  },
+  {
+   "say": "What the bait does.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "WHAT THE BAIT DOES",
+    "tags": [
+     "STEERS CHOICES",
+     "MAKES BUNDLE CHEAPER"
+    ]
+   }
+  },
+  {
+   "say": "With all three, 84% pick the combo, 16% pick web-only.",
+   "scene": "Anchor",
+   "props": {
+    "job": "ALL THREE OPTIONS",
+    "price": "$125",
+    "at": 0,
+    "split": 1,
+    "art": "book-open",
+    "anchor": {
+     "label": "84% pick combo",
+     "art": "star"
+    }
+   }
+  },
+  {
+   "say": "Without the print option, 68% choose web-only, 32% stay combo.",
+   "scene": "Anchor",
+   "props": {
+    "job": "NO PRINT OPTION",
+    "price": "$125",
+    "at": 0,
+    "split": 1,
+    "art": "book-open",
+    "anchor": {
+     "label": "68% pick web",
+     "art": "star"
+    }
+   }
+  },
+  {
+   "say": "A coffee shop adds a $3 medium to push sales.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     null,
+     {
+      "title": "LARGE COFFEE",
+      "sub": "$3",
+      "price": "$3",
+      "art": "cup-soda"
+     },
+     {
+      "title": "SMALL COFFEE",
+      "sub": "$2",
+      "price": "$2",
+      "art": "cup-soda"
+     }
+    ],
+    "after": [
+     {
+      "title": "MEDIUM COFFEE",
+      "sub": "$3",
+      "price": "$3",
+      "art": "cup-soda",
+      "top": {
+       "text": "EXTREME",
+       "tone": "red"
+      }
+     },
+     {
+      "title": "LARGE COFFEE",
+      "sub": "$3",
+      "price": "$3",
+      "art": "cup-soda"
+     },
+     {
+      "title": "SMALL COFFEE",
+      "sub": "$2",
+      "price": "$2",
+      "art": "cup-soda"
+     }
+    ],
+    "labels": [
+     "BEFORE",
+     "AFTER"
+    ]
+   }
+  },
+  {
+   "say": "Customers now see the large as the smart choice.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     null,
+     {
+      "title": "LARGE COFFEE",
+      "sub": "$3",
+      "price": "$3",
+      "art": "cup-soda"
+     },
+     {
+      "title": "SMALL COFFEE",
+      "sub": "$2",
+      "price": "$2",
+      "art": "cup-soda"
+     }
+    ],
+    "after": [
+     {
+      "title": "MEDIUM COFFEE",
+      "sub": "$3",
+      "price": "$3",
+      "art": "cup-soda",
+      "top": {
+       "text": "EXTREME",
+       "tone": "red"
+      }
+     },
+     {
+      "title": "LARGE COFFEE",
+      "sub": "$3",
+      "price": "$3",
+      "art": "cup-soda",
+      "badge": {
+       "text": "SMART CHOICE",
+       "tone": "green"
+      }
+     },
+     {
+      "title": "SMALL COFFEE",
+      "sub": "$2",
+      "price": "$2",
+      "art": "cup-soda"
+     }
+    ],
+    "labels": [
+     "BEFORE",
+     "AFTER"
+    ]
+   }
+  },
+  {
+   "say": "Useless options steer choices.",
+   "scene": "Statement",
+   "props": {
+    "text": "Useless options steer choices."
+   }
+  },
+  {
+   "say": "Useless options steer choices. Follow for more.",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}
