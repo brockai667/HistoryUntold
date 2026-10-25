@@ -1,0 +1,169 @@
+{
+ "id": "gym-flat-fee",
+ "case": "THE EMPTY GYM",
+ "title": "Paying not to go",
+ "caption": "Why does the gym push the monthly plan so hard?\nCount your visits before you sign.",
+ "source": "DellaVigna & Malmendier, American Economic Review (2006)",
+ "beats": [
+  {
+   "say": "Why does the gym push the monthly plan so hard?",
+   "scene": "Hero",
+   "props": {
+    "art": "dumbbell",
+    "tag": {"text": "BE HONEST", "tone": "yellow"},
+    "title": "SIGN UP TODAY?",
+    "sub": "WHO REALLY WINS?"
+   }
+  },
+  {
+   "say": "New year. You sign the monthly plan.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "NEW YEAR, NEW YOU",
+    "text": "THE MONTHLY PLAN",
+    "tags": [{"text": "EASY CHOICE", "tone": "yellow"}]
+   }
+  },
+  {
+   "say": "Two economists tracked 7,752 members of three US gyms.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "DELLAVIGNA AND MALMENDIER",
+    "text": "7,752 GYM MEMBERS",
+    "tags": [{"text": "3 US CLUBS, 3 YEARS", "tone": "dark"}]
+   }
+  },
+  {
+   "say": "The monthly plan: over $70 a month.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Monthly plan", "sub": "Go any time", "price": "$70+/month", "art": "credit-card"}
+    ]
+   }
+  },
+  {
+   "say": "Or a 10-visit pass: $10 per visit.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Monthly plan", "sub": "Go any time", "price": "$70+/month", "art": "credit-card"},
+     {"title": "10-visit pass", "sub": "Pay as you go", "price": "$10/visit", "art": "ticket"}
+    ]
+   }
+  },
+  {
+   "say": "Monthly members went 4.3 times a month, on average.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "MONTHLY MEMBERS, ON AVERAGE",
+    "text": "4.3 VISITS A MONTH"
+   }
+  },
+  {
+   "say": "That's over $17 a visit. The pass was cheaper.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [0, 1],
+    "cards": [
+     {"title": "Monthly plan", "sub": "Real cost per visit", "price": "$17+/visit", "priceRed": true, "art": "credit-card"},
+     {"title": "10-visit pass", "sub": "Pay as you go", "price": "$10/visit", "art": "ticket"}
+    ]
+   }
+  },
+  {
+   "say": "Because a flat fee pays the gym, even when you stay home.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Monthly plan", "sub": "Real cost per visit", "price": "$17+/visit", "priceRed": true, "art": "credit-card", "stamp": "PAID", "tags": [{"text": "PAID IF YOU SKIP", "tone": "yellow"}]},
+     {"title": "10-visit pass", "sub": "Pay as you go", "price": "$10/visit", "art": "ticket"}
+    ]
+   }
+  },
+  {
+   "say": "Like a buffet hoping you're not hungry.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Monthly plan", "sub": "Real cost per visit", "price": "$17+/visit", "priceRed": true, "art": "credit-card", "stamp": "PAID", "tags": [{"text": "PAID IF YOU SKIP", "tone": "yellow"}, {"text": "PAID ANYWAY", "tone": "dark"}]},
+     {"title": "10-visit pass", "sub": "Pay as you go", "price": "$10/visit", "art": "ticket"}
+    ]
+   }
+  },
+  {
+   "say": "So you never ask: how often will I go?",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [1, 0],
+    "cards": [
+     {"title": "Monthly plan", "sub": "Real cost per visit", "price": "$17+/visit", "priceRed": true, "art": "credit-card", "stamp": "PAID", "tags": [{"text": "PAID IF YOU SKIP", "tone": "yellow"}, {"text": "HOW OFTEN?", "tone": "blue"}]},
+     {"title": "10-visit pass", "sub": "Pay as you go", "price": "$10/visit", "art": "ticket"}
+    ]
+   }
+  },
+  {
+   "say": "On average, monthly members gave up $600 in savings.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "PER MEMBER, ON AVERAGE",
+    "text": "$600 IN SAVINGS GONE"
+   }
+  },
+  {
+   "say": "Their paper's name: Paying Not to Go to the Gym.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "THE 2006 PAPER",
+    "text": "PAYING NOT TO GO TO THE GYM"
+   }
+  },
+  {
+   "say": "A movie app, $12 a month. One rental, $4.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Movie app", "sub": "Per month", "price": "$12", "art": "tv"},
+     {"title": "One rental", "sub": "One film", "price": "$4", "art": "clapperboard"}
+    ],
+    "after": [null, null],
+    "labels": ["BEFORE", "AFTER"]
+   }
+  },
+  {
+   "say": "You watch 2 films. That's $6 each.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Movie app", "sub": "Per month", "price": "$12", "art": "tv"},
+     {"title": "One rental", "sub": "One film", "price": "$4", "art": "clapperboard"}
+    ],
+    "after": [
+     {"title": "Movie app", "sub": "2 films", "price": "$6 each", "priceRed": true, "art": "tv", "top": {"text": "2 FILMS", "tone": "dark"}},
+     {"title": "One rental", "sub": "One film", "price": "$4", "art": "clapperboard", "badge": {"text": "CHEAPER", "tone": "green"}}
+    ],
+    "labels": ["BEFORE", "AFTER"]
+   }
+  },
+  {
+   "say": "Monthly plan? Count your visits first.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "MONTHLY PLAN?",
+    "text": "COUNT YOUR VISITS FIRST"
+   }
+  },
+  {
+   "say": "How many times did you go last month?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}
