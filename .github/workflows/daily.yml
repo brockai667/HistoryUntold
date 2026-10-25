@@ -1,8 +1,9 @@
 name: PriceTrap Daily
 
 on:
-  schedule:
-    - cron: "10 6 * * *"   # 06:10 UTC, jedno video denne
+  # Cron zapnúť až po skúšobnom behu, novom mene kanálov a napojení Bufferu (repo je bývalý NextByte):
+  # schedule:
+  #   - cron: "10 6 * * *"   # 06:10 UTC, jedno video denne
   workflow_dispatch:
     inputs:
       case:
@@ -42,7 +43,7 @@ jobs:
       - name: System deps (ffmpeg, Chrome libs)
         run: sudo apt-get update && sudo apt-get install -y ffmpeg libnss3 libatk-bridge2.0-0 libgbm1 libasound2t64 libxkbcommon0 libxcomposite1 libxdamage1 libxrandr2
       - name: Python deps
-        run: pip install edge-tts numpy soundfile requests
+        run: pip install edge-tts numpy soundfile requests faster-whisper
       - name: Node deps
         run: npm ci --no-audit --no-fund
         working-directory: remotion
@@ -52,7 +53,9 @@ jobs:
 
       - name: Epizóda (autor -> prep -> render -> GitHub Release)
         env:
-          MODELS_TOKEN: ${{ secrets.GROQ_API_KEY }}
+          # MODELS_TOKEN = Groq kľúč fabrík (už je v repe); GROQ_API_KEY má prednosť, ak ho niekto pridá
+          MODELS_TOKEN: ${{ secrets.GROQ_API_KEY || secrets.MODELS_TOKEN }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY || secrets.MODELS_TOKEN }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -79,7 +82,7 @@ jobs:
         run: |
           git config user.name "pricetrap-bot"
           git config user.email "pricetrap-bot@users.noreply.github.com"
-          git add state.json episodes
+          git add state.json episodes bank/scripts
           git diff --cached --quiet || git commit -m "pricetrap: ep $(date -u +%F)"
           git pull --rebase || true
           git push || true

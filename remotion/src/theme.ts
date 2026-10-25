@@ -108,6 +108,10 @@ export type Beat = {
   hold?: number;
   t0: number;
   t1: number;
+  punch?: number; // s od začiatku úderu: druhý zoom kamery (prep.py, nová veta / stred dlhého úderu)
+  shake?: number; // s od začiatku úderu: otras pri dopade pečiatky
+  insert?: { text: string; t: number; d: number }; // veľký text cez celú obrazovku (prep.py insert_at), t/d v s
+  shots?: number[]; // s od začiatku úderu: strihy záberu kamery (prep.py shots_at)
 };
 export type Word = { w: string; s: number; e: number; b: number };
 export type Ep = {
@@ -126,8 +130,13 @@ export type Ep = {
   voice: string;
   music?: string;
   music_gain?: number;
+  sfx?: string; // zvukové efekty (prep.py syntetizuje, sfx.py)
 };
 
 // Epizóda (episode.json) pre scény, ktoré berú značku z kódu (Outro s props {}).
 export const EpCtx = React.createContext<Ep | null>(null);
 export const useEp = () => React.useContext(EpCtx);
+
+// Absolútna snímka celého dielu (useCurrentFrame v Sequence začína od 0 v každom údere):
+// pokojný pohyb ikon tak nepreskočí na hranici úderov. null = mimo Episode -> relatívna snímka.
+export const ClockCtx = React.createContext<number | null>(null);

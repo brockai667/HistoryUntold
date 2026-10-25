@@ -23,7 +23,7 @@ from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import case_by_id, case_from_file, save  # noqa: E402
-from lint import lint, load_icons, read_icon_names  # noqa: E402
+from lint import SCENES, lint, lint_story, load_icons, read_icon_names  # noqa: E402
 
 CF_ACC = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "")
 BASES = {"cloudflare": f"https://api.cloudflare.com/client/v4/accounts/{CF_ACC}/ai/v1",
@@ -38,7 +38,9 @@ DEFAULT_CHAIN = ("cloudflare:@cf/openai/gpt-oss-120b,groq:openai/gpt-oss-120b,cl
                  "cloudflare:@cf/qwen/qwen3.8-27b,groq:openai/gpt-oss-20b,gemini:gemini-3.8-flash,"
                  "openrouter:nvidia/nemotron-3-ultra-550b-a55b:free")
 CHAIN = [tuple(m.strip().split(":", 1)) for m in os.environ.get("MODELS_CHAIN", DEFAULT_CHAIN).split(",") if ":" in m]
-ATTEMPTS = 4          # pokusy autora (kazdy dalsi so zoznamom chyb)
+ATTEMPTS = 4          # pokusy stavby props (kazdy dalsi so zoznamom chyb)
+STORY_ATTEMPTS = 3    # pokusy pribehu (krok 1)
+SCENE_BY_LOWER = {s.lower(): s for s in SCENES}
 MAX_TOKENS = 5000
 MAX_WAIT = int(os.environ.get("MODELS_MAX_WAIT", "900"))   # max cakanie (s) na denny limit, ked server povie "try again in"
 # Groq free: prompt + max_tokens <= TPM okno (gpt-oss 8k, qwen ~6k); Gemini/OpenRouter bez takeho okna
@@ -53,10 +55,11 @@ wallet key lock percent trophy star newspaper mail droplets zap wifi flame rocke
 phone refrigerator washing-machine microwave bath baby dog cat flower-2 trees tent ship sailboat anchor scale
 hammer wrench paintbrush palette briefcase landmark shield heart car car-red car-fly none""".split()
 
-PROMPT = '''You write one episode of "PRICE TRAP" – a vertical explainer video (TikTok/Reels, 55–75 seconds) in the style of a
-paper price report: calm male voice, short punchy sentences, dry wit, every sentence = one visual change on beige paper
-with price cards. Each episode exposes ONE pricing trick from a real, documented case, then shows the viewer the same
-trick in everyday life.
+# Autor pise v dvoch krokoch: 1) PRIBEH = len hlas po uderoch + plan (model sa sustredi na rozpravanie, lint_story ho
+# skontroluje), 2) STAVBA = props k schvalenemu hlasu (texty `say` sa po odpovedi prepisu schvalenym znenim).
+HEAD = '''You write one episode of "PRICE TRAP": a 50–65 second vertical video (TikTok/Reels). Calm male voice, short spoken
+sentences, dry wit. The screen is a paper price report: price cards on beige paper and one dark-blue "blueprint" moment
+when the trick is exposed. THE SCREEN SHOWS THE DATA (cards, prices, tags). THE VOICE TELLS A STORY ABOUT IT.
 
 CASE: {case}   TRICK: {trick}
 SUBJECT: {subject}
@@ -64,39 +67,123 @@ FACTS (the only facts, names and numbers you may use – quote numbers exactly a
 {facts}
 LESSON: {lesson}
 SOURCE: {source}
-ICONS you may use as "art": {icons}   Suggested: hero {icon_hero}, bait {icon_bait}, real choice {icon_real}
+'''
 
-STRUCTURE – 12 to 16 beats. One beat = 1–2 spoken sentences (6 to 22 words, numbers as digits with $ or %).
-TOTAL spoken words across all beats: 110 to 170 (count them – a 55–75 second voice-over). Short beats are fine,
-but never fewer than 110 words in total:
-1. HOOK (beats 1–2, scene Hero): the surprising thing in the first 3 seconds. No intro, no "today", no question.
-2. THE LIST (beats 3–6, scene PriceList, 2–3 cards): cards appear top-down, one new card per beat. Repeat the full
-   previous state and add one thing per beat (a card, a tag, a price). Every card keeps its position and title in all
-   later PriceList beats – never reorder, rename or remove a card. The bait card is first: red price text
-   ("NO PRICE", "$17,000"...) via "priceRed": true, tags like INVITE ONLY / LIMITED / SOLD OUT. Real choices below it.
-3. THE REVEAL (1–2 beats, "mode": "blueprint"): the same PriceList with "stamp": "BAIT" on the bait card; then scene
-   Statement with kicker "WHAT THE BAIT DOES" and 2 tags "JOB 1 · ..." / "JOB 2 · ..." (each ≤ 28 characters).
-4. THE MECHANISM (2–3 beats): scene Anchor (the real price with "split" moving right when the "anchor" appears) and/or
-   scene Views (only if FACTS contain attention, sales or views numbers). Teach the numbers from FACTS here.
-5. THE TRANSFER (2–3 beats, scene Compare, props "before"/"after"): the same trick in 1–2 everyday businesses (bakery,
-   gym, coach, café, app, hotel, barber...). Invented but realistic prices are allowed ONLY here. No brand names here.
-   before = [null, option, option]; after = [bait on top with "top": {"text": "EXTREME", "tone": "red"}, same options];
-   last Compare beat gives the middle option "badge": {"text": "SMART CHOICE", "tone": "green"}.
-6. THE RULE (1 beat, scene Statement): "text" = a 4–7 word rule (e.g. "Ask what it's selling."), spoken as advice.
-7. OUTRO (last beat, scene Outro, props {}): say the rule in one line + "Follow for more."
+STORY_GUIDE = '''
+== WHAT MAKES AN EPISODE GOOD ==
+It is a tiny mystery with a payoff, not a list of facts. In the first 3 seconds the viewer thinks "wait, why?", and
+gets the answer by second 30. Every beat moves the story one step forward. The voice never reads a card aloud –
+the card is already on screen; the voice says what it MEANS, what is strange about it, or what happens next.
 
-STYLE: second person, present tense, concrete nouns, no filler, no "imagine", no emoji, straight quotes only.
-Numbers exactly as in FACTS. Never invent statistics, studies, names, years or prices for the real case, and never
-invent how the seller presented it (no made-up badges, labels, slogans, colours, "most popular" tags or quotes) –
-if FACTS do not say it, it did not happen. Badges and tags on the real case's cards only when FACTS mention them.
-Capitalized names in the narration only as they appear in FACTS; everything else lower case.
-RED is only for the bait: exactly ONE card in the whole episode may carry priceRed, a red tag or a stamp (the bait),
-plus the EXTREME top tag of the bait card in Compare. Everything else plain, dark, blue, yellow or green.
-Card text limits: title ≤ 18 chars, sub ≤ 22, price ≤ 12, tag ≤ 16, ≤ 3 tags; in Compare title ≤ 16, price ≤ 8.
+BAD (reads the cards, narrates the screen, numbers without context, repeats itself – all of this was rejected):
+  "The basic plan costs $20 a month for one user."   "First, a basic plan appears. Next, a pro plan shows up."
+  "Basic 32, pro 68."   "Bundles push choices." ... "Bundles push choices. Follow for more."
+GOOD: see the gold example.
+
+== GOLD EXAMPLE (a different case – copy its rhythm and story moves, never its content) ==
+Hero      | This car flies. And it isn't for sale.
+PriceList | But it's the first thing on the price list.
+PriceList | No price. Invite only. Below it, a race version you can only reserve.
+PriceList | And at the bottom, the one you can actually buy.
+PriceList | Nobody owns the flying one. Looks useless.
+PriceList | But it does a job. It's a decoy.
+Statement | Actually, it has two jobs.
+Views     | Job one: get watched. A flying car pulls a million views, free ads for the whole lineup.
+Anchor    | Job two: it moves the anchor. Alone, $50,000 feels expensive.
+Anchor    | Float a flying car above it, and the same price starts to sound reasonable.
+Compare   | You see it everywhere. A bakery adds a $1,900 cake for two hundred guests.
+Compare   | A coach adds a VIP plan, by application only.
+Compare   | Suddenly, $300 a month isn't pricey. It's the smart choice.
+Outro     | If something isn't for sale, ask what it's selling. Follow for more.
+Why it works: the hook is a paradox without numbers; each card gets its own beat and the voice comments on it ("the
+one you can actually buy") instead of reading it; "Looks useless." sets up the twist "But it does a job."; the
+mechanism gets its own beats and names the cause (the flying car above it); the transfer starts with "You see it
+everywhere."; the final rule is said once, at the end.
+
+== STORY SKELETON – fill it with THIS case (12 to 15 beats in this order) ==
+1. HOOK (Hero, 1 beat): the paradox of THIS case in at most 12 words and at most one number. Shape: "<thing> <does
+   something strange>. And <the strange part>." No intro, no question, no "today", do not name the trick yet.
+2. THE PRICE LIST (PriceList, 3–4 beats): the seller's real options, one per beat, the odd/bait option first.
+   NO NUMBERS AND NO PRICES IN ANY PriceList BEAT – the cards show them. For each option say in your own words what
+   you get, what is missing or how it relates to the others ("Same money, half the stuff." / "The one you can
+   actually buy."), never "<title>, <price>, <feature>." The prices are spoken later, in the mechanism.
+3. THE ODD PART (PriceList, 1 beat): the fact from FACTS that makes no sense, then a 2–3 word verdict
+   ("Looks useless." / "Looks like a mistake." / "Sounds generous.").
+4. THE TWIST (PriceList, 1 beat, shown in blueprint): "But it does a job." or similar + name the trick in plain words.
+5. THE MECHANISM (2–3 beats; Statement, Anchor and/or Views): WHY it works, in the viewer's language. Name the real
+   cause – exactly WHICH option creates the effect and how. The evidence numbers from FACTS belong here.
+6. EVERYWHERE (Compare, 2–3 beats): "You see it everywhere." (or similar), then one or two everyday businesses
+   (bakery, gym, café, cinema, barber, app, hotel...) using EXACTLY THE SAME TRICK with invented, realistic prices
+   that make the trick work. The last Compare beat says why the pushed option now feels smart.
+7. RULE (Outro, last beat): one short rule the viewer can use next time + "Follow for more." Said only here.
+
+== NARRATION RULES ==
+- Never repeat yourself: no sentence, no phrase of 4 or more words and no idea appears twice. A number may be spoken
+  in at most 2 beats – the card keeps showing it, the voice does not need to say it again.
+- Every number needs its context in the same sentence (who did what): not "Basic 32, pro 68." but "Take the odd
+  option away, and only 32 still choose the bundle."
+- Do not narrate the screen ("First, X appears. Next, Y shows up. Finally..."). Talk about the options themselves.
+- Length: 95 to 135 spoken words in total. Reach it with story steps, never with repetition or padding.
+- One beat = 1–2 short sentences, 3–20 words; numbers as digits with $ or %.
+- Numbers, names and years only from FACTS (invented prices only in the everyday Compare beats). Never invent how the
+  seller presented it (no made-up badges, labels, slogans, colours, "most popular" tags or quotes).
+- Everyday prices must make the trick work: the odd option is clearly worse than the pushed option for the same or
+  almost the same money (decoy), or far more expensive (anchor); the cheap option stays clearly cheaper. Never give
+  all options the same price.
+- Capitalized names only as they appear in FACTS. Second person, present tense, no filler, no "imagine", no emoji,
+  straight quotes only.
+'''
+
+PROPS_GUIDE = '''
+ICONS you may use as "art": {icons}   Suggested: hero {icon_hero}, bait/odd card {icon_bait}, real choice {icon_real}
+
+== HOW THE SCENES ARE BUILT ==
+- Hero: "title" = 2–3 words of the paradox, "tag" = a short label, "art" = icon.
+- PriceList: cards appear top-down, one new card per beat; every beat repeats the full previous state and adds one
+  thing (a card, a tag); never reorder, rename or remove a card. The odd/bait card is first with "priceRed": true.
+  The twist beat has "mode": "blueprint" and "stamp": "<ONE WORD FOR THE TRICK>" on the odd card.
+- Statement: "kicker" + 1–2 tags "JOB 1 · ..." (≤ 28 chars), or a short "text" (≤ 7 words). May use "mode": "blueprint".
+- Anchor = the same price first feels expensive, then reasonable. Beat A: {"price": X, "at": 0.6, "split": 0.4}
+  (EXPENSIVE side). Beat B: same price and "at", "split": 0.8 and "anchor": {"label": "what moved it", "art": icon}
+  (now REASONABLE). Only for a price – never for percentages or counts.
+- Views = one number counting up from "from" to "value" (counts, shares, people, views from FACTS).
+- Compare: before = [null, option, option]; after = [odd option on top with "top": {"text": "<DECOY, BAIT, EXTREME or
+  another word that fits THIS trick>", "tone": "red"}, the same two options]. Keep before/after identical between
+  Compare beats of the same business; only "badge" and "top" may change. The last Compare beat gives the pushed
+  option "badge": {"text": "SMART CHOICE", "tone": "green"}. No brand names.
+- Outro: props {}.
+- RED only for the odd/bait card (priceRed, stamp) and the red "top" tag in Compare. Everything else plain, dark,
+  blue, yellow or green. Tags on the real case's cards only when FACTS mention them.
+- Card text limits: title ≤ 18 chars, sub ≤ 22, price ≤ 12, tag ≤ 16, ≤ 3 tags; in Compare title ≤ 16, price ≤ 8.
+
 Scene props (JSON shapes):
 {schemas}
+'''
+
+STORY_OUT = '''
+== OUTPUT ==
+Write ONLY the narration now (no props yet). Fill "plan" first – it is your thinking, not shown in the video.
+Return ONLY JSON:
+{"plan": {"paradox": "the strange thing in one line", "odd_fact": "...", "twist": "what the odd option really does",
+"cause": "which option creates the effect and how", "everyday": "business, its 3 options with prices, why the pushed
+one wins", "rule": "..."},
+"beats": [{"scene": "Hero", "say": "..."}, {"scene": "PriceList", "say": "..."}, ...]}
+Scenes: Hero, PriceList, Views, Anchor, Compare, Statement, Outro (first Hero, last Outro, 12 to 15 beats).'''
+
+BUILD_OUT = '''
+== THE NARRATION IS WRITTEN AND APPROVED ==
+{narration}
+STORY PLAN: {plan}
+
+Your job now is the props. Build exactly these beats in this order, with exactly these scenes and these "say" texts
+copied word for word. Cards, prices and tags must match what the voice says in that beat.
+
+== OUTPUT ==
 Return ONLY JSON: {"case": "2-3 WORDS UPPER CASE", "title": "post title ≤ 60 chars", "caption": "1-2 lines for the post",
 "source": "{source}", "beats": [ {"say": "...", "scene": "...", "props": {...}, "mode": "blueprint" (optional), "hold": 4 (optional)} ]}'''
+
+STORY_PROMPT = HEAD + STORY_GUIDE + STORY_OUT
+PROMPT = HEAD + PROPS_GUIDE + BUILD_OUT
 
 # JSON ukazky scen z tabulky v SPEC (limity v zatvorkach)
 SCHEMAS = '''Hero: {"art": "<icon>", "tag": TAG, "title": "≤16 chars", "sub": "≤22 chars"}
@@ -112,8 +199,9 @@ TAG = "TEXT" or {"text": "TEXT", "tone": "plain|dark|blue|yellow|red|green"}'''
 USER_MSG = "Write the episode now. Return ONLY the JSON object."
 FIX_MSG = ("Write the episode now. Return ONLY the JSON object.\n\nA previous attempt had these problems – "
            "write the whole episode again and avoid every one of them:\n- ")
-FIX_PREV_MSG = ("Fix exactly these problems and return the complete corrected JSON (if the total word count is too low, "
-                "expand the \"say\" of most beats to one or two full sentences of 8-16 words; keep scenes and props):\n- ")
+FIX_PREV_MSG = ("Fix exactly these problems and return the complete corrected JSON (keep the story and the skeleton; if the "
+                "total word count is too low, add a missing story step from the skeleton – never repeat a sentence, "
+                "a phrase or a number):\n- ")
 
 CURLY = str.maketrans({"‘": "'", "’": "'", "‚": "'", "‛": "'", "′": "'",
                        "“": '"', "”": '"', "„": '"', "«": '"', "»": '"', "″": '"',
@@ -259,16 +347,57 @@ def ask(base, prev, errs):
     raise last or ModelError("ziadny model v retazci", 0, True)
 
 
-def build_prompt(case, icon_list):
+def build_prompt(case, icon_list, template=None, extra=None):
     ic = case.get("icons") or {}
     subs = {"schemas": SCHEMAS, "case": case.get("case", ""), "trick": case.get("trick", ""),
             "subject": case.get("subject", ""), "facts": "\n".join("- " + f for f in case.get("facts") or []),
             "lesson": case.get("lesson", ""), "source": case.get("source", ""), "icons": ", ".join(icon_list),
             "icon_hero": ic.get("hero", "none"), "icon_bait": ic.get("bait", "none"), "icon_real": ic.get("real", "none")}
-    text = PROMPT
+    text = template or PROMPT
     for k, v in subs.items():
         text = text.replace("{" + k + "}", str(v))
+    for k, v in (extra or {}).items():   # schvaleny hlas a plan az nakoniec (ich text sa uz nenahradza)
+        text = text.replace("{" + k + "}", str(v))
     return text
+
+
+def write_story(case, icon_list, out_dir, fake=None):
+    """Krok 1: len hlas po uderoch + plan. Vrati (beats [{scene, say}], plan) alebo (None, None)."""
+    base = [{"role": "system", "content": build_prompt(case, icon_list, STORY_PROMPT)},
+            {"role": "user", "content": "Write the narration now. Return ONLY the JSON object."}]
+    prev, errs = None, []
+    for attempt in range(1, STORY_ATTEMPTS + 1):
+        try:
+            raw, model = (Path(fake).read_text(encoding="utf-8"), "fake") if fake else ask(base, prev, errs)
+            st = parse_json(raw)
+            if not isinstance(st, dict):
+                raise ValueError("JSON is not an object")
+        except ModelError as e:
+            print(f"pribeh {attempt}/{STORY_ATTEMPTS}: ziadny model nie je dostupny: {e}")
+            return None, None
+        except ValueError as ex:
+            prev, errs = None, ["Your previous reply was not valid or complete JSON. Return the complete JSON object only."]
+            print(f"pribeh {attempt}/{STORY_ATTEMPTS}: neplatny JSON ({str(ex)[:80]})")
+            continue
+        st = _walk(st, lambda s: s.translate(CURLY))
+        beats = [{"scene": _scene(b.get("scene")), "say": re.sub(r"(\d) %", r"\1%", " ".join(str(b.get("say") or "").split()))}
+                 for b in st.get("beats") or [] if isinstance(b, dict)]
+        st["beats"] = beats
+        prev = st
+        errs = lint_story(st, case)
+        print(f"pribeh {attempt}/{STORY_ATTEMPTS} model={model}: {len(errs)} chyb")
+        for e in errs:
+            print("  -", e)
+        if not fake:
+            save(str(out_dir / "attempts" / f"story-{attempt}-{model.split(':')[0]}.json"), {"model": model, "errors": errs, **st})
+        if not errs:
+            return beats, st.get("plan")
+    return None, None
+
+
+def _scene(v):
+    """Nazov sceny bez ohladu na velkost pismen (model obcas pise "priceList")."""
+    return SCENE_BY_LOWER.get(v.lower(), v) if isinstance(v, str) else v
 
 
 def parse_json(raw):
@@ -306,6 +435,7 @@ def normalize(story, case):
             continue
         if isinstance(b.get("say"), str):
             b["say"] = " ".join(b["say"].split())
+        b["scene"] = _scene(b.get("scene"))
         if b.get("scene") == "Outro" and b.get("props") is None:
             b["props"] = {}
         p = b.get("props")
@@ -360,6 +490,7 @@ def main():
     ap.add_argument("--out", required=True, help="napr. episodes/001-economist-decoy/story.json")
     ap.add_argument("--case-file", help="JSON s prípadom namiesto bank/cases.json")
     ap.add_argument("--fake", nargs="+", metavar="JSON", help="offline: odpovede modelu zo suborov (v poradi pokusov)")
+    ap.add_argument("--fake-story", metavar="JSON", help="offline: odpoved modelu pre krok 1 (pribeh)")
     a = ap.parse_args()
     case = case_from_file(a.case_file, a.case_id) if a.case_file else case_by_id(a.case_id)
     if not case:
@@ -367,10 +498,17 @@ def main():
         return 2
     icon_list = read_icon_names() or DEFAULT_ICONS
     icons = load_icons()   # None = icons.json chyba (varovanie na stderr), `art` sa nekontroluje
-    system = build_prompt(case, icon_list)
+    print(f"prípad {a.case_id}: faktov {len(case.get('facts') or [])}, retazec {', '.join(b + ':' + m for b, m in CHAIN)}")
+    out_dir = Path(a.out).parent
+    lines, plan = write_story(case, icon_list, out_dir, a.fake_story)
+    if lines is None:
+        print(f"autor nenapisal pribeh ani na {STORY_ATTEMPTS}. pokus", file=sys.stderr)
+        return 2
+    narration = "\n".join(f"{i}. {b['scene']} | {b['say']}" for i, b in enumerate(lines, 1))
+    system = build_prompt(case, icon_list, PROMPT, {"narration": narration,
+                                                    "plan": json.dumps(plan, ensure_ascii=False)})
     base = [{"role": "system", "content": system}, {"role": "user", "content": USER_MSG}]
-    print(f"prípad {a.case_id}: prompt ~{est_tokens(base)} tokenov, faktov {len(case.get('facts') or [])}, "
-          f"retazec {', '.join(b + ':' + m for b, m in CHAIN)}")
+    print(f"stavba: prompt ~{est_tokens(base)} tokenov, {len(lines)} uderov")
     prev, errs = None, []
     for attempt in range(1, ATTEMPTS + 1):
         try:
@@ -390,16 +528,24 @@ def main():
             prev, errs = None, ["Your previous reply was not valid or complete JSON. Return the complete JSON object only; keep props minimal."]
             print(f"pokus {attempt}/{ATTEMPTS} model={model}: neplatny JSON ({str(ex)[:80]})")
             continue
+        story.pop("plan", None)
         story = normalize(story, case)
+        sb = story.get("beats")
+        if isinstance(sb, list) and len(sb) == len(lines):   # schvaleny hlas vyhrava nad prepisom modelu
+            for b, ln in zip(sb, lines):
+                if isinstance(b, dict):
+                    b["say"], b["scene"] = ln["say"], ln["scene"]
         prev = story
         full = {"id": a.case_id, **story}   # id dopĺňa kod
         errs = lint(full, case, icons)
+        if not isinstance(sb, list) or len(sb) != len(lines):
+            errs.insert(0, f"beats must be exactly the {len(lines)} approved beats in order (got {len(sb) if isinstance(sb, list) else 0})")
         print(f"pokus {attempt}/{ATTEMPTS} model={model}: {len(errs)} chyb")
         for e in errs:
             print("  -", e)
         if not a.fake:   # kazdy pokus ostane vedla story.json na diagnostiku (v cloude ide do artefaktu)
             save(str(Path(a.out).parent / "attempts" / f"{attempt}-{model.split(':')[0]}.json"),
-                 {"model": model, "errors": errs, **full})
+                 {"model": model, "errors": errs, "plan": plan, **full})
         if not errs:
             save(a.out, full)
             beats = full["beats"]

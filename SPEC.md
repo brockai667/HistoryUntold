@@ -2,8 +2,10 @@
 
 Jedno video denne, 1080×1920, 55–75 s: jeden skutočný, zdokumentovaný cenový trik (návnada/decoy, kotva, charm
 pricing, bundling, loss leader, ...) + prenos toho istého triku do bežného života diváka. Všetko **zadarmo, bez PC,
-bez Claude tokenov v prevádzke**: GitHub Actions cron → free model (Cloudflare Workers AI `gpt-oss-120b`, záloha Groq) ako autor → edge-tts (hlas)
+bez Claude tokenov v prevádzke**: GitHub Actions cron → najstarší skript z `bank/scripts/` (píše ho Claude rutina, záloha: free model
+Cloudflare Workers AI `gpt-oss-120b` / Groq ako autor) → hlas Orpheus (Groq TTS, záloha edge-tts)
 → Remotion (render) → GitHub Release `ep-NNN` (video + popisok; Damián nahrá z mobilu) → neskôr Buffer.
+Pravidlá slov a rozprávania (publikum, háky, štruktúra, checklist): `SCRIPT_GUIDE.md`.
 
 Vzory, ktoré sa kopírujú: `C:\Users\damia\WealthFactory-vote\vote\tools\{common.py,write_part.py,run.py}`
 (Groq volanie, mechanická kontrola s opravným kolom, Release cez `gh`), `C:\Users\damia\HiddenEarth-survey\.github\workflows\survey.yml`
@@ -23,12 +25,14 @@ Zodpovednosti: **A** = `remotion/` (TSX, prep.py, brand.json, ikony). **B** = `t
 PriceTrap/
   .github/workflows/daily.yml             (B)
   bank/cases.json                         (C)
+  bank/scripts/YYYY-MM-DD-NN-<case-id>.json   (hotové story od Claude rutiny; použité → bank/scripts/used/)
+  SCRIPT_GUIDE.md                         (pravidlá slov a rozprávania)
   episodes/<NNN>-<id>/story.json          (výstup autora; commitne workflow)
   remotion/src/*.tsx, theme.ts, icons.ts  (A)   remotion/brand.json, icons.json (A)
   remotion/tools/prep.py                  (A)   remotion/story/showoff.json, stress.json (A, testy)
   remotion/public/<ep>/  (generované prep.py, ignorované)   remotion/out/ (stills, ignorované)
   tools/common.py lint.py write_case.py run.py   (B)
-  assets/music/backed-vibes-clean.mp3     (hotové; Kevin MacLeod, CC BY 4.0)
+  assets/music/cut-and-run.mp3            (hotové; Kevin MacLeod, CC BY 4.0)
   state.json  {"next_ep": 1, "used": [], "episodes": {}}   (B)
   output/  (mp4, txt, cover – ignorované)
   README.md (B, po slovensky, krátky)
@@ -44,14 +48,17 @@ PriceTrap/
   "stamp": "TRAPPED",
   "bait_stamp": "BAIT",
   "cta": "FOLLOW FOR MORE →",
-  "voice": "en-US-GuyNeural",
-  "rate": "+4%",
+  "voice": "orpheus:troy",
+  "rate": "+20%",
   "hashtags": "#pricing #psychology #marketing #money #consumer",
-  "music": "assets/music/backed-vibes-clean.mp3",
-  "music_credit": "Music: \"Backed Vibes Clean\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
-  "music_gain": 0.10
+  "music": "assets/music/cut-and-run.mp3",
+  "music_credit": "Music: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+  "music_gain": 0.13
 }
 ```
+Hlas: `orpheus:troy` = Groq Orpheus TTS (kľúč `GROQ_API_KEY`, denný limit). Orpheus nemá parameter rýchlosti → `rate` `+20%` sa aplikuje
+ako ffmpeg `atempo` (výška hlasu ostane). Keď Orpheus narazí na denný limit (alebo chýba kľúč/sieť), celý diel ide záložným edge-tts hlasom
+(`FALLBACK_VOICE` v `prep.py`, `en-US-AndrewMultilingualNeural` `+6%`). Časy slov: faster-whisper zarovnaný na text scenára.
 Hlavička videa: `PRICE TRAP · CASE · <case>` (pôvodne `DECOY REPORT · CASE · ...`; slovo REPORT preč, text z `header`).
 Pečiatka na karte návnady: `bait_stamp` (BAIT). Outro: `logo`, `tagline`, `stamp` (TRAPPED), `cta` – autor ich nepíše, dopĺňa kód.
 
@@ -69,10 +76,16 @@ Pečiatka na karte návnady: `bait_stamp` (BAIT). Outro: `logo`, `tagline`, `sta
 }
 ```
 - `id` = id prípadu z banky (dopĺňa kód). `case` ≤ 3 slová UPPER (hlavička). `title` ≤ 60 znakov. `source` ≤ 60 znakov (päta videa).
-- `mode` voliteľné (`paper` | `blueprint`), `hold` voliteľné (s, ≤ 8). `voice`, `rate`, hudba, brand = z brand.json, autor ich nepíše.
+- `mode` voliteľné (`paper` | `blueprint`), `hold` voliteľné (s, ≤ 8), `pause` voliteľné (s ticha po hlase úderu; inak automaticky: 0,15 s v rámci scény,
+  0,6 s pri zmene scény/režimu a po Statement, 0,8 s po Hero; vo vnútri hlasu ~0,38 s za koncom vety, 0,3 s za dvojbodkou). `voice`, `rate`, hudba, brand = z brand.json, autor ich nepíše.
 - prep.py: `python remotion/tools/prep.py episodes/001-economist-decoy/story.json` → `remotion/public/001-economist-decoy/{episode.json,voice.mp3,music.mp3,caption.txt}` + `remotion/public/current.json`.
   **Názov epizódy = názov priečinka** (ak sa súbor volá story.json), inak basename. caption.txt = caption + prázdny riadok + hashtags + prázdny riadok + music_credit.
   episode.json navyše nesie `source`, `logo`, `tagline`, `stamp`, `cta`, `bait_stamp`, `header`.
+- **Inserty** (veľký text cez celú obrazovku na ~1 s, `insert_at` v `prep.py`; kandidát = krátka posledná/úvodná veta alebo koniec za čiarkou):
+  nie v `Hero`/`Statement`/`Outro`, nie v háku ani pri pečiatke; v `Crowd` úderoch nikdy; v úderoch s `point` až po 1,9 s od začiatku úderu;
+  v `PriceList` sa kandidáti s číslicami zahadzujú (text by zakryl cenové karty).
+- **SFX** (`remotion/tools/sfx.py`, syntéza v numpy, čas podľa animácií): `Crowd` = cvaknutie korálky pri každom dopade bodky
+  (najviac jedno za 0,045 s) + whoosh pri migrácii; gulička `point` = pop pri objavení, whoosh pri štarte, pop pri dopade, ding ak sú ceny rovnaké.
 
 ## Scény a props (A renderuje v medziach, B lintuje presne tieto limity)
 Spoločné: `TagT` = string alebo `{"text","tone"}`, tone ∈ `plain|dark|blue|yellow|red|green`, text ≤ 16 znakov.
@@ -82,27 +95,45 @@ Spoločné: `TagT` = string alebo `{"text","tone"}`, tone ∈ `plain|dark|blue|y
 | scéna | props | limity |
 |---|---|---|
 | `Hero` | `art`, `tag` TagT, `title`, `sub` | title ≤ 16, sub ≤ 22 |
-| `PriceList` | `slots` 2–3, `cards[]` CardT | 1–3 karty, `slots` ≥ počet kariet |
+| `PriceList` | `slots` 2–3, `cards[]` CardT, voliteľne `point` [a, b] | 1–3 karty, `slots` ≥ počet kariet; `point` = dva rôzne indexy kariet (od 0), obe s `price` |
 | `Views` | `job`, `label`, `value` int, `from` int, `prefix`, `suffix`, `grid` 0–8, `thumbLabel`, `art` | job ≤ 26, label ≤ 10, suffix ≤ 2, thumbLabel ≤ 8 |
 | `Anchor` | `job`, `price`, `at` 0–1, `split` 0–1, `art`, `anchor` {`label` ≤ 24, `art`} | price ≤ 12 |
-| `Compare` | `before[]`, `after[]` CardT (null = prázdny slot, len v `before`), `labels` [2] | 2–3 položky, rovnaký počet; v Compare title ≤ 16, price ≤ 8 |
+| `Compare` | `before[]`, `after[]` CardT (null = prázdny slot, v `after` len ak sú **všetky** `null`), `labels` [2] | 2–3 položky, rovnaký počet; v Compare title ≤ 16, price ≤ 8 |
+| `Crowd` | `job` TagT, `options[]` 2–3 × {`label`, `art`, `value`, `bait`}, `total` | job ≤ 28; label ≤ 14 (povinný, unikátny), `art` ikona, `value` int ≥ 0, `bait` bool voliteľné; `total` int 10–100 (default 100), súčet `value` ≤ `total` |
 | `Statement` | `kicker` ≤ 28, `text` ≤ 7 slov a ≤ 40 znakov, `tags[]` ≤ 3 × ≤ 28 znakov | |
 | `Outro` | `{}` (kód doplní logo/stamp/tagline/cta), voliteľne `art` | posledný úder, práve raz |
 
+Poznámky k scénam:
+- **`Crowd`**: súbor 100 bodiek („ľudia“) letí do hore otvorených nádob s počítadlami (jedna nádoba na `options[]`). Ak mal predošlý Crowd úder
+  (aj s inými scénami medzi nimi) rovnaké `label`y, bodky migrujú medzi nádobami (zaniknuté nádoby zbledú). Kamera: wide → všetky nádoby →
+  vedúca nádoba → záver na „point“ nádobe (návnada = `bait`, inak najmenšia; pri zmene nádoba, ktorá stratila najviac). `value` sú čísla
+  z faktov (lint pravidlo 3).
+- **`PriceList.point` [a, b]**: žltá gulička skočí z ceny karty `a` na cenu karty `b`, odznak „=“ (žltý, rovnaká cena) alebo „≠“ (červený);
+  ostatné karty zhasnú na 0,3; kamera zarámuje obe karty. Použi na vetu, ktorá porovnáva dve ceny.
+- **`Compare.after`** môže byť celé `null` (odhalenie až v ďalšom údere); kamera sa potom zameria na stĺpec BEFORE.
+- **Štítky na `PriceList` kartách** (`Blocks.tsx` `cardTags`): jeden riadok do 28 px, inak 18→15 px so zalomením.
+
 ## Lint (B, `tools/lint.py`, použije ho aj autor v opravnom kole)
-1. 11–17 úderov; prvý `Hero`, posledný `Outro`, `Outro` práve raz; `scene` ∈ 7 scén; props len známe kľúče; limity vyššie.
-2. `say`: 3–24 slov, bez emoji, len rovné úvodzovky `"` a `'`, žiadne `*`/`#`/markdown; spolu 100–190 slov.
+1. 11–17 úderov; prvý `Hero`, posledný `Outro`, `Outro` práve raz; `scene` ∈ 8 scén (Hero, PriceList, Views, Anchor, Compare, Statement, Outro, Crowd); props len známe kľúče; limity vyššie.
+2. `say`: 3–24 slov, bez emoji, len rovné úvodzovky `"` a `'`, žiadne `*`/`#`/markdown; spolu 85–150 slov (lint; cieľ 115–135, pauzy pridajú ~15 %).
 3. **Čísla**: každé číslo (`$59`, `125`, `84`, `16%`, `1,000,000`, `2008`) v `say` a v props mimo scény `Compare` musí byť
    v textoch `facts` prípadu (porovnanie po odstránení `$ , %` a medzier; `1.5 million` ≈ `1,500,000` netreba riešiť – model má
-   čísla citovať presne). Výnimka: čísla 1–3 (napr. „2 jobs“), `slots`, `grid`, `at`, `split`, `from`, `hold`.
+   čísla citovať presne). Výnimka: čísla 0–3 (napr. „2 jobs“), `slots`, `grid`, `at`, `split`, `from`, `hold`, `point`, `total`.
+   V scéne `Compare` smú byť v `say` aj rozdiely cien z kariet (napr. „50 cents more“ z $2.00 vs. $2.50; `_diffs`). V `Crowd` sa `value` kontroluje ako ostatné čísla v props.
 4. **Mená** (veľké písmená mimo začiatku vety v `say`): povolené len `names` prípadu + bežné slová; v scéne `Compare`
    nesmie byť žiadne meno z `names` ani slovo z blacklistu značiek (Apple, Starbucks, Netflix, Amazon, Nike, Tesla,
    McDonald's, Costco, IKEA, Gillette, Disney, Uber, Spotify, Rolex, Hermès, Supreme, Google, Microsoft, Samsung).
 5. **Nadväznosť**: dva po sebe idúce údery tej istej scény `PriceList`: karty predošlého úderu musia ostať na svojich
-   pozíciách (rovnaké `title` na indexe i); `Compare`: `before` sa nemení, v `after` len pribúda/mení sa badge/top.
+   pozíciách (rovnaké `title` na indexe i); `Compare`: `before` sa nemení, v `after` len pribúda/mení sa badge/top
+   (ak je predošlé `after` celé `null` = odhalenie, kontrola `after` sa preskočí).
 6. **Červená** len pre návnadu: `priceRed`, tone `red`, `stamp` smú byť najviac na 2 rôznych tituloch kariet v celej epizóde
    (karta návnady + `top: EXTREME` v Compare); `badge` SMART CHOICE je `green`.
 7. `case` 1–3 slová UPPER; `title`, `caption`, `source` neprázdne a v limitoch.
+8. `PriceList.point`: zoznam 2 rôznych celých indexov (od 0), obe karty existujú a majú `price`.
+9. `Crowd`: `options` 2–3 objekty s kľúčmi len `label` (≤ 14, povinný, unikátny), `art` (ikona), `value` (int ≥ 0), `bait` (bool); `job` ≤ 28;
+   `total` int 10–100 (default 100); súčet `value` ≤ `total`.
+10. Príbeh (`_story_checks`): „veta číta kartu nahlas“ (názov karty + jej cena v tom istom `say`) sa kontroluje len pri kartách, ktoré boli
+    už v predošlom údere `PriceList`; práve pribudnutá karta sa smie raz predstaviť menom a cenou.
 Výstup lintu: zoznam reťazcov `beat 4 PriceList: card 2 title too long (23 > 18)`; prázdny = OK.
 
 ## Autor (B, `tools/write_case.py <case-id> --out episodes/NNN-id/story.json [--fake odpoved.json]`)
@@ -123,6 +154,7 @@ z ikon prípadu, `tag`→`tags`, štítky (`tag`, `tags`, `top`, `badge`, `stamp
 Najviac 4 pokusy („Fix exactly these problems and return the complete corrected JSON“); každý pokus sa uloží do
 `episodes/NNN-id/attempts/N-backend.json`. `--fake súbor.json` = odpoveď zo súboru (offline test). Návrat 0 + cesta; 2 = zlyhanie.
 Pred lintom kód doplní `id`; po úspechu uloží story.json (ensure_ascii=False, indent 1).
+Toto je **záloha** (fallback): bežne story píše Claude rutina do `bank/scripts/` (viď Beh) a free model sa použije len keď banka skriptov nie je použiteľná.
 
 Systémový/užívateľský prompt (anglicky, presne tento obsah, doplň `{...}`; schému scén vlož z tabuľky vyššie ako JSON ukážky):
 ```
@@ -165,8 +197,13 @@ Return ONLY JSON: {"case": "2-3 WORDS UPPER CASE", "title": "post title ≤ 60 c
 ```
 
 ## Beh (B, `tools/run.py [--case ID] [--no-post] [--force]`)
-1. `state.json` → `N = next_ep`; prípad = `--case` alebo prvý z `bank/cases.json` mimo `used` (poradie banky). Ak autor zlyhá,
-   skús ešte jeden ďalší prípad (max 2 za beh), potom exit 1.
+1. `state.json` → `N = next_ep`. Zdroj story (bez `--case`):
+   a) **banka skriptov**: najstarší nepoužitý `bank/scripts/*.json` (zoradené podľa mena = najstarší prvý; názov `YYYY-MM-DD-NN-<case-id>.json`,
+      pole `id` musí sedieť s prípadom v `bank/cases.json` a nesmie byť v `used`). Píše ich Claude rutina každé 3 dni, cieľ 5 na sklade;
+      každý musí prejsť `tools/lint.py` (`bank_script()`), ten, čo neprejde, sa preskočí. Skript sa skopíruje do `episodes/NNN-<id>/story.json`.
+   b) **záloha** len keď žiadny skript nie je použiteľný: free model (`write_case.py`) napíše story k prvému prípadu z `bank/cases.json`
+      mimo `used` (poradie banky). Ak autor zlyhá, skús ešte jeden ďalší prípad (max 2 za beh), potom exit 1.
+   `--case ID` = vždy cez autora (b) pre daný prípad.
 2. `episodes/NNN-id/story.json` (NNN = 3 číslice); ak už existuje (opakovaný beh), autora preskoč.
 3. `python remotion/tools/prep.py episodes/NNN-id/story.json`; render z `remotion/`:
    `npx remotion render Episode ../output/NNN-id.mp4 --props="{\"ep\":\"NNN-id\"}" --crf=22 --concurrency=100%`
@@ -175,7 +212,8 @@ Return ONLY JSON: {"case": "2-3 WORDS UPPER CASE", "title": "post title ≤ 60 c
 4. `output/NNN-id.txt` = `title` + prázdny riadok + obsah `caption.txt`.
 5. `--no-post` → koniec. Inak GitHub Release `ep-NNN` (gh release create / upload --clobber, `--title "PRICE TRAP · <title>"`,
    notes = popisok v ``` bloku + poznámka o obale, presne ako `release()` vo vote-story `run.py`).
-6. Stav: `used` += id, `episodes[N] = {id, title, posted_at, release}`, `next_ep = N+1`; vypíš `HOTOVO: ep NNN`.
+6. Stav: `used` += id, `episodes[N] = {id, title, posted_at, release, author}` (`author` = `"claude-bank"` | `"free-model"`), `next_ep = N+1`;
+   použitý skript z banky sa po úspešnom Release presunie do `bank/scripts/used/` (rutina z toho vidí, koľko ostáva); vypíš `HOTOVO: ep NNN`.
 Buffer: zatiaľ nie (kanály neexistujú). Nechaj funkciu `publish_buffer()` ako jasne označený stub s TODO.
 
 ## Workflow (B, `.github/workflows/daily.yml`)
@@ -183,10 +221,10 @@ Buffer: zatiaľ nie (kanály neexistujú). Nechaj funkciu `publish_buffer()` ako
 `permissions: contents: write`; `concurrency: group: pricetrap`; ubuntu-latest, timeout 45. Kroky ako v survey.yml:
 checkout, setup-python 3.12, setup-node 20 (cache npm, `cache-dependency-path: remotion/package-lock.json`),
 `sudo apt-get install -y ffmpeg libnss3 libatk-bridge2.0-0 libgbm1 libasound2t64 libxkbcommon0 libxcomposite1 libxdamage1 libxrandr2`,
-`pip install edge-tts numpy soundfile requests`, `npm ci --no-audit --no-fund` v `remotion/`, `npx remotion browser ensure` v `remotion/`,
-`python -u tools/run.py` s `--case`/`--no-post` podľa inputs, env `MODELS_TOKEN: ${{ secrets.GROQ_API_KEY }}`,
+`pip install edge-tts numpy soundfile requests faster-whisper`, `npm ci --no-audit --no-fund` v `remotion/`, `npx remotion browser ensure` v `remotion/`,
+`python -u tools/run.py` s `--case`/`--no-post` podľa inputs, env `MODELS_TOKEN: ${{ secrets.GROQ_API_KEY }}`, `GROQ_API_KEY` (Orpheus hlas),
 `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `GEMINI_API_KEY` (zo secrets), `GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}`.
-Potom upload-artifact `output/*` (7 dní, `if: always()`), a „Persist state“: `git add state.json episodes`, commit `pricetrap: ep $(date -u +%F)`, `git pull --rebase || true`, `git push || true`.
+Potom upload-artifact `output/*` (7 dní, `if: always()`), a „Persist state“: `git add state.json episodes bank/scripts`, commit `pricetrap: ep $(date -u +%F)`, `git pull --rebase || true`, `git push || true`.
 
 ## Banka (C, `bank/cases.json`) – `{"cases": [ ... ]}`, 30 prípadov, najlepšie prvé
 ```json

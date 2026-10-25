@@ -2,7 +2,7 @@
 import React from "react";
 import { AbsoluteFill, Easing, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import {
-  ACCENT, BLUEPRINT, CAPTION_Y, COL_W, COL_X, FOOTER_Y, MONO, PAPER, Palette, SANS, TAG_TONES, TagT, Word, useTheme,
+  ACCENT, BLUEPRINT, CAPTION_Y, ClockCtx, COL_W, COL_X, FOOTER_Y, MONO, PAPER, Palette, SANS, TAG_TONES, TagT, Word, useTheme,
 } from "./theme";
 import { ICONS } from "./icons";
 import { fitInter, fitMono, fitTag } from "./fit";
@@ -208,9 +208,11 @@ const ICON_STROKE = 1.1; // hrúbka čiary v jednotkách 24×24 (auto má čiaru
 const RED_SCALE = 0.78; // červený podklad: ikona sa o kúsok zmenší, aby sa vošla do kruhu
 const hasIcon = (n: string) => Object.prototype.hasOwnProperty.call(ICONS, n);
 
-/** `name-red` = ikona s červeným nádychom ako `car-red` (červený kruh za čiarovou ikonou; v blueprinte priesvitný). */
-export const IconArt: React.FC<{ name: string; width?: number; style?: React.CSSProperties }> = ({ name, width = 300, style }) => {
+/** `name-red` = ikona s červeným nádychom ako `car-red` (červený kruh za čiarovou ikonou; v blueprinte priesvitný).
+ *  draw = snímka (v údere), od ktorej sa ikona nakreslí čiarou (~0,5 s); bez draw je hneď celá. */
+export const IconArt: React.FC<{ name: string; width?: number; style?: React.CSSProperties; draw?: number }> = ({ name, width = 300, style, draw }) => {
   const pal = useTheme();
+  const f = useCurrentFrame();
   let n = name;
   let red = false;
   if (!hasIcon(n) && n.endsWith("-red")) {
@@ -223,26 +225,56 @@ export const IconArt: React.FC<{ name: string; width?: number; style?: React.CSS
   const vh = (vw * 170) / 300;
   const glow = bp ? `drop-shadow(0 0 6px ${pal.glow})` : "none";
   const k = red ? RED_SCALE : 1;
+  const dp = draw == null ? 1 : interpolate(f - draw, [0, 16], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.inOut(Easing.quad) });
+  // pathLength=1 na každom tvare -> čiarkovanie 1/1 a posun 1 -> 0 nakreslí ikonu bez ohľadu na skutočnú dĺžku ťahov
+  const html = dp < 1 ? ICONS[n].replace(/<(path|rect|circle|line|polyline|polygon|ellipse)\b/g, '<$1 pathLength="1"') : ICONS[n];
   return (
     <svg
       viewBox={`${12 - vw / 2} ${12 - vh / 2} ${vw} ${vh}`} width={width} height={(width * 170) / 300}
       style={{ overflow: "visible", filter: glow, color: pal.carLine, ...style }}
     >
-      {red && <circle cx={12} cy={12} r={11.6} fill={bp ? "rgba(229,56,59,0.25)" : "#D93A3E"} />}
+      {red && <circle cx={12} cy={12} r={11.6 * Math.min(1, dp * 1.6)} fill={bp ? "rgba(229,56,59,0.25)" : "#D93A3E"} />}
       <g
         fill="none" stroke={pal.carLine} strokeWidth={ICON_STROKE / k} strokeLinecap="round" strokeLinejoin="round"
         transform={red ? `translate(12 12) scale(${k}) translate(-12 -12)` : undefined}
-        dangerouslySetInnerHTML={{ __html: ICONS[n] }}
+        style={dp < 1 ? { strokeDasharray: "1 1", strokeDashoffset: 1 - dp } : undefined}
+        dangerouslySetInnerHTML={{ __html: html }}
       />
     </svg>
   );
 };
 
-/** Dispatcher: car | car-red | car-fly -> CarArt, none -> nič, inak lucide ikona (IconArt). */
-export const Art: React.FC<{ kind?: string; width?: number; style?: React.CSSProperties }> = ({ kind = "car", width = 300, style }) => {
+/** Dispatcher: car | car-red | car-fly -> CarArt, none -> nič, inak lucide ikona (IconArt).
+ *  idle = fáza pokojného pohybu (vznáša sa a kolíše; rôzne čísla = ikony sa nehýbu naraz), draw = viď IconArt. */
+export const Art: React.FC<{ kind?: string; width?: number; style?: React.CSSProperties; draw?: number; idle?: number }> = ({
+  kind = "car", width = 300, style, draw, idle,
+}) => {
+  const clock = React.useContext(ClockCtx);
+  const rel = useCurrentFrame();
+  const { fps } = useVideoConfig();
   if (typeof kind !== "string" || kind === "none") return null;
-  if (kind === "car" || kind === "car-red" || kind === "car-fly") return <CarArt kind={kind} width={width} style={style} />;
-  return <IconArt name={kind} width={width} style={style} />;
+  let st = style;
+  if (idle != null) {
+    const s = (clock ?? rel) / fps;
+    const y = Math.sin((s / 2.4) * 2 * Math.PI + idle * 1.7) * width * 0.014;
+    const r = Math.sin((s / 3.1) * 2 * Math.PI + idle * 2.3) * 1.8;
+    st = { ...style, transform: `${style?.transform ?? ""} translateY(${y}px) rotate(${r}deg)` };
+  }
+  if (kind === "car" || kind === "car-red" || kind === "car-fly") return <CarArt kind={kind} width={width} style={st} />;
+  return <IconArt name={kind} width={width} style={st} draw={draw} />;
+};
+
+/** Cena „$125“ naskočí od nuly, keď je nová (čísla s čiarkami a desatinami ostanú v rovnakom tvare); bez čísla ostane text. */
+export const useRoll = (text: unknown, delay: number, fresh: boolean, dur = 14) => {
+  const f = useCurrentFrame();
+  const s = text == null ? "" : String(text);
+  const m = s.match(/^(\D*?)(\d[\d,]*(?:\.\d+)?)(.*)$/);
+  if (!fresh || !m) return s;
+  const p = interpolate(f - delay, [0, dur], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  if (p >= 1) return s;
+  const dec = (m[2].split(".")[1] ?? "").length;
+  const v = Number(m[2].replace(/,/g, "")) * p;
+  return m[1] + v.toLocaleString("en-US", { minimumFractionDigits: dec, maximumFractionDigits: dec, useGrouping: m[2].includes(",") }) + m[3];
 };
 
 /* ---------- CaptionPill: 2–3 slová, čierna pilulka ---------- */

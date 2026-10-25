@@ -12,7 +12,7 @@ import unicodedata
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import REMOTION, case_by_id, case_from_file, load  # noqa: E402
 
-SCENES = ("Hero", "PriceList", "Views", "Anchor", "Compare", "Statement", "Outro")
+SCENES = ("Hero", "PriceList", "Views", "Anchor", "Compare", "Statement", "Outro", "Crowd")
 TONES = ("plain", "dark", "blue", "yellow", "red", "green")
 SPECIAL_ICONS = ("car", "car-red", "car-fly", "none")
 TOP_KEYS = {"id", "case", "title", "caption", "source", "beats"}
@@ -20,14 +20,15 @@ BEAT_KEYS = {"say", "scene", "props", "mode", "hold"}
 CARD_KEYS = {"title", "sub", "price", "priceRed", "tags", "art", "stamp", "badge", "top"}
 SCENE_KEYS = {
     "Hero": {"art", "tag", "title", "sub"},
-    "PriceList": {"slots", "cards"},
+    "PriceList": {"slots", "cards", "point"},
     "Views": {"job", "label", "value", "from", "prefix", "suffix", "grid", "thumbLabel", "art"},
     "Anchor": {"job", "price", "at", "split", "art", "anchor"},
     "Compare": {"before", "after", "labels"},
     "Statement": {"kicker", "text", "tags"},
     "Outro": {"art"},
+    "Crowd": {"job", "options", "total"},
 }
-NUM_FREE_KEYS = {"slots", "grid", "at", "split", "from", "hold"}   # cisla v tychto props sa nekontroluju
+NUM_FREE_KEYS = {"slots", "grid", "at", "split", "from", "hold", "point", "total"}   # cisla v tychto props sa nekontroluju
 BRANDS = ["Apple", "Starbucks", "Netflix", "Amazon", "Nike", "Tesla", "McDonald's", "Costco", "IKEA", "Gillette", "Disney",
           "Uber", "Spotify", "Rolex", "Hermès", "Supreme", "Google", "Microsoft", "Samsung"]
 # "bezne slova": velke pismeno uprostred vety, ktore nie je meno (skratky, mesiace, dni, sviatky)
@@ -70,8 +71,19 @@ def nums(text):
     return [re.sub(r"[$,%\s]", "", t) for t in _NUM.findall(str(text))]
 
 
+def _diffs(pn):
+    """rozdiely cien na kartách Compare („only 50 cents more“, „$3 more“) ako normalizované čísla"""
+    vals = sorted({float(x) for x in pn if re.fullmatch(r"\d+(?:\.\d+)?", x)})
+    out = set()
+    for i, a in enumerate(vals):
+        for b in vals[i + 1:]:
+            d = round(b - a, 2)
+            out |= {f"{d:g}", f"{d:.2f}"} | ({str(round(d * 100))} if d < 1 else set())
+    return out
+
+
 def _exempt(n):
-    return n in ("1", "2", "3")
+    return n in ("0", "1", "2", "3")
 
 
 def _prop_numbers(v):
@@ -332,7 +344,7 @@ def _hero(err, p, icons):
     if p.get("tag") is not None:
         _tag(err, "tag", p["tag"], 16)
     _text(err, "title", p.get("title"), 16)
-    _text(err, "sub", p.get("sub"), 22)
+    _text(err, "sub", p.get("sub"), 28)   # sablona dlhsi text zmensi (fit.ts)
 
 
 def _pricelist(err, p, icons):
@@ -347,12 +359,53 @@ def _pricelist(err, p, icons):
             err(f"slots ({slots}) is less than the number of cards ({len(cards)})")
     for i, c in enumerate(cards, 1):
         _card(err, f"card {i}", c, icons, 18, 12, True)
+    pt = p.get("point")
+    if pt is not None:
+        if not (isinstance(pt, list) and len(pt) == 2 and all(_is_int(k) for k in pt) and pt[0] != pt[1]):
+            err("point must be two different card indexes, e.g. [1, 2]")
+        elif not all(0 <= k < len(cards) and isinstance(cards[k], dict) and cards[k].get("price") for k in pt):
+            err(f"point {pt} must name two cards that have a price (indexes from 0)")
+
+
+def _crowd(err, p, icons):
+    """bodky = ludia v nadobach moznosti (Crowd.tsx): 2-3 moznosti, hodnoty = pocty z faktov"""
+    if p.get("job") is not None:
+        _tag(err, "job", p["job"], 28)
+    total = p.get("total", 100)
+    if not _is_int(total) or not 10 <= total <= 100:
+        err(f"total must be a whole number 10-100 (got {total!r})")
+        total = 100
+    opts = p.get("options")
+    if not isinstance(opts, list) or not 2 <= len(opts) <= 3:
+        err("options must be a list of 2-3 options")
+        return
+    labels = []
+    for i, o in enumerate(opts, 1):
+        if not isinstance(o, dict):
+            err(f"option {i} must be an object")
+            continue
+        for k in o:
+            if k not in ("label", "art", "value", "bait"):
+                err(f"option {i}: unknown key '{k}'")
+        _text(err, f"option {i} label", o.get("label"), 14, required=True)
+        labels.append(o.get("label"))
+        _art(err, f"option {i} art", o.get("art"), icons)
+        v = o.get("value")
+        if not _is_int(v) or v < 0:
+            err(f"option {i} value must be a whole number >= 0")
+        if o.get("bait") is not None and not isinstance(o["bait"], bool):
+            err(f"option {i} bait must be true or false")
+    if len(set(map(str, labels))) != len(labels):
+        err("option labels must be different")
+    vals = [o.get("value") for o in opts if isinstance(o, dict) and _is_int(o.get("value"))]
+    if sum(vals) > total:
+        err(f"option values add up to {sum(vals)}, more than total {total}")
 
 
 def _views(err, p, icons):
     if p.get("job") is not None:
         _tag(err, "job", p["job"], 26)
-    _text(err, "label", p.get("label"), 10)
+    _text(err, "label", p.get("label"), 12)
     if not _is_int(p.get("value")):
         err("value must be an integer")
     if p.get("from") is not None and not _is_int(p["from"]):
@@ -396,15 +449,20 @@ def _compare(err, p, icons):
         err(f"before ({len(before)}) and after ({len(after)}) need the same number of items, 2-3")
     for i, c in enumerate(before, 1):
         if c is not None:
-            _card(err, f"before card {i}", c, icons, 16, 8, False)
+            _card(err, f"before card {i}", c, icons, 20, 8, False)   # titul sa zmensi (fit.ts)
+    reveal = all(c is None for c in after)   # najprv len BEFORE, AFTER príde v ďalšom údere
     for i, c in enumerate(after, 1):
         if c is None:
-            err(f"after card {i} must not be null (null is only for before)")
+            if not reveal:
+                err(f"after card {i} must not be null (null is only for before, or all after null = reveal later)")
         else:
-            _card(err, f"after card {i}", c, icons, 16, 8, False)
+            _card(err, f"after card {i}", c, icons, 20, 8, False)
     lab = p.get("labels")
     if lab is not None and not (isinstance(lab, list) and len(lab) == 2 and all(isinstance(x, str) for x in lab)):
         err("labels must be a list of 2 strings")
+    prices = [tuple(nums(c.get("price") or "")) for c in after if isinstance(c, dict) and nums(c.get("price") or "")]
+    if len(prices) >= 3 and len(set(prices)) == 1:
+        err("all after options cost the same - the trick needs different prices (the cheap option stays cheaper)")
 
 
 def _statement(err, p, icons=None):
@@ -435,7 +493,7 @@ def _outro(err, p, icons):
 
 
 CHECKS = {"Hero": _hero, "PriceList": _pricelist, "Views": _views, "Anchor": _anchor, "Compare": _compare,
-          "Statement": _statement, "Outro": _outro}
+          "Statement": _statement, "Outro": _outro, "Crowd": _crowd}
 
 
 # ---------- nadvaznost (pravidlo 5) ----------
@@ -467,9 +525,123 @@ def _cont_compare(E, no, pa, pb):
         E.beat(no, "Compare", "before changed since the previous Compare beat (it must stay identical)")
     if len(aa) != len(ab):
         E.beat(no, "Compare", "number of after cards changed since the previous Compare beat")
+    if all(x is None for x in aa):
+        return   # AFTER sa práve odhalil
     for i, (x, y) in enumerate(zip(aa, ab), 1):
         if _strip(x) != _strip(y):
             E.beat(no, "Compare", f"after card {i} changed (between Compare beats only badge and top may change)")
+
+
+# ---------- pribeh (pravidlo 8) ----------
+def _words(s):
+    return re.findall(r"[a-z0-9$%]+(?:[.,][0-9]+)*", re.sub(r"(?<=\w)'(?=\w)", "", _fold(s)).replace("-", " "))
+
+
+def _story_checks(E, beats):
+    """Kvalita rozpravania, ktoru free modely kazia: dlhy hak s cislami, opakovane vety/frazy/cisla, citanie kariet."""
+    says = [(no, b.get("scene", "?"), b["say"]) for no, b in enumerate(beats, 1)
+            if isinstance(b, dict) and isinstance(b.get("say"), str)]
+    if says and says[0][0] == 1:
+        no, sc, s = says[0]
+        if len(s.split()) > 14:
+            E.beat(no, sc, f"hook has {len(s.split())} words (max 14 - a short paradox, no explanation)")
+        if len(set(nums(s))) > 1:
+            E.beat(no, sc, "hook has more than one number (the numbers come later, the hook is the strange thing)")
+    seen_sent, seen_gram, num_beats = {}, {}, {}
+    for no, sc, s in says:
+        for sent in re.split(r"(?<=[.!?])\s+", s):
+            w = _words(sent)
+            if len(w) >= 3 and w != ["follow", "for", "more"]:
+                k = " ".join(w)
+                if k in seen_sent:
+                    E.beat(no, sc, f'repeats the sentence "{sent.strip()}" from beat {seen_sent[k]} - every beat must say something new')
+                else:
+                    seen_sent[k] = no
+        w = [x for x in _words(s) if x not in ("follow", "more")]
+        for i in range(len(w) - 4):
+            g = " ".join(w[i:i + 5])
+            if g in seen_gram and seen_gram[g] != no:
+                E.beat(no, sc, f'repeats the phrase "{g}" from beat {seen_gram[g]}')
+                break
+            seen_gram.setdefault(g, no)
+        for x in set(nums(s)):
+            if not _exempt(x):
+                num_beats.setdefault(x, []).append(no)
+    for x, where in num_beats.items():
+        if len(where) > 2:
+            E.top(f"number {x} is spoken in {len(where)} beats ({', '.join(map(str, where))}) - max 2, the card already shows it")
+    for no, b in enumerate(beats, 1):   # citanie karty: nazov karty + jej cena v tej istej vete
+        if not (isinstance(b, dict) and b.get("scene") == "PriceList" and isinstance(b.get("say"), str)):
+            continue
+        cards = (b.get("props") or {}).get("cards") if isinstance(b.get("props"), dict) else None
+        pb = beats[no - 2] if no > 1 and isinstance(beats[no - 2], dict) else {}
+        shown = {c.get("title") for c in ((pb.get("props") or {}).get("cards") or []) if isinstance(c, dict)} if pb.get("scene") == "PriceList" else set()
+        sw = " " + " ".join(_words(b["say"])) + " "
+        for c in cards if isinstance(cards, list) else []:
+            if not isinstance(c, dict) or c.get("title") not in shown:
+                continue   # karta, ktora prave pribudla, sa smie predstavit menom a cenou (SCRIPT_GUIDE: cena raz, ked karta pride)
+            t, pr = " ".join(_words(c.get("title") or "")), nums(c.get("price") or "")
+            if t and f" {t} " in sw and pr and pr[0] in nums(b["say"]):
+                E.beat(no, "PriceList", f'reads the card "{c.get("title")}" aloud (title + price) - the card shows it, say what it means')
+                break
+    for no, b in enumerate(beats, 1):
+        if isinstance(b, dict) and b.get("scene") == "Anchor" and isinstance(b.get("props"), dict):
+            if "%" in str(b["props"].get("price") or ""):
+                E.beat(no, "Anchor", "Anchor price must be a price, not a percentage (use Views for shares)")
+
+
+PLAN_KEYS = ("paradox", "odd_fact", "twist", "cause", "everyday", "rule")
+
+
+def lint_story(st, case):
+    """Krok 1 autora: len hlas po uderoch ({"plan", "beats": [{scene, say}]}) – dlzka, cisla a mena z faktov, pribeh."""
+    E = _Errs()
+    case = case if isinstance(case, dict) else {}
+    plan = st.get("plan") if isinstance(st, dict) else None
+    if not isinstance(plan, dict):
+        E.top('"plan" is missing - fill it first: ' + ", ".join(PLAN_KEYS))
+    else:
+        miss = [k for k in PLAN_KEYS if not str(plan.get(k) or "").strip()]
+        if miss:
+            E.top("plan is missing: " + ", ".join(miss))
+    beats = st.get("beats") if isinstance(st, dict) else None
+    if not isinstance(beats, list) or not beats:
+        E.top("beats must be a non-empty list of {scene, say}")
+        return E.result()
+    n = len(beats)
+    if not 12 <= n <= 15:
+        E.top(f"{n} beats, need 12-15")
+    if beats[0].get("scene") != "Hero":
+        E.beat(1, str(beats[0].get("scene")), "first beat must be scene Hero")
+    outros = [i for i, b in enumerate(beats, 1) if b.get("scene") == "Outro"]
+    if outros != [n]:
+        E.top("scene Outro must be exactly once, as the last beat")
+    facts, allowed, total = _fact_nums(case), _allowed_caps(case), 0
+    for no, b in enumerate(beats, 1):
+        sc, say = b.get("scene"), b.get("say") or ""
+        if sc not in SCENES:
+            E.beat(no, str(sc), f"unknown scene {sc!r} (use {', '.join(SCENES)})")
+        nw = len(say.split())
+        total += nw
+        if not 2 <= nw <= 24:
+            E.beat(no, str(sc), f"say has {nw} words (need 3-20)")
+        if _EMOJI.search(say) or _MD.search(say):
+            E.beat(no, str(sc), "say contains emoji, symbols or markdown")
+        if sc == "Compare":
+            for hit in _compare_hits([say], case):
+                E.beat(no, sc, f'Compare must not mention "{hit}" (no brands, no case names)')
+            continue
+        for x in dict.fromkeys(nums(say)):
+            if not _exempt(x) and x not in facts:
+                E.beat(no, str(sc), f"number {x} is not in the case facts")
+        if sc == "PriceList" and nums(say):
+            E.beat(no, sc, "no numbers or prices in PriceList beats - the cards show them; say what the option means")
+        for w in _unknown_names(say, allowed):
+            E.beat(no, str(sc), f'name "{w}" is not one of the case names')
+    if not 85 <= total <= 150:
+        E.top(f"spoken words total {total}, need 85-150 (aim for 115-135; pauses add about 15%)")
+    _story_checks(E, beats)
+    return E.result()
 
 
 # ---------- hlavna funkcia ----------
@@ -566,7 +738,7 @@ def lint(story, case, icons=None):
             CHECKS[scene](err, props, icons)
             # 3. cisla (Compare: vymyslene ceny na kartach su povolene, v say musia byt z faktov alebo z kariet)
             pnums = _prop_numbers(props)
-            pool = facts | set(pnums) if scene == "Compare" else facts
+            pool = facts | set(pnums) | _diffs(pnums) if scene == "Compare" else facts
             if say:
                 for x in dict.fromkeys(nums(say)):
                     if not _exempt(x) and x not in pool:
@@ -589,8 +761,10 @@ def lint(story, case, icons=None):
             err(f"malformed beat ({type(ex).__name__}: {ex})")
 
     # 2. spolu slov
-    if not 90 <= total <= 190:
-        top(f"spoken words total {total}, need 90-190 (aim for 110-170)")
+    if not 85 <= total <= 150:
+        top(f"spoken words total {total}, need 85-150 (aim for 115-135; pauses add about 15%)")
+    # 8. pribeh: hak, ziadne opakovanie, ziadne citanie kariet
+    _story_checks(E, beats)
     # 1. Outro prave raz a posledny
     outros = [i for i, b in enumerate(beats, 1) if isinstance(b, dict) and b.get("scene") == "Outro"]
     if not outros:

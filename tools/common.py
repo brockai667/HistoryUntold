@@ -13,6 +13,7 @@ for _s in (sys.stdout, sys.stderr):   # Windows konzola: "·" a "→" nesmu zhod
 
 REPO = Path(__file__).resolve().parents[1]
 BANK = REPO / "bank" / "cases.json"
+SCRIPTS = REPO / "bank" / "scripts"   # hotove story.json od Claude rutiny (najstarsi ide prvy)
 EPISODES = REPO / "episodes"
 OUTPUT = REPO / "output"
 REMOTION = REPO / "remotion"

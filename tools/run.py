@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 """Denny beh PriceTrap fabriky (GitHub Actions, bez PC, 0 Claude tokenov):
-  1) vyber pripadu z banky  2) Groq napise story.json (write_case.py)  3) prep (hlas, edge-tts) + Remotion render
-  4) obal a popisok  5) GitHub Release ep-NNN (video + popisok; Damian nahra z mobilu)  6) stav do state.json
+  1) skript: najstarsi z bank/scripts/ (pise ho Claude rutina kazde 3 dni, musi prejst lintom);
+     ak je banka skriptov prazdna, fallback: Groq napise story.json k prvemu nepouzitemu pripadu (write_case.py)
+  2) prep (hlas Orpheus troy, inak edge-tts) + Remotion render  3) obal a popisok
+  4) GitHub Release ep-NNN (video + popisok; Damian nahra z mobilu)  5) stav do state.json, skript do bank/scripts/used/
     python tools/run.py [--case ID] [--no-post] [--force]
---case ID  = konkretny pripad (inak prvy nepouzity z banky; ak autor zlyha, skusi sa este jeden dalsi, max 2 za beh)
+--case ID  = konkretny pripad cez autora (bez --case: banka skriptov, potom prvy nepouzity pripad; max 2 pokusy autora)
 --no-post  = len vyrobi video a popisok (Release ani stav sa nemeni)
 --force    = povoli uz pouzity pripad (--case) a prepise existujuci story.json"""
 import argparse
@@ -15,7 +17,7 @@ import subprocess
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import EPISODES, OUTPUT, REMOTION, REPO, bank, case_by_id, load, save_state, state  # noqa: E402
+from common import EPISODES, OUTPUT, REMOTION, REPO, SCRIPTS, bank, case_by_id, load, save_state, state  # noqa: E402
 
 PY = sys.executable
 CHILD_ENV = {**os.environ, "PYTHONIOENCODING": "utf-8"}
@@ -57,7 +59,19 @@ def render(ep):
         sys.exit("render zlyhal")
     if not mp4.exists() or mp4.stat().st_size < 10_000:
         sys.exit("render nevyrobil video")
+    loudness(mp4)
     return mp4
+
+
+def loudness(mp4):
+    """Hlasitost na -14 LUFS (mix z Remotionu ma ~-21, na mobile je potichu). Obraz sa len kopiruje. Nie je kriticke."""
+    tmp = mp4.with_name(mp4.stem + "-loud.mp4")
+    rc = sh(shutil.which("ffmpeg") or "ffmpeg", "-y", "-loglevel", "error", "-i", mp4, "-c:v", "copy",
+            "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", "48000", "-c:a", "aac", "-b:a", "192k", tmp)
+    if rc == 0 and tmp.exists() and tmp.stat().st_size > 10_000:
+        tmp.replace(mp4)
+    else:
+        print("loudnorm zlyhal - video ostáva s pôvodnou hlasitosťou")
 
 
 def cover(ep):
@@ -104,6 +118,21 @@ def publish_buffer(n, ep, title, mp4, txt):
     return []
 
 
+def bank_script(st):
+    """Najstarsi nepouzity skript z bank/scripts/*.json, ktory prejde lintom -> (cesta, id pripadu) alebo None."""
+    for p in sorted(SCRIPTS.glob("*.json")):
+        try:
+            cid = load(p).get("id")
+        except (OSError, ValueError, AttributeError):
+            cid = None
+        if not cid or cid in st["used"]:
+            continue
+        if sh(PY, "tools/lint.py", p.relative_to(REPO).as_posix()) == 0:
+            return p, cid
+        print(f"{p.name} neprešiel lintom - preskakujem", file=sys.stderr)
+    return None
+
+
 def main():
     ap = argparse.ArgumentParser(description="Denný beh PriceTrap: prípad -> story -> video -> GitHub Release -> stav.",
                                  epilog="Bez --case sa berie prvý nepoužitý prípad z bank/cases.json.")
@@ -114,6 +143,7 @@ def main():
 
     st = state()
     n = st["next_ep"]
+    chosen, script = None, None
     if a.case:
         c = case_by_id(a.case)
         if not c:
@@ -122,11 +152,21 @@ def main():
             sys.exit(f"prípad '{a.case}' už bol použitý (--force = použiť znova)")
         todo = [c]
     else:
-        todo = [c for c in bank() if c["id"] not in st["used"]][:MAX_CASES]
-        if not todo:
-            sys.exit("banka je vyčerpaná - treba doplniť bank/cases.json")
+        bs = bank_script(st)
+        if bs:
+            script, cid = bs
+            ep = f"{n:03d}-{cid}"
+            (EPISODES / ep).mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(script, EPISODES / ep / "story.json")
+            print(f"skript z banky: {script.name}")
+            chosen = (case_by_id(cid) or {"id": cid}, ep)
+            todo = []
+        else:
+            print("banka skriptov je prázdna - píše free model (fallback)")
+            todo = [c for c in bank() if c["id"] not in st["used"]][:MAX_CASES]
+            if not todo:
+                sys.exit("banka je vyčerpaná - treba doplniť bank/cases.json")
 
-    chosen = None
     for c in todo:
         ep = f"{n:03d}-{c['id']}"
         story = EPISODES / ep / "story.json"
@@ -155,9 +195,13 @@ def main():
 
     tag = release(n, ep, title, mp4, txt, cov)
     publish_buffer(n, ep, title, mp4, txt)
+    if script:   # pouzity skript z banky -> bank/scripts/used/ (rutina vidi, kolko ostava)
+        (SCRIPTS / "used").mkdir(exist_ok=True)
+        shutil.move(str(script), str(SCRIPTS / "used" / script.name))
     if c["id"] not in st["used"]:
         st["used"].append(c["id"])
-    st["episodes"][str(n)] = {"id": c["id"], "title": title, "posted_at": now().isoformat(timespec="seconds"), "release": tag}
+    st["episodes"][str(n)] = {"id": c["id"], "title": title, "posted_at": now().isoformat(timespec="seconds"), "release": tag,
+                              "author": "claude-bank" if script else "free-model"}
     st["next_ep"] = n + 1
     save_state(st)
     print(f"HOTOVO: ep {n:03d}")

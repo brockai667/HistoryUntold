@@ -1,0 +1,390 @@
+{
+ "id": "economist-decoy",
+ "case": "THE SILLY OPTION",
+ "title": "The option nobody picked",
+ "caption": "Ever picked the bigger size because it felt like a steal?\nThe option nobody buys is doing a job.",
+ "source": "Dan Ariely, Predictably Irrational (2008)",
+ "beats": [
+  {
+   "say": "Ever picked the bigger size because it felt like a steal?",
+   "scene": "Hero",
+   "props": {
+    "art": "popcorn",
+    "tag": {
+     "text": "BE HONEST",
+     "tone": "yellow"
+    },
+    "title": "WHAT A STEAL?",
+    "sub": "OR A TRAP?"
+   }
+  },
+  {
+   "say": "Popcorn: medium or large? Large, obviously.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "POPCORN",
+    "text": "MEDIUM OR LARGE?",
+    "tags": [
+     {
+      "text": "LARGE, OBVIOUSLY",
+      "tone": "yellow"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Dan Ariely showed 100 MIT students three Economist subscriptions.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "100 MIT STUDENTS",
+    "tags": [
+     {
+      "text": "3 ECONOMIST OFFERS",
+      "tone": "dark"
+     }
+    ]
+   }
+  },
+  {
+   "say": "First, web-only: $59.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "Web-only",
+      "sub": "Website access",
+      "price": "$59",
+      "art": "laptop"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Print-only, just the paper: $125.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "Web-only",
+      "sub": "Website access",
+      "price": "$59",
+      "art": "laptop"
+     },
+     {
+      "title": "Print-only",
+      "sub": "Paper edition",
+      "price": "$125",
+      "art": "newspaper"
+     }
+    ]
+   }
+  },
+  {
+   "say": "And print plus web? Also $125.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "Web-only",
+      "sub": "Website access",
+      "price": "$59",
+      "art": "laptop"
+     },
+     {
+      "title": "Print-only",
+      "sub": "Paper edition",
+      "price": "$125",
+      "art": "newspaper"
+     },
+     {
+      "title": "Print + Web",
+      "sub": "Paper plus website",
+      "price": "$125",
+      "art": "package"
+     }
+    ],
+    "point": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "say": "84 picked print plus web. 16, web-only. Print-only? Nobody.",
+   "scene": "Crowd",
+   "props": {
+    "job": "100 MIT STUDENTS",
+    "options": [
+     {
+      "label": "Web-only",
+      "art": "laptop",
+      "value": 16
+     },
+     {
+      "label": "Print-only",
+      "art": "newspaper",
+      "value": 0
+     },
+     {
+      "label": "Print + Web",
+      "art": "package",
+      "value": 84
+     }
+    ]
+   }
+  },
+  {
+   "say": "Why offer it? It's a fake option, never meant to sell.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "Web-only",
+      "sub": "Website access",
+      "price": "$59",
+      "art": "laptop"
+     },
+     {
+      "title": "Print-only",
+      "sub": "Paper edition",
+      "price": "$125",
+      "priceRed": true,
+      "art": "newspaper",
+      "stamp": "FAKE"
+     },
+     {
+      "title": "Print + Web",
+      "sub": "Paper plus website",
+      "price": "$125",
+      "art": "package"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Next to it, print plus web feels like getting the website free.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "Web-only",
+      "sub": "Website access",
+      "price": "$59",
+      "art": "laptop"
+     },
+     {
+      "title": "Print-only",
+      "sub": "Paper edition",
+      "price": "$125",
+      "priceRed": true,
+      "art": "newspaper",
+      "stamp": "FAKE"
+     },
+     {
+      "title": "Print + Web",
+      "sub": "Paper plus website",
+      "price": "$125",
+      "art": "package",
+      "tags": [
+       {
+        "text": "WEBSITE FREE?",
+        "tone": "yellow"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "say": "So you forget the real question: do I need the paper?",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "point": [
+     2,
+     0
+    ],
+    "cards": [
+     {
+      "title": "Web-only",
+      "sub": "Website access",
+      "price": "$59",
+      "art": "laptop"
+     },
+     {
+      "title": "Print-only",
+      "sub": "Paper edition",
+      "price": "$125",
+      "priceRed": true,
+      "art": "newspaper",
+      "stamp": "FAKE"
+     },
+     {
+      "title": "Print + Web",
+      "sub": "Paper plus website",
+      "price": "$125",
+      "art": "package",
+      "tags": [
+       {
+        "text": "WEBSITE FREE?",
+        "tone": "yellow"
+       },
+       {
+        "text": "NEED PAPER?",
+        "tone": "blue"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "say": "Without the fake option, 68 picked web-only. Only 32 picked print plus web.",
+   "scene": "Crowd",
+   "props": {
+    "job": "NO PRINT-ONLY",
+    "options": [
+     {
+      "label": "Web-only",
+      "art": "laptop",
+      "value": 68
+     },
+     {
+      "label": "Print + Web",
+      "art": "package",
+      "value": 32
+     }
+    ]
+   }
+  },
+  {
+   "say": "An option nobody picks still changes what everybody picks.",
+   "scene": "Crowd",
+   "props": {
+    "job": "FAKE OPTION BACK",
+    "options": [
+     {
+      "label": "Web-only",
+      "art": "laptop",
+      "value": 16
+     },
+     {
+      "label": "Print-only",
+      "art": "newspaper",
+      "value": 0,
+      "bait": true
+     },
+     {
+      "label": "Print + Web",
+      "art": "package",
+      "value": 84
+     }
+    ]
+   }
+  },
+  {
+   "say": "That's the decoy effect.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "NOBODY PICKS IT. IT WORKS.",
+    "text": "THE DECOY EFFECT"
+   }
+  },
+  {
+   "say": "Back to the popcorn. Small, $4. Large, $7.50. Big jump.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {
+      "title": "Large",
+      "price": "$7.50",
+      "art": "popcorn"
+     },
+     null,
+     {
+      "title": "Small",
+      "price": "$4",
+      "art": "popcorn"
+     }
+    ],
+    "after": [
+     null,
+     null,
+     null
+    ],
+    "labels": [
+     "BEFORE",
+     "AFTER"
+    ]
+   }
+  },
+  {
+   "say": "Add a $7 medium. Now large is only 50 cents more. What a steal!",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {
+      "title": "Large",
+      "price": "$7.50",
+      "art": "popcorn"
+     },
+     null,
+     {
+      "title": "Small",
+      "price": "$4",
+      "art": "popcorn"
+     }
+    ],
+    "after": [
+     {
+      "title": "Large",
+      "price": "$7.50",
+      "art": "popcorn",
+      "badge": {
+       "text": "WHAT A STEAL",
+       "tone": "green"
+      }
+     },
+     {
+      "title": "Medium",
+      "price": "$7",
+      "priceRed": true,
+      "art": "popcorn",
+      "top": {
+       "text": "FAKE",
+       "tone": "red"
+      }
+     },
+     {
+      "title": "Small",
+      "price": "$4",
+      "art": "popcorn"
+     }
+    ],
+    "labels": [
+     "BEFORE",
+     "AFTER"
+    ]
+   }
+  },
+  {
+   "say": "Silly option? It's selling the one next to it.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "SILLY OPTION?",
+    "text": "IT'S SELLING THE ONE NEXT TO IT"
+   }
+  },
+  {
+   "say": "Which fake option got you last time?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}

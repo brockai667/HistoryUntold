@@ -3,9 +3,11 @@
 // Čo bolo v minulom údere, ostane stáť; animuje sa len to, čo pribudlo alebo sa zmenilo.
 // Text sa nikdy nevyleje: dlhší text zmenší písmo (fit.ts), nezalamuje sa mimo.
 import React from "react";
+import { Easing, interpolate, useCurrentFrame } from "remotion";
 import { CAPTION_Y, CONTENT_TOP, COL_W, COL_X, MONO, SANS, TagT, useEp, useTheme, ACCENT } from "./theme";
-import { Art, Counter, Tag, fmt, useEnter, usePop } from "./Paper";
-import { AnchorSlider, BeforeAfter, EmptySlot, LogoOutro, ProductCard, ThumbGrid } from "./Blocks";
+import { Art, Counter, Tag, fmt, useEnter, usePop, useRoll } from "./Paper";
+import { AnchorSlider, BeforeAfter, EmptySlot, LogoOutro, ProductCard, ThumbGrid, priceAnchor } from "./Blocks";
+import { Crowd } from "./Crowd";
 import { fitInter, fitMono, monoEm, wrapLines } from "./fit";
 
 type P = { p: any; prev?: any };
@@ -39,7 +41,7 @@ const Hero: React.FC<P> = ({ p, prev }) => {
   const tag = usePop(10, !same(prev?.tag, p.tag));
   const txt = useEnter(14, !prev || prev.title !== p.title, 24);
   const titleS = fitInter(str(p.title), COL_W, 84, 40, 900, -3 / 84);
-  const subS = fitMono(str(p.sub), COL_W, 26, 14, 6 / 26);
+  const subS = fitMono(str(p.sub), COL_W, 46, 14, 4 / 46, 0.1); // druhá polovica háku: veľká a červená (test bez zvuku)
   return (
     <Area>
       <div style={{ position: "relative", width: COL_W, display: "flex", flexDirection: "column", alignItems: "center" }}>
@@ -49,13 +51,13 @@ const Hero: React.FC<P> = ({ p, prev }) => {
           </div>
         )}
         <div style={car}>
-          <Art kind={p.art ?? "car-fly"} width={720} />
+          <Art kind={p.art ?? "car-fly"} width={720} draw={!prev || prev.art !== p.art ? 2 : undefined} idle={0} />
         </div>
         {p.title && (
           <div style={{ ...txt, marginTop: 90, textAlign: "center" }}>
             <div style={{ fontFamily: SANS, fontWeight: 900, fontSize: titleS, letterSpacing: titleS * (-3 / 84), color: pal.ink, lineHeight: 1, whiteSpace: "nowrap" }}>{p.title}</div>
             {p.sub && (
-              <div style={{ fontFamily: MONO, fontSize: subS, letterSpacing: subS * (6 / 26), color: pal.muted, marginTop: 16, whiteSpace: "nowrap" }}>{p.sub}</div>
+              <div style={{ fontFamily: MONO, fontWeight: 700, fontSize: subS, letterSpacing: subS * (4 / 46), color: ACCENT.red, marginTop: 20, whiteSpace: "nowrap" }}>{p.sub}</div>
             )}
           </div>
         )}
@@ -64,22 +66,88 @@ const Hero: React.FC<P> = ({ p, prev }) => {
   );
 };
 
-/* PriceList: karty pribúdajú zhora nadol, prázdne sloty čakajú. props: cards[], slots */
+/* PriceList: karty pribúdajú zhora nadol, prázdne sloty čakajú. props: cards[], slots, point: [a, b]
+   point = gulička skočí z ceny karty a na cenu karty b (a „=“, keď sú ceny rovnaké): divák vidí, čo s čím porovnať. */
 const PriceList: React.FC<P> = ({ p, prev }) => {
   const cards = p.cards ?? [];
   const slots = Math.max(p.slots ?? 3, cards.length);
+  const pt = Array.isArray(p.point) && p.point.length === 2 && cards[p.point[0]] && cards[p.point[1]] ? p.point : null;
+  const ptFresh = !same(prev?.point, p.point);
+  const f = useCurrentFrame();
+  // karty mimo porovnania stmavnú, keď sa gulička objaví: divák vie, ktoré dve ceny má porovnať
+  const dim = pt ? (ptFresh ? interpolate(f, [BALL.appear - 2, BALL.appear + 6], [1, 0.3], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) : 0.3) : 1;
   return (
     <Area justify="flex-start">
+      {pt && <PointBall cards={cards} a={pt[0]} b={pt[1]} fresh={ptFresh} />}
       <div style={{ display: "flex", flexDirection: "column", gap: 28, marginTop: 10 }}>
         {Array.from({ length: slots }).map((_, i) =>
           cards[i] ? (
-            <ProductCard key={i} card={cards[i]} prev={prev?.cards?.[i]} fresh={!prev?.cards?.[i] || prev.cards[i].title !== cards[i].title} delay={2} />
+            <div key={i} style={{ opacity: pt && !pt.includes(i) ? dim : 1 }}>
+              <ProductCard card={cards[i]} prev={prev?.cards?.[i]} fresh={!prev?.cards?.[i] || prev.cards[i].title !== cards[i].title} delay={2} idle={i} />
+            </div>
           ) : (
             <EmptySlot key={i} />
           ),
         )}
       </div>
     </Area>
+  );
+};
+
+// gulička: objaví sa pri cene karty a, oblúkom vpravo preskočí na cenu karty b, za sebou nechá bodkovanú stopu
+export const BALL = { appear: 10, start: 22, land: 40 }; // snímky úderu (rovnaké v sfx.py)
+const ROW = 250 + 28; // výška karty + medzera v cenníku
+const PointBall: React.FC<{ cards: any[]; a: number; b: number; fresh: boolean }> = ({ cards, a, b, fresh }) => {
+  const pal = useTheme();
+  const f0 = useCurrentFrame();
+  const f = fresh ? f0 : 1000;
+  const A0 = priceAnchor(cards[a]), B0 = priceAnchor(cards[b]);
+  if (!A0 || !B0) return null;
+  const R = 32;
+  const A = { x: A0.x + 30 + R, y: 10 + a * ROW + A0.y }, B = { x: B0.x + 30 + R, y: 10 + b * ROW + B0.y };
+  const C = { x: Math.min(Math.max(A.x, B.x) + 230, COL_W - 20), y: (A.y + B.y) / 2 };
+  const at = (t: number) => ({
+    x: (1 - t) ** 2 * A.x + 2 * t * (1 - t) * C.x + t * t * B.x,
+    y: (1 - t) ** 2 * A.y + 2 * t * (1 - t) * C.y + t * t * B.y,
+  });
+  const t = Easing.inOut(Easing.cubic)(interpolate(f, [BALL.start, BALL.land], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }));
+  const pos = at(t);
+  const born = interpolate(f, [BALL.appear, BALL.appear + 5, BALL.appear + 9], [0, 1.18, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const g = f - BALL.land; // dopad: sploštenie a odskok
+  const squash = g >= 0 && g < 8 ? 1 + 0.28 * Math.sin((Math.PI * g) / 8) * (1 - g / 8) : 1;
+  const bob = g >= 8 ? Math.sin((g - 8) / 9) * 4 : 0;
+  const equal = str(cards[a].price) === str(cards[b].price);
+  const mid = at(0.5);
+  const badge = interpolate(f, [BALL.land + 2, BALL.land + 7, BALL.land + 11], [0, 1.2, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const line = pal.name === "blueprint" ? pal.cardLine : pal.ink;
+  const trail = Array.from({ length: 11 }, (_, i) => (i + 1) / 12).filter((u) => u <= t);
+  return (
+    <div style={{ position: "absolute", left: 0, top: 0, width: COL_W, height: "100%", pointerEvents: "none", zIndex: 5 }}>
+      {trail.map((u, i) => {
+        const q = at(u);
+        return <div key={i} style={{ position: "absolute", left: q.x - 8, top: q.y - 8, width: 16, height: 16, borderRadius: "50%", background: line, opacity: 0.6 }} />;
+      })}
+      {badge > 0 && (
+        <div
+          style={{
+            position: "absolute", left: Math.min(mid.x + 30, COL_W - 110), top: mid.y - 62, width: 124, height: 124, borderRadius: "50%",
+            background: equal ? ACCENT.yellow : ACCENT.red, border: "4px solid #151517",
+            display: "flex", alignItems: "center", justifyContent: "center", transform: `scale(${badge})`,
+            fontFamily: SANS, fontWeight: 900, fontSize: 92, lineHeight: 1, color: "#151517", boxShadow: "0 6px 0 rgba(0,0,0,0.2)",
+          }}
+        >
+          {equal ? "=" : "≠"}
+        </div>
+      )}
+      <div
+        style={{
+          position: "absolute", left: pos.x - R, top: pos.y - R + bob, width: 2 * R, height: 2 * R, borderRadius: "50%",
+          background: `radial-gradient(circle at 35% 30%, #FFF7C9 0 18%, ${ACCENT.yellow} 45%, #E0B21C 100%)`,
+          border: "4px solid #151517", boxSizing: "border-box",
+          transform: `scale(${born * squash}, ${born / squash})`, boxShadow: "0 6px 0 rgba(0,0,0,0.18)",
+        }}
+      />
+    </div>
   );
 };
 
@@ -126,7 +194,7 @@ const Anchor: React.FC<P> = ({ p, prev }) => {
           <div style={{ ...anchorIn, position: "absolute", right: 0, top: 10, display: "flex", flexDirection: "column", alignItems: "flex-end" }}>
             <Tag tag={p.anchor.label ? { text: p.anchor.label, tone: "blue" } : "THE ANCHOR"} size={22} maxWidth={COL_W} />
             <div style={{ marginTop: 10, marginRight: 10 }}>
-              <Art kind={p.anchor.art ?? "car-fly"} width={280} />
+              <Art kind={p.anchor.art ?? "car-fly"} width={280} idle={1} />
             </div>
           </div>
         )}
@@ -143,17 +211,43 @@ const Compare: React.FC<P> = ({ p, prev }) => (
   </Area>
 );
 
-/* Statement: krátka veta / zoznam štítkov. props: kicker, text, tags[] */
+/* Statement: krátka veta / zoznam štítkov. props: kicker, text, tags[]
+   Bez vety sa hlavnou stane nadpisová línia (kicker): číslo na začiatku veľké a napočíta sa, zvyšok veľkým písmom. */
 const Statement: React.FC<P> = ({ p, prev }) => {
   const pal = useTheme();
-  const k = useEnter(0, !prev || prev.kicker !== p.kicker, 20);
-  const t = useEnter(4, !prev || prev.text !== p.text);
-  const text = str(p.text);
+  const kFresh = !prev || prev.kicker !== p.kicker;
+  const bigKick = !p.text && !!p.kicker;
+  // veľké číslo naskočí až po prepnutí farieb z blueprintu (Episode prepína paletu v 0,15 s úderu), inak by bliklo zlaté
+  const k = useEnter(bigKick ? 5 : 0, kFresh, 20);
+  const t = useEnter(bigKick ? 9 : 4, !prev || prev.text !== p.text);
+  const km = bigKick ? str(p.kicker).match(/^(\d[\d,.]*%?)\s+(.*)$/) : null;
+  const num = useRoll(km?.[1], 5, kFresh, 18);
+  const text = bigKick ? (km ? km[2] : str(p.kicker)) : str(p.text);
   const kickS = fitMono(str(p.kicker), COL_W, 28, 14, 8 / 28);
   // veta sa zalamuje po slovách: najdlhšie slovo sa musí zmestiť do stĺpca a riadkov má byť najviac 4
   let textS = 96;
   for (const w of text.split(/\s+/)) textS = Math.min(textS, fitInter(w, COL_W, 96, 40, 900, -3 / 96));
   while (textS > 56 && wrapLines(text, textS, COL_W, 900, -3 / 96) > 4) textS *= 0.94;
+  const numS = km ? fitInter(km[1], COL_W, 300, 120, 900, -3 / 96, true) : 0;
+  if (bigKick) {
+    return (
+      <Area>
+        {km && (
+          <div style={{ ...k, fontFamily: SANS, fontWeight: 900, fontSize: numS, letterSpacing: numS * (-3 / 96), color: pal.name === "blueprint" ? ACCENT.gold : pal.ink, lineHeight: 0.9, fontVariantNumeric: "tabular-nums", whiteSpace: "nowrap" }}>
+            {num}
+          </div>
+        )}
+        <div style={{ ...t, fontFamily: SANS, fontWeight: 900, fontSize: textS, letterSpacing: textS * (-3 / 96), color: pal.ink, lineHeight: 1.02, textAlign: "center", textWrap: "balance", maxWidth: COL_W, marginTop: km ? 18 : 0 }}>
+          {text}
+        </div>
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 26, marginTop: 50 }}>
+          {(p.tags ?? []).map((tag: TagT, i: number) => (
+            <StatTag key={i} tag={tag} delay={12 + i * 8} fresh={!prev?.tags?.[i] || !same(prev.tags[i], tag)} />
+          ))}
+        </div>
+      </Area>
+    );
+  }
   return (
     <Area>
       {p.kicker && (
@@ -202,4 +296,4 @@ const Outro: React.FC<P> = ({ p }) => {
   );
 };
 
-export const SCENES: Record<string, React.FC<P>> = { Hero, PriceList, Views, Anchor, Compare, Statement, Outro };
+export const SCENES: Record<string, React.FC<P>> = { Hero, PriceList, Views, Anchor, Compare, Statement, Outro, Crowd };

@@ -1,44 +1,44 @@
 {
  "model": "cloudflare:@cf/openai/gpt-oss-120b",
  "errors": [
-  "beat 11 Compare: after card 1 must not be null (null is only for before)",
-  "beat 12 Compare: after card 1 changed (between Compare beats only badge and top may change)"
+  "beat 1 Hero: sub too long (28 > 22)",
+  "beat 9 Views: label too long (11 > 10)",
+  "beats 10,11 Compare: before card 2 title too long (19 > 16)",
+  "beats 10,11 Compare: after card 2 title too long (19 > 16)"
  ],
+ "plan": {
+  "paradox": "A bundle wins, even though a cheaper plan looks cheaper.",
+  "odd_fact": "Print-only never gets chosen, yet it's listed alongside the bundle.",
+  "twist": "The unused print-only option works as a decoy.",
+  "cause": "The $125 print-only option, priced the same as the bundle but offering less, pushes students toward the $125 bundle (84% choose it). Removing it drops bundle choice to 32% and raises the $59 web plan to 68%.",
+  "everyday": "A bakery offers plain croissant $2, chocolate croissant $3, almond croissant $3; the almond croissant serves as a decoy, making the chocolate croissant feel like the smart pick.",
+  "rule": "If an option never gets chosen, it's probably a decoy. Follow for more."
+ },
  "id": "economist-decoy",
- "case": "USELESS OPTION",
- "title": "Decoy Effect: How a Useless Option Shifts Your Choice",
- "caption": "A useless subscription tier pushes students to the pricier bundle. See the same trick in everyday purchases.",
+ "case": "DECOY EFFECT",
+ "title": "The Decoy Effect: How a Useless Option Drives Choices",
+ "caption": "An unused subscription plan can steer you toward the bundle. #Psychology #Pricing",
  "source": "Dan Ariely, Predictably Irrational (2008)",
  "beats": [
   {
-   "say": "A $125 combo beats a cheaper $59 plan.",
+   "say": "A bundle wins, even though a cheaper plan looks cheaper.",
    "scene": "Hero",
    "props": {
     "art": "newspaper",
-    "tag": "SURPRISING",
-    "title": "Combo Wins",
-    "sub": "$125 beats $59"
+    "tag": "BUNDLE",
+    "title": "Decoy Effect",
+    "sub": "Useless option pushes bundle"
    }
   },
   {
-   "say": "All because of a useless option.",
-   "scene": "Hero",
-   "props": {
-    "art": "newspaper",
-    "tag": "SURPRISING",
-    "title": "Combo Wins",
-    "sub": "$125 beats $59"
-   }
-  },
-  {
-   "say": "The Economist lists a print-only subscription for $125.",
+   "say": "Print-only, same price as the full package, no web.",
    "scene": "PriceList",
    "props": {
     "slots": 3,
     "cards": [
      {
-      "title": "Print Only",
-      "sub": "Paper edition",
+      "title": "Print-only",
+      "sub": "Print edition",
       "price": "$125",
       "priceRed": true,
       "art": "printer"
@@ -47,20 +47,20 @@
    }
   },
   {
-   "say": "They also offer web-only for $59.",
+   "say": "Web-only, digital access for less money.",
    "scene": "PriceList",
    "props": {
     "slots": 3,
     "cards": [
      {
-      "title": "Print Only",
-      "sub": "Paper edition",
+      "title": "Print-only",
+      "sub": "Print edition",
       "price": "$125",
       "priceRed": true,
       "art": "printer"
      },
      {
-      "title": "Web Only",
+      "title": "Web-only",
       "sub": "Digital access",
       "price": "$59",
       "art": "laptop"
@@ -69,27 +69,27 @@
    }
   },
   {
-   "say": "And a print plus web bundle for $125.",
+   "say": "Print plus web, full experience for the same price as print-only.",
    "scene": "PriceList",
    "props": {
     "slots": 3,
     "cards": [
      {
-      "title": "Print Only",
-      "sub": "Paper edition",
+      "title": "Print-only",
+      "sub": "Print edition",
       "price": "$125",
       "priceRed": true,
       "art": "printer"
      },
      {
-      "title": "Web Only",
+      "title": "Web-only",
       "sub": "Digital access",
       "price": "$59",
       "art": "laptop"
      },
      {
       "title": "Print + Web",
-      "sub": "Both formats",
+      "sub": "Full experience",
       "price": "$125",
       "art": "newspaper"
      }
@@ -97,198 +97,146 @@
    }
   },
   {
-   "say": "The bundle gets a green 'most popular' badge.",
+   "say": "Nobody ever picks print-only. Looks useless.",
    "scene": "PriceList",
    "props": {
     "slots": 3,
     "cards": [
      {
-      "title": "Print Only",
-      "sub": "Paper edition",
+      "title": "Print-only",
+      "sub": "Print edition",
       "price": "$125",
       "priceRed": true,
-      "art": "printer"
+      "art": "printer",
+      "tags": [
+       "NO PICKS"
+      ]
      },
      {
-      "title": "Web Only",
+      "title": "Web-only",
       "sub": "Digital access",
       "price": "$59",
       "art": "laptop"
      },
      {
       "title": "Print + Web",
-      "sub": "Both formats",
+      "sub": "Full experience",
       "price": "$125",
-      "art": "newspaper",
-      "badge": {
-       "text": "MOST POPULAR",
-       "tone": "green"
-      }
+      "art": "newspaper"
      }
     ]
    }
   },
   {
-   "say": "The print-only card is just a bait.",
+   "say": "But it's a decoy that pushes the bundle.",
    "scene": "PriceList",
    "mode": "blueprint",
    "props": {
     "slots": 3,
     "cards": [
      {
-      "title": "Print Only",
-      "sub": "Paper edition",
+      "title": "Print-only",
+      "sub": "Print edition",
       "price": "$125",
       "priceRed": true,
       "art": "printer",
-      "stamp": "BAIT"
+      "tags": [
+       "NO PICKS"
+      ],
+      "stamp": "DECOY"
      },
      {
-      "title": "Web Only",
+      "title": "Web-only",
       "sub": "Digital access",
       "price": "$59",
       "art": "laptop"
      },
      {
       "title": "Print + Web",
-      "sub": "Both formats",
+      "sub": "Full experience",
       "price": "$125",
-      "art": "newspaper",
-      "badge": {
-       "text": "MOST POPULAR",
-       "tone": "green"
-      }
+      "art": "newspaper"
      }
     ]
    }
   },
   {
-   "say": "It steers you toward the pricier combo.",
+   "say": "With the decoy present, 84 of 100 students choose the bundle.",
    "scene": "Statement",
    "props": {
-    "kicker": "WHAT THE BAIT DOES",
-    "text": "It steers you toward the pricier combo.",
+    "kicker": "84 OF 100 CHOOSE BUNDLE",
     "tags": [
-     "STEERS CHOICE",
-     "BOOSTS REVENUE"
+     "DECOY EFFECT"
     ]
    }
   },
   {
-   "say": "With the decoy, 84 out of 100 pick the combo.",
+   "say": "Take away the $125 print-only and the bundle drops to 32, while the $59 web plan climbs to 68.",
    "scene": "Anchor",
    "props": {
-    "job": "WITH DECOY",
+    "job": "MIT EXPERIMENT",
     "price": "$125",
-    "at": 0,
-    "split": 1,
-    "art": "printer",
+    "at": 0.6,
+    "split": 0.8,
+    "art": "banknote",
     "anchor": {
-     "label": "Print only = $125",
-     "art": "printer"
+     "label": "Now a bargain",
+     "art": "percent"
     }
    }
   },
   {
-   "say": "Without it, only 32 choose the combo.",
-   "scene": "Anchor",
+   "say": "Now $125 feels like a bargain because the alternative looks the same but offers less.",
+   "scene": "Views",
    "props": {
-    "job": "WITHOUT DECOY",
-    "price": "$125",
-    "at": 0,
-    "split": 0,
-    "art": "newspaper",
-    "anchor": {
-     "label": "Only combo",
-     "art": "newspaper"
-    }
+    "job": "STUDENTS",
+    "label": "PICK BUNDLE",
+    "value": 84,
+    "from": 0,
+    "suffix": "%",
+    "art": "percent"
    }
   },
   {
-   "say": "A bakery sells small cake $10 and large cake $20.",
+   "say": "You see it everywhere. A bakery lists plain croissant $2, chocolate croissant $3, almond croissant $3.",
    "scene": "Compare",
    "props": {
     "before": [
      null,
      {
-      "title": "Small Cake",
-      "sub": "Plain",
-      "price": "$10",
+      "title": "Chocolate Croissant",
+      "price": "$3",
       "art": "cake-slice"
      },
      {
-      "title": "Large Cake",
-      "sub": "Vanilla",
-      "price": "$20",
-      "art": "cake"
-     }
-    ],
-    "after": [
-     null,
-     {
-      "title": "Small Cake",
-      "sub": "Plain",
-      "price": "$10",
-      "art": "cake-slice"
-     },
-     {
-      "title": "Large Cake",
-      "sub": "Vanilla",
-      "price": "$20",
-      "art": "cake"
-     }
-    ],
-    "labels": [
-     "BEFORE",
-     "AFTER"
-    ]
-   }
-  },
-  {
-   "say": "Add a frosted cake $20 as a decoy; the large cake becomes the smart choice.",
-   "scene": "Compare",
-   "props": {
-    "before": [
-     null,
-     {
-      "title": "Small Cake",
-      "sub": "Plain",
-      "price": "$10",
-      "art": "cake-slice"
-     },
-     {
-      "title": "Large Cake",
-      "sub": "Vanilla",
-      "price": "$20",
+      "title": "Plain Croissant",
+      "price": "$2",
       "art": "cake"
      }
     ],
     "after": [
      {
-      "title": "Frosted Cake",
-      "sub": "Extra frosting",
-      "price": "$20",
+      "title": "Almond Croissant",
+      "price": "$3",
       "art": "cake",
       "top": {
-       "text": "EXTREME",
+       "text": "DECOY",
        "tone": "red"
       }
      },
      {
-      "title": "Small Cake",
-      "sub": "Plain",
-      "price": "$10",
-      "art": "cake-slice"
-     },
-     {
-      "title": "Large Cake",
-      "sub": "Vanilla",
-      "price": "$20",
-      "art": "cake",
+      "title": "Chocolate Croissant",
+      "price": "$3",
+      "art": "cake-slice",
       "badge": {
        "text": "SMART CHOICE",
        "tone": "green"
       }
+     },
+     {
+      "title": "Plain Croissant",
+      "price": "$2",
+      "art": "cake"
      }
     ],
     "labels": [
@@ -298,14 +246,55 @@
    }
   },
   {
-   "say": "Decoys steer your choices.",
-   "scene": "Statement",
+   "say": "Now the $3 chocolate croissant feels smart, because the $3 almond one adds nothing extra.",
+   "scene": "Compare",
    "props": {
-    "text": "Decoys steer your choices."
+    "before": [
+     null,
+     {
+      "title": "Chocolate Croissant",
+      "price": "$3",
+      "art": "cake-slice"
+     },
+     {
+      "title": "Plain Croissant",
+      "price": "$2",
+      "art": "cake"
+     }
+    ],
+    "after": [
+     {
+      "title": "Almond Croissant",
+      "price": "$3",
+      "art": "cake",
+      "top": {
+       "text": "DECOY",
+       "tone": "red"
+      }
+     },
+     {
+      "title": "Chocolate Croissant",
+      "price": "$3",
+      "art": "cake-slice",
+      "badge": {
+       "text": "SMART CHOICE",
+       "tone": "green"
+      }
+     },
+     {
+      "title": "Plain Croissant",
+      "price": "$2",
+      "art": "cake"
+     }
+    ],
+    "labels": [
+     "BEFORE",
+     "AFTER"
+    ]
    }
   },
   {
-   "say": "Decoys steer your choices. Follow for more.",
+   "say": "If nothing ever chooses an option, suspect a decoy. Follow for more.",
    "scene": "Outro",
    "props": {}
   }

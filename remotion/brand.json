@@ -6,10 +6,10 @@
   "stamp": "TRAPPED",
   "bait_stamp": "BAIT",
   "cta": "FOLLOW FOR MORE →",
-  "voice": "en-US-GuyNeural",
-  "rate": "+4%",
+  "voice": "orpheus:troy",
+  "rate": "+20%",
   "hashtags": "#pricing #psychology #marketing #money #consumer",
-  "music": "assets/music/backed-vibes-clean.mp3",
-  "music_credit": "Music: \"Backed Vibes Clean\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
-  "music_gain": 0.10
+  "music": "assets/music/cut-and-run.mp3",
+  "music_credit": "Music: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+  "music_gain": 0.13
 }

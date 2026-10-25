@@ -4,7 +4,7 @@
 import React from "react";
 import { Easing, interpolate, useCurrentFrame } from "remotion";
 import { ACCENT, CardT, COL_W, MONO, SANS, TagT, useTheme } from "./theme";
-import { Art, Stamp, Tag, tagOf, useEnter, usePop } from "./Paper";
+import { Art, Stamp, Tag, tagOf, useEnter, usePop, useRoll } from "./Paper";
 import { fitInter, fitMono, interEm, layoutTags, tagH, tagW } from "./fit";
 
 const same = (a: unknown, b: unknown) => JSON.stringify(a) === JSON.stringify(b);
@@ -14,18 +14,40 @@ const tagTexts = (tags?: TagT[]) => (tags ?? []).map((t) => str(tagOf(t).text));
 /* ---------- ProductCard (veľká karta v cenníku) ---------- */
 const ART_COL = 360; // ľavý stĺpec karty (ikona / auto)
 const TXT_W = COL_W - 6 - ART_COL - 30; // 444: šírka textového stĺpca (rámik 2 × 3, odsadenie vpravo 30)
+const SUB_LH = 1.3;
+/** Štítky na karte: v jednom riadku až 28 px (čitateľné aj na mobile), keď sa nezmestia, starý režim 18 -> 15 px s zalomením. */
+const cardTags = (texts: string[]) => {
+  const big = layoutTags(texts, TXT_W, 28, 18, 10);
+  return big.rows <= 1 ? big : layoutTags(texts, TXT_W, 18, 15, 10);
+};
 
-export const ProductCard: React.FC<{ card: CardT; prev?: CardT; fresh: boolean; delay?: number; height?: number }> = ({
-  card, prev, fresh, delay = 0, height = 250,
+/** Kde na karte končí cena: x = pravý okraj ceny, y = jej stred (súradnice karty). Rovnaké výpočty ako ProductCard,
+ *  textový stĺpec je zvisle centrovaný, preto treba výšku celého bloku. null = karta nemá cenu. */
+export const priceAnchor = (card: CardT, height = 250): { x: number; y: number } | null => {
+  if (!card?.price) return null;
+  const titleS = fitInter(str(card.title), TXT_W, 50, 24, 900, -0.03);
+  const subH = card.sub ? 8 + fitMono(str(card.sub), TXT_W, 20, 12, 0.2) * SUB_LH : 0;
+  const priceS = fitInter(str(card.price), TXT_W, 62, 26, 900, -2 / 62);
+  const tl = cardTags(tagTexts(card.tags));
+  const tagsH = tl.rows ? 12 + tl.rows * tagH(tl.size) + (tl.rows - 1) * 8 : 0;
+  const block = titleS + subH + 6 + priceS * 1.05 + tagsH;
+  const top = 3 + (height - 6 - block) / 2;
+  return { x: 3 + ART_COL + interEm(str(card.price), 900, -2 / 62, true) * priceS, y: top + titleS + subH + 6 + (priceS * 1.05) / 2 };
+};
+
+export const ProductCard: React.FC<{ card: CardT; prev?: CardT; fresh: boolean; delay?: number; height?: number; idle?: number }> = ({
+  card, prev, fresh, delay = 0, height = 250, idle,
 }) => {
   const pal = useTheme();
   const enter = useEnter(delay, fresh);
-  const priceIn = useEnter(delay + 6, fresh || prev?.price !== card.price, 16);
+  const newPrice = fresh || prev?.price !== card.price;
+  const priceIn = useEnter(delay + 6, newPrice, 16);
+  const price = useRoll(card.price, delay + 6, newPrice);
   // každý text sa zmestí do stĺpca zmenšením písma (žiadne ellipsis, žiadne zalomenie)
   const titleS = fitInter(str(card.title), TXT_W, 50, 24, 900, -0.03);
   const subS = fitMono(str(card.sub), TXT_W, 20, 12, 0.2);
   const priceS = fitInter(str(card.price), TXT_W, 62, 26, 900, -2 / 62);
-  const tl = layoutTags(tagTexts(card.tags), TXT_W, 18, 15, 10);
+  const tl = cardTags(tagTexts(card.tags));
   return (
     <div
       style={{
@@ -34,14 +56,14 @@ export const ProductCard: React.FC<{ card: CardT; prev?: CardT; fresh: boolean; 
       }}
     >
       <div style={{ width: ART_COL, display: "flex", justifyContent: "center", alignItems: "center", paddingTop: card.badge ? 0 : 20, paddingBottom: card.badge ? 28 : 0 }}>
-        <Art kind={card.art ?? "car"} width={300} />
+        <Art kind={card.art ?? "car"} width={300} draw={fresh || prev?.art !== card.art ? delay + 2 : undefined} idle={idle} />
       </div>
       <div style={{ flex: 1, paddingRight: 30, minWidth: 0 }}>
         <div style={{ fontFamily: SANS, fontWeight: 900, fontSize: titleS, color: pal.ink, letterSpacing: titleS * -0.03, lineHeight: 1, whiteSpace: "nowrap" }}>
           {card.title}
         </div>
         {card.sub && (
-          <div style={{ fontFamily: MONO, fontSize: subS, letterSpacing: subS * 0.2, color: pal.muted, marginTop: 8, fontWeight: 500, whiteSpace: "nowrap" }}>
+          <div style={{ fontFamily: MONO, fontSize: subS, letterSpacing: subS * 0.2, color: pal.muted, marginTop: 8, fontWeight: 500, whiteSpace: "nowrap", lineHeight: SUB_LH }}>
             {card.sub}
           </div>
         )}
@@ -49,10 +71,10 @@ export const ProductCard: React.FC<{ card: CardT; prev?: CardT; fresh: boolean; 
           <div
             style={{
               ...priceIn, fontFamily: SANS, fontWeight: 900, fontSize: priceS, letterSpacing: priceS * (-2 / 62), lineHeight: 1.05, marginTop: 6,
-              color: card.priceRed ? ACCENT.red : pal.ink, whiteSpace: "nowrap",
+              color: card.priceRed ? ACCENT.red : pal.ink, whiteSpace: "nowrap", fontVariantNumeric: "tabular-nums",
             }}
           >
-            {card.price}
+            {price}
           </div>
         )}
         {card.tags && card.tags.length > 0 && (
@@ -131,7 +153,7 @@ export const AnchorSlider: React.FC<{
           </div>
         )}
         <div style={{ width: 3, height: 24, background: pal.cardLine, marginBottom: -6 }} />
-        <Art kind={art} width={260} />
+        <Art kind={art} width={260} idle={2} />
       </div>
       <div
         style={{
@@ -202,6 +224,7 @@ const MiniCard: React.FC<{ card: CardT | null; prev?: CardT | null; delay: numbe
   const fresh = !same(strip(card), strip(prev));
   const enter = useEnter(delay, fresh, 24);
   const badgePop = usePop(delay + 8, fresh || !same(card?.badge, prev?.badge));
+  const price = useRoll(card?.price, delay + 4, fresh);
   if (!card) return <EmptySlot height={height} width="100%" />;
   const L = miniLayout(card);
   const green = card.badge && tagOf(card.badge).tone === "green";
@@ -230,7 +253,7 @@ const MiniCard: React.FC<{ card: CardT | null; prev?: CardT | null; delay: numbe
         </div>
       )}
       {card.price && (
-        <div style={{ fontFamily: SANS, fontWeight: 900, fontSize: L.priceS, color: pal.ink, letterSpacing: L.priceS * (-1.5 / 46), lineHeight: 1.05, marginTop: 4, whiteSpace: "nowrap" }}>{card.price}</div>
+        <div style={{ fontFamily: SANS, fontWeight: 900, fontSize: L.priceS, color: pal.ink, letterSpacing: L.priceS * (-1.5 / 46), lineHeight: 1.05, marginTop: 4, whiteSpace: "nowrap", fontVariantNumeric: "tabular-nums" }}>{price}</div>
       )}
       {card.badge && (
         <div style={{ position: "absolute", right: 14, bottom: 22, ...badgePop }}>
@@ -310,7 +333,7 @@ const Thumb: React.FC<{ w: number; delay: number; fresh: boolean; label: string;
       }}
     >
       <div style={{ position: "absolute", left: 10, top: 8, fontFamily: MONO, fontSize: 15, fontWeight: 700, color: pal.name === "blueprint" ? ACCENT.gold : pal.muted, whiteSpace: "nowrap" }}>{label}</div>
-      <Art kind={art} width={w * 0.78} />
+      <Art kind={art} width={w * 0.78} idle={delay} />
     </div>
   );
 };
@@ -330,7 +353,7 @@ export const LogoOutro: React.FC<{ stamp?: string; logo: string; tagline: string
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%" }}>
       <div style={{ ...a, position: "relative", height: 230, display: "flex", alignItems: "center", justifyContent: "center" }}>
-        <Art kind={art} width={420} />
+        <Art kind={art} width={420} draw={2} idle={0} />
         {stamp && (
           <div style={{ position: "absolute", left: 0, right: 0, top: 40, display: "flex", justifyContent: "center" }}>
             <Stamp text={stamp} size={96} maxWidth={COL_W - 40} delay={8} />
