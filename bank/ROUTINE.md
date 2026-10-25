@@ -1,4 +1,4 @@
-# Rutina „PriceTrap – banka skriptov“ (Claude, každé 3 dni)
+# Rutina „Plain Sight – banka skriptov“ (Claude, každé 3 dni)
 
 Cieľ: v `bank/scripts/` je vždy **5 nepoužitých skriptov** (hotové story.json), ktoré denný beh v cloude
 (`tools/run.py`) premení na video. Free model píše len vtedy, keď je banka prázdna. Rutina beží v Claude
@@ -27,14 +27,26 @@ tu **negeneruje** (šetrí PC aj dennú kvótu Orpheus).
 7. Kontrola: `python -I -X utf8 tools/lint.py bank/scripts/<súbor>` musí vypísať `OK`. Opravuj podľa chýb,
    najviac 3 kolá; ak stále neprejde, súbor zmaž a prípad preskoč (zapíš do správy prečo).
 8. Potom checklist zo `SCRIPT_GUIDE.md` (10 otázok) – každá odpoveď ÁNO, inak oprav.
-9. Ak ostáva < 10 nepoužitých prípadov v `bank/cases.json`, len to napíš do správy (nové prípady pridáva
+9. **Nezávislá recenzia (brána pred pushom).** Pre každý nový skript spusti agenta `setrny-recenzent`
+   (model `opus`, len číta) so zadaním: „Posúď skript `bank/scripts/<súbor>` podľa `bank/REVIEW.md`, prípad
+   `<id>` je v `bank/cases.json`. Vráť VERDIKT a PROBLÉMY presne podľa REVIEW.md.“ Svoj plán ani zdôvodnenie mu
+   nedávaj. Pri `FAIL` skript prepíš podľa PROBLÉMOV, znova lint a znova recenzia – najviac 2 kolá opráv.
+   Keď ani potom nedostane `PASS`, súbor zmaž (je tvoj nový, necommitnutý) a prípad preskoč (do správy prečo).
+   Bez `PASS` skript nikdy necommitni.
+10. Ak ostáva < 10 nepoužitých prípadov v `bank/cases.json`, len to napíš do správy (nové prípady pridáva
    Damián s Claude ručne, s overenými zdrojmi – rutina si fakty nevymýšľa).
-10. Git: `git add bank/scripts` a `git commit -m "bank: +N skriptov (<id>, …)"`.
-    **PUSH: ZAKÁZANÝ** – kým tu nebude napísané „PUSH: POVOLENÝ (dátum, Damián)“. Bez pushu cloud skripty nevidí.
-11. Správa (po slovensky, 2–4 riadky): koľko skriptov bolo, koľko pribudlo (id + hák), čo neprešlo, koľko
+11. Git: commitni len nové skripty s `PASS`: `git add bank/scripts/<súbory>` a
+    `git commit -m "bank: +N skriptov (<id>, …)"`.
+    **PUSH: POVOLENÝ (2026-10-25, Damián)** – len skripty, ktoré prešli lintom aj recenziou. Postup:
+    - `git fetch nextbyte` a `git log --oneline nextbyte/main..HEAD`: ak tam je iný commit než tvoje `bank:`
+      commity z tohto behu, **nepushuj** (lokálne je rozrobená práca) a napíš to do správy.
+    - `git pull --rebase --autostash nextbyte main`; pri konflikte `git rebase --abort`, nepushuj, napíš to.
+    - `git push nextbyte HEAD:main`. Nikdy `--force`. Bez pushu cloud skripty nevidí.
+12. Správa (po slovensky, 2–4 riadky): koľko skriptov bolo, koľko pribudlo (id + hák), čo neprešlo, koľko
     prípadov ostáva, či sa pushlo.
 
 ## Zákazy
 
 Žiadne kľúče/heslá/tokeny (neotvárať ani nevypisovať `.env`), žiadne platené služby, žiadne volania TTS
-ani renderu, nemazať nič mimo vlastných nových súborov v `bank/scripts/`, nemeniť kód ani `state.json`.
+ani renderu, nemazať nič mimo vlastných nových súborov v `bank/scripts/`, nemeniť kód ani `state.json`,
+nepushovať nič okrem vlastných `bank:` commitov.

@@ -1,6 +1,6 @@
-# PriceTrap Script Guide
+# Plain Sight Script Guide
 
-How to write the spoken narration for one PriceTrap episode (TikTok / Reels / Shorts, 1080x1920, 40-55 s,
+How to write the spoken narration for one Plain Sight episode (TikTok / Reels / Shorts, 1080x1920, 40-55 s,
 voice: Groq Orpheus "troy"). Followed by the Claude routine and by the free-model fallback. Every rule is meant to be
 checked, not interpreted. Scene props and card limits live in `SPEC.md`; this file is only about the words.
 

@@ -1,9 +1,8 @@
-name: PriceTrap Daily
+name: Plain Sight Daily
 
 on:
-  # Cron zapnúť až po skúšobnom behu, novom mene kanálov a napojení Bufferu (repo je bývalý NextByte):
-  # schedule:
-  #   - cron: "10 6 * * *"   # 06:10 UTC, jedno video denne
+  schedule:   # neplatný BUFFER_TOKEN = beh skončí pred renderom (červený, prípad ostáva)
+    - cron: "10 6 * * *"   # 06:10 UTC, jedno video denne, Buffer ho naplánuje na 19:00 Bratislava
   workflow_dispatch:
     inputs:
       case:
@@ -12,7 +11,7 @@ on:
         required: false
         default: ""
       no_post:
-        description: "true = len vyrobiť video (bez GitHub Release a bez zápisu stavu)"
+        description: "true = len vyrobiť video (bez GitHub Release, Bufferu a zápisu stavu)"
         type: boolean
         required: false
         default: false
@@ -21,7 +20,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: pricetrap
+  group: plainsight
   cancel-in-progress: false
 
 jobs:
@@ -51,7 +50,7 @@ jobs:
         run: npx remotion browser ensure
         working-directory: remotion
 
-      - name: Epizóda (autor -> prep -> render -> GitHub Release)
+      - name: Epizóda (autor -> prep -> render -> GitHub Release -> Buffer)
         env:
           # MODELS_TOKEN = Groq kľúč fabrík (už je v repe); GROQ_API_KEY má prednosť, ak ho niekto pridá
           MODELS_TOKEN: ${{ secrets.GROQ_API_KEY || secrets.MODELS_TOKEN }}
@@ -60,6 +59,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BUFFER_TOKEN: ${{ secrets.BUFFER_TOKEN }}   # platí 90 dní (Buffer účet +history)
           CASE_ID: ${{ github.event.inputs.case }}
           NO_POST: ${{ github.event.inputs.no_post }}
         run: |
@@ -72,7 +72,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: pricetrap-${{ github.run_number }}
+          name: plainsight-${{ github.run_number }}
           path: output/*
           retention-days: 7
           if-no-files-found: ignore
@@ -80,9 +80,9 @@ jobs:
       - name: Persist state
         if: always()
         run: |
-          git config user.name "pricetrap-bot"
-          git config user.email "pricetrap-bot@users.noreply.github.com"
+          git config user.name "plainsight-bot"
+          git config user.email "plainsight-bot@users.noreply.github.com"
           git add state.json episodes bank/scripts
-          git diff --cached --quiet || git commit -m "pricetrap: ep $(date -u +%F)"
+          git diff --cached --quiet || git commit -m "plainsight: ep $(date -u +%F)"
           git pull --rebase || true
-          git push || true
+          git push   # bez || true: nezapisany stav = dalsi beh by diel poslal znova, beh musi byt cerveny

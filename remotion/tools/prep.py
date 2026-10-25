@@ -437,7 +437,7 @@ def main():
     subprocess.run([FF, "-y", "-loglevel", "error", "-i", os.path.join(cache, "voice.wav"), "-b:a", "160k",
                     os.path.join(out, "voice.mp3")], check=True)
 
-    brand = cfg.get("brand", "PRICE TRAP")
+    brand = cfg.get("brand", "PLAIN SIGHT")
     ep = {"brand": brand, "header": cfg.get("header") or brand, "case": spec.get("case", ""),
           "source": spec.get("source", ""), "logo": cfg.get("logo", brand), "tagline": cfg.get("tagline", ""),
           "stamp": cfg.get("stamp", ""), "cta": cfg.get("cta", ""), "bait_stamp": cfg.get("bait_stamp", ""),

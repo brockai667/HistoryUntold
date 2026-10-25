@@ -1,10 +1,11 @@
-# PriceTrap
+# Plain Sight
 
-Fabrika č. 4: denne jedno video 1080×1920 (55–75 s) o skutočnom, zdokumentovanom cenovom triku (návnada, kotva,
+„Everyday things you never noticed.“ Fabrika (bývalý NextByte, repo HistoryUntold): denne jedno video 1080×1920 (55–75 s) o skutočnom, zdokumentovanom cenovom triku (návnada, kotva,
 charm pricing, bundling...) a o tom istom triku v bežnom živote. Všetko zadarmo a bez PC:
 
-GitHub Actions cron → bezplatný model (Cloudflare Workers AI `gpt-oss-120b`, záloha Groq) ako autor → edge-tts (hlas) → Remotion (render) → GitHub Release `ep-NNN`
-(video + popisok, Damián nahrá z mobilu). Buffer zatiaľ nie (kanály neexistujú, v `tools/run.py` je stub `publish_buffer()`).
+GitHub Actions cron → skript z `bank/scripts/` (píše Claude rutina, recenzia `bank/REVIEW.md`; záloha free model) → Orpheus troy
+(hlas) → Remotion (render) → GitHub Release `ep-NNN` → Buffer (`tools/buffer.py`: TikTok, IG Reels, YT Shorts o 19:00
+Bratislava, kanály `historyuntold667` → `plainsight667`).
 
 Celý kontrakt (formát story, scény, pravidlá lintu, prompt autora) je v `SPEC.md`.
 
@@ -52,7 +53,8 @@ Offline test opravného kola: `python tools/write_case.py <id> --case-file x.jso
 
 ## Beh v GitHub Actions
 
-Workflow `PriceTrap Daily` beží denne o 06:10 UTC. Ručne: Actions → PriceTrap Daily → Run workflow
+Workflow `Plain Sight Daily` beží denne o 06:10 UTC. Ručne: Actions → Plain Sight Daily → Run workflow
 (`case` = id prípadu, `no_post` = len vyrobiť video). Výsledok je v Releases (`ep-NNN`: video, popisok, obal) a ako
 artefakt 7 dní. Secrets: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `GROQ_API_KEY` (záloha), voliteľne `GEMINI_API_KEY`
-(`GITHUB_TOKEN` dodá GitHub). Buffer zatiaľ netreba.
+(`GITHUB_TOKEN` dodá GitHub), `BUFFER_TOKEN` (platí 90 dní; neplatný token = beh skončí pred renderom a prípad ostane).
+Kontrola tokenu: `python tools/buffer.py --check`.

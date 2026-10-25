@@ -57,7 +57,7 @@ hammer wrench paintbrush palette briefcase landmark shield heart car car-red car
 
 # Autor pise v dvoch krokoch: 1) PRIBEH = len hlas po uderoch + plan (model sa sustredi na rozpravanie, lint_story ho
 # skontroluje), 2) STAVBA = props k schvalenemu hlasu (texty `say` sa po odpovedi prepisu schvalenym znenim).
-HEAD = '''You write one episode of "PRICE TRAP": a 50–65 second vertical video (TikTok/Reels). Calm male voice, short spoken
+HEAD = '''You write one episode of "PLAIN SIGHT": a 50–65 second vertical video (TikTok/Reels). Calm male voice, short spoken
 sentences, dry wit. The screen is a paper price report: price cards on beige paper and one dark-blue "blueprint" moment
 when the trick is exposed. THE SCREEN SHOWS THE DATA (cards, prices, tags). THE VOICE TELLS A STORY ABOUT IT.
 
@@ -265,7 +265,7 @@ def call(backend, model, messages, max_tokens):
         body = json.dumps(body_for(backend, model, messages, max_tokens, reasoning)).encode()
         req = urllib.request.Request(BASES[backend] + "/chat/completions", data=body, headers={
             "Authorization": f"Bearer {key}", "Content-Type": "application/json", "User-Agent": "PriceTrap/1.0",
-            "HTTP-Referer": "https://github.com/brockai667", "X-Title": "PriceTrap"})
+            "HTTP-Referer": "https://github.com/brockai667", "X-Title": "PlainSight"})
         try:
             with urllib.request.urlopen(req, timeout=300) as r:
                 ch = json.loads(r.read())["choices"][0]
