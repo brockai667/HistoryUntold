@@ -3,7 +3,7 @@
   1) skript: najstarsi z bank/scripts/ (pise ho Claude rutina kazde 3 dni, musi prejst lintom);
      ak je banka skriptov prazdna, fallback: Groq napise story.json k prvemu nepouzitemu pripadu (write_case.py)
   2) prep (hlas Orpheus troy, inak edge-tts) + Remotion render  3) obal a popisok
-  4) GitHub Release ep-NNN (video + popisok)  5) Buffer: TikTok, IG Reels, YT Shorts o 19:00 (tools/buffer.py)
+  4) GitHub Release ep-NNN (video + popisok)  5) Buffer: TikTok, IG Reels, YT Shorts o 8:00 (tools/buffer.py)
   6) stav do state.json, skript do bank/scripts/used/; neplatny BUFFER_TOKEN = koniec pred renderom (pripad ostava)
     python tools/run.py [--case ID] [--no-post] [--force]
 --case ID  = konkretny pripad cez autora (bez --case: banka skriptov, potom prvy nepouzity pripad; max 2 pokusy autora)

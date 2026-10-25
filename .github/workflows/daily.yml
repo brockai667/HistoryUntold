@@ -2,7 +2,7 @@ name: Plain Sight Daily
 
 on:
   schedule:   # neplatný BUFFER_TOKEN = beh skončí pred renderom (červený, prípad ostáva)
-    - cron: "10 6 * * *"   # 06:10 UTC, jedno video denne, Buffer ho naplánuje na 19:00 Bratislava
+    - cron: "10 6 * * *"   # 06:10 UTC, jedno video denne, Buffer ho naplánuje na 8:00 Bratislava (ďalší deň)
   workflow_dispatch:
     inputs:
       case:

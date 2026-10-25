@@ -18,7 +18,7 @@ CHANNELS = [
     {"id": "6a3f7ec15ab6d2f1067979fd", "service": "instagram"},
     {"id": "6a3f7ed05ab6d2f106797a1d", "service": "youtube"},
 ]
-SLOT_HOUR = 19          # Europe/Bratislava = 13:00 New York (obed USA, vecer EU), jeden post denne
+SLOT_HOUR = 8           # Europe/Bratislava rano (Damian 25.10.; USA je vtedy v noci), jeden post denne
 YT_CATEGORY = "27"      # Education
 
 

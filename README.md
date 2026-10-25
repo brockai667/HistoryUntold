@@ -4,7 +4,7 @@
 charm pricing, bundling...) a o tom istom triku v bežnom živote. Všetko zadarmo a bez PC:
 
 GitHub Actions cron → skript z `bank/scripts/` (píše Claude rutina, recenzia `bank/REVIEW.md`; záloha free model) → Orpheus troy
-(hlas) → Remotion (render) → GitHub Release `ep-NNN` → Buffer (`tools/buffer.py`: TikTok, IG Reels, YT Shorts o 19:00
+(hlas) → Remotion (render) → GitHub Release `ep-NNN` → Buffer (`tools/buffer.py`: TikTok, IG Reels, YT Shorts o 8:00
 Bratislava, kanály `historyuntold667` → `plainsight667`).
 
 Celý kontrakt (formát story, scény, pravidlá lintu, prompt autora) je v `SPEC.md`.
