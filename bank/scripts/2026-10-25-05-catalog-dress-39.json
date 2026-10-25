@@ -1,0 +1,58 @@
+{
+ "id": "catalog-dress-39",
+ "case": "THE MAGIC NINE",
+ "title": "The dress that sold better for more",
+ "caption": "Ever bought something because the price just felt right?\nOne dress, three prices, one strange winner.",
+ "source": "Anderson & Simester, Harvard Business Review (2003)",
+ "beats": [
+  {"say": "Ever bought something because the price just felt right?", "scene": "Hero",
+   "props": {"art": "tag", "tag": {"text": "BE HONEST", "tone": "yellow"}, "title": "FELT RIGHT?", "sub": "WHY THAT PRICE?"}},
+  {"say": "You probably did. Look how the prices on your receipt end.", "scene": "Statement",
+   "props": {"kicker": "YOU PROBABLY DID", "text": "LOOK HOW PRICES END"}},
+  {"say": "Eric Anderson and Duncan Simester reported a catalog test. One dress, three prices.", "scene": "Statement",
+   "props": {"kicker": "HARVARD BUSINESS REVIEW", "text": "ONE DRESS, THREE PRICES"}},
+  {"say": "First, the dress at $34.", "scene": "PriceList",
+   "props": {"slots": 3, "cards": [
+    {"title": "Same dress", "sub": "Low price", "price": "$34", "art": "shirt"}]}},
+  {"say": "Then at $39.", "scene": "PriceList",
+   "props": {"slots": 3, "cards": [
+    {"title": "Same dress", "sub": "Low price", "price": "$34", "art": "shirt"},
+    {"title": "Same dress", "sub": "Middle price", "price": "$39", "art": "shirt"}]}},
+  {"say": "And at $44.", "scene": "PriceList",
+   "props": {"slots": 3, "cards": [
+    {"title": "Same dress", "sub": "Low price", "price": "$34", "art": "shirt"},
+    {"title": "Same dress", "sub": "Middle price", "price": "$39", "art": "shirt"},
+    {"title": "Same dress", "sub": "High price", "price": "$44", "art": "shirt"}]}},
+  {"say": "Higher price, yet demand jumped by a third.", "scene": "PriceList",
+   "props": {"slots": 3, "point": [0, 1], "cards": [
+    {"title": "Same dress", "sub": "Low price", "price": "$34", "art": "shirt"},
+    {"title": "Same dress", "sub": "Middle price", "price": "$39", "art": "shirt", "tags": [{"text": "A THIRD MORE", "tone": "green"}]},
+    {"title": "Same dress", "sub": "High price", "price": "$44", "art": "shirt"}]}},
+  {"say": "The highest price? Same demand as the lowest.", "scene": "PriceList",
+   "props": {"slots": 3, "point": [0, 2], "cards": [
+    {"title": "Same dress", "sub": "Low price", "price": "$34", "art": "shirt"},
+    {"title": "Same dress", "sub": "Middle price", "price": "$39", "art": "shirt", "tags": [{"text": "A THIRD MORE", "tone": "green"}]},
+    {"title": "Same dress", "sub": "High price", "price": "$44", "art": "shirt", "tags": [{"text": "NO CHANGE", "tone": "plain"}]}]}},
+  {"say": "Why? The authors say prices ending in 9 signal a good deal.", "scene": "PriceList", "mode": "blueprint",
+   "props": {"slots": 3, "cards": [
+    {"title": "Same dress", "sub": "Low price", "price": "$34", "art": "shirt"},
+    {"title": "Same dress", "sub": "Middle price", "price": "$39", "art": "shirt", "stamp": "THE 9", "tags": [{"text": "SAYS GOOD DEAL", "tone": "yellow"}]},
+    {"title": "Same dress", "sub": "High price", "price": "$44", "art": "shirt"}]}},
+  {"say": "So you skip the real question: cheaper than what?", "scene": "PriceList",
+   "props": {"slots": 3, "point": [1, 0], "cards": [
+    {"title": "Same dress", "sub": "Low price", "price": "$34", "art": "shirt"},
+    {"title": "Same dress", "sub": "Middle price", "price": "$39", "art": "shirt", "stamp": "THE 9", "tags": [{"text": "SAYS GOOD DEAL", "tone": "yellow"}, {"text": "CHEAP VS WHAT?", "tone": "blue"}]},
+    {"title": "Same dress", "sub": "High price", "price": "$44", "art": "shirt"}]}},
+  {"say": "That's charm pricing.", "scene": "Statement",
+   "props": {"kicker": "PRICES ENDING IN 9", "text": "CHARM PRICING"}},
+  {"say": "Back to your receipt. T-shirt, $18. Umbrella, $12.", "scene": "Compare",
+   "props": {"before": [{"title": "T-shirt", "price": "$18", "art": "shirt"}, {"title": "Umbrella", "price": "$12", "art": "umbrella"}],
+    "after": [null, null], "labels": ["BEFORE", "AFTER"]}},
+  {"say": "Make the T-shirt $19. Now it feels like a deal.", "scene": "Compare",
+   "props": {"before": [{"title": "T-shirt", "price": "$18", "art": "shirt"}, {"title": "Umbrella", "price": "$12", "art": "umbrella"}],
+    "after": [{"title": "T-shirt", "price": "$19", "art": "shirt", "badge": {"text": "LIKE A DEAL", "tone": "yellow"}}, {"title": "Umbrella", "price": "$12", "art": "umbrella"}], "labels": ["BEFORE", "AFTER"]}},
+  {"say": "Price feels just right? Check the price, not the feeling.", "scene": "Statement",
+   "props": {"kicker": "FEELS JUST RIGHT?", "text": "CHECK THE PRICE, NOT THE FEELING"}},
+  {"say": "Which price ending got you last time?", "scene": "Outro", "props": {}}
+ ]
+}
