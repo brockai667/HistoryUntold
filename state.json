@@ -1,1 +1,25 @@
-{"next_ep": 1, "used": [], "episodes": {}}
+{
+ "next_ep": 2,
+ "used": [
+  "economist-decoy"
+ ],
+ "episodes": {
+  "1": {
+   "id": "economist-decoy",
+   "title": "The option nobody picked",
+   "posted_at": "2026-10-25T18:54:25+00:00",
+   "release": "ep-001",
+   "author": "claude-bank",
+   "text": "Ever picked the bigger size because it felt like a steal?\nThe option nobody buys is doing a job.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-001/001-economist-decoy.mp4",
+   "buffer": [
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-10-26T18:09:00+00:00"
+  }
+ },
+ "buffer_last_due": "2026-10-26T18:09:00+00:00"
+}
