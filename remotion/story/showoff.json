@@ -1,0 +1,90 @@
+{
+  "brand": "DECOY",
+  "case": "THE SHOW-OFF",
+  "voice": "en-US-GuyNeural",
+  "rate": "+4%",
+  "gap": 0.25,
+  "tail": 1.5,
+  "caption": "The flying car nobody buys is the best salesman in the showroom. #pricing #psychology #marketing",
+  "beats": [
+    { "say": "This car flies. And it isn't for sale.", "scene": "Hero",
+      "props": { "art": "car-fly", "tag": { "text": "NOT FOR SALE", "tone": "red" } } },
+
+    { "say": "But it's the first thing on the price list.", "scene": "PriceList",
+      "props": { "slots": 3, "cards": [
+        { "title": "ROCKET", "sub": "AIR READY", "art": "car-fly" } ] } },
+
+    { "say": "No price. Invite only. Below it, a $250,000 reservation.", "scene": "PriceList",
+      "props": { "slots": 3, "cards": [
+        { "title": "ROCKET", "sub": "AIR READY", "art": "car-fly", "price": "NO PRICE", "priceRed": true,
+          "tags": [ { "text": "FLIES", "tone": "blue" }, { "text": "INVITE ONLY", "tone": "dark" } ] },
+        { "title": "THRUST", "sub": "RACE READY", "art": "car", "price": "$250,000", "tags": [ "RESERVATION" ] } ] } },
+
+    { "say": "And at the bottom, the one you can actually buy. $50,000 to reserve.", "scene": "PriceList",
+      "props": { "slots": 3, "cards": [
+        { "title": "ROCKET", "sub": "AIR READY", "art": "car-fly", "price": "NO PRICE", "priceRed": true,
+          "tags": [ { "text": "FLIES", "tone": "blue" }, { "text": "INVITE ONLY", "tone": "dark" } ] },
+        { "title": "THRUST", "sub": "RACE READY", "art": "car", "price": "$250,000",
+          "tags": [ "RESERVATION", { "text": "LIMITED", "tone": "yellow" } ] },
+        { "title": "PERFORMANCE", "sub": "ROAD READY", "art": "car-red", "price": "$50,000", "tags": [ "DRIVES" ] } ] } },
+
+    { "say": "Nobody owns the flying one. Looks useless.", "scene": "PriceList",
+      "props": { "slots": 3, "cards": [
+        { "title": "ROCKET", "sub": "AIR READY", "art": "car-fly", "price": "NO PRICE", "priceRed": true, "tags": [ "OWNERS = 0" ] },
+        { "title": "THRUST", "sub": "RACE READY", "art": "car", "price": "$250,000",
+          "tags": [ "RESERVATION", { "text": "LIMITED", "tone": "yellow" } ] },
+        { "title": "PERFORMANCE", "sub": "ROAD READY", "art": "car-red", "price": "$50,000", "tags": [ "DRIVES" ] } ] } },
+
+    { "say": "But it does a job. It's a decoy.", "scene": "PriceList", "mode": "blueprint",
+      "props": { "slots": 3, "cards": [
+        { "title": "ROCKET", "sub": "AIR READY", "art": "car-fly", "price": "NO PRICE", "priceRed": true, "tags": [ "OWNERS = 0" ], "stamp": "DECOY" },
+        { "title": "THRUST", "sub": "RACE READY", "art": "car", "price": "$250,000", "tags": [ "RESERVATION", "LIMITED" ] },
+        { "title": "PERFORMANCE", "sub": "ROAD READY", "art": "car", "price": "$50,000", "tags": [ "DRIVES", "TO RESERVE" ] } ] } },
+
+    { "say": "Actually, it has two jobs.", "scene": "Statement", "mode": "blueprint",
+      "props": { "kicker": "WHAT THE DECOY DOES", "tags": [ "JOB 1 · GETS WATCHED", "JOB 2 · MOVES THE ANCHOR" ] } },
+
+    { "say": "Job one: get watched. A flying car pulls a million views, free ads for the whole lineup.", "scene": "Views", "mode": "blueprint",
+      "props": { "job": "JOB 1 · GETS WATCHED", "label": "VIEWS", "value": 1000000, "suffix": "+", "grid": 8, "thumbLabel": "▶ 1.2M" } },
+
+    { "say": "Job two: it moves the anchor. Alone, $50,000 feels expensive.", "scene": "Anchor",
+      "props": { "job": "JOB 2 · MOVES THE ANCHOR", "price": "$50,000", "at": 0.6, "split": 0.42 } },
+
+    { "say": "Float a flying car above it, and the same price starts to sound reasonable.", "scene": "Anchor",
+      "props": { "job": "JOB 2 · MOVES THE ANCHOR", "price": "$50,000", "at": 0.6, "split": 0.8,
+                 "anchor": { "label": "THE ANCHOR · FLIES", "art": "car-fly" } } },
+
+    { "say": "You see it everywhere. A bakery adds a $1,900 cake for two hundred guests.", "scene": "Compare",
+      "props": {
+        "before": [ null,
+          { "title": "Birthday cake", "sub": "SERVES 12", "price": "$45" },
+          { "title": "Cupcake", "sub": "ONE", "price": "$4" } ],
+        "after": [
+          { "title": "Cake · 200 guests", "sub": "BIG PARTY", "price": "$1,900", "top": { "text": "EXTREME", "tone": "red" } },
+          { "title": "Birthday cake", "sub": "SERVES 12", "price": "$45" },
+          { "title": "Cupcake", "sub": "ONE", "price": "$4" } ] } },
+
+    { "say": "A coach adds a VIP plan, by application only.", "scene": "Compare",
+      "props": {
+        "before": [ null,
+          { "title": "1:1 coaching", "sub": "PER MONTH", "price": "$300" },
+          { "title": "Group call", "sub": "PER MONTH", "price": "$49" } ],
+        "after": [
+          { "title": "VIP coaching", "sub": "BY APPLICATION ONLY", "tags": [ { "text": "APPLY →", "tone": "dark" } ], "top": { "text": "EXTREME", "tone": "red" } },
+          { "title": "1:1 coaching", "sub": "PER MONTH", "price": "$300" },
+          { "title": "Group call", "sub": "PER MONTH", "price": "$49" } ] } },
+
+    { "say": "Suddenly, $300 a month isn't pricey. It's the smart choice.", "scene": "Compare",
+      "props": {
+        "before": [ null,
+          { "title": "1:1 coaching", "sub": "PER MONTH", "price": "$300", "badge": "PRICEY?" },
+          { "title": "Group call", "sub": "PER MONTH", "price": "$49" } ],
+        "after": [
+          { "title": "VIP coaching", "sub": "BY APPLICATION ONLY", "tags": [ { "text": "APPLY →", "tone": "dark" } ], "top": { "text": "EXTREME", "tone": "red" } },
+          { "title": "1:1 coaching", "sub": "PER MONTH", "price": "$300", "badge": { "text": "SMART CHOICE", "tone": "green" } },
+          { "title": "Group call", "sub": "PER MONTH", "price": "$49" } ] } },
+
+    { "say": "If something isn't for sale, ask what it's selling. Follow for more.", "scene": "Outro",
+      "props": { "stamp": "DECOYED", "logo": "DECOY", "tagline": "THE TRICKS BEHIND WHAT YOU BUY", "cta": "FOLLOW FOR MORE →", "art": "car-fly" } }
+  ]
+}

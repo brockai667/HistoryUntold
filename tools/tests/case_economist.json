@@ -1,0 +1,25 @@
+{
+ "id": "economist-decoy",
+ "case": "THE USELESS OPTION",
+ "trick": "decoy effect",
+ "subject": "The Economist's three subscription options in Dan Ariely's MIT experiment",
+ "year": 2008,
+ "names": [
+  "The Economist",
+  "Dan Ariely",
+  "MIT"
+ ],
+ "facts": [
+  "The Economist offered web-only for $59, print-only for $125 and print plus web for $125.",
+  "With all three options, 84 of 100 MIT students picked print plus web, 16 picked web-only, nobody picked print-only.",
+  "Without the print-only option, 68 picked web-only and only 32 picked print plus web."
+ ],
+ "lesson": "An option nobody picks can still change what everybody picks.",
+ "icons": {
+  "hero": "newspaper",
+  "bait": "newspaper",
+  "real": "laptop"
+ },
+ "source": "Dan Ariely, Predictably Irrational (2008)",
+ "confidence": "high"
+}

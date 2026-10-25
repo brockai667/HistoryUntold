@@ -1,87 +1,88 @@
-name: HistoryUntold Daily
+name: PriceTrap Daily
 
 on:
-  schedule:
-    - cron: "47 2 * * *"   # rozhadzane (anti rate-limit GitHub Models)
-  workflow_dispatch: {}    # umoznuje rucne spustenie z GitHub UI
+  # Cron zapnúť až po skúšobnom behu, novom mene kanálov a napojení Bufferu (repo je bývalý NextByte):
+  # schedule:
+  #   - cron: "10 6 * * *"   # 06:10 UTC, jedno video denne
+  workflow_dispatch:
+    inputs:
+      case:
+        description: "ID prípadu z bank/cases.json (prázdne = prvý nepoužitý)"
+        type: string
+        required: false
+        default: ""
+      no_post:
+        description: "true = len vyrobiť video (bez GitHub Release a bez zápisu stavu)"
+        type: boolean
+        required: false
+        default: false
 
 permissions:
-  contents: write          # aby mohol commitnut stav (used_topics.json, pushed.json, topics_bank.json)
-  models: read             # pristup k GitHub Models (generovanie tem zadarmo)
+  contents: write
 
 concurrency:
-  group: daily
+  group: pricetrap
   cancel-in-progress: false
 
 jobs:
-  generate-and-post:
+  episode:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Install FFmpeg + fonts
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
-
-      - name: Install Python deps
-        run: pip install edge-tts requests cloudinary kokoro-onnx soundfile Pillow faster-whisper scipy numpy
-
-      - name: Cache TTS/STT modely (setri ~340MB kokoro + whisper kazdy beh)
-        uses: actions/cache@v4
+      - uses: actions/setup-node@v4
         with:
-          path: |
-            kokoro
-            ~/.cache/huggingface
-          key: pro-models-v1
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: remotion/package-lock.json
 
-      - name: Prepare config
-        run: cp config.example.json config.json
+      - name: System deps (ffmpeg, Chrome libs)
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg libnss3 libatk-bridge2.0-0 libgbm1 libasound2t64 libxkbcommon0 libxcomposite1 libxdamage1 libxrandr2
+      - name: Python deps
+        run: pip install edge-tts numpy soundfile requests faster-whisper
+      - name: Node deps
+        run: npm ci --no-audit --no-fund
+        working-directory: remotion
+      - name: Chrome pre Remotion
+        run: npx remotion browser ensure
+        working-directory: remotion
 
-      - name: Top up topic bank (GitHub Models, free)
-        continue-on-error: true   # ak by zlyhalo, dennny beh aj tak pokracuje z existujucich tem
+      - name: Epizóda (autor -> prep -> render -> GitHub Release)
         env:
-          MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}
-          MODELS_BASE_URL: https://api.groq.com/openai/v1
-          MODELS_MODEL: openai/gpt-oss-120b
-          MODELS_FALLBACK: openai/gpt-oss-20b
-          YT_API_KEY: ${{ secrets.YT_API_KEY }}
-        run: python generate_topics.py
-
-      - name: Generate 3 videos + push to Buffer
-        env:
-          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
-          BUFFER_TOKEN: ${{ secrets.BUFFER_TOKEN }}
-          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
-          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
-          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # GitHub Release hosting videa
+          # MODELS_TOKEN = Groq kľúč fabrík (už je v repe); GROQ_API_KEY má prednosť, ak ho niekto pridá
+          MODELS_TOKEN: ${{ secrets.GROQ_API_KEY || secrets.MODELS_TOKEN }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY || secrets.MODELS_TOKEN }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CASE_ID: ${{ github.event.inputs.case }}
+          NO_POST: ${{ github.event.inputs.no_post }}
         run: |
-          python generate_batch.py 3
-          python push_to_buffer.py 3
+          args=()
+          if [ -n "$CASE_ID" ]; then args+=(--case "$CASE_ID"); fi
+          if [ "$NO_POST" = "true" ]; then args+=(--no-post); fi
+          python -u tools/run.py "${args[@]}"
 
-      - name: Retry failed Buffer posts (auto-heal)
-        continue-on-error: true
-        env:
-          BUFFER_TOKEN: ${{ secrets.BUFFER_TOKEN }}
-        run: python retry_failed.py
-
-      - name: Cleanup old Cloudinary videos (free tier hygiene)
-        continue-on-error: true
-        env:
-          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
-          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
-          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
-        run: python cleanup_cloudinary.py
+      - name: Video ako artefakt (kontrola, 7 dní)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pricetrap-${{ github.run_number }}
+          path: output/*
+          retention-days: 7
+          if-no-files-found: ignore
 
       - name: Persist state
+        if: always()
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          rm -f config.json
-          git add used_topics.json pushed.json topics_bank.json scripts/ 2>/dev/null || true
-          git commit -m "state: daily run $(date -u +%F)" || echo "no changes to commit"
-          git push || echo "nothing to push"
+          git config user.name "pricetrap-bot"
+          git config user.email "pricetrap-bot@users.noreply.github.com"
+          git add state.json episodes bank/scripts
+          git diff --cached --quiet || git commit -m "pricetrap: ep $(date -u +%F)"
+          git pull --rebase || true
+          git push || true

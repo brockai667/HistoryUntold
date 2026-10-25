@@ -1,0 +1,913 @@
+{
+ "cases": [
+  {
+   "id": "economist-decoy",
+   "case": "THE USELESS OPTION",
+   "trick": "decoy effect",
+   "subject": "The Economist's three subscription options in Dan Ariely's MIT experiment",
+   "year": 2008,
+   "names": [
+    "The Economist",
+    "The Economist's",
+    "Economist",
+    "Dan Ariely",
+    "Ariely",
+    "MIT",
+    "Predictably Irrational"
+   ],
+   "facts": [
+    "The Economist offered web-only for $59, print-only for $125 and print plus web for $125.",
+    "With all three options, 84 of 100 MIT students picked print plus web, 16 picked web-only, nobody picked print-only.",
+    "Without the print-only option, 68 picked web-only and only 32 picked print plus web.",
+    "Dan Ariely described the test in his 2008 book Predictably Irrational."
+   ],
+   "lesson": "An option nobody picks can still change what everybody picks.",
+   "icons": {
+    "hero": "newspaper",
+    "bait": "newspaper",
+    "real": "laptop"
+   },
+   "source": "Dan Ariely, Predictably Irrational (2008)",
+   "confidence": "high"
+  },
+  {
+   "id": "apple-watch-edition",
+   "case": "THE GOLD WATCH",
+   "trick": "anchor (premium decoy)",
+   "subject": "The 2015 Apple Watch lineup, with an 18-karat gold Edition priced far above the Sport and steel models",
+   "year": 2015,
+   "names": [
+    "Apple",
+    "Apple's",
+    "Apple Watch",
+    "Apple Watch Sport",
+    "Apple Watch Edition",
+    "Watch",
+    "Edition",
+    "Sport"
+   ],
+   "facts": [
+    "In 2015, the Apple Watch Sport started at $349 and the stainless steel Apple Watch at $549.",
+    "The 18-karat gold Apple Watch Edition cost $10,000 to $17,000.",
+    "The gold Edition ran the same software and did the same things as the $349 Sport.",
+    "In 2016, Apple replaced the gold Edition with a white ceramic Edition from $1,249."
+   ],
+   "lesson": "A $17,000 watch makes a $549 watch feel sensible.",
+   "icons": {
+    "hero": "watch",
+    "bait": "crown",
+    "real": "watch"
+   },
+   "source": "Apple press releases (2015, 2016)",
+   "confidence": "high"
+  },
+  {
+   "id": "costco-hot-dog",
+   "case": "$1.50 HOT DOG",
+   "trick": "loss leader",
+   "subject": "Costco's hot dog and soda combo frozen at $1.50, and the membership fees that pay the bills",
+   "year": 2024,
+   "names": [
+    "Costco",
+    "Costco's",
+    "Craig Jelinek",
+    "Jelinek",
+    "Jim Sinegal",
+    "Sinegal",
+    "CEO",
+    "US",
+    "Canada"
+   ],
+   "facts": [
+    "Costco has sold a hot dog and soda combo for $1.50 since 1985.",
+    "Craig Jelinek, Costco's CEO from 2012 to 2023, recalled co-founder Jim Sinegal saying: 'If you raise the effing hot dog, I will kill you.'",
+    "In 2024, Costco raised its basic membership fee in the US and Canada from $60 to $65 a year.",
+    "In fiscal 2024, Costco collected $4.83 billion in membership fees, and its net income was $7.37 billion."
+   ],
+   "lesson": "The $1.50 hot dog sells the $65 membership.",
+   "icons": {
+    "hero": "shopping-cart",
+    "bait": "sandwich",
+    "real": "credit-card"
+   },
+   "source": "Costco annual report (FY2024); press interviews",
+   "confidence": "high"
+  },
+  {
+   "id": "gym-flat-fee",
+   "case": "THE EMPTY GYM",
+   "trick": "flat-fee membership",
+   "subject": "Monthly gym contracts versus pay-per-visit passes in a study of three US health clubs",
+   "year": 2006,
+   "names": [
+    "Stefano DellaVigna",
+    "DellaVigna",
+    "Ulrike Malmendier",
+    "Malmendier",
+    "American Economic Review",
+    "Paying Not to Go to the Gym",
+    "US"
+   ],
+   "facts": [
+    "Economists Stefano DellaVigna and Ulrike Malmendier tracked 7,752 members of three US health clubs over three years.",
+    "Members on monthly contracts paid over $70 a month and went to the gym 4.3 times a month on average.",
+    "That worked out to more than $17 per visit, while a 10-visit pass cost $10 per visit.",
+    "On average, these members gave up $600 in savings during their membership.",
+    "Their 2006 paper is called 'Paying Not to Go to the Gym'."
+   ],
+   "lesson": "A flat fee profits from every visit you skip.",
+   "icons": {
+    "hero": "dumbbell",
+    "bait": "credit-card",
+    "real": "ticket"
+   },
+   "source": "DellaVigna & Malmendier, American Economic Review (2006)",
+   "confidence": "high"
+  },
+  {
+   "id": "catalog-dress-39",
+   "case": "THE MAGIC NINE",
+   "trick": "charm pricing",
+   "subject": "A women's clothing catalog test of the same dress at $34, $39 and $44",
+   "year": 2003,
+   "names": [
+    "Eric Anderson",
+    "Anderson",
+    "Duncan Simester",
+    "Simester",
+    "Harvard Business Review",
+    "HBR",
+    "Mind Your Pricing Cues"
+   ],
+   "facts": [
+    "A women's clothing catalog tested the same dress at three prices: $34, $39 and $44.",
+    "Raising the price from $34 to $39 increased demand by a third.",
+    "Raising it from $34 to $44 made no difference in demand.",
+    "The authors list prices ending in 9 among the cues that signal a good deal to shoppers.",
+    "Eric Anderson and Duncan Simester reported the test in Harvard Business Review in 2003."
+   ],
+   "lesson": "A price ending in 9 can outsell a lower price.",
+   "icons": {
+    "hero": "shirt",
+    "bait": "tag",
+    "real": "shirt"
+   },
+   "source": "Anderson & Simester, Harvard Business Review (2003)",
+   "confidence": "high"
+  },
+  {
+   "id": "free-kiss",
+   "case": "THE FREE KISS",
+   "trick": "zero price (free)",
+   "subject": "A chocolate test where a free Hershey's Kiss beat a 14-cent Lindt truffle",
+   "year": 2008,
+   "names": [
+    "Lindt",
+    "Hershey's",
+    "Hershey",
+    "Hershey's Kiss",
+    "Hershey's Kisses",
+    "Kiss",
+    "Kisses",
+    "Dan Ariely",
+    "Ariely",
+    "Predictably Irrational"
+   ],
+   "facts": [
+    "Dan Ariely and colleagues sold Lindt truffles for 15 cents and Hershey's Kisses for 1 cent.",
+    "At those prices, 73% of buyers chose the truffle and 27% chose the Kiss.",
+    "Then both prices dropped by 1 cent, to 14 cents and free, and 69% took the free Kiss.",
+    "Only 31% still bought the truffle, though the price gap was still 14 cents.",
+    "Ariely describes the test in his 2008 book Predictably Irrational."
+   ],
+   "lesson": "Free makes you stop comparing.",
+   "icons": {
+    "hero": "candy",
+    "bait": "gift",
+    "real": "candy"
+   },
+   "source": "Dan Ariely, Predictably Irrational (2008)",
+   "confidence": "high"
+  },
+  {
+   "id": "disney-bundle",
+   "case": "THE STREAMING BUNDLE",
+   "trick": "bundling",
+   "subject": "The 2019 Disney+, Hulu and ESPN+ bundle priced below the three separate subscriptions",
+   "year": 2019,
+   "names": [
+    "Disney",
+    "Disney's",
+    "Disney+",
+    "Disney Plus",
+    "Hulu",
+    "ESPN",
+    "ESPN+",
+    "ESPN Plus",
+    "US",
+    "The Walt Disney Company"
+   ],
+   "facts": [
+    "Disney+ launched in the US in 2019 at $6.99 a month.",
+    "Disney also sold Disney+, Hulu with ads and ESPN+ together for $12.99 a month.",
+    "Bought separately, Disney+, Hulu with ads and ESPN+ cost $6.99, $5.99 and $4.99, or $17.97 in total.",
+    "Disney said Disney+ had passed 10 million sign-ups one day after launch."
+   ],
+   "lesson": "A bundle discount often sells you things you never wanted.",
+   "icons": {
+    "hero": "tv",
+    "bait": "package",
+    "real": "tv"
+   },
+   "source": "The Walt Disney Company announcements (2019)",
+   "confidence": "high"
+  },
+  {
+   "id": "netflix-qwikster",
+   "case": "THE SPLIT PLAN",
+   "trick": "unbundling (price hike)",
+   "subject": "Netflix's 2011 split of its DVD-plus-streaming plan into two separately priced plans",
+   "year": 2011,
+   "names": [
+    "Netflix",
+    "Netflix's",
+    "Reed Hastings",
+    "Hastings",
+    "Qwikster",
+    "DVD",
+    "DVDs",
+    "US",
+    "CEO"
+   ],
+   "facts": [
+    "In 2011, Netflix split its $9.99 plan for DVDs by mail plus streaming into two plans of $7.99 each.",
+    "Customers who kept both paid $15.98 a month, a 60% price increase.",
+    "Netflix lost 800,000 US subscribers in the third quarter of 2011.",
+    "CEO Reed Hastings wrote: 'I messed up. I owe everyone an explanation.'",
+    "Netflix also planned to rename its DVD service Qwikster, then dropped the idea weeks later."
+   ],
+   "lesson": "Split a bundle and every price starts to hurt.",
+   "icons": {
+    "hero": "clapperboard",
+    "bait": "mail",
+    "real": "tv"
+   },
+   "source": "Netflix blog and shareholder letter (2011)",
+   "confidence": "high"
+  },
+  {
+   "id": "ps3-console-loss",
+   "case": "THE LOSING CONSOLE",
+   "trick": "razor-and-blades",
+   "subject": "Sony selling the 2006 PlayStation 3 below its estimated build cost",
+   "year": 2006,
+   "names": [
+    "Sony",
+    "Sony's",
+    "PlayStation",
+    "PlayStation 3",
+    "PS3",
+    "iSuppli",
+    "Fortune"
+   ],
+   "facts": [
+    "In 2006, Sony launched the PlayStation 3 at $499 with a 20GB drive and $599 with 60GB.",
+    "Research firm iSuppli estimated the parts and assembly cost $805.85 and $840.35.",
+    "That meant Sony lost $306.85 on each $499 console and $241.35 on each $599 one.",
+    "The estimate did not even include the controller, cables or packaging.",
+    "Sony counted on making the money back from games."
+   ],
+   "lesson": "The console is the razor; the games are the blades.",
+   "icons": {
+    "hero": "gamepad-2",
+    "bait": "gamepad-2",
+    "real": "tv"
+   },
+   "source": "iSuppli estimate, reported by Fortune (2006)",
+   "confidence": "high"
+  },
+  {
+   "id": "amazon-prime-iliad",
+   "case": "THE ILIAD",
+   "trick": "subscription trap",
+   "subject": "Amazon Prime's easy sign-up and its 'Iliad' cancellation flow in the FTC case",
+   "year": 2023,
+   "names": [
+    "Amazon",
+    "Amazon's",
+    "Amazon Prime",
+    "Prime",
+    "FTC",
+    "Federal Trade Commission",
+    "Iliad",
+    "Homer",
+    "Homer's",
+    "Trojan War",
+    "US"
+   ],
+   "facts": [
+    "Amazon Prime launched in 2005 at $79 a year for unlimited two-day shipping.",
+    "By 2022, Prime cost $139 a year in the US.",
+    "In 2023, the FTC sued Amazon, saying it pushed people into Prime and made cancelling hard.",
+    "Amazon's internal name for the cancellation process was 'Iliad', after Homer's epic of the long Trojan War.",
+    "In 2025, Amazon agreed to pay $2.5 billion: $1 billion in penalties and $1.5 billion in refunds.",
+    "Amazon did not admit any wrongdoing in the settlement."
+   ],
+   "lesson": "If joining takes one click, count the clicks to leave.",
+   "icons": {
+    "hero": "package",
+    "bait": "truck",
+    "real": "lock"
+   },
+   "source": "FTC v. Amazon complaint (2023); settlement (2025)",
+   "confidence": "high"
+  },
+  {
+   "id": "stubhub-hidden-fees",
+   "case": "THE CHECKOUT FEE",
+   "trick": "drip pricing (hidden fees)",
+   "subject": "StubHub's randomized test of showing ticket fees upfront versus only at checkout",
+   "year": 2021,
+   "names": [
+    "StubHub",
+    "StubHub's",
+    "Marketing Science",
+    "FTC",
+    "Federal Trade Commission",
+    "US"
+   ],
+   "facts": [
+    "StubHub showed half of its US users ticket prices with all fees included from the start.",
+    "The other half saw the fees only at checkout.",
+    "Those who saw fees only at checkout spent 21% more and were 14% more likely to buy.",
+    "Economists published the results in the journal Marketing Science in 2021.",
+    "A US FTC rule requiring all-in prices for live-event tickets took effect in 2025."
+   ],
+   "lesson": "The price before fees is not the price.",
+   "icons": {
+    "hero": "ticket",
+    "bait": "ticket",
+    "real": "receipt"
+   },
+   "source": "Blake et al., Marketing Science (2021)",
+   "confidence": "high"
+  },
+  {
+   "id": "oasis-in-demand",
+   "case": "THE QUEUE PRICE",
+   "trick": "surge pricing",
+   "subject": "Ticketmaster's 'in demand' pricing in the 2024 Oasis reunion ticket sale",
+   "year": 2024,
+   "names": [
+    "Oasis",
+    "Ticketmaster",
+    "Ticketmaster's",
+    "UK",
+    "UK's",
+    "Ireland",
+    "Competition and Markets Authority",
+    "CMA",
+    "BBC"
+   ],
+   "facts": [
+    "In 2024, tickets for the Oasis reunion tour went on sale in the UK and Ireland.",
+    "Some standing tickets first listed at £148.50 rose to £355 under Ticketmaster's 'in demand' pricing.",
+    "Many fans only saw the higher price after waiting hours in an online queue.",
+    "The UK's Competition and Markets Authority then opened an investigation into Ticketmaster."
+   ],
+   "lesson": "When demand spikes, the price can change while you wait.",
+   "icons": {
+    "hero": "music",
+    "bait": "ticket",
+    "real": "ticket"
+   },
+   "source": "BBC News (2024); CMA (2024)",
+   "confidence": "high"
+  },
+  {
+   "id": "jcpenney-fair-square",
+   "case": "THE HONEST PRICE",
+   "trick": "reference prices (high-low sales)",
+   "subject": "JCPenney's 2012 switch from constant sales and coupons to everyday 'Fair and Square' prices",
+   "year": 2012,
+   "names": [
+    "JCPenney",
+    "JCPenney's",
+    "J.C. Penney",
+    "Penney",
+    "Ron Johnson",
+    "Johnson",
+    "Fair and Square",
+    "CEO"
+   ],
+   "facts": [
+    "In 2012, new CEO Ron Johnson replaced JCPenney's constant sales and coupons with everyday 'Fair and Square' prices.",
+    "That year, JCPenney's sales fell 25% and the company lost $985 million.",
+    "The board fired Johnson in 2013, after 17 months as CEO.",
+    "After he left, JCPenney brought back sales and coupons."
+   ],
+   "lesson": "Shoppers chase the feeling of a discount, not low prices.",
+   "icons": {
+    "hero": "shopping-bag",
+    "bait": "percent",
+    "real": "tag"
+   },
+   "source": "JCPenney annual report (2012); Reuters (2013)",
+   "confidence": "high"
+  },
+  {
+   "id": "toblerone-gaps",
+   "case": "THE MISSING PEAKS",
+   "trick": "shrinkflation",
+   "subject": "Toblerone's 2016 UK bars that got lighter by widening the gaps between the peaks",
+   "year": 2016,
+   "names": [
+    "Toblerone",
+    "Toblerone's",
+    "Mondelez",
+    "UK"
+   ],
+   "facts": [
+    "In 2016, Toblerone's 400g bar in the UK shrank to 360g, and the 170g bar shrank to 150g.",
+    "Owner Mondelez made the gaps between the chocolate peaks wider instead of raising the price.",
+    "Mondelez blamed higher costs for many ingredients.",
+    "Shoppers spotted the wider gaps, and the change made headlines worldwide."
+   ],
+   "lesson": "Check the weight on the pack, not just the price.",
+   "icons": {
+    "hero": "candy",
+    "bait": "candy",
+    "real": "scale"
+   },
+   "source": "BBC News (2016)",
+   "confidence": "high"
+  },
+  {
+   "id": "starbucks-short",
+   "case": "THE HIDDEN SIZE",
+   "trick": "menu design (hidden size)",
+   "subject": "Starbucks' off-menu 8-ounce Short below the Tall, Grande and Venti on the board",
+   "year": 2006,
+   "names": [
+    "Starbucks",
+    "Starbucks'",
+    "Tim Harford",
+    "Harford",
+    "Slate",
+    "Short",
+    "Tall",
+    "Grande",
+    "Venti",
+    "The Undercover Economist"
+   ],
+   "facts": [
+    "Starbucks makes an 8-ounce Short, but usually leaves it off the menu board.",
+    "The board starts at the 12-ounce Tall, then the 16-ounce Grande and the 20-ounce hot Venti.",
+    "A Short latte and a Tall latte both get one espresso shot.",
+    "In 2006, economist Tim Harford argued the hidden Short lets Starbucks charge more to customers who don't ask."
+   ],
+   "lesson": "The cheapest option is often the one they don't show.",
+   "icons": {
+    "hero": "coffee",
+    "bait": "cup-soda",
+    "real": "coffee"
+   },
+   "source": "Tim Harford, Slate (2006)",
+   "confidence": "high"
+  },
+  {
+   "id": "tesla-model-3",
+   "case": "THE $35,000 CAR",
+   "trick": "bait price",
+   "subject": "Tesla's $35,000 Model 3 headline price and how hard that version was to buy",
+   "year": 2016,
+   "names": [
+    "Tesla",
+    "Tesla's",
+    "Model 3",
+    "Long Range",
+    "Standard Range",
+    "Elon Musk",
+    "Musk"
+   ],
+   "facts": [
+    "In 2016, Elon Musk unveiled the Tesla Model 3 with a starting price of $35,000.",
+    "One week later, Tesla reported 325,000 reservations, each with a $1,000 deposit.",
+    "Tesla first built the Long Range version, which started at $44,000.",
+    "The $35,000 Standard Range version finally went on sale in 2019.",
+    "Weeks later, Tesla stopped selling it online; buyers had to call or visit a store."
+   ],
+   "lesson": "The advertised price is often the one you can't get.",
+   "icons": {
+    "hero": "zap",
+    "bait": "key",
+    "real": "key"
+   },
+   "source": "Tesla announcements (2016-2019)",
+   "confidence": "high"
+  },
+  {
+   "id": "de-beers-salary",
+   "case": "TWO MONTHS' SALARY",
+   "trick": "anchor (suggested budget)",
+   "subject": "De Beers' 'A Diamond Is Forever' campaign and the two-months'-salary rule for engagement rings",
+   "year": 1947,
+   "names": [
+    "De Beers",
+    "De Beers'",
+    "Frances Gerety",
+    "Gerety",
+    "N.W. Ayer",
+    "Ayer",
+    "Advertising Age",
+    "Edward Jay Epstein",
+    "Epstein",
+    "The Atlantic",
+    "A Diamond Is Forever"
+   ],
+   "facts": [
+    "In 1947, copywriter Frances Gerety of the N.W. Ayer agency wrote 'A Diamond Is Forever' for De Beers.",
+    "In 1999, Advertising Age named it the best slogan of the 20th century.",
+    "In the 1980s, De Beers ads told men an engagement ring should cost two months' salary.",
+    "In 1982, journalist Edward Jay Epstein argued that 'forever' also kept owners from reselling their diamonds."
+   ],
+   "lesson": "A suggested budget is an anchor, not a rule.",
+   "icons": {
+    "hero": "gem",
+    "bait": "gem",
+    "real": "heart"
+   },
+   "source": "Edward Jay Epstein, The Atlantic (1982)",
+   "confidence": "high"
+  },
+  {
+   "id": "supreme-brick",
+   "case": "THE $30 BRICK",
+   "trick": "scarcity drops",
+   "subject": "Supreme's small weekly drops, including a $30 logo brick in 2016",
+   "year": 2016,
+   "names": [
+    "Supreme",
+    "Supreme's",
+    "VF Corporation",
+    "VF",
+    "EssilorLuxottica",
+    "Thursday",
+    "Thursdays"
+   ],
+   "facts": [
+    "In 2016, Supreme sold a red clay brick stamped with its logo for $30.",
+    "Supreme releases new items in small weekly drops, usually on Thursdays.",
+    "In 2020, VF Corporation bought Supreme for $2.1 billion.",
+    "In 2024, VF sold Supreme to EssilorLuxottica for $1.5 billion."
+   ],
+   "lesson": "Make it rare, and people will line up for a brick.",
+   "icons": {
+    "hero": "flame",
+    "bait": "package",
+    "real": "shirt"
+   },
+   "source": "VF (2020), EssilorLuxottica (2024); press (2016)",
+   "confidence": "high"
+  },
+  {
+   "id": "wine-price-scan",
+   "case": "THE $90 LABEL",
+   "trick": "price-quality halo",
+   "subject": "A 2008 Caltech brain-scan study of the same wines shown with different prices",
+   "year": 2008,
+   "names": [
+    "Caltech",
+    "Hilke Plassmann",
+    "Plassmann",
+    "Antonio Rangel",
+    "Rangel",
+    "PNAS"
+   ],
+   "facts": [
+    "In a 2008 Caltech study, volunteers tasted wines while lying in a brain scanner.",
+    "One wine was labeled $5 one time and $45 another time; a second was labeled $10 and $90.",
+    "Volunteers said the same wine tasted better when it carried the higher price.",
+    "Brain areas linked to pleasure were also more active at the higher price.",
+    "Hilke Plassmann and Antonio Rangel led the study, published in the journal PNAS."
+   ],
+   "lesson": "A higher price can make the same thing taste better.",
+   "icons": {
+    "hero": "wine",
+    "bait": "wine",
+    "real": "wine"
+   },
+   "source": "Plassmann et al., PNAS (2008)",
+   "confidence": "high"
+  },
+  {
+   "id": "which-black-friday",
+   "case": "NOT A DEAL",
+   "trick": "fake reference prices",
+   "subject": "A Which? price-history check of 227 UK Black Friday deals",
+   "year": 2024,
+   "names": [
+    "Which?",
+    "Which",
+    "Black Friday",
+    "Friday",
+    "UK"
+   ],
+   "facts": [
+    "Consumer group Which? tracked Black Friday deals on 227 products from 8 big UK home and tech retailers.",
+    "It checked each product's price history before and after Black Friday 2023.",
+    "92% of the deals were the same price or cheaper at other times of the year.",
+    "Which? published the findings in 2024."
+   ],
+   "lesson": "A sale sign is a claim; the price history is proof.",
+   "icons": {
+    "hero": "shopping-cart",
+    "bait": "percent",
+    "real": "receipt"
+   },
+   "source": "Which? press release (2024)",
+   "confidence": "high"
+  },
+  {
+   "id": "wendys-dynamic-pricing",
+   "case": "THE PEAK PRICE",
+   "trick": "dynamic pricing",
+   "subject": "Wendy's 2024 plan to test dynamic pricing on digital menu boards, and the backlash",
+   "year": 2024,
+   "names": [
+    "Wendy's",
+    "Wendy",
+    "Kirk Tanner",
+    "Tanner",
+    "CEO"
+   ],
+   "facts": [
+    "In 2024, Wendy's CEO Kirk Tanner said the chain would test 'dynamic pricing' as early as 2025.",
+    "Wendy's planned to spend $20 million on digital menu boards.",
+    "After a public backlash, Wendy's said it would not raise prices when demand is highest.",
+    "It said it might offer lower prices at slower times of day instead."
+   ],
+   "lesson": "A screen menu can change prices as fast as demand.",
+   "icons": {
+    "hero": "sandwich",
+    "bait": "zap",
+    "real": "sandwich"
+   },
+   "source": "Wendy's earnings call and statement (2024)",
+   "confidence": "high"
+  },
+  {
+   "id": "moviepass-unlimited",
+   "case": "UNLIMITED MOVIES",
+   "trick": "loss-making flat fee",
+   "subject": "MoviePass selling one movie a day for $9.95 a month, 2017 to 2019",
+   "year": 2017,
+   "names": [
+    "MoviePass",
+    "MoviePass's",
+    "US"
+   ],
+   "facts": [
+    "In 2017, MoviePass cut its price to $9.95 a month for one movie a day.",
+    "The average US movie ticket that year cost $8.97.",
+    "MoviePass paid theaters the full ticket price each time a member went.",
+    "It passed 3 million subscribers in 2018.",
+    "MoviePass shut down in 2019."
+   ],
+   "lesson": "Unlimited plans only work if most members barely use them.",
+   "icons": {
+    "hero": "clapperboard",
+    "bait": "ticket",
+    "real": "popcorn"
+   },
+   "source": "MoviePass statements; theater owners' data (2017-2019)",
+   "confidence": "high"
+  },
+  {
+   "id": "hotel-sites-scarcity",
+   "case": "ONLY 1 LEFT",
+   "trick": "fake scarcity",
+   "subject": "The UK regulator's 2019 crackdown on pressure selling by six hotel booking sites",
+   "year": 2019,
+   "names": [
+    "Competition and Markets Authority",
+    "CMA",
+    "UK",
+    "UK's",
+    "Booking.com",
+    "Expedia",
+    "Hotels.com",
+    "Agoda",
+    "ebookers",
+    "Trivago"
+   ],
+   "facts": [
+    "In 2019, the UK's Competition and Markets Authority made 6 hotel booking sites change how they sell rooms.",
+    "The sites were Booking.com, Expedia, Hotels.com, Agoda, ebookers and Trivago.",
+    "They agreed not to give a false impression of how few rooms were left or how popular a hotel was.",
+    "They also agreed to show all compulsory charges upfront and to promote only real, current discounts."
+   ],
+   "lesson": "'Only 1 left' is a sales line until proven otherwise.",
+   "icons": {
+    "hero": "hotel",
+    "bait": "bed",
+    "real": "key"
+   },
+   "source": "UK Competition and Markets Authority (2019)",
+   "confidence": "high"
+  },
+  {
+   "id": "dollar-tree-price",
+   "case": "THE $1 STORE",
+   "trick": "single price point",
+   "subject": "Dollar Tree's single-price model, from $1 to $1.25, plus $3 and $5 items",
+   "year": 2021,
+   "names": [
+    "Dollar Tree",
+    "Dollar Tree's",
+    "Dollar Tree Plus"
+   ],
+   "facts": [
+    "For 35 years, Dollar Tree's standard price was $1.",
+    "In 2019, it started adding items at $3 and $5 in some stores.",
+    "In 2021, Dollar Tree raised its standard price to $1.25, a 25% increase."
+   ],
+   "lesson": "One simple price can stop you from comparing.",
+   "icons": {
+    "hero": "store",
+    "bait": "banknote",
+    "real": "shopping-bag"
+   },
+   "source": "Dollar Tree announcements (2019, 2021)",
+   "confidence": "high"
+  },
+  {
+   "id": "gillette-blades",
+   "case": "THE BLADE HABIT",
+   "trick": "razor-and-blades",
+   "subject": "Gillette's first two years selling a safety razor that needs replacement blades",
+   "year": 1903,
+   "names": [
+    "Gillette",
+    "Gillette's",
+    "King C. Gillette",
+    "King Gillette"
+   ],
+   "facts": [
+    "King C. Gillette began selling his safety razor with throwaway blades in 1903.",
+    "In its first year, Gillette sold 51 razors and 168 blades.",
+    "In 1904, its second year, it sold 90,884 razors and 123,648 blades.",
+    "Every razor sold was a customer who had to keep buying new blades."
+   ],
+   "lesson": "Buy the handle once, pay for the blades forever.",
+   "icons": {
+    "hero": "scissors",
+    "bait": "scissors",
+    "real": "package"
+   },
+   "source": "Gillette company history (Encyclopedia.com)",
+   "confidence": "medium"
+  },
+  {
+   "id": "columbia-house-penny",
+   "case": "THE PENNY CLUB",
+   "trick": "negative option (penny offer)",
+   "subject": "Columbia House's records-for-a-penny offers and automatic album shipments",
+   "year": 1996,
+   "names": [
+    "Columbia House",
+    "Columbia House's"
+   ],
+   "facts": [
+    "Columbia House drew new members with offers like 12 records for a penny.",
+    "Members then had to buy a minimum number of albums at regular club prices.",
+    "If members didn't say no by a deadline, the next album shipped with a full-price bill.",
+    "Columbia House's revenue peaked at $1.4 billion in 1996 and fell to $17 million by 2014.",
+    "Its parent company filed for bankruptcy in 2015."
+   ],
+   "lesson": "A penny up front can hide the real bill.",
+   "icons": {
+    "hero": "music",
+    "bait": "coins",
+    "real": "mail"
+   },
+   "source": "Press coverage of its 2015 bankruptcy",
+   "confidence": "medium"
+  },
+  {
+   "id": "spirit-bag-fees",
+   "case": "THE BAG FEE",
+   "trick": "unbundled fees",
+   "subject": "Spirit Airlines' 2010 carry-on bag fee and its stripped-down 'Bare Fare'",
+   "year": 2010,
+   "names": [
+    "Spirit Airlines",
+    "Spirit",
+    "Spirit's",
+    "Bare Fare",
+    "US"
+   ],
+   "facts": [
+    "In 2010, Spirit Airlines became the first US airline to charge for carry-on bags.",
+    "The carry-on fee was up to $45 when paid at the gate.",
+    "Spirit sold a stripped-down base ticket called the 'Bare Fare', with bags and seats as extras.",
+    "Spirit filed for bankruptcy protection in 2024 and again in 2025."
+   ],
+   "lesson": "The cheap fare is the bait; the bag fee pays.",
+   "icons": {
+    "hero": "plane",
+    "bait": "plane",
+    "real": "briefcase"
+   },
+   "source": "New York Times (2010); Reuters (2024, 2025)",
+   "confidence": "medium"
+  },
+  {
+   "id": "dollar-shave-club",
+   "case": "THE $1 RAZOR",
+   "trick": "subscription pricing",
+   "subject": "Dollar Shave Club's $1-a-month razor subscription and its $1 billion sale",
+   "year": 2012,
+   "names": [
+    "Dollar Shave Club",
+    "Dollar Shave Club's",
+    "Michael Dubin",
+    "Dubin",
+    "Unilever"
+   ],
+   "facts": [
+    "In 2012, Dollar Shave Club launched, mailing razor blades to subscribers from $1 a month.",
+    "Its launch video, starring co-founder Michael Dubin, cost $4,500 to make.",
+    "The video brought in 12,000 orders in the first 48 hours.",
+    "In 2016, Unilever bought Dollar Shave Club for $1 billion."
+   ],
+   "lesson": "A $1 monthly price turns one sale into a habit.",
+   "icons": {
+    "hero": "scissors",
+    "bait": "mail",
+    "real": "package"
+   },
+   "source": "Unilever (2016); press coverage (2012)",
+   "confidence": "medium"
+  },
+  {
+   "id": "ninety-nine-cents",
+   "case": "99.99 CENTS",
+   "trick": "charm pricing",
+   "subject": "99 Cents Only Stores' 2008 move from 99-cent to 99.99-cent prices",
+   "year": 2008,
+   "names": [
+    "99 Cents Only Stores",
+    "99 Cents Only",
+    "Cents",
+    "Only"
+   ],
+   "facts": [
+    "99 Cents Only Stores opened in 1982, selling everything for 99 cents.",
+    "In 2008, the chain raised its prices for the first time, to 99.99 cents.",
+    "The increase was 0.99 cents, so every price still started with 99.",
+    "In 2024, the chain closed all 371 of its stores."
+   ],
+   "lesson": "Sellers will fight hard to keep the 99.",
+   "icons": {
+    "hero": "store",
+    "bait": "coins",
+    "real": "tag"
+   },
+   "source": "Los Angeles Times (2008); Reuters (2024)",
+   "confidence": "medium"
+  },
+  {
+   "id": "bugatti-veyron",
+   "case": "THE HALO CAR",
+   "trick": "premium halo",
+   "subject": "Volkswagen's money-losing Bugatti Veyron flagship, built from 2005 to 2015",
+   "year": 2013,
+   "names": [
+    "Bugatti",
+    "Bugatti Veyron",
+    "Veyron",
+    "Veyrons",
+    "Veyron's",
+    "Volkswagen",
+    "VW",
+    "Bernstein",
+    "Bernstein Research"
+   ],
+   "facts": [
+    "Bugatti built 450 Veyrons between 2005 and 2015.",
+    "The Veyron's 16-cylinder engine made 1,001 metric horsepower.",
+    "In 2013, analysts at Bernstein Research estimated Volkswagen lost €4.6 million on every Veyron sold.",
+    "Volkswagen owned Bugatti and used the Veyron to show off its engineering."
+   ],
+   "lesson": "Some products exist to sell the brand, not themselves.",
+   "icons": {
+    "hero": "rocket",
+    "bait": "crown",
+    "real": "key"
+   },
+   "source": "Bernstein Research estimate (2013)",
+   "confidence": "medium"
+  }
+ ]
+}

@@ -1,10 +1,10 @@
-# lokalny config s tajomstvami (cloud pouziva config.example.json + secrets)
-config.json
-
-# generovane / docasne / velke
+node_modules/
+remotion/public/*/
+remotion/public/current.json
+remotion/out/
+remotion/tts_cache/
 output/
-temp/
-assets/broll/
-bin/
+.env
+config.json
 __pycache__/
 *.pyc

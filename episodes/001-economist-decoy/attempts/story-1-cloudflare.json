@@ -1,0 +1,62 @@
+{
+ "model": "cloudflare:@cf/openai/gpt-oss-120b",
+ "errors": [],
+ "plan": {
+  "paradox": "A bundle wins, even though a cheaper plan looks cheaper.",
+  "odd_fact": "Print-only never gets chosen, yet it's listed alongside the bundle.",
+  "twist": "The unused print-only option works as a decoy.",
+  "cause": "The $125 print-only option, priced the same as the bundle but offering less, pushes students toward the $125 bundle (84% choose it). Removing it drops bundle choice to 32% and raises the $59 web plan to 68%.",
+  "everyday": "A bakery offers plain croissant $2, chocolate croissant $3, almond croissant $3; the almond croissant serves as a decoy, making the chocolate croissant feel like the smart pick.",
+  "rule": "If an option never gets chosen, it's probably a decoy. Follow for more."
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "A bundle wins, even though a cheaper plan looks cheaper."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Print-only, same price as the full package, no web."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Web-only, digital access for less money."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Print plus web, full experience for the same price as print-only."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Nobody ever picks print-only. Looks useless."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it's a decoy that pushes the bundle."
+  },
+  {
+   "scene": "Statement",
+   "say": "With the decoy present, 84 of 100 students choose the bundle."
+  },
+  {
+   "scene": "Anchor",
+   "say": "Take away the $125 print-only and the bundle drops to 32, while the $59 web plan climbs to 68."
+  },
+  {
+   "scene": "Views",
+   "say": "Now $125 feels like a bargain because the alternative looks the same but offers less."
+  },
+  {
+   "scene": "Compare",
+   "say": "You see it everywhere. A bakery lists plain croissant $2, chocolate croissant $3, almond croissant $3."
+  },
+  {
+   "scene": "Compare",
+   "say": "Now the $3 chocolate croissant feels smart, because the $3 almond one adds nothing extra."
+  },
+  {
+   "scene": "Outro",
+   "say": "If nothing ever chooses an option, suspect a decoy. Follow for more."
+  }
+ ]
+}
