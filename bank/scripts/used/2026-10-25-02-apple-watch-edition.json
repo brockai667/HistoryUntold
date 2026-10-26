@@ -1,0 +1,55 @@
+{
+ "id": "apple-watch-edition",
+ "case": "THE GOLD WATCH",
+ "title": "The watch that sold the other watch",
+ "caption": "Ever picked the middle price because the top one felt ridiculous?\nThe priciest watch changed how the others looked.",
+ "source": "Apple press releases (2015, 2016)",
+ "beats": [
+  {"say": "Ever picked the middle price because the top one felt ridiculous?", "scene": "Hero",
+   "props": {"art": "watch", "tag": {"text": "BE HONEST", "tone": "yellow"}, "title": "TOO MUCH?", "sub": "OR JUST RIGHT?"}},
+  {"say": "Headphones: basic or better? Better, obviously. Every time.", "scene": "Statement",
+   "props": {"kicker": "HEADPHONES", "text": "BASIC OR BETTER?", "tags": [{"text": "BETTER, OBVIOUSLY", "tone": "yellow"}]}},
+  {"say": "The Apple Watch Sport started at $349.", "scene": "PriceList",
+   "props": {"slots": 3, "cards": [
+    {"title": "Watch Sport", "sub": "2015 starting price", "price": "$349", "art": "watch"}]}},
+  {"say": "The steel watch: $549.", "scene": "PriceList",
+   "props": {"slots": 3, "cards": [
+    {"title": "Watch Sport", "sub": "2015 starting price", "price": "$349", "art": "watch"},
+    {"title": "Steel watch", "sub": "Stainless steel", "price": "$549", "art": "watch"}]}},
+  {"say": "And the 18-karat gold Edition? Up to $17,000.", "scene": "PriceList",
+   "props": {"slots": 3, "cards": [
+    {"title": "Watch Sport", "sub": "2015 starting price", "price": "$349", "art": "watch"},
+    {"title": "Steel watch", "sub": "Stainless steel", "price": "$549", "art": "watch"},
+    {"title": "Gold Edition", "sub": "Top price, 18k gold", "price": "$17,000", "art": "crown"}]}},
+  {"say": "Yet it did the same things as the Sport.", "scene": "PriceList",
+   "props": {"slots": 3, "point": [2, 0], "cards": [
+    {"title": "Watch Sport", "sub": "2015 starting price", "price": "$349", "art": "watch"},
+    {"title": "Steel watch", "sub": "Stainless steel", "price": "$549", "art": "watch"},
+    {"title": "Gold Edition", "sub": "Top price, 18k gold", "price": "$17,000", "art": "crown", "tags": [{"text": "SAME THINGS", "tone": "yellow"}]}]}},
+  {"say": "Why sell it? Next to it, the steel watch looks sensible.", "scene": "PriceList", "mode": "blueprint",
+   "props": {"slots": 3, "cards": [
+    {"title": "Watch Sport", "sub": "2015 starting price", "price": "$349", "art": "watch"},
+    {"title": "Steel watch", "sub": "Stainless steel", "price": "$549", "art": "watch", "tags": [{"text": "SENSIBLE?", "tone": "yellow"}]},
+    {"title": "Gold Edition", "sub": "Top price, 18k gold", "price": "$17,000", "priceRed": true, "art": "crown", "stamp": "BAIT"}]}},
+  {"say": "The biggest price becomes the ruler for every other one.", "scene": "Anchor",
+   "props": {"job": "THE BIGGEST PRICE = RULER", "price": "$549", "at": 0.35, "split": 0.45, "art": "watch", "anchor": {"label": "GOLD EDITION", "art": "crown"}}},
+  {"say": "So you skip asking: is the steel watch worth it?", "scene": "PriceList",
+   "props": {"slots": 3, "point": [1, 0], "cards": [
+    {"title": "Watch Sport", "sub": "2015 starting price", "price": "$349", "art": "watch"},
+    {"title": "Steel watch", "sub": "Stainless steel", "price": "$549", "art": "watch", "tags": [{"text": "SENSIBLE?", "tone": "yellow"}, {"text": "WORTH IT?", "tone": "blue"}]},
+    {"title": "Gold Edition", "sub": "Top price, 18k gold", "price": "$17,000", "priceRed": true, "art": "crown", "stamp": "BAIT"}]}},
+  {"say": "That's called price anchoring.", "scene": "Statement",
+   "props": {"kicker": "SKY-HIGH PRICE FIRST", "text": "PRICE ANCHORING"}},
+  {"say": "Back to the headphones. Basic, $8. Better, $12.", "scene": "Compare",
+   "props": {"before": [null, {"title": "Better", "price": "$12", "art": "headphones"}, {"title": "Basic", "price": "$8", "art": "headphones"}],
+    "after": [null, null, null], "labels": ["BEFORE", "AFTER"]}},
+  {"say": "Add a $19 deluxe pair, same sound. Now better feels smart.", "scene": "Compare",
+   "props": {"before": [null, {"title": "Better", "price": "$12", "art": "headphones"}, {"title": "Basic", "price": "$8", "art": "headphones"}],
+    "after": [{"title": "Deluxe", "price": "$19", "priceRed": true, "art": "headphones", "top": {"text": "BAIT", "tone": "red"}},
+     {"title": "Better", "price": "$12", "art": "headphones", "badge": {"text": "FEELS SMART", "tone": "green"}},
+     {"title": "Basic", "price": "$8", "art": "headphones"}], "labels": ["BEFORE", "AFTER"]}},
+  {"say": "Sky-high price nearby? Judge the others without it.", "scene": "Statement",
+   "props": {"kicker": "SKY-HIGH PRICE NEARBY?", "text": "JUDGE THE OTHERS WITHOUT IT"}},
+  {"say": "Which sky-high price pushed you to the middle one?", "scene": "Outro", "props": {}}
+ ]
+}
