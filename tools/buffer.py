@@ -13,8 +13,8 @@ import requests
 
 API = "https://api.buffer.com"
 # kanaly byvalej NextByte (Buffer ucet +history, handle historyuntold667 -> plainsight667); ID nie su tajne
+# TikTok (6a3f7eef5ab6d2f106797a72) od 27.10. nie: Damian ho nahrava z mobilu appkou TikTok Nahravac
 CHANNELS = [
-    {"id": "6a3f7eef5ab6d2f106797a72", "service": "tiktok"},
     {"id": "6a3f7ec15ab6d2f1067979fd", "service": "instagram"},
     {"id": "6a3f7ed05ab6d2f106797a1d", "service": "youtube"},
 ]
