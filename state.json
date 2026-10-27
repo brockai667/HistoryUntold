@@ -1,8 +1,9 @@
 {
- "next_ep": 3,
+ "next_ep": 4,
  "used": [
   "economist-decoy",
-  "apple-watch-edition"
+  "apple-watch-edition",
+  "gym-flat-fee"
  ],
  "episodes": {
   "1": {
@@ -36,7 +37,23 @@
    ],
    "buffer_tries": 1,
    "due": "2026-10-27T07:13:00+00:00"
+  },
+  "3": {
+   "id": "gym-flat-fee",
+   "title": "Paying not to go",
+   "posted_at": "2026-10-27T12:09:22+00:00",
+   "release": "ep-003",
+   "author": "claude-bank",
+   "text": "Why does the gym push the monthly plan so hard?\nCount your visits before you sign.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-003/003-gym-flat-fee.mp4",
+   "buffer": [
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-10-28T07:26:00+00:00"
   }
  },
- "buffer_last_due": "2026-10-27T07:13:00+00:00"
+ "buffer_last_due": "2026-10-28T07:26:00+00:00"
 }
