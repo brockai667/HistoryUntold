@@ -1,9 +1,10 @@
 {
- "next_ep": 4,
+ "next_ep": 5,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
-  "gym-flat-fee"
+  "gym-flat-fee",
+  "catalog-dress-39"
  ],
  "episodes": {
   "1": {
@@ -53,7 +54,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-10-28T07:26:00+00:00"
+  },
+  "4": {
+   "id": "catalog-dress-39",
+   "title": "The dress that sold better for more",
+   "posted_at": "2026-10-28T12:49:21+00:00",
+   "release": "ep-004",
+   "author": "claude-bank",
+   "text": "Ever bought something because the price just felt right?\nOne dress, three prices, one strange winner.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-004/004-catalog-dress-39.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-10-29T07:25:00+00:00"
   }
  },
- "buffer_last_due": "2026-10-28T07:26:00+00:00"
+ "buffer_last_due": "2026-10-29T07:25:00+00:00"
 }
