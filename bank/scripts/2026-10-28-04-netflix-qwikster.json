@@ -1,0 +1,170 @@
+{
+ "id": "netflix-qwikster",
+ "case": "THE SPLIT PLAN",
+ "title": "One plan became two bills",
+ "caption": "Ever had a plan split up and your bill jump?\nAdd the new prices up before you say yes.",
+ "source": "Netflix blog and shareholder letter (2011)",
+ "beats": [
+  {
+   "say": "Ever had a plan split up and your bill jump?",
+   "scene": "Hero",
+   "props": {
+    "art": "tv",
+    "tag": {"text": "BE HONEST", "tone": "yellow"},
+    "title": "SAME STUFF?",
+    "sub": "BIGGER BILL?"
+   }
+  },
+  {
+   "say": "Netflix's plan: DVDs by mail plus streaming, $9.99.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "DVDs and streaming", "sub": "Per month", "price": "$9.99", "art": "tv"}
+    ]
+   }
+  },
+  {
+   "say": "In 2011, Netflix split it into two plans.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "IN 2011",
+    "text": "ONE PLAN BECOMES TWO"
+   }
+  },
+  {
+   "say": "DVDs by mail, $7.99. Streaming, also $7.99.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "point": [0, 1],
+    "cards": [
+     {"title": "DVDs by mail", "sub": "Per month", "price": "$7.99", "art": "mail"},
+     {"title": "Streaming", "sub": "Per month", "price": "$7.99", "art": "tv"}
+    ]
+   }
+  },
+  {
+   "say": "Each one looks cheaper than before.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "DVDs by mail", "sub": "Per month", "price": "$7.99", "art": "mail", "tags": [{"text": "LOOKS CHEAPER", "tone": "yellow"}]},
+     {"title": "Streaming", "sub": "Per month", "price": "$7.99", "art": "tv", "tags": [{"text": "LOOKS CHEAPER", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "But keeping both, like before, cost $15.98 a month.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 3,
+    "point": [0, 2],
+    "cards": [
+     {"title": "DVDs by mail", "sub": "Per month", "price": "$7.99", "art": "mail"},
+     {"title": "Streaming", "sub": "Per month", "price": "$7.99", "art": "tv"},
+     {"title": "Both, like before", "sub": "Per month", "price": "$15.98", "priceRed": true, "art": "receipt"}
+    ]
+   }
+  },
+  {
+   "say": "That's a 60% price increase.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "DVDs by mail", "sub": "Per month", "price": "$7.99", "art": "mail"},
+     {"title": "Streaming", "sub": "Per month", "price": "$7.99", "art": "tv"},
+     {"title": "Both, like before", "sub": "Per month", "price": "$15.98", "priceRed": true, "art": "receipt", "stamp": "+60%"}
+    ]
+   }
+  },
+  {
+   "say": "Two small prices hide one big bill, bigger than the old one.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 3,
+    "point": [0, 1],
+    "cards": [
+     {"title": "DVDs by mail", "sub": "Per month", "price": "$7.99", "art": "mail"},
+     {"title": "Streaming", "sub": "Per month", "price": "$7.99", "art": "tv"},
+     {"title": "Both, like before", "sub": "Per month", "price": "$15.98", "priceRed": true, "art": "receipt", "stamp": "+60%"}
+    ]
+   }
+  },
+  {
+   "say": "So you skip one question: what's my total?",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "point": [1, 2],
+    "cards": [
+     {"title": "DVDs by mail", "sub": "Per month", "price": "$7.99", "art": "mail"},
+     {"title": "Streaming", "sub": "Per month", "price": "$7.99", "art": "tv"},
+     {"title": "Both, like before", "sub": "Per month", "price": "$15.98", "priceRed": true, "art": "receipt", "stamp": "+60%", "tags": [{"text": "WHAT'S MY TOTAL?", "tone": "blue"}]}
+    ]
+   }
+  },
+  {
+   "say": "In the third quarter, Netflix lost 800,000 US subscribers.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "US, THIRD QUARTER, 2011",
+    "text": "800,000 SUBSCRIBERS GONE"
+   }
+  },
+  {
+   "say": "CEO Reed Hastings wrote: I messed up.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "REED HASTINGS, CEO",
+    "text": "\"I MESSED UP.\""
+   }
+  },
+  {
+   "say": "Your phone plan: calls and data, $15 a month.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Calls", "sub": "One plan, $15", "price": "INCLUDED", "art": "phone"},
+     {"title": "Data", "sub": "One plan, $15", "price": "INCLUDED", "art": "wifi"}
+    ],
+    "after": [null, null],
+    "labels": ["BEFORE", "AFTER"]
+   }
+  },
+  {
+   "say": "Split up, each one costs $9.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Calls", "sub": "One plan, $15", "price": "INCLUDED", "art": "phone"},
+     {"title": "Data", "sub": "One plan, $15", "price": "INCLUDED", "art": "wifi"}
+    ],
+    "after": [
+     {"title": "Calls", "sub": "Its own plan", "price": "$9", "art": "phone"},
+     {"title": "Data", "sub": "Its own plan", "price": "$9", "art": "wifi", "top": {"text": "$18 TOTAL", "tone": "dark"}}
+    ],
+    "labels": ["BEFORE", "AFTER"]
+   }
+  },
+  {
+   "say": "Plan split? Add the prices up first.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "PLAN SPLIT?",
+    "text": "ADD THE PRICES UP FIRST"
+   }
+  },
+  {
+   "say": "Which app split its plan on you?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}
