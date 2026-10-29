@@ -1,0 +1,157 @@
+{
+ "id": "disney-bundle",
+ "case": "THE STREAMING BUNDLE",
+ "title": "Three apps for one show",
+ "caption": "Ever added extra streaming apps because the deal felt cheaper?\nPrice only the part you'll use.",
+ "source": "The Walt Disney Company announcements (2019)",
+ "beats": [
+  {
+   "say": "Ever added extra streaming apps because the deal felt cheaper?",
+   "scene": "Hero",
+   "props": {
+    "art": "tv",
+    "tag": {"text": "BE HONEST", "tone": "yellow"},
+    "title": "WHAT A DEAL?",
+    "sub": "OR EXTRA BILLS?"
+   }
+  },
+  {
+   "say": "You wanted one show. You got 3 apps.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "YOU WANTED ONE SHOW",
+    "text": "YOU GOT 3 APPS"
+   }
+  },
+  {
+   "say": "In 2019, Disney Plus launched. $6.99 a month.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "Disney+", "sub": "Alone, per month", "price": "$6.99", "art": "tv"}
+    ]
+   }
+  },
+  {
+   "say": "Hulu with ads, $5.99. ESPN Plus, $4.99.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "Disney+", "sub": "Alone, per month", "price": "$6.99", "art": "tv"},
+     {"title": "Hulu with ads", "sub": "Per month", "price": "$5.99", "art": "clapperboard"},
+     {"title": "ESPN+", "sub": "Per month", "price": "$4.99", "art": "trophy"}
+    ]
+   }
+  },
+  {
+   "say": "Bought separately, all three add up to $17.97.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "ALL THREE, SEPARATELY",
+    "text": "$17.97 A MONTH"
+   }
+  },
+  {
+   "say": "But Disney sold all three together for $12.99.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "point": [0, 1],
+    "cards": [
+     {"title": "Separately", "sub": "All three apps", "price": "$17.97", "art": "receipt"},
+     {"title": "All three together", "sub": "One monthly price", "price": "$12.99", "art": "package"}
+    ]
+   }
+  },
+  {
+   "say": "Looks like a discount. But you came for one app.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "Separately", "sub": "All three apps", "price": "$17.97", "art": "receipt", "tags": [{"text": "NOT YOUR PLAN", "tone": "dark"}]},
+     {"title": "All three together", "sub": "One monthly price", "price": "$12.99", "art": "package", "tags": [{"text": "LOOKS CHEAP", "tone": "yellow"}]},
+     {"title": "Disney+", "sub": "The app you wanted", "price": "$6.99", "art": "tv"}
+    ]
+   }
+  },
+  {
+   "say": "Next to Disney Plus alone, the deal costs more.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 3,
+    "point": [2, 1],
+    "cards": [
+     {"title": "Separately", "sub": "All three apps", "price": "$17.97", "art": "receipt", "tags": [{"text": "NOT YOUR PLAN", "tone": "dark"}]},
+     {"title": "All three together", "sub": "One monthly price", "price": "$12.99", "art": "package", "stamp": "EXTRA"},
+     {"title": "Disney+", "sub": "The app you wanted", "price": "$6.99", "art": "tv"}
+    ]
+   }
+  },
+  {
+   "say": "So you skip the question: will I watch all three?",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "Separately", "sub": "All three apps", "price": "$17.97", "art": "receipt", "tags": [{"text": "NOT YOUR PLAN", "tone": "dark"}]},
+     {"title": "All three together", "sub": "Will I watch them?", "price": "$12.99", "art": "package", "stamp": "EXTRA", "tags": [{"text": "WATCH ALL THREE?", "tone": "blue"}]},
+     {"title": "Disney+", "sub": "The app you wanted", "price": "$6.99", "art": "tv"}
+    ]
+   }
+  },
+  {
+   "say": "Apps sold together for one price. That's called bundling.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "SOLD TOGETHER",
+    "text": "BUNDLING"
+   }
+  },
+  {
+   "say": "You want a burger, $9. The meal is $10.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Burger", "sub": "What you wanted", "price": "$9", "art": "sandwich"},
+     {"title": "Meal", "sub": "Burger, fries, drink", "price": "$10", "art": "cup-soda"}
+    ],
+    "after": [null, null],
+    "labels": ["BEFORE", "AFTER"]
+   }
+  },
+  {
+   "say": "$1 more buys fries and a drink you never wanted. Like the extra apps.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Burger", "sub": "What you wanted", "price": "$9", "art": "sandwich"},
+     {"title": "Meal", "sub": "Burger, fries, drink", "price": "$10", "art": "cup-soda"}
+    ],
+    "after": [
+     {"title": "Burger", "sub": "What you wanted", "price": "$9", "art": "sandwich", "badge": {"text": "ENOUGH", "tone": "green"}},
+     {"title": "Meal", "sub": "Fries, drink unwanted", "price": "$10", "art": "cup-soda", "top": {"text": "$1 MORE", "tone": "yellow"}}
+    ],
+    "labels": ["BEFORE", "AFTER"]
+   }
+  },
+  {
+   "say": "Big deal? Price only the part you'll use.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "BIG DEAL?",
+    "text": "PRICE ONLY THE PART YOU'LL USE"
+   }
+  },
+  {
+   "say": "How many of your apps did you open this week?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}

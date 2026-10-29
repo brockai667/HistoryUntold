@@ -1,10 +1,11 @@
 {
- "next_ep": 5,
+ "next_ep": 6,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
   "gym-flat-fee",
-  "catalog-dress-39"
+  "catalog-dress-39",
+  "disney-bundle"
  ],
  "episodes": {
   "1": {
@@ -69,7 +70,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-10-29T07:25:00+00:00"
+  },
+  "5": {
+   "id": "disney-bundle",
+   "title": "Three apps for one show",
+   "posted_at": "2026-10-29T12:58:04+00:00",
+   "release": "ep-005",
+   "author": "claude-bank",
+   "text": "Ever added extra streaming apps because the deal felt cheaper?\nPrice only the part you'll use.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-005/005-disney-bundle.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-10-30T07:18:00+00:00"
   }
  },
- "buffer_last_due": "2026-10-29T07:25:00+00:00"
+ "buffer_last_due": "2026-10-30T07:18:00+00:00"
 }
