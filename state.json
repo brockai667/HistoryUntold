@@ -1,11 +1,12 @@
 {
- "next_ep": 6,
+ "next_ep": 7,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
   "gym-flat-fee",
   "catalog-dress-39",
-  "disney-bundle"
+  "disney-bundle",
+  "netflix-qwikster"
  ],
  "episodes": {
   "1": {
@@ -85,7 +86,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-10-30T07:18:00+00:00"
+  },
+  "6": {
+   "id": "netflix-qwikster",
+   "title": "One plan became two bills",
+   "posted_at": "2026-10-30T12:51:18+00:00",
+   "release": "ep-006",
+   "author": "claude-bank",
+   "text": "Ever had a plan split up and your bill jump?\nAdd the new prices up before you say yes.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-006/006-netflix-qwikster.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-10-31T07:18:00+00:00"
   }
  },
- "buffer_last_due": "2026-10-30T07:18:00+00:00"
+ "buffer_last_due": "2026-10-31T07:18:00+00:00"
 }
