@@ -1,0 +1,171 @@
+{
+ "id": "amazon-prime-iliad",
+ "case": "THE ILIAD",
+ "title": "The cancel process named after a war",
+ "caption": "Ever felt like cancelling a subscription takes forever?\nOne cancel process had its own name: Iliad.",
+ "source": "FTC v. Amazon complaint (2023); settlement (2025)",
+ "beats": [
+  {
+   "say": "Ever felt like cancelling a subscription takes forever?",
+   "scene": "Hero",
+   "props": {
+    "art": "lock",
+    "tag": {"text": "BE HONEST", "tone": "yellow"},
+    "title": "TAKES FOREVER?",
+    "sub": "IT HAS A NAME"
+   }
+  },
+  {
+   "say": "Settings. Account. More settings. Where's the cancel button?",
+   "scene": "Statement",
+   "props": {
+    "kicker": "TRYING TO CANCEL",
+    "text": "WHERE'S THE CANCEL BUTTON?",
+    "tags": [{"text": "SETTINGS", "tone": "dark"}, {"text": "ACCOUNT", "tone": "dark"}, {"text": "MORE SETTINGS", "tone": "dark"}]
+   }
+  },
+  {
+   "say": "Amazon Prime started at $79 a year.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Prime, 2005", "sub": "Two-day shipping", "price": "$79/year", "art": "truck"}
+    ]
+   }
+  },
+  {
+   "say": "Later, it cost $139 a year in the US.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [0, 1],
+    "cards": [
+     {"title": "Prime, 2005", "sub": "Two-day shipping", "price": "$79/year", "art": "truck"},
+     {"title": "Prime, 2022", "sub": "In the US", "price": "$139/year", "art": "package"}
+    ]
+   }
+  },
+  {
+   "say": "In 2023, the FTC sued Amazon.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "US FEDERAL TRADE COMMISSION",
+    "text": "FTC SUES AMAZON"
+   }
+  },
+  {
+   "say": "The FTC said Amazon pushed people into Prime and made cancelling hard.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Joining Prime", "sub": "FTC: people pushed in", "art": "package"},
+     {"title": "Cancelling", "sub": "FTC: made hard", "art": "lock"}
+    ]
+   }
+  },
+  {
+   "say": "Amazon's internal name for cancelling was Iliad.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Joining Prime", "sub": "FTC: people pushed in", "art": "package"},
+     {"title": "Cancelling", "sub": "FTC: made hard", "art": "lock", "stamp": "ILIAD"}
+    ]
+   }
+  },
+  {
+   "say": "Named after Homer's poem about the long Trojan War.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Joining Prime", "sub": "FTC: people pushed in", "art": "package"},
+     {"title": "Cancelling", "sub": "FTC: made hard", "art": "lock", "stamp": "ILIAD", "tags": [{"text": "A LONG WAR", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "Like a shop with a wide entrance and a hidden exit.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Joining Prime", "sub": "FTC: people pushed in", "art": "package", "tags": [{"text": "WIDE ENTRANCE", "tone": "green"}]},
+     {"title": "Cancelling", "sub": "FTC: made hard", "art": "lock", "stamp": "ILIAD", "tags": [{"text": "HIDDEN EXIT", "tone": "dark"}]}
+    ]
+   }
+  },
+  {
+   "say": "So at sign-up, you never ask: how do I get out?",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Joining Prime", "sub": "FTC: people pushed in", "art": "package", "tags": [{"text": "WIDE ENTRANCE", "tone": "green"}]},
+     {"title": "Cancelling", "sub": "FTC: made hard", "art": "lock", "stamp": "ILIAD", "tags": [{"text": "HIDDEN EXIT", "tone": "dark"}, {"text": "HOW DO I LEAVE?", "tone": "blue"}]}
+    ]
+   }
+  },
+  {
+   "say": "That's called a subscription trap.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "EASY IN, HARD OUT",
+    "text": "A SUBSCRIPTION TRAP"
+   }
+  },
+  {
+   "say": "Amazon agreed to pay $2.5 billion. It did not admit wrongdoing.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "2025 SETTLEMENT",
+    "text": "$2.5 BILLION",
+    "tags": [{"text": "NO WRONGDOING ADMITTED", "tone": "dark"}]
+   }
+  },
+  {
+   "say": "A music app: one tap, $11 a month.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Music app", "sub": "Join in one tap", "price": "$11/mo", "art": "headphones"},
+     null
+    ],
+    "after": [null, null],
+    "labels": ["JOIN", "LEAVE"]
+   }
+  },
+  {
+   "say": "And the cancel button? Three menus deep.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Music app", "sub": "Join in one tap", "price": "$11/mo", "art": "headphones"},
+     null
+    ],
+    "after": [
+     {"title": "Music app", "sub": "Still charging you", "price": "$11/mo", "art": "headphones"},
+     {"title": "Cancel button", "sub": "Three menus deep", "art": "lock", "top": {"text": "HIDDEN", "tone": "red"}}
+    ],
+    "labels": ["JOIN", "LEAVE"]
+   }
+  },
+  {
+   "say": "One tap to join? Count the taps to leave.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "ONE TAP TO JOIN?",
+    "text": "COUNT THE TAPS TO LEAVE"
+   }
+  },
+  {
+   "say": "Which app made you fight to cancel?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}

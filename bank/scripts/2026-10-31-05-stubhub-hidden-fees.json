@@ -1,0 +1,149 @@
+{
+ "id": "stubhub-hidden-fees",
+ "case": "THE CHECKOUT FEE",
+ "title": "The price that grows at checkout",
+ "caption": "Ever seen a ticket price jump at checkout?\nThe price before fees is not the price.",
+ "source": "Blake et al., Marketing Science (2021)",
+ "beats": [
+  {
+   "say": "Ever seen a ticket price jump at checkout?",
+   "scene": "Hero",
+   "props": {
+    "art": "ticket",
+    "tag": {"text": "BE HONEST", "tone": "yellow"},
+    "title": "WAIT, HOW MUCH?",
+    "sub": "AT CHECKOUT?"
+   }
+  },
+  {
+   "say": "Great seats, good price. Then checkout adds the fees.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "CONCERT TICKETS",
+    "text": "GREAT SEATS, GOOD PRICE",
+    "tags": [{"text": "THEN CHECKOUT ADDS FEES", "tone": "yellow"}]
+   }
+  },
+  {
+   "say": "StubHub showed half its US users prices with all fees included.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Fees included", "sub": "Half of US users", "price": "ALL-IN", "art": "ticket"}
+    ]
+   }
+  },
+  {
+   "say": "The other half saw the fees only at checkout.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [0, 1],
+    "cards": [
+     {"title": "Fees included", "sub": "Half of US users", "price": "ALL-IN", "art": "ticket"},
+     {"title": "Fees at checkout", "sub": "The other half", "price": "PLUS FEES", "art": "receipt"}
+    ]
+   }
+  },
+  {
+   "say": "Those who saw fees only at checkout spent 21% more.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "FEES ONLY AT CHECKOUT",
+    "text": "21% MORE SPENT"
+   }
+  },
+  {
+   "say": "They were also 14% more likely to buy.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "FEES ONLY AT CHECKOUT",
+    "text": "14% MORE LIKELY TO BUY"
+   }
+  },
+  {
+   "say": "Showing fees late makes the first price look smaller.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Fees included", "sub": "Half of US users", "price": "ALL-IN", "art": "ticket"},
+     {"title": "Fees at checkout", "sub": "The other half", "price": "PLUS FEES", "priceRed": true, "art": "receipt", "tags": [{"text": "LOOKS SMALLER", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "By checkout, you're already at the show in your head.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Fees included", "sub": "Half of US users", "price": "ALL-IN", "art": "ticket"},
+     {"title": "Fees at checkout", "sub": "The other half", "price": "PLUS FEES", "priceRed": true, "art": "receipt", "tags": [{"text": "LOOKS SMALLER", "tone": "yellow"}, {"text": "ALREADY GOING", "tone": "dark"}]}
+    ]
+   }
+  },
+  {
+   "say": "So you skip the real question: what's the full price?",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [1, 0],
+    "cards": [
+     {"title": "Fees included", "sub": "Half of US users", "price": "ALL-IN", "art": "ticket"},
+     {"title": "Fees at checkout", "sub": "The other half", "price": "PLUS FEES", "priceRed": true, "art": "receipt", "tags": [{"text": "LOOKS SMALLER", "tone": "yellow"}, {"text": "FULL PRICE?", "tone": "blue"}]}
+    ]
+   }
+  },
+  {
+   "say": "That's called drip pricing.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "FEES ADDED AT CHECKOUT",
+    "text": "DRIP PRICING"
+   }
+  },
+  {
+   "say": "A burger in a delivery app: $9.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Burger", "sub": "Menu price", "price": "$9", "art": "sandwich"},
+     null
+    ],
+    "after": [null, null],
+    "labels": ["MENU", "CHECKOUT"]
+   }
+  },
+  {
+   "say": "At checkout, fees make it $16. Same trick as the tickets.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Burger", "sub": "Menu price", "price": "$9", "art": "sandwich"},
+     null
+    ],
+    "after": [
+     {"title": "Burger", "sub": "Menu price", "price": "$9", "art": "sandwich"},
+     {"title": "With fees", "sub": "Total at checkout", "price": "$16", "art": "receipt", "top": {"text": "+FEES", "tone": "red"}}
+    ],
+    "labels": ["MENU", "CHECKOUT"]
+   }
+  },
+  {
+   "say": "No fees shown? That's not the price yet.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "NO FEES SHOWN?",
+    "text": "NOT THE PRICE YET"
+   }
+  },
+  {
+   "say": "What's the worst checkout jump you've seen?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}

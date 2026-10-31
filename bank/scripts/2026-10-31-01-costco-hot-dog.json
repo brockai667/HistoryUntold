@@ -1,0 +1,161 @@
+{
+ "id": "costco-hot-dog",
+ "case": "$1.50 HOT DOG",
+ "title": "The hot dog that sells the membership",
+ "caption": "Ever wondered why the hot dog is still so cheap?\nThe cheap hot dog has a job: selling the membership.",
+ "source": "Costco annual report (FY2024); press interviews",
+ "beats": [
+  {
+   "say": "Ever wondered why the hot dog is still so cheap?",
+   "scene": "Hero",
+   "props": {
+    "art": "sandwich",
+    "tag": {"text": "BE HONEST", "tone": "yellow"},
+    "title": "WHY SO CHEAP?",
+    "sub": "WHO PAYS FOR IT?"
+   }
+  },
+  {
+   "say": "Big shop done. Hot dog on the way out.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "BIG SHOP DONE",
+    "text": "HOT DOG ON THE WAY OUT"
+   }
+  },
+  {
+   "say": "At Costco, a hot dog plus a soda costs $1.50.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Hot dog", "sub": "Plus a soda", "price": "$1.50", "art": "sandwich"}
+    ]
+   }
+  },
+  {
+   "say": "Same price since 1985.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Hot dog", "sub": "Plus a soda", "price": "$1.50", "art": "sandwich", "tags": [{"text": "SINCE 1985", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "The basic membership: $65 a year.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Hot dog", "sub": "Plus a soda", "price": "$1.50", "art": "sandwich", "tags": [{"text": "SINCE 1985", "tone": "yellow"}]},
+     {"title": "Membership", "sub": "Basic, US and Canada", "price": "$65", "art": "credit-card"}
+    ]
+   }
+  },
+  {
+   "say": "Costco raised it in 2024. The hot dog? Untouched.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [1, 0],
+    "cards": [
+     {"title": "Hot dog", "sub": "Plus a soda", "price": "$1.50", "art": "sandwich", "tags": [{"text": "SINCE 1985", "tone": "yellow"}, {"text": "UNTOUCHED", "tone": "dark"}]},
+     {"title": "Membership", "sub": "Basic, US and Canada", "price": "$65", "art": "credit-card", "tags": [{"text": "RAISED IN 2024", "tone": "dark"}]}
+    ]
+   }
+  },
+  {
+   "say": "The cheap hot dog is there to sell the membership.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Hot dog", "sub": "Plus a soda", "price": "$1.50", "priceRed": true, "art": "sandwich", "stamp": "BAIT"},
+     {"title": "Membership", "sub": "Basic, US and Canada", "price": "$65", "art": "credit-card", "tags": [{"text": "THE REAL SALE", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "Each cheap hot dog feels like the membership paying you back.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Hot dog", "sub": "Plus a soda", "price": "$1.50", "priceRed": true, "art": "sandwich", "stamp": "BAIT"},
+     {"title": "Membership", "sub": "Basic, US and Canada", "price": "$65", "art": "credit-card", "tags": [{"text": "THE REAL SALE", "tone": "yellow"}, {"text": "PAYS YOU BACK?", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "So you skip the question: is the membership worth it?",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [0, 1],
+    "cards": [
+     {"title": "Hot dog", "sub": "Plus a soda", "price": "$1.50", "priceRed": true, "art": "sandwich", "stamp": "BAIT"},
+     {"title": "Membership", "sub": "Basic, US and Canada", "price": "$65", "art": "credit-card", "tags": [{"text": "THE REAL SALE", "tone": "yellow"}, {"text": "WORTH IT?", "tone": "blue"}]}
+    ]
+   }
+  },
+  {
+   "say": "In one year, membership fees brought in $4.83 billion.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "MEMBERSHIP FEES, FISCAL 2024",
+    "text": "$4.83 BILLION"
+   }
+  },
+  {
+   "say": "That's called a loss leader.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "SOLD CHEAP TO GET YOU IN",
+    "text": "A LOSS LEADER"
+   }
+  },
+  {
+   "say": "Cinema deal: Tuesday tickets, just $5.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Ticket", "sub": "Tuesday deal", "price": "$5", "art": "ticket"},
+     null
+    ],
+    "after": [null, null],
+    "labels": ["THE DEAL", "THE BILL"]
+   }
+  },
+  {
+   "say": "Then popcorn costs $9. That ticket was your hot dog.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Ticket", "sub": "Tuesday deal", "price": "$5", "art": "ticket"},
+     null
+    ],
+    "after": [
+     {"title": "Ticket", "sub": "Tuesday deal", "price": "$5", "art": "ticket", "top": {"text": "BAIT", "tone": "red"}},
+     {"title": "Popcorn", "sub": "Full price", "price": "$9", "art": "popcorn", "badge": {"text": "REAL MONEY", "tone": "dark"}}
+    ],
+    "labels": ["THE DEAL", "THE BILL"]
+   }
+  },
+  {
+   "say": "Oddly cheap? Look for the bigger bill.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "ODDLY CHEAP?",
+    "text": "LOOK FOR THE BIGGER BILL"
+   }
+  },
+  {
+   "say": "What cheap deal got you through the door?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}

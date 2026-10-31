@@ -1,0 +1,161 @@
+{
+ "id": "ps3-console-loss",
+ "case": "THE LOSING CONSOLE",
+ "title": "The console sold at a loss",
+ "caption": "Have you ever bought a console and then kept paying for games?\nSony counted on making the money back from games.",
+ "source": "iSuppli estimate, reported by Fortune (2006)",
+ "beats": [
+  {
+   "say": "Have you ever bought a console and then kept paying for games?",
+   "scene": "Hero",
+   "props": {
+    "art": "gamepad-2",
+    "tag": {"text": "BE HONEST", "tone": "yellow"},
+    "title": "WHO REALLY PAYS?",
+    "sub": "THE CONSOLE OR GAMES?"
+   }
+  },
+  {
+   "say": "New console day. You grab two games too.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "NEW CONSOLE DAY",
+    "text": "PLUS TWO GAMES"
+   }
+  },
+  {
+   "say": "Sony's PlayStation 3 launched at $499.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "PlayStation 3", "sub": "2006, 20GB version", "price": "$499", "art": "gamepad-2"}
+    ]
+   }
+  },
+  {
+   "say": "Research firm iSuppli estimated it cost $805.85 to build.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "PlayStation 3", "sub": "2006, 20GB version", "price": "$499", "art": "gamepad-2"},
+     {"title": "Cost to build", "sub": "Parts and assembly", "price": "$805.85", "art": "wrench"}
+    ]
+   }
+  },
+  {
+   "say": "So Sony lost $306.85 on each one sold.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [1, 0],
+    "cards": [
+     {"title": "PlayStation 3", "sub": "2006, 20GB version", "price": "$499", "art": "gamepad-2", "tags": [{"text": "LOST $306.85", "tone": "red"}]},
+     {"title": "Cost to build", "sub": "Parts and assembly", "price": "$805.85", "art": "wrench"}
+    ]
+   }
+  },
+  {
+   "say": "The estimate didn't even count the controller, cables or packaging.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "PlayStation 3", "sub": "2006, 20GB version", "price": "$499", "art": "gamepad-2", "tags": [{"text": "LOST $306.85", "tone": "red"}]},
+     {"title": "Cost to build", "sub": "Parts and assembly", "price": "$805.85", "art": "wrench", "tags": [{"text": "NO CONTROLLER", "tone": "dark"}, {"text": "NO CABLES", "tone": "dark"}, {"text": "NO PACKAGING", "tone": "dark"}]}
+    ]
+   }
+  },
+  {
+   "say": "Why sell at a loss? Sony counted on making the money back from games.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "PlayStation 3", "sub": "2006, 20GB version", "price": "$499", "priceRed": true, "art": "gamepad-2", "stamp": "LOSS", "tags": [{"text": "GAMES PAY BACK", "tone": "yellow"}]},
+     {"title": "Cost to build", "sub": "Parts and assembly", "price": "$805.85", "art": "wrench"}
+    ]
+   }
+  },
+  {
+   "say": "Like an arcade with cheap entry. You pay at every game.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "PlayStation 3", "sub": "2006, 20GB version", "price": "$499", "priceRed": true, "art": "gamepad-2", "stamp": "LOSS", "tags": [{"text": "CHEAP ENTRY?", "tone": "yellow"}]},
+     {"title": "Cost to build", "sub": "Parts and assembly", "price": "$805.85", "art": "wrench"}
+    ]
+   }
+  },
+  {
+   "say": "So you skip the real question: what will the games cost?",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "PlayStation 3", "sub": "2006, 20GB version", "price": "$499", "priceRed": true, "art": "gamepad-2", "stamp": "LOSS", "tags": [{"text": "CHEAP ENTRY?", "tone": "yellow"}, {"text": "GAMES COST?", "tone": "blue"}]},
+     {"title": "Cost to build", "sub": "Parts and assembly", "price": "$805.85", "art": "wrench"}
+    ]
+   }
+  },
+  {
+   "say": "Even the $599 version? $241.35 lost on each.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "THE 60GB, $599 VERSION",
+    "text": "$241.35 LOST EACH"
+   }
+  },
+  {
+   "say": "That's called razor and blades.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "CHEAP RAZOR, PRICEY BLADES",
+    "text": "RAZOR AND BLADES"
+   }
+  },
+  {
+   "say": "A printer, just $15.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Printer", "sub": "Looks cheap", "price": "$15", "art": "printer"},
+     null
+    ],
+    "after": [null, null],
+    "labels": ["BUY IT", "USE IT"]
+   }
+  },
+  {
+   "say": "Then each ink refill costs $18. Same trick as the console.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Printer", "sub": "Looks cheap", "price": "$15", "art": "printer"},
+     null
+    ],
+    "after": [
+     {"title": "Printer", "sub": "Looks cheap", "price": "$15", "art": "printer", "top": {"text": "BAIT", "tone": "red"}},
+     {"title": "Ink refill", "sub": "Every time", "price": "$18", "art": "droplets", "badge": {"text": "REAL MONEY", "tone": "dark"}}
+    ],
+    "labels": ["BUY IT", "USE IT"]
+   }
+  },
+  {
+   "say": "Cheap machine? Add up the refills first.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "CHEAP MACHINE?",
+    "text": "ADD UP THE REFILLS FIRST"
+   }
+  },
+  {
+   "say": "Which cost you more: the console or the games?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}
