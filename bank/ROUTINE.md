@@ -29,9 +29,10 @@ tu **negeneruje** (šetrí PC aj dennú kvótu Orpheus).
 8. Potom checklist zo `SCRIPT_GUIDE.md` (10 otázok) – každá odpoveď ÁNO, inak oprav.
 9. **Nezávislá recenzia (brána pred pushom).** Pre každý nový skript spusti agenta `setrny-recenzent`
    (model `opus`, len číta) so zadaním: „Posúď skript `bank/scripts/<súbor>` podľa `bank/REVIEW.md`, prípad
-   `<id>` je v `bank/cases.json`. Vráť VERDIKT a PROBLÉMY presne podľa REVIEW.md.“ Svoj plán ani zdôvodnenie mu
-   nedávaj. Pri `FAIL` skript prepíš podľa PROBLÉMOV, znova lint a znova recenzia – najviac 2 kolá opráv.
-   Keď ani potom nedostane `PASS`, súbor zmaž (je tvoj nový, necommitnutý) a prípad preskoč (do správy prečo).
+   `<id>` je v `bank/cases.json`. Vráť VERDIKT a PROBLÉMY presne podľa REVIEW.md, každý problém BLOCKER alebo NIT.“
+   Svoj plán ani zdôvodnenie mu nedávaj. `PASS` = žiadny BLOCKER (NIT nebránia). Pri `FAIL` oprav všetky BLOCKER
+   a lacné NIT, znova lint a znova recenzia – najviac 2 kolá recenzie na skript.
+   Keď ani 2. kolo nedá `PASS`, súbor zmaž (je tvoj nový, necommitnutý) a prípad preskoč (do správy prečo).
    Bez `PASS` skript nikdy necommitni.
 10. Ak ostáva < 10 nepoužitých prípadov v `bank/cases.json`, len to napíš do správy (nové prípady pridáva
    Damián s Claude ručne, s overenými zdrojmi – rutina si fakty nevymýšľa).

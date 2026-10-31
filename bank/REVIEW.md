@@ -11,7 +11,7 @@ so skriptom, ktorý dostal `PASS`.
 - `SCRIPT_GUIDE.md` (sekcia 5 Checklist je záväzná), `SPEC.md` sekcia „Scény a props“, `remotion/icons.json`
 - vzor schváleného dielu: `bank/scripts/used/*economist-decoy.json` (alebo `bank/scripts/2026-10-25-01-economist-decoy.json`)
 
-## Kritériá (každé musí byť ÁNO, inak FAIL)
+## Kritériá (podľa nich hľadaj problémy; o verdikte rozhoduje závažnosť nižšie)
 
 1. **Fakty.** Každé číslo, meno, rok a tvrdenie o prípade je v `facts`/`names` prípadu. Nič navyše,
    nič zaokrúhlené ani prehodené (kto, kedy, koľko ľudí, aké ceny). Výnimky: čísla 1–3 a ceny v bežnom príklade.
@@ -29,12 +29,23 @@ so skriptom, ktorý dostal `PASS`.
 8. **Bezpečnosť.** Nič urážlivé, žiadne finančné rady, žiadne meno súkromnej osoby, žiadne tvrdenie, ktoré
    by ohrozilo kanál (zdravie, politika).
 
+## Závažnosť: každý problém označ BLOCKER alebo NIT
+
+- **BLOCKER** = číslo, meno alebo tvrdenie bez opory v `bank/cases.json` (aj pri pochybnosti); chyba lintu;
+  zlá dĺžka alebo štruktúra podľa ROUTINE/SCRIPT_GUIDE (počty z checklistu 9, hák podľa bodu 3, poradie častí,
+  pohyb podľa bodu 4, ikona mimo `icons.json`); cenový trik sa po jednom pozretí nedá pochopiť; zavádzajúca
+  alebo právne riziková formulácia (obvinenie podané ako fakt, rada, meno súkromnej osoby); už použitý prípad.
+- **NIT** = štýl a formulácia: iné slovo, rytmus, podobná myšlienka v dvoch vetách, dve čísla v jednej vete,
+  „it“ zrozumiteľné z kontextu, kozmetika obrazu. NIT je BLOCKER, len ak kvôli nemu divák trik nepochopí.
+- **PASS = žiadny BLOCKER.** Autor opraví všetky BLOCKER a lacné NIT a dá jednu opakovanú recenziu (najviac
+  2 kolá na skript). V 2. kole over opravy a hľadaj len BLOCKER, nie nové štýlové NIT.
+
 ## Výstup recenzenta (presne takto)
 
 ```
 VERDIKT: PASS | FAIL
 PROBLÉMY:
-- <úder N / pole>: <čo je zle> → <ako to opraviť>
+- [BLOCKER|NIT] <úder N / pole>: <čo je zle> → <ako to opraviť>
 ```
 
-Pri `PASS` môže zoznam obsahovať len drobnosti, ktoré nebránia pushu. Pri pochybnosti o fakte = `FAIL`.
+`FAIL` len vtedy, keď je v zozname aspoň jeden BLOCKER.
