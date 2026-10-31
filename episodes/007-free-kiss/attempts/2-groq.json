@@ -1,0 +1,277 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beats must be exactly the 13 approved beats in order (got 12)",
+  "beat 11 Compare: say has 27 words (need 2-24)"
+ ],
+ "plan": {
+  "paradox": "A free kiss beats a priced truffle",
+  "odd_fact": "Free Kiss appears, sounds generous",
+  "twist": "It stops comparison  -  the free trick",
+  "cause": "Zero-price Kiss draws 69% while truffle only 31% because the free price removes the reference point",
+  "everyday": "A café offers regular latte $3, flavored latte $3.50, free small espresso  -  the free item makes the $3 latte feel like the smart choice",
+  "rule": "If something is free, expect it to dominate. Follow for more."
+ },
+ "id": "free-kiss",
+ "case": "FREE KISS",
+ "title": "When a free kiss beats a priced truffle",
+ "caption": "Free beats pricey  -  the psychology of zero price. #behavioral #economics",
+ "source": "Dan Ariely, Predictably Irrational (2008)",
+ "beats": [
+  {
+   "say": "A free kiss beats a priced truffle.",
+   "scene": "Hero",
+   "props": {
+    "art": "candy",
+    "tag": "PARADOX",
+    "title": "Free Kiss",
+    "sub": "Zero-price power"
+   }
+  },
+  {
+   "say": "A Lindt truffle, premium chocolate.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "Lindt truffle",
+      "sub": "premium chocolate",
+      "price": "15 ¢",
+      "art": "candy"
+     }
+    ]
+   }
+  },
+  {
+   "say": "A Hershey's Kiss, tiny treat.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "Lindt truffle",
+      "sub": "premium chocolate",
+      "price": "15 ¢",
+      "art": "candy"
+     },
+     {
+      "title": "Hershey Kiss",
+      "sub": "tiny treat",
+      "price": "1 ¢",
+      "art": "candy"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Same money, different size.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "Lindt truffle",
+      "sub": "premium chocolate",
+      "price": "15 ¢",
+      "art": "candy"
+     },
+     {
+      "title": "Hershey Kiss",
+      "sub": "tiny treat",
+      "price": "1 ¢",
+      "art": "candy"
+     }
+    ]
+   }
+  },
+  {
+   "say": "A free Kiss appears. Sounds generous.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "Lindt truffle",
+      "sub": "premium chocolate",
+      "price": "15 ¢",
+      "art": "candy"
+     },
+     {
+      "title": "Hershey Kiss",
+      "sub": "free now",
+      "price": "free",
+      "priceRed": true,
+      "stamp": "BAIT",
+      "art": "candy"
+     }
+    ]
+   }
+  },
+  {
+   "say": "But it stops comparison - the free trick.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "Lindt truffle",
+      "sub": "premium chocolate",
+      "price": "15 ¢",
+      "art": "candy"
+     },
+     {
+      "title": "Hershey Kiss",
+      "sub": "free now",
+      "price": "free",
+      "priceRed": true,
+      "stamp": "TRICK",
+      "art": "candy"
+     }
+    ]
+   },
+   "mode": "blueprint"
+  },
+  {
+   "say": "When the Kiss costs zero, 69% pick it.",
+   "scene": "Statement",
+   "props": {
+    "text": "69% choose free",
+    "tags": [
+     "FREE TRICK"
+    ]
+   }
+  },
+  {
+   "say": "Even though the truffle is only 14 ¢ cheaper, only 31% stay.",
+   "scene": "Anchor",
+   "props": {
+    "job": "PRICE SHIFT",
+    "price": "14 ¢",
+    "at": 0.6,
+    "split": 0.8,
+    "art": "candy",
+    "anchor": {
+     "label": "price gap",
+     "art": "candy"
+    }
+   }
+  },
+  {
+   "say": "Zero price erases the reference point, so buyers ignore the gap.",
+   "scene": "Views",
+   "props": {
+    "job": "PSYCHOLOGY",
+    "label": "VIEWS",
+    "value": 69,
+    "from": 0,
+    "prefix": "",
+    "suffix": "%",
+    "grid": 2,
+    "thumbLabel": "BUYERS",
+    "art": "candy"
+   }
+  },
+  {
+   "say": "You see it everywhere.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     null,
+     {
+      "title": "Latte",
+      "price": "$3",
+      "art": "cup-soda"
+     },
+     {
+      "title": "Flavored latte",
+      "price": "$3.50",
+      "art": "cup-soda"
+     }
+    ],
+    "after": [
+     {
+      "title": "Free espresso",
+      "price": "free",
+      "priceRed": true,
+      "stamp": "TRICK",
+      "art": "candy",
+      "top": {
+       "text": "BAIT",
+       "tone": "red"
+      }
+     },
+     {
+      "title": "Latte",
+      "price": "$3",
+      "art": "cup-soda"
+     },
+     {
+      "title": "Flavored latte",
+      "price": "$3.50",
+      "art": "cup-soda"
+     }
+    ],
+    "labels": [
+     "BEFORE",
+     "AFTER"
+    ]
+   }
+  },
+  {
+   "say": "A café offers regular latte $3, flavored latte $3.50, free small espresso. The free espresso feels like a bonus, so the $3 latte becomes the smart pick.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     null,
+     {
+      "title": "Latte",
+      "price": "$3",
+      "art": "cup-soda"
+     },
+     {
+      "title": "Flavored latte",
+      "price": "$3.50",
+      "art": "cup-soda"
+     }
+    ],
+    "after": [
+     {
+      "title": "Free espresso",
+      "price": "free",
+      "priceRed": true,
+      "stamp": "TRICK",
+      "art": "candy",
+      "top": {
+       "text": "BAIT",
+       "tone": "red"
+      }
+     },
+     {
+      "title": "Latte",
+      "price": "$3",
+      "badge": {
+       "text": "SMART CHOICE",
+       "tone": "green"
+      },
+      "art": "cup-soda"
+     },
+     {
+      "title": "Flavored latte",
+      "price": "$3.50",
+      "art": "cup-soda"
+     }
+    ],
+    "labels": [
+     "BEFORE",
+     "AFTER"
+    ]
+   }
+  },
+  {
+   "say": "If something is free, expect it to dominate. Follow for more.",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}

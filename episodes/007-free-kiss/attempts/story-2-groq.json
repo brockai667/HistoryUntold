@@ -1,0 +1,66 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [],
+ "plan": {
+  "paradox": "A free kiss beats a priced truffle",
+  "odd_fact": "Free Kiss appears, sounds generous",
+  "twist": "It stops comparison  -  the free trick",
+  "cause": "Zero-price Kiss draws 69% while truffle only 31% because the free price removes the reference point",
+  "everyday": "A café offers regular latte $3, flavored latte $3.50, free small espresso  -  the free item makes the $3 latte feel like the smart choice",
+  "rule": "If something is free, expect it to dominate. Follow for more."
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "A free kiss beats a priced truffle."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A Lindt truffle, premium chocolate."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A Hershey's Kiss, tiny treat."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Same money, different size."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A free Kiss appears. Sounds generous."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it stops comparison - the free trick."
+  },
+  {
+   "scene": "Statement",
+   "say": "When the Kiss costs zero, 69% pick it."
+  },
+  {
+   "scene": "Anchor",
+   "say": "Even though the truffle is only 14 ¢ cheaper, only 31% stay."
+  },
+  {
+   "scene": "Views",
+   "say": "Zero price erases the reference point, so buyers ignore the gap."
+  },
+  {
+   "scene": "Compare",
+   "say": "You see it everywhere."
+  },
+  {
+   "scene": "Compare",
+   "say": "A café offers a regular latte for $3, a flavored latte for $3.50, and a free small espresso."
+  },
+  {
+   "scene": "Compare",
+   "say": "The free espresso feels like a bonus, so the $3 latte becomes the smart pick."
+  },
+  {
+   "scene": "Outro",
+   "say": "If something is free, expect it to dominate. Follow for more."
+  }
+ ]
+}

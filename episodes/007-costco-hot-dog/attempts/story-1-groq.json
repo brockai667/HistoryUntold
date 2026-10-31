@@ -1,0 +1,68 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beat 1 Hero: hook has more than one number (the numbers come later, the hook is the strange thing)"
+ ],
+ "plan": {
+  "paradox": "A $1.50 hot dog funds a $65 club",
+  "odd_fact": "Co-founder warned, \"If you raise the effing hot dog, I will kill you.\"",
+  "twist": "It's a loss-leader that drives membership sales",
+  "cause": "The $1.50 combo draws shoppers in, while the $65 membership generates $4.83 billion in fees and $7.37 billion net income",
+  "everyday": "Coffee shop: $1 espresso, $3 latte, $30 monthly coffee club  -  the club wins because it covers dozens of drinks. Cinema: $5 popcorn, $12 combo, $25 annual pass  -  the pass feels smart as it pays for many visits. Both use a cheap bait to push a high-margin subscription",
+  "rule": "Spot the cheap bait, ask what big ticket it feeds. Follow for more."
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "A $1.50 hot dog funds a $65 club."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A hot dog and soda combo sold for a buck and a half."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A bulk pack of meat and drinks for the family."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A yearly membership you can't skip."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Co-founder warned, \"If you raise the effing hot dog, I will kill you.\" Looks like a threat."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it's a loss-leader that drives membership sales."
+  },
+  {
+   "scene": "Statement",
+   "say": "The combo stays $1.50, pulling shoppers deeper into the warehouse."
+  },
+  {
+   "scene": "Anchor",
+   "say": "Each member now pays $65, delivering $4.83 billion in fees."
+  },
+  {
+   "scene": "Views",
+   "say": "That feeds a $7.37 billion net profit, proving the model works."
+  },
+  {
+   "scene": "Compare",
+   "say": "A coffee shop offers a $1 espresso, a $3 latte, and a $30 monthly coffee club."
+  },
+  {
+   "scene": "Compare",
+   "say": "A cinema sells a $5 popcorn, a $12 combo, and a $25 annual pass."
+  },
+  {
+   "scene": "Compare",
+   "say": "Both push the pass as the smart choice because it covers many visits."
+  },
+  {
+   "scene": "Outro",
+   "say": "Spot the cheap bait, ask what big ticket it feeds. Follow for more."
+  }
+ ]
+}

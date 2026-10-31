@@ -1,0 +1,68 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
+ ],
+ "plan": {
+  "paradox": "Costco keeps a hot dog forever cheap. And it never hurts profit.",
+  "odd_fact": "Hot dog price unchanged since 1985. Sounds generous.",
+  "twist": "But it's a loss-leader that funds the membership.",
+  "cause": "The cheap combo draws shoppers into the warehouse, while the $65 annual fee brings $4.83 billion, covering the $1.50 loss and leaving $7.37 billion net profit.",
+  "everyday": "A bakery offers a $2 pastry, a $5 cake, and a $20 catering package. The $5 cake acts as a decoy, so customers choose the $20 catering deal, feeling the cheap pastry justified the bigger spend.",
+  "rule": "If something stays cheap for decades, ask what big fee it supports. Follow for more."
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "Costco keeps a hot dog forever cheap. And it never hurts profit."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Buy a hot dog and soda, get a cheap lunch."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Grab a gourmet sandwich, pay more for the same calories."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Become a member, pay a yearly fee and unlock everything."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Hot dog price unchanged since 1985. Sounds generous."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it's a loss-leader that funds the membership."
+  },
+  {
+   "scene": "Statement",
+   "say": "The cheap combo draws shoppers into the warehouse."
+  },
+  {
+   "scene": "Views",
+   "say": "The $65 annual fee brings $4.83 billion, covering the $1.50 loss."
+  },
+  {
+   "scene": "Anchor",
+   "say": "With $7.37 billion net income, the hot dog is invisible."
+  },
+  {
+   "scene": "Compare",
+   "say": "A bakery offers a $2 pastry, a $5 cake, and a $20 catering package."
+  },
+  {
+   "scene": "Compare",
+   "say": "The $5 cake acts as a decoy, so customers choose the $20 catering deal."
+  },
+  {
+   "scene": "Compare",
+   "say": "The cheap pastry feels like a loss-leader, making the catering deal feel smart."
+  },
+  {
+   "scene": "Outro",
+   "say": "If something stays cheap for decades, ask what big fee it supports. Follow for more."
+  }
+ ]
+}

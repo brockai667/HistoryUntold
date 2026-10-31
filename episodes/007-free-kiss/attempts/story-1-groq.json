@@ -1,0 +1,69 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "spoken words total 155, need 85-150 (aim for 115-135; pauses add about 15%)"
+ ],
+ "plan": {
+  "paradox": "A free Hershey's Kiss outsells a priced Lindt truffle",
+  "odd_fact": "When the Kiss goes free, 69% take it, despite a 14-cent gap. Sounds generous.",
+  "twist": "But it stops comparison; free wins.",
+  "cause": "The free Kiss removes any price reference, so buyers ignore the remaining price gap; 69% choose it versus 31% for the truffle.",
+  "everyday": "Bakery: chocolate croissant $2.50, plain croissant $2.00, free coffee. Gym: month pass $30, day pass $5, free trial week. Free items erase price anchors, making the paid option feel like the smart choice.",
+  "rule": "If something is free, expect it to dominate choices. Follow for more."
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "A free Hershey's Kiss outsells a priced Lindt truffle."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A premium truffle, fancy packaging."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A simple chocolate kiss, no frills."
+  },
+  {
+   "scene": "PriceList",
+   "say": "The same two sweets, but the kiss costs nothing."
+  },
+  {
+   "scene": "PriceList",
+   "say": "When the kiss is free, 69% take it, despite a 14-cent gap. Sounds generous."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it stops comparison; free wins."
+  },
+  {
+   "scene": "Statement",
+   "say": "The free kiss removes any price reference, so the remaining 14-cent difference feels irrelevant."
+  },
+  {
+   "scene": "Anchor",
+   "say": "Consequently, 69% pick the free kiss while only 31% still buy the truffle."
+  },
+  {
+   "scene": "Views",
+   "say": "A 73% preference for the truffle evaporates once the kiss is free."
+  },
+  {
+   "scene": "Compare",
+   "say": "You see it everywhere: a bakery offers a chocolate croissant for $2.50, a plain croissant for $2.00, and a free coffee."
+  },
+  {
+   "scene": "Compare",
+   "say": "The free coffee makes the croissant feel like the smart buy."
+  },
+  {
+   "scene": "Compare",
+   "say": "A gym lists a month pass $30, a day pass $5, and a free trial week; the free trial pushes the month pass."
+  },
+  {
+   "scene": "Outro",
+   "say": "If something is free, expect it to dominate choices. Follow for more."
+  }
+ ]
+}

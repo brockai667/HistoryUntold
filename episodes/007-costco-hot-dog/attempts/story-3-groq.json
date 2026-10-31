@@ -1,0 +1,71 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beats 5,6 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "beat 10 Compare: say has 27 words (need 3-20)",
+  "spoken words total 193, need 85-150 (aim for 115-135; pauses add about 15%)",
+  "number 1.50 is spoken in 3 beats (1, 5, 8) - max 2, the card already shows it"
+ ],
+ "plan": {
+  "paradox": "Costco sells a hot dog for $1.50. And it never changes.",
+  "odd_fact": "A $1.50 hot dog forever. Sounds generous.",
+  "twist": "But it's a loss-leader that funds the $65 membership.",
+  "cause": "The annual membership fee ($4.83 billion FY2024) pays for the cheap combo, letting Costco keep the price at $1.50.",
+  "everyday": "Bakery: $2 croissant, $5 pastry box, $30 loyalty card that makes the croissant $2 forever. Gym: $0 day-pass, $20 class pack, $120 yearly membership that includes the free pass. Both push the membership as the smart buy.",
+  "rule": "When a tiny loss leads to a big fee, the loss is the hook. Follow for more."
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "Costco sells a hot dog for $1.50. And it never changes."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A frozen combo that looks like a bargain, but you still need a membership."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A full-service food court meal that costs more, but you can walk in without a card."
+  },
+  {
+   "scene": "PriceList",
+   "say": "The annual membership that unlocks everything, including the cheap combo."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A $1.50 hot dog forever. Sounds generous."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it's a loss-leader that funds the $65 membership."
+  },
+  {
+   "scene": "Statement",
+   "say": "The membership fee alone brought in $4.83 billion in FY2024."
+  },
+  {
+   "scene": "Views",
+   "say": "That revenue covers the $7.37 billion net income, letting Costco keep the combo at $1.50."
+  },
+  {
+   "scene": "Anchor",
+   "say": "Raise the combo and the CEO once warned, \"If you raise the effing hot dog, I will kill you.\""
+  },
+  {
+   "scene": "Compare",
+   "say": "You see it at a bakery: a $2 croissant, a $5 pastry box, and a $30 loyalty card that lets you buy the croissant for $2 forever."
+  },
+  {
+   "scene": "Compare",
+   "say": "A gym offers a $0 day-pass, a $20 class pack, and a $120 yearly membership that includes the free pass."
+  },
+  {
+   "scene": "Compare",
+   "say": "Because the membership looks like the smart choice, you pay it and get the cheap item for free."
+  },
+  {
+   "scene": "Outro",
+   "say": "When a tiny loss leads to a big fee, the loss is the hook. Follow for more."
+  }
+ ]
+}
