@@ -1,5 +1,5 @@
 {
- "next_ep": 8,
+ "next_ep": 9,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
@@ -7,7 +7,8 @@
   "catalog-dress-39",
   "disney-bundle",
   "netflix-qwikster",
-  "costco-hot-dog"
+  "costco-hot-dog",
+  "free-kiss"
  ],
  "episodes": {
   "1": {
@@ -117,7 +118,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-11-01T07:15:00+00:00"
+  },
+  "8": {
+   "id": "free-kiss",
+   "title": "Free beat the pricier chocolate",
+   "posted_at": "2026-11-01T00:15:13+00:00",
+   "release": "ep-008",
+   "author": "claude-bank",
+   "text": "Ever grabbed something just because it was free?\nOne cent off, and the free chocolate won.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-008/008-free-kiss.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-11-02T07:21:00+00:00"
   }
  },
- "buffer_last_due": "2026-11-01T07:15:00+00:00"
+ "buffer_last_due": "2026-11-02T07:21:00+00:00"
 }

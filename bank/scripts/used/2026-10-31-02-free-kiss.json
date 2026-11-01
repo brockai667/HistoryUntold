@@ -1,0 +1,166 @@
+{
+ "id": "free-kiss",
+ "case": "THE FREE KISS",
+ "title": "Free beat the pricier chocolate",
+ "caption": "Ever grabbed something just because it was free?\nOne cent off, and the free chocolate won.",
+ "source": "Dan Ariely, Predictably Irrational (2008)",
+ "beats": [
+  {
+   "say": "Ever grabbed something just because it was free?",
+   "scene": "Hero",
+   "props": {
+    "art": "gift",
+    "tag": {"text": "BE HONEST", "tone": "yellow"},
+    "title": "IT WAS FREE.",
+    "sub": "SO YOU TOOK IT?"
+   }
+  },
+  {
+   "say": "A free sample at the counter. You took one.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "AT THE COUNTER",
+    "text": "FREE SAMPLE",
+    "tags": [{"text": "YOU TOOK ONE", "tone": "yellow"}]
+   }
+  },
+  {
+   "say": "Dan Ariely's team sold a Lindt truffle for 15 cents.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Lindt truffle", "sub": "Chocolate", "price": "15 cents", "art": "candy"}
+    ]
+   }
+  },
+  {
+   "say": "And a Hershey's Kiss for 1 cent.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Lindt truffle", "sub": "Chocolate", "price": "15 cents", "art": "candy"},
+     {"title": "Hershey's Kiss", "sub": "Chocolate", "price": "1 cent", "art": "candy"}
+    ]
+   }
+  },
+  {
+   "say": "73% picked the truffle. 27% picked the Kiss.",
+   "scene": "Crowd",
+   "props": {
+    "job": "BUYERS",
+    "options": [
+     {"label": "Truffle", "art": "candy", "value": 73},
+     {"label": "Kiss", "art": "candy", "value": 27}
+    ]
+   }
+  },
+  {
+   "say": "Then both prices dropped by 1 cent.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Lindt truffle", "sub": "Chocolate", "price": "14 cents", "art": "candy"},
+     {"title": "Hershey's Kiss", "sub": "Chocolate", "price": "FREE", "art": "gift"}
+    ]
+   }
+  },
+  {
+   "say": "Now 69% took the free Kiss. Only 31% bought the truffle.",
+   "scene": "Crowd",
+   "props": {
+    "job": "THE KISS IS FREE",
+    "options": [
+     {"label": "Truffle", "art": "candy", "value": 31},
+     {"label": "Kiss", "art": "gift", "value": 69, "bait": true}
+    ]
+   }
+  },
+  {
+   "say": "But the gap between them was still 14 cents.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "point": [0, 1],
+    "cards": [
+     {"title": "Lindt truffle", "sub": "Chocolate", "price": "14 cents", "art": "candy", "tags": [{"text": "14 CENTS MORE", "tone": "dark"}]},
+     {"title": "Hershey's Kiss", "sub": "Chocolate", "price": "FREE", "priceRed": true, "art": "gift"}
+    ]
+   }
+  },
+  {
+   "say": "Free feels like a green light. You stop comparing.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Lindt truffle", "sub": "Chocolate", "price": "14 cents", "art": "candy", "tags": [{"text": "14 CENTS MORE", "tone": "dark"}]},
+     {"title": "Hershey's Kiss", "sub": "Chocolate", "price": "FREE", "priceRed": true, "art": "gift", "tags": [{"text": "GREEN LIGHT", "tone": "green"}]}
+    ]
+   }
+  },
+  {
+   "say": "So you skip the real question: which one do I want?",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [1, 0],
+    "cards": [
+     {"title": "Lindt truffle", "sub": "Chocolate", "price": "14 cents", "art": "candy", "tags": [{"text": "14 CENTS MORE", "tone": "dark"}]},
+     {"title": "Hershey's Kiss", "sub": "Chocolate", "price": "FREE", "priceRed": true, "art": "gift", "tags": [{"text": "GREEN LIGHT", "tone": "green"}, {"text": "WHICH DO I WANT?", "tone": "blue"}]}
+    ]
+   }
+  },
+  {
+   "say": "That's the zero price effect.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "SAME GAP, NEW WINNER",
+    "text": "THE ZERO PRICE EFFECT"
+   }
+  },
+  {
+   "say": "Your cart: $12. Delivery: $3.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Your cart", "sub": "Groceries", "price": "$12", "art": "shopping-cart"},
+     {"title": "Delivery", "sub": "Per order", "price": "$3", "art": "truck"}
+    ],
+    "after": [null, null],
+    "labels": ["BEFORE", "AFTER"]
+   }
+  },
+  {
+   "say": "Free delivery over $15? You add $4 of snacks you didn't need. Free wins again.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Your cart", "sub": "Groceries", "price": "$12", "art": "shopping-cart"},
+     {"title": "Delivery", "sub": "Per order", "price": "$3", "art": "truck"}
+    ],
+    "after": [
+     {"title": "Cart plus snacks", "sub": "Snacks you didn't need", "price": "$16", "art": "shopping-cart", "top": {"text": "+$4", "tone": "red"}},
+     {"title": "Delivery", "sub": "Free over $15", "price": "FREE", "art": "truck", "badge": {"text": "SAVED $3", "tone": "green"}}
+    ],
+    "labels": ["BEFORE", "AFTER"]
+   }
+  },
+  {
+   "say": "Free? Keep comparing anyway.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "SOMETHING'S FREE?",
+    "text": "KEEP COMPARING ANYWAY"
+   }
+  },
+  {
+   "say": "What did you buy just to get something free?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}
