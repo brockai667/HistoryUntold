@@ -1,5 +1,5 @@
 {
- "next_ep": 9,
+ "next_ep": 10,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
@@ -8,7 +8,8 @@
   "disney-bundle",
   "netflix-qwikster",
   "costco-hot-dog",
-  "free-kiss"
+  "free-kiss",
+  "ps3-console-loss"
  ],
  "episodes": {
   "1": {
@@ -133,7 +134,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-11-02T07:21:00+00:00"
+  },
+  "9": {
+   "id": "ps3-console-loss",
+   "title": "The console sold at a loss",
+   "posted_at": "2026-11-02T00:51:39+00:00",
+   "release": "ep-009",
+   "author": "claude-bank",
+   "text": "Have you ever bought a console and then kept paying for games?\nSony counted on making the money back from games.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-009/009-ps3-console-loss.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-11-03T07:23:00+00:00"
   }
  },
- "buffer_last_due": "2026-11-02T07:21:00+00:00"
+ "buffer_last_due": "2026-11-03T07:23:00+00:00"
 }
