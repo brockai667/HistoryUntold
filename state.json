@@ -1,5 +1,5 @@
 {
- "next_ep": 10,
+ "next_ep": 11,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
@@ -9,7 +9,8 @@
   "netflix-qwikster",
   "costco-hot-dog",
   "free-kiss",
-  "ps3-console-loss"
+  "ps3-console-loss",
+  "amazon-prime-iliad"
  ],
  "episodes": {
   "1": {
@@ -149,7 +150,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-11-03T07:23:00+00:00"
+  },
+  "10": {
+   "id": "amazon-prime-iliad",
+   "title": "The cancel process named after a war",
+   "posted_at": "2026-11-03T03:01:08+00:00",
+   "release": "ep-010",
+   "author": "claude-bank",
+   "text": "Ever felt like cancelling a subscription takes forever?\nOne cancel process had its own name: Iliad.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-010/010-amazon-prime-iliad.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-11-04T07:12:00+00:00"
   }
  },
- "buffer_last_due": "2026-11-03T07:23:00+00:00"
+ "buffer_last_due": "2026-11-04T07:12:00+00:00"
 }
