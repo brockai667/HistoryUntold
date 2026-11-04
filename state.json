@@ -1,5 +1,5 @@
 {
- "next_ep": 11,
+ "next_ep": 12,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
@@ -10,7 +10,8 @@
   "costco-hot-dog",
   "free-kiss",
   "ps3-console-loss",
-  "amazon-prime-iliad"
+  "amazon-prime-iliad",
+  "stubhub-hidden-fees"
  ],
  "episodes": {
   "1": {
@@ -165,7 +166,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-11-04T07:12:00+00:00"
+  },
+  "11": {
+   "id": "stubhub-hidden-fees",
+   "title": "The price that grows at checkout",
+   "posted_at": "2026-11-04T01:29:11+00:00",
+   "release": "ep-011",
+   "author": "claude-bank",
+   "text": "Ever seen a ticket price jump at checkout?\nThe price before fees is not the price.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-011/011-stubhub-hidden-fees.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-11-05T07:22:00+00:00"
   }
  },
- "buffer_last_due": "2026-11-04T07:12:00+00:00"
+ "buffer_last_due": "2026-11-05T07:22:00+00:00"
 }
