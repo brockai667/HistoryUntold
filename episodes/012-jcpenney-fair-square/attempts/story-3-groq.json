@@ -1,0 +1,69 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "spoken words total 164, need 85-150 (aim for 115-135; pauses add about 15%)"
+ ],
+ "plan": {
+  "paradox": "JCPenney stopped coupons. And prices stayed the same.",
+  "odd_fact": "Sales fell 25% and the company lost $985 million. Looks disastrous.",
+  "twist": "But the new \"Fair and Square\" list was a decoy, not a discount.",
+  "cause": "The everyday-price option made shoppers think every tag was a deal, so they avoided the cheap baseline and spent less, causing the 25% drop and $985 million loss.",
+  "everyday": "A coffee shop shows three drinks: a plain brew, a flavored latte, and a premium pour-over. The plain brew is $2, the latte $2.50, the pour-over $4. The latte feels like a smart upgrade, pulling customers away from the cheap brew and justifying the higher spend.",
+  "rule": "If a price list removes the obvious discount, assume it's a trick. Follow for more."
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "JCPenney stopped coupons. And prices stayed the same."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Every item shows a single \"Fair and Square\" price, no sales tags."
+  },
+  {
+   "scene": "PriceList",
+   "say": "The same price appears on all merchandise, from jeans to appliances."
+  },
+  {
+   "scene": "PriceList",
+   "say": "No extra discounts, just one flat price per product."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Sales fell 25% and the company lost $985 million. Looks disastrous."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But the new list was a decoy, not a discount."
+  },
+  {
+   "scene": "Statement",
+   "say": "Shoppers chase the feeling of a discount, not the actual low price."
+  },
+  {
+   "scene": "Anchor",
+   "say": "The everyday-price option made every tag look like a deal, so the cheap baseline vanished."
+  },
+  {
+   "scene": "Views",
+   "say": "Without a clear lower price, customers spent less, driving the 25% sales drop and $985 million loss."
+  },
+  {
+   "scene": "Compare",
+   "say": "You see it everywhere. A coffee shop lists a plain brew, a flavored latte, and a premium pour-over."
+  },
+  {
+   "scene": "Compare",
+   "say": "The latte costs $2.50, the plain brew $2, the pour-over $4."
+  },
+  {
+   "scene": "Compare",
+   "say": "The mid-priced latte feels like the smart choice, nudging people away from the cheap option."
+  },
+  {
+   "scene": "Outro",
+   "say": "If a price list removes the obvious discount, assume it's a trick. Follow for more."
+  }
+ ]
+}

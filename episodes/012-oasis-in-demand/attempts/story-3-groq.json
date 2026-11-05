@@ -1,0 +1,69 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "spoken words total 151, need 85-150 (aim for 115-135; pauses add about 15%)"
+ ],
+ "plan": {
+  "paradox": "Queue tickets rise while you wait. And the price jumps.",
+  "odd_fact": "Standing tickets start at £148.50 then hit £355  -  looks like a mistake.",
+  "twist": "It's surge pricing, a hidden demand engine.",
+  "cause": "The 'in demand' option spikes once the queue fills, pushing the price from £148.50 to £355 after hours of waiting.",
+  "everyday": "Gym  -  basic access, group classes, premium personal training £30, £45, £90; the premium looks smart. Café  -  small coffee, regular coffee, specialty latte £2, £3, £5; the specialty feels worth it. Cinema  -  standard seat, premium seat, VIP lounge £8, £12, £20; the premium feels reasonable.",
+  "rule": "Watch the queue length; if the price climbs, it's a surge. Follow for more."
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "Queue tickets rise while you wait. And the price jumps."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A low-cost standing ticket, no frills."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A slightly upgraded ticket with a better view."
+  },
+  {
+   "scene": "PriceList",
+   "say": "The 'in demand' ticket that promises extra perks."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Standing tickets start at £148.50 - looks like a mistake."
+  },
+  {
+   "scene": "Statement",
+   "say": "Ticketmaster flags the 'in demand' tier as soon as the online line swells."
+  },
+  {
+   "scene": "Anchor",
+   "say": "That tier then jumps to £355 after hours of waiting."
+  },
+  {
+   "scene": "Views",
+   "say": "The surge reacts to demand, not to any change in the event."
+  },
+  {
+   "scene": "Compare",
+   "say": "You see it everywhere. A gym lists basic access, group classes, premium training at £30, £45, £90."
+  },
+  {
+   "scene": "Compare",
+   "say": "A café shows small coffee, regular coffee, specialty latte at £2, £3, £5."
+  },
+  {
+   "scene": "Compare",
+   "say": "A cinema offers standard, premium, VIP seats at £8, £12, £20; the premium now feels smart."
+  },
+  {
+   "scene": "Statement",
+   "say": "The middle option looks like a bargain because the top tier is far costlier."
+  },
+  {
+   "scene": "Outro",
+   "say": "Watch the queue length; if the price climbs, it's a surge. Follow for more."
+  }
+ ]
+}

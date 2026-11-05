@@ -1,0 +1,68 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beat 6 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
+ ],
+ "plan": {
+  "paradox": "JCPenney sold 'Fair and Square' prices. Discounts vanished.",
+  "odd_fact": "Sales fell 25% that year. Catastrophic.",
+  "twist": "It tricks the brain into seeing a discount",
+  "cause": "Uniform prices make the 'sale' tag the only perceived deal, causing shoppers to chase the feeling of a discount",
+  "everyday": "A café lists drip coffee $3, a 'special' $3.50, and a 'premium' $5. The middle tier feels smartest because the cheap one seems too cheap and the pricey one far.",
+  "rule": "When a price feels like a discount, ask if the baseline changed. Follow for more."
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "JCPenney sold 'Fair and Square' prices. Discounts vanished."
+  },
+  {
+   "scene": "PriceList",
+   "say": "One price per item, no coupons."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A 'sale' label appears on every product."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A clearance tag shows the lowest price, hidden away."
+  },
+  {
+   "scene": "PriceList",
+   "say": "The regular price looks ordinary, no fanfare."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Sales fell 25% that year. Catastrophic."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it does a job - it tricks the brain into seeing a discount."
+  },
+  {
+   "scene": "Statement",
+   "say": "We chase the feeling of a discount, not the actual number."
+  },
+  {
+   "scene": "Anchor",
+   "say": "Uniform prices make the 'sale' tag the only perceived deal."
+  },
+  {
+   "scene": "Views",
+   "say": "In 2012 the shift cost JCPenney $985 million, caused a 25% drop, and the board fired the CEO after 17 months."
+  },
+  {
+   "scene": "Compare",
+   "say": "A café lists drip coffee $3, a 'special' $3.50, and a 'premium' $5."
+  },
+  {
+   "scene": "Compare",
+   "say": "The middle tier feels smartest because the cheap one seems too cheap and the pricey one far."
+  },
+  {
+   "scene": "Outro",
+   "say": "When a price feels like a discount, ask if the baseline changed. Follow for more."
+  }
+ ]
+}

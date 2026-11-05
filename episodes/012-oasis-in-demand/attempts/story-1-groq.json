@@ -1,0 +1,69 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "spoken words total 168, need 85-150 (aim for 115-135; pauses add about 15%)"
+ ],
+ "plan": {
+  "paradox": "Standing tickets jump in price while you wait. And the queue watches.",
+  "odd_fact": "First price climbs from £148.50 to £355. Looks like a mistake.",
+  "twist": "But it does a job  -  surge pricing hides the hike until you're committed.",
+  "cause": "Ticketmaster waits to see how long you stay in the queue; lingering flags you as high demand and bumps the price.",
+  "everyday": "Cinema: regular seat $12, premium $15, last-minute seat $30 after waiting. Gym: basic $30, popular class $45, rush-sign-up $80 after lingering. Both push the inflated option as the smart choice.",
+  "rule": "If a price spikes while you wait, leave the queue. Follow for more."
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "Standing tickets jump in price while you wait. And the queue watches."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A vague \"in demand\" tier that promises the best view."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A standard standing ticket you thought you were buying."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A budget standing slot that stays cheap."
+  },
+  {
+   "scene": "PriceList",
+   "say": "First price climbs from £148.50 to £355. Looks like a mistake."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it does a job - surge pricing hides the hike until you're committed."
+  },
+  {
+   "scene": "Statement",
+   "say": "Ticketmaster waits to see how long you stay in the queue."
+  },
+  {
+   "scene": "Anchor",
+   "say": "If you linger, the system flags you as high demand and bumps the price."
+  },
+  {
+   "scene": "Views",
+   "say": "The £355 tag appears only after hours of waiting, prompting a CMA probe."
+  },
+  {
+   "scene": "Compare",
+   "say": "A cinema shows a regular seat $12, a premium $15, and a last-minute seat that jumps to $30 after you wait."
+  },
+  {
+   "scene": "Compare",
+   "say": "A gym lists a basic $30, a popular class $45, and a rush-sign-up fee that inflates to $80 once you linger."
+  },
+  {
+   "scene": "Compare",
+   "say": "Now the inflated option feels like the hot seat, so you pay."
+  },
+  {
+   "scene": "Outro",
+   "say": "If a price spikes while you wait, leave the queue. Follow for more."
+  }
+ ]
+}
