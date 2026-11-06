@@ -1,0 +1,361 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beat 1 Hero: title too long (24 > 16)",
+  "beats 2,3,4,5,6 PriceList: number 30 in props is not in the case facts",
+  "beats 5,6 PriceList: cards must be a list of 1-3 cards",
+  "beats 5,6 PriceList: slots must be 2 or 3 (got 4)",
+  "beat 7 Statement: kicker too long (80 > 28)",
+  "beat 7 Statement: needs text or tags",
+  "beat 8 Anchor: number 30 in props is not in the case facts",
+  "beat 5 PriceList: card 1 title changed from \"Fair and Square\" to \"Sales vanished\" - cards must stay in place",
+  "beat 5 PriceList: card 2 title changed from \"Sale\" to \"Fair and Square\" - cards must stay in place",
+  "beat 5 PriceList: card 3 title changed from \"Regular\" to \"Sale\" - cards must stay in place"
+ ],
+ "plan": {
+  "paradox": "JCPenney stopped coupons. And prices never changed.",
+  "odd_fact": "Sales vanished. Looks like a mistake.",
+  "twist": "But it does a job  -  it hides the real discount.",
+  "cause": "The \"Fair and Square\" tag eliminates visible sales, so shoppers think they're always getting a discount, driving the 25% sales drop and $985 million loss.",
+  "everyday": "Coffee shop offers a daily deal for $3, a regular brew for $4, and a premium roast for $5; the $3 option feels like a discount and wins despite the premium being only $1 more than the regular.",
+  "rule": "If a price never moves, ask what feeling it's selling. Follow for more."
+ },
+ "id": "jcpenney-fair-square",
+ "case": "HONEST PRICE",
+ "title": "JCPenney stopped coupons. Prices never moved.",
+ "caption": "When the discount feeling disappears, sales vanish. #PricingPsychology",
+ "source": "JCPenney annual report (2012); Reuters (2013)",
+ "beats": [
+  {
+   "say": "JCPenney stopped coupons. And prices never changed.",
+   "scene": "Hero",
+   "props": {
+    "art": "shopping-bag",
+    "tag": "PARADOX",
+    "title": "JCPenney stopped coupons",
+    "sub": "Prices never moved"
+   }
+  },
+  {
+   "say": "A sleek \"Fair and Square\" tag that promises everyday discounts.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "Fair and Square",
+      "sub": "Everyday price",
+      "price": "$30",
+      "tags": [
+       {
+        "text": "FAIR",
+        "tone": "plain"
+       }
+      ],
+      "art": "tag"
+     }
+    ]
+   }
+  },
+  {
+   "say": "The classic \"sale\" sign that appears only on special days.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "Fair and Square",
+      "sub": "Everyday price",
+      "price": "$30",
+      "tags": [
+       {
+        "text": "FAIR",
+        "tone": "plain"
+       }
+      ],
+      "art": "tag"
+     },
+     {
+      "title": "Sale",
+      "sub": "Limited days",
+      "price": "$25",
+      "tags": [
+       {
+        "text": "SALE",
+        "tone": "plain"
+       }
+      ],
+      "art": "percent"
+     }
+    ]
+   }
+  },
+  {
+   "say": "The regular price label that never moves.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "Fair and Square",
+      "sub": "Everyday price",
+      "price": "$30",
+      "tags": [
+       {
+        "text": "FAIR",
+        "tone": "plain"
+       }
+      ],
+      "art": "tag"
+     },
+     {
+      "title": "Sale",
+      "sub": "Limited days",
+      "price": "$25",
+      "tags": [
+       {
+        "text": "SALE",
+        "tone": "plain"
+       }
+      ],
+      "art": "percent"
+     },
+     {
+      "title": "Regular",
+      "sub": "Never moves",
+      "price": "$30",
+      "art": "tag"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Sales vanished. Looks like a mistake.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 4,
+    "cards": [
+     {
+      "title": "Sales vanished",
+      "sub": "Looks like a mistake",
+      "price": "$30",
+      "priceRed": true,
+      "art": "crown"
+     },
+     {
+      "title": "Fair and Square",
+      "sub": "Everyday price",
+      "price": "$30",
+      "tags": [
+       {
+        "text": "FAIR",
+        "tone": "plain"
+       }
+      ],
+      "art": "tag"
+     },
+     {
+      "title": "Sale",
+      "sub": "Limited days",
+      "price": "$25",
+      "tags": [
+       {
+        "text": "SALE",
+        "tone": "plain"
+       }
+      ],
+      "art": "percent"
+     },
+     {
+      "title": "Regular",
+      "sub": "Never moves",
+      "price": "$30",
+      "art": "tag"
+     }
+    ]
+   }
+  },
+  {
+   "say": "But it does a job - it hides the real discount.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 4,
+    "cards": [
+     {
+      "title": "Sales vanished",
+      "sub": "Looks like a mistake",
+      "price": "$30",
+      "priceRed": true,
+      "stamp": "HIDE",
+      "art": "crown"
+     },
+     {
+      "title": "Fair and Square",
+      "sub": "Everyday price",
+      "price": "$30",
+      "tags": [
+       {
+        "text": "FAIR",
+        "tone": "plain"
+       }
+      ],
+      "art": "tag"
+     },
+     {
+      "title": "Sale",
+      "sub": "Limited days",
+      "price": "$25",
+      "tags": [
+       {
+        "text": "SALE",
+        "tone": "plain"
+       }
+      ],
+      "art": "percent"
+     },
+     {
+      "title": "Regular",
+      "sub": "Never moves",
+      "price": "$30",
+      "art": "tag"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Without coupons, shoppers see the same tag every day and think the price is low.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "WITHOUT COUPONS, SHOPPERS SEE THE SAME TAG EVERY DAY AND THINK THE PRICE IS LOW."
+   }
+  },
+  {
+   "say": "The vanished sales cost JCPenney $985 million and a 25% drop in sales in 2012.",
+   "scene": "Anchor",
+   "props": {
+    "job": "LOSS IMPACT",
+    "price": "$30",
+    "at": 0.6,
+    "split": 0.4,
+    "art": "banknote",
+    "anchor": {
+     "label": "Lost $985M",
+     "art": "banknote"
+    }
+   }
+  },
+  {
+   "say": "The brain rewards the feeling of a discount more than the actual number.",
+   "scene": "Views",
+   "props": {
+    "job": "BRAIN REWARD",
+    "label": "LOSS",
+    "value": 985,
+    "from": 0,
+    "prefix": "",
+    "suffix": "M",
+    "grid": 2,
+    "thumbLabel": "FEELING",
+    "art": "headphones"
+   }
+  },
+  {
+   "say": "A coffee shop lists a \"daily deal\" for $3, a regular brew for $4, and a premium roast for $5.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     null,
+     {
+      "title": "Daily Deal",
+      "price": "$3",
+      "art": "coffee"
+     },
+     {
+      "title": "Regular Brew",
+      "price": "$4",
+      "art": "coffee"
+     }
+    ],
+    "after": [
+     {
+      "title": "Daily Deal",
+      "price": "$3",
+      "top": {
+       "text": "BAIT",
+       "tone": "red"
+      },
+      "art": "coffee"
+     },
+     {
+      "title": "Regular Brew",
+      "price": "$4",
+      "art": "coffee"
+     },
+     {
+      "title": "Premium Roast",
+      "price": "$5",
+      "art": "coffee"
+     }
+    ],
+    "labels": [
+     "BEFORE",
+     "AFTER"
+    ]
+   }
+  },
+  {
+   "say": "Customers pick the $3 deal, believing they're saving, even though the premium costs only $1 more than the regular.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     null,
+     {
+      "title": "Daily Deal",
+      "price": "$3",
+      "art": "coffee"
+     },
+     {
+      "title": "Regular Brew",
+      "price": "$4",
+      "art": "coffee"
+     }
+    ],
+    "after": [
+     {
+      "title": "Daily Deal",
+      "price": "$3",
+      "top": {
+       "text": "BAIT",
+       "tone": "red"
+      },
+      "badge": {
+       "text": "SMART CHOICE",
+       "tone": "green"
+      },
+      "art": "coffee"
+     },
+     {
+      "title": "Regular Brew",
+      "price": "$4",
+      "art": "coffee"
+     },
+     {
+      "title": "Premium Roast",
+      "price": "$5",
+      "art": "coffee"
+     }
+    ],
+    "labels": [
+     "BEFORE",
+     "AFTER"
+    ]
+   }
+  },
+  {
+   "say": "If a price never moves, ask what feeling it's selling. Follow for more.",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}

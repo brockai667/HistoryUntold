@@ -1,68 +1,69 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "beat 6 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "beat 11 Compare: repeats the phrase \"you see it everywhere a\" from beat 10"
  ],
  "plan": {
-  "paradox": "JCPenney sold 'Fair and Square' prices. Discounts vanished.",
-  "odd_fact": "Sales fell 25% that year. Catastrophic.",
-  "twist": "It tricks the brain into seeing a discount",
-  "cause": "Uniform prices make the 'sale' tag the only perceived deal, causing shoppers to chase the feeling of a discount",
-  "everyday": "A café lists drip coffee $3, a 'special' $3.50, and a 'premium' $5. The middle tier feels smartest because the cheap one seems too cheap and the pricey one far.",
-  "rule": "When a price feels like a discount, ask if the baseline changed. Follow for more."
+  "paradox": "JCPenney swapped coupons for flat prices. And sales vanished.",
+  "odd_fact": "Sales fell 25% and the company lost $985 million  -  sounds disastrous.",
+  "twist": "But it does a job: it hides the discount feeling.",
+  "cause": "Everyday \"Fair and Square\" pricing removes reference points, so shoppers no longer perceive a deal; the loss of $985 million shows the drop in traffic.",
+  "everyday": "A coffee shop lists: a plain drip, a fancy latte, and a \"premium\" pour-over. The latte is priced just $0.50 more than the drip, making it look like a better value. A boutique gym offers a basic membership, a \"plus\" plan with one extra class for $5 more, and an elite tier at $200. The \"plus\" feels like the smart choice. Both use the same reference-price trick to push the middle option.",
+  "rule": "When prices look \"everyday,\" check what discount feeling is being sold. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "JCPenney sold 'Fair and Square' prices. Discounts vanished."
+   "say": "JCPenney swapped coupons for flat prices. And sales vanished."
   },
   {
    "scene": "PriceList",
-   "say": "One price per item, no coupons."
+   "say": "A constant-sale carousel, every week a new markdown."
   },
   {
    "scene": "PriceList",
-   "say": "A 'sale' label appears on every product."
+   "say": "A single \"Fair and Square\" tag, same price every day."
   },
   {
    "scene": "PriceList",
-   "say": "A clearance tag shows the lowest price, hidden away."
+   "say": "The old coupons return, a familiar discount cue."
   },
   {
    "scene": "PriceList",
-   "say": "The regular price looks ordinary, no fanfare."
+   "say": "Sales fell 25% and the company lost $985 million - sounds disastrous."
   },
   {
    "scene": "PriceList",
-   "say": "Sales fell 25% that year. Catastrophic."
-  },
-  {
-   "scene": "PriceList",
-   "say": "But it does a job - it tricks the brain into seeing a discount."
+   "say": "But it does a job: it hides the discount feeling."
   },
   {
    "scene": "Statement",
-   "say": "We chase the feeling of a discount, not the actual number."
+   "say": "Shoppers chase the thrill of a cut, not the low tag itself."
   },
   {
    "scene": "Anchor",
-   "say": "Uniform prices make the 'sale' tag the only perceived deal."
+   "say": "The flat price removes the high-low swing, so the brain stops hunting bargains."
   },
   {
    "scene": "Views",
-   "say": "In 2012 the shift cost JCPenney $985 million, caused a 25% drop, and the board fired the CEO after 17 months."
+   "say": "Without a reference point, the $985 million loss becomes the proof that the trick backfired."
   },
   {
    "scene": "Compare",
-   "say": "A café lists drip coffee $3, a 'special' $3.50, and a 'premium' $5."
+   "say": "You see it everywhere: a coffee shop's drip, latte, and pour-over."
   },
   {
    "scene": "Compare",
-   "say": "The middle tier feels smartest because the cheap one seems too cheap and the pricey one far."
+   "say": "You see it everywhere: a gym's basic, plus, and elite plans."
+  },
+  {
+   "scene": "Compare",
+   "say": "The middle option feels smart because it's only a shade pricier than the cheap choice."
   },
   {
    "scene": "Outro",
-   "say": "When a price feels like a discount, ask if the baseline changed. Follow for more."
+   "say": "When prices look \"everyday,\" check what discount feeling is being sold. Follow for more."
   }
  ]
 }

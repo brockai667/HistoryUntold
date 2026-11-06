@@ -2,68 +2,65 @@
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
   "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
-  "beat 13 Outro: repeats the phrase \"price climbs while you wait\" from beat 1"
+  "beat 9 Compare: say has 26 words (need 3-20)",
+  "spoken words total 207, need 85-150 (aim for 115-135; pauses add about 15%)"
  ],
  "plan": {
-  "paradox": "A queue sells tickets, but the price climbs while you wait",
-  "odd_fact": "Standing tickets jump from £148.50 to £355. Nonsense.",
-  "twist": "It's surge pricing, a hidden queue multiplier",
-  "cause": "Ticketmaster spikes the price once the online line hits a threshold, using the 'in demand' option to turn £148.50 into £355 after hours",
-  "everyday": "Cinemas add a 'peak' surcharge, £12 becomes £20 on busy nights; Gyms list a 'high demand' plan, £30 jumps to £55 when classes fill; the premium now feels cheap because the base surged",
-  "rule": "If a price climbs while you wait, suspect a demand surge. Follow for more."
+  "paradox": "A queue that makes tickets cost more. And you only see it later.",
+  "odd_fact": "Standing tickets jumped from £148.50 to £355 after hours in line. Looks like a mistake.",
+  "twist": "But it does a job  -  surge pricing while you wait.",
+  "cause": "Ticketmaster's \"in-demand\" option updates the price as demand climbs, so the longer you stay in the queue the higher the tag you finally see.",
+  "everyday": "Gym offers a basic class, a premium class and a \"peak-time\" class; the peak-time class costs almost double the basic but promises a spot when demand spikes, making it feel like the smart choice. Café lists a regular coffee, a \"limited-edition\" brew and a \"rush-hour\" brew; the rush-hour brew is priced higher yet guarantees a seat during the busiest hour, so customers gravitate to it. Both use the same waiting-price-increase trick, and the pushed option feels necessary because it promises access when you need it most.",
+  "rule": "If a price climbs while you wait, the increase is the trick. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A queue sells tickets, but the price climbs while you wait."
+   "say": "A queue that makes tickets cost more. And you only see it later."
   },
   {
    "scene": "PriceList",
-   "say": "First card: standing spot at the lowest listed price."
+   "say": "The first card promises a standing ticket at the opening price."
   },
   {
    "scene": "PriceList",
-   "say": "Second: same spot marked 'in demand'."
+   "say": "The second card shows a \"standard\" ticket with the same seat type but no guarantee of availability."
   },
   {
    "scene": "PriceList",
-   "say": "Third: guaranteed seat at a higher fixed rate."
+   "say": "The third card advertises an \"in-demand\" ticket that claims you'll get a spot if the show fills up."
   },
   {
    "scene": "PriceList",
-   "say": "Standing tickets jump from £148.50 to £355. Nonsense."
-  },
-  {
-   "scene": "PriceList",
-   "say": "But it's surge pricing, a hidden queue multiplier."
+   "say": "The odd part: standing tickets jumped from £148.50 to £355 after hours in line. Looks like a mistake."
   },
   {
    "scene": "Statement",
-   "say": "Ticketmaster spikes the price once the online line hits a threshold."
+   "say": "Ticketmaster's \"in-demand\" option updates the price as demand climbs."
   },
   {
    "scene": "Anchor",
-   "say": "The 'in demand' option turns £148.50 into £355 after hours."
+   "say": "While you sit in the online queue, the system records each new purchase and bumps the tag on the waiting tickets."
   },
   {
    "scene": "Views",
-   "say": "The CMA opened an investigation."
+   "say": "When you finally click, the higher £355 price appears, and you realize you paid for the surge."
   },
   {
    "scene": "Compare",
-   "say": "Cinemas add a 'peak' surcharge, £12 becomes £20 on busy nights."
+   "say": "You see it everywhere. A gym lists a basic class, a premium class and a peak-time class priced higher to promise a spot when demand spikes."
   },
   {
    "scene": "Compare",
-   "say": "Gyms list a 'high demand' plan, £30 jumps to £55 when classes fill."
+   "say": "A café offers a regular coffee, a limited-edition brew and a rush-hour brew that costs more but guarantees a seat during the busiest hour."
   },
   {
    "scene": "Compare",
-   "say": "The premium now feels cheap because the base surged."
+   "say": "In both cases the higher-priced, \"guaranteed-access\" option feels smart because it promises entry when you need it most."
   },
   {
    "scene": "Outro",
-   "say": "If a price climbs while you wait, suspect a demand surge. Follow for more."
+   "say": "If a price climbs while you wait, the increase is the trick. Follow for more."
   }
  ]
 }

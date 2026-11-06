@@ -1,73 +1,68 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
-  "spoken words total 176, need 85-150 (aim for 115-135; pauses add about 15%)"
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
  ],
  "plan": {
-  "paradox": "JCPenney dropped coupons. And prices stayed high.",
-  "odd_fact": "Sales fell 25% and the company lost $985 million  -  looks catastrophic.",
-  "twist": "But it fuels the discount feeling, not the price.",
-  "cause": "Everyday \"Fair and Square\" prices hide reference points, so shoppers think they're getting a deal even though prices are unchanged, leading to a 25% sales drop and $985 million loss.",
-  "everyday": "A coffee shop offers: a basic drip for $2, a premium latte for $4, and a \"specialty\" brew for $4.95. The premium latte becomes the sweet spot because the specialty brew makes $4 feel cheap. A gym lists: basic membership $30, premium with classes $45, and elite $49. The $45 plan feels reasonable next to $49, pulling members away from the $30 basic. A cinema shows: standard ticket $12, premium recliner $15, and VIP lounge $16. The $15 seat feels like a modest upgrade next to $16, boosting sales of premium tickets.",
-  "rule": "If a price feels like a discount, check the reference  -  follow for more."
+  "paradox": "JCPenney stopped coupons. And prices suddenly felt higher.",
+  "odd_fact": "Sales fell 25% and the chain lost $985 million. Looks disastrous.",
+  "twist": "But it was a discount illusion.",
+  "cause": "The flat 'Fair and Square' pricing removed the sale reference point, so shoppers perceived no deal and spending dropped, shown by the $985 million loss.",
+  "everyday": "Gym: $20 pay-as-you-go pass, $30 monthly membership, $45 premium class bundle  -  the $30 option feels smart versus the $45. Café: $3 coffee, $5 combo breakfast, $12 deluxe brunch  -  the $5 combo feels like a bargain next to $12.",
+  "rule": "Watch for the reference price, not the tag. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "JCPenney dropped coupons. And prices stayed high."
+   "say": "JCPenney stopped coupons. And prices suddenly felt higher."
   },
   {
    "scene": "PriceList",
-   "say": "Every day they promised \"Fair and Square\" pricing."
+   "say": "Everyday 'Fair and Square' pricing replaces the weekly sale."
   },
   {
    "scene": "PriceList",
-   "say": "No more flash sales, just the same tags on the shelf."
+   "say": "A flat price for everything, no extra discounts."
   },
   {
    "scene": "PriceList",
-   "say": "A single price you could see every visit."
+   "say": "The same items now carry one label, no extra tags."
   },
   {
    "scene": "PriceList",
-   "say": "Sales fell 25% and the company lost $985 million - looks catastrophic."
+   "say": "Sales fell 25% and the chain lost $985 million. Looks disastrous."
   },
   {
    "scene": "PriceList",
-   "say": "But it fuels the discount feeling, not the price."
+   "say": "But it was a discount illusion."
   },
   {
    "scene": "Statement",
-   "say": "Shoppers chase the feeling of a discount, not the low price itself."
+   "say": "The illusion works because the old sales served as reference points."
   },
   {
    "scene": "Anchor",
-   "say": "The constant-price option became the reference point, making the everyday price seem like a deal."
+   "say": "Without a higher-priced sale, the flat price feels expensive."
   },
   {
    "scene": "Views",
-   "say": "That illusion slashed sales by a quarter and cost almost a billion dollars."
+   "say": "Customers miss the thrill of a discount, so they spend less."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere: a coffee shop sells a drip for $2, a latte for $4, and a specialty brew for $4.95."
+   "say": "You see it everywhere. A gym offers a $20 pay-as-you-go pass, a $30 monthly membership, and a $45 premium class bundle."
   },
   {
    "scene": "Compare",
-   "say": "The latte feels cheap next to the specialty, so customers upgrade."
+   "say": "The $30 membership feels like a smart choice next to the $45 premium."
   },
   {
    "scene": "Compare",
-   "say": "A gym lists basic $30, premium $45, elite $49 - the $45 plan feels smart next to $49."
-  },
-  {
-   "scene": "Compare",
-   "say": "A cinema shows standard $12, recliner $15, VIP $16 - the recliner becomes the obvious choice."
+   "say": "A café lists a $3 coffee, a $5 combo breakfast, and a $12 deluxe brunch; the $5 combo feels like a bargain."
   },
   {
    "scene": "Outro",
-   "say": "If a price feels like a discount, check the reference - follow for more."
+   "say": "Watch for the reference price, not the tag. Follow for more."
   }
  ]
 }

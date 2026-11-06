@@ -1,69 +1,62 @@
 {
  "model": "groq:openai/gpt-oss-120b",
- "errors": [
-  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
-  "spoken words total 164, need 85-150 (aim for 115-135; pauses add about 15%)"
- ],
+ "errors": [],
  "plan": {
-  "paradox": "JCPenney stopped coupons. And prices stayed the same.",
-  "odd_fact": "Sales fell 25% and the company lost $985 million. Looks disastrous.",
-  "twist": "But the new \"Fair and Square\" list was a decoy, not a discount.",
-  "cause": "The everyday-price option made shoppers think every tag was a deal, so they avoided the cheap baseline and spent less, causing the 25% drop and $985 million loss.",
-  "everyday": "A coffee shop shows three drinks: a plain brew, a flavored latte, and a premium pour-over. The plain brew is $2, the latte $2.50, the pour-over $4. The latte feels like a smart upgrade, pulling customers away from the cheap brew and justifying the higher spend.",
-  "rule": "If a price list removes the obvious discount, assume it's a trick. Follow for more."
+  "paradox": "JCPenney stopped coupons. And prices never changed.",
+  "odd_fact": "Sales vanished. Looks like a mistake.",
+  "twist": "But it does a job  -  it hides the real discount.",
+  "cause": "The \"Fair and Square\" tag eliminates visible sales, so shoppers think they're always getting a discount, driving the 25% sales drop and $985 million loss.",
+  "everyday": "Coffee shop offers a daily deal for $3, a regular brew for $4, and a premium roast for $5; the $3 option feels like a discount and wins despite the premium being only $1 more than the regular.",
+  "rule": "If a price never moves, ask what feeling it's selling. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "JCPenney stopped coupons. And prices stayed the same."
+   "say": "JCPenney stopped coupons. And prices never changed."
   },
   {
    "scene": "PriceList",
-   "say": "Every item shows a single \"Fair and Square\" price, no sales tags."
+   "say": "A sleek \"Fair and Square\" tag that promises everyday discounts."
   },
   {
    "scene": "PriceList",
-   "say": "The same price appears on all merchandise, from jeans to appliances."
+   "say": "The classic \"sale\" sign that appears only on special days."
   },
   {
    "scene": "PriceList",
-   "say": "No extra discounts, just one flat price per product."
+   "say": "The regular price label that never moves."
   },
   {
    "scene": "PriceList",
-   "say": "Sales fell 25% and the company lost $985 million. Looks disastrous."
+   "say": "Sales vanished. Looks like a mistake."
   },
   {
    "scene": "PriceList",
-   "say": "But the new list was a decoy, not a discount."
+   "say": "But it does a job - it hides the real discount."
   },
   {
    "scene": "Statement",
-   "say": "Shoppers chase the feeling of a discount, not the actual low price."
+   "say": "Without coupons, shoppers see the same tag every day and think the price is low."
   },
   {
    "scene": "Anchor",
-   "say": "The everyday-price option made every tag look like a deal, so the cheap baseline vanished."
+   "say": "The vanished sales cost JCPenney $985 million and a 25% drop in sales in 2012."
   },
   {
    "scene": "Views",
-   "say": "Without a clear lower price, customers spent less, driving the 25% sales drop and $985 million loss."
+   "say": "The brain rewards the feeling of a discount more than the actual number."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere. A coffee shop lists a plain brew, a flavored latte, and a premium pour-over."
+   "say": "A coffee shop lists a \"daily deal\" for $3, a regular brew for $4, and a premium roast for $5."
   },
   {
    "scene": "Compare",
-   "say": "The latte costs $2.50, the plain brew $2, the pour-over $4."
-  },
-  {
-   "scene": "Compare",
-   "say": "The mid-priced latte feels like the smart choice, nudging people away from the cheap option."
+   "say": "Customers pick the $3 deal, believing they're saving, even though the premium costs only $1 more than the regular."
   },
   {
    "scene": "Outro",
-   "say": "If a price list removes the obvious discount, assume it's a trick. Follow for more."
+   "say": "If a price never moves, ask what feeling it's selling. Follow for more."
   }
  ]
 }

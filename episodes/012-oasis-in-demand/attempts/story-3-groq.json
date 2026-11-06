@@ -1,69 +1,68 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
-  "spoken words total 151, need 85-150 (aim for 115-135; pauses add about 15%)"
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
  ],
  "plan": {
-  "paradox": "Queue tickets rise while you wait. And the price jumps.",
-  "odd_fact": "Standing tickets start at £148.50 then hit £355  -  looks like a mistake.",
-  "twist": "It's surge pricing, a hidden demand engine.",
-  "cause": "The 'in demand' option spikes once the queue fills, pushing the price from £148.50 to £355 after hours of waiting.",
-  "everyday": "Gym  -  basic access, group classes, premium personal training £30, £45, £90; the premium looks smart. Café  -  small coffee, regular coffee, specialty latte £2, £3, £5; the specialty feels worth it. Cinema  -  standard seat, premium seat, VIP lounge £8, £12, £20; the premium feels reasonable.",
-  "rule": "Watch the queue length; if the price climbs, it's a surge. Follow for more."
+  "paradox": "Standing tickets jump price while you wait",
+  "odd_fact": "First shows £148.50, then £355. Looks like a mistake.",
+  "twist": "But it does a queue trick: surge pricing",
+  "cause": "Ticketmaster raises the 'in demand' tag after hours in line, so waiting time fuels demand and the price climbs from £148.50 to £355",
+  "everyday": "A cinema lists standard seats £10, premium £12, and a 'high demand' slot £20; the high-demand slot feels worth it because the jump mirrors the concert trick",
+  "rule": "When price climbs while you wait, assume surge pricing. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "Queue tickets rise while you wait. And the price jumps."
+   "say": "Standing tickets jump price while you wait."
   },
   {
    "scene": "PriceList",
-   "say": "A low-cost standing ticket, no frills."
+   "say": "Early bird promises a spot at the listed price."
   },
   {
    "scene": "PriceList",
-   "say": "A slightly upgraded ticket with a better view."
+   "say": "Regular option offers the same seat later, no guarantee."
   },
   {
    "scene": "PriceList",
-   "say": "The 'in demand' ticket that promises extra perks."
+   "say": "Premium tag says 'in demand' and hints at higher cost."
   },
   {
    "scene": "PriceList",
-   "say": "Standing tickets start at £148.50 - looks like a mistake."
+   "say": "First shows £148.50, then £355. Looks like a mistake."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it does a queue trick: surge pricing."
   },
   {
    "scene": "Statement",
-   "say": "Ticketmaster flags the 'in demand' tier as soon as the online line swells."
+   "say": "Ticketmaster raises the 'in demand' tag after hours in line."
   },
   {
    "scene": "Anchor",
-   "say": "That tier then jumps to £355 after hours of waiting."
+   "say": "The surge climbs from £148.50 to £355 because waiting time fuels demand."
   },
   {
    "scene": "Views",
-   "say": "The surge reacts to demand, not to any change in the event."
+   "say": "The CMA opened an investigation, confirming the shift is deliberate."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere. A gym lists basic access, group classes, premium training at £30, £45, £90."
+   "say": "You see it everywhere."
   },
   {
    "scene": "Compare",
-   "say": "A café shows small coffee, regular coffee, specialty latte at £2, £3, £5."
+   "say": "A cinema lists standard seats £10, premium £12, and a 'high demand' slot £20."
   },
   {
    "scene": "Compare",
-   "say": "A cinema offers standard, premium, VIP seats at £8, £12, £20; the premium now feels smart."
-  },
-  {
-   "scene": "Statement",
-   "say": "The middle option looks like a bargain because the top tier is far costlier."
+   "say": "The high-demand slot feels worth it because the jump mirrors the concert trick."
   },
   {
    "scene": "Outro",
-   "say": "Watch the queue length; if the price climbs, it's a surge. Follow for more."
+   "say": "When price climbs while you wait, assume surge pricing. Follow for more."
   }
  ]
 }

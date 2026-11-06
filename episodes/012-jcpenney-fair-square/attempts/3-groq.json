@@ -1,0 +1,332 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beats 5,6 PriceList: cards must be a list of 1-3 cards",
+  "beats 5,6 PriceList: slots (3) is less than the number of cards (4)",
+  "beats 5,6 PriceList: card 4 art 'warning' is not an available icon"
+ ],
+ "plan": {
+  "paradox": "JCPenney stopped coupons. And prices never changed.",
+  "odd_fact": "Sales vanished. Looks like a mistake.",
+  "twist": "But it does a job  -  it hides the real discount.",
+  "cause": "The \"Fair and Square\" tag eliminates visible sales, so shoppers think they're always getting a discount, driving the 25% sales drop and $985 million loss.",
+  "everyday": "Coffee shop offers a daily deal for $3, a regular brew for $4, and a premium roast for $5; the $3 option feels like a discount and wins despite the premium being only $1 more than the regular.",
+  "rule": "If a price never moves, ask what feeling it's selling. Follow for more."
+ },
+ "id": "jcpenney-fair-square",
+ "case": "HONEST PRICE",
+ "title": "JCPenney stopped coupons. Prices never changed.",
+ "caption": "When discounts disappear, the feeling stays. Follow for more insights.",
+ "source": "JCPenney annual report (2012); Reuters (2013)",
+ "beats": [
+  {
+   "say": "JCPenney stopped coupons. And prices never changed.",
+   "scene": "Hero",
+   "props": {
+    "art": "shopping-bag",
+    "tag": "PARADOX",
+    "title": "Stopped coupons",
+    "sub": "Prices never moved"
+   }
+  },
+  {
+   "say": "A sleek \"Fair and Square\" tag that promises everyday discounts.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "Fair & Square",
+      "sub": "Everyday low price",
+      "priceRed": true,
+      "stamp": "BAIT",
+      "art": "shopping-bag",
+      "tags": [
+       {
+        "text": "ODD",
+        "tone": "red"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "say": "The classic \"sale\" sign that appears only on special days.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "Fair & Square",
+      "sub": "Everyday low price",
+      "priceRed": true,
+      "stamp": "BAIT",
+      "art": "shopping-bag",
+      "tags": [
+       {
+        "text": "ODD",
+        "tone": "red"
+       }
+      ]
+     },
+     {
+      "title": "Sale Sign",
+      "sub": "Limited time only",
+      "art": "tag"
+     }
+    ]
+   }
+  },
+  {
+   "say": "The regular price label that never moves.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "Fair & Square",
+      "sub": "Everyday low price",
+      "priceRed": true,
+      "stamp": "BAIT",
+      "art": "shopping-bag",
+      "tags": [
+       {
+        "text": "ODD",
+        "tone": "red"
+       }
+      ]
+     },
+     {
+      "title": "Sale Sign",
+      "sub": "Limited time only",
+      "art": "tag"
+     },
+     {
+      "title": "Regular Price",
+      "sub": "No change",
+      "art": "tag"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Sales vanished. Looks like a mistake.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "Fair & Square",
+      "sub": "Everyday low price",
+      "priceRed": true,
+      "stamp": "BAIT",
+      "art": "shopping-bag",
+      "tags": [
+       {
+        "text": "ODD",
+        "tone": "red"
+       }
+      ]
+     },
+     {
+      "title": "Sale Sign",
+      "sub": "Limited time only",
+      "art": "tag"
+     },
+     {
+      "title": "Regular Price",
+      "sub": "No change",
+      "art": "tag"
+     },
+     {
+      "title": "Sales vanished",
+      "sub": "Looks like a mistake",
+      "art": "warning"
+     }
+    ]
+   }
+  },
+  {
+   "say": "But it does a job - it hides the real discount.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {
+      "title": "Fair & Square",
+      "sub": "Everyday low price",
+      "priceRed": true,
+      "stamp": "TRICK",
+      "art": "shopping-bag",
+      "tags": [
+       {
+        "text": "ODD",
+        "tone": "red"
+       }
+      ]
+     },
+     {
+      "title": "Sale Sign",
+      "sub": "Limited time only",
+      "art": "tag"
+     },
+     {
+      "title": "Regular Price",
+      "sub": "No change",
+      "art": "tag"
+     },
+     {
+      "title": "Sales vanished",
+      "sub": "Looks like a mistake",
+      "art": "warning"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Without coupons, shoppers see the same tag every day and think the price is low.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "SAME TAG, SAME FEEL",
+    "text": "Everyday feels like discount",
+    "tags": [
+     "FAIR",
+     "SQUARE"
+    ]
+   }
+  },
+  {
+   "say": "The vanished sales cost JCPenney $985 million and a 25% drop in sales in 2012.",
+   "scene": "Anchor",
+   "props": {
+    "job": "LOSS ANALYSIS",
+    "price": "$985M",
+    "at": 0.6,
+    "split": 0.4,
+    "art": "banknote",
+    "anchor": {
+     "label": "25% drop",
+     "art": "percent"
+    }
+   }
+  },
+  {
+   "say": "The brain rewards the feeling of a discount more than the actual number.",
+   "scene": "Views",
+   "props": {
+    "job": "BEHAVIOR · REWARDS",
+    "label": "DISCOUNT",
+    "value": 25,
+    "from": 0,
+    "prefix": "",
+    "suffix": "%",
+    "grid": 2,
+    "thumbLabel": "FEEL",
+    "art": "percent"
+   }
+  },
+  {
+   "say": "A coffee shop lists a \"daily deal\" for $3, a regular brew for $4, and a premium roast for $5.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     null,
+     {
+      "title": "Regular Brew",
+      "price": "$4",
+      "art": "coffee"
+     },
+     {
+      "title": "Premium Roast",
+      "price": "$5",
+      "art": "coffee"
+     }
+    ],
+    "after": [
+     {
+      "title": "Daily Deal",
+      "price": "$3",
+      "top": {
+       "text": "BAIT",
+       "tone": "red"
+      },
+      "art": "coffee"
+     },
+     {
+      "title": "Regular Brew",
+      "price": "$4",
+      "art": "coffee"
+     },
+     {
+      "title": "Premium Roast",
+      "price": "$5",
+      "badge": {
+       "text": "SMART CHOICE",
+       "tone": "green"
+      },
+      "art": "coffee"
+     }
+    ],
+    "labels": [
+     "BEFORE",
+     "AFTER"
+    ]
+   }
+  },
+  {
+   "say": "Customers pick the $3 deal, believing they're saving, even though the premium costs only $1 more than the regular.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     null,
+     {
+      "title": "Regular Brew",
+      "price": "$4",
+      "art": "coffee"
+     },
+     {
+      "title": "Premium Roast",
+      "price": "$5",
+      "art": "coffee"
+     }
+    ],
+    "after": [
+     {
+      "title": "Daily Deal",
+      "price": "$3",
+      "top": {
+       "text": "BAIT",
+       "tone": "red"
+      },
+      "art": "coffee"
+     },
+     {
+      "title": "Regular Brew",
+      "price": "$4",
+      "art": "coffee"
+     },
+     {
+      "title": "Premium Roast",
+      "price": "$5",
+      "badge": {
+       "text": "SMART CHOICE",
+       "tone": "green"
+      },
+      "art": "coffee"
+     }
+    ],
+    "labels": [
+     "BEFORE",
+     "AFTER"
+    ]
+   }
+  },
+  {
+   "say": "If a price never moves, ask what feeling it's selling. Follow for more.",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}
