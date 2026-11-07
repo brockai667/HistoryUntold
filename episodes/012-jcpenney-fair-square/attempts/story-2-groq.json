@@ -2,68 +2,71 @@
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
   "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
-  "beat 11 Compare: repeats the phrase \"you see it everywhere a\" from beat 10"
+  "beat 8 Anchor: number 120 is not in the case facts",
+  "beat 8 Anchor: number 90 is not in the case facts",
+  "beat 8 Anchor: number 60 is not in the case facts",
+  "beat 8 Anchor: number 80 is not in the case facts"
  ],
  "plan": {
-  "paradox": "JCPenney swapped coupons for flat prices. And sales vanished.",
-  "odd_fact": "Sales fell 25% and the company lost $985 million  -  sounds disastrous.",
-  "twist": "But it does a job: it hides the discount feeling.",
-  "cause": "Everyday \"Fair and Square\" pricing removes reference points, so shoppers no longer perceive a deal; the loss of $985 million shows the drop in traffic.",
-  "everyday": "A coffee shop lists: a plain drip, a fancy latte, and a \"premium\" pour-over. The latte is priced just $0.50 more than the drip, making it look like a better value. A boutique gym offers a basic membership, a \"plus\" plan with one extra class for $5 more, and an elite tier at $200. The \"plus\" feels like the smart choice. Both use the same reference-price trick to push the middle option.",
-  "rule": "When prices look \"everyday,\" check what discount feeling is being sold. Follow for more."
+  "paradox": "Everyday prices promise fairness. And they all look the same.",
+  "odd_fact": "Sales fell 25% that year. Sounds dramatic.",
+  "twist": "It's a discount illusion, the 'fair' tag hides a reference point.",
+  "cause": "Customers compare regular tags to a higher-priced premium line, making the regular price feel like a deal.",
+  "everyday": "Bakery offers three loaves: $4 regular, $6 artisan, $8 gourmet. The $6 loaf looks like a bargain against $8, so shoppers choose it, thinking they avoid overpaying.",
+  "rule": "When a price feels 'fair', look for a higher reference price. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "JCPenney swapped coupons for flat prices. And sales vanished."
+   "say": "Everyday prices promise fairness. And they all look the same."
   },
   {
    "scene": "PriceList",
-   "say": "A constant-sale carousel, every week a new markdown."
+   "say": "A catalog of everyday tags, no sales, just flat prices."
   },
   {
    "scene": "PriceList",
-   "say": "A single \"Fair and Square\" tag, same price every day."
+   "say": "The same items cost the same every day, no coupons needed."
   },
   {
    "scene": "PriceList",
-   "say": "The old coupons return, a familiar discount cue."
+   "say": "A premium line with higher tags, marketed as 'premium quality'."
   },
   {
    "scene": "PriceList",
-   "say": "Sales fell 25% and the company lost $985 million - sounds disastrous."
+   "say": "Sales fell 25% that year. Sounds dramatic."
   },
   {
    "scene": "PriceList",
-   "say": "But it does a job: it hides the discount feeling."
+   "say": "But it's a discount illusion, the 'fair' tag hides a reference point."
   },
   {
    "scene": "Statement",
-   "say": "Shoppers chase the thrill of a cut, not the low tag itself."
+   "say": "Customers compare every item to the premium line, feeling they're getting a deal."
   },
   {
    "scene": "Anchor",
-   "say": "The flat price removes the high-low swing, so the brain stops hunting bargains."
+   "say": "The premium tags sit at $120, $90, $60, making the regular $80 feel cheap."
   },
   {
    "scene": "Views",
-   "say": "Without a reference point, the $985 million loss becomes the proof that the trick backfired."
+   "say": "Result: sales tumble $985 million, and the board pulls the CEO."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere: a coffee shop's drip, latte, and pour-over."
+   "say": "You see it at a bakery: $4 loaf, $6 artisan loaf, $8 'gourmet' loaf."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere: a gym's basic, plus, and elite plans."
+   "say": "The $6 loaf looks like a bargain against $8, even though it's still overpriced."
   },
   {
    "scene": "Compare",
-   "say": "The middle option feels smart because it's only a shade pricier than the cheap choice."
+   "say": "Consumers pick the middle, thinking they avoid overpaying."
   },
   {
    "scene": "Outro",
-   "say": "When prices look \"everyday,\" check what discount feeling is being sold. Follow for more."
+   "say": "If a price feels 'fair', check the higher reference. Follow for more."
   }
  ]
 }

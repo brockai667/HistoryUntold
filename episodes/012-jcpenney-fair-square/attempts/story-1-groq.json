@@ -1,68 +1,69 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "spoken words total 162, need 85-150 (aim for 115-135; pauses add about 15%)"
  ],
  "plan": {
-  "paradox": "JCPenney stopped coupons. And prices suddenly felt higher.",
-  "odd_fact": "Sales fell 25% and the chain lost $985 million. Looks disastrous.",
-  "twist": "But it was a discount illusion.",
-  "cause": "The flat 'Fair and Square' pricing removed the sale reference point, so shoppers perceived no deal and spending dropped, shown by the $985 million loss.",
-  "everyday": "Gym: $20 pay-as-you-go pass, $30 monthly membership, $45 premium class bundle  -  the $30 option feels smart versus the $45. Café: $3 coffee, $5 combo breakfast, $12 deluxe brunch  -  the $5 combo feels like a bargain next to $12.",
-  "rule": "Watch for the reference price, not the tag. Follow for more."
+  "paradox": "Everyday prices promise fairness. And they hide a discount illusion.",
+  "odd_fact": "Sales fell 25% and JCPenney lost $985 million. Sounds disastrous.",
+  "twist": "It sells the thrill of a discount.",
+  "cause": "Scrapping high-low sales removes the visual cue shoppers love, so the steady tag feels like a bargain; the $985 million loss shows the illusion broke.",
+  "everyday": "Bakery: plain loaf $3, artisan loaf $4, premium loaf $7  -  the artisan loaf feels like a smart deal. Gym: basic $20, class pass $30, premium $55  -  the class pass wins the mind because it seems a better value for the same spend.",
+  "rule": "Chase the feeling, not the price. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "JCPenney stopped coupons. And prices suddenly felt higher."
+   "say": "Everyday prices promise fairness. And they hide a discount illusion."
   },
   {
    "scene": "PriceList",
-   "say": "Everyday 'Fair and Square' pricing replaces the weekly sale."
+   "say": "JCPenney says every tag is the final price, no coupons."
   },
   {
    "scene": "PriceList",
-   "say": "A flat price for everything, no extra discounts."
+   "say": "The same money buys the same items every day."
   },
   {
    "scene": "PriceList",
-   "say": "The same items now carry one label, no extra tags."
+   "say": "The one you can actually buy: the plain, unchanged price."
   },
   {
    "scene": "PriceList",
-   "say": "Sales fell 25% and the chain lost $985 million. Looks disastrous."
+   "say": "Sales fell 25% and the company lost $985 million. Sounds disastrous."
   },
   {
    "scene": "PriceList",
-   "say": "But it was a discount illusion."
+   "say": "But it does a job: it sells the thrill of a discount."
   },
   {
    "scene": "Statement",
-   "say": "The illusion works because the old sales served as reference points."
+   "say": "By scrapping high-low sales, the store removed the visual cue shoppers love."
   },
   {
    "scene": "Anchor",
-   "say": "Without a higher-priced sale, the flat price feels expensive."
+   "say": "Without a sale tag, the everyday price feels like a steady bargain."
   },
   {
    "scene": "Views",
-   "say": "Customers miss the thrill of a discount, so they spend less."
+   "say": "The $985 million loss proves the illusion collapsed."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere. A gym offers a $20 pay-as-you-go pass, a $30 monthly membership, and a $45 premium class bundle."
+   "say": "You see it everywhere: a bakery lists a plain loaf $3, an artisan loaf $4, a premium loaf $7."
   },
   {
    "scene": "Compare",
-   "say": "The $30 membership feels like a smart choice next to the $45 premium."
+   "say": "The artisan loaf becomes the smart choice because it feels like a deal for $4 versus $3 basic."
   },
   {
    "scene": "Compare",
-   "say": "A café lists a $3 coffee, a $5 combo breakfast, and a $12 deluxe brunch; the $5 combo feels like a bargain."
+   "say": "A gym does the same with a basic $20, a class pass $30, a premium $55; the class pass wins the mind."
   },
   {
    "scene": "Outro",
-   "say": "Watch for the reference price, not the tag. Follow for more."
+   "say": "Chase the feeling, not the price. Follow for more."
   }
  ]
 }

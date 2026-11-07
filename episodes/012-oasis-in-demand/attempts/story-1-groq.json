@@ -1,64 +1,69 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
+  "beat 6 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "spoken words total 188, need 85-150 (aim for 115-135; pauses add about 15%)"
  ],
  "plan": {
-  "paradox": "Standing tickets start cheap, then skyrocket while you wait",
-  "odd_fact": "First price listed £148.50, later £355. Sounds like a glitch.",
-  "twist": "It's surge pricing, a queue price trick",
-  "cause": "Ticketmaster watches the queue length and lifts prices once demand spikes, turning the standing tickets you held into the 'in demand' tier at £355",
-  "everyday": "Cinema: cheap seats £8, popular rows £15. Gym: basic membership £20, high-demand plan £30, makes the higher tier feel smart. Both use queue-driven price hikes to push the pricier option",
-  "rule": "When you wait, expect the price to jump. Follow for more."
+  "paradox": "Queue price climbs while you wait. And it never stays low.",
+  "odd_fact": "Standing tickets jumped from £148.50 to £355 after hours in line. Looks like a mistake.",
+  "twist": "But it does a job  -  surge pricing while you queue.",
+  "cause": "Ticketmaster flags the \"in demand\" option once enough people are in the virtual line, then swaps the displayed price to the higher tier. The £148.50 price disappears, the £355 price appears, and the system records the sale at the new amount.",
+  "everyday": "Gym membership: basic access, premium class bundle, elite personal-training package. Prices £30, £55, £120. The premium bundle feels like a smart upgrade because the elite option is far costlier. Café: small coffee, medium coffee, large coffee. Prices £2, £3.50, £6. The medium looks reasonable next to the pricey large. Cinema: standard seat, premium seat, VIP lounge. Prices £8, £12, £25. The premium seat feels like a good middle ground.",
+  "rule": "If a price jumps while you wait, the higher tier is a queue-driven surge. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "Standing tickets start cheap, then skyrocket while you wait."
+   "say": "Queue price climbs while you wait. And it never stays low."
   },
   {
    "scene": "PriceList",
-   "say": "A basic standing slot, no frills."
+   "say": "A cheap standing ticket you can grab quickly."
   },
   {
    "scene": "PriceList",
-   "say": "A premium seat with extra space."
+   "say": "A slightly nicer spot that promises better view."
   },
   {
    "scene": "PriceList",
-   "say": "The only option you can actually grab now."
+   "say": "The premium package that guarantees entry even if you're late."
   },
   {
    "scene": "PriceList",
-   "say": "First price listed £148.50, later £355. Sounds like a glitch."
+   "say": "The exclusive backstage pass that costs a fortune."
   },
   {
    "scene": "PriceList",
-   "say": "But it's surge pricing, a queue price trick."
+   "say": "Standing tickets jumped from £148.50 to £355 after hours in line. Looks like a mistake."
   },
   {
    "scene": "Statement",
-   "say": "Ticketmaster watches the queue length and lifts prices once demand spikes."
+   "say": "But it does a job - surge pricing while you queue."
   },
   {
    "scene": "Anchor",
-   "say": "The standing tickets you held become the 'in demand' tier at £355."
+   "say": "Ticketmaster marks the \"in demand\" tag once the virtual line fills, then swaps the displayed price to the higher tier."
+  },
+  {
+   "scene": "Views",
+   "say": "The original £148.50 card vanishes, the £355 card appears, and the sale records at the new amount."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere."
+   "say": "You see it everywhere. A gym offers basic access for £30, a premium class bundle for £55, and elite training for £120."
   },
   {
    "scene": "Compare",
-   "say": "A cinema shows cheap seats at £8, then raises popular rows to £15."
+   "say": "A café lists a small coffee for £2, a medium for £3.50, and a large for £6."
   },
   {
    "scene": "Compare",
-   "say": "A gym lists a basic membership, then pushes a 'high demand' plan at £30, making it feel worth it."
+   "say": "A cinema shows standard seats for £8, premium seats for £12, and VIP lounge for £25. The middle option feels like the smart choice."
   },
   {
    "scene": "Outro",
-   "say": "When you wait, expect the price to jump. Follow for more."
+   "say": "If a price jumps while you wait, the higher tier is a queue-driven surge. Follow for more."
   }
  ]
 }

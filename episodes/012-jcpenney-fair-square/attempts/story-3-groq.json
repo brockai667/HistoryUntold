@@ -1,62 +1,68 @@
 {
  "model": "groq:openai/gpt-oss-120b",
- "errors": [],
+ "errors": [
+  "spoken words total 158, need 85-150 (aim for 115-135; pauses add about 15%)"
+ ],
  "plan": {
-  "paradox": "JCPenney stopped coupons. And prices never changed.",
-  "odd_fact": "Sales vanished. Looks like a mistake.",
-  "twist": "But it does a job  -  it hides the real discount.",
-  "cause": "The \"Fair and Square\" tag eliminates visible sales, so shoppers think they're always getting a discount, driving the 25% sales drop and $985 million loss.",
-  "everyday": "Coffee shop offers a daily deal for $3, a regular brew for $4, and a premium roast for $5; the $3 option feels like a discount and wins despite the premium being only $1 more than the regular.",
-  "rule": "If a price never moves, ask what feeling it's selling. Follow for more."
+  "paradox": "Everyday prices promise fairness. And they never discount.",
+  "odd_fact": "Sales vanished, yet prices stayed high. Looks like a mistake.",
+  "twist": "reference pricing",
+  "cause": "Customers compare the \"fair\" price to the missing sale price and feel they're missing a deal, causing sales to tumble 25% and a $985 million loss, leading to the CEO's dismissal after 17 months.",
+  "everyday": "coffee shop offers regular brew for $3, a premium roast for $4, and a discounted brew for $3.50; the premium looks better, so the $3.50 feels like a bargain, pushing shoppers to the middle option",
+  "rule": "If a price feels like a discount without a real reference, question the \"fair\" tag. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "JCPenney stopped coupons. And prices never changed."
+   "say": "Everyday prices promise fairness. And they never discount."
   },
   {
    "scene": "PriceList",
-   "say": "A sleek \"Fair and Square\" tag that promises everyday discounts."
+   "say": "A flat \"Fair and Square\" tag, no coupons."
   },
   {
    "scene": "PriceList",
-   "say": "The classic \"sale\" sign that appears only on special days."
+   "say": "The same items marked as \"sale\" with a percent off."
   },
   {
    "scene": "PriceList",
-   "say": "The regular price label that never moves."
+   "say": "Regular price list with the usual coupons you expect."
   },
   {
    "scene": "PriceList",
-   "say": "Sales vanished. Looks like a mistake."
+   "say": "Sales vanished, yet prices stayed high. Looks like a mistake."
   },
   {
    "scene": "PriceList",
-   "say": "But it does a job - it hides the real discount."
+   "say": "But it hides a psychology trick: reference pricing."
   },
   {
    "scene": "Statement",
-   "say": "Without coupons, shoppers see the same tag every day and think the price is low."
+   "say": "Customers compare the \"fair\" price to the missing sale price and feel they're missing a deal."
   },
   {
    "scene": "Anchor",
-   "say": "The vanished sales cost JCPenney $985 million and a 25% drop in sales in 2012."
+   "say": "When the reference price drops 25%, sales tumble 25% and the chain loses $985 million."
   },
   {
    "scene": "Views",
-   "say": "The brain rewards the feeling of a discount more than the actual number."
+   "say": "The loss convinces the board to fire the CEO after 17 months."
   },
   {
    "scene": "Compare",
-   "say": "A coffee shop lists a \"daily deal\" for $3, a regular brew for $4, and a premium roast for $5."
+   "say": "You see it at a coffee shop: regular brew for $3, a premium roast for $4, and a discounted brew for $3.50."
   },
   {
    "scene": "Compare",
-   "say": "Customers pick the $3 deal, believing they're saving, even though the premium costs only $1 more than the regular."
+   "say": "The premium roast looks better, so the $3.50 brew feels like a bargain."
+  },
+  {
+   "scene": "Compare",
+   "say": "Thus shoppers pick the middle option, thinking they saved."
   },
   {
    "scene": "Outro",
-   "say": "If a price never moves, ask what feeling it's selling. Follow for more."
+   "say": "If a price feels like a discount without a real reference, question the \"fair\" tag. Follow for more."
   }
  ]
 }
