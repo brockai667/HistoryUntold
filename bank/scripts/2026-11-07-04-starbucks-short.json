@@ -1,0 +1,171 @@
+{
+ "id": "starbucks-short",
+ "case": "THE HIDDEN SIZE",
+ "title": "The coffee size that isn't on the board",
+ "caption": "Ever ordered the smallest coffee on the board?\nIt might not be the smallest one they make.",
+ "source": "Tim Harford, Slate (2006)",
+ "beats": [
+  {
+   "say": "Ever ordered the smallest coffee on the board?",
+   "scene": "Hero",
+   "props": {
+    "art": "coffee",
+    "tag": {"text": "BE HONEST", "tone": "yellow"},
+    "title": "THE SMALLEST?",
+    "sub": "ARE YOU SURE?"
+   }
+  },
+  {
+   "say": "Small coffee, please. You point at the smallest cup.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "AT THE COUNTER",
+    "text": "SMALL COFFEE, PLEASE"
+   }
+  },
+  {
+   "say": "At Starbucks, the board starts at the 12-ounce Tall.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "Tall", "sub": "First on the board", "price": "12 OZ", "art": "coffee"}
+    ]
+   }
+  },
+  {
+   "say": "Then the 16-ounce Grande.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "Tall", "sub": "First on the board", "price": "12 OZ", "art": "coffee"},
+     {"title": "Grande", "sub": "Middle", "price": "16 OZ", "art": "coffee"}
+    ]
+   }
+  },
+  {
+   "say": "Then the 20-ounce hot Venti.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "Tall", "sub": "First on the board", "price": "12 OZ", "art": "coffee"},
+     {"title": "Grande", "sub": "Middle", "price": "16 OZ", "art": "coffee"},
+     {"title": "Venti", "sub": "Hot", "price": "20 OZ", "art": "coffee"}
+    ]
+   }
+  },
+  {
+   "say": "But there's also an 8-ounce Short. Usually not on the board.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "OFF THE BOARD",
+    "text": "AN 8-OUNCE SHORT"
+   }
+  },
+  {
+   "say": "The smallest size exists. They just don't show it.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Short", "sub": "Not on the board", "price": "8 OZ", "art": "coffee", "tags": [{"text": "HIDDEN", "tone": "yellow"}]},
+     {"title": "Tall", "sub": "First on the board", "price": "12 OZ", "art": "coffee"}
+    ]
+   }
+  },
+  {
+   "say": "A Short latte and a Tall latte both get one espresso shot.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [0, 1],
+    "cards": [
+     {"title": "Short", "sub": "Not on the board", "price": "8 OZ", "art": "coffee", "tags": [{"text": "HIDDEN", "tone": "yellow"}, {"text": "ONE SHOT", "tone": "dark"}]},
+     {"title": "Tall", "sub": "First on the board", "price": "12 OZ", "art": "coffee", "tags": [{"text": "ONE SHOT", "tone": "dark"}]}
+    ]
+   }
+  },
+  {
+   "say": "The board looks complete. So you never ask: is there smaller?",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Short", "sub": "Not on the board", "price": "8 OZ", "art": "coffee", "tags": [{"text": "HIDDEN", "tone": "yellow"}, {"text": "ONE SHOT", "tone": "dark"}]},
+     {"title": "Tall", "sub": "First on the board", "price": "12 OZ", "art": "coffee", "tags": [{"text": "ONE SHOT", "tone": "dark"}, {"text": "SMALLER?", "tone": "blue"}]}
+    ]
+   }
+  },
+  {
+   "say": "In 2006, economist Tim Harford had a theory.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "TIM HARFORD, 2006",
+    "text": "AN ECONOMIST'S THEORY"
+   }
+  },
+  {
+   "say": "Hiding the Short lets Starbucks charge more to people who don't ask.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Short", "sub": "Not on the board", "price": "8 OZ", "art": "coffee", "tags": [{"text": "IF YOU ASK", "tone": "green"}]},
+     {"title": "Tall", "sub": "First on the board", "price": "12 OZ", "art": "coffee", "tags": [{"text": "IF YOU DON'T", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "That's called a hidden size.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "SMALLEST SIZE, NOT SHOWN",
+    "text": "A HIDDEN SIZE"
+   }
+  },
+  {
+   "say": "Movie snacks board: medium popcorn $7.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Medium popcorn", "sub": "On the board", "price": "$7", "art": "popcorn"},
+     null
+    ],
+    "after": [null, null],
+    "labels": ["ON THE BOARD", "IF YOU ASK"]
+   }
+  },
+  {
+   "say": "Ask: a kids size for $4. The smallest size, hidden again.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Medium popcorn", "sub": "On the board", "price": "$7", "art": "popcorn"},
+     null
+    ],
+    "after": [
+     {"title": "Medium popcorn", "sub": "On the board", "price": "$7", "art": "popcorn"},
+     {"title": "Kids popcorn", "sub": "Only if you ask", "price": "$4", "art": "popcorn", "badge": {"text": "NOT ON BOARD", "tone": "green"}}
+    ],
+    "labels": ["ON THE BOARD", "IF YOU ASK"]
+   }
+  },
+  {
+   "say": "Before you order, ask what's not on the board.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "BEFORE YOU ORDER",
+    "text": "ASK WHAT'S NOT ON THE BOARD"
+   }
+  },
+  {
+   "say": "Have you ever ordered off the board?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}
