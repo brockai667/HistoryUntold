@@ -1,5 +1,5 @@
 {
- "next_ep": 12,
+ "next_ep": 13,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
@@ -11,7 +11,8 @@
   "free-kiss",
   "ps3-console-loss",
   "amazon-prime-iliad",
-  "stubhub-hidden-fees"
+  "stubhub-hidden-fees",
+  "oasis-in-demand"
  ],
  "episodes": {
   "1": {
@@ -181,7 +182,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-11-05T07:22:00+00:00"
+  },
+  "12": {
+   "id": "oasis-in-demand",
+   "title": "The price that climbed while you waited",
+   "posted_at": "2026-11-08T00:46:54+00:00",
+   "release": "ep-012",
+   "author": "claude-bank",
+   "text": "Ever waited ages in a ticket queue, then the price jumped?\nThe price can move while you wait.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-012/012-oasis-in-demand.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-11-08T07:03:00+00:00"
   }
  },
- "buffer_last_due": "2026-11-05T07:22:00+00:00"
+ "buffer_last_due": "2026-11-08T07:03:00+00:00"
 }

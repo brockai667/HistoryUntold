@@ -1,0 +1,162 @@
+{
+ "id": "oasis-in-demand",
+ "case": "THE QUEUE PRICE",
+ "title": "The price that climbed while you waited",
+ "caption": "Ever waited ages in a ticket queue, then the price jumped?\nThe price can move while you wait.",
+ "source": "BBC News (2024); CMA (2024)",
+ "beats": [
+  {
+   "say": "Ever waited ages in a ticket queue, then the price jumped?",
+   "scene": "Hero",
+   "props": {
+    "art": "ticket",
+    "tag": {"text": "BE HONEST", "tone": "yellow"},
+    "title": "HOURS IN QUEUE",
+    "sub": "THEN A NEW PRICE?"
+   }
+  },
+  {
+   "say": "Your turn finally comes. New price.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "HOURS IN THE QUEUE",
+    "text": "YOUR TURN. NEW PRICE.",
+    "tags": [{"text": "NOT THE ONE YOU SAW", "tone": "yellow"}]
+   }
+  },
+  {
+   "say": "In 2024, Oasis reunion tickets went on sale in the UK.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Standing ticket", "sub": "Oasis reunion tour", "art": "ticket"}
+    ]
+   }
+  },
+  {
+   "say": "Some standing tickets first listed at £148.50.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Standing ticket", "sub": "Oasis reunion tour", "price": "£148.50", "art": "ticket", "tags": [{"text": "FIRST LISTED", "tone": "dark"}]}
+    ]
+   }
+  },
+  {
+   "say": "Then the same tickets rose to £355.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [0, 1],
+    "cards": [
+     {"title": "Standing ticket", "sub": "Oasis reunion tour", "price": "£148.50", "art": "ticket", "tags": [{"text": "FIRST LISTED", "tone": "dark"}]},
+     {"title": "Same ticket", "sub": "In demand pricing", "price": "£355", "priceRed": true, "art": "ticket"}
+    ]
+   }
+  },
+  {
+   "say": "Many fans saw the higher price only after hours in the queue.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Standing ticket", "sub": "Oasis reunion tour", "price": "£148.50", "art": "ticket", "tags": [{"text": "FIRST LISTED", "tone": "dark"}]},
+     {"title": "Same ticket", "sub": "In demand pricing", "price": "£355", "priceRed": true, "art": "ticket", "tags": [{"text": "AFTER HOURS", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "Why? The price could climb while you waited.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Standing ticket", "sub": "Oasis reunion tour", "price": "£148.50", "art": "ticket", "tags": [{"text": "FIRST LISTED", "tone": "dark"}]},
+     {"title": "Same ticket", "sub": "In demand pricing", "price": "£355", "priceRed": true, "art": "ticket", "tags": [{"text": "AFTER HOURS", "tone": "yellow"}, {"text": "CLIMBS IN QUEUE", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "Leaving now feels like wasting those hours.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Standing ticket", "sub": "Oasis reunion tour", "price": "£148.50", "art": "ticket", "tags": [{"text": "FIRST LISTED", "tone": "dark"}]},
+     {"title": "Same ticket", "sub": "In demand pricing", "price": "£355", "priceRed": true, "art": "ticket", "tags": [{"text": "AFTER HOURS", "tone": "yellow"}, {"text": "CAN'T QUIT NOW", "tone": "dark"}]}
+    ]
+   }
+  },
+  {
+   "say": "So you skip the real question: is it worth that much?",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [1, 0],
+    "cards": [
+     {"title": "Standing ticket", "sub": "Oasis reunion tour", "price": "£148.50", "art": "ticket", "tags": [{"text": "FIRST LISTED", "tone": "dark"}]},
+     {"title": "Same ticket", "sub": "In demand pricing", "price": "£355", "priceRed": true, "art": "ticket", "tags": [{"text": "AFTER HOURS", "tone": "yellow"}, {"text": "WORTH IT?", "tone": "blue"}]}
+    ]
+   }
+  },
+  {
+   "say": "Then the UK's Competition and Markets Authority opened an investigation into Ticketmaster.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "AFTER THE SALE",
+    "text": "THE CMA OPENED AN INVESTIGATION"
+   }
+  },
+  {
+   "say": "A price that climbs with demand: surge pricing.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "PRICE RISES WITH DEMAND",
+    "text": "SURGE PRICING"
+   }
+  },
+  {
+   "say": "A ride home before the gig ends: $12.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Ride home", "sub": "Before the gig ends", "price": "$12", "art": "car"},
+     null
+    ],
+    "after": [null, null],
+    "labels": ["BEFORE", "EVERYONE BOOKS"]
+   }
+  },
+  {
+   "say": "Gig ends, everyone books. Same ride, now $19.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Ride home", "sub": "Before the gig ends", "price": "$12", "art": "car"},
+     null
+    ],
+    "after": [
+     {"title": "Ride home", "sub": "Before the gig ends", "price": "$12", "art": "car"},
+     {"title": "Same ride", "sub": "Everyone booking", "price": "$19", "art": "car-red", "top": {"text": "+SURGE", "tone": "red"}}
+    ],
+    "labels": ["BEFORE", "EVERYONE BOOKS"]
+   }
+  },
+  {
+   "say": "Long queue? Pick your max price before you join.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "LONG QUEUE?",
+    "text": "PICK YOUR MAX BEFORE YOU JOIN"
+   }
+  },
+  {
+   "say": "What's the most you've paid after a long queue?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}
