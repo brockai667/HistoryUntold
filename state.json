@@ -1,5 +1,5 @@
 {
- "next_ep": 13,
+ "next_ep": 14,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
@@ -12,7 +12,8 @@
   "ps3-console-loss",
   "amazon-prime-iliad",
   "stubhub-hidden-fees",
-  "oasis-in-demand"
+  "oasis-in-demand",
+  "jcpenney-fair-square"
  ],
  "episodes": {
   "1": {
@@ -197,7 +198,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-11-08T07:03:00+00:00"
+  },
+  "13": {
+   "id": "jcpenney-fair-square",
+   "title": "The shop that stopped faking sales",
+   "posted_at": "2026-11-09T01:00:45+00:00",
+   "release": "ep-013",
+   "author": "claude-bank",
+   "text": "Ever wondered why every sale tag shows a crossed-out price?\nOne shop dropped them. Its sales fell 25%.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-013/013-jcpenney-fair-square.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-11-09T07:06:00+00:00"
   }
  },
- "buffer_last_due": "2026-11-08T07:03:00+00:00"
+ "buffer_last_due": "2026-11-09T07:06:00+00:00"
 }

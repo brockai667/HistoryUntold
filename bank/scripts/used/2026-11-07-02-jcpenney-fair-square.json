@@ -1,0 +1,159 @@
+{
+ "id": "jcpenney-fair-square",
+ "case": "THE HONEST PRICE",
+ "title": "The shop that stopped faking sales",
+ "caption": "Ever wondered why every sale tag shows a crossed-out price?\nOne shop dropped them. Its sales fell 25%.",
+ "source": "JCPenney annual report (2012); Reuters (2013)",
+ "beats": [
+  {
+   "say": "Ever wondered why every sale tag shows a crossed-out price?",
+   "scene": "Hero",
+   "props": {
+    "art": "tag",
+    "tag": {"text": "BE HONEST", "tone": "yellow"},
+    "title": "ALWAYS ON SALE?",
+    "sub": "WHO IS IT FOR?"
+   }
+  },
+  {
+   "say": "Price crossed out. You grab the shirt.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "CLOTHES SHOP",
+    "text": "OLD PRICE CROSSED OUT"
+   }
+  },
+  {
+   "say": "In 2012, new CEO Ron Johnson dropped JCPenney's constant sales and coupons.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Sales and coupons", "sub": "JCPenney, nonstop", "price": "% OFF", "art": "percent", "tags": [{"text": "DROPPED", "tone": "dark"}]}
+    ]
+   }
+  },
+  {
+   "say": "Instead, everyday prices called Fair and Square.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Sales and coupons", "sub": "JCPenney, nonstop", "price": "% OFF", "art": "percent", "tags": [{"text": "DROPPED", "tone": "dark"}]},
+     {"title": "Fair and Square", "sub": "Everyday prices", "price": "EVERY DAY", "art": "tag"}
+    ]
+   }
+  },
+  {
+   "say": "That year, sales fell 25%. The company lost $985 million.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "JCPENNEY, THAT YEAR",
+    "text": "SALES FELL 25%",
+    "tags": [{"text": "LOST $985 MILLION", "tone": "red"}]
+   }
+  },
+  {
+   "say": "Why? Shoppers chase the feeling of a deal, not low prices.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Sales and coupons", "sub": "JCPenney, nonstop", "price": "% OFF", "art": "percent", "tags": [{"text": "FEELS LIKE A WIN", "tone": "yellow"}]},
+     {"title": "Fair and Square", "sub": "Everyday prices", "price": "EVERY DAY", "art": "tag", "tags": [{"text": "FEELS FLAT", "tone": "dark"}]}
+    ]
+   }
+  },
+  {
+   "say": "A crossed-out price feels like a score you beat.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Sales and coupons", "sub": "JCPenney, nonstop", "price": "% OFF", "art": "percent", "tags": [{"text": "FEELS LIKE A WIN", "tone": "yellow"}, {"text": "SCORE BEATEN", "tone": "yellow"}]},
+     {"title": "Fair and Square", "sub": "Everyday prices", "price": "EVERY DAY", "art": "tag", "tags": [{"text": "FEELS FLAT", "tone": "dark"}]}
+    ]
+   }
+  },
+  {
+   "say": "So you skip the real question: is the price actually low?",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [0, 1],
+    "cards": [
+     {"title": "Sales and coupons", "sub": "JCPenney, nonstop", "price": "% OFF", "art": "percent", "tags": [{"text": "FEELS LIKE A WIN", "tone": "yellow"}, {"text": "ACTUALLY LOW?", "tone": "blue"}]},
+     {"title": "Fair and Square", "sub": "Everyday prices", "price": "EVERY DAY", "art": "tag", "tags": [{"text": "FEELS FLAT", "tone": "dark"}]}
+    ]
+   }
+  },
+  {
+   "say": "In 2013, after 17 months, the board fired Johnson.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "2013",
+    "text": "CEO OUT AFTER 17 MONTHS"
+   }
+  },
+  {
+   "say": "After he left, JCPenney brought back sales and coupons.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Sales and coupons", "sub": "JCPenney, nonstop", "price": "% OFF", "art": "percent", "tags": [{"text": "BACK AGAIN", "tone": "green"}]},
+     {"title": "Fair and Square", "sub": "Everyday prices", "price": "EVERY DAY", "art": "tag", "tags": [{"text": "GONE", "tone": "dark"}]}
+    ]
+   }
+  },
+  {
+   "say": "That's called a reference price.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "THE CROSSED-OUT PRICE",
+    "text": "A REFERENCE PRICE"
+   }
+  },
+  {
+   "say": "Shop one: a hoodie, $20 every day.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Hoodie", "sub": "Everyday price", "price": "$20", "art": "shirt"},
+     null
+    ],
+    "after": [null, null],
+    "labels": ["SHOP ONE", "SHOP TWO"]
+   }
+  },
+  {
+   "say": "Shop two crosses out $40. The same price feels like a win.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Hoodie", "sub": "Everyday price", "price": "$20", "art": "shirt"},
+     null
+    ],
+    "after": [
+     {"title": "Hoodie", "sub": "Everyday price", "price": "$20", "art": "shirt"},
+     {"title": "Same hoodie", "sub": "Was $40", "price": "$20", "art": "shirt", "top": {"text": "SALE", "tone": "red"}}
+    ],
+    "labels": ["SHOP ONE", "SHOP TWO"]
+   }
+  },
+  {
+   "say": "Crossed-out price? Judge only what you pay.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "CROSSED-OUT PRICE?",
+    "text": "JUDGE ONLY WHAT YOU PAY"
+   }
+  },
+  {
+   "say": "What fake sale have you fallen for?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}
