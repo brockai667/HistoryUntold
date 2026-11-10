@@ -1,0 +1,155 @@
+{
+ "id": "de-beers-salary",
+ "case": "TWO MONTHS' SALARY",
+ "title": "The ring price rule pushed by an ad",
+ "caption": "Two months' salary for a ring?\nThat number was pushed by De Beers ads in the 1980s.",
+ "source": "Edward Jay Epstein, The Atlantic (1982)",
+ "beats": [
+  {
+   "say": "Who decided what your engagement ring should cost?",
+   "scene": "Hero",
+   "props": {
+    "art": "gem",
+    "tag": {"text": "RING SHOPPING", "tone": "yellow"},
+    "title": "WHO SAID SO?",
+    "sub": "THE RING PRICE RULE"
+   }
+  },
+  {
+   "say": "De Beers' words stick. In 1947, Frances Gerety wrote A Diamond Is Forever.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "FRANCES GERETY, 1947",
+    "text": "A DIAMOND IS FOREVER"
+   }
+  },
+  {
+   "say": "In 1999, Advertising Age called it the century's best slogan.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "The slogan", "sub": "A Diamond Is Forever", "art": "gem", "tags": [{"text": "BEST SLOGAN", "tone": "green"}, {"text": "AD AGE, 1999", "tone": "dark"}]}
+    ]
+   }
+  },
+  {
+   "say": "In the 1980s, De Beers ads set a ring budget.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "The slogan", "sub": "A Diamond Is Forever", "art": "gem", "tags": [{"text": "BEST SLOGAN", "tone": "green"}, {"text": "AD AGE, 1999", "tone": "dark"}]},
+     {"title": "De Beers ad", "sub": "1980s", "art": "newspaper"}
+    ]
+   }
+  },
+  {
+   "say": "Two months' salary.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "The slogan", "sub": "A Diamond Is Forever", "art": "gem", "tags": [{"text": "BEST SLOGAN", "tone": "green"}, {"text": "AD AGE, 1999", "tone": "dark"}]},
+     {"title": "De Beers ad", "sub": "1980s", "art": "newspaper"},
+     {"title": "Engagement ring", "sub": "Per the ads", "price": "2 MONTHS", "art": "gem"}
+    ]
+   }
+  },
+  {
+   "say": "Not a law. Just a number from an ad.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "The slogan", "sub": "A Diamond Is Forever", "art": "gem"},
+     {"title": "De Beers ad", "sub": "1980s", "art": "newspaper"},
+     {"title": "Engagement ring", "sub": "Per the ads", "price": "2 MONTHS", "art": "gem", "tags": [{"text": "NOT A LAW", "tone": "dark"}, {"text": "FROM AN AD", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "Hear a number first, and it becomes your starting point.",
+   "scene": "Anchor",
+   "props": {
+    "job": "FIRST NUMBER = START",
+    "price": "2 MONTHS",
+    "at": 0.35,
+    "split": 0.45,
+    "art": "gem",
+    "anchor": {"label": "DE BEERS AD", "art": "newspaper"}
+   }
+  },
+  {
+   "say": "Like a price tag stuck on every ring.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Engagement ring", "sub": "Per the ads", "price": "2 MONTHS", "art": "gem", "tags": [{"text": "PRICE TAG", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "So you skip the question: what can you afford?",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [1, 0],
+    "cards": [
+     {"title": "Engagement ring", "sub": "Per the ads", "price": "2 MONTHS", "art": "gem", "tags": [{"text": "PRICE TAG", "tone": "yellow"}]},
+     {"title": "Your pay", "sub": "One month", "price": "1 MONTH", "art": "wallet", "tags": [{"text": "YOUR BUDGET?", "tone": "blue"}]}
+    ]
+   }
+  },
+  {
+   "say": "That's called anchoring.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "FIRST NUMBER WINS",
+    "text": "ANCHORING"
+   }
+  },
+  {
+   "say": "Your friend's birthday. You planned a $10 gift.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Your plan", "sub": "Friend's gift", "price": "$10", "art": "gift"},
+     null
+    ],
+    "after": [null, null],
+    "labels": ["BEFORE", "AFTER"]
+   }
+  },
+  {
+   "say": "Then the group chat suggests $18. Suddenly your plan feels cheap.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Your plan", "sub": "Friend's gift", "price": "$10", "art": "gift"},
+     null
+    ],
+    "after": [
+     {"title": "Your plan", "sub": "Feels cheap now", "price": "$10", "art": "gift"},
+     {"title": "Group chat", "sub": "Suggested", "price": "$18", "art": "smartphone", "badge": {"text": "NEW START", "tone": "yellow"}}
+    ],
+    "labels": ["BEFORE", "AFTER"]
+   }
+  },
+  {
+   "say": "Ring or gift, set your number before you hear theirs.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "RING OR GIFT",
+    "text": "SET YOUR NUMBER FIRST"
+   }
+  },
+  {
+   "say": "What rule did you follow without asking who made it?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}
