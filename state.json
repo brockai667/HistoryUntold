@@ -1,5 +1,5 @@
 {
- "next_ep": 14,
+ "next_ep": 15,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
@@ -13,7 +13,8 @@
   "amazon-prime-iliad",
   "stubhub-hidden-fees",
   "oasis-in-demand",
-  "jcpenney-fair-square"
+  "jcpenney-fair-square",
+  "toblerone-gaps"
  ],
  "episodes": {
   "1": {
@@ -213,7 +214,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-11-09T07:06:00+00:00"
+  },
+  "14": {
+   "id": "toblerone-gaps",
+   "title": "The chocolate bar with wider gaps",
+   "posted_at": "2026-11-10T03:40:42+00:00",
+   "release": "ep-014",
+   "author": "claude-bank",
+   "text": "Ever felt your chocolate bar runs out faster than it used to?\nCheck the grams, not just the price.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-014/014-toblerone-gaps.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-11-10T07:19:00+00:00"
   }
  },
- "buffer_last_due": "2026-11-09T07:06:00+00:00"
+ "buffer_last_due": "2026-11-10T07:19:00+00:00"
 }

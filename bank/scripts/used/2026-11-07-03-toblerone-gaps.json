@@ -1,0 +1,168 @@
+{
+ "id": "toblerone-gaps",
+ "case": "THE MISSING PEAKS",
+ "title": "The chocolate bar with wider gaps",
+ "caption": "Ever felt your chocolate bar runs out faster than it used to?\nCheck the grams, not just the price.",
+ "source": "BBC News (2016)",
+ "beats": [
+  {
+   "say": "Ever felt your chocolate bar runs out faster than it used to?",
+   "scene": "Hero",
+   "props": {
+    "art": "candy",
+    "tag": {"text": "BE HONEST", "tone": "yellow"},
+    "title": "GONE TOO FAST?",
+    "sub": "OR IS IT SMALLER?"
+   }
+  },
+  {
+   "say": "Same bar, same shelf. Somehow, less to eat.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "SAME BAR, SAME SHELF",
+    "text": "SOMEHOW, LESS TO EAT"
+   }
+  },
+  {
+   "say": "In 2016, Toblerone changed its big bar in the UK.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "Big bar", "sub": "Toblerone, UK", "price": "400g", "art": "candy"}
+    ]
+   }
+  },
+  {
+   "say": "It got lighter.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "point": [0, 1],
+    "cards": [
+     {"title": "Big bar", "sub": "Toblerone, UK", "price": "400g", "art": "candy"},
+     {"title": "New big bar", "sub": "After the change", "price": "360g", "priceRed": true, "art": "candy"}
+    ]
+   }
+  },
+  {
+   "say": "The small bar shrank too.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "Big bar", "sub": "Toblerone, UK", "price": "400g", "art": "candy"},
+     {"title": "New big bar", "sub": "After the change", "price": "360g", "priceRed": true, "art": "candy"},
+     {"title": "Small bar", "sub": "Was 170g", "price": "150g", "art": "candy"}
+    ]
+   }
+  },
+  {
+   "say": "Owner Mondelez made the gaps between the peaks wider. The price stayed.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "Big bar", "sub": "Toblerone, UK", "price": "400g", "art": "candy"},
+     {"title": "New big bar", "sub": "After the change", "price": "360g", "priceRed": true, "art": "candy", "tags": [{"text": "WIDER GAPS", "tone": "yellow"}]},
+     {"title": "Small bar", "sub": "Was 170g", "price": "150g", "art": "candy", "tags": [{"text": "WIDER GAPS", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "Mondelez blamed higher costs for many ingredients.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "Big bar", "sub": "Toblerone, UK", "price": "400g", "art": "candy", "tags": [{"text": "COSTS UP", "tone": "dark"}]},
+     {"title": "New big bar", "sub": "After the change", "price": "360g", "priceRed": true, "art": "candy", "tags": [{"text": "WIDER GAPS", "tone": "yellow"}]},
+     {"title": "Small bar", "sub": "Was 170g", "price": "150g", "art": "candy", "tags": [{"text": "WIDER GAPS", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "You notice a new price at once. Fewer grams? You barely look.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "Big bar", "sub": "Toblerone, UK", "price": "400g", "art": "candy", "tags": [{"text": "COSTS UP", "tone": "dark"}]},
+     {"title": "New big bar", "sub": "After the change", "price": "360g", "priceRed": true, "art": "candy", "tags": [{"text": "WIDER GAPS", "tone": "yellow"}, {"text": "BARELY SEEN", "tone": "dark"}]},
+     {"title": "Small bar", "sub": "Was 170g", "price": "150g", "art": "candy", "tags": [{"text": "WIDER GAPS", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "So you skip the real question: how much am I getting?",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "point": [1, 0],
+    "cards": [
+     {"title": "Big bar", "sub": "Toblerone, UK", "price": "400g", "art": "candy", "tags": [{"text": "COSTS UP", "tone": "dark"}]},
+     {"title": "New big bar", "sub": "After the change", "price": "360g", "priceRed": true, "art": "candy", "tags": [{"text": "WIDER GAPS", "tone": "yellow"}, {"text": "HOW MUCH?", "tone": "blue"}]},
+     {"title": "Small bar", "sub": "Was 170g", "price": "150g", "art": "candy", "tags": [{"text": "WIDER GAPS", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "But shoppers spotted the wider gaps. The change made headlines worldwide.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "SHOPPERS SPOTTED THE GAPS",
+    "text": "HEADLINES WORLDWIDE"
+   }
+  },
+  {
+   "say": "Less inside, same price. That's called shrinkflation.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "LESS INSIDE, SAME PRICE",
+    "text": "SHRINKFLATION"
+   }
+  },
+  {
+   "say": "Last month, a bag of chips: $3.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Chips", "sub": "Full bag", "price": "$3", "art": "package"},
+     null
+    ],
+    "after": [null, null],
+    "labels": ["LAST MONTH", "THIS MONTH"]
+   }
+  },
+  {
+   "say": "This month, same price, less inside. Same as your chocolate bar.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Chips", "sub": "Full bag", "price": "$3", "art": "package"},
+     null
+    ],
+    "after": [
+     {"title": "Chips", "sub": "Full bag", "price": "$3", "art": "package"},
+     {"title": "Chips", "sub": "Less inside", "price": "$3", "art": "package", "top": {"text": "LESS", "tone": "red"}}
+    ],
+    "labels": ["LAST MONTH", "THIS MONTH"]
+   }
+  },
+  {
+   "say": "Same price? Check the grams on the pack.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "SAME PRICE?",
+    "text": "CHECK THE GRAMS"
+   }
+  },
+  {
+   "say": "Which snack do you think shrank on you?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}
