@@ -1,5 +1,5 @@
 {
- "next_ep": 15,
+ "next_ep": 16,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
@@ -14,7 +14,8 @@
   "stubhub-hidden-fees",
   "oasis-in-demand",
   "jcpenney-fair-square",
-  "toblerone-gaps"
+  "toblerone-gaps",
+  "starbucks-short"
  ],
  "episodes": {
   "1": {
@@ -229,7 +230,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-11-10T07:19:00+00:00"
+  },
+  "15": {
+   "id": "starbucks-short",
+   "title": "The coffee size that isn't on the board",
+   "posted_at": "2026-11-11T01:19:34+00:00",
+   "release": "ep-015",
+   "author": "claude-bank",
+   "text": "Ever ordered the smallest coffee on the board?\nIt might not be the smallest one they make.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-015/015-starbucks-short.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-11-11T07:09:00+00:00"
   }
  },
- "buffer_last_due": "2026-11-10T07:19:00+00:00"
+ "buffer_last_due": "2026-11-11T07:09:00+00:00"
 }
