@@ -1,5 +1,5 @@
 {
- "next_ep": 16,
+ "next_ep": 17,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
@@ -15,7 +15,8 @@
   "oasis-in-demand",
   "jcpenney-fair-square",
   "toblerone-gaps",
-  "starbucks-short"
+  "starbucks-short",
+  "tesla-model-3"
  ],
  "episodes": {
   "1": {
@@ -245,7 +246,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-11-11T07:09:00+00:00"
+  },
+  "16": {
+   "id": "tesla-model-3",
+   "title": "The car price you could barely buy",
+   "posted_at": "2026-11-12T02:21:46+00:00",
+   "release": "ep-016",
+   "author": "claude-bank",
+   "text": "Ever clicked a great price in an ad and couldn't get it?\nThe advertised price is often the hardest one to buy.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-016/016-tesla-model-3.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-11-12T07:03:00+00:00"
   }
  },
- "buffer_last_due": "2026-11-11T07:09:00+00:00"
+ "buffer_last_due": "2026-11-12T07:03:00+00:00"
 }

@@ -1,0 +1,163 @@
+{
+ "id": "tesla-model-3",
+ "case": "THE $35,000 CAR",
+ "title": "The car price you could barely buy",
+ "caption": "Ever clicked a great price in an ad and couldn't get it?\nThe advertised price is often the hardest one to buy.",
+ "source": "Tesla announcements (2016-2019)",
+ "beats": [
+  {
+   "say": "Ever clicked a great price in an ad and couldn't get it?",
+   "scene": "Hero",
+   "props": {
+    "art": "car",
+    "tag": {"text": "BE HONEST", "tone": "yellow"},
+    "title": "THAT PRICE?",
+    "sub": "WHERE DID IT GO?"
+   }
+  },
+  {
+   "say": "You open the ad. You hit buy.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "THE AD",
+    "text": "GREAT PRICE. NOW BUY IT."
+   }
+  },
+  {
+   "say": "In 2016, Elon Musk unveiled the Tesla Model 3. From $35,000.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Standard Range", "sub": "Model 3, the ad", "price": "$35,000", "art": "car"}
+    ]
+   }
+  },
+  {
+   "say": "But Tesla first built the Long Range, from $44,000.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [0, 1],
+    "cards": [
+     {"title": "Standard Range", "sub": "Model 3, the ad", "price": "$35,000", "art": "car"},
+     {"title": "Long Range", "sub": "Built first", "price": "$44,000", "art": "car"}
+    ]
+   }
+  },
+  {
+   "say": "The Standard Range only went on sale in 2019.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Standard Range", "sub": "Model 3, the ad", "price": "$35,000", "art": "car", "tags": [{"text": "ON SALE 2019", "tone": "yellow"}]},
+     {"title": "Long Range", "sub": "Built first", "price": "$44,000", "art": "car"}
+    ]
+   }
+  },
+  {
+   "say": "Weeks later, Tesla stopped selling it online. Buyers had to call or visit.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Standard Range", "sub": "Model 3, the ad", "price": "$35,000", "art": "car", "tags": [{"text": "ON SALE 2019", "tone": "yellow"}, {"text": "NOT ONLINE", "tone": "dark"}]},
+     {"title": "Long Range", "sub": "Built first", "price": "$44,000", "art": "car"}
+    ]
+   }
+  },
+  {
+   "say": "The ad price was real. Just hard to get.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Standard Range", "sub": "Model 3, the ad", "price": "$35,000", "priceRed": true, "art": "car", "tags": [{"text": "HARD TO GET", "tone": "yellow"}]},
+     {"title": "Long Range", "sub": "Built first", "price": "$44,000", "art": "car"}
+    ]
+   }
+  },
+  {
+   "say": "The low number sticks, like a catchy chorus.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Standard Range", "sub": "Model 3, the ad", "price": "$35,000", "priceRed": true, "art": "car", "tags": [{"text": "HARD TO GET", "tone": "yellow"}, {"text": "STICKS IN MIND", "tone": "dark"}]},
+     {"title": "Long Range", "sub": "Built first", "price": "$44,000", "art": "car"}
+    ]
+   }
+  },
+  {
+   "say": "So you skip the real question: what will I pay?",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [0, 1],
+    "cards": [
+     {"title": "Standard Range", "sub": "Model 3, the ad", "price": "$35,000", "priceRed": true, "art": "car", "tags": [{"text": "HARD TO GET", "tone": "yellow"}]},
+     {"title": "Long Range", "sub": "Built first", "price": "$44,000", "art": "car", "tags": [{"text": "REAL PRICE?", "tone": "blue"}]}
+    ]
+   }
+  },
+  {
+   "say": "One week after the unveiling: 325,000 reservations.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "ONE WEEK LATER",
+    "text": "325,000 RESERVATIONS",
+    "tags": [{"text": "$1,000 DEPOSIT EACH", "tone": "yellow"}]
+   }
+  },
+  {
+   "say": "That's called a bait price.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "THE PRICE THAT PULLS YOU IN",
+    "text": "A BAIT PRICE"
+   }
+  },
+  {
+   "say": "Phone plan ad: $10 a month.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Phone plan", "sub": "In the ad", "price": "$10", "art": "smartphone"},
+     null
+    ],
+    "after": [null, null],
+    "labels": ["THE AD", "THE SHOP"]
+   }
+  },
+  {
+   "say": "In the shop, that one's gone. Next up: $18.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Phone plan", "sub": "In the ad", "price": "$10", "art": "smartphone"},
+     null
+    ],
+    "after": [
+     {"title": "Phone plan", "sub": "In the ad", "price": "$10", "art": "smartphone", "top": {"text": "GONE", "tone": "red"}},
+     {"title": "Next plan up", "sub": "What you can buy", "price": "$18", "art": "smartphone", "badge": {"text": "REAL PRICE", "tone": "dark"}}
+    ],
+    "labels": ["THE AD", "THE SHOP"]
+   }
+  },
+  {
+   "say": "Great ad price? Ask if it's really for sale.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "GREAT AD PRICE?",
+    "text": "CAN YOU ACTUALLY BUY IT?"
+   }
+  },
+  {
+   "say": "What ad price could you never get?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}
