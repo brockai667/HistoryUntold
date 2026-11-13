@@ -1,0 +1,309 @@
+{
+ "id": "wendys-dynamic-pricing",
+ "case": "THE PEAK PRICE",
+ "title": "Wendy's planned prices that move with demand",
+ "caption": "Ever paid extra because it was busy?\nIn 2024, Wendy's planned menu prices that move with demand.",
+ "source": "Wendy's earnings call and statement (2024)",
+ "beats": [
+  {
+   "say": "Ever paid extra for a ride because it was busy?",
+   "scene": "Hero",
+   "props": {
+    "art": "car",
+    "tag": {
+     "text": "BE HONEST",
+     "tone": "yellow"
+    },
+    "title": "BUSY = PRICIER?",
+    "sub": "NOW AT THE BURGER SPOT"
+   }
+  },
+  {
+   "say": "Rush hour. The price jumps.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "IN THE APP",
+    "text": "BUSY HOUR, BIGGER PRICE"
+   }
+  },
+  {
+   "say": "In 2024, Wendy's CEO Kirk Tanner had a pricing plan.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "Wendy's",
+      "sub": "CEO Kirk Tanner",
+      "art": "sandwich"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Wendy's planned to spend $20 million on digital menu boards.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "Wendy's",
+      "sub": "CEO Kirk Tanner",
+      "art": "sandwich"
+     },
+     {
+      "title": "Menu boards",
+      "sub": "Digital screens",
+      "price": "$20 million",
+      "art": "tv"
+     }
+    ]
+   }
+  },
+  {
+   "say": "His plan: test prices that move with demand, as soon as 2025.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "Wendy's",
+      "sub": "CEO Kirk Tanner",
+      "art": "sandwich",
+      "tags": [
+       {
+        "text": "TEST IN 2025",
+        "tone": "dark"
+       }
+      ]
+     },
+     {
+      "title": "Menu boards",
+      "sub": "Digital screens",
+      "price": "$20 million",
+      "art": "tv",
+      "tags": [
+       {
+        "text": "PRICE CAN MOVE",
+        "tone": "dark"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "say": "A menu that reads the room, like a ride app.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "THE IDEA",
+    "text": "A MENU THAT READS THE ROOM"
+   }
+  },
+  {
+   "say": "Busy lunch, higher price? Slow afternoon, lower price?",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [
+     0,
+     1
+    ],
+    "cards": [
+     {
+      "title": "Burger",
+      "sub": "Busy lunch",
+      "price": "UP?",
+      "art": "sandwich"
+     },
+     {
+      "title": "Burger",
+      "sub": "Slow afternoon",
+      "price": "DOWN?",
+      "art": "sandwich"
+     }
+    ]
+   }
+  },
+  {
+   "say": "After a public backlash, Wendy's said no raises at peak times.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "Burger",
+      "sub": "Busy lunch",
+      "price": "SAME",
+      "art": "sandwich",
+      "tags": [
+       {
+        "text": "NO RAISE",
+        "tone": "green"
+       }
+      ]
+     },
+     {
+      "title": "Burger",
+      "sub": "Slow afternoon",
+      "price": "DOWN?",
+      "art": "sandwich"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Instead, it might offer lower prices at slower times.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "Burger",
+      "sub": "Busy lunch",
+      "price": "SAME",
+      "art": "sandwich",
+      "tags": [
+       {
+        "text": "NO RAISE",
+        "tone": "green"
+       }
+      ]
+     },
+     {
+      "title": "Burger",
+      "sub": "Slow afternoon",
+      "price": "DOWN?",
+      "art": "sandwich",
+      "tags": [
+       {
+        "text": "MAYBE LOWER",
+        "tone": "yellow"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "say": "If slow hours get cheaper, busy hours cost more by comparison.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "point": [
+     1,
+     0
+    ],
+    "cards": [
+     {
+      "title": "Burger",
+      "sub": "Busy lunch",
+      "price": "SAME",
+      "art": "sandwich",
+      "tags": [
+       {
+        "text": "STILL MORE?",
+        "tone": "dark"
+       }
+      ]
+     },
+     {
+      "title": "Burger",
+      "sub": "Slow afternoon",
+      "price": "DOWN?",
+      "art": "sandwich",
+      "tags": [
+       {
+        "text": "MAYBE LOWER",
+        "tone": "dark"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "say": "Prices that follow the crowd. That's dynamic pricing.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "PRICE FOLLOWS DEMAND",
+    "text": "DYNAMIC PRICING"
+   }
+  },
+  {
+   "say": "A smoothie is $6 at noon.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {
+      "title": "Smoothie",
+      "sub": "Noon",
+      "price": "$6",
+      "art": "cup-soda"
+     },
+     null
+    ],
+    "after": [
+     null,
+     null
+    ],
+    "labels": [
+     "BEFORE",
+     "AFTER"
+    ]
+   }
+  },
+  {
+   "say": "Slow hour? $5. Lunch costs more, like that ride.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {
+      "title": "Smoothie",
+      "sub": "Noon",
+      "price": "$6",
+      "art": "cup-soda"
+     },
+     null
+    ],
+    "after": [
+     {
+      "title": "Smoothie",
+      "sub": "Noon",
+      "price": "$6",
+      "art": "cup-soda",
+      "badge": {
+       "text": "BUSY PRICE",
+       "tone": "yellow"
+      }
+     },
+     {
+      "title": "Smoothie",
+      "sub": "Slow hour",
+      "price": "$5",
+      "art": "cup-soda"
+     }
+    ],
+    "labels": [
+     "BEFORE",
+     "AFTER"
+    ]
+   }
+  },
+  {
+   "say": "Same food, different hour? Check the price.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "BEFORE YOU ORDER",
+    "text": "SAME FOOD? CHECK THE HOUR"
+   }
+  },
+  {
+   "say": "Would you pay more for a burger at lunch?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}

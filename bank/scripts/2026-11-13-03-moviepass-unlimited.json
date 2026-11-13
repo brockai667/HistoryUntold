@@ -1,0 +1,301 @@
+{
+ "id": "moviepass-unlimited",
+ "case": "UNLIMITED MOVIES",
+ "title": "MoviePass sold a movie a day for $9.95 a month",
+ "caption": "Ever paid for unlimited and barely used it?\nMoviePass sold a movie a day for $9.95 a month.",
+ "source": "MoviePass statements; theater owners' data (2017-2019)",
+ "beats": [
+  {
+   "say": "Ever signed up for an unlimited plan and barely used it?",
+   "scene": "Hero",
+   "props": {
+    "art": "clapperboard",
+    "tag": {
+     "text": "BE HONEST",
+     "tone": "yellow"
+    },
+    "title": "UNLIMITED?",
+    "sub": "OR MOSTLY UNUSED?"
+   }
+  },
+  {
+   "say": "Gym, streaming, apps. You pay anyway.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "EVERY MONTH",
+    "text": "PAID. BARELY USED."
+   }
+  },
+  {
+   "say": "In 2017, MoviePass sold one movie a day for $9.95 a month.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "MoviePass",
+      "sub": "One movie a day",
+      "price": "$9.95",
+      "art": "clapperboard"
+     }
+    ]
+   }
+  },
+  {
+   "say": "The average US movie ticket that year cost $8.97.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "MoviePass",
+      "sub": "One movie a day",
+      "price": "$9.95",
+      "art": "clapperboard"
+     },
+     {
+      "title": "Movie ticket",
+      "sub": "US average",
+      "price": "$8.97",
+      "art": "ticket"
+     }
+    ]
+   }
+  },
+  {
+   "say": "MoviePass paid the theater the full ticket price every time.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "MoviePass",
+      "sub": "One movie a day",
+      "price": "$9.95",
+      "art": "clapperboard"
+     },
+     {
+      "title": "Movie ticket",
+      "sub": "US average",
+      "price": "$8.97",
+      "art": "ticket",
+      "tags": [
+       {
+        "text": "PAID IN FULL",
+        "tone": "blue"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "say": "Go twice a month, and MoviePass pays more than you do.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [
+     0,
+     1
+    ],
+    "cards": [
+     {
+      "title": "MoviePass",
+      "sub": "One movie a day",
+      "price": "$9.95",
+      "art": "clapperboard"
+     },
+     {
+      "title": "Movie ticket",
+      "sub": "US average",
+      "price": "$8.97",
+      "art": "ticket",
+      "tags": [
+       {
+        "text": "PAID IN FULL",
+        "tone": "blue"
+       },
+       {
+        "text": "TWICE = LOSS",
+        "tone": "yellow"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "say": "Still, it passed 3 million subscribers in 2018.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "AND YET",
+    "text": "3 MILLION SUBSCRIBERS"
+   }
+  },
+  {
+   "say": "An unlimited plan only works if most members barely use it.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "MoviePass",
+      "sub": "One movie a day",
+      "price": "$9.95",
+      "art": "clapperboard",
+      "tags": [
+       {
+        "text": "NEEDS NO-SHOWS",
+        "tone": "dark"
+       }
+      ]
+     },
+     {
+      "title": "Movie ticket",
+      "sub": "US average",
+      "price": "$8.97",
+      "art": "ticket",
+      "tags": [
+       {
+        "text": "PAID IN FULL",
+        "tone": "dark"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "say": "Like a buffet built for light eaters.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "LIKE A BUFFET",
+    "text": "IT NEEDS LIGHT EATERS"
+   }
+  },
+  {
+   "say": "MoviePass shut down in 2019.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "MoviePass",
+      "sub": "One movie a day",
+      "price": "$9.95",
+      "art": "clapperboard",
+      "stamp": "CLOSED",
+      "tags": [
+       {
+        "text": "SHUT DOWN 2019",
+        "tone": "red"
+       }
+      ]
+     },
+     {
+      "title": "Movie ticket",
+      "sub": "US average",
+      "price": "$8.97",
+      "art": "ticket"
+     }
+    ]
+   }
+  },
+  {
+   "say": "That's a money-losing flat fee.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "ONE PRICE, NO LIMIT",
+    "text": "A MONEY-LOSING FLAT FEE"
+   }
+  },
+  {
+   "say": "Unlimited coffee costs $15 a month. One cup, $3.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {
+      "title": "Coffee pass",
+      "sub": "Unlimited",
+      "price": "$15",
+      "art": "coffee"
+     },
+     {
+      "title": "Single cup",
+      "sub": "Pay as you go",
+      "price": "$3",
+      "art": "coffee"
+     }
+    ],
+    "after": [
+     null,
+     null
+    ],
+    "labels": [
+     "THE PASS",
+     "YOUR MONTH"
+    ]
+   }
+  },
+  {
+   "say": "You barely go, just 3 times. That's $9 of coffee for $15.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {
+      "title": "Coffee pass",
+      "sub": "Unlimited",
+      "price": "$15",
+      "art": "coffee"
+     },
+     {
+      "title": "Single cup",
+      "sub": "Pay as you go",
+      "price": "$3",
+      "art": "coffee"
+     }
+    ],
+    "after": [
+     {
+      "title": "Coffee pass",
+      "sub": "Unlimited",
+      "price": "$15",
+      "art": "coffee",
+      "badge": {
+       "text": "YOU PAID",
+       "tone": "yellow"
+      }
+     },
+     {
+      "title": "Your 3 cups",
+      "sub": "Worth",
+      "price": "$9",
+      "art": "coffee",
+      "badge": {
+       "text": "BARELY USED",
+       "tone": "yellow"
+      }
+     }
+    ],
+    "labels": [
+     "THE PASS",
+     "YOUR MONTH"
+    ]
+   }
+  },
+  {
+   "say": "Before unlimited, count how often you'd really go.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "BEFORE YOU SIGN UP",
+    "text": "COUNT YOUR REAL VISITS"
+   }
+  },
+  {
+   "say": "Which unlimited plan are you barely using right now?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}
