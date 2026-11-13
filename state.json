@@ -1,5 +1,5 @@
 {
- "next_ep": 17,
+ "next_ep": 18,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
@@ -16,7 +16,8 @@
   "jcpenney-fair-square",
   "toblerone-gaps",
   "starbucks-short",
-  "tesla-model-3"
+  "tesla-model-3",
+  "de-beers-salary"
  ],
  "episodes": {
   "1": {
@@ -261,7 +262,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-11-12T07:03:00+00:00"
+  },
+  "17": {
+   "id": "de-beers-salary",
+   "title": "The ring price rule pushed by an ad",
+   "posted_at": "2026-11-13T01:56:22+00:00",
+   "release": "ep-017",
+   "author": "claude-bank",
+   "text": "Two months' salary for a ring?\nThat number was pushed by De Beers ads in the 1980s.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-017/017-de-beers-salary.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-11-13T07:02:00+00:00"
   }
  },
- "buffer_last_due": "2026-11-12T07:03:00+00:00"
+ "buffer_last_due": "2026-11-13T07:02:00+00:00"
 }
