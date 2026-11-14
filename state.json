@@ -1,5 +1,5 @@
 {
- "next_ep": 18,
+ "next_ep": 19,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
@@ -17,7 +17,8 @@
   "toblerone-gaps",
   "starbucks-short",
   "tesla-model-3",
-  "de-beers-salary"
+  "de-beers-salary",
+  "supreme-brick"
  ],
  "episodes": {
   "1": {
@@ -277,7 +278,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-11-13T07:02:00+00:00"
+  },
+  "18": {
+   "id": "supreme-brick",
+   "title": "Why people paid $30 for a brick",
+   "posted_at": "2026-11-14T01:32:22+00:00",
+   "release": "ep-018",
+   "author": "claude-bank",
+   "text": "Ever bought something because it might be gone tomorrow?\nSupreme once sold a red clay brick for $30.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-018/018-supreme-brick.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-11-14T07:07:00+00:00"
   }
  },
- "buffer_last_due": "2026-11-13T07:02:00+00:00"
+ "buffer_last_due": "2026-11-14T07:07:00+00:00"
 }

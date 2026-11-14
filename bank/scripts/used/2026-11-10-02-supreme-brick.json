@@ -1,0 +1,146 @@
+{
+ "id": "supreme-brick",
+ "case": "THE $30 BRICK",
+ "title": "Why people paid $30 for a brick",
+ "caption": "Ever bought something because it might be gone tomorrow?\nSupreme once sold a red clay brick for $30.",
+ "source": "VF (2020), EssilorLuxottica (2024); press (2016)",
+ "beats": [
+  {
+   "say": "Ever bought something just because it might be gone tomorrow?",
+   "scene": "Hero",
+   "props": {
+    "art": "flame",
+    "tag": {"text": "BE HONEST", "tone": "yellow"},
+    "title": "GONE TOMORROW?",
+    "sub": "OR JUST A BRICK?"
+   }
+  },
+  {
+   "say": "A new item goes live. You buy first, think later.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "DROP DAY",
+    "text": "BUY FIRST, THINK LATER"
+   }
+  },
+  {
+   "say": "In 2016, Supreme sold a red clay brick. Price: $30.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Clay brick", "sub": "Red clay", "price": "$30", "art": "package"}
+    ]
+   }
+  },
+  {
+   "say": "Just a brick, stamped with the logo.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Clay brick", "sub": "Red clay", "price": "$30", "art": "package", "tags": [{"text": "LOGO STAMPED", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "Supreme sells in small weekly drops, usually on Thursdays.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Clay brick", "sub": "Red clay", "price": "$30", "art": "package", "tags": [{"text": "LOGO STAMPED", "tone": "yellow"}, {"text": "SMALL DROP", "tone": "dark"}, {"text": "THURSDAY", "tone": "blue"}]}
+    ]
+   }
+  },
+  {
+   "say": "You're not paying for the brick. You're paying not to miss out.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Clay brick", "sub": "Red clay", "price": "$30", "art": "package", "tags": [{"text": "SMALL DROP", "tone": "dark"}, {"text": "DON'T MISS OUT", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "Like the last pizza slice. Suddenly everyone wants it.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "THE LAST SLICE",
+    "text": "SUDDENLY EVERYONE WANTS IT"
+   }
+  },
+  {
+   "say": "So you skip the question: do I even need a brick?",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Clay brick", "sub": "Red clay", "price": "$30", "art": "package", "tags": [{"text": "SMALL DROP", "tone": "dark"}, {"text": "NEED IT?", "tone": "blue"}]}
+    ]
+   }
+  },
+  {
+   "say": "In 2020, VF Corporation bought Supreme for $2.1 billion.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "point": [0, 1],
+    "cards": [
+     {"title": "Clay brick", "sub": "Red clay", "price": "$30", "art": "package", "tags": [{"text": "SMALL DROP", "tone": "dark"}, {"text": "NEED IT?", "tone": "blue"}]},
+     {"title": "Supreme", "sub": "Bought by VF, 2020", "price": "$2.1 BILLION", "art": "shirt"}
+    ]
+   }
+  },
+  {
+   "say": "That's called a scarcity drop.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "SMALL, RARE, THIS WEEK",
+    "text": "A SCARCITY DROP"
+   }
+  },
+  {
+   "say": "A regular cookie, $3. You walk past it.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Cookie", "sub": "Every day", "price": "$3", "art": "cake-slice"},
+     null
+    ],
+    "after": [null, null],
+    "labels": ["BEFORE", "AFTER"]
+   }
+  },
+  {
+   "say": "Same cookie, this week only, $4. Gone tomorrow? You grab it.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Cookie", "sub": "Every day", "price": "$3", "art": "cake-slice"},
+     null
+    ],
+    "after": [
+     {"title": "Cookie", "sub": "Every day", "price": "$3", "art": "cake-slice"},
+     {"title": "Same cookie", "sub": "This week only", "price": "$4", "art": "cake-slice", "badge": {"text": "LIMITED", "tone": "yellow"}}
+    ],
+    "labels": ["BEFORE", "AFTER"]
+   }
+  },
+  {
+   "say": "Would you want it if it never ran out?",
+   "scene": "Statement",
+   "props": {
+    "kicker": "BEFORE YOU BUY",
+    "text": "WANT IT IF IT NEVER RAN OUT?"
+   }
+  },
+  {
+   "say": "What's the weirdest thing you bought because it was limited?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}
