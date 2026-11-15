@@ -1,0 +1,159 @@
+{
+ "id": "wine-price-scan",
+ "case": "THE $90 LABEL",
+ "title": "The same wine tasted better with a higher price",
+ "caption": "Ever picked the pricier bottle?\nIn a brain scanner, the same wine tasted better with a higher price tag.",
+ "source": "Plassmann et al., PNAS (2008)",
+ "beats": [
+  {
+   "say": "Ever picked the pricier bottle because it must taste better?",
+   "scene": "Hero",
+   "props": {
+    "art": "wine",
+    "tag": {"text": "BE HONEST", "tone": "yellow"},
+    "title": "TASTES BETTER?",
+    "sub": "OR JUST COSTS MORE?"
+   }
+  },
+  {
+   "say": "Two bottles. You grab the expensive one.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "AT THE SHOP",
+    "text": "YOU GRAB THE EXPENSIVE ONE"
+   }
+  },
+  {
+   "say": "In a 2008 Caltech study, volunteers tasted wine in a brain scanner. Label: $5.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Wine A", "sub": "Cheap label", "price": "$5", "art": "wine"}
+    ]
+   }
+  },
+  {
+   "say": "Another time, the same wine said $45.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Wine A", "sub": "Cheap label", "price": "$5", "art": "wine"},
+     {"title": "Wine A", "sub": "Pricey label", "price": "$45", "art": "wine"}
+    ]
+   }
+  },
+  {
+   "say": "Same wine both times. Only the label changed.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "point": [0, 1],
+    "cards": [
+     {"title": "Wine A", "sub": "Cheap label", "price": "$5", "art": "wine", "tags": [{"text": "SAME WINE", "tone": "dark"}]},
+     {"title": "Wine A", "sub": "Pricey label", "price": "$45", "art": "wine", "tags": [{"text": "SAME WINE", "tone": "dark"}]}
+    ]
+   }
+  },
+  {
+   "say": "Still, the wine tasted better with the pricier label.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Wine A", "sub": "Cheap label", "price": "$5", "art": "wine", "tags": [{"text": "SAME WINE", "tone": "dark"}]},
+     {"title": "Wine A", "sub": "Pricey label", "price": "$45", "art": "wine", "tags": [{"text": "SAME WINE", "tone": "dark"}, {"text": "TASTED BETTER", "tone": "green"}]}
+    ]
+   }
+  },
+  {
+   "say": "A second wine got $10. Another time, $90. Same result.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "A SECOND WINE",
+    "text": "$10 OR $90. SAME RESULT."
+   }
+  },
+  {
+   "say": "In the scans, pleasure areas were more active at the higher price.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Wine A", "sub": "Cheap label", "price": "$5", "art": "wine"},
+     {"title": "Wine A", "sub": "Pricey label", "price": "$45", "art": "wine", "tags": [{"text": "MORE PLEASURE", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "You weren't only tasting the wine. You were tasting the price.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "WHAT YOU REALLY TASTED",
+    "text": "YOU TASTED THE PRICE"
+   }
+  },
+  {
+   "say": "The price set what you expected.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "Wine A", "sub": "Cheap label", "price": "$5", "art": "wine", "tags": [{"text": "EXPECT LESS", "tone": "dark"}]},
+     {"title": "Wine A", "sub": "Pricey label", "price": "$45", "art": "wine", "tags": [{"text": "EXPECT MORE", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "That's the price-quality halo.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "PRICE CHANGES THE TASTE",
+    "text": "THE PRICE-QUALITY HALO"
+   }
+  },
+  {
+   "say": "Same hoodie on two racks. One tag says $12.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Hoodie", "sub": "Rack one", "price": "$12", "art": "shirt"},
+     null
+    ],
+    "after": [null, null],
+    "labels": ["RACK ONE", "BOTH RACKS"]
+   }
+  },
+  {
+   "say": "The other says $19. Somehow it feels softer, like that pricier bottle.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Hoodie", "sub": "Rack one", "price": "$12", "art": "shirt"},
+     null
+    ],
+    "after": [
+     {"title": "Hoodie", "sub": "Rack one", "price": "$12", "art": "shirt"},
+     {"title": "Hoodie", "sub": "Rack two", "price": "$19", "art": "shirt", "badge": {"text": "FEELS SOFTER", "tone": "yellow"}}
+    ],
+    "labels": ["RACK ONE", "BOTH RACKS"]
+   }
+  },
+  {
+   "say": "Judge the thing, not the price tag.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "BEFORE YOU PAY MORE",
+    "text": "JUDGE IT WITHOUT THE TAG"
+   }
+  },
+  {
+   "say": "Which pricier thing tastes better to you?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}

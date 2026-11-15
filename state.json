@@ -1,5 +1,5 @@
 {
- "next_ep": 19,
+ "next_ep": 20,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
@@ -18,7 +18,8 @@
   "starbucks-short",
   "tesla-model-3",
   "de-beers-salary",
-  "supreme-brick"
+  "supreme-brick",
+  "wine-price-scan"
  ],
  "episodes": {
   "1": {
@@ -293,7 +294,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-11-14T07:07:00+00:00"
+  },
+  "19": {
+   "id": "wine-price-scan",
+   "title": "The same wine tasted better with a higher price",
+   "posted_at": "2026-11-15T01:08:58+00:00",
+   "release": "ep-019",
+   "author": "claude-bank",
+   "text": "Ever picked the pricier bottle?\nIn a brain scanner, the same wine tasted better with a higher price tag.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-019/019-wine-price-scan.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-11-15T07:22:00+00:00"
   }
  },
- "buffer_last_due": "2026-11-14T07:07:00+00:00"
+ "buffer_last_due": "2026-11-15T07:22:00+00:00"
 }
