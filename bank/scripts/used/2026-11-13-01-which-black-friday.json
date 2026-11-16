@@ -1,0 +1,278 @@
+{
+ "id": "which-black-friday",
+ "case": "NOT A DEAL",
+ "title": "Most Black Friday deals were not special",
+ "caption": "Ever rushed a Black Friday deal?\nWhich? checked 227 of them: 92% were the same price or cheaper at other times.",
+ "source": "Which? press release (2024)",
+ "beats": [
+  {
+   "say": "Ever rushed to grab a big sale before it was gone?",
+   "scene": "Hero",
+   "props": {
+    "art": "shopping-cart",
+    "tag": {
+     "text": "BE HONEST",
+     "tone": "yellow"
+    },
+    "title": "LAST CHANCE?",
+    "sub": "OR JUST ANOTHER DAY?"
+   }
+  },
+  {
+   "say": "The sale sign is flashing. You pay fast.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "AT CHECKOUT",
+    "text": "YOU PAY FAST"
+   }
+  },
+  {
+   "say": "Consumer group Which tracked 227 UK Black Friday deals.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "Black Friday",
+      "sub": "227 products",
+      "art": "percent",
+      "tags": [
+       {
+        "text": "DEAL",
+        "tone": "yellow"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "say": "They came from 8 big home and tech shops.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "Black Friday",
+      "sub": "227 products",
+      "art": "percent",
+      "tags": [
+       {
+        "text": "DEAL",
+        "tone": "yellow"
+       },
+       {
+        "text": "8 BIG SHOPS",
+        "tone": "blue"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "say": "Which checked each price before and after Black Friday 2023.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "Black Friday",
+      "sub": "227 products",
+      "art": "percent",
+      "tags": [
+       {
+        "text": "DEAL",
+        "tone": "yellow"
+       },
+       {
+        "text": "8 BIG SHOPS",
+        "tone": "blue"
+       }
+      ]
+     },
+     {
+      "title": "Price history",
+      "sub": "Before and after",
+      "art": "receipt"
+     }
+    ]
+   }
+  },
+  {
+   "say": "92% of the deals were the same price or cheaper other times.",
+   "scene": "Crowd",
+   "props": {
+    "job": "SHARE OF DEALS",
+    "options": [
+     {
+      "label": "Same or less",
+      "art": "receipt",
+      "value": 92
+     },
+     {
+      "label": "The rest",
+      "art": "percent",
+      "value": 8
+     }
+    ]
+   }
+  },
+  {
+   "say": "So most of those deal prices weren't special at all.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "Black Friday",
+      "sub": "227 products",
+      "art": "percent",
+      "tags": [
+       {
+        "text": "NOT SPECIAL",
+        "tone": "dark"
+       }
+      ]
+     },
+     {
+      "title": "Price history",
+      "sub": "Before and after",
+      "art": "receipt",
+      "tags": [
+       {
+        "text": "SAME OR LESS",
+        "tone": "dark"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "say": "A sale sign is like a friend saying trust me.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "THE SIGN SAYS",
+    "text": "TRUST ME, IT'S A DEAL"
+   }
+  },
+  {
+   "say": "So you skip the real question: is it cheaper another day?",
+   "scene": "PriceList",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {
+      "title": "Black Friday",
+      "sub": "227 products",
+      "art": "percent",
+      "tags": [
+       {
+        "text": "DEAL?",
+        "tone": "yellow"
+       }
+      ]
+     },
+     {
+      "title": "Price history",
+      "sub": "Before and after",
+      "art": "receipt",
+      "tags": [
+       {
+        "text": "OTHER DAYS?",
+        "tone": "blue"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "say": "That's a fake deal.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "SALE IN NAME ONLY",
+    "text": "A FAKE DEAL"
+   }
+  },
+  {
+   "say": "Headphones cost $18 in October.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {
+      "title": "Headphones",
+      "sub": "October",
+      "price": "$18",
+      "art": "headphones"
+     },
+     null
+    ],
+    "after": [
+     null,
+     null
+    ],
+    "labels": [
+     "OCTOBER",
+     "SALE DAY"
+    ]
+   }
+  },
+  {
+   "say": "Then a giant sale sign appears. Same price. No need to rush.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {
+      "title": "Headphones",
+      "sub": "October",
+      "price": "$18",
+      "art": "headphones"
+     },
+     null
+    ],
+    "after": [
+     {
+      "title": "Headphones",
+      "sub": "October",
+      "price": "$18",
+      "art": "headphones"
+     },
+     {
+      "title": "Headphones",
+      "sub": "Sale day",
+      "price": "$18",
+      "art": "headphones",
+      "badge": {
+       "text": "SAME PRICE",
+       "tone": "yellow"
+      },
+      "top": {
+       "text": "SALE!",
+       "tone": "yellow"
+      }
+     }
+    ],
+    "labels": [
+     "OCTOBER",
+     "SALE DAY"
+    ]
+   }
+  },
+  {
+   "say": "Before you rush, check the price history.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "BEFORE YOU PAY",
+    "text": "CHECK THE PRICE HISTORY"
+   }
+  },
+  {
+   "say": "What did you rush to buy last Black Friday?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}

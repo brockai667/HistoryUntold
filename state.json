@@ -1,5 +1,5 @@
 {
- "next_ep": 20,
+ "next_ep": 21,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
@@ -19,7 +19,8 @@
   "tesla-model-3",
   "de-beers-salary",
   "supreme-brick",
-  "wine-price-scan"
+  "wine-price-scan",
+  "which-black-friday"
  ],
  "episodes": {
   "1": {
@@ -309,7 +310,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-11-15T07:22:00+00:00"
+  },
+  "20": {
+   "id": "which-black-friday",
+   "title": "Most Black Friday deals were not special",
+   "posted_at": "2026-11-16T01:08:37+00:00",
+   "release": "ep-020",
+   "author": "claude-bank",
+   "text": "Ever rushed a Black Friday deal?\nWhich? checked 227 of them: 92% were the same price or cheaper at other times.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-020/020-which-black-friday.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-11-16T07:20:00+00:00"
   }
  },
- "buffer_last_due": "2026-11-15T07:22:00+00:00"
+ "buffer_last_due": "2026-11-16T07:20:00+00:00"
 }
