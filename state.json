@@ -1,5 +1,5 @@
 {
- "next_ep": 21,
+ "next_ep": 22,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
@@ -20,7 +20,8 @@
   "de-beers-salary",
   "supreme-brick",
   "wine-price-scan",
-  "which-black-friday"
+  "which-black-friday",
+  "wendys-dynamic-pricing"
  ],
  "episodes": {
   "1": {
@@ -325,7 +326,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-11-16T07:20:00+00:00"
+  },
+  "21": {
+   "id": "wendys-dynamic-pricing",
+   "title": "Wendy's planned prices that move with demand",
+   "posted_at": "2026-11-17T04:00:05+00:00",
+   "release": "ep-021",
+   "author": "claude-bank",
+   "text": "Ever paid extra because it was busy?\nIn 2024, Wendy's planned menu prices that move with demand.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-021/021-wendys-dynamic-pricing.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-11-17T07:25:00+00:00"
   }
  },
- "buffer_last_due": "2026-11-16T07:20:00+00:00"
+ "buffer_last_due": "2026-11-17T07:25:00+00:00"
 }
