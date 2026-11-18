@@ -1,5 +1,5 @@
 {
- "next_ep": 22,
+ "next_ep": 23,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
@@ -21,7 +21,8 @@
   "supreme-brick",
   "wine-price-scan",
   "which-black-friday",
-  "wendys-dynamic-pricing"
+  "wendys-dynamic-pricing",
+  "moviepass-unlimited"
  ],
  "episodes": {
   "1": {
@@ -341,7 +342,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-11-17T07:25:00+00:00"
+  },
+  "22": {
+   "id": "moviepass-unlimited",
+   "title": "MoviePass sold a movie a day for $9.95 a month",
+   "posted_at": "2026-11-18T03:00:01+00:00",
+   "release": "ep-022",
+   "author": "claude-bank",
+   "text": "Ever paid for unlimited and barely used it?\nMoviePass sold a movie a day for $9.95 a month.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-022/022-moviepass-unlimited.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-11-18T07:12:00+00:00"
   }
  },
- "buffer_last_due": "2026-11-17T07:25:00+00:00"
+ "buffer_last_due": "2026-11-18T07:12:00+00:00"
 }
