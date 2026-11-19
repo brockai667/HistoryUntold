@@ -1,0 +1,66 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [],
+ "plan": {
+  "paradox": "'Only 1 left' sells rooms. And the count never changes.",
+  "odd_fact": "They agreed not to give a false impression of how few rooms were left",
+  "twist": "But it fuels urgency, a fake-scarcity trick",
+  "cause": "The 'only 1 left' badge creates urgency, so shoppers click faster; the regulator forced the sites to drop it, proving it was the driver",
+  "everyday": "Gym offers a '2 spots left' class, a regular class, and a premium package  -  the premium looks pricey but feels safe; bakery shows '1 cake left' next to a standard loaf  -  the cake feels urgent; both push the limited-stock option as the smart choice",
+  "rule": "Treat 'only X left' as a sales line until proven otherwise. Follow for more."
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "'Only 1 left' sells rooms. And the count never changes."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A badge that says one room remains, flashing urgency."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A plain list of available rooms, no hype."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A price-breakdown that adds taxes upfront."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Looks like a helpful warning."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it fuels urgency, a fake-scarcity trick."
+  },
+  {
+   "scene": "Statement",
+   "say": "The 'only 1 left' badge makes you think you'll miss out."
+  },
+  {
+   "scene": "Anchor",
+   "say": "Six sites - Booking.com, Expedia, Hotels.com, Agoda, ebookers, Trivago - all had to drop it in 2019."
+  },
+  {
+   "scene": "Views",
+   "say": "Without the badge, clicks fell, proving the badge was the hook."
+  },
+  {
+   "scene": "Compare",
+   "say": "A gym shows '2 spots left' for a spin class, a regular class, and a premium membership."
+  },
+  {
+   "scene": "Compare",
+   "say": "A bakery tags '1 cake left' beside a loaf, then a cake bundle."
+  },
+  {
+   "scene": "Compare",
+   "say": "The limited-stock option feels the only smart pick."
+  },
+  {
+   "scene": "Outro",
+   "say": "Treat 'only X left' as a sales line until proven otherwise. Follow for more."
+  }
+ ]
+}

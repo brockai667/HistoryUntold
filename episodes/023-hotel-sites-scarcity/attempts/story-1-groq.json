@@ -1,0 +1,69 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beat 5 PriceList: name \"Sounds\" is not one of the case names",
+  "spoken words total 160, need 85-150 (aim for 115-135; pauses add about 15%)"
+ ],
+ "plan": {
+  "paradox": "Hotel sites brag \"Only 1 left\", yet they never ran out.",
+  "odd_fact": "They agreed not to give a false impression of how few rooms were left  -  Sounds honest.",
+  "twist": "But it fuels urgency, a fake-scarcity trick.",
+  "cause": "The \"Only 1 left\" line pushes you to book fast, even though six sites kept the wording after the CMA 2019 settlement.",
+  "everyday": "Bakery shows three options: \"2 loaves left\" (price $4), \"Fresh batch\" (price $5), \"Family pack\" (price $12). The scarce-loaf looks cheap and urgent, so customers pick it. Gym lists: \"1 spot left in spin class\" ($15), \"Regular class\" ($12), \"Personal session\" ($40). The single spot feels exclusive, driving sign-ups. Both use the same scarcity cue to make the middle option feel like a smart choice.",
+  "rule": "If you see \"Only X left\", demand proof before you buy. Follow for more."
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "Hotel sites brag \"Only 1 left\", yet they never ran out."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A flashy banner claims a room is vanishing."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A normal listing shows all rooms and prices."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A premium package bundles extras for a higher fee."
+  },
+  {
+   "scene": "PriceList",
+   "say": "The scarcity banner looks urgent - Sounds honest."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it fuels urgency, a fake-scarcity trick."
+  },
+  {
+   "scene": "Statement",
+   "say": "The \"Only 1 left\" line makes you act fast, even though the CMA forced six sites to drop false scarcity in 2019."
+  },
+  {
+   "scene": "Anchor",
+   "say": "Six sites - Booking.com, Expedia, Hotels.com, Agoda, ebookers, Trivago - all kept the wording despite the agreement."
+  },
+  {
+   "scene": "Views",
+   "say": "That one line creates pressure, pushing you toward the highlighted room."
+  },
+  {
+   "scene": "Compare",
+   "say": "You see it everywhere. A bakery flashes \"2 loaves left\" for $4, while a fresh batch sits at $5."
+  },
+  {
+   "scene": "Compare",
+   "say": "A gym posts \"1 spot left in spin class\" for $15, versus a regular class at $12."
+  },
+  {
+   "scene": "Compare",
+   "say": "The scarce option feels like the smart, urgent choice."
+  },
+  {
+   "scene": "Outro",
+   "say": "If you see \"Only X left\", demand proof before you buy. Follow for more."
+  }
+ ]
+}

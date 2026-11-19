@@ -1,0 +1,70 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "spoken words total 191, need 85-150 (aim for 115-135; pauses add about 15%)",
+  "number 5 is spoken in 3 beats (5, 8, 10) - max 2, the card already shows it"
+ ],
+ "plan": {
+  "paradox": "Dollar Tree sells everything for a single price. And that price keeps moving.",
+  "odd_fact": "Since 2019 the store slipped $3 and $5 items onto the floor. Looks like a mistake.",
+  "twist": "But it does a job  -  it creates a price anchor.",
+  "cause": "The anchor makes the $1.25 baseline feel cheap, even though it's a 25% hike after 35 years.",
+  "everyday": "Coffee shop: $2 regular brew, $3 specialty, $5 premium  -  the $3 looks modest. Gym: $10 day pass, $15 weekly pass, $30 monthly  -  the $15 weekly feels like a smart pick because the $30 looks pricey.",
+  "rule": "When a menu adds a pricier decoy, the middle price will look like a deal. Follow for more."
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "Dollar Tree sells everything for a single price. And that price keeps moving."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A handful of shelves hold higher-priced items you can't find elsewhere."
+  },
+  {
+   "scene": "PriceList",
+   "say": "The bulk of the store stays stocked with the classic low-cost goods."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A tiny section offers a few premium picks at a steeper tag."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Since 2019 the store slipped $3 and $5 items onto the floor. Looks like a mistake."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it does a job - it creates a price anchor."
+  },
+  {
+   "scene": "Statement",
+   "say": "The anchor makes the $1.25 baseline feel cheap, even though it's a 25% hike after 35 years."
+  },
+  {
+   "scene": "Anchor",
+   "say": "Shoppers compare every aisle to the $3-$5 items, so the $1.25 feels like a bargain."
+  },
+  {
+   "scene": "Views",
+   "say": "The $1 items become the default choice, hiding the price increase."
+  },
+  {
+   "scene": "Compare",
+   "say": "You see it everywhere. A coffee shop lists a $2 regular brew, a $3 specialty, and a $5 premium blend."
+  },
+  {
+   "scene": "Compare",
+   "say": "A gym shows a $10 day pass, a $15 weekly pass, and a $30 monthly membership."
+  },
+  {
+   "scene": "Compare",
+   "say": "Because the $15 weekly looks modest next to $30 monthly, the $10 day pass feels like the smart pick."
+  },
+  {
+   "scene": "Outro",
+   "say": "When a menu adds a pricier decoy, the middle price will look like a deal. Follow for more."
+  }
+ ]
+}

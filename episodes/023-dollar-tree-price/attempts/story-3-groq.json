@@ -1,0 +1,65 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "spoken words total 159, need 85-150 (aim for 115-135; pauses add about 15%)"
+ ],
+ "plan": {
+  "paradox": "Dollar Tree sells everything for a single price. And it still adds pricier items.",
+  "odd_fact": "In 2021 the standard price rose to $1.25  -  a 25% jump. Looks odd.",
+  "twist": "But the single price is a decoy that steers you toward the cheap shelf.",
+  "cause": "The $1.25 anchor makes the $1 items feel like a bargain, and the $3/$5 choices appear as premium add-ons, so shoppers keep buying the $1 stuff.",
+  "everyday": "A coffee shop lists a basic brew, a flavored latte, and a premium pour-over. The basic costs $2, the latte $3, the pour-over $5. The $3 option looks like a step up, so most choose it over the $2 basic. A gym offers a locker, a group class, and a personal trainer. Locker $10, class $15, trainer $30. The $15 class feels reasonable compared to $30, driving sign-ups. Both use a middle price to make the lower option look cheap.",
+  "rule": "When a menu clusters prices, the middle one is the decoy. Follow for more."
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "Dollar Tree sells everything for a single price. And it still adds pricier items."
+  },
+  {
+   "scene": "PriceList",
+   "say": "One shelf holds the everyday essentials you expect."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Another shelf shows a handful of novelty items."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A third shelf lists a few higher-margin gadgets."
+  },
+  {
+   "scene": "PriceList",
+   "say": "The standard tag now reads $1.25 - a 25% jump. Looks odd."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it's a decoy that nudges you toward the cheap shelf."
+  },
+  {
+   "scene": "Statement",
+   "say": "The $1.25 anchor makes the $1 items feel like a bargain."
+  },
+  {
+   "scene": "Anchor",
+   "say": "The $3 and $5 selections appear as premium upgrades, so you keep buying the $1 stuff."
+  },
+  {
+   "scene": "Compare",
+   "say": "You see it everywhere. A coffee shop offers a $2 brew, a $3 latte, and a $5 pour-over."
+  },
+  {
+   "scene": "Compare",
+   "say": "The $3 latte feels like a step up, pulling most customers away from the $2 basic."
+  },
+  {
+   "scene": "Compare",
+   "say": "A gym lists a $10 locker, a $15 class, and a $30 trainer. The $15 class feels reasonable next to $30, boosting sign-ups."
+  },
+  {
+   "scene": "Outro",
+   "say": "When a menu clusters prices, the middle one is the decoy. Follow for more."
+  }
+ ]
+}

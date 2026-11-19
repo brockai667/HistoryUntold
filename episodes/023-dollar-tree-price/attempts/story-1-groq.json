@@ -1,0 +1,69 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beats 2,3,4,5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "number 1.25 is spoken in 3 beats (1, 5, 8) - max 2, the card already shows it"
+ ],
+ "plan": {
+  "paradox": "Dollar Tree sells everything for a dollar. And some things cost $1.25.",
+  "odd_fact": "In 2021 it raised the standard price to $1.25, a 25% increase.",
+  "twist": "But it does a job: the single-price anchor",
+  "cause": "The $1 baseline makes $3 and $5 items look premium while $1.25 feels normal, so shoppers keep buying the cheap stuff.",
+  "everyday": "Coffee shop: $2 plain, $2.20 specialty, $5 combo; the $2.20 looks like a small upgrade, so you buy it. Gym: $10 day pass, $12 class pack, $30 month; the $12 pack feels cheap, so you choose it.",
+  "rule": "When one price dominates, ask what the other options are hiding. Follow for more."
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "Dollar Tree sells everything for a dollar. And some things cost $1.25."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A shelf of $1 items that fill the cart."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A handful of $3 novelties that look like a treat."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A few $5 basics that promise more."
+  },
+  {
+   "scene": "PriceList",
+   "say": "In 2021 it raised the standard price to $1.25, a 25% increase. Looks like a mistake."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it does a job: the single-price anchor."
+  },
+  {
+   "scene": "Statement",
+   "say": "The $1 baseline makes every higher tag feel premium, so you stay in the store."
+  },
+  {
+   "scene": "Anchor",
+   "say": "When $1 became $1.25, $3 feels like a small step up, not a splurge."
+  },
+  {
+   "scene": "Views",
+   "say": "You stop comparing each item; you just grab the $1-ish stuff."
+  },
+  {
+   "scene": "Compare",
+   "say": "You see it everywhere. A coffee shop offers $2 plain, $2.20 specialty, $5 combo."
+  },
+  {
+   "scene": "Compare",
+   "say": "A gym lists $10 day, $12 class pack, $30 month."
+  },
+  {
+   "scene": "Compare",
+   "say": "The middle option now feels like a smart upgrade."
+  },
+  {
+   "scene": "Outro",
+   "say": "When one price dominates, question what the other choices really sell. Follow for more."
+  }
+ ]
+}
