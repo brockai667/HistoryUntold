@@ -1,0 +1,158 @@
+{
+ "id": "dollar-tree-price",
+ "case": "THE $1 STORE",
+ "title": "When the $1 price went up",
+ "caption": "Ever filled a basket because everything cost the same low price?\nOne simple price can stop you from comparing.",
+ "source": "Dollar Tree announcements (2019, 2021)",
+ "beats": [
+  {
+   "say": "Ever filled a basket because everything cost the same low price?",
+   "scene": "Hero",
+   "props": {
+    "art": "store",
+    "tag": {"text": "BE HONEST", "tone": "yellow"},
+    "title": "ALL ONE PRICE",
+    "sub": "SO WHY CHECK?"
+   }
+  },
+  {
+   "say": "Every shelf, the same price tag. You just grab.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "IN THE STORE",
+    "text": "SAME TAG ON EVERY SHELF"
+   }
+  },
+  {
+   "say": "For 35 years, Dollar Tree's standard price was $1.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "Standard price", "sub": "For 35 years", "price": "$1", "art": "store"}
+    ]
+   }
+  },
+  {
+   "say": "Then some stores added items at $3 and $5.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "Standard price", "sub": "For 35 years", "price": "$1", "art": "store"},
+     {"title": "Added items", "sub": "Some stores, 2019", "price": "$3 and $5", "art": "shopping-bag"}
+    ]
+   }
+  },
+  {
+   "say": "In 2021, the standard price went up to $1.25.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "point": [0, 2],
+    "cards": [
+     {"title": "Standard price", "sub": "For 35 years", "price": "$1", "art": "store"},
+     {"title": "Added items", "sub": "Some stores, 2019", "price": "$3 and $5", "art": "shopping-bag"},
+     {"title": "Since 2021", "sub": "Standard price", "price": "$1.25", "art": "tag"}
+    ]
+   }
+  },
+  {
+   "say": "That's a 25% increase. Still one simple price.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "Standard price", "sub": "For 35 years", "price": "$1", "art": "store"},
+     {"title": "Added items", "sub": "Some stores, 2019", "price": "$3 and $5", "art": "shopping-bag"},
+     {"title": "Since 2021", "sub": "Standard price", "price": "$1.25", "art": "tag",
+      "tags": [{"text": "25% INCREASE", "tone": "yellow"}]}
+    ]
+   }
+  },
+  {
+   "say": "What does one simple price do? It can stop you from comparing.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "Standard price", "sub": "For 35 years", "price": "$1", "art": "store",
+      "tags": [{"text": "NO COMPARING", "tone": "dark"}]},
+     {"title": "Added items", "sub": "Some stores, 2019", "price": "$3 and $5", "art": "shopping-bag"},
+     {"title": "Since 2021", "sub": "Standard price", "price": "$1.25", "art": "tag",
+      "tags": [{"text": "25% INCREASE", "tone": "dark"}]}
+    ]
+   }
+  },
+  {
+   "say": "At one price, every item feels like a deal.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "ONE PRICE",
+    "text": "EVERY ITEM FEELS LIKE A DEAL"
+   }
+  },
+  {
+   "say": "So you skip the real question: is this one worth it?",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "point": [0, 1],
+    "cards": [
+     {"title": "This item", "sub": "Same price", "price": "WORTH IT?", "art": "candy"},
+     {"title": "That item", "sub": "Same price", "price": "WORTH IT?", "art": "lamp"}
+    ]
+   }
+  },
+  {
+   "say": "That's called a single price point.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "ONE PRICE FOR EVERYTHING",
+    "text": "SINGLE PRICE POINT"
+   }
+  },
+  {
+   "say": "A shop sells every snack for $2. Easy.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Chips", "price": "$2", "art": "package"},
+     {"title": "Gum", "price": "$2", "art": "candy"}
+    ],
+    "after": [null, null],
+    "labels": ["IN THE SHOP", "ELSEWHERE"]
+   }
+  },
+  {
+   "say": "But the gum is $1 elsewhere. You never checked.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Chips", "price": "$2", "art": "package"},
+     {"title": "Gum", "price": "$2", "art": "candy"}
+    ],
+    "after": [
+     {"title": "Chips", "price": "$2", "art": "package"},
+     {"title": "Gum", "price": "$1", "art": "candy", "badge": {"text": "HALF PRICE", "tone": "green"}}
+    ],
+    "labels": ["IN THE SHOP", "ELSEWHERE"]
+   }
+  },
+  {
+   "say": "One price for all? Ask what each is worth.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "ONE PRICE FOR ALL?",
+    "text": "ASK WHAT EACH IS WORTH"
+   }
+  },
+  {
+   "say": "What's in your basket just because of the price?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}
