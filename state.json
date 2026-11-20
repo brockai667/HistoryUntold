@@ -1,5 +1,5 @@
 {
- "next_ep": 23,
+ "next_ep": 24,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
@@ -22,7 +22,8 @@
   "wine-price-scan",
   "which-black-friday",
   "wendys-dynamic-pricing",
-  "moviepass-unlimited"
+  "moviepass-unlimited",
+  "hotel-sites-scarcity"
  ],
  "episodes": {
   "1": {
@@ -357,7 +358,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-11-18T07:12:00+00:00"
+  },
+  "23": {
+   "id": "hotel-sites-scarcity",
+   "title": "The hotel line that makes you book fast",
+   "posted_at": "2026-11-20T02:26:25+00:00",
+   "release": "ep-023",
+   "author": "claude-bank",
+   "text": "Ever booked a hotel room fast because only one was left?\nIn 2019, 6 hotel booking sites agreed not to give a false impression of rooms left.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-023/023-hotel-sites-scarcity.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-11-20T07:16:00+00:00"
   }
  },
- "buffer_last_due": "2026-11-18T07:12:00+00:00"
+ "buffer_last_due": "2026-11-20T07:16:00+00:00"
 }

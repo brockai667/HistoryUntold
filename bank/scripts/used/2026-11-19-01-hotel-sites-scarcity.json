@@ -1,0 +1,169 @@
+{
+ "id": "hotel-sites-scarcity",
+ "case": "ONLY 1 LEFT",
+ "title": "The hotel line that makes you book fast",
+ "caption": "Ever booked a hotel room fast because only one was left?\nIn 2019, 6 hotel booking sites agreed not to give a false impression of rooms left.",
+ "source": "UK Competition and Markets Authority (2019)",
+ "beats": [
+  {
+   "say": "Ever booked a hotel room fast because only one was left?",
+   "scene": "Hero",
+   "props": {
+    "art": "hotel",
+    "tag": {"text": "BE HONEST", "tone": "yellow"},
+    "title": "ONLY 1 LEFT?",
+    "sub": "OR A SALES LINE?"
+   }
+  },
+  {
+   "say": "Only 1 room left. You stop looking and pay.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "ON THE BOOKING PAGE",
+    "text": "ONLY 1 ROOM LEFT",
+    "tags": [{"text": "STOP LOOKING. PAY.", "tone": "yellow"}]
+   }
+  },
+  {
+   "say": "In 2019, a UK regulator made 6 hotel booking sites change.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "6 booking sites", "sub": "UK regulator, 2019", "art": "hotel"}
+    ]
+   }
+  },
+  {
+   "say": "Among them: Booking.com, Expedia and Trivago.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "6 booking sites", "sub": "UK regulator, 2019", "art": "hotel",
+      "tags": [{"text": "BOOKING.COM", "tone": "dark"}, {"text": "EXPEDIA", "tone": "dark"}, {"text": "TRIVAGO", "tone": "dark"}]}
+    ]
+   }
+  },
+  {
+   "say": "They agreed: no false impression of how few rooms were left.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "6 booking sites", "sub": "UK regulator, 2019", "art": "hotel",
+      "tags": [{"text": "BOOKING.COM", "tone": "dark"}, {"text": "EXPEDIA", "tone": "dark"}, {"text": "TRIVAGO", "tone": "dark"}]},
+     {"title": "Rooms left", "sub": "No false impression", "art": "bed"}
+    ]
+   }
+  },
+  {
+   "say": "Or of how popular a hotel was.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "6 booking sites", "sub": "UK regulator, 2019", "art": "hotel",
+      "tags": [{"text": "BOOKING.COM", "tone": "dark"}, {"text": "EXPEDIA", "tone": "dark"}, {"text": "TRIVAGO", "tone": "dark"}]},
+     {"title": "Rooms left", "sub": "No false impression", "art": "bed",
+      "tags": [{"text": "HOW POPULAR TOO", "tone": "blue"}]}
+    ]
+   }
+  },
+  {
+   "say": "Plus all compulsory charges upfront, and only real discounts.",
+   "scene": "PriceList",
+   "props": {
+    "slots": 3,
+    "cards": [
+     {"title": "6 booking sites", "sub": "UK regulator, 2019", "art": "hotel",
+      "tags": [{"text": "BOOKING.COM", "tone": "dark"}, {"text": "EXPEDIA", "tone": "dark"}, {"text": "TRIVAGO", "tone": "dark"}]},
+     {"title": "Rooms left", "sub": "No false impression", "art": "bed",
+      "tags": [{"text": "HOW POPULAR TOO", "tone": "blue"}]},
+     {"title": "Charges upfront", "sub": "All compulsory charges", "art": "receipt",
+      "tags": [{"text": "REAL DISCOUNTS", "tone": "green"}]}
+    ]
+   }
+  },
+  {
+   "say": "Why does one small number matter? It makes you rush.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "WHY ONE SMALL NUMBER?",
+    "text": "IT MAKES YOU RUSH"
+   }
+  },
+  {
+   "say": "A room that might vanish feels worth more.",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "cards": [
+     {"title": "This room", "sub": "Only 1 left", "price": "BOOK NOW", "priceRed": true, "art": "bed"}
+    ]
+   }
+  },
+  {
+   "say": "So you skip the real question: is it cheaper elsewhere?",
+   "scene": "PriceList",
+   "mode": "blueprint",
+   "props": {
+    "slots": 2,
+    "point": [0, 1],
+    "cards": [
+     {"title": "This room", "sub": "Only 1 left", "price": "BOOK NOW", "priceRed": true, "art": "bed"},
+     {"title": "Other sites", "sub": "Never checked", "price": "CHEAPER?", "art": "laptop"}
+    ]
+   }
+  },
+  {
+   "say": "When the low number isn't true, that's fake scarcity.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "LOW NUMBER, NOT TRUE?",
+    "text": "FAKE SCARCITY"
+   }
+  },
+  {
+   "say": "A hostel bed is $18. Another hostel, $15.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Hostel bed", "price": "$18", "art": "bed"},
+     {"title": "Other hostel", "price": "$15", "art": "bed"}
+    ],
+    "after": [null, null],
+    "labels": ["BEFORE", "AFTER"]
+   }
+  },
+  {
+   "say": "Then the first says only 1 bed left. You book fast.",
+   "scene": "Compare",
+   "props": {
+    "before": [
+     {"title": "Hostel bed", "price": "$18", "art": "bed"},
+     {"title": "Other hostel", "price": "$15", "art": "bed"}
+    ],
+    "after": [
+     {"title": "Hostel bed", "price": "$18", "art": "bed", "badge": {"text": "ONLY 1 LEFT", "tone": "yellow"}},
+     {"title": "Other hostel", "price": "$15", "art": "bed"}
+    ],
+    "labels": ["BEFORE", "AFTER"]
+   }
+  },
+  {
+   "say": "Only 1 left? Check one other site first.",
+   "scene": "Statement",
+   "props": {
+    "kicker": "ONLY 1 LEFT?",
+    "text": "CHECK ONE OTHER SITE FIRST"
+   }
+  },
+  {
+   "say": "Has only 1 left ever rushed you?",
+   "scene": "Outro",
+   "props": {}
+  }
+ ]
+}
