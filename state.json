@@ -1,5 +1,5 @@
 {
- "next_ep": 24,
+ "next_ep": 25,
  "used": [
   "economist-decoy",
   "apple-watch-edition",
@@ -23,7 +23,8 @@
   "which-black-friday",
   "wendys-dynamic-pricing",
   "moviepass-unlimited",
-  "hotel-sites-scarcity"
+  "hotel-sites-scarcity",
+  "dollar-tree-price"
  ],
  "episodes": {
   "1": {
@@ -373,7 +374,22 @@
    ],
    "buffer_tries": 1,
    "due": "2026-11-20T07:16:00+00:00"
+  },
+  "24": {
+   "id": "dollar-tree-price",
+   "title": "When the $1 price went up",
+   "posted_at": "2026-11-21T02:26:54+00:00",
+   "release": "ep-024",
+   "author": "claude-bank",
+   "text": "Ever filled a basket because everything cost the same low price?\nOne simple price can stop you from comparing.\n\n#psychology #pricing #marketing #money #didyouknow\n\nMusic: \"Cut and Run\" - Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0",
+   "video": "https://github.com/brockai667/HistoryUntold/releases/download/ep-024/024-dollar-tree-price.mp4",
+   "buffer": [
+    "instagram",
+    "youtube"
+   ],
+   "buffer_tries": 1,
+   "due": "2026-11-21T07:24:00+00:00"
   }
  },
- "buffer_last_due": "2026-11-20T07:16:00+00:00"
+ "buffer_last_due": "2026-11-21T07:24:00+00:00"
 }
