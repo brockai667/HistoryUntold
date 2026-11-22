@@ -1,0 +1,68 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
+ ],
+ "plan": {
+  "paradox": "A razor that makes you pay forever, yet you only buy it once",
+  "odd_fact": "First year: 51 razors, 168 blades",
+  "twist": "It locks you into buying blades forever",
+  "cause": "Each razor creates a blade-buying customer, and blade sales far exceed razor sales",
+  "everyday": "Gym sells a $200 bike, a $15 monthly bike-share pass, and a $30 premium pass; the monthly pass feels cheap after the bike purchase",
+  "rule": "When a purchase includes consumables, expect ongoing cost"
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "A razor that makes you pay forever. And you only buy it once."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Just the razor, no blades."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Razor with a starter blade pack."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Razor, starter pack, and a blade subscription."
+  },
+  {
+   "scene": "PriceList",
+   "say": "First year: 51 razors, 168 blades. Sounds odd."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it locks you into buying blades forever."
+  },
+  {
+   "scene": "Statement",
+   "say": "Every razor creates a blade-buying customer."
+  },
+  {
+   "scene": "Anchor",
+   "say": "In 1904 sales hit 90,884 razors and 123,648 blades."
+  },
+  {
+   "scene": "Views",
+   "say": "Blade sales dwarf razor revenue."
+  },
+  {
+   "scene": "Compare",
+   "say": "You see it everywhere."
+  },
+  {
+   "scene": "Compare",
+   "say": "A gym sells a $200 bike and $15 monthly bike-share passes."
+  },
+  {
+   "scene": "Compare",
+   "say": "The pass feels cheap after the bike is bought."
+  },
+  {
+   "scene": "Outro",
+   "say": "When a purchase includes consumables, expect ongoing cost. Follow for more."
+  }
+ ]
+}

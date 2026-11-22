@@ -1,0 +1,69 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beat 2 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "spoken words total 163, need 85-150 (aim for 115-135; pauses add about 15%)"
+ ],
+ "plan": {
+  "paradox": "A penny gets you a library. And the library costs you later.",
+  "odd_fact": "Members must buy a minimum number of albums at full price. Sounds generous.",
+  "twist": "But it does a job: the penny locks you into automatic shipments.",
+  "cause": "The minimum-purchase clause forces a full-price album to ship unless you opt out, turning the cheap entry into a recurring bill. Revenue hit $1.4 billion in 1996, then $17 million by 2014.",
+  "everyday": "Gym: free trial week, then required $30 class pack; café: free pastry, then $15 coffee bundle; streaming app: free month, then $12 premium plan. The required purchase makes the paid option feel like the smart continuation.",
+  "rule": "Watch for hidden minimum commitments. Follow for more."
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "A penny gets you a library. And the library costs you later."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Sign up for 12 records for a penny, no catalog listed."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Or choose the regular plan, pay per album at club price."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Or pick the premium bundle, extra titles for a higher fee."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Members must buy a minimum number of albums at full price. Sounds generous."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it does a job: the penny locks you into automatic shipments."
+  },
+  {
+   "scene": "Statement",
+   "say": "If you don't say no by the deadline, the next record ships with a full-price bill."
+  },
+  {
+   "scene": "Anchor",
+   "say": "That clause turned a one-cent hook into a $1.4 billion peak in 1996."
+  },
+  {
+   "scene": "Views",
+   "say": "When sales fell, the same clause left only $17 million by 2014, leading to bankruptcy in 2015."
+  },
+  {
+   "scene": "Compare",
+   "say": "Gym: free trial week, then a $30 class pack you must buy."
+  },
+  {
+   "scene": "Compare",
+   "say": "Café: free pastry, then a $15 coffee bundle you're expected to take."
+  },
+  {
+   "scene": "Compare",
+   "say": "Streaming app: free month, then a $12 premium plan feels like the logical next step."
+  },
+  {
+   "scene": "Outro",
+   "say": "Watch for hidden minimum commitments. Follow for more."
+  }
+ ]
+}

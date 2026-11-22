@@ -1,0 +1,70 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beat 6 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "spoken words total 155, need 85-150 (aim for 115-135; pauses add about 15%)",
+  "beat 5 PriceList: repeats the phrase \"buy a razor and a\" from beat 2"
+ ],
+ "plan": {
+  "paradox": "A safety razor sells itself. And you never buy the razor again.",
+  "odd_fact": "First year: 51 razors, 168 blades sold. Looks lopsided.",
+  "twist": "But it does a job  -  the razor is a loss leader",
+  "cause": "The razor is priced low; the blade option drives massive repeat sales (123,648 blades in year two)",
+  "everyday": "Barber: $30 handle only, $45 handle + blade pack, $70 premium kit  -  the pack feels like the smart buy. Café: $8 reusable cup, $12 cup + refill plan, $20 premium set  -  the refill bundle wins because it includes the consumable. Both push the bundled option as the sensible choice.",
+  "rule": "If the first thing is cheap, the real cost is hidden later. Follow for more."
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "A safety razor sells itself. And you never buy the razor again."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Buy a razor and a set of blades together."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Buy only the razor, no blades included."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Buy a razor plus a subscription of blades."
+  },
+  {
+   "scene": "PriceList",
+   "say": "Buy a razor and a single spare blade."
+  },
+  {
+   "scene": "PriceList",
+   "say": "First year: 51 razors, 168 blades sold. Looks lopsided."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it does a job - the razor is a loss leader."
+  },
+  {
+   "scene": "Statement",
+   "say": "The razor price is tiny; the blade sales skyrocket to 123,648 in year two."
+  },
+  {
+   "scene": "Anchor",
+   "say": "Each razor buyer becomes a blade customer forever."
+  },
+  {
+   "scene": "Views",
+   "say": "So the profit lives in the blade column, not the handle."
+  },
+  {
+   "scene": "Compare",
+   "say": "Barber: $30 handle only, $45 handle + blade pack, $70 premium kit - the pack feels like the smart buy."
+  },
+  {
+   "scene": "Compare",
+   "say": "Café: $8 reusable cup, $12 cup + refill plan, $20 premium set - the refill bundle wins because it includes the consumable."
+  },
+  {
+   "scene": "Outro",
+   "say": "If the first thing is cheap, the real cost is hidden later. Follow for more."
+  }
+ ]
+}

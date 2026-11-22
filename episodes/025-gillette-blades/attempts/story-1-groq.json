@@ -1,0 +1,68 @@
+{
+ "model": "groq:openai/gpt-oss-120b",
+ "errors": [
+  "beat 6 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
+ ],
+ "plan": {
+  "paradox": "A razor sells itself. And you never buy the blade.",
+  "odd_fact": "In 1903 Gillette sold 51 razors but 168 blades  -  far more blades than handles.",
+  "twist": "But it does a job  -  it turns every razor into a blade subscription.",
+  "cause": "The starter kit forces the first purchase, then the razor-only option creates a lifelong blade demand; 90,884 razors sold in 1904 came with 123,648 blades, proving the model.",
+  "everyday": "Barber shop: Basic shave $5, no razor; Premium shave $20, razor + a few blades; Unlimited plan $25, razor once, blades refilled monthly  -  the unlimited plan feels smart because you already own the razor.",
+  "rule": "If the first buy is a tool, expect recurring costs. Follow for more."
+ },
+ "beats": [
+  {
+   "scene": "Hero",
+   "say": "A razor sells itself. And you never buy the blade."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A handle-only bundle, no blades."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A starter kit, a razor plus a few blades."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A premium set, razor, many blades, and a case."
+  },
+  {
+   "scene": "PriceList",
+   "say": "A subscription, razor once, blades delivered forever."
+  },
+  {
+   "scene": "PriceList",
+   "say": "In 1903 Gillette sold 51 razors but 168 blades. Looks wasteful."
+  },
+  {
+   "scene": "Statement",
+   "say": "But it does a job - it forces you to keep buying."
+  },
+  {
+   "scene": "Anchor",
+   "say": "Each razor sold creates a lifelong blade customer."
+  },
+  {
+   "scene": "Views",
+   "say": "In 1904 the company sold 90,884 razors and 123,648 blades, a blade per razor and then some."
+  },
+  {
+   "scene": "Compare",
+   "say": "You see it everywhere. A barber offers a basic shave for $5, no razor."
+  },
+  {
+   "scene": "Compare",
+   "say": "A premium shave for $20 includes a razor and a few blades."
+  },
+  {
+   "scene": "Compare",
+   "say": "An unlimited plan for $25 gives the razor once and refills blades forever - it feels cheap because the razor is already yours."
+  },
+  {
+   "scene": "Outro",
+   "say": "If the first buy is a tool, expect recurring costs. Follow for more."
+  }
+ ]
+}
