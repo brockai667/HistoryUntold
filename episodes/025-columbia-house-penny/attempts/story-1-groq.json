@@ -1,72 +1,62 @@
 {
  "model": "groq:openai/gpt-oss-120b",
- "errors": [
-  "number 30 is spoken in 3 beats (11, 12, 13) - max 2, the card already shows it"
- ],
+ "errors": [],
  "plan": {
-  "paradox": "A penny gets you a whole record collection. And the first record costs nothing.",
-  "odd_fact": "If you never say no, a full-price album arrives. Sounds generous.",
-  "twist": "But it does a job: it forces an automatic purchase.",
-  "cause": "The penny option is the hook; the silent auto-ship is the trap, turning a free offer into full-price sales that drove revenue from $1.4 billion in 1996 to $17 million by 2014.",
-  "everyday": "Gym: $1 trial membership, $30 standard monthly, auto-charge $30 if not cancelled  -  the trial feels cheap, pushing the $30 plan.",
-  "rule": "A tiny upfront fee can hide a big ongoing bill. Follow for more."
+  "paradox": "A penny gets a whole record set. The bill shows up later.",
+  "odd_fact": "You must say no by a deadline. Sounds generous.",
+  "twist": "But it does a job: a negative-option trap.",
+  "cause": "Missing the deadline forces a full-price album, turning the penny into loss.",
+  "everyday": "Gym: $1 sign-up, then $50 monthly auto-renew unless cancelled. Coffee app: $0.99 free drink trial, then $4.99 each. The auto-renew option feels like the sensible choice.",
+  "rule": "Check the deadline; a tiny upfront cost can hide a big bill. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A penny gets you a whole record collection. And the first record costs nothing."
+   "say": "A penny gets a whole record set. The bill shows up later."
   },
   {
    "scene": "PriceList",
-   "say": "Sign up, get twelve records for a penny."
+   "say": "Join, twelve records for a cent."
   },
   {
    "scene": "PriceList",
-   "say": "Pay the regular club price for each future album."
+   "say": "Buy each album at regular club price."
   },
   {
    "scene": "PriceList",
-   "say": "Skip the next shipment and avoid a bill."
+   "say": "Miss the deadline, next album ships with full price."
   },
   {
    "scene": "PriceList",
-   "say": "If you never say no, a full-price album arrives. Sounds generous."
+   "say": "You must say no by a deadline. Sounds generous."
   },
   {
    "scene": "PriceList",
-   "say": "But it does a job: it forces an automatic purchase."
+   "say": "But it does a job: a negative-option trap."
   },
   {
    "scene": "Statement",
-   "say": "The penny option is the hook; the silent auto-ship is the trap."
+   "say": "Missing the deadline forces a full-price album, turning the penny into loss."
   },
   {
    "scene": "Anchor",
-   "say": "Columbia House peaked at $1.4 billion in 1996, then fell to $17 million by 2014."
+   "say": "Revenue peaked $1.4 billion in 1996, fell to $17 million."
   },
   {
    "scene": "Views",
-   "say": "When members ignored the deadline, the company collected full-price sales."
+   "say": "Parent declared bankruptcy in 2015, the trap succeeded."
   },
   {
    "scene": "Compare",
-   "say": "A gym offers a $1 trial membership."
+   "say": "Gym: $1 sign-up, then $50 monthly auto-renew unless cancelled."
   },
   {
    "scene": "Compare",
-   "say": "Standard membership costs $30 per month."
-  },
-  {
-   "scene": "Compare",
-   "say": "If you don't cancel, you're billed $30 each month - the trial disappears."
-  },
-  {
-   "scene": "Compare",
-   "say": "The $1 trial feels cheap, so you roll into the $30 plan."
+   "say": "Coffee app: $0.99 free drink trial, then $4.99 each."
   },
   {
    "scene": "Outro",
-   "say": "A tiny upfront fee can hide a big ongoing bill. Follow for more."
+   "say": "Check the deadline; a tiny upfront cost can hide a big bill. Follow for more."
   }
  ]
 }
