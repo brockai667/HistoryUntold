@@ -1,70 +1,69 @@
 {
  "model": "groq:openai/gpt-oss-120b",
- "errors": [],
+ "errors": [
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "spoken words total 167, need 85-150 (aim for 115-135; pauses add about 15%)"
+ ],
  "plan": {
-  "paradox": "A razor sells itself. And you never buy the handle.",
-  "odd_fact": "First year sales look absurdly generous.",
-  "twist": "It locks you into buying blades forever",
-  "cause": "The razor-only option creates the initial purchase; the blade packs generate recurring sales",
-  "everyday": "Coffee shop: $5 cup, $2 refill pack, $10 premium brew  -  the refill pack feels cheap and forces repeat buys. Gym: $30 membership, $15 starter kit, $5 class pass  -  the starter kit appears affordable, so you keep paying for classes. The cheap entry wins because it promises future spend.",
-  "rule": "Watch for a cheap entry that forces future purchases. Follow for more."
+  "paradox": "A razor sells itself. And you never buy the razor again.",
+  "odd_fact": "First year: 51 razors, 168 blades. Looks generous.",
+  "twist": "It forces endless blade purchases",
+  "cause": "The razor-plus-blade pack makes the handle a one-time sale while the blade pack creates a recurring purchase stream, as shown by 90,884 razors and 123,648 blades in year two",
+  "everyday": "Coffee shop: $5 mug alone, $2 pod pack, $5 mug + pod bundle; Espresso bar: $30 machine alone, $1 per-shot capsule subscription, $30 machine + starter capsule pack  -  the bundle feels like a smart deal because the consumable drives ongoing spend",
+  "rule": "When a product includes a cheap consumable, the real profit is the consumable. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A razor sells itself. And you never buy the handle."
+   "say": "A razor sells itself. And you never buy the razor again."
   },
   {
    "scene": "PriceList",
-   "say": "Buy a razor plus a handful of blades."
+   "say": "Buy the handle alone, no blades included."
   },
   {
    "scene": "PriceList",
-   "say": "Buy a razor with a tiny starter pack."
+   "say": "Buy a razor plus a tiny pack of blades."
   },
   {
    "scene": "PriceList",
-   "say": "Buy just the razor, no blades included."
+   "say": "Buy the razor with a full-year blade supply."
   },
   {
    "scene": "PriceList",
-   "say": "The first-year bundle looks absurdly generous. Looks odd."
+   "say": "First year: 51 razors, 168 blades. Looks generous."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it does a job: it forces endless blade purchases."
   },
   {
    "scene": "Statement",
-   "say": "In 1903 Gillette sold 51 razors and 168 blades."
-  },
-  {
-   "scene": "Statement",
-   "say": "In 1904 the tally jumped to 90,884 razors and 123,648 blades."
-  },
-  {
-   "scene": "Statement",
-   "say": "Every razor sold creates a blade-buyer."
+   "say": "In 1904 the razor count jumped to 90,884 while blades hit 123,648."
   },
   {
    "scene": "Anchor",
-   "say": "That's roughly three blades for each razor."
+   "say": "Each razor became a subscription to blades, so the real profit lived in the blades."
   },
   {
    "scene": "Views",
-   "say": "The razor is a one-time cost; the blades become the endless revenue stream."
+   "say": "Customers bought the handle once, then kept paying for blades forever."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere - a café offers a $5 cup, a $2 refill pack, and a $10 premium brew."
+   "say": "You see it everywhere: a coffee shop sells a $5 mug alone, a $2 pod pack, and a $5 mug + pod bundle."
   },
   {
    "scene": "Compare",
-   "say": "A gym lists a $30 membership, a $15 starter kit, and a $5 class pass."
+   "say": "A café also offers a $30 espresso machine alone, a $1-per-shot capsule subscription, and a $30 machine + starter capsule pack."
   },
   {
    "scene": "Compare",
-   "say": "The cheap starter feels like a deal, so you keep paying for refills or classes."
+   "say": "The bundled machine looks pricey, but the cheap mug with pods feels like the smart choice."
   },
   {
    "scene": "Outro",
-   "say": "Watch for a cheap entry that forces future purchases. Follow for more."
+   "say": "When a product includes a cheap consumable, the real profit is the consumable. Follow for more."
   }
  ]
 }

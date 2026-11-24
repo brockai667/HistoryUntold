@@ -1,62 +1,69 @@
 {
  "model": "groq:openai/gpt-oss-120b",
- "errors": [],
+ "errors": [
+  "beat 2 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "spoken words total 180, need 85-150 (aim for 115-135; pauses add about 15%)"
+ ],
  "plan": {
-  "paradox": "A penny gets a whole record set. The bill shows up later.",
-  "odd_fact": "You must say no by a deadline. Sounds generous.",
-  "twist": "But it does a job: a negative-option trap.",
-  "cause": "Missing the deadline forces a full-price album, turning the penny into loss.",
-  "everyday": "Gym: $1 sign-up, then $50 monthly auto-renew unless cancelled. Coffee app: $0.99 free drink trial, then $4.99 each. The auto-renew option feels like the sensible choice.",
-  "rule": "Check the deadline; a tiny upfront cost can hide a big bill. Follow for more."
+  "paradox": "A penny gets you a whole record club.",
+  "odd_fact": "If you stay silent, the next album ships with a full-price bill. Sounds generous.",
+  "twist": "But it forces a paid shipment, the negative-option trick.",
+  "cause": "The penny sign-up locks a minimum purchase; missing the opt-out deadline automatically adds a full-price album, fueling $1.4 billion revenue in 1996.",
+  "everyday": "Bakery offers: free cupcake with any pastry, but you must buy two pastries at regular price; miss the checkout deadline and a $5 cake is added. Gym: $1 day-pass, then you must attend three classes at full price; skip the sign-out and a $30 membership bill arrives. Streaming app: $0.99 trial month, then you're enrolled in a $12 monthly plan unless you cancel before month's end. In each case the \"free\" lure pushes the costly commitment, making the paid option feel like the smart choice.",
+  "rule": "Watch for a tiny upfront cost that hides an automatic charge. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A penny gets a whole record set. The bill shows up later."
+   "say": "A penny gets you a whole record club."
   },
   {
    "scene": "PriceList",
-   "say": "Join, twelve records for a cent."
+   "say": "Sign up and you receive 12 records for a penny."
   },
   {
    "scene": "PriceList",
-   "say": "Buy each album at regular club price."
+   "say": "Or you can join the regular plan with no upfront discount."
   },
   {
    "scene": "PriceList",
-   "say": "Miss the deadline, next album ships with full price."
+   "say": "A third tier promises a free bonus album after the first shipment."
   },
   {
    "scene": "PriceList",
-   "say": "You must say no by a deadline. Sounds generous."
+   "say": "If you don't say no by the deadline, the next album ships with a full-price bill. Sounds generous."
   },
   {
    "scene": "PriceList",
-   "say": "But it does a job: a negative-option trap."
+   "say": "But it forces a paid shipment, the negative-option trick."
   },
   {
    "scene": "Statement",
-   "say": "Missing the deadline forces a full-price album, turning the penny into loss."
+   "say": "The penny sign-up obligates a minimum purchase; missing the opt-out automatically adds a full-price album."
   },
   {
    "scene": "Anchor",
-   "say": "Revenue peaked $1.4 billion in 1996, fell to $17 million."
+   "say": "That automatic album generated $1.4 billion in 1996, then collapsed to $17 million by 2014."
   },
   {
    "scene": "Views",
-   "say": "Parent declared bankruptcy in 2015, the trap succeeded."
+   "say": "When the deadline passes, the club silently turns a free promise into a bill."
   },
   {
    "scene": "Compare",
-   "say": "Gym: $1 sign-up, then $50 monthly auto-renew unless cancelled."
+   "say": "You see it everywhere: a bakery gives a free cupcake but adds a $5 cake if you don't cancel."
   },
   {
    "scene": "Compare",
-   "say": "Coffee app: $0.99 free drink trial, then $4.99 each."
+   "say": "A gym sells a $1 day pass, then enrolls you in a $30 membership unless you opt out."
+  },
+  {
+   "scene": "Compare",
+   "say": "A streaming app offers a $0.99 trial, then locks you into $12 a month unless you cancel."
   },
   {
    "scene": "Outro",
-   "say": "Check the deadline; a tiny upfront cost can hide a big bill. Follow for more."
+   "say": "Watch for a tiny upfront cost that hides an automatic charge. Follow for more."
   }
  ]
 }

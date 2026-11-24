@@ -1,64 +1,68 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
+  "beat 6 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
  ],
  "plan": {
-  "paradox": "A razor that never stops shaving. And you pay forever.",
-  "odd_fact": "First year you get 51 razors and 168 blades. Sounds generous.",
-  "twist": "But it forces repeat purchases",
-  "cause": "Each razor sold creates a customer who must keep buying blades, and the subscription bundle locks them in",
-  "everyday": "Coffee shop offers grinder alone, grinder with beans, and grinder-beans-subscription; the subscription priced close to the combo feels the smart choice",
-  "rule": "If a product bundles consumables, expect ongoing costs"
+  "paradox": "A razor sells itself. The handle never leaves the store.",
+  "odd_fact": "First year: 51 handles, 168 blades  -  absurd.",
+  "twist": "But it does a job  -  the razor-and-blade trap.",
+  "cause": "The cheap handle forces you into the endless blade subscription, as shown by 90,884 handles and 123,648 blades sold in year two.",
+  "everyday": "Coffee shop: $15 mug, $30 mug with lid, $45 mug-plus-lid subscription. Barber: $5 trim, $12 trim with a razor, $20 razor-plus-trim package. The subscription feels smart because the extra cost covers something you'll need repeatedly.",
+  "rule": "Watch for a cheap entry that hides a recurring cost. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A razor that never stops shaving. And you pay forever."
+   "say": "A razor sells itself. The handle never leaves the store."
   },
   {
    "scene": "PriceList",
-   "say": "Option A: a single razor, no blades attached."
+   "say": "A cheap handle, no blades."
   },
   {
    "scene": "PriceList",
-   "say": "Option B: razor plus a starter pack of blades."
+   "say": "A handle with a few blades, still cheap."
   },
   {
    "scene": "PriceList",
-   "say": "Option C: razor, blades, and a subscription service."
+   "say": "A premium razor with a built-in blade dispenser, pricey."
   },
   {
    "scene": "PriceList",
-   "say": "First year you get 51 razors and 168 blades. Sounds generous."
+   "say": "A handle with endless blade refills, the one you actually buy."
   },
   {
    "scene": "PriceList",
-   "say": "But it forces repeat purchases."
+   "say": "First year: 51 handles, 168 blades - absurd."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But it does a job - the razor-and-blade trap."
   },
   {
    "scene": "Statement",
-   "say": "Each razor sold creates a customer who must keep buying blades."
+   "say": "Every handle forces you into the blade plan."
   },
   {
    "scene": "Anchor",
-   "say": "In year two sales jump to 90,884 razors and 123,648 blades, proving the model works."
+   "say": "In year two they sold 90,884 handles and 123,648 blades."
   },
   {
    "scene": "Views",
-   "say": "The subscription bundle is the lure; it locks you into the blade market."
+   "say": "One purchase locks you into buying blades forever."
   },
   {
    "scene": "Compare",
-   "say": "A coffee shop sells a grinder alone, a grinder with beans, and a grinder-beans-subscription."
+   "say": "Coffee shop: $15 mug, $30 mug with lid, $45 mug-plus-lid subscription."
   },
   {
    "scene": "Compare",
-   "say": "The subscription, priced close to the grinder-beans combo, feels like the smart choice."
+   "say": "Barber: $5 trim, $12 trim with a razor, $20 razor-plus-trim package."
   },
   {
    "scene": "Outro",
-   "say": "If a product bundles consumables, expect ongoing costs. Follow for more."
+   "say": "Watch for a cheap entry that hides a recurring cost. Follow for more."
   }
  ]
 }
