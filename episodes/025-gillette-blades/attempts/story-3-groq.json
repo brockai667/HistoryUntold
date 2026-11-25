@@ -1,69 +1,64 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
-  "spoken words total 167, need 85-150 (aim for 115-135; pauses add about 15%)"
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
  ],
  "plan": {
-  "paradox": "A razor sells itself. And you never buy the razor again.",
-  "odd_fact": "First year: 51 razors, 168 blades. Looks generous.",
-  "twist": "It forces endless blade purchases",
-  "cause": "The razor-plus-blade pack makes the handle a one-time sale while the blade pack creates a recurring purchase stream, as shown by 90,884 razors and 123,648 blades in year two",
-  "everyday": "Coffee shop: $5 mug alone, $2 pod pack, $5 mug + pod bundle; Espresso bar: $30 machine alone, $1 per-shot capsule subscription, $30 machine + starter capsule pack  -  the bundle feels like a smart deal because the consumable drives ongoing spend",
-  "rule": "When a product includes a cheap consumable, the real profit is the consumable. Follow for more."
+  "paradox": "A razor sells itself. And blades never stop coming.",
+  "odd_fact": "1904: ninety-thousand razors, one-hundred-twenty-three thousand blades. Looks generous.",
+  "twist": "It locks you into buying blades forever.",
+  "cause": "The subscription bundle forces repeat purchases, as shown by 123,648 blades in year two.",
+  "everyday": "Coffee shop: $199 machine, $19 pod refill each month. Gym: $799 treadmill, $99 yearly belt replacement. The refill feels required, so you choose it.",
+  "rule": "When cheap gear needs endless add-ons, the add-on is the real sale. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A razor sells itself. And you never buy the razor again."
+   "say": "A razor sells itself. And blades never stop coming."
   },
   {
    "scene": "PriceList",
-   "say": "Buy the handle alone, no blades included."
+   "say": "Buy the razor alone."
   },
   {
    "scene": "PriceList",
-   "say": "Buy a razor plus a tiny pack of blades."
+   "say": "Buy razor with a few starter blades."
   },
   {
    "scene": "PriceList",
-   "say": "Buy the razor with a full-year blade supply."
+   "say": "Buy razor plus a subscription of endless blades."
   },
   {
    "scene": "PriceList",
-   "say": "First year: 51 razors, 168 blades. Looks generous."
+   "say": "1904: ninety-thousand razors, one-hundred-twenty-three thousand blades. Looks generous."
   },
   {
    "scene": "PriceList",
-   "say": "But it does a job: it forces endless blade purchases."
+   "say": "But it does a job - locking you into blade purchases."
   },
   {
    "scene": "Statement",
-   "say": "In 1904 the razor count jumped to 90,884 while blades hit 123,648."
+   "say": "The subscription bundle turns every buyer into a repeat customer."
   },
   {
    "scene": "Anchor",
-   "say": "Each razor became a subscription to blades, so the real profit lived in the blades."
+   "say": "123,648 blades sold in year two prove the repeat demand."
   },
   {
    "scene": "Views",
-   "say": "Customers bought the handle once, then kept paying for blades forever."
+   "say": "The handle is cheap; the profit hides in blade sales."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere: a coffee shop sells a $5 mug alone, a $2 pod pack, and a $5 mug + pod bundle."
+   "say": "Coffee shop: $199 machine, $19 pod refill each month."
   },
   {
    "scene": "Compare",
-   "say": "A café also offers a $30 espresso machine alone, a $1-per-shot capsule subscription, and a $30 machine + starter capsule pack."
-  },
-  {
-   "scene": "Compare",
-   "say": "The bundled machine looks pricey, but the cheap mug with pods feels like the smart choice."
+   "say": "Gym: $799 treadmill, $99 yearly belt replacement."
   },
   {
    "scene": "Outro",
-   "say": "When a product includes a cheap consumable, the real profit is the consumable. Follow for more."
+   "say": "When cheap gear needs endless add-ons, the add-on is the real sale. Follow for more."
   }
  ]
 }

@@ -1,68 +1,62 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "beat 6 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
+  "11 beats, need 12-15",
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "beat 7 Statement: say has 26 words (need 3-20)"
  ],
  "plan": {
-  "paradox": "A razor sells itself. The handle never leaves the store.",
-  "odd_fact": "First year: 51 handles, 168 blades  -  absurd.",
-  "twist": "But it does a job  -  the razor-and-blade trap.",
-  "cause": "The cheap handle forces you into the endless blade subscription, as shown by 90,884 handles and 123,648 blades sold in year two.",
-  "everyday": "Coffee shop: $15 mug, $30 mug with lid, $45 mug-plus-lid subscription. Barber: $5 trim, $12 trim with a razor, $20 razor-plus-trim package. The subscription feels smart because the extra cost covers something you'll need repeatedly.",
-  "rule": "Watch for a cheap entry that hides a recurring cost. Follow for more."
+  "paradox": "A razor sells itself. And you never buy it.",
+  "odd_fact": "In 1904 they shipped 90,884 razors but only 123,648 blades. Sounds generous.",
+  "twist": "It forces you to keep buying blades forever",
+  "cause": "Each razor sold creates a blade-buying customer; the razor-only option generates repeat purchases, as shown by 51 razors vs 168 blades then 90,884 razors vs 123,648 blades",
+  "everyday": "coffee kiosk  -  machine only, machine + pod pack, machine + subscription; gym  -  bike only, bike + class pass, bike + monthly lock-in fee; subscription feels like only way to use, so you accept higher recurring cost",
+  "rule": "Watch for a cheap entry that forces future purchases. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A razor sells itself. The handle never leaves the store."
+   "say": "A razor sells itself. And you never buy it."
   },
   {
    "scene": "PriceList",
-   "say": "A cheap handle, no blades."
+   "say": "Option one: a sleek handle, no blades attached."
   },
   {
    "scene": "PriceList",
-   "say": "A handle with a few blades, still cheap."
+   "say": "Option two: handle plus a starter pack of blades."
   },
   {
    "scene": "PriceList",
-   "say": "A premium razor with a built-in blade dispenser, pricey."
+   "say": "Option three: the whole set, ready to shave."
   },
   {
    "scene": "PriceList",
-   "say": "A handle with endless blade refills, the one you actually buy."
+   "say": "In 1904 they shipped 90,884 razors but only 123,648 blades. Sounds generous."
   },
   {
    "scene": "PriceList",
-   "say": "First year: 51 handles, 168 blades - absurd."
-  },
-  {
-   "scene": "PriceList",
-   "say": "But it does a job - the razor-and-blade trap."
+   "say": "But it does a job: it locks you into buying blades forever."
   },
   {
    "scene": "Statement",
-   "say": "Every handle forces you into the blade plan."
-  },
-  {
-   "scene": "Anchor",
-   "say": "In year two they sold 90,884 handles and 123,648 blades."
-  },
-  {
-   "scene": "Views",
-   "say": "One purchase locks you into buying blades forever."
+   "say": "In year one they sold 51 razors and 168 blades - three blades each; the next year 90,884 razors with 123,648 blades, enough to keep selling."
   },
   {
    "scene": "Compare",
-   "say": "Coffee shop: $15 mug, $30 mug with lid, $45 mug-plus-lid subscription."
+   "say": "You see it everywhere: a coffee kiosk sells a machine, then a pod subscription."
   },
   {
    "scene": "Compare",
-   "say": "Barber: $5 trim, $12 trim with a razor, $20 razor-plus-trim package."
+   "say": "It also appears at a gym: you buy a bike, then a monthly fee for lock-in classes."
+  },
+  {
+   "scene": "Compare",
+   "say": "Because the subscription feels like the only way to use the bike, you accept the higher recurring cost."
   },
   {
    "scene": "Outro",
-   "say": "Watch for a cheap entry that hides a recurring cost. Follow for more."
+   "say": "Rule: watch for a cheap entry that forces future purchases. Follow for more."
   }
  ]
 }

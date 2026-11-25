@@ -1,24 +1,25 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
+  "11 beats, need 12-15",
   "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
  ],
  "plan": {
-  "paradox": "A penny gets you a record. The bill arrives later.",
-  "odd_fact": "Revenue hit $1.4 billion in 1996, then $17 million by 2014. Sounds impossible.",
-  "twist": "But it does a job: a negative-option trap.",
-  "cause": "The required-purchase clause forces a future bill, driving massive revenue then collapse.",
-  "everyday": "Gym: $1 trial membership, auto-renews at $49 month; the cheap lure makes the $49 plan feel reasonable.",
-  "rule": "Spot hidden commitments behind tiny offers. Follow for more."
+  "paradox": "A penny gets you a whole library. And the bill arrives later.",
+  "odd_fact": "Revenue hit $1.4 billion in 1996, then $17 million by 2014. Looks absurd.",
+  "twist": "But it does a job: the penny is a trap.",
+  "cause": "The hidden clause forces a later purchase, turning a penny into ongoing revenue; that clause kept shipments flowing until bankruptcy in 2015.",
+  "everyday": "Gym offers free month, then auto-renews at $49; the cheap entry feels harmless, so the paid plan looks like a smart upgrade.",
+  "rule": "Watch the fine print before the penny. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A penny gets you a record. The bill arrives later."
+   "say": "A penny gets you a whole library. And the bill arrives later."
   },
   {
    "scene": "PriceList",
-   "say": "Sign up, get twelve albums for a penny."
+   "say": "Sign up, get twelve records for a penny."
   },
   {
    "scene": "PriceList",
@@ -26,39 +27,35 @@
   },
   {
    "scene": "PriceList",
-   "say": "Ignore the deadline, and the next album ships with a full-price invoice."
+   "say": "If you stay silent, the next record ships with a full-price invoice."
   },
   {
    "scene": "PriceList",
-   "say": "Revenue hit $1.4 billion in 1996, then $17 million by 2014. Sounds impossible."
+   "say": "Revenue hit $1.4 billion in 1996, then $17 million by 2014. Looks absurd."
   },
   {
    "scene": "PriceList",
-   "say": "But it does a job: a negative-option trap."
+   "say": "But it does a job: the penny is a trap."
   },
   {
    "scene": "Statement",
-   "say": "The required-purchase clause forces a future bill."
+   "say": "The hidden clause forces a later purchase, turning a penny into ongoing revenue."
   },
   {
    "scene": "Anchor",
-   "say": "Peak revenue proves the trap; the crash proves its cost."
+   "say": "That clause kept shipments flowing until bankruptcy in 2015."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere."
+   "say": "You see it everywhere: a gym offers a free month, then auto-renews at $49."
   },
   {
    "scene": "Compare",
-   "say": "A gym offers a $1 trial, then auto-renews at $49 month."
-  },
-  {
-   "scene": "Compare",
-   "say": "The $1 lure makes the $49 plan feel reasonable."
+   "say": "The cheap entry feels harmless, so the paid plan looks like a smart upgrade."
   },
   {
    "scene": "Outro",
-   "say": "Spot hidden commitments behind tiny offers. Follow for more."
+   "say": "Watch the fine print before the penny. Follow for more."
   }
  ]
 }

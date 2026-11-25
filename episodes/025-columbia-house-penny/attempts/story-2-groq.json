@@ -1,64 +1,65 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "spoken words total 181, need 85-150 (aim for 115-135; pauses add about 15%)"
+  "beat 5 PriceList: name \"Sounds\" is not one of the case names",
+  "spoken words total 151, need 85-150 (aim for 115-135; pauses add about 15%)"
  ],
  "plan": {
-  "paradox": "A penny gets you a whole record collection. And you never see the bill.",
-  "odd_fact": "Members who ignored the deadline got a full-price album shipped. Looks like a mistake.",
-  "twist": "But it does a job  -  the penny is a hook, the real cost hides later.",
-  "cause": "The \"buy a minimum number of albums\" clause forces a later purchase; the first penny just secures the contract, leading to $1.4 billion revenue in 1996 and a collapse to $17 million by 2014.",
-  "everyday": "Gym membership: free trial week, then mandatory $30 class fee each week; coffee shop: buy one pastry for $1, then auto-add a $5 latte each visit; streaming app: $0.99 first month, then $12 monthly subscription. The recurring fee feels cheap compared to the anchored $30 option, so you stay.",
-  "rule": "Watch for a tiny upfront cost that unlocks an automatic larger charge. Follow for more."
+  "paradox": "A penny gets you a whole music library. And the bill arrives later.",
+  "odd_fact": "Members who ignored the deadline got a full-price album shipped  -  Sounds like a trap.",
+  "twist": "But it does a job: the penny is a loss leader that forces a later purchase.",
+  "cause": "The \"penny\" option locks you in; the automatic shipment after the deadline converts the free offer into a regular sale, fueling $1.4 billion revenue in 1996.",
+  "everyday": "Gym  -  free 1-day pass, then mandatory $30 monthly plan; Café  -  free coffee, then auto-order a $5 pastry each week; Streaming app  -  free month, then $12 monthly subscription. The mandatory upgrade feels cheap compared to the hidden recurring cost.",
+  "rule": "Watch for an automatic next step after a \"free\" offer. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A penny gets you a whole record collection. And you never see the bill."
+   "say": "A penny gets you a whole music library. And the bill arrives later."
   },
   {
    "scene": "PriceList",
-   "say": "Sign up for a penny and get twelve records promised."
+   "say": "Sign up for a penny and receive twelve records."
   },
   {
    "scene": "PriceList",
-   "say": "Or pick the regular club plan with a set monthly fee and no upfront lure."
+   "say": "Or pay the regular club price for a single album."
   },
   {
    "scene": "PriceList",
-   "say": "Or choose the premium package that bundles extra merch for a higher price."
+   "say": "Or choose the no-commitment trial with no shipments."
   },
   {
    "scene": "PriceList",
-   "say": "Members who ignored the deadline got a full-price album shipped. Looks like a mistake."
-  },
-  {
-   "scene": "PriceList",
-   "say": "But it does a job - the penny is a hook, the real cost hides later."
+   "say": "Members who ignored the deadline got a full-price album shipped - Sounds like a trap."
   },
   {
    "scene": "Statement",
-   "say": "The contract required you to buy a minimum number of albums, so the next shipment arrived with a full-price bill."
+   "say": "The penny option locks you in; the next shipment is automatic unless you say no."
   },
   {
    "scene": "Anchor",
-   "say": "That hidden purchase drove revenue to $1.4 billion in 1996 before collapsing to $17 million by 2014."
+   "say": "That hidden purchase drove $1.4 billion revenue in 1996, then collapsed to $17 million by 2014."
+  },
+  {
+   "scene": "Views",
+   "say": "The company filed for bankruptcy in 2015, proving the model unsustainable."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere: a gym offers a free week, then forces a $30 class fee each week."
+   "say": "Gym - free 1-day pass, then mandatory $30 monthly plan."
   },
   {
    "scene": "Compare",
-   "say": "A coffee shop sells a $1 pastry, then auto-adds a $5 latte each visit."
+   "say": "Café - free coffee, then auto-order a $5 pastry each week."
   },
   {
    "scene": "Compare",
-   "say": "A streaming app lures with $0.99 for month one, then locks you into $12 monthly."
+   "say": "Streaming app - free month, then $12 monthly subscription. The mandatory upgrade feels cheap compared to the hidden recurring cost."
   },
   {
    "scene": "Outro",
-   "say": "Watch for a tiny upfront cost that unlocks an automatic larger charge. Follow for more."
+   "say": "Watch for an automatic next step after a \"free\" offer. Follow for more."
   }
  ]
 }

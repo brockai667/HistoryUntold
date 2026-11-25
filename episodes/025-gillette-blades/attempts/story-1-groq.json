@@ -1,68 +1,70 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "spoken words total 169, need 85-150 (aim for 115-135; pauses add about 15%)"
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "beat 8 Anchor: number 32764 is not in the case facts",
+  "spoken words total 165, need 85-150 (aim for 115-135; pauses add about 15%)"
  ],
  "plan": {
-  "paradox": "A razor sells itself. And you never buy the razor again.",
-  "odd_fact": "In 1904 it sold 90,884 razors but 123,648 blades. Sounds generous.",
-  "twist": "But it does a job  -  it forces you to keep buying blades.",
-  "cause": "The cheap razor option hooks you, then the blade-only refill creates endless purchases  -  123,648 blades for only 90,884 handles shows the imbalance.",
-  "everyday": "Barber shop: basic shave, premium styling, unlimited blade refill. Café: single coffee, latte upgrade, monthly bean subscription. Gym: day pass, class bundle, yearly equipment lease. In each case the recurring-blade or subscription tier looks like a smart upgrade because the cheap entry point forces a later, higher-priced repeat purchase.",
-  "rule": "Watch for a cheap starter that hides a forever-cost. Follow for more."
+  "paradox": "A razor that never needs a new handle. And you keep paying forever.",
+  "odd_fact": "In 1904 they sold 90,884 razors but 123,648 blades.",
+  "twist": "But it does a job  -  the razor sells the blades.",
+  "cause": "The razor option forces blade purchases; 1904 numbers show many more blades than razors, so each buyer becomes a repeat customer.",
+  "everyday": "Gym membership: basic access $30/mo; premium class pack $45/mo includes 10 classes; personal trainer package $60/mo includes unlimited sessions. The premium pack feels smart because you pay a little more for many classes, while the trainer package acts as an anchor.",
+  "rule": "Spot the recurring consumable and count the hidden cost. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A razor sells itself. And you never buy the razor again."
+   "say": "A razor that never needs a new handle. And you keep paying forever."
   },
   {
    "scene": "PriceList",
-   "say": "The starter is a single handle you keep forever."
+   "say": "Buy the razor alone - just the handle."
   },
   {
    "scene": "PriceList",
-   "say": "The next tier adds a handful of replacement blades."
+   "say": "Buy the razor plus a starter pack of blades - the usual bundle."
   },
   {
    "scene": "PriceList",
-   "say": "The top tier bundles the handle with a year's supply of blades."
+   "say": "Buy the razor, a starter pack, and a monthly blade subscription - the premium promise."
   },
   {
    "scene": "PriceList",
-   "say": "The cheap handle looks like a one-time deal. Looks generous."
+   "say": "1904: 90,884 razors, 123,648 blades. Looks generous."
   },
   {
    "scene": "PriceList",
-   "say": "But it does a job - it forces you to keep buying blades."
+   "say": "But it does a job - it forces you to buy blades forever."
   },
   {
    "scene": "Statement",
-   "say": "You buy the handle once, then the blade-only option drives the bulk of sales."
+   "say": "Each razor sale creates a customer who must replenish blades."
   },
   {
    "scene": "Anchor",
-   "say": "In 1904 Gillette sold 90,884 handles but 123,648 blades - the refill dwarfs the starter."
+   "say": "In 1904 the blade count exceeds razors by 32,764, proving repeat purchases."
   },
   {
    "scene": "Views",
-   "say": "That imbalance means the company earns forever from each customer."
+   "say": "The more handles you sell, the more blade revenue streams flow."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere: a barber offers a basic shave, a premium styling, or a monthly blade refill."
+   "say": "You see it everywhere - a coffee shop gives a free mug with a drink, then sells refill packs."
   },
   {
    "scene": "Compare",
-   "say": "A café sells a single coffee, a latte upgrade, or a bean-a-month subscription."
+   "say": "A streaming service offers a cheap app, then a pricey ad-free tier that includes monthly content drops."
   },
   {
    "scene": "Compare",
-   "say": "A gym lists a day pass, a class pack, or a yearly equipment lease - the recurring option feels like the smart choice."
+   "say": "The refill or subscription feels like a smart upgrade because you already own the base."
   },
   {
    "scene": "Outro",
-   "say": "Watch for a cheap starter that hides a forever-cost. Follow for more."
+   "say": "Spot the recurring consumable and count the hidden cost. Follow for more."
   }
  ]
 }
