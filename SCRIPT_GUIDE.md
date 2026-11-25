@@ -120,6 +120,18 @@ These are assumptions. Check them after 10 episodes against 3-second hold, avera
 3. **"This pricing trick is honestly insane."** Hype word, no object to picture, no question the video can answer.
    Every channel says this.
 
+### Title (the public video title, key `title`)
+
+Rule approved 2026-11-25 from channel statistics: short titles without numbers held up best.
+
+1. 6 words or fewer.
+2. No digits, no number words except "one", no "$" or any other currency sign, no percent.
+3. It names the thing the viewer can picture, not the price: "The shop that stopped faking sales",
+   "The chocolate bar with wider gaps".
+4. Bad: "MoviePass sold a movie a day for $9.95 a month" (10 words, price), "Why people paid $30 for a brick"
+   (price), "The same wine tasted better with a higher price" (9 words).
+5. The number belongs inside the video, not in the title.
+
 ---
 
 ## 4. Story structure

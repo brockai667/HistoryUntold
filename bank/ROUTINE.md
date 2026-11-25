@@ -18,6 +18,8 @@ tu **negeneruje** (šetrí PC aj dennú kvótu Orpheus).
 5. Napíš skript ako story.json (rovnaké kľúče ako vzor: `id` = id prípadu, `case`, `title`, `caption`,
    `source`, `beats`). Pravidlá navyše:
    - Najprv plán (hook, hook_answer, odd_fact, twist, comparison, proof, everyday, rule) – nepíš ho do súboru.
+   - `title` (verejný názov videa): najviac 6 slov, bez číslic, bez čísloviek okrem „one“, bez „$“ a iných
+     znakov meny, bez percent. Vzor: „The shop that stopped faking sales“. Pravidlo je v guide, časť „Title“.
    - Hák v angličtine, otázka o divákovom živote („Ever…?“, „Have you ever…?“, „Why does…?“), šablóny v guide.
    - Pohyb namiesto slajdov: v každom skripte aspoň 1× `Crowd` (ak fakty majú čísla ľudí/predajov) alebo
      `PriceList` s `point` (gulička medzi dvoma cenami), žiadny `Statement` dlhší ako ~14 slov.

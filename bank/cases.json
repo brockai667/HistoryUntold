@@ -745,7 +745,7 @@
    "id": "gillette-blades",
    "case": "THE BLADE HABIT",
    "trick": "razor-and-blades",
-   "subject": "Gillette's first two years selling a safety razor that needs replacement blades",
+   "subject": "Gillette's first two years selling a $5 safety razor that needs replacement blades",
    "year": 1903,
    "names": [
     "Gillette",
@@ -755,44 +755,47 @@
    ],
    "facts": [
     "King C. Gillette began selling his safety razor with throwaway blades in 1903.",
+    "The razor set was not cheap: it sold for $5.",
     "In its first year, Gillette sold 51 razors and 168 blades.",
-    "In 1904, its second year, it sold 90,884 razors and 123,648 blades.",
-    "Every razor sold was a customer who had to keep buying new blades."
+    "In its second year, it sold 90,884 razors.",
+    "The razor took replaceable blades, and Gillette sold those blades too."
    ],
-   "lesson": "Buy the handle once, pay for the blades forever.",
+   "lesson": "The handle is a one-time buy; the blades keep costing.",
    "icons": {
     "hero": "scissors",
     "bait": "scissors",
     "real": "package"
    },
    "source": "Gillette company history (Encyclopedia.com)",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "columbia-house-penny",
    "case": "THE PENNY CLUB",
    "trick": "negative option (penny offer)",
-   "subject": "Columbia House's records-for-a-penny offers and automatic album shipments",
+   "subject": "Columbia House's CDs-for-a-penny offers and automatic album shipments",
    "year": 1996,
    "names": [
     "Columbia House",
-    "Columbia House's"
+    "Columbia House's",
+    "Filmed Entertainment",
+    "CDs"
    ],
    "facts": [
-    "Columbia House drew new members with offers like 12 records for a penny.",
+    "Columbia House drew new members with offers like eight CDs for a penny.",
     "Members then had to buy a minimum number of albums at regular club prices.",
-    "If members didn't say no by a deadline, the next album shipped with a full-price bill.",
-    "Columbia House's revenue peaked at $1.4 billion in 1996 and fell to $17 million by 2014.",
-    "Its parent company filed for bankruptcy in 2015."
+    "If members didn't decline in time, the next selection shipped and was billed to them.",
+    "Columbia House's revenue peaked at $1.4 billion in 1996 and fell to $17 million in 2014.",
+    "Its parent company, Filmed Entertainment, filed for bankruptcy protection in August 2015."
    ],
    "lesson": "A penny up front can hide the real bill.",
    "icons": {
-    "hero": "music",
+    "hero": "headphones",
     "bait": "coins",
     "real": "mail"
    },
-   "source": "Press coverage of its 2015 bankruptcy",
-   "confidence": "medium"
+   "source": "AP and NPR on the 2015 bankruptcy filing",
+   "confidence": "high"
   },
   {
    "id": "spirit-bag-fees",
@@ -809,24 +812,24 @@
    ],
    "facts": [
     "In 2010, Spirit Airlines became the first US airline to charge for carry-on bags.",
-    "The carry-on fee was up to $45 when paid at the gate.",
-    "Spirit sold a stripped-down base ticket called the 'Bare Fare', with bags and seats as extras.",
+    "The fee was $30 if paid in advance and $45 at the gate.",
+    "By 2014, Spirit called its stripped-down base ticket the 'Bare Fare'.",
     "Spirit filed for bankruptcy protection in 2024 and again in 2025."
    ],
-   "lesson": "The cheap fare is the bait; the bag fee pays.",
+   "lesson": "The cheap fare is the bait; the fees add up.",
    "icons": {
     "hero": "plane",
     "bait": "plane",
     "real": "briefcase"
    },
-   "source": "New York Times (2010); Reuters (2024, 2025)",
-   "confidence": "medium"
+   "source": "CBS/AP (2010); Spirit release (2014); NPR (2025)",
+   "confidence": "high"
   },
   {
    "id": "dollar-shave-club",
    "case": "THE $1 RAZOR",
    "trick": "subscription pricing",
-   "subject": "Dollar Shave Club's $1-a-month razor subscription and its $1 billion sale",
+   "subject": "Dollar Shave Club's $1-a-month razor subscription and its reported $1 billion sale",
    "year": 2012,
    "names": [
     "Dollar Shave Club",
@@ -836,10 +839,10 @@
     "Unilever"
    ],
    "facts": [
-    "In 2012, Dollar Shave Club launched, mailing razor blades to subscribers from $1 a month.",
+    "In 2012, Dollar Shave Club launched, mailing razor blades to subscribers from $1 a month plus $2 shipping.",
     "Its launch video, starring co-founder Michael Dubin, cost $4,500 to make.",
-    "The video brought in 12,000 orders in the first 48 hours.",
-    "In 2016, Unilever bought Dollar Shave Club for $1 billion."
+    "In the first 48 hours, 12,000 people signed up.",
+    "In 2016, Unilever bought Dollar Shave Club for a reported $1 billion."
    ],
    "lesson": "A $1 monthly price turns one sale into a habit.",
    "icons": {
@@ -847,8 +850,8 @@
     "bait": "mail",
     "real": "package"
    },
-   "source": "Unilever (2016); press coverage (2012)",
-   "confidence": "medium"
+   "source": "TechCrunch, NBC News (2012); Fortune (2016)",
+   "confidence": "high"
   },
   {
    "id": "ninety-nine-cents",
@@ -863,25 +866,25 @@
     "Only"
    ],
    "facts": [
-    "99 Cents Only Stores opened in 1982, selling everything for 99 cents.",
-    "In 2008, the chain raised its prices for the first time, to 99.99 cents.",
-    "The increase was 0.99 cents, so every price still started with 99.",
-    "In 2024, the chain closed all 371 of its stores."
+    "99 Cents Only Stores was founded in 1982.",
+    "In 2008, the chain raised its top price for the first time in 26 years, to 99.99 cents.",
+    "The increase was 0.99 cents, so the price still started with 99.",
+    "In 2024, the chain said it would close all 371 of its stores."
    ],
-   "lesson": "Sellers will fight hard to keep the 99.",
+   "lesson": "A price can rise and still look almost the same.",
    "icons": {
     "hero": "store",
     "bait": "coins",
     "real": "tag"
    },
-   "source": "Los Angeles Times (2008); Reuters (2024)",
-   "confidence": "medium"
+   "source": "Los Angeles Times (2008); NPR (2024)",
+   "confidence": "high"
   },
   {
    "id": "bugatti-veyron",
    "case": "THE HALO CAR",
    "trick": "premium halo",
-   "subject": "Volkswagen's money-losing Bugatti Veyron flagship, built from 2005 to 2015",
+   "subject": "Bugatti's Veyron, a flagship one analyst estimated lost millions on every car",
    "year": 2013,
    "names": [
     "Bugatti",
@@ -892,22 +895,286 @@
     "Volkswagen",
     "VW",
     "Bernstein",
-    "Bernstein Research"
+    "Bernstein Research",
+    "Max Warburton",
+    "Warburton"
    ],
    "facts": [
-    "Bugatti built 450 Veyrons between 2005 and 2015.",
+    "Bugatti presented the Veyron in 2005 and sold the last of 450 cars in 2015.",
     "The Veyron's 16-cylinder engine made 1,001 metric horsepower.",
-    "In 2013, analysts at Bernstein Research estimated Volkswagen lost €4.6 million on every Veyron sold.",
-    "Volkswagen owned Bugatti and used the Veyron to show off its engineering."
+    "At launch, a Veyron cost €1 million before tax.",
+    "In 2013, Bernstein Research analyst Max Warburton estimated Volkswagen lost €4.6 million on every Veyron sold.",
+    "Bugatti rejected the estimate.",
+    "Volkswagen has owned Bugatti since 1998."
    ],
-   "lesson": "Some products exist to sell the brand, not themselves.",
+   "lesson": "A flagship can matter more than its profit.",
    "icons": {
     "hero": "rocket",
     "bait": "crown",
     "real": "key"
    },
-   "source": "Bernstein Research estimate (2013)",
-   "confidence": "medium"
+   "source": "Bernstein (2013) via Irish Times; Bugatti; Auto Bild",
+   "confidence": "high"
+  },
+  {
+   "id": "michael-kors-outlet",
+   "case": "THE MADE-UP TAG",
+   "trick": "reference prices (outlet MSRP)",
+   "subject": "Michael Kors outlet price tags and the 2015 class-action settlement over their 'MSRP'",
+   "year": 2015,
+   "names": [
+    "Michael Kors",
+    "Michael Kors'",
+    "Kors",
+    "MSRP",
+    "Value",
+    "US"
+   ],
+   "facts": [
+    "A 2014 lawsuit said Michael Kors outlet tags showed a made-up 'MSRP' on products sold only in outlets.",
+    "One tag in the complaint showed jeans with an MSRP of $120 and an outlet price of $99.99.",
+    "In June 2015, Michael Kors agreed to pay $4.88 million to settle the class action.",
+    "It agreed to replace 'MSRP' with 'Value' or drop reference prices on outlet-only goods.",
+    "Michael Kors denied wrongdoing."
+   ],
+   "lesson": "A crossed-out price only counts if someone once paid it.",
+   "icons": {
+    "hero": "shopping-bag",
+    "bait": "percent",
+    "real": "tag"
+   },
+   "source": "Reuters (June 2015); Gattinella v. Michael Kors complaint",
+   "confidence": "high"
+  },
+  {
+   "id": "pink-tax-nyc",
+   "case": "THE PINK TAX",
+   "trick": "gender pricing",
+   "subject": "New York City's 2015 study of prices for near-identical men's and women's products",
+   "year": 2015,
+   "names": [
+    "New York City",
+    "New York City's",
+    "New York",
+    "Department of Consumer Affairs"
+   ],
+   "facts": [
+    "In 2015, New York City's consumer agency compared 794 products from 91 brands in 24 stores.",
+    "On average, women's versions cost 7 percent more than similar men's versions.",
+    "Women's personal care products cost 13 percent more.",
+    "Women's versions cost more 42 percent of the time; men's cost more 18 percent of the time.",
+    "Girls' toys and accessories cost more 55 percent of the time; boys' cost more 8 percent of the time."
+   ],
+   "lesson": "Check the men's version before paying for the pink one.",
+   "icons": {
+    "hero": "shopping-bag",
+    "bait": "flower-2",
+    "real": "tag"
+   },
+   "source": "NYC Consumer Affairs, From Cradle to Cane (2015)",
+   "confidence": "high"
+  },
+  {
+   "id": "hp-printer-ink",
+   "case": "THE LOCKED PRINTER",
+   "trick": "razor-and-blades (printer ink)",
+   "subject": "HP's Dynamic Security feature that made printers reject cartridges with non-HP chips",
+   "year": 2016,
+   "names": [
+    "HP",
+    "HP's",
+    "Dynamic Security",
+    "Italy",
+    "Italy's",
+    "Euroconsumers",
+    "Belgium",
+    "Spain",
+    "Portugal"
+   ],
+   "facts": [
+    "From September 2016, an HP feature called Dynamic Security made printers reject cartridges with non-HP chips.",
+    "In 2020, Italy's competition authority fined HP €10 million; it said cartridge limits were not made clear at purchase.",
+    "In 2022, HP settled with consumer group Euroconsumers for printer owners in Belgium, Italy, Spain and Portugal.",
+    "Owners could claim €20, €35 or €50 depending on the model, from a fund of up to $1.35 million.",
+    "The settlement was not an admission of wrongdoing."
+   ],
+   "lesson": "Price the refills before you buy the machine.",
+   "icons": {
+    "hero": "printer",
+    "bait": "tag",
+    "real": "droplets"
+   },
+   "source": "AGCM (2020); Euroconsumers (2022); The Register",
+   "confidence": "high"
+  },
+  {
+   "id": "radiohead-in-rainbows",
+   "case": "NAME YOUR PRICE",
+   "trick": "pay what you want",
+   "subject": "Radiohead's pay-what-you-want release of the album In Rainbows",
+   "year": 2007,
+   "names": [
+    "Radiohead",
+    "Radiohead's",
+    "In Rainbows",
+    "Rainbows",
+    "comScore",
+    "comScore's"
+   ],
+   "facts": [
+    "In October 2007, Radiohead let fans download the album In Rainbows and pay what they wanted.",
+    "Research firm comScore estimated that 38 percent of downloaders paid and 62 percent paid nothing.",
+    "By its estimate, those who paid gave $6.00 on average; across all downloaders the average was $2.26.",
+    "Radiohead's representatives called comScore's figures wholly inaccurate."
+   ],
+   "lesson": "Let buyers name the price and many will name zero.",
+   "icons": {
+    "hero": "headphones",
+    "bait": "gift",
+    "real": "coins"
+   },
+   "source": "comScore press release (Nov 2007); Betanews",
+   "confidence": "high"
+  },
+  {
+   "id": "marriott-resort-fees",
+   "case": "THE RESORT FEE",
+   "trick": "drip pricing (resort fees)",
+   "subject": "Marriott's resort fees and its 2021 settlement with Pennsylvania's attorney general",
+   "year": 2021,
+   "names": [
+    "Marriott",
+    "Marriott's",
+    "Pennsylvania",
+    "Pennsylvania's"
+   ],
+   "facts": [
+    "In November 2021, Pennsylvania's attorney general announced a settlement with Marriott over resort fees.",
+    "Marriott agreed to show the total price, including mandatory fees, prominently within nine months.",
+    "When guests sort rooms by price, Marriott must sort by the total price.",
+    "Marriott admitted no wrongdoing and said its fees were always clearly disclosed.",
+    "In April 2023, Pennsylvania said Marriott would pay $225,000 after missing the deadline."
+   ],
+   "lesson": "Compare the total price, not the nightly rate.",
+   "icons": {
+    "hero": "hotel",
+    "bait": "tag",
+    "real": "receipt"
+   },
+   "source": "Pennsylvania AG (2021, 2023); ABA Journal",
+   "confidence": "high"
+  },
+  {
+   "id": "ons-shrinkflation",
+   "case": "THE SHRINKING PACK",
+   "trick": "shrinkflation",
+   "subject": "The UK statistics office's count of products that changed size between 2015 and 2017",
+   "year": 2019,
+   "names": [
+    "Office for National Statistics",
+    "ONS",
+    "UK",
+    "UK's"
+   ],
+   "facts": [
+    "The UK's Office for National Statistics tracked product sizes from September 2015 to June 2017.",
+    "It found 206 products that shrank and 79 that grew.",
+    "That is 2.6 times as many products shrinking as growing.",
+    "Prices tended not to change when the size did.",
+    "In 2016, between 1.0 and 2.1 percent of tracked food and drink items got smaller."
+   ],
+   "lesson": "Check the weight on the pack, not just the price.",
+   "icons": {
+    "hero": "package",
+    "bait": "scale",
+    "real": "coins"
+   },
+   "source": "Office for National Statistics (January 2019)",
+   "confidence": "high"
+  },
+  {
+   "id": "match-guarantee",
+   "case": "THE LOVE GUARANTEE",
+   "trick": "guarantee fine print",
+   "subject": "Match.com's six-month guarantee and the FTC case that ended in a $14 million settlement",
+   "year": 2025,
+   "names": [
+    "Match",
+    "Match.com",
+    "Match.com's",
+    "Match Group",
+    "FTC",
+    "Federal Trade Commission",
+    "US"
+   ],
+   "facts": [
+    "In September 2019, the US Federal Trade Commission sued Match Group, owner of Match.com.",
+    "The FTC said Match promised a free six-month subscription to users who did not meet someone special.",
+    "It said the conditions for getting those free months were not clearly disclosed.",
+    "In August 2025, Match agreed to pay $14 million to settle the case.",
+    "These were FTC allegations, and the case ended in a settlement."
+   ],
+   "lesson": "A guarantee is only as good as its conditions.",
+   "icons": {
+    "hero": "heart",
+    "bait": "gift",
+    "real": "receipt"
+   },
+   "source": "FTC press releases (Sept 2019, Aug 2025)",
+   "confidence": "high"
+  },
+  {
+   "id": "cookie-jar-scarcity",
+   "case": "THE COOKIE JAR",
+   "trick": "scarcity",
+   "subject": "A 1975 experiment in which people rated cookies higher when the jar held only 2",
+   "year": 1975,
+   "names": [
+    "Worchel",
+    "Lee",
+    "Adewole",
+    "Journal of Personality and Social Psychology"
+   ],
+   "facts": [
+    "In a 1975 study by Worchel, Lee and Adewole, people rated chocolate chip cookies taken from a glass jar.",
+    "The jar held either 2 cookies or 10 cookies.",
+    "The cookies were rated more desirable when they were scarce than when they were plentiful.",
+    "Cookies that went from plentiful to scarce were valued more than cookies that were scarce all along.",
+    "Cookies made scarce by high demand were rated higher than cookies made scarce by accident."
+   ],
+   "lesson": "Scarce feels valuable, so ask if the shortage is real.",
+   "icons": {
+    "hero": "cake",
+    "bait": "lock",
+    "real": "star"
+   },
+   "source": "Worchel, Lee & Adewole, JPSP 32(5), 1975",
+   "confidence": "high"
+  },
+  {
+   "id": "uber-sydney-surge",
+   "case": "THE SIEGE SURGE",
+   "trick": "surge pricing",
+   "subject": "Uber's surge pricing during the December 2014 hostage siege in Sydney",
+   "year": 2014,
+   "names": [
+    "Uber",
+    "Uber's",
+    "Sydney"
+   ],
+   "facts": [
+    "On December 15, 2014, during a hostage siege in central Sydney, Uber's surge pricing raised fares to as much as four times normal.",
+    "After a public backlash, Uber made rides out of the city centre free and refunded surge charges.",
+    "Uber later said it had not stopped surge pricing immediately, and called that the wrong decision."
+   ],
+   "lesson": "Surge pricing follows demand, whatever causes the demand.",
+   "icons": {
+    "hero": "car",
+    "bait": "zap",
+    "real": "banknote"
+   },
+   "source": "Al Jazeera, GeekWire (December 2014)",
+   "confidence": "high"
   }
  ]
 }

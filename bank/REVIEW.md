@@ -24,7 +24,8 @@ so skriptom, ktorý dostal `PASS`.
    v `remotion/icons.json` a sedia k veci.
 6. **Zrozumiteľnosť.** Po jednom pozretí vie 12-ročný povedať trik jednou vetou. Žiadna veta nepotrebuje
    pretočiť video späť. Žiadne opakovanie tej istej myšlienky inými slovami.
-7. **Popisok.** `caption` 1–2 krátke vety po anglicky, bez hashtagov (pridá ich `brand.json`), bez emoji spamu,
+7. **Názov a popisok.** `title` má najviac 6 slov, žiadnu číslicu, číslovku (okrem „one“), „$“ ani inú menu či
+   percento – porušenie je BLOCKER. `caption` 1–2 krátke vety po anglicky, bez hashtagov (pridá ich `brand.json`), bez emoji spamu,
    bez nepravdy a clickbaitu, ktorý video nesplní.
 8. **Bezpečnosť.** Nič urážlivé, žiadne finančné rady, žiadne meno súkromnej osoby, žiadne tvrdenie, ktoré
    by ohrozilo kanál (zdravie, politika).
