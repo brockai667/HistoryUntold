@@ -1,70 +1,61 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
-  "beat 8 Anchor: number 32764 is not in the case facts",
-  "spoken words total 165, need 85-150 (aim for 115-135; pauses add about 15%)"
+  "11 beats, need 12-15",
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
  ],
  "plan": {
-  "paradox": "A razor that never needs a new handle. And you keep paying forever.",
-  "odd_fact": "In 1904 they sold 90,884 razors but 123,648 blades.",
-  "twist": "But it does a job  -  the razor sells the blades.",
-  "cause": "The razor option forces blade purchases; 1904 numbers show many more blades than razors, so each buyer becomes a repeat customer.",
-  "everyday": "Gym membership: basic access $30/mo; premium class pack $45/mo includes 10 classes; personal trainer package $60/mo includes unlimited sessions. The premium pack feels smart because you pay a little more for many classes, while the trainer package acts as an anchor.",
-  "rule": "Spot the recurring consumable and count the hidden cost. Follow for more."
+  "paradox": "A razor costs $5. And you keep paying forever.",
+  "odd_fact": "In year two Gillette sold 90,884 razors. Sounds huge.",
+  "twist": "It locks you into blade purchases",
+  "cause": "The handle is a one-time $5 buy, then blades are sold repeatedly  -  168 blades in year one alone",
+  "everyday": "Coffee shop: $30 espresso machine, $2 pods; Gym: $200 treadmill, $15 monthly class passes  -  the recurring option feels smarter",
+  "rule": "Watch the cheap entry that hides repeat costs"
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A razor that never needs a new handle. And you keep paying forever."
+   "say": "A razor costs $5. And you keep paying forever."
   },
   {
    "scene": "PriceList",
-   "say": "Buy the razor alone - just the handle."
+   "say": "Buy the handle alone, no blades."
   },
   {
    "scene": "PriceList",
-   "say": "Buy the razor plus a starter pack of blades - the usual bundle."
+   "say": "Buy a starter kit with a few blades."
   },
   {
    "scene": "PriceList",
-   "say": "Buy the razor, a starter pack, and a monthly blade subscription - the premium promise."
+   "say": "Buy the handle and a subscription of blades."
   },
   {
    "scene": "PriceList",
-   "say": "1904: 90,884 razors, 123,648 blades. Looks generous."
+   "say": "In year two Gillette sold 90,884 razors. Sounds huge."
   },
   {
    "scene": "PriceList",
-   "say": "But it does a job - it forces you to buy blades forever."
+   "say": "But it does a job: lock you into blade purchases."
   },
   {
    "scene": "Statement",
-   "say": "Each razor sale creates a customer who must replenish blades."
-  },
-  {
-   "scene": "Anchor",
-   "say": "In 1904 the blade count exceeds razors by 32,764, proving repeat purchases."
+   "say": "The handle is a one-time $5 buy."
   },
   {
    "scene": "Views",
-   "say": "The more handles you sell, the more blade revenue streams flow."
+   "say": "Every razor sold forces you to buy the cheap, disposable blades - 168 blades in year one alone."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere - a coffee shop gives a free mug with a drink, then sells refill packs."
+   "say": "A coffee shop sells a $30 espresso machine, then $2 pods."
   },
   {
    "scene": "Compare",
-   "say": "A streaming service offers a cheap app, then a pricey ad-free tier that includes monthly content drops."
-  },
-  {
-   "scene": "Compare",
-   "say": "The refill or subscription feels like a smart upgrade because you already own the base."
+   "say": "A gym offers a $200 treadmill, but $15 monthly class passes. The ongoing option feels smarter."
   },
   {
    "scene": "Outro",
-   "say": "Spot the recurring consumable and count the hidden cost. Follow for more."
+   "say": "Watch the cheap entry that hides repeat costs. Follow for more."
   }
  ]
 }

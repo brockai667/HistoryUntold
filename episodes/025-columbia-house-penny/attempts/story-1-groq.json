@@ -1,70 +1,69 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "beat 2 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
-  "beat 12 Compare: say has 25 words (need 3-20)",
-  "spoken words total 174, need 85-150 (aim for 115-135; pauses add about 15%)"
+  "beat 5 PriceList: name \"CD\" is not one of the case names",
+  "spoken words total 160, need 85-150 (aim for 115-135; pauses add about 15%)"
  ],
  "plan": {
-  "paradox": "A penny gets you a whole record collection. And you never see the bill.",
-  "odd_fact": "Members must buy a minimum number of albums at regular club prices. Sounds generous.",
-  "twist": "But it does a job: it forces future purchases.",
-  "cause": "The \"penny\" option is a bait; if you don't cancel by the deadline the next album ships automatically with a full-price invoice, turning the tiny upfront cost into recurring revenue that peaked at $1.4 billion in 1996 and collapsed to $17 million by 2014.",
-  "everyday": "A streaming service offers a free-month trial, then auto-renews at $9.99; a gym sells a $1 enrollment fee but locks you into a $30 monthly membership; a coffee shop gives a free pastry with a $0.99 signup, then bills $4.99 for the next week's drinks. In each case the cheap entry point hides an ongoing charge, so the paid plan feels like a smart upgrade.",
-  "rule": "Watch the fine print; a tiny upfront price often masks a larger recurring bill. Follow for more."
+  "paradox": "Eight CDs for a penny. And you still pay later.",
+  "odd_fact": "Members who never declined still got the next CD billed.",
+  "twist": "It traps you with an automatic shipment unless you opt out.",
+  "cause": "The penny starter creates a contract; missing the opt-out window triggers auto-ship and charge.",
+  "everyday": "Gym: $1 trial then $30/month; Streaming app: free month then $12 auto-renew; Both use the same trap, making the paid plan seem normal.",
+  "rule": "Check the opt-out deadline; a tiny upfront cost may conceal larger fees."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A penny gets you a whole record collection. And you never see the bill."
+   "say": "Eight CDs for a penny. And you still pay later."
   },
   {
    "scene": "PriceList",
-   "say": "Sign up for 12 records for a penny."
+   "say": "Get the penny starter, then you owe a set number of albums at full price."
   },
   {
    "scene": "PriceList",
-   "say": "Or choose the standard club plan with regular prices."
+   "say": "Skip the penny, just buy albums when you want, no hidden commitment."
   },
   {
    "scene": "PriceList",
-   "say": "Or pick the no-commitment digital download option."
+   "say": "Pick the premium plan, pay more upfront, no surprise shipments."
   },
   {
    "scene": "PriceList",
-   "say": "Members must buy a minimum number of albums at regular club prices. Sounds generous."
+   "say": "Members who never declined still got the next CD billed. Sounds generous."
   },
   {
    "scene": "PriceList",
-   "say": "But it does a job: it forces future purchases."
+   "say": "But it does a job: a negative-option trap."
   },
   {
    "scene": "Statement",
-   "say": "If you don't cancel by the deadline, the next album ships and you get a full-price bill."
+   "say": "The cheap penny option forces you into a contract."
   },
   {
    "scene": "Anchor",
-   "say": "That automatic charge kept revenue at $1.4 billion in 1996."
+   "say": "If you miss the decline window, the next selection auto-ships and charges you."
   },
   {
    "scene": "Views",
-   "say": "When the model collapsed to $17 million by 2014, the parent filed for bankruptcy in 2015."
+   "say": "Revenue hit $1.4 billion in 1996, then fell to $17 million by 2014."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere: a streaming service promises a free month, then charges $9.99 monthly."
+   "say": "You see it everywhere - a gym offers a $1 trial, then requires a $30 monthly membership."
   },
   {
    "scene": "Compare",
-   "say": "A gym advertises a $1 enrollment, then locks you into $30 a month."
+   "say": "A streaming app gives a free month, then auto-renews at $12 unless you cancel."
   },
   {
    "scene": "Compare",
-   "say": "A coffee shop gives a free pastry for $0.99, then bills $4.99 for the week's drinks, making the paid plan feel like the smart choice."
+   "say": "The pushed monthly plan feels reasonable because the initial free offer disappears."
   },
   {
    "scene": "Outro",
-   "say": "Watch the fine print; a tiny upfront price often masks a larger recurring bill. Follow for more."
+   "say": "Check the opt-out deadline; a tiny upfront cost may conceal larger fees. Follow for more."
   }
  ]
 }

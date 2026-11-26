@@ -1,64 +1,75 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
+  "beat 6 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "spoken words total 154, need 85-150 (aim for 115-135; pauses add about 15%)",
+  "beat 4 PriceList: repeats the phrase \"buy a razor plus a\" from beat 3",
+  "number 5 is spoken in 3 beats (1, 9, 12) - max 2, the card already shows it"
  ],
  "plan": {
-  "paradox": "A razor sells itself. And blades never stop coming.",
-  "odd_fact": "1904: ninety-thousand razors, one-hundred-twenty-three thousand blades. Looks generous.",
-  "twist": "It locks you into buying blades forever.",
-  "cause": "The subscription bundle forces repeat purchases, as shown by 123,648 blades in year two.",
-  "everyday": "Coffee shop: $199 machine, $19 pod refill each month. Gym: $799 treadmill, $99 yearly belt replacement. The refill feels required, so you choose it.",
-  "rule": "When cheap gear needs endless add-ons, the add-on is the real sale. Follow for more."
+  "paradox": "A razor sells for $5, yet you never stop paying",
+  "odd_fact": "Year one: 51 razors, 168 blades sold. Looks lopsided.",
+  "twist": "The razor is a loss leader; the real profit lives in blades",
+  "cause": "The razor hooks you, then the blade subscription fuels the revenue, as shown by 90,884 razors sold in year two needing blades",
+  "everyday": "Coffee shop: $2 mug, $0.30 coffee pods, $5 premium set  -  pods win; Gym: $30 starter kit, $5 per class, $100 annual pass  -  class pass wins; Both push the add-on as the smart choice",
+  "rule": "Watch the first purchase; the recurring add-on is where the money hides. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A razor sells itself. And blades never stop coming."
+   "say": "A razor sells for $5, yet you never stop paying."
   },
   {
    "scene": "PriceList",
-   "say": "Buy the razor alone."
+   "say": "Buy the razor alone, no blades included."
   },
   {
    "scene": "PriceList",
-   "say": "Buy razor with a few starter blades."
+   "say": "Buy a razor plus a few starter blades."
   },
   {
    "scene": "PriceList",
-   "say": "Buy razor plus a subscription of endless blades."
+   "say": "Buy a razor plus a massive bundle of blades."
   },
   {
    "scene": "PriceList",
-   "say": "1904: ninety-thousand razors, one-hundred-twenty-three thousand blades. Looks generous."
+   "say": "Buy just a single blade replacement."
   },
   {
    "scene": "PriceList",
-   "say": "But it does a job - locking you into blade purchases."
+   "say": "Year one: 51 razors, 168 blades sold. Looks lopsided."
+  },
+  {
+   "scene": "PriceList",
+   "say": "But the razor is a loss leader; the real profit lives in blades."
   },
   {
    "scene": "Statement",
-   "say": "The subscription bundle turns every buyer into a repeat customer."
+   "say": "In year two, sales jumped to 90,884 razors, all needing blades."
   },
   {
    "scene": "Anchor",
-   "say": "123,648 blades sold in year two prove the repeat demand."
+   "say": "Each blade costs extra, so the $5 handle becomes a gateway to endless purchases."
   },
   {
    "scene": "Views",
-   "say": "The handle is cheap; the profit hides in blade sales."
+   "say": "The razor hooks you, then the blade subscription fuels the revenue."
   },
   {
    "scene": "Compare",
-   "say": "Coffee shop: $199 machine, $19 pod refill each month."
+   "say": "You see it everywhere - a coffee shop sells a $2 mug, then $0.30 coffee pods."
   },
   {
    "scene": "Compare",
-   "say": "Gym: $799 treadmill, $99 yearly belt replacement."
+   "say": "A gym offers a $30 starter kit, then $5 per class pass."
+  },
+  {
+   "scene": "Compare",
+   "say": "Because the starter kit is cheap, the add-on feels like the smart choice."
   },
   {
    "scene": "Outro",
-   "say": "When cheap gear needs endless add-ons, the add-on is the real sale. Follow for more."
+   "say": "Watch the first purchase; the recurring add-on is where the money hides. Follow for more."
   }
  ]
 }

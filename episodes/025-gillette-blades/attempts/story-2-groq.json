@@ -1,62 +1,68 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "11 beats, need 12-15",
-  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
-  "beat 7 Statement: say has 26 words (need 3-20)"
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
  ],
  "plan": {
-  "paradox": "A razor sells itself. And you never buy it.",
-  "odd_fact": "In 1904 they shipped 90,884 razors but only 123,648 blades. Sounds generous.",
-  "twist": "It forces you to keep buying blades forever",
-  "cause": "Each razor sold creates a blade-buying customer; the razor-only option generates repeat purchases, as shown by 51 razors vs 168 blades then 90,884 razors vs 123,648 blades",
-  "everyday": "coffee kiosk  -  machine only, machine + pod pack, machine + subscription; gym  -  bike only, bike + class pass, bike + monthly lock-in fee; subscription feels like only way to use, so you accept higher recurring cost",
-  "rule": "Watch for a cheap entry that forces future purchases. Follow for more."
+  "paradox": "A $5 razor that never stops costing.",
+  "odd_fact": "First year sold 51 razors and 168 blades  -  looks mismatched.",
+  "twist": "The cheap razor is a loss-leader; blades generate profit.",
+  "cause": "Every razor purchase forces a blade purchase, the only recurring revenue.",
+  "everyday": "Barbershop: cheap clipper handle, pricey blades; coffee shop: $2 reusable cup, $0.30 refill; refill feels smart because handle cost is sunk.",
+  "rule": "Notice the one-time buy and the repeat-buy trap. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A razor sells itself. And you never buy it."
+   "say": "A $5 razor that never stops costing."
   },
   {
    "scene": "PriceList",
-   "say": "Option one: a sleek handle, no blades attached."
+   "say": "Buy the razor alone, no blades."
   },
   {
    "scene": "PriceList",
-   "say": "Option two: handle plus a starter pack of blades."
+   "say": "Buy the razor with a bundle of blades."
   },
   {
    "scene": "PriceList",
-   "say": "Option three: the whole set, ready to shave."
+   "say": "Buy the razor, blades, and a premium case for the same price."
   },
   {
    "scene": "PriceList",
-   "say": "In 1904 they shipped 90,884 razors but only 123,648 blades. Sounds generous."
+   "say": "First year sold 51 razors and 168 blades. Looks mismatched."
   },
   {
    "scene": "PriceList",
-   "say": "But it does a job: it locks you into buying blades forever."
+   "say": "But the cheap razor is a loss-leader; blades generate profit."
   },
   {
    "scene": "Statement",
-   "say": "In year one they sold 51 razors and 168 blades - three blades each; the next year 90,884 razors with 123,648 blades, enough to keep selling."
+   "say": "In the second year razor sales jumped to 90,884, while blade sales kept rising."
+  },
+  {
+   "scene": "Anchor",
+   "say": "Each new razor forces a fresh blade purchase, the only recurring revenue."
+  },
+  {
+   "scene": "Views",
+   "say": "Customers pay $5 once, then keep buying disposable blades."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere: a coffee kiosk sells a machine, then a pod subscription."
+   "say": "Barbershop offers a cheap clipper handle, then pricey replaceable blades."
   },
   {
    "scene": "Compare",
-   "say": "It also appears at a gym: you buy a bike, then a monthly fee for lock-in classes."
+   "say": "Coffee shop sells a $2 reusable cup, then $0.30 per refill."
   },
   {
    "scene": "Compare",
-   "say": "Because the subscription feels like the only way to use the bike, you accept the higher recurring cost."
+   "say": "Now the refill feels smart because the handle cost is sunk."
   },
   {
    "scene": "Outro",
-   "say": "Rule: watch for a cheap entry that forces future purchases. Follow for more."
+   "say": "Notice the one-time buy and the repeat-buy trap. Follow for more."
   }
  ]
 }
