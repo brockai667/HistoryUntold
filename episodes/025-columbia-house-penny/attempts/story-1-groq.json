@@ -1,69 +1,68 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "beat 5 PriceList: name \"CD\" is not one of the case names",
-  "spoken words total 160, need 85-150 (aim for 115-135; pauses add about 15%)"
+  "beat 1 Hero: name \"CD\" is not one of the case names",
+  "beat 4 PriceList: name \"CD\" is not one of the case names",
+  "beat 7 Statement: name \"CD\" is not one of the case names",
+  "spoken words total 161, need 85-150 (aim for 115-135; pauses add about 15%)",
+  "beat 5 PriceList: repeats the phrase \"number of albums at regular\" from beat 3"
  ],
  "plan": {
-  "paradox": "Eight CDs for a penny. And you still pay later.",
-  "odd_fact": "Members who never declined still got the next CD billed.",
-  "twist": "It traps you with an automatic shipment unless you opt out.",
-  "cause": "The penny starter creates a contract; missing the opt-out window triggers auto-ship and charge.",
-  "everyday": "Gym: $1 trial then $30/month; Streaming app: free month then $12 auto-renew; Both use the same trap, making the paid plan seem normal.",
-  "rule": "Check the opt-out deadline; a tiny upfront cost may conceal larger fees."
+  "paradox": "A penny gets you a whole CD collection. And the bill arrives later.",
+  "odd_fact": "Members had to buy a minimum number of albums at regular club prices. Looks like a mistake.",
+  "twist": "But it does a job  -  the penny is a bait that triggers automatic shipments.",
+  "cause": "The \"minimum purchase\" option forces a recurring order; if you don't decline, the next CD ships and you're billed, turning the penny into a hidden subscription. Revenue hit $1.4 billion in 1996, then collapsed to $17 million by 2014.",
+  "everyday": "Gym offers a $1 sign-up for a trial class, a $30 monthly membership, and a $100 annual pass. The $1 trial is the decoy; most people choose the $30 plan because it seems cheap compared to $100. Coffee shop sells a $0.99 \"first cup\" coupon, a $4 regular coffee, and a $15 coffee-of-the-month club. The cheap coupon pushes the $4 option, which feels reasonable. Both use a tiny upfront cost to lock customers into recurring purchases.",
+  "rule": "If something costs a penny up front, check what recurring charge it hides. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "Eight CDs for a penny. And you still pay later."
+   "say": "A penny gets you a whole CD collection. And the bill arrives later."
   },
   {
    "scene": "PriceList",
-   "say": "Get the penny starter, then you owe a set number of albums at full price."
+   "say": "Eight CDs for a penny, but you must join the club."
   },
   {
    "scene": "PriceList",
-   "say": "Skip the penny, just buy albums when you want, no hidden commitment."
+   "say": "Buy a set number of albums at regular prices each month."
   },
   {
    "scene": "PriceList",
-   "say": "Pick the premium plan, pay more upfront, no surprise shipments."
+   "say": "Select a new CD whenever you like, and it ships automatically."
   },
   {
    "scene": "PriceList",
-   "say": "Members who never declined still got the next CD billed. Sounds generous."
+   "say": "Members had to buy a minimum number of albums at regular club prices. Looks like a mistake."
   },
   {
    "scene": "PriceList",
-   "say": "But it does a job: a negative-option trap."
+   "say": "But it does a job - the penny is a bait that triggers automatic shipments."
   },
   {
    "scene": "Statement",
-   "say": "The cheap penny option forces you into a contract."
-  },
-  {
-   "scene": "Anchor",
-   "say": "If you miss the decline window, the next selection auto-ships and charges you."
+   "say": "The minimum-purchase clause creates a recurring order; missing the decline deadline ships the next CD and charges you."
   },
   {
    "scene": "Views",
-   "say": "Revenue hit $1.4 billion in 1996, then fell to $17 million by 2014."
+   "say": "Revenue peaked at $1.4 billion in 1996, then fell to $17 million by 2014."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere - a gym offers a $1 trial, then requires a $30 monthly membership."
+   "say": "Gym: $1 sign-up trial, $30 monthly membership, $100 annual pass."
   },
   {
    "scene": "Compare",
-   "say": "A streaming app gives a free month, then auto-renews at $12 unless you cancel."
+   "say": "Coffee shop: $0.99 first cup, $4 regular coffee, $15 monthly coffee club."
   },
   {
    "scene": "Compare",
-   "say": "The pushed monthly plan feels reasonable because the initial free offer disappears."
+   "say": "The tiny upfront fee makes the middle option feel like a smart choice."
   },
   {
    "scene": "Outro",
-   "say": "Check the opt-out deadline; a tiny upfront cost may conceal larger fees. Follow for more."
+   "say": "If something costs a penny up front, check what recurring charge it hides. Follow for more."
   }
  ]
 }

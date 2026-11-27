@@ -1,16 +1,16 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "11 beats, need 12-15",
-  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
+  "number 5 is spoken in 3 beats (1, 7, 10) - max 2, the card already shows it"
  ],
  "plan": {
   "paradox": "A razor costs $5. And you keep paying forever.",
-  "odd_fact": "In year two Gillette sold 90,884 razors. Sounds huge.",
-  "twist": "It locks you into blade purchases",
-  "cause": "The handle is a one-time $5 buy, then blades are sold repeatedly  -  168 blades in year one alone",
-  "everyday": "Coffee shop: $30 espresso machine, $2 pods; Gym: $200 treadmill, $15 monthly class passes  -  the recurring option feels smarter",
-  "rule": "Watch the cheap entry that hides repeat costs"
+  "odd_fact": "First year: 51 razors, 168 blades. Sounds generous.",
+  "twist": "But it does a job: it locks you into blade buying.",
+  "cause": "The cheap $5 handle is sold once, while the blade option forces repeated purchases - 51 handles generated 168 blades, then 90,884 handles in year two fed an exploding blade market.",
+  "everyday": "Coffee shop: reusable cup $5, single-serve pods $3 each; Gym: starter bike $200, monthly class pass $20; Printer: basic printer $30, ink cartridge $30 each. The recurring or subscription option feels smart because the cheap entry is just a hook.",
+  "rule": "Watch the cheap entry and count the repeat costs. Follow for more."
  },
  "beats": [
   {
@@ -19,7 +19,7 @@
   },
   {
    "scene": "PriceList",
-   "say": "Buy the handle alone, no blades."
+   "say": "Buy the handle alone, no blades included."
   },
   {
    "scene": "PriceList",
@@ -27,35 +27,43 @@
   },
   {
    "scene": "PriceList",
-   "say": "Buy the handle and a subscription of blades."
+   "say": "Buy the razor plus a subscription of endless blades."
   },
   {
    "scene": "PriceList",
-   "say": "In year two Gillette sold 90,884 razors. Sounds huge."
+   "say": "First year: 51 razors, 168 blades. Sounds generous."
   },
   {
    "scene": "PriceList",
-   "say": "But it does a job: lock you into blade purchases."
+   "say": "But it does a job: it locks you into blade buying."
   },
   {
    "scene": "Statement",
-   "say": "The handle is a one-time $5 buy."
+   "say": "The handle is a one-time $5 purchase."
+  },
+  {
+   "scene": "Anchor",
+   "say": "Each blade costs extra, and the company sold 168 blades after just 51 handles."
   },
   {
    "scene": "Views",
-   "say": "Every razor sold forces you to buy the cheap, disposable blades - 168 blades in year one alone."
+   "say": "In year two, razor sales exploded to 90,884, feeding a huge blade market."
   },
   {
    "scene": "Compare",
-   "say": "A coffee shop sells a $30 espresso machine, then $2 pods."
+   "say": "You see it everywhere: a coffee shop sells a reusable cup for $5, but single-serve pods at $3 each."
   },
   {
    "scene": "Compare",
-   "say": "A gym offers a $200 treadmill, but $15 monthly class passes. The ongoing option feels smarter."
+   "say": "A gym offers a starter bike for $200, then a $20 monthly class pass."
+  },
+  {
+   "scene": "Compare",
+   "say": "Now the recurring option feels smart because the cheap entry is just a hook."
   },
   {
    "scene": "Outro",
-   "say": "Watch the cheap entry that hides repeat costs. Follow for more."
+   "say": "Watch the cheap entry and count the repeat costs. Follow for more."
   }
  ]
 }

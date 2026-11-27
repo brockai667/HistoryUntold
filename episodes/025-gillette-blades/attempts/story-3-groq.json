@@ -1,75 +1,68 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "beat 6 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means",
-  "spoken words total 154, need 85-150 (aim for 115-135; pauses add about 15%)",
-  "beat 4 PriceList: repeats the phrase \"buy a razor plus a\" from beat 3",
-  "number 5 is spoken in 3 beats (1, 9, 12) - max 2, the card already shows it"
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
  ],
  "plan": {
-  "paradox": "A razor sells for $5, yet you never stop paying",
-  "odd_fact": "Year one: 51 razors, 168 blades sold. Looks lopsided.",
-  "twist": "The razor is a loss leader; the real profit lives in blades",
-  "cause": "The razor hooks you, then the blade subscription fuels the revenue, as shown by 90,884 razors sold in year two needing blades",
-  "everyday": "Coffee shop: $2 mug, $0.30 coffee pods, $5 premium set  -  pods win; Gym: $30 starter kit, $5 per class, $100 annual pass  -  class pass wins; Both push the add-on as the smart choice",
-  "rule": "Watch the first purchase; the recurring add-on is where the money hides. Follow for more."
+  "paradox": "A $5 razor that never stops charging you",
+  "odd_fact": "First year sold 51 razors, 168 blades  -  looks odd",
+  "twist": "It forces repeat blade purchases",
+  "cause": "The cheap razor lures you, then blades become the recurring purchase, proven by 90,884 razors sold in year two",
+  "everyday": "Gym: $30 starter bike, $5 per ride; Coffee shop: $2 mug, $0.25 per refill; recurring cost feels cheap versus one-time fee",
+  "rule": "Watch for cheap entry that hides a subscription"
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A razor sells for $5, yet you never stop paying."
+   "say": "A $5 razor that never stops charging you."
   },
   {
    "scene": "PriceList",
-   "say": "Buy the razor alone, no blades included."
+   "say": "Buy the razor alone, no blades."
   },
   {
    "scene": "PriceList",
-   "say": "Buy a razor plus a few starter blades."
+   "say": "Buy razor plus a handful of blades."
   },
   {
    "scene": "PriceList",
-   "say": "Buy a razor plus a massive bundle of blades."
+   "say": "Buy razor, blades, and a premium case."
   },
   {
    "scene": "PriceList",
-   "say": "Buy just a single blade replacement."
+   "say": "First year sold 51 razors, 168 blades. Looks odd."
   },
   {
    "scene": "PriceList",
-   "say": "Year one: 51 razors, 168 blades sold. Looks lopsided."
-  },
-  {
-   "scene": "PriceList",
-   "say": "But the razor is a loss leader; the real profit lives in blades."
+   "say": "But it forces repeat blade purchases."
   },
   {
    "scene": "Statement",
-   "say": "In year two, sales jumped to 90,884 razors, all needing blades."
+   "say": "The cheap razor lures you, then you need blades."
   },
   {
    "scene": "Anchor",
-   "say": "Each blade costs extra, so the $5 handle becomes a gateway to endless purchases."
+   "say": "Year two, 90,884 razors sold - blades skyrocketed."
   },
   {
    "scene": "Views",
-   "say": "The razor hooks you, then the blade subscription fuels the revenue."
+   "say": "Each razor creates a lifelong blade demand."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere - a coffee shop sells a $2 mug, then $0.30 coffee pods."
+   "say": "Gym sells a $30 starter bike, then $5 per ride."
   },
   {
    "scene": "Compare",
-   "say": "A gym offers a $30 starter kit, then $5 per class pass."
+   "say": "Coffee shop offers a $2 mug, then $0.25 per refill."
   },
   {
    "scene": "Compare",
-   "say": "Because the starter kit is cheap, the add-on feels like the smart choice."
+   "say": "The recurring cost feels cheap compared to the one-time fee."
   },
   {
    "scene": "Outro",
-   "say": "Watch the first purchase; the recurring add-on is where the money hides. Follow for more."
+   "say": "Watch for a cheap entry that hides a subscription. Follow for more."
   }
  ]
 }

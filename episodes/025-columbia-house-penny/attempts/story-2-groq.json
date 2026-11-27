@@ -1,68 +1,64 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "spoken words total 159, need 85-150 (aim for 115-135; pauses add about 15%)"
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
  ],
  "plan": {
-  "paradox": "A penny gets you a whole music library. And you never see the bill.",
-  "odd_fact": "Members had to buy a minimum number of albums at regular club prices. Looks like a bonus.",
-  "twist": "But it does a job  -  the penny is a lock, not a discount.",
-  "cause": "The \"minimum purchase\" clause forces a recurring charge; if you don't decline, the next selection ships and you pay full price. Revenue hit $1.4 billion in 1996 then fell to $17 million by 2014.",
-  "everyday": "Gym membership: free week trial, then mandatory $30 class each month; coffee shop: free pastry, then automatic $12 refill subscription; streaming app: free movie, then $9.99 monthly bundle. The mandatory add-on makes the paid plan feel like a smart upgrade.",
-  "rule": "If something starts with a penny, check what you're locked into next. Follow for more."
+  "paradox": "A penny gets you a library. And it never stops.",
+  "odd_fact": "Revenue dropped from $1.4 billion in 1996 to $17 million in 2014.",
+  "twist": "the penny is a loss leader",
+  "cause": "the auto-ship clause forces recurring purchases, turning the cheap entry into a hidden bill",
+  "everyday": "Gym: $1 entry then $30/month; Streaming app: free month then $9.99/month; Both make the recurring option feel smarter",
+  "rule": "A tiny upfront cost can mask ongoing charges. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A penny gets you a whole music library. And you never see the bill."
+   "say": "A penny gets you a library. And it never stops."
   },
   {
    "scene": "PriceList",
-   "say": "Eight albums for a penny - the bait."
+   "say": "Choose eight albums for a penny, then you're a member."
   },
   {
    "scene": "PriceList",
-   "say": "Standard club plan - you pick albums at regular prices."
+   "say": "Pick a regular-price album each month, no deadline to decline."
   },
   {
    "scene": "PriceList",
-   "say": "Premium upgrade - more titles, no extra fee."
+   "say": "Let the next selection auto-ship unless you cancel in time."
   },
   {
    "scene": "PriceList",
-   "say": "Members had to buy a minimum number of albums at regular club prices. Looks like a bonus."
+   "say": "Revenue dropped from $1.4 billion in 1996 to $17 million in 2014. Sounds generous."
   },
   {
    "scene": "PriceList",
-   "say": "But it does a job - the penny is a lock, not a discount."
+   "say": "But it does a job: the penny is a loss leader."
   },
   {
    "scene": "Statement",
-   "say": "The minimum-purchase clause creates a recurring obligation."
-  },
-  {
-   "scene": "Anchor",
-   "say": "If you don't decline in time, the next selection ships and you pay full price."
+   "say": "The auto-ship clause forces purchases each cycle, turning the penny into a hidden bill."
   },
   {
    "scene": "Views",
-   "say": "Revenue peaked at $1.4 billion in 1996, then crashed to $17 million by 2014."
+   "say": "Peak revenue hit $1.4 billion in 1996, then collapsed."
   },
   {
    "scene": "Compare",
-   "say": "Gym membership: free week trial, then mandatory $30 class each month."
+   "say": "You see it everywhere. A gym offers a $1 entry, then a $30 monthly fee."
   },
   {
    "scene": "Compare",
-   "say": "Coffee shop: free pastry, then automatic $12 refill subscription."
+   "say": "A streaming app gives a free month, then $9.99 unless you cancel."
   },
   {
    "scene": "Compare",
-   "say": "Streaming app: free movie, then $9.99 monthly bundle - the add-on makes the paid plan feel smart."
+   "say": "Because the cheap entry forces recurring payments, the pricier plan feels like the smart choice."
   },
   {
    "scene": "Outro",
-   "say": "If something starts with a penny, check what you're locked into next. Follow for more."
+   "say": "A tiny upfront cost can mask ongoing charges. Follow for more."
   }
  ]
 }
