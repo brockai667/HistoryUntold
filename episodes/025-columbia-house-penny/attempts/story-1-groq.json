@@ -1,68 +1,61 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "beat 1 Hero: name \"CD\" is not one of the case names",
-  "beat 4 PriceList: name \"CD\" is not one of the case names",
-  "beat 7 Statement: name \"CD\" is not one of the case names",
-  "spoken words total 161, need 85-150 (aim for 115-135; pauses add about 15%)",
-  "beat 5 PriceList: repeats the phrase \"number of albums at regular\" from beat 3"
+  "11 beats, need 12-15",
+  "beat 7 Statement: name \"CD\" is not one of the case names"
  ],
  "plan": {
-  "paradox": "A penny gets you a whole CD collection. And the bill arrives later.",
-  "odd_fact": "Members had to buy a minimum number of albums at regular club prices. Looks like a mistake.",
-  "twist": "But it does a job  -  the penny is a bait that triggers automatic shipments.",
-  "cause": "The \"minimum purchase\" option forces a recurring order; if you don't decline, the next CD ships and you're billed, turning the penny into a hidden subscription. Revenue hit $1.4 billion in 1996, then collapsed to $17 million by 2014.",
-  "everyday": "Gym offers a $1 sign-up for a trial class, a $30 monthly membership, and a $100 annual pass. The $1 trial is the decoy; most people choose the $30 plan because it seems cheap compared to $100. Coffee shop sells a $0.99 \"first cup\" coupon, a $4 regular coffee, and a $15 coffee-of-the-month club. The cheap coupon pushes the $4 option, which feels reasonable. Both use a tiny upfront cost to lock customers into recurring purchases.",
-  "rule": "If something costs a penny up front, check what recurring charge it hides. Follow for more."
+  "paradox": "A penny buys a whole music library. The bill follows later.",
+  "odd_fact": "No deadline shown. Looks like a mistake.",
+  "twist": "But it does a job: a negative-option trap",
+  "cause": "The auto-ship clause triggers; you forget the penny once the next CD arrives",
+  "everyday": "A bakery sells a $1 loaf, then adds a $0.99 auto-renew pastry. The auto-renew looks cheap, so you accept it",
+  "rule": "If a tiny upfront fee hides an automatic charge, skip it. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A penny gets you a whole CD collection. And the bill arrives later."
+   "say": "A penny buys a whole music library. The bill follows later."
   },
   {
    "scene": "PriceList",
-   "say": "Eight CDs for a penny, but you must join the club."
+   "say": "Eight CDs for a penny, but you must keep ordering."
   },
   {
    "scene": "PriceList",
-   "say": "Buy a set number of albums at regular prices each month."
+   "say": "Buy a set number of albums at regular prices."
   },
   {
    "scene": "PriceList",
-   "say": "Select a new CD whenever you like, and it ships automatically."
+   "say": "If you don't decline, the next selection ships automatically."
   },
   {
    "scene": "PriceList",
-   "say": "Members had to buy a minimum number of albums at regular club prices. Looks like a mistake."
+   "say": "No deadline shown. Looks like a mistake."
   },
   {
    "scene": "PriceList",
-   "say": "But it does a job - the penny is a bait that triggers automatic shipments."
+   "say": "But it does a job: a negative-option trap."
   },
   {
    "scene": "Statement",
-   "say": "The minimum-purchase clause creates a recurring order; missing the decline deadline ships the next CD and charges you."
+   "say": "The auto-ship clause triggers; you forget the penny once the next CD arrives."
   },
   {
    "scene": "Views",
-   "say": "Revenue peaked at $1.4 billion in 1996, then fell to $17 million by 2014."
+   "say": "Revenue peaked at $1.4 billion in 1996 and fell to $17 million by 2014."
   },
   {
    "scene": "Compare",
-   "say": "Gym: $1 sign-up trial, $30 monthly membership, $100 annual pass."
+   "say": "A bakery sells a $1 loaf, then adds a $0.99 auto-renew pastry."
   },
   {
    "scene": "Compare",
-   "say": "Coffee shop: $0.99 first cup, $4 regular coffee, $15 monthly coffee club."
-  },
-  {
-   "scene": "Compare",
-   "say": "The tiny upfront fee makes the middle option feel like a smart choice."
+   "say": "The auto-renew looks cheap, so you accept it."
   },
   {
    "scene": "Outro",
-   "say": "If something costs a penny up front, check what recurring charge it hides. Follow for more."
+   "say": "If a tiny upfront fee hides an automatic charge, skip it. Follow for more."
   }
  ]
 }

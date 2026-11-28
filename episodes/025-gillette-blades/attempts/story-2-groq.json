@@ -1,65 +1,68 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "beats 10,11 Compare: say has 27 words (need 3-20)",
-  "beat 4 PriceList: repeats the phrase \"buy the razor with a\" from beat 3"
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
  ],
  "plan": {
-  "paradox": "A $5 razor that never stops charging you",
-  "odd_fact": "First-year sales look tiny",
-  "twist": "It forces you to keep buying blades",
-  "cause": "The cheap razor hooks you, then the blade bundle drives recurring revenue",
-  "everyday": "Coffee shop: $3 cup, $3 refill pack, $3 unlimited brew subscription  -  the subscription feels like a smart deal; Gym: $20 membership, $20 membership + one towel, $20 membership + monthly protein shake pack for $25  -  the recurring pack wins",
-  "rule": "Check the first purchase; the real profit hides in the consumables. Follow for more."
+  "paradox": "A $5 razor that never stops costing you.",
+  "odd_fact": "First year sales: 51 razors, 168 blades  -  looks like a mistake.",
+  "twist": "But it does a job  -  it forces you to keep buying blades.",
+  "cause": "The cheap razor is the entry point; the separate blade option creates recurring revenue, shown by the blade-to-razor ratio.",
+  "everyday": "Gym membership: basic access only, premium with unlimited classes, elite with personal trainer. The premium costs a bit more but locks you into monthly fees. Café: single coffee, coffee + pastry, coffee + refill card. The refill card is pricier upfront but guarantees repeat purchases. Both push the middle option because it feels like a small upgrade that locks future spending.",
+  "rule": "Watch for a cheap entry product that hides a repeat-purchase hook. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A $5 razor that never stops charging you."
+   "say": "A $5 razor that never stops costing you."
   },
   {
    "scene": "PriceList",
-   "say": "Buy the razor alone, no blades included."
+   "say": "Buy just the handle, no blades."
   },
   {
    "scene": "PriceList",
-   "say": "Buy the razor with a few starter blades."
+   "say": "Buy handle plus a handful of blades."
   },
   {
    "scene": "PriceList",
-   "say": "Buy the razor with a full year's supply of blades."
+   "say": "Buy handle with a blade subscription plan."
   },
   {
    "scene": "PriceList",
-   "say": "First-year sales look tiny. Looks like a mistake."
+   "say": "First year sales: 51 razors, 168 blades - looks like a mistake."
   },
   {
    "scene": "PriceList",
-   "say": "But it forces you to keep buying blades."
+   "say": "But it does a job - it forces you to keep buying blades."
   },
   {
    "scene": "Statement",
-   "say": "The razor itself is a one-time $5 purchase."
+   "say": "The handle costs $5 once, then the real money comes later."
   },
   {
    "scene": "Anchor",
-   "say": "All the real money comes from the blades you must replace."
+   "say": "Blades are sold separately, so each shave adds a cost."
   },
   {
    "scene": "Views",
-   "say": "In the second year Gillette sold 90,884 razors, creating millions of blade customers."
+   "say": "In year one the blade count dwarfed the razor count, proving the model works."
   },
   {
    "scene": "Compare",
-   "say": "You see it at coffee shops: a $3 cup, a $3 refill pack, and a $3 unlimited brew subscription - the subscription feels like a smart deal."
+   "say": "Gym: basic entry, premium with unlimited classes, elite with trainer."
   },
   {
    "scene": "Compare",
-   "say": "You see it at gyms: $20 membership, $20 membership plus one towel, $20 membership plus a monthly protein shake pack for $25 - the recurring pack wins."
+   "say": "Café: single coffee, coffee + pastry, coffee + refill card."
+  },
+  {
+   "scene": "Compare",
+   "say": "The middle option feels like a smart upgrade, locking future spend."
   },
   {
    "scene": "Outro",
-   "say": "Check the first purchase; the real profit hides in the consumables. Follow for more."
+   "say": "Watch for a cheap entry product that hides a repeat-purchase hook. Follow for more."
   }
  ]
 }

@@ -1,64 +1,68 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
+  "spoken words total 175, need 85-150 (aim for 115-135; pauses add about 15%)"
  ],
  "plan": {
-  "paradox": "A penny gets you a library. And it never stops.",
-  "odd_fact": "Revenue dropped from $1.4 billion in 1996 to $17 million in 2014.",
-  "twist": "the penny is a loss leader",
-  "cause": "the auto-ship clause forces recurring purchases, turning the cheap entry into a hidden bill",
-  "everyday": "Gym: $1 entry then $30/month; Streaming app: free month then $9.99/month; Both make the recurring option feel smarter",
-  "rule": "A tiny upfront cost can mask ongoing charges. Follow for more."
+  "paradox": "A penny gets you a whole music library. And you never see the bill.",
+  "odd_fact": "Members had to buy a minimum number of albums at regular club prices. Sounds generous.",
+  "twist": "But it does a job: a negative-option trap.",
+  "cause": "The auto-ship clause forces a purchase once the deadline passes, turning the penny into a hidden charge.",
+  "everyday": "Bakery  -  free loaf for $0.99, then mandatory pastry purchase; Gym  -  $1 trial, then monthly plan unless cancelled; Both push the forced-purchase option as the smart choice because the free item disappears.",
+  "rule": "Watch the fine print for hidden obligations. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A penny gets you a library. And it never stops."
+   "say": "A penny gets you a whole music library. And you never see the bill."
   },
   {
    "scene": "PriceList",
-   "say": "Choose eight albums for a penny, then you're a member."
+   "say": "Choose eight CDs for a penny - the bait."
   },
   {
    "scene": "PriceList",
-   "say": "Pick a regular-price album each month, no deadline to decline."
+   "say": "Pick a regular club plan - pay normal price per album."
   },
   {
    "scene": "PriceList",
-   "say": "Let the next selection auto-ship unless you cancel in time."
+   "say": "Select the auto-ship option - you'll get the next pick unless you opt out."
   },
   {
    "scene": "PriceList",
-   "say": "Revenue dropped from $1.4 billion in 1996 to $17 million in 2014. Sounds generous."
+   "say": "Members had to buy a minimum number of albums at regular club prices. Sounds generous."
   },
   {
    "scene": "PriceList",
-   "say": "But it does a job: the penny is a loss leader."
+   "say": "But it does a job: a negative-option trap."
   },
   {
    "scene": "Statement",
-   "say": "The auto-ship clause forces purchases each cycle, turning the penny into a hidden bill."
+   "say": "The auto-ship clause forces a purchase once the deadline passes, turning the penny into a hidden charge."
+  },
+  {
+   "scene": "Anchor",
+   "say": "Revenue hit $1.4 billion in 1996, proving the model worked at scale."
   },
   {
    "scene": "Views",
-   "say": "Peak revenue hit $1.4 billion in 1996, then collapsed."
+   "say": "By 2014 revenue fell to $17 million, and the parent filed for bankruptcy in August 2015."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere. A gym offers a $1 entry, then a $30 monthly fee."
+   "say": "You see it everywhere: a bakery offers a free loaf for $0.99, then adds a mandatory pastry purchase."
   },
   {
    "scene": "Compare",
-   "say": "A streaming app gives a free month, then $9.99 unless you cancel."
+   "say": "A gym sells a $1 trial membership, then enrolls you in a monthly plan unless you cancel."
   },
   {
    "scene": "Compare",
-   "say": "Because the cheap entry forces recurring payments, the pricier plan feels like the smart choice."
+   "say": "The forced-purchase option now looks like the smart choice because the free item disappears."
   },
   {
    "scene": "Outro",
-   "say": "A tiny upfront cost can mask ongoing charges. Follow for more."
+   "say": "Watch the fine print for hidden obligations. Follow for more."
   }
  ]
 }

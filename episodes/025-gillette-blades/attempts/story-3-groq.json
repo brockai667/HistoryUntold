@@ -4,65 +4,65 @@
   "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
  ],
  "plan": {
-  "paradox": "A $5 razor that never stops charging you",
-  "odd_fact": "First year sold 51 razors, 168 blades  -  looks odd",
-  "twist": "It forces repeat blade purchases",
-  "cause": "The cheap razor lures you, then blades become the recurring purchase, proven by 90,884 razors sold in year two",
-  "everyday": "Gym: $30 starter bike, $5 per ride; Coffee shop: $2 mug, $0.25 per refill; recurring cost feels cheap versus one-time fee",
-  "rule": "Watch for cheap entry that hides a subscription"
+  "paradox": "A $5 razor promises a one-time shave. And you keep paying.",
+  "odd_fact": "First year: 51 razors, 168 blades sold  -  looks like a mistake.",
+  "twist": "But it does a job: it creates a blade subscription.",
+  "cause": "The cheap razor is the hook; each razor forces repeat blade purchases, driving revenue (90,884 razors sold year two, blades keep flowing).",
+  "everyday": "Gym: basic pass $30, class pack $45, unlimited training $70  -  the unlimited option feels smart because it bundles everything for a slightly higher price.",
+  "rule": "Spot the cheap entry that hides a repeat-cost trap. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A $5 razor that never stops charging you."
+   "say": "A $5 razor promises a one-time shave. And you keep paying."
   },
   {
    "scene": "PriceList",
-   "say": "Buy the razor alone, no blades."
+   "say": "Buy the razor alone, no blades included."
   },
   {
    "scene": "PriceList",
-   "say": "Buy razor plus a handful of blades."
+   "say": "Buy the razor with a starter pack of blades."
   },
   {
    "scene": "PriceList",
-   "say": "Buy razor, blades, and a premium case."
+   "say": "Buy the razor plus a refill bundle you can actually use."
   },
   {
    "scene": "PriceList",
-   "say": "First year sold 51 razors, 168 blades. Looks odd."
+   "say": "First year: 51 razors, 168 blades sold. Looks like a mistake."
   },
   {
    "scene": "PriceList",
-   "say": "But it forces repeat blade purchases."
+   "say": "But it does a job: it creates a blade subscription."
   },
   {
    "scene": "Statement",
-   "say": "The cheap razor lures you, then you need blades."
+   "say": "The cheap razor is the hook; it gets you in the door."
   },
   {
    "scene": "Anchor",
-   "say": "Year two, 90,884 razors sold - blades skyrocketed."
+   "say": "In year two Gillette sold 90,884 razors, while blades kept flowing."
   },
   {
    "scene": "Views",
-   "say": "Each razor creates a lifelong blade demand."
+   "say": "Each razor forces a repeat purchase of blades, the real profit driver."
   },
   {
    "scene": "Compare",
-   "say": "Gym sells a $30 starter bike, then $5 per ride."
+   "say": "A local gym offers a basic pass for $30 a month."
   },
   {
    "scene": "Compare",
-   "say": "Coffee shop offers a $2 mug, then $0.25 per refill."
+   "say": "A class pack for $45 a month, same access plus weekly classes."
   },
   {
    "scene": "Compare",
-   "say": "The recurring cost feels cheap compared to the one-time fee."
+   "say": "An unlimited personal-training plan for $70 a month, which feels like the smart choice because you get everything and more."
   },
   {
    "scene": "Outro",
-   "say": "Watch for a cheap entry that hides a subscription. Follow for more."
+   "say": "Spot the cheap entry that hides a repeat-cost trap. Follow for more."
   }
  ]
 }

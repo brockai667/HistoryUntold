@@ -1,65 +1,61 @@
 {
  "model": "groq:openai/gpt-oss-120b",
  "errors": [
-  "spoken words total 174, need 85-150 (aim for 115-135; pauses add about 15%)",
-  "beat 5 PriceList: repeats the phrase \"number of albums at regular\" from beat 3"
+  "11 beats, need 12-15",
+  "beat 5 PriceList: no numbers or prices in PriceList beats - the cards show them; say what the option means"
  ],
  "plan": {
-  "paradox": "A penny gets you a whole music library. And you never see the bill.",
-  "odd_fact": "Members had to buy a minimum number of albums at regular club prices. Looks like a trap.",
-  "twist": "But it does a job  -  a negative-option subscription.",
-  "cause": "The \"auto-ship\" option forces a shipment unless you actively decline; the penny is just the hook. Revenue peaked at $1.4 billion in 1996 then fell to $17 million by 2014, showing the model's profit before the hidden fees vanished.",
-  "everyday": "Gym: free 1-day trial, then required $30 weekly class pass; Café: free coffee card, then automatic $5 refill each week; Streaming app: free month, then $9.99 monthly auto-renew unless cancelled  -  the auto-renew is the cheap-looking push that ends up costing you.",
-  "rule": "If something starts with a tiny upfront cost, check what keeps coming after. Follow for more."
+  "paradox": "A penny signs you up for a music library. The bill follows later.",
+  "odd_fact": "Revenue peaked at $1.4 billion in 1996, fell to $17 million in 2014. Odd.",
+  "twist": "It does a job: a negative-option trap.",
+  "cause": "The auto-ship clause forces a purchase unless you opt out, so most members keep paying.",
+  "everyday": "Coffee club offers free mug for $1, then $15 monthly unless you cancel  -  the cheap starter hides a recurring fee.",
+  "rule": "A tiny upfront cost can hide a big bill. Follow for more."
  },
  "beats": [
   {
    "scene": "Hero",
-   "say": "A penny gets you a whole music library. And you never see the bill."
+   "say": "A penny signs you up for a music library. The bill follows later."
   },
   {
    "scene": "PriceList",
-   "say": "Eight CDs for a penny, no commitment listed."
+   "say": "Eight CDs for a penny."
   },
   {
    "scene": "PriceList",
-   "say": "Buy a set number of albums at regular prices later."
+   "say": "Then you must buy a minimum number of albums at regular prices."
   },
   {
    "scene": "PriceList",
-   "say": "If you don't decline, the next selection ships automatically."
+   "say": "If you miss the deadline, the next selection ships automatically."
   },
   {
    "scene": "PriceList",
-   "say": "Members had to buy a minimum number of albums at regular club prices. Looks like a trap."
+   "say": "Revenue peaked at $1.4 billion in 1996, fell to $17 million in 2014. Odd."
   },
   {
    "scene": "PriceList",
-   "say": "But it does a job - a negative-option subscription."
+   "say": "But it does a job: a negative-option trap."
   },
   {
    "scene": "Statement",
-   "say": "The auto-ship clause forces a shipment unless you actively opt out, turning a penny into a recurring bill."
+   "say": "The auto-ship clause forces a purchase unless you opt out."
   },
   {
    "scene": "Anchor",
-   "say": "Revenue hit $1.4 billion in 1996, then collapsed to $17 million by 2014 as the hidden fees disappeared."
+   "say": "Most members never opt out, so the club keeps billing."
+  },
+  {
+   "scene": "Views",
+   "say": "That flow kept revenue high until a 2015 bankruptcy filing."
   },
   {
    "scene": "Compare",
-   "say": "You see it everywhere. A gym offers a free trial, then a $30 weekly class pass you must keep."
-  },
-  {
-   "scene": "Compare",
-   "say": "A café gives a free coffee card, then charges $5 every week unless you cancel."
-  },
-  {
-   "scene": "Compare",
-   "say": "A streaming app gives a free month, then auto-renews at $9.99 unless you opt out, making the cheap start feel smart."
+   "say": "A coffee club gives a free mug for $1, then $15 monthly unless you cancel."
   },
   {
    "scene": "Outro",
-   "say": "If something starts with a tiny upfront cost, check what keeps coming after. Follow for more."
+   "say": "A tiny upfront cost can hide a big bill. Follow for more."
   }
  ]
 }
